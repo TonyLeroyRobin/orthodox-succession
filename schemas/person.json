@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orthodox-succession.org/schemas/person.json",
+  "title": "Person",
+  "type": "object",
+  "properties": {
+    "id": { "$ref": "defs.json#/$defs/personId" },
+    "names": {
+      "type": "object",
+      "properties": {
+        "monastic": { "type": "string", "description": "the name the bishop is known by" },
+        "family": { "type": "string", "description": "conventional disambiguator: Bartholomew (Archontonis)" },
+        "baptismal": { "type": "string", "description": "pre-monastic name, if known" },
+        "native": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "script": { "type": "string", "description": "ISO 639 / script hint, e.g. grc, el, ru, ka, ar" },
+              "value": { "type": "string" }
+            },
+            "required": ["script", "value"],
+            "additionalProperties": false
+          }
+        },
+        "variants": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "transliterations found in sources"
+        }
+      },
+      "required": ["monastic"],
+      "additionalProperties": false
+    },
+    "born": {
+      "type": "object",
+      "properties": {
+        "date": { "$ref": "defs.json#/$defs/date" },
+        "place": { "$ref": "defs.json#/$defs/place" }
+      },
+      "additionalProperties": false
+    },
+    "died": {
+      "type": "object",
+      "properties": {
+        "date": { "$ref": "defs.json#/$defs/date" },
+        "place": { "$ref": "defs.json#/$defs/place" }
+      },
+      "additionalProperties": false
+    },
+    "attestation": { "enum": ["attested", "legendary", "uncertain"] },
+    "identifiers": {
+      "type": "object",
+      "properties": {
+        "wikidata": { "type": "string", "pattern": "^Q[0-9]+$" },
+        "viaf": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "sources": { "$ref": "defs.json#/$defs/sources" },
+    "status": { "$ref": "defs.json#/$defs/status" },
+    "notes": { "type": "string" }
+  },
+  "required": ["id", "names", "attestation", "sources", "status"],
+  "additionalProperties": false
+}

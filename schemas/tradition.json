@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orthodox-succession.org/schemas/tradition.json",
+  "title": "Tradition",
+  "description": "Auxiliary record for apostolic claims without a surviving Chalcedonian lineage. Explicitly non-succession data — never rendered as part of a succession chain.",
+  "type": "object",
+  "properties": {
+    "id": { "$ref": "defs.json#/$defs/traditionId" },
+    "title": { "type": "string" },
+    "claim": { "type": "string" },
+    "region": { "type": "string" },
+    "persons": {
+      "type": "array",
+      "items": { "$ref": "defs.json#/$defs/personId" }
+    },
+    "sources": { "$ref": "defs.json#/$defs/sources" },
+    "status": { "$ref": "defs.json#/$defs/status" },
+    "notes": { "type": "string" }
+  },
+  "required": ["id", "title", "claim", "region", "sources", "status"],
+  "additionalProperties": false
+}

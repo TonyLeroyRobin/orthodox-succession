@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orthodox-succession.org/schemas/work.json",
+  "title": "Work",
+  "description": "One Work, many Editions — never a second Work record for a translation or reprint. author is a person id when the author is in the database; author_display is a free-text fallback for external authors of works ABOUT a bishop.",
+  "type": "object",
+  "properties": {
+    "id": { "$ref": "defs.json#/$defs/workId" },
+    "title": { "type": "string" },
+    "author": { "$ref": "defs.json#/$defs/personId" },
+    "author_display": { "type": "string" },
+    "subject_of": {
+      "type": "array",
+      "items": { "$ref": "defs.json#/$defs/personId" },
+      "description": "for works ABOUT a bishop"
+    },
+    "relation": { "enum": ["by", "about", "involving"] },
+    "language": { "type": "string" },
+    "date": { "$ref": "defs.json#/$defs/date" },
+    "attribution": { "enum": ["authentic", "disputed", "spurious"] },
+    "cpg": { "type": "string", "description": "Clavis Patrum Graecorum number, e.g. \"CPG 3745\"" },
+    "genre": {
+      "enum": ["homily", "letter", "treatise", "canon", "encyclical", "liturgical", "hagiography", "biography", "acts", "study"]
+    },
+    "editions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": { "enum": ["original", "translation"] },
+          "language": { "type": "string" },
+          "translator": { "type": "string" },
+          "series": { "type": "string" },
+          "year": { "type": "integer" },
+          "locator": { "type": "string", "description": "e.g. \"PG 48:623–692\"" },
+          "url": { "type": "string" },
+          "rights": { "enum": ["public-domain", "in-copyright"] },
+          "notes": { "type": "string" }
+        },
+        "required": ["type", "language", "rights"],
+        "additionalProperties": false
+      }
+    },
+    "sources": { "$ref": "defs.json#/$defs/sources" },
+    "status": { "$ref": "defs.json#/$defs/status" },
+    "notes": { "type": "string" }
+  },
+  "required": ["id", "title", "relation", "attribution", "genre", "sources", "status"],
+  "anyOf": [
+    { "required": ["author"] },
+    { "required": ["author_display"] }
+  ],
+  "additionalProperties": false
+}

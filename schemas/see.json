@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orthodox-succession.org/schemas/see.json",
+  "title": "See",
+  "type": "object",
+  "properties": {
+    "id": { "$ref": "defs.json#/$defs/seeId" },
+    "name": { "type": "string" },
+    "jurisdiction_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "jurisdiction": { "$ref": "defs.json#/$defs/jurisdictionId" },
+          "from": { "$ref": "defs.json#/$defs/date" },
+          "to": { "$ref": "defs.json#/$defs/date" }
+        },
+        "required": ["jurisdiction", "from"],
+        "additionalProperties": false
+      }
+    },
+    "rank_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "rank": { "enum": ["bishopric", "archbishopric", "metropolis", "patriarchate"] },
+          "from": { "$ref": "defs.json#/$defs/date" },
+          "to": { "$ref": "defs.json#/$defs/date" }
+        },
+        "required": ["rank", "from"],
+        "additionalProperties": false
+      }
+    },
+    "founded": {
+      "type": "object",
+      "properties": {
+        "date": { "$ref": "defs.json#/$defs/date" },
+        "founded_from": { "$ref": "defs.json#/$defs/seeId" }
+      },
+      "additionalProperties": false
+    },
+    "suppressed": {
+      "type": "object",
+      "properties": {
+        "date": { "$ref": "defs.json#/$defs/date" }
+      },
+      "additionalProperties": false
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "lat": { "type": "number", "minimum": -90, "maximum": 90 },
+        "lon": { "type": "number", "minimum": -180, "maximum": 180 },
+        "modern_place": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "apostolic_founder": {
+      "type": "object",
+      "properties": {
+        "person": { "$ref": "defs.json#/$defs/personId" },
+        "sources": { "$ref": "defs.json#/$defs/sources" }
+      },
+      "additionalProperties": false
+    },
+    "sources": { "$ref": "defs.json#/$defs/sources" },
+    "status": { "$ref": "defs.json#/$defs/status" },
+    "notes": { "type": "string" }
+  },
+  "required": ["id", "name", "sources", "status"],
+  "additionalProperties": false
+}

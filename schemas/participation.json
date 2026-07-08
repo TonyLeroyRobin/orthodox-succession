@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orthodox-succession.org/schemas/participation.json",
+  "title": "Participation",
+  "description": "person ↔ council link. Council subscription lists are primary evidence: a signed participation with a primary source simultaneously supports the person, the see, and the tenure date.",
+  "type": "object",
+  "properties": {
+    "id": { "$ref": "defs.json#/$defs/participationId" },
+    "person": { "$ref": "defs.json#/$defs/personId" },
+    "event": { "$ref": "defs.json#/$defs/eventId" },
+    "role": { "enum": ["presided", "signed", "attended", "legate", "condemned", "deposed-by", "posthumously-condemned"] },
+    "sources": { "$ref": "defs.json#/$defs/sources" },
+    "status": { "$ref": "defs.json#/$defs/status" },
+    "notes": { "type": "string" }
+  },
+  "required": ["id", "person", "event", "role", "sources", "status"],
+  "additionalProperties": false
+}

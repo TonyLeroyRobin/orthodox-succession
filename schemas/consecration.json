@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orthodox-succession.org/schemas/consecration.json",
+  "title": "Consecration",
+  "description": "Who laid hands on whom — the consecration-succession model. Principal and co-consecrator are distinct edge types in every export. Absent consecration data is stated, not inferred.",
+  "type": "object",
+  "properties": {
+    "id": { "$ref": "defs.json#/$defs/consecrationId" },
+    "consecrated": { "$ref": "defs.json#/$defs/personId" },
+    "date": { "$ref": "defs.json#/$defs/date" },
+    "place": { "$ref": "defs.json#/$defs/place" },
+    "principal_consecrator": { "$ref": "defs.json#/$defs/personId" },
+    "co_consecrators": {
+      "type": "array",
+      "items": { "$ref": "defs.json#/$defs/personId" }
+    },
+    "sources": { "$ref": "defs.json#/$defs/sources" },
+    "status": { "$ref": "defs.json#/$defs/status" },
+    "notes": { "type": "string" }
+  },
+  "required": ["id", "consecrated", "date", "sources", "status"],
+  "additionalProperties": false
+}

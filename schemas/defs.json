@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orthodox-succession.org/schemas/defs.json",
+  "title": "Shared definitions",
+  "$defs": {
+    "date": {
+      "type": "object",
+      "description": "Every date is an object, never a bare string. Anno Mundi dates are stored converted, with the original in note.",
+      "properties": {
+        "value": {
+          "type": "string",
+          "pattern": "^-?[0-9]{4}(-[0-9]{2})?(-[0-9]{2})?$",
+          "description": "ISO-8601, as precise as known (YYYY, YYYY-MM, or YYYY-MM-DD)"
+        },
+        "calendar": { "enum": ["julian", "gregorian", "anno-mundi"] },
+        "precision": { "enum": ["day", "month", "year", "decade", "century", "circa", "disputed"] },
+        "note": { "type": "string" }
+      },
+      "required": ["value", "calendar", "precision"],
+      "additionalProperties": false
+    },
+    "dateRange": {
+      "type": "object",
+      "properties": {
+        "from": { "$ref": "defs.json#/$defs/date" },
+        "to": { "$ref": "defs.json#/$defs/date" }
+      },
+      "required": ["from"],
+      "additionalProperties": false
+    },
+    "citation": {
+      "type": "object",
+      "description": "A graded citation. The 'database' grade is reserved for programmatic imports (Wikidata/VIAF) and never counts toward verification.",
+      "properties": {
+        "ref": { "$ref": "defs.json#/$defs/sourceId" },
+        "locator": { "type": "string", "description": "page, column, PG vol:col, URL fragment, etc." },
+        "reliability": { "enum": ["primary", "official-list", "scholarly", "tradition", "database"] },
+        "note": { "type": "string" },
+        "archived_url": { "type": "string", "description": "archive.org snapshot; mandatory for any web source (enforced by validate.py)" }
+      },
+      "required": ["ref", "reliability"],
+      "additionalProperties": false
+    },
+    "sources": {
+      "type": "array",
+      "items": { "$ref": "defs.json#/$defs/citation" },
+      "minItems": 1
+    },
+    "status": {
+      "enum": ["unverified", "verified", "disputed"],
+      "description": "Programmatic imports enter as unverified and stay that way until a human confirms them against a graded source."
+    },
+    "recognition": {
+      "type": "array",
+      "description": "Per-recognizer recognition entries. Disputes are recorded, never adjudicated.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "by": {
+            "type": "string",
+            "pattern": "^(all|jurisdiction/[a-z0-9-]+)$",
+            "description": "a jurisdiction id, or \"all\""
+          },
+          "status": { "enum": ["recognized", "disputed", "rival-claimant", "not-recognized"] },
+          "since": { "$ref": "defs.json#/$defs/date" },
+          "note": { "type": "string" }
+        },
+        "required": ["by", "status"],
+        "additionalProperties": false
+      }
+    },
+    "personId": { "type": "string", "pattern": "^person/[a-z0-9-]+/[a-z0-9-]+$" },
+    "seeId": { "type": "string", "pattern": "^see/[a-z0-9-]+/[a-z0-9-]+$" },
+    "tenureId": { "type": "string", "pattern": "^tenure/[a-z0-9-]+/[a-z0-9-]+@[a-z0-9-]+$" },
+    "consecrationId": { "type": "string", "pattern": "^consecration/[a-z0-9-]+/[a-z0-9-]+$" },
+    "jurisdictionId": { "type": "string", "pattern": "^jurisdiction/[a-z0-9-]+$" },
+    "eventId": { "type": "string", "pattern": "^event/(council|context)/[a-z0-9-]+$" },
+    "workId": { "type": "string", "pattern": "^work/[a-z0-9-]+$" },
+    "sourceId": { "type": "string", "pattern": "^source/[a-z0-9-]+$" },
+    "traditionId": { "type": "string", "pattern": "^tradition/[a-z0-9-]+$" },
+    "participationId": { "type": "string", "pattern": "^participation/[a-z0-9-]+--[a-z0-9-]+$" },
+    "place": {
+      "type": "string",
+      "description": "Free-text place name, modern name preferred with historical name in parentheses where helpful."
+    }
+  }
+}

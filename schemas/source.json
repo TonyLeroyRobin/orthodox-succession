@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orthodox-succession.org/schemas/source.json",
+  "title": "Source",
+  "description": "A bibliography entry. Citations elsewhere point at these via ref: source/<slug>.",
+  "type": "object",
+  "properties": {
+    "id": { "$ref": "defs.json#/$defs/sourceId" },
+    "type": { "enum": ["book", "article", "web", "manuscript", "database"] },
+    "title": { "type": "string" },
+    "author": { "type": "string" },
+    "year": { "type": "integer" },
+    "series": { "type": "string" },
+    "url": { "type": "string" },
+    "archived_url": {
+      "type": "string",
+      "description": "archive.org snapshot — mandatory for type: web (enforced by validate.py)"
+    },
+    "worldcat": { "type": "string" },
+    "status": { "$ref": "defs.json#/$defs/status" },
+    "notes": { "type": "string" }
+  },
+  "required": ["id", "type", "title", "status"],
+  "additionalProperties": false
+}

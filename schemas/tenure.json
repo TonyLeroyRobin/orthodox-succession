@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orthodox-succession.org/schemas/tenure.json",
+  "title": "Tenure",
+  "description": "Ordered occupancy of a throne — the see-succession model. Overlapping tenures on one see are legal only when at least one carries a non-universal recognition entry.",
+  "type": "object",
+  "properties": {
+    "id": { "$ref": "defs.json#/$defs/tenureId" },
+    "person": { "$ref": "defs.json#/$defs/personId" },
+    "see": { "$ref": "defs.json#/$defs/seeId" },
+    "from": { "$ref": "defs.json#/$defs/date" },
+    "to": { "$ref": "defs.json#/$defs/date" },
+    "end_reason": { "enum": ["died", "translated", "resigned", "deposed", "schism", "unknown"] },
+    "recognition": { "$ref": "defs.json#/$defs/recognition" },
+    "sources": { "$ref": "defs.json#/$defs/sources" },
+    "status": { "$ref": "defs.json#/$defs/status" },
+    "notes": { "type": "string" }
+  },
+  "required": ["id", "person", "see", "from", "end_reason", "sources", "status"],
+  "additionalProperties": false
+}
