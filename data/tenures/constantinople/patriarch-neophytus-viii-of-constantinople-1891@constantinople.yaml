@@ -1,0 +1,23 @@
+id: tenure/constantinople/patriarch-neophytus-viii-of-constantinople-1891@constantinople
+person: person/constantinople/patriarch-neophytus-viii-of-constantinople-1891
+see: see/constantinople/constantinople
+from:
+  value: '1891'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q2593353
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
+status: unverified
+notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source.
+to:
+  value: '1894'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar

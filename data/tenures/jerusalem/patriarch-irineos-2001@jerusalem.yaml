@@ -1,0 +1,23 @@
+id: tenure/jerusalem/patriarch-irineos-2001@jerusalem
+person: person/jerusalem/patriarch-irineos-2001
+see: see/jerusalem/jerusalem
+from:
+  value: '2001'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q786307
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
+status: unverified
+notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source.
+to:
+  value: '2005'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar

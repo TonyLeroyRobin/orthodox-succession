@@ -1,0 +1,28 @@
+id: person/constantinople/patriarch-germanus-v-of-constantinople-1913
+names:
+  monastic: Patriarch Germanus V of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q2374911
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q2374911
+  viaf: '294224478'
+born:
+  date:
+    value: '1835'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1920'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

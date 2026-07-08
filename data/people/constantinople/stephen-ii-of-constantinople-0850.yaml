@@ -1,0 +1,28 @@
+id: person/constantinople/stephen-ii-of-constantinople-0850
+names:
+  monastic: Stephen II of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q1152976
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q1152976
+born:
+  date:
+    value: 0850
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0927
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

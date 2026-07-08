@@ -1,0 +1,27 @@
+id: person/constantinople/vi-konstantinos-1924
+names:
+  monastic: VI. Konstantinos
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q556796
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q556796
+born:
+  date:
+    value: '1859'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1930'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

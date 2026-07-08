@@ -37,6 +37,8 @@ import argparse
 import json
 import re
 import sys
+import time
+import urllib.error
 import unicodedata
 import urllib.parse
 import urllib.request
@@ -47,6 +49,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import DATA_DIR  # noqa: E402
 
 import yaml  # noqa: E402
+
+if hasattr(sys.stdout, "reconfigure"):  # Windows cp1252 consoles
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 SPARQL_ENDPOINT = "https://query.wikidata.org/sparql"
 API_ENDPOINT = "https://www.wikidata.org/w/api.php"
@@ -62,10 +67,27 @@ except ImportError:  # pragma: no cover
     SSL_CTX = None
 
 
-def http_json(url: str):
+def http_json(url: str, attempts: int = 6):
+    """GET JSON with polite pacing and 429/5xx backoff."""
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=120, context=SSL_CTX) as resp:
-        return json.load(resp)
+    delay = 5.0
+    for attempt in range(attempts):
+        time.sleep(1.0)  # politeness gap between all requests
+        try:
+            with urllib.request.urlopen(req, timeout=120,
+                                        context=SSL_CTX) as resp:
+                return json.load(resp)
+        except urllib.error.HTTPError as exc:
+            if exc.code in (429, 500, 502, 503) and attempt < attempts - 1:
+                retry_after = exc.headers.get("Retry-After")
+                wait = float(retry_after) if (retry_after or "").isdigit() \
+                    else delay
+                print(f"  HTTP {exc.code}; retrying in {wait:.0f}s "
+                      f"({attempt + 1}/{attempts - 1})", file=sys.stderr)
+                time.sleep(wait)
+                delay = min(delay * 2, 120)
+                continue
+            raise
 
 
 def sparql(query: str):
@@ -238,7 +260,12 @@ def import_office(office: str, jurisdiction: str, see_id: str, dry_run: bool):
         # seeding can never make validate.py fail; a human sorts it out later
         lifespan_note = ""
         if born_y is not None or died_y is not None:
-            bad = any(
+            bad = (
+                # Wikidata century/decade-precision timestamps parse as bare
+                # years and can invert the lifespan
+                (born_y is not None and died_y is not None
+                 and died_y < born_y)
+            ) or any(
                 (born_y is not None and sy is not None and sy < born_y)
                 or (died_y is not None and sy is not None and sy > died_y + 2)
                 or (died_y is not None and ey is not None and ey > died_y + 2)

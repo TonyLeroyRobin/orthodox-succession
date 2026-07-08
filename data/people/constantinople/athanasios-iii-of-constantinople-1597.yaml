@@ -1,0 +1,29 @@
+id: person/constantinople/athanasios-iii-of-constantinople-1597
+names:
+  monastic: Athanasios III of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q749532
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q749532
+  viaf: '220887858'
+born:
+  date:
+    value: '1597'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1654'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

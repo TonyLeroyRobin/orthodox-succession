@@ -1,0 +1,22 @@
+id: person/antioch/john-x-of-antioch-2013
+names:
+  monastic: John X of Antioch
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q1146609
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q1146609
+  viaf: '4296153184549327100002'
+born:
+  date:
+    value: '1955'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

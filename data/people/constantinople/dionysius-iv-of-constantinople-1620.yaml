@@ -1,0 +1,29 @@
+id: person/constantinople/dionysius-iv-of-constantinople-1620
+names:
+  monastic: Dionysius IV of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q3028759
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q3028759
+  viaf: '190785044'
+born:
+  date:
+    value: '1620'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1696'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

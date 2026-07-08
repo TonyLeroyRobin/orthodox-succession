@@ -1,0 +1,23 @@
+id: tenure/constantinople/nicholas-mystikos-0901@constantinople
+person: person/constantinople/nicholas-mystikos-0901
+see: see/constantinople/constantinople
+from:
+  value: 0901
+  calendar: julian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q552447
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
+status: unverified
+notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source.
+to:
+  value: 0907
+  calendar: julian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar

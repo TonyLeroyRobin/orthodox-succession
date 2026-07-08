@@ -1,0 +1,15 @@
+id: person/jerusalem/theophanes-ii-1450
+names:
+  monastic: Theophanes II
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q97285275
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q97285275

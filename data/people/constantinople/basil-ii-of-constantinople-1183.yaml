@@ -1,0 +1,22 @@
+id: person/constantinople/basil-ii-of-constantinople-1183
+names:
+  monastic: Basil II of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q2886858
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q2886858
+  viaf: '385159474048427660380'
+born:
+  date:
+    value: '1101'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

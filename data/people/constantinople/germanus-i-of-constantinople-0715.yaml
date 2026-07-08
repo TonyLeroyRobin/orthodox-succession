@@ -1,0 +1,28 @@
+id: person/constantinople/germanus-i-of-constantinople-0715
+names:
+  monastic: Germanus I of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q441464
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q441464
+  viaf: '121906620'
+born:
+  date:
+    value: '0634'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '0730'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

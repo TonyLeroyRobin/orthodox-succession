@@ -1,0 +1,28 @@
+id: person/jerusalem/q1667552-1100
+names:
+  monastic: Q1667552
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q1667552
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q1667552
+born:
+  date:
+    value: '1100'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1166'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

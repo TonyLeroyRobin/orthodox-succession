@@ -1,0 +1,28 @@
+id: person/constantinople/isaias-of-constantinople-1323
+names:
+  monastic: Isaias of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q3138162
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q3138162
+  viaf: '553173726874511590332'
+born:
+  date:
+    value: '1250'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1332'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

@@ -1,0 +1,29 @@
+id: person/alexandria/john-the-merciful-0550
+names:
+  monastic: John the Merciful
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q372668
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q372668
+  viaf: '204005823'
+born:
+  date:
+    value: '0550'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0619
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

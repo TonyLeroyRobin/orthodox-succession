@@ -1,0 +1,23 @@
+id: tenure/alexandria/patriarch-cosmas-iii-of-constantinople-1723@alexandria
+person: person/alexandria/patriarch-cosmas-iii-of-constantinople-1723
+see: see/alexandria/alexandria
+from:
+  value: '1723'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q2998260
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
+status: unverified
+notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source.
+to:
+  value: '1736'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar

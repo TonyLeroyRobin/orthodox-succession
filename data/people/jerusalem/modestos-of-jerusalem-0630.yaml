@@ -1,0 +1,28 @@
+id: person/jerusalem/modestos-of-jerusalem-0630
+names:
+  monastic: Modestos of Jerusalem
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q3057500
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q3057500
+  viaf: '29875316'
+born:
+  date:
+    value: '0537'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '0634'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

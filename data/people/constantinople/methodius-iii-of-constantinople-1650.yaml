@@ -1,0 +1,28 @@
+id: person/constantinople/methodius-iii-of-constantinople-1650
+names:
+  monastic: Methodius III of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q3066823
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q3066823
+born:
+  date:
+    value: '1650'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1679'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

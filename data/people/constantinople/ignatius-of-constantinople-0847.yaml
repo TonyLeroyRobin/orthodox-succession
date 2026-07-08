@@ -1,0 +1,28 @@
+id: person/constantinople/ignatius-of-constantinople-0847
+names:
+  monastic: Ignatius of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q359824
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q359824
+  viaf: '296760765'
+born:
+  date:
+    value: 0797
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0877
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

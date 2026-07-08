@@ -1,0 +1,21 @@
+id: person/antioch/alexander-ii-0695
+names:
+  monastic: Alexander II
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q25456560
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q25456560
+died:
+  date:
+    value: '0702'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

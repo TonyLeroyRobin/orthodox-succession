@@ -1,0 +1,28 @@
+id: person/constantinople/maximus-v-of-constantinople-1946
+names:
+  monastic: Maximus V of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q527367
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q527367
+  viaf: '2057174413955408700002'
+born:
+  date:
+    value: '1897'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1972'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

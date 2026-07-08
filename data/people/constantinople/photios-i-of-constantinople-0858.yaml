@@ -1,0 +1,28 @@
+id: person/constantinople/photios-i-of-constantinople-0858
+names:
+  monastic: Photios I of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q243187
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q243187
+  viaf: '14775071'
+born:
+  date:
+    value: 0820
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0900
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

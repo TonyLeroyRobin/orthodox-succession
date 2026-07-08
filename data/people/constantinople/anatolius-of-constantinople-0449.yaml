@@ -1,0 +1,28 @@
+id: person/constantinople/anatolius-of-constantinople-0449
+names:
+  monastic: Anatolius of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q156600
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q156600
+  viaf: '71783272'
+born:
+  date:
+    value: '0301'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0458
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

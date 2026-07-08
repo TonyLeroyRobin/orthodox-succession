@@ -1,0 +1,23 @@
+id: tenure/constantinople/nikephoros-i-of-constantinople-0806@constantinople
+person: person/constantinople/nikephoros-i-of-constantinople-0806
+see: see/constantinople/constantinople
+from:
+  value: 0806
+  calendar: julian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q116639
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
+status: unverified
+notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source.
+to:
+  value: 0815
+  calendar: julian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar

@@ -1,0 +1,29 @@
+id: person/jerusalem/sophronius-ii-of-constantinople-1710
+names:
+  monastic: Sophronius II of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q2303048
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q2303048
+  viaf: '297151246513444131032'
+born:
+  date:
+    value: '1710'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1780'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

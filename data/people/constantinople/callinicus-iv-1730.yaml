@@ -1,0 +1,28 @@
+id: person/constantinople/callinicus-iv-1730
+names:
+  monastic: Callinicus IV
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q662310
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q662310
+born:
+  date:
+    value: '1730'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1812'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

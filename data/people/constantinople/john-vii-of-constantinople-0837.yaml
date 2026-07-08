@@ -1,0 +1,28 @@
+id: person/constantinople/john-vii-of-constantinople-0837
+names:
+  monastic: John VII of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q956579
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q956579
+  viaf: '29887116'
+born:
+  date:
+    value: '0701'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0860
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

@@ -1,0 +1,28 @@
+id: person/antioch/euthymius-iii-of-chios-1580
+names:
+  monastic: Euthymius III of Chios
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q5414533
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q5414533
+born:
+  date:
+    value: '1580'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1647'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

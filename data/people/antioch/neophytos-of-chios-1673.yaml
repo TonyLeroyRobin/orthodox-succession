@@ -1,0 +1,21 @@
+id: person/antioch/neophytos-of-chios-1673
+names:
+  monastic: Neophytos of Chios
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q6993685
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q6993685
+died:
+  date:
+    value: '1686'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

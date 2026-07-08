@@ -1,0 +1,29 @@
+id: person/constantinople/gennadius-scholarius-1400
+names:
+  monastic: Gennadius Scholarius
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q381211
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q381211
+  viaf: '316421957'
+born:
+  date:
+    value: '1400'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1473'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

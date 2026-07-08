@@ -1,0 +1,23 @@
+id: tenure/constantinople/john-v-of-constantinople-0669@constantinople
+person: person/constantinople/john-v-of-constantinople-0669
+see: see/constantinople/constantinople
+from:
+  value: 0669
+  calendar: julian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q1290907
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
+status: unverified
+notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source.
+to:
+  value: '0675'
+  calendar: julian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar

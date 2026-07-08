@@ -1,0 +1,23 @@
+id: tenure/jerusalem/theophanes-ii-1450@jerusalem
+person: person/jerusalem/theophanes-ii-1450
+see: see/jerusalem/jerusalem
+from:
+  value: '1450'
+  calendar: julian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q97285275
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
+status: unverified
+notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source.
+to:
+  value: '1452'
+  calendar: julian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar

@@ -1,0 +1,28 @@
+id: person/constantinople/nicholas-mystikos-0901
+names:
+  monastic: Nicholas Mystikos
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q552447
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q552447
+  viaf: '89258784'
+born:
+  date:
+    value: 0852
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0925
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

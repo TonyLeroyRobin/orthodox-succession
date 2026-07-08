@@ -1,0 +1,22 @@
+id: person/constantinople/patriarch-theoleptus-ii-of-constantinople-1550
+names:
+  monastic: Patriarch Theoleptus II of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q3526592
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q3526592
+born:
+  date:
+    value: '1550'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

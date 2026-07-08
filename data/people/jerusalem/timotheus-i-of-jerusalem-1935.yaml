@@ -1,0 +1,28 @@
+id: person/jerusalem/timotheus-i-of-jerusalem-1935
+names:
+  monastic: Timotheus I of Jerusalem
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q3529091
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q3529091
+  viaf: '536158790734038852300'
+born:
+  date:
+    value: '1878'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1955'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

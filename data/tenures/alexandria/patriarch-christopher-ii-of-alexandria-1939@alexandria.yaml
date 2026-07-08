@@ -1,0 +1,23 @@
+id: tenure/alexandria/patriarch-christopher-ii-of-alexandria-1939@alexandria
+person: person/alexandria/patriarch-christopher-ii-of-alexandria-1939
+see: see/alexandria/alexandria
+from:
+  value: '1939'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q2563103
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
+status: unverified
+notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source.
+to:
+  value: '1966'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar

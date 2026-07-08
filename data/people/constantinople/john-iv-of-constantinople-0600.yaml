@@ -1,0 +1,18 @@
+id: person/constantinople/john-iv-of-constantinople-0600
+names:
+  monastic: John IV of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q442737
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. Wikidata birth/death dates conflicted with the term dates and
+  were NOT imported — resolve during verification. 1 term(s) had no start-date qualifier
+  and produced no tenure record.
+identifiers:
+  wikidata: Q442737
+  viaf: '2782151778259518130004'

@@ -1,0 +1,27 @@
+id: person/jerusalem/athanasius-v-of-jerusalem-1827
+names:
+  monastic: Athanasius V of Jerusalem
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q2868996
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q2868996
+born:
+  date:
+    value: '1754'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1844'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

@@ -1,0 +1,28 @@
+id: person/constantinople/eugenius-ii-of-constantinople-1780
+names:
+  monastic: Eugenius II of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q1884172
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q1884172
+born:
+  date:
+    value: '1780'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1822'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

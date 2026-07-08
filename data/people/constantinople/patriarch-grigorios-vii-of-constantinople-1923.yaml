@@ -1,0 +1,27 @@
+id: person/constantinople/patriarch-grigorios-vii-of-constantinople-1923
+names:
+  monastic: Patriarch Grigorios VII of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q384270
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q384270
+born:
+  date:
+    value: '1850'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1924'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

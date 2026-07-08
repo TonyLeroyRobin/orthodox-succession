@@ -1,0 +1,29 @@
+id: person/constantinople/antony-iv-of-constantinople-1301
+names:
+  monastic: Antony IV of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q603639
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q603639
+  viaf: '472159474311327662371'
+born:
+  date:
+    value: '1301'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1397'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

@@ -1,0 +1,29 @@
+id: person/jerusalem/ephram-ii-of-jerusalem-1750
+names:
+  monastic: Ephram II of Jerusalem
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q2415220
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q2415220
+  viaf: '382159474184727661615'
+born:
+  date:
+    value: '1750'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1770'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

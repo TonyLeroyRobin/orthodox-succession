@@ -1,0 +1,21 @@
+id: person/constantinople/tryphon-of-constantinople-0928
+names:
+  monastic: Tryphon of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q1153005
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q1153005
+died:
+  date:
+    value: 0933
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

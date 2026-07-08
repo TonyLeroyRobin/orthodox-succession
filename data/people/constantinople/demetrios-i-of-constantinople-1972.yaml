@@ -1,0 +1,28 @@
+id: person/constantinople/demetrios-i-of-constantinople-1972
+names:
+  monastic: Demetrios I of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q342360
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q342360
+  viaf: '155482774'
+born:
+  date:
+    value: '1914'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1991'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

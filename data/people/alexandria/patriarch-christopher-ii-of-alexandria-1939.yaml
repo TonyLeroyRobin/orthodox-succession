@@ -1,0 +1,28 @@
+id: person/alexandria/patriarch-christopher-ii-of-alexandria-1939
+names:
+  monastic: Patriarch Christopher II of Alexandria
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q2563103
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q2563103
+  viaf: '161012876'
+born:
+  date:
+    value: '1876'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1967'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

@@ -1,0 +1,23 @@
+id: tenure/constantinople/athanasius-ii-of-constantinople-1450@constantinople
+person: person/constantinople/athanasius-ii-of-constantinople-1450
+see: see/constantinople/constantinople
+from:
+  value: '1450'
+  calendar: julian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q497497
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
+status: unverified
+notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source.
+to:
+  value: '1453'
+  calendar: julian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar

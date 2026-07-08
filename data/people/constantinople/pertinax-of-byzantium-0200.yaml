@@ -1,0 +1,17 @@
+id: person/constantinople/pertinax-of-byzantium-0200
+names:
+  monastic: Pertinax of Byzantium
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q1286757
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. Wikidata birth/death dates conflicted with the term dates and
+  were NOT imported — resolve during verification. 1 term(s) had no start-date qualifier
+  and produced no tenure record.
+identifiers:
+  wikidata: Q1286757

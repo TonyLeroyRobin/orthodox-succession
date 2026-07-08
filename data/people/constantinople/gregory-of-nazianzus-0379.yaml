@@ -1,0 +1,28 @@
+id: person/constantinople/gregory-of-nazianzus-0379
+names:
+  monastic: Gregory of Nazianzus
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q44011
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q44011
+  viaf: '108675755'
+born:
+  date:
+    value: 0329
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0389
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

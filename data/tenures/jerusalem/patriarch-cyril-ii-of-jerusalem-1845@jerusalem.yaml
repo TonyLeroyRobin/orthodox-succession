@@ -1,0 +1,23 @@
+id: tenure/jerusalem/patriarch-cyril-ii-of-jerusalem-1845@jerusalem
+person: person/jerusalem/patriarch-cyril-ii-of-jerusalem-1845
+see: see/jerusalem/jerusalem
+from:
+  value: '1845'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q3009146
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
+status: unverified
+notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source.
+to:
+  value: '1872'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar

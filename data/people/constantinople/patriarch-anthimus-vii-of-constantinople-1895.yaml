@@ -1,0 +1,28 @@
+id: person/constantinople/patriarch-anthimus-vii-of-constantinople-1895
+names:
+  monastic: Patriarch Anthimus VII of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q2226174
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q2226174
+  viaf: '208761203'
+born:
+  date:
+    value: '1827'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1913'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
