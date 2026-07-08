@@ -1,0 +1,22 @@
+id: person/serbia/patriarch-kalinik-i-of-serbia-0000
+names:
+  monastic: Patriarch Kalinik I of Serbia
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q1561394
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q1561394
+died:
+  date:
+    value: '1710'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

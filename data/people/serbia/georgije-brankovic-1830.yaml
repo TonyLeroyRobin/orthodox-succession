@@ -1,0 +1,29 @@
+id: person/serbia/georgije-brankovic-1830
+names:
+  monastic: Georgije Branković
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q334181
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q334181
+  viaf: '90477738'
+born:
+  date:
+    value: '1830'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1907'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

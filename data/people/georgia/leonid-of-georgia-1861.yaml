@@ -1,0 +1,29 @@
+id: person/georgia/leonid-of-georgia-1861
+names:
+  monastic: Leonid of Georgia
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q2078566
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q2078566
+  viaf: '316546559'
+born:
+  date:
+    value: '1861'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1921'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

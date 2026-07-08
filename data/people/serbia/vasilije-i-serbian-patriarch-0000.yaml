@@ -1,0 +1,16 @@
+id: person/serbia/vasilije-i-serbian-patriarch-0000
+names:
+  monastic: Vasilije I, Serbian Patriarch
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q13371308
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q13371308

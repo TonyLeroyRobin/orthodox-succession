@@ -1,0 +1,28 @@
+id: person/greece/chrisostomos-i-of-athens-1923
+names:
+  monastic: Chrisostomos I of Athens
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q11690362
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q11690362
+  viaf: '35372377'
+born:
+  date:
+    value: '1868'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1938'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

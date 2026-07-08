@@ -1,0 +1,18 @@
+id: tenure/ukraine/epiphanius-2018@kyiv
+person: person/ukraine/epiphanius-2018
+see: see/ukraine/kyiv
+from:
+  value: '2018'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q11696998
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
+status: unverified
+notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source.

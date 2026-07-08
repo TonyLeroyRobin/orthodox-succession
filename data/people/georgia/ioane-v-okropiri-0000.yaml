@@ -1,0 +1,16 @@
+id: person/georgia/ioane-v-okropiri-0000
+names:
+  monastic: Ioane V Okropiri
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q4451164
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q4451164

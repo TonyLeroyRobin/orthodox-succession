@@ -1,0 +1,28 @@
+id: person/georgia/ilia-ii-of-georgia-1977
+names:
+  monastic: Ilia II of Georgia
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q511502
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q511502
+  viaf: '125148207900900341823'
+born:
+  date:
+    value: '1933'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '2026'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

@@ -1,0 +1,23 @@
+id: tenure/serbia/arsenije-iii-carnojevic-1674@belgrade
+person: person/serbia/arsenije-iii-carnojevic-1674
+see: see/serbia/belgrade
+from:
+  value: '1674'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q1280568
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
+status: unverified
+notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source.
+to:
+  value: '1690'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar

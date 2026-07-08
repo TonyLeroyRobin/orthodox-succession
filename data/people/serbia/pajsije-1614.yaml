@@ -1,0 +1,28 @@
+id: person/serbia/pajsije-1614
+names:
+  monastic: Pajsije
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q11142531
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q11142531
+  viaf: '311735580'
+born:
+  date:
+    value: '1542'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1647'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

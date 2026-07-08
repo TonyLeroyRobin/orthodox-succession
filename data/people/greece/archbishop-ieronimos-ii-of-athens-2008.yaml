@@ -1,0 +1,22 @@
+id: person/greece/archbishop-ieronimos-ii-of-athens-2008
+names:
+  monastic: Archbishop Ieronimos II of Athens
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q442703
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q442703
+  viaf: '232314384'
+born:
+  date:
+    value: '1938'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

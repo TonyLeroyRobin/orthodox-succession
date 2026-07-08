@@ -1,0 +1,28 @@
+id: person/georgia/anton-ii-of-georgia-1788
+names:
+  monastic: Anton II of Georgia
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q3652858
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q3652858
+  viaf: '233010582'
+born:
+  date:
+    value: '1762'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1827'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

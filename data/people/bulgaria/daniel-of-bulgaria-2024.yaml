@@ -1,0 +1,22 @@
+id: person/bulgaria/daniel-of-bulgaria-2024
+names:
+  monastic: Daniel of Bulgaria
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q12277648
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q12277648
+  viaf: '463167022144552872732'
+born:
+  date:
+    value: '1972'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

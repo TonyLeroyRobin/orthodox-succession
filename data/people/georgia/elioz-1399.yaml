@@ -1,0 +1,15 @@
+id: person/georgia/elioz-1399
+names:
+  monastic: Elioz
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q16368671
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q16368671

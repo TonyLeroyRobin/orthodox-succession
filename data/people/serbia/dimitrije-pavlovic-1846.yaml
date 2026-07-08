@@ -1,0 +1,29 @@
+id: person/serbia/dimitrije-pavlovic-1846
+names:
+  monastic: Dimitrije Pavlović
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q1282567
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q1282567
+  viaf: '316447530'
+born:
+  date:
+    value: '1846'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1930'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

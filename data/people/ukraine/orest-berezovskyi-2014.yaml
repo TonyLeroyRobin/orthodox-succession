@@ -1,0 +1,22 @@
+id: person/ukraine/orest-berezovskyi-2014
+names:
+  monastic: Orest Berezovskyi
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q2091966
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q2091966
+  viaf: '30156009960449581426'
+born:
+  date:
+    value: '1944'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

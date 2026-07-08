@@ -1,0 +1,29 @@
+id: person/serbia/lukijan-bogdanovic-1867
+names:
+  monastic: Lukijan Bogdanović
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q221070
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q221070
+  viaf: '306275872'
+born:
+  date:
+    value: '1867'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1913'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

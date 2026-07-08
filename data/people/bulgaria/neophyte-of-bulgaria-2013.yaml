@@ -1,0 +1,28 @@
+id: person/bulgaria/neophyte-of-bulgaria-2013
+names:
+  monastic: Neophyte of Bulgaria
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q5276303
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q5276303
+  viaf: '45943006'
+born:
+  date:
+    value: '1945'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '2024'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

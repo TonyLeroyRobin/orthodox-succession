@@ -1,0 +1,22 @@
+id: person/georgia/melkisedek-i-0000
+names:
+  monastic: Melkisedek I
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q4450287
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q4450287
+died:
+  date:
+    value: '1033'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
