@@ -1,0 +1,28 @@
+id: event/council/ephesus-0431
+type: council-ecumenical
+title: "Third Ecumenical Council (Ephesus)"
+date:
+  from:
+    value: "0431-06-22"
+    calendar: julian
+    precision: day
+  to:
+    value: "0431-07-31"
+    calendar: julian
+    precision: day
+place: "Ephesus, Asia Minor"
+outcomes:
+  - "Condemned Nestorius and affirmed the title Theotokos."
+  - >-
+    Canon 8: upheld the petition of the bishops of Cyprus against the claim
+    of the see of Antioch to ordain in Cyprus, confirming the autocephaly of
+    the Church of Cyprus.
+affected:
+  - jurisdiction/church-of-cyprus
+sources:
+  - ref: source/aco-concilium-universale-ephesenum
+    locator: "ACO I; Canon 8 and the session on the Cypriot petition"
+    reliability: primary
+status: verified
+notes: >-
+  The first council record in the database — the anchor of the Cyprus pilot.

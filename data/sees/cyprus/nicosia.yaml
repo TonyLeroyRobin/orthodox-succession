@@ -1,0 +1,37 @@
+id: see/cyprus/nicosia
+name: "Nicosia (Lefkosia)"
+jurisdiction_history:
+  - jurisdiction: jurisdiction/church-of-cyprus
+    from:
+      value: "1200"
+      calendar: julian
+      precision: century
+      note: >-
+        The archiepiscopal seat settled at Nicosia in the medieval period;
+        the exact date of transfer is not firmly established.
+rank_history:
+  - rank: archbishopric
+    from:
+      value: "1200"
+      calendar: julian
+      precision: century
+founded:
+  founded_from: see/cyprus/salamis-constantia
+location:
+  lat: 35.1725
+  lon: 33.365
+  modern_place: "Nicosia, Cyprus"
+sources:
+  - ref: source/church-of-cyprus-official-list
+    reliability: official-list
+  - ref: source/le-quien-oriens-christianus-v2
+    locator: "vol. 2, Cyprus section (columns to be confirmed)"
+    reliability: scholarly
+status: verified
+notes: >-
+  Seat of the Archbishop of Nea Justiniana and All Cyprus in the modern
+  period, continuing the archiepiscopal line of Salamis/Constantia
+  (founded_from). During the Latin period (1191-1571) the Orthodox hierarchy
+  of the island was reduced and displaced (Bulla Cypria, 1260); details of
+  that period belong to later milestones. No founded date is asserted yet —
+  century-precision jurisdiction/rank entries only.

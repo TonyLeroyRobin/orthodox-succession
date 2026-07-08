@@ -1,0 +1,25 @@
+id: tenure/cyprus/barnabas-0045@salamis
+person: person/cyprus/barnabas-0045
+see: see/cyprus/salamis-constantia
+from:
+  value: "0045"
+  calendar: julian
+  precision: circa
+  note: "approximate date of the mission of Barnabas and Paul in Cyprus (Acts 13)"
+to:
+  value: "0061"
+  calendar: julian
+  precision: circa
+  note: "traditional date of martyrdom at Salamis"
+end_reason: died
+sources:
+  - ref: source/eusebius-ecclesiastical-history
+    locator: "HE 2.3"
+    reliability: tradition
+    note: >-
+      Barnabas's role as first bishop of Salamis is later ecclesiastical
+      tradition; Acts attests his mission presence, not an episcopal tenure.
+status: unverified
+notes: >-
+  Tradition-grade only, therefore permanently ineligible for verified status
+  unless a better source emerges; recorded honestly per the source hierarchy.

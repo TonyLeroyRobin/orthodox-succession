@@ -1,0 +1,19 @@
+id: event/context/edict-of-milan-0313
+type: context
+title: "Edict of Milan"
+date:
+  from:
+    value: "0313"
+    calendar: julian
+    precision: year
+scope: global
+description: >-
+  Constantine and Licinius grant toleration to Christianity throughout the
+  Roman Empire, ending the era of persecutions.
+sources:
+  - ref: source/wikipedia
+    locator: "Edict of Milan"
+    reliability: database
+    archived_url: "https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Edict_of_Milan"
+status: unverified
+notes: ""

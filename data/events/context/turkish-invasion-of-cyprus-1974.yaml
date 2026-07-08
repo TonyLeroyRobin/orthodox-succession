@@ -1,0 +1,19 @@
+id: event/context/turkish-invasion-of-cyprus-1974
+type: context
+title: "Turkish invasion of Cyprus"
+date:
+  from:
+    value: "1974-07-20"
+    calendar: gregorian
+    precision: day
+scope: "jurisdiction:jurisdiction/church-of-cyprus"
+description: >-
+  The invasion and partition of the island displace the Orthodox population
+  of the north and leave historic sees in occupied territory.
+sources:
+  - ref: source/wikipedia
+    locator: "Turkish invasion of Cyprus"
+    reliability: database
+    archived_url: "https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Turkish_invasion_of_Cyprus"
+status: unverified
+notes: ""

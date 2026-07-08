@@ -1,0 +1,25 @@
+id: person/cyprus/rheginos-0431
+names:
+  monastic: "Rheginos"
+  native:
+    - script: grc
+      value: "Ῥηγῖνος"
+  variants:
+    - "Reginus"
+    - "Rheginus"
+attestation: attested
+sources:
+  - ref: source/aco-concilium-universale-ephesenum
+    locator: "session on the Cypriot petition; subscription lists"
+    reliability: primary
+    note: >-
+      Led the Cypriot delegation at Ephesus (431) that secured the rejection
+      of the Antiochene claim over Cyprus.
+  - ref: source/le-quien-oriens-christianus-v2
+    locator: "vol. 2, s.v. Salamis/Constantia (columns to be confirmed)"
+    reliability: scholarly
+status: verified
+notes: >-
+  Archbishop of Constantia, fl. 431. Birth and death dates are not attested;
+  the id year is his earliest attestation. No consecration data survives —
+  absent, not inferred.

@@ -1,0 +1,19 @@
+id: tenure/cyprus/evagrios-0431@soloi
+person: person/cyprus/evagrios-of-soloi-0431
+see: see/cyprus/soloi
+from:
+  value: "0431"
+  calendar: julian
+  precision: year
+  note: "earliest attested year — in office at the Council of Ephesus"
+end_reason: unknown
+sources:
+  - ref: source/aco-concilium-universale-ephesenum
+    locator: "subscriptions of the Cypriot bishops"
+    reliability: primary
+  - ref: source/le-quien-oriens-christianus-v2
+    locator: "vol. 2, s.v. Soli (columns to be confirmed)"
+    reliability: scholarly
+status: verified
+notes: >-
+  End of tenure unrecorded; `to` deliberately absent.

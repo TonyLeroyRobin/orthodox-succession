@@ -1,0 +1,16 @@
+id: tenure/cyprus/georgios-iii-2022@nicosia
+person: person/cyprus/georgios-iii-2022
+see: see/cyprus/nicosia
+from:
+  value: "2022-12"
+  calendar: gregorian
+  precision: month
+  note: "elected 24 December 2022; enthroned January 2023 (to be confirmed)"
+end_reason: unknown
+sources:
+  - ref: source/church-of-cyprus-official-list
+    reliability: official-list
+status: unverified
+notes: >-
+  Incumbent — tenure ongoing; `to` absent and end_reason `unknown` by
+  convention for sitting hierarchs.

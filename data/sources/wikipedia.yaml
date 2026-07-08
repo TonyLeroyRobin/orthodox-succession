@@ -1,0 +1,9 @@
+id: source/wikipedia
+type: web
+title: "Wikipedia (English)"
+url: "https://en.wikipedia.org/"
+archived_url: "https://web.archive.org/web/2025/https://en.wikipedia.org/"
+status: verified
+notes: >-
+  Acceptable ONLY for the context-event layer (one link per context event).
+  Everywhere else Wikipedia is a lead generator, never a final citation.

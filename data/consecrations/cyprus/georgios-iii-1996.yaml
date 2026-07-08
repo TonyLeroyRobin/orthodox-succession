@@ -1,0 +1,17 @@
+id: consecration/cyprus/georgios-iii-1996
+consecrated: person/cyprus/georgios-iii-2022
+date:
+  value: "1996"
+  calendar: gregorian
+  precision: year
+  note: "consecrated Bishop of Arsinoe; date to be confirmed"
+principal_consecrator: person/cyprus/chrysostomos-i-1977
+co_consecrators: []
+sources:
+  - ref: source/church-of-cyprus-official-list
+    reliability: official-list
+    note: "principal consecrator inferred from office — MUST be confirmed"
+status: unverified
+notes: >-
+  Principal consecrator provisionally recorded as the reigning archbishop;
+  this is the weakest claim in the modern set and must be checked first.

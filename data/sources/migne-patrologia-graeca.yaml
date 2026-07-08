@@ -1,0 +1,12 @@
+id: source/migne-patrologia-graeca
+type: book
+title: "Patrologia Graeca (Patrologiae Cursus Completus, Series Graeca)"
+author: "Jacques-Paul Migne (ed.)"
+year: 1857
+series: "Patrologiae Cursus Completus"
+url: "https://patristica.net/graeca/"
+archived_url: "https://web.archive.org/web/2025/https://patristica.net/graeca/"
+status: verified
+notes: >-
+  Original texts of patristic works, cited as "PG <vol>:<cols>". Public
+  domain; volume scans indexed at patristica.net.

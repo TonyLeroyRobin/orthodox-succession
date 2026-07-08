@@ -1,0 +1,22 @@
+id: tenure/cyprus/makarios-iii-1950@nicosia
+person: person/cyprus/makarios-iii-1950
+see: see/cyprus/nicosia
+from:
+  value: "1950-10"
+  calendar: gregorian
+  precision: month
+  note: "elected/enthroned October 1950; exact day to be confirmed"
+to:
+  value: "1977-08-03"
+  calendar: gregorian
+  precision: day
+end_reason: died
+sources:
+  - ref: source/church-of-cyprus-official-list
+    reliability: official-list
+status: unverified
+notes: >-
+  The 1972-1973 ecclesiastical crisis (three metropolitans purporting to
+  depose Makarios, annulled by a major synod in 1973) is not yet modeled;
+  it belongs to a later, sourced pass — recorded here as a note rather than
+  guessed at as recognition entries.

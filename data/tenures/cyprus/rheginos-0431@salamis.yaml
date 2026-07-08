@@ -1,0 +1,22 @@
+id: tenure/cyprus/rheginos-0431@salamis
+person: person/cyprus/rheginos-0431
+see: see/cyprus/salamis-constantia
+from:
+  value: "0431"
+  calendar: julian
+  precision: year
+  note: >-
+    Earliest attested year — in office at the Council of Ephesus; elected at
+    an unrecorded earlier date, after the death of Archbishop Troilos.
+end_reason: unknown
+sources:
+  - ref: source/aco-concilium-universale-ephesenum
+    locator: "session on the Cypriot petition; subscription lists"
+    reliability: primary
+  - ref: source/le-quien-oriens-christianus-v2
+    locator: "vol. 2, s.v. Salamis/Constantia (columns to be confirmed)"
+    reliability: scholarly
+status: verified
+notes: >-
+  End of tenure unrecorded; the `to` field is deliberately absent rather
+  than guessed.

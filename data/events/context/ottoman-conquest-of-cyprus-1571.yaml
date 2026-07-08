@@ -1,0 +1,23 @@
+id: event/context/ottoman-conquest-of-cyprus-1571
+type: context
+title: "Ottoman conquest of Cyprus"
+date:
+  from:
+    value: "1570"
+    calendar: julian
+    precision: year
+  to:
+    value: "1571"
+    calendar: julian
+    precision: year
+scope: "jurisdiction:jurisdiction/church-of-cyprus"
+description: >-
+  The Ottoman conquest ends Venetian rule and restores the Orthodox
+  archbishopric of Cyprus to legal standing under the millet system.
+sources:
+  - ref: source/wikipedia
+    locator: "Ottoman Cyprus"
+    reliability: database
+    archived_url: "https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Ottoman_Cyprus"
+status: unverified
+notes: ""

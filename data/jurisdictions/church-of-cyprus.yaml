@@ -1,0 +1,32 @@
+id: jurisdiction/church-of-cyprus
+name: "Church of Cyprus"
+type: autocephalous
+autocephaly:
+  - granted_by: "event/council/ephesus-0431"
+    date:
+      value: "0431-07-31"
+      calendar: julian
+      precision: day
+      note: >-
+        Canon 8 of Ephesus, arising from the session on the petition of the
+        Cypriot bishops against the claims of Antioch.
+    recognition:
+      - by: all
+        status: recognized
+primatial_see: see/cyprus/nicosia
+sources:
+  - ref: source/aco-concilium-universale-ephesenum
+    locator: "Canon 8 and the session on the Cypriot petition"
+    reliability: primary
+  - ref: source/church-of-cyprus-official-list
+    reliability: official-list
+  - ref: source/le-quien-oriens-christianus-v2
+    locator: "vol. 2, Cyprus section (columns to be confirmed)"
+    reliability: scholarly
+status: verified
+notes: >-
+  One of the oldest autocephalous churches; its independence from Antioch was
+  confirmed at the Third Ecumenical Council (431) and reconfirmed under
+  Justinian II (Trullo canon 39, the Nea Justiniana arrangement). The primate
+  bears the title "Archbishop of Nea Justiniana and All Cyprus" and has been
+  seated at Nicosia since the medieval period.

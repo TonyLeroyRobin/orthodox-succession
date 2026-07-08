@@ -1,0 +1,21 @@
+id: tenure/cyprus/makarios-ii-1947@nicosia
+person: person/cyprus/makarios-ii-1947
+see: see/cyprus/nicosia
+from:
+  value: "1947-12"
+  calendar: gregorian
+  precision: month
+  note: "elected December 1947; exact enthronement date to be confirmed"
+to:
+  value: "1950-06-28"
+  calendar: gregorian
+  precision: day
+  note: "date to be confirmed"
+end_reason: died
+sources:
+  - ref: source/church-of-cyprus-official-list
+    reliability: official-list
+status: unverified
+notes: >-
+  Entered from general reference knowledge; verify against the official list
+  and Fedalto before promotion.

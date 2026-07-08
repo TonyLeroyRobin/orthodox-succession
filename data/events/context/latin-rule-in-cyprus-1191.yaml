@@ -1,0 +1,24 @@
+id: event/context/latin-rule-in-cyprus-1191
+type: context
+title: "Latin rule in Cyprus"
+date:
+  from:
+    value: "1191"
+    calendar: julian
+    precision: year
+  to:
+    value: "1571"
+    calendar: julian
+    precision: year
+scope: "jurisdiction:jurisdiction/church-of-cyprus"
+description: >-
+  From Richard I's conquest through Lusignan and Venetian rule, the Latin
+  church dominates Cyprus and the Orthodox hierarchy is reduced and
+  subordinated (Bulla Cypria, 1260).
+sources:
+  - ref: source/wikipedia
+    locator: "Kingdom of Cyprus"
+    reliability: database
+    archived_url: "https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Kingdom_of_Cyprus"
+status: unverified
+notes: ""

@@ -1,0 +1,19 @@
+id: event/context/arab-raids-on-cyprus-0649
+type: context
+title: "Arab raids on Cyprus begin"
+date:
+  from:
+    value: "0649"
+    calendar: julian
+    precision: year
+scope: "jurisdiction:jurisdiction/church-of-cyprus"
+description: >-
+  The first great Arab naval raid under Mu'awiya devastates Cyprus, opening
+  three centuries of insecurity that displace the island's church life.
+sources:
+  - ref: source/wikipedia
+    locator: "Muslim conquest of the Levant / History of Cyprus"
+    reliability: database
+    archived_url: "https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/History_of_Cyprus"
+status: unverified
+notes: ""

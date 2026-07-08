@@ -1,0 +1,20 @@
+id: tradition/thomas-in-india
+title: "The Thomas tradition in India"
+claim: >-
+  The Apostle Thomas is held to have evangelized the Malabar coast of India
+  (and Pantaenus of Alexandria to have found Christians there in the late
+  second century); no Chalcedonian Eastern Orthodox lineage survives from
+  this mission, so it is recorded as a tradition entry, never as a
+  succession chain.
+region: "India (Malabar coast)"
+persons: []
+sources:
+  - ref: source/eusebius-ecclesiastical-history
+    locator: "HE 3.1 (Thomas allotted Parthia); HE 5.10 (Pantaenus in 'India')"
+    reliability: tradition
+status: unverified
+notes: >-
+  Exemplar of the traditions layer per KICKOFF §4.10 — explicitly
+  non-succession data. The persons list is empty because neither Thomas nor
+  Pantaenus has (or needs) a person record in a Chalcedonian succession
+  database.

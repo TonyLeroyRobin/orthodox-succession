@@ -1,0 +1,39 @@
+id: person/cyprus/epiphanios-of-salamis-0367
+names:
+  monastic: "Epiphanios"
+  native:
+    - script: grc
+      value: "Ἐπιφάνιος"
+  variants:
+    - "Epiphanius of Salamis"
+    - "Epiphanius of Constantia"
+born:
+  date:
+    value: "0315"
+    calendar: julian
+    precision: circa
+    note: "born c. 310-320 near Eleutheropolis in Palestine"
+  place: "Besanduc, near Eleutheropolis, Palestine"
+died:
+  date:
+    value: "0403"
+    calendar: julian
+    precision: year
+    note: "died at sea returning from Constantinople to Cyprus"
+attestation: attested
+sources:
+  - ref: source/le-quien-oriens-christianus-v2
+    locator: "vol. 2, s.v. Salamis/Constantia (columns to be confirmed)"
+    reliability: scholarly
+  - ref: source/eusebius-ecclesiastical-history
+    reliability: scholarly
+    note: >-
+      Not in Eusebius himself (too late); attested by Jerome (De viris
+      illustribus 114), Socrates, and Sozomen — dedicated source records for
+      these belong to a later bibliography pass.
+status: verified
+notes: >-
+  Bishop of Salamis/Constantia and metropolitan of Cyprus from 367 to 403;
+  celebrated heresiologist. Author of the Panarion and the Ancoratus (see
+  work/panarion, work/ancoratus). No consecration record survives — absent,
+  not inferred.

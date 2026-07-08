@@ -1,0 +1,9 @@
+id: source/wikidata
+type: database
+title: "Wikidata"
+url: "https://www.wikidata.org/"
+archived_url: "https://web.archive.org/web/2026/https://www.wikidata.org/"
+status: verified
+notes: >-
+  Seeding and identifiers only — never a final citation. Citations pointing
+  here carry reliability: database and can never support a verified record.

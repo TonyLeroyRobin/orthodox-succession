@@ -1,0 +1,19 @@
+id: consecration/cyprus/makarios-iii-1948
+consecrated: person/cyprus/makarios-iii-1950
+date:
+  value: "1948-06-13"
+  calendar: gregorian
+  precision: day
+  note: "consecrated Bishop of Kition; date to be confirmed"
+place: "Cyprus"
+principal_consecrator: person/cyprus/makarios-ii-1947
+co_consecrators: []
+sources:
+  - ref: source/church-of-cyprus-official-list
+    reliability: official-list
+    note: "principal consecrator per common accounts — confirm from synodal records"
+status: unverified
+notes: >-
+  Co-consecrators not yet recorded — the empty list means "not yet
+  researched", not "none". Consult Cypriot synodal records during
+  verification.

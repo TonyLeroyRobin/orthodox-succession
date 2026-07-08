@@ -1,0 +1,20 @@
+id: person/cyprus/zenon-of-kourion-0431
+names:
+  monastic: "Zenon"
+  native:
+    - script: grc
+      value: "Ζήνων"
+  variants:
+    - "Zeno of Curium"
+attestation: attested
+sources:
+  - ref: source/aco-concilium-universale-ephesenum
+    locator: "subscriptions of the Cypriot bishops"
+    reliability: primary
+  - ref: source/le-quien-oriens-christianus-v2
+    locator: "vol. 2, s.v. Curium (columns to be confirmed)"
+    reliability: scholarly
+status: verified
+notes: >-
+  Bishop of Kourion, fl. 431; member of the Cypriot delegation at Ephesus.
+  No consecration data survives — absent, not inferred.

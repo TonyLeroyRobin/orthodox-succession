@@ -1,0 +1,23 @@
+id: tenure/cyprus/chrysostomos-i-1977@nicosia
+person: person/cyprus/chrysostomos-i-1977
+see: see/cyprus/nicosia
+from:
+  value: "1977-11"
+  calendar: gregorian
+  precision: month
+  note: "elected November 1977; exact day to be confirmed"
+to:
+  value: "2006"
+  calendar: gregorian
+  precision: year
+  note: >-
+    Throne declared vacant in 2006 after prolonged incapacity; the precise
+    synodal date is to be confirmed.
+end_reason: resigned
+sources:
+  - ref: source/church-of-cyprus-official-list
+    reliability: official-list
+status: unverified
+notes: >-
+  end_reason `resigned` approximates a synodal declaration of vacancy due to
+  incapacity — refine wording during verification.

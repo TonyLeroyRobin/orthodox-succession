@@ -1,0 +1,11 @@
+id: participation/ephesus-0431--zenon-of-kourion-0431
+person: person/cyprus/zenon-of-kourion-0431
+event: event/council/ephesus-0431
+role: signed
+sources:
+  - ref: source/aco-concilium-universale-ephesenum
+    locator: "subscriptions of the Cypriot bishops"
+    reliability: primary
+status: verified
+notes: >-
+  Member of the Cypriot delegation at Ephesus.

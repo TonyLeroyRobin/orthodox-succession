@@ -1,0 +1,20 @@
+id: person/cyprus/evagrios-of-soloi-0431
+names:
+  monastic: "Evagrios"
+  native:
+    - script: grc
+      value: "Εὐάγριος"
+  variants:
+    - "Evagrius of Soli"
+attestation: attested
+sources:
+  - ref: source/aco-concilium-universale-ephesenum
+    locator: "subscriptions of the Cypriot bishops"
+    reliability: primary
+  - ref: source/le-quien-oriens-christianus-v2
+    locator: "vol. 2, s.v. Soli (columns to be confirmed)"
+    reliability: scholarly
+status: verified
+notes: >-
+  Bishop of Soloi, fl. 431; member of the Cypriot delegation at Ephesus.
+  No consecration data survives — absent, not inferred.

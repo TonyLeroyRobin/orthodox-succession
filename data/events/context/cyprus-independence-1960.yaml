@@ -1,0 +1,19 @@
+id: event/context/cyprus-independence-1960
+type: context
+title: "Independence of Cyprus"
+date:
+  from:
+    value: "1960-08-16"
+    calendar: gregorian
+    precision: day
+scope: "jurisdiction:jurisdiction/church-of-cyprus"
+description: >-
+  Cyprus becomes an independent republic with Archbishop Makarios III as its
+  first president, fusing ecclesiastical and civil leadership.
+sources:
+  - ref: source/wikipedia
+    locator: "History of Cyprus (1960-present)"
+    reliability: database
+    archived_url: "https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/History_of_Cyprus_(1960%E2%80%93present)"
+status: unverified
+notes: ""

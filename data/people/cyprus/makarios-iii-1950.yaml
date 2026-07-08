@@ -1,0 +1,32 @@
+id: person/cyprus/makarios-iii-1950
+names:
+  monastic: "Makarios"
+  family: "Mouskos"
+  baptismal: "Michael"
+  native:
+    - script: el
+      value: "Μακάριος Γ΄"
+  variants:
+    - "Makarios III"
+born:
+  date:
+    value: "1913-08-13"
+    calendar: gregorian
+    precision: day
+  place: "Panayia, Paphos district, Cyprus"
+died:
+  date:
+    value: "1977-08-03"
+    calendar: gregorian
+    precision: day
+  place: "Nicosia, Cyprus"
+attestation: attested
+sources:
+  - ref: source/church-of-cyprus-official-list
+    reliability: official-list
+status: unverified
+notes: >-
+  Archbishop of Cyprus 1950-1977 and first President of the Republic of
+  Cyprus (1960-1977). Consecrated Bishop of Kition in 1948 (see
+  consecration/cyprus/makarios-iii-1948). Entered from general reference
+  knowledge — human verification against the official list pending.

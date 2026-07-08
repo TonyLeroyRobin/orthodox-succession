@@ -1,0 +1,30 @@
+id: see/cyprus/kourion
+name: "Kourion (Curium)"
+jurisdiction_history:
+  - jurisdiction: jurisdiction/church-of-cyprus
+    from:
+      value: "0431"
+      calendar: julian
+      precision: year
+rank_history:
+  - rank: bishopric
+    from:
+      value: "0431"
+      calendar: julian
+      precision: circa
+      note: "attested as a bishopric by its presence at Ephesus (431)"
+location:
+  lat: 34.664
+  lon: 32.888
+  modern_place: "ruins of Kourion, near Episkopi, Cyprus"
+sources:
+  - ref: source/aco-concilium-universale-ephesenum
+    locator: "subscriptions of the Cypriot bishops"
+    reliability: primary
+  - ref: source/le-quien-oriens-christianus-v2
+    locator: "vol. 2, s.v. Curium (columns to be confirmed)"
+    reliability: scholarly
+status: verified
+notes: >-
+  Ancient suffragan bishopric of Cyprus; earliest firmly attested bishop in
+  this database is Zenon, present at the Council of Ephesus (431).

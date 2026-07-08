@@ -1,0 +1,31 @@
+id: person/cyprus/chrysostomos-i-1977
+names:
+  monastic: "Chrysostomos"
+  family: "Aristodimou"
+  native:
+    - script: el
+      value: "Χρυσόστομος Α΄"
+  variants:
+    - "Chrysostomos I"
+born:
+  date:
+    value: "1927-09-27"
+    calendar: gregorian
+    precision: day
+    note: "date to be confirmed"
+  place: "Tala, Paphos district, Cyprus"
+died:
+  date:
+    value: "2007-12-22"
+    calendar: gregorian
+    precision: day
+    note: "date to be confirmed"
+attestation: attested
+sources:
+  - ref: source/church-of-cyprus-official-list
+    reliability: official-list
+status: unverified
+notes: >-
+  Archbishop of Cyprus 1977-2006; the throne was declared vacant in 2006
+  after prolonged incapacity. Entered from general reference knowledge —
+  human verification pending.

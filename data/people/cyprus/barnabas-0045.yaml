@@ -1,0 +1,39 @@
+id: person/cyprus/barnabas-0045
+names:
+  monastic: "Barnabas"
+  baptismal: "Joseph (Joses)"
+  native:
+    - script: grc
+      value: "Βαρναβᾶς"
+  variants:
+    - "Barnabas the Apostle"
+born:
+  place: "Cyprus"
+died:
+  date:
+    value: "0061"
+    calendar: julian
+    precision: circa
+    note: >-
+      Traditional date of martyrdom at Salamis; not attested in any
+      contemporary document.
+  place: "Salamis, Cyprus (tradition)"
+attestation: attested
+sources:
+  - ref: source/acts-of-the-apostles
+    locator: "Acts 4:36-37; 13:1-12; 15:36-39"
+    reliability: primary
+    note: >-
+      Primary for his existence, Cypriot origin, and missionary activity in
+      Cyprus with Paul and again with Mark.
+  - ref: source/eusebius-ecclesiastical-history
+    locator: "HE 1.12; 2.3"
+    reliability: tradition
+    note: "Barnabas counted among the Seventy."
+status: verified
+notes: >-
+  Apostolic founder of the Church of Cyprus by tradition; recorded as
+  apostolic_founder on see/cyprus/salamis-constantia. His death date and
+  martyrdom are tradition-grade; his tenure record is therefore unverified.
+  No consecration data exists or can exist for the apostolic era — absent,
+  not inferred.

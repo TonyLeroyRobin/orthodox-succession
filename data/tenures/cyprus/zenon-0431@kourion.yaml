@@ -1,0 +1,19 @@
+id: tenure/cyprus/zenon-0431@kourion
+person: person/cyprus/zenon-of-kourion-0431
+see: see/cyprus/kourion
+from:
+  value: "0431"
+  calendar: julian
+  precision: year
+  note: "earliest attested year — in office at the Council of Ephesus"
+end_reason: unknown
+sources:
+  - ref: source/aco-concilium-universale-ephesenum
+    locator: "subscriptions of the Cypriot bishops"
+    reliability: primary
+  - ref: source/le-quien-oriens-christianus-v2
+    locator: "vol. 2, s.v. Curium (columns to be confirmed)"
+    reliability: scholarly
+status: verified
+notes: >-
+  End of tenure unrecorded; `to` deliberately absent.

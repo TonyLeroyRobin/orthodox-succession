@@ -1,0 +1,19 @@
+id: event/context/great-schism-1054
+type: context
+title: "Great Schism of 1054"
+date:
+  from:
+    value: "1054"
+    calendar: julian
+    precision: year
+scope: global
+description: >-
+  Mutual excommunications between Rome and Constantinople crystallize the
+  separation of the Latin West from the Orthodox East.
+sources:
+  - ref: source/wikipedia
+    locator: "East-West Schism"
+    reliability: database
+    archived_url: "https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/East%E2%80%93West_Schism"
+status: unverified
+notes: ""

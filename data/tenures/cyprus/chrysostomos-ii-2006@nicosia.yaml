@@ -1,0 +1,20 @@
+id: tenure/cyprus/chrysostomos-ii-2006@nicosia
+person: person/cyprus/chrysostomos-ii-2006
+see: see/cyprus/nicosia
+from:
+  value: "2006-11"
+  calendar: gregorian
+  precision: month
+  note: "elected 5 November 2006, enthroned 12 November 2006 (to be confirmed)"
+to:
+  value: "2022-11-07"
+  calendar: gregorian
+  precision: day
+end_reason: died
+sources:
+  - ref: source/church-of-cyprus-official-list
+    reliability: official-list
+status: unverified
+notes: >-
+  Entered from general reference knowledge; verify against the official list
+  before promotion.

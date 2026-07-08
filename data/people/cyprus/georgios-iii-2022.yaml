@@ -1,0 +1,25 @@
+id: person/cyprus/georgios-iii-2022
+names:
+  monastic: "Georgios"
+  family: "Papachrysostomou"
+  native:
+    - script: el
+      value: "Γεώργιος Γ΄"
+  variants:
+    - "George III of Cyprus"
+born:
+  date:
+    value: "1949"
+    calendar: gregorian
+    precision: year
+    note: "exact date to be confirmed"
+  place: "Statos, Paphos district, Cyprus"
+attestation: attested
+sources:
+  - ref: source/church-of-cyprus-official-list
+    reliability: official-list
+status: unverified
+notes: >-
+  Archbishop of Cyprus from December 2022; previously Metropolitan of Paphos
+  (from 2006) and Bishop of Arsinoe (from 1996). Entered from general
+  reference knowledge — human verification pending.

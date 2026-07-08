@@ -1,0 +1,22 @@
+id: tenure/cyprus/epiphanios-0367@salamis
+person: person/cyprus/epiphanios-of-salamis-0367
+see: see/cyprus/salamis-constantia
+from:
+  value: "0367"
+  calendar: julian
+  precision: year
+to:
+  value: "0403"
+  calendar: julian
+  precision: year
+end_reason: died
+sources:
+  - ref: source/le-quien-oriens-christianus-v2
+    locator: "vol. 2, s.v. Salamis/Constantia (columns to be confirmed)"
+    reliability: scholarly
+  - ref: source/church-of-cyprus-official-list
+    reliability: official-list
+status: verified
+notes: >-
+  Elected bishop of Constantia in 367; died in 403 at sea returning from
+  Constantinople.

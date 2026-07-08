@@ -1,0 +1,25 @@
+id: person/cyprus/makarios-ii-1947
+names:
+  monastic: "Makarios"
+  family: "Myriantheus"
+  native:
+    - script: el
+      value: "Μακάριος Β΄"
+  variants:
+    - "Makarios II"
+died:
+  date:
+    value: "1950-06-28"
+    calendar: gregorian
+    precision: day
+    note: "date to be confirmed against the official list"
+attestation: attested
+sources:
+  - ref: source/church-of-cyprus-official-list
+    reliability: official-list
+status: unverified
+notes: >-
+  Archbishop of Cyprus 1947-1950; predecessor of Makarios III and, per common
+  accounts, his principal consecrator (1948). Entered from general reference
+  knowledge — verify names, dates, and details against the official list and
+  a scholarly source before promotion.

@@ -1,0 +1,19 @@
+id: event/context/fall-of-constantinople-1453
+type: context
+title: "Fall of Constantinople"
+date:
+  from:
+    value: "1453-05-29"
+    calendar: julian
+    precision: day
+scope: global
+description: >-
+  The Ottoman conquest of Constantinople ends the Byzantine Empire and opens
+  the Ottoman era for the Orthodox churches of the eastern Mediterranean.
+sources:
+  - ref: source/wikipedia
+    locator: "Fall of Constantinople"
+    reliability: database
+    archived_url: "https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Fall_of_Constantinople"
+status: unverified
+notes: ""

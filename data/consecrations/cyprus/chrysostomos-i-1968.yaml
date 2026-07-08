@@ -1,0 +1,17 @@
+id: consecration/cyprus/chrysostomos-i-1968
+consecrated: person/cyprus/chrysostomos-i-1977
+date:
+  value: "1968"
+  calendar: gregorian
+  precision: year
+  note: "consecrated to the episcopate under Makarios III; year to be confirmed"
+principal_consecrator: person/cyprus/makarios-iii-1950
+co_consecrators: []
+sources:
+  - ref: source/church-of-cyprus-official-list
+    reliability: official-list
+    note: "to be confirmed from synodal records"
+status: unverified
+notes: >-
+  Details (exact date, see of first appointment, co-consecrators) pending
+  human verification.
