@@ -1,0 +1,24 @@
+id: see/cyprus/kition
+name: Kition (Larnaca)
+jurisdiction_history:
+- jurisdiction: jurisdiction/church-of-cyprus
+  from:
+    value: '0431'
+    calendar: julian
+    precision: year
+    note: jurisdiction from the confirmation of Cypriot autocephaly; the see itself
+      is older — founding data to be added with sources
+location:
+  lat: 34.916
+  lon: 33.624
+  modern_place: Larnaca, Cyprus
+sources:
+- ref: source/church-of-cyprus-official-list
+  reliability: official-list
+- ref: source/le-quien-oriens-christianus-v2
+  reliability: scholarly
+  locator: vol. 2, Cyprus section (columns to be confirmed)
+status: unverified
+notes: Ancient bishopric associated by tradition with Lazarus of Bethany; modern
+  metropolis seated at Larnaca. Suffragan-see draft (Milestone 4) — rank_history
+  and tenure lists to be filled from the official list and Fedalto during verification.

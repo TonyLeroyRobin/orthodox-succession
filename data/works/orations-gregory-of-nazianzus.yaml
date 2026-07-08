@@ -1,0 +1,35 @@
+id: work/orations-gregory-of-nazianzus
+title: Orations
+author: person/constantinople/gregory-of-nazianzus-0379
+relation: by
+language: Ancient Greek
+date:
+  value: 0380
+  calendar: julian
+  precision: circa
+attribution: authentic
+cpg: CPG 3010
+genre: homily
+editions:
+- type: original
+  language: Ancient Greek
+  series: Patrologia Graeca
+  locator: PG 35-36
+  url: https://patristica.net/graeca/
+  rights: public-domain
+- type: translation
+  language: English
+  translator: Charles Gordon Browne and James Edward Swallow
+  series: NPNF, Series II, vol. 7
+  year: 1894
+  url: https://www.ccel.org/ccel/schaff/npnf207.html
+  rights: public-domain
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 3010
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: PG 35-36
+status: verified
+notes: The 45 orations, including the Five Theological Orations (27-31).

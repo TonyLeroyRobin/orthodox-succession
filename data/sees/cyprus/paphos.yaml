@@ -1,0 +1,25 @@
+id: see/cyprus/paphos
+name: Paphos
+jurisdiction_history:
+- jurisdiction: jurisdiction/church-of-cyprus
+  from:
+    value: '0431'
+    calendar: julian
+    precision: year
+    note: jurisdiction from the confirmation of Cypriot autocephaly; the see itself
+      is older — founding data to be added with sources
+location:
+  lat: 34.776
+  lon: 32.424
+  modern_place: Paphos, Cyprus
+sources:
+- ref: source/church-of-cyprus-official-list
+  reliability: official-list
+- ref: source/le-quien-oriens-christianus-v2
+  reliability: scholarly
+  locator: vol. 2, Cyprus section (columns to be confirmed)
+status: unverified
+notes: Ancient bishopric; today the senior metropolis of the Church of Cyprus. Its
+  bishop consecrates the new archbishop by privilege. Suffragan-see draft (Milestone
+  4) — rank_history and tenure lists to be filled from the official list and Fedalto
+  during verification.

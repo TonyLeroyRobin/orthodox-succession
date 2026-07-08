@@ -1,0 +1,37 @@
+id: work/commentary-on-john-cyril
+title: Commentary on the Gospel of John
+author: person/alexandria/cyril-i-of-alexandria-0412
+relation: by
+language: Ancient Greek
+date:
+  value: 0428
+  calendar: julian
+  precision: circa
+  note: composed before the Nestorian controversy
+attribution: authentic
+cpg: CPG 5208
+genre: treatise
+editions:
+- type: original
+  language: Ancient Greek
+  series: Patrologia Graeca
+  locator: PG 73-74
+  url: https://patristica.net/graeca/
+  rights: public-domain
+- type: translation
+  language: English
+  translator: P. E. Pusey and T. Randell
+  series: Library of Fathers of the Holy Catholic Church
+  year: 1874
+  url: https://www.tertullian.org/fathers/
+  rights: public-domain
+  notes: digitized at tertullian.org (Early Church Fathers - Additional Texts)
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 5208
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: PG 73-74
+status: verified
+notes: ''

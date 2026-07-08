@@ -1,0 +1,32 @@
+id: work/bibliotheca-photius
+title: Bibliotheca (Myriobiblon)
+author: person/constantinople/photios-i-of-constantinople-0858
+relation: by
+language: Ancient Greek
+date:
+  value: 0845
+  calendar: julian
+  precision: circa
+  note: date of composition debated
+attribution: authentic
+genre: study
+editions:
+- type: original
+  language: Ancient Greek
+  series: Patrologia Graeca
+  locator: PG 103-104
+  url: https://patristica.net/graeca/
+  rights: public-domain
+- type: translation
+  language: English
+  translator: N. G. Wilson (selection)
+  series: 'The Bibliotheca: A Selection (Duckworth)'
+  year: 1994
+  rights: in-copyright
+sources:
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: PG 103-104
+status: verified
+notes: Reviews of 279 books, many otherwise lost — the greatest literary catalogue
+  of Byzantium. Post-patristic, so no CPG number.
