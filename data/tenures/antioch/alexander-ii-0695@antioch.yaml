@@ -11,11 +11,15 @@ sources:
 - ref: source/wikidata
   locator: Q25456560
   reliability: database
-  note: programmatic seed — verify against a graded source; term dates from P39 start/end
-    qualifiers
+  note: programmatic seed — verify against a graded source; term dates from P39
+    start/end qualifiers
 status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source. Verification pass 2026-07-08 (Wikipedia
+  lead-generation cross-check ONLY — no official Antioch list found online; not
+  sufficient for promotion): DISCREPANCY: the Wikipedia list gives George II (685?-702?)
+  in this window and no Alexander II — seventh-century Antiochene lists conflict;
+  resolve against Grumel before promotion.'
 to:
   value: '0702'
   calendar: julian

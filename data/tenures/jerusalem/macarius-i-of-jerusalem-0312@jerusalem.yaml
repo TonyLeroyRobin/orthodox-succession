@@ -2,15 +2,32 @@ id: tenure/jerusalem/macarius-i-of-jerusalem-0312@jerusalem
 person: person/jerusalem/macarius-i-of-jerusalem-0312
 see: see/jerusalem/jerusalem
 from:
-  value: '0312'
+  value: '0314'
   calendar: julian
   precision: circa
+  note: >-
+    Corrected 2026-07-08 from the hand-entered c. 312 to the official
+    list's 314 (no. 39, Makarios I 314-333); precision stays circa — early
+    fourth-century dates are approximate in all sources.
 to:
-  value: '0335'
+  value: '0333'
   calendar: julian
   precision: circa
+  note: corrected 2026-07-08 from the hand-entered c. 335 to the official list's 333
 end_reason: died
 sources:
 - ref: source/npnf-2-14-seven-councils
   reliability: scholarly
-status: unverified
+- ref: source/jerusalem-patriarchate-succession
+  locator: "entry: Makarios I 314–333 (no. 39)"
+  reliability: official-list
+  archived_url: "https://web.archive.org/web/2026/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/"
+  note: year-wildcard archive redirect; Save Page Now requested 2026-07-08 —
+    pin the exact snapshot when it propagates
+status: verified
+notes: >-
+  Verified against the official Jerusalem Patriarchate apostolic-succession
+  list (verification pass 2026-07-08) at circa precision. His participation
+  at Nicaea (325) falls within this tenure. Review performed by the AI
+  assistant at user direction — spot-check before treating as
+  human-verified.

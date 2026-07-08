@@ -15,9 +15,9 @@ sources:
     start/end qualifiers
 status: unverified
 notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source. Verification pass verification pass
-  2026-07-08: NOT corroborated by the official EP list as fetched — check name form
-  and dates manually against Kiminas/Grumel.'
+  against a diadochal list or scholarly source. Verification pass 2026-07-08: NOT
+  corroborated by the official EP list as fetched — check name form and dates manually
+  against Kiminas/Grumel.'
 to:
   value: '1921'
   calendar: gregorian

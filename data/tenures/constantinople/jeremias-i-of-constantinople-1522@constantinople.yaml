@@ -15,9 +15,9 @@ sources:
     start/end qualifiers
 status: unverified
 notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source. Verification pass verification pass
-  2026-07-08: near-match on the official EP list (Jeremias I 1522-1545) but dates
-  differ by a year — reconcile against Kiminas/Grumel before promotion.'
+  against a diadochal list or scholarly source. Verification pass 2026-07-08: near-match
+  on the official EP list (Jeremias I 1522-1545) but dates differ by a year — reconcile
+  against Kiminas/Grumel before promotion.'
 to:
   value: '1546'
   calendar: julian

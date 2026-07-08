@@ -11,11 +11,13 @@ sources:
 - ref: source/wikidata
   locator: Q4234957
   reliability: database
-  note: programmatic seed — verify against a graded source; term dates from P39 start/end
-    qualifiers
+  note: programmatic seed — verify against a graded source; term dates from P39
+    start/end qualifiers
 status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source. Verification pass 2026-07-08: near-match
+  on the official Alexandria Patriarchate Previous Patriarchs list (Kosmas III 1736-1746)
+  but dates differ by a year — reconcile before promotion.'
 to:
   value: '1746'
   calendar: gregorian

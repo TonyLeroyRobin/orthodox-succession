@@ -2,22 +2,35 @@ id: tenure/jerusalem/basil-of-jerusalem-0820@jerusalem
 person: person/jerusalem/basil-of-jerusalem-0820
 see: see/jerusalem/jerusalem
 from:
-  value: 0820
+  value: '0820'
   calendar: julian
   precision: year
-  note: seeded from Wikidata; verify date, precision, and calendar
+  note: seeded from Wikidata; year confirmed by the official list
+to:
+  value: '0838'
+  calendar: julian
+  precision: year
+  note: >-
+    Wikidata carried conflicting end dates (838/839/842), which the seeder
+    had expanded into three tenure records; consolidated 2026-07-08 to the
+    official list's 838 and the duplicates removed (pre-publication
+    cleanup).
 end_reason: unknown
 sources:
 - ref: source/wikidata
   locator: Q15053553
   reliability: database
-  note: programmatic seed — verify against a graded source; term dates from P39 start/end
-    qualifiers
-status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
-to:
-  value: 0839
-  calendar: julian
-  precision: year
-  note: seeded from Wikidata; verify date, precision, and calendar
+  note: programmatic seed — verify against a graded source; term dates from P39
+    start/end qualifiers
+- ref: source/jerusalem-patriarchate-succession
+  locator: "entry: Basilios 820–838 (no. 65)"
+  reliability: official-list
+  archived_url: "https://web.archive.org/web/2026/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/"
+  note: year-wildcard archive redirect; Save Page Now requested 2026-07-08 —
+    pin the exact snapshot when it propagates
+status: verified
+notes: >-
+  Verified against the official Jerusalem Patriarchate apostolic-succession
+  list (verification pass 2026-07-08): Basilios, 820-838. Review performed
+  by the AI assistant at user direction — spot-check before treating as
+  human-verified.

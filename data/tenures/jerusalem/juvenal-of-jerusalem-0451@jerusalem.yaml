@@ -2,22 +2,36 @@ id: tenure/jerusalem/juvenal-of-jerusalem-0451@jerusalem
 person: person/jerusalem/juvenal-of-jerusalem-0451
 see: see/jerusalem/jerusalem
 from:
-  value: '0451'
+  value: '0422'
   calendar: julian
   precision: year
-  note: seeded from Wikidata; verify date, precision, and calendar
+  note: >-
+    Corrected 2026-07-08: the Wikidata seed gave 451 (the year Jerusalem's
+    patriarchal jurisdiction was settled at Chalcedon), but Juvenal's
+    occupancy of the see began in 422 per the official list (no. 44,
+    Juvenalios 422-458). The patriarchal elevation belongs to the see's
+    rank_history, not to the tenure start.
+to:
+  value: '0458'
+  calendar: julian
+  precision: year
 end_reason: unknown
 sources:
 - ref: source/wikidata
   locator: Q2996896
   reliability: database
-  note: programmatic seed — verify against a graded source; term dates from P39 start/end
-    qualifiers
-status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
-to:
-  value: 0458
-  calendar: julian
-  precision: year
-  note: seeded from Wikidata; verify date, precision, and calendar
+  note: programmatic seed — verify against a graded source; term dates from P39
+    start/end qualifiers
+- ref: source/jerusalem-patriarchate-succession
+  locator: "entry: Juvenalios 422–458 (no. 44)"
+  reliability: official-list
+  archived_url: "https://web.archive.org/web/2026/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/"
+  note: year-wildcard archive redirect; Save Page Now requested 2026-07-08 —
+    pin the exact snapshot when it propagates
+status: verified
+notes: >-
+  Verified against the official Jerusalem Patriarchate apostolic-succession
+  list (verification pass 2026-07-08). His participations at Ephesus (431)
+  and Chalcedon (451) fall within this tenure. Review performed by the AI
+  assistant at user direction — spot-check before treating as
+  human-verified.
