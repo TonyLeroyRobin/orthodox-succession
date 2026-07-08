@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orthodox Apostolic Succession — Cyprus pilot</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Orthodox Apostolic Succession Database</h1>
+<p class="subtitle">Cyprus pilot — succession-of-sees timeline with historical context band.
+Prototype; regenerated from <code>build/site-data/</code>.</p>
+
+<div id="error"></div>
+
+<div class="panel">
+  <h2>Succession timeline — Church of Cyprus</h2>
+  <p class="note">Bars are tenures (see-succession). Hatched right edge = end of
+  tenure unrecorded. The top band is the curated context layer — background
+  only, never part of any succession chain. Click a bar for the bishop's profile.</p>
+  <div id="timeline"></div>
+  <p>
+    <span class="badge verified">verified</span>
+    <span class="badge unverified">unverified</span>
+    <span class="badge disputed">disputed</span>
+    &nbsp; context: <svg width="30" height="12"><rect x="0" y="2" width="12" height="9" fill="#90a4ae"></rect><circle cx="22" cy="6" r="4" fill="#546e7a"></circle></svg>
+    span / point event
+  </p>
+</div>
+
+<div class="panel">
+  <h2>Succession lists by see</h2>
+  <div id="lists"></div>
+</div>
+
+<footer>
+Data: CC BY 4.0 · Code: MIT · Every record carries graded citations;
+<em>unverified</em> means a human has not yet confirmed the claim against a
+graded source. Recognition disputes are recorded, not adjudicated.
+</footer>
+
+<script src="app.js"></script>
+<script>
+(async function () {
+  let D;
+  try {
+    D = await loadData(["people", "sees", "tenures", "events", "sources"]);
+  } catch (e) {
+    document.getElementById("error").innerHTML =
+      `<p class="error">Could not load data: ${esc(e.message)}.<br>
+       Run the build (<code>make build</code> / <code>build.ps1</code>) and serve the
+       repo root over HTTP: <code>python -m http.server</code>, then open
+       <code>http://localhost:8000/site/</code>.</p>`;
+    return;
+  }
+  const people = byId(D.people), seesMap = byId(D.sees), sources = byId(D.sources);
+
+  /* ---------- timeline ---------- */
+  const tenures = D.tenures.slice();
+  const contexts = D.events.filter((e) => e.type === "context");
+  const years = [];
+  for (const t of tenures) {
+    const y = dateYearNum(t.from); if (y !== null) years.push(y);
+    const y2 = dateYearNum(t.to); if (y2 !== null) years.push(y2);
+  }
+  for (const c of contexts) {
+    const y = dateYearNum((c.date || {}).from); if (y !== null) years.push(y);
+  }
+  const minY = Math.min(0, ...years), maxY = Math.max(...years) + 30;
+
+  const X0 = 190, W = 1000, ROWH = 34, CTXH = 52;
+  const x = (yr) => X0 + ((yr - minY) / (maxY - minY)) * W;
+
+  // order sees by earliest tenure start
+  const seeOrder = [...new Set(tenures.map((t) => t.see))];
+  seeOrder.sort((a, b) => {
+    const fa = Math.min(...tenures.filter((t) => t.see === a).map((t) => dateYearNum(t.from) ?? 9999));
+    const fb = Math.min(...tenures.filter((t) => t.see === b).map((t) => dateYearNum(t.from) ?? 9999));
+    return fa - fb;
+  });
+
+  const H = CTXH + seeOrder.length * ROWH + 40;
+  let svg = `<svg viewBox="0 0 ${X0 + W + 20} ${H}" width="100%" role="img">`;
+
+  // century gridlines
+  for (let yr = Math.ceil(minY / 200) * 200; yr <= maxY; yr += 200) {
+    svg += `<line x1="${x(yr)}" y1="${CTXH - 38}" x2="${x(yr)}" y2="${H - 30}" stroke="#e3ded4"/>` +
+           `<text x="${x(yr)}" y="${H - 14}" font-size="10" fill="#7a7265" text-anchor="middle">${yr}</text>`;
+  }
+
+  // context band
+  svg += `<text x="4" y="${CTXH - 24}" font-size="11" fill="#7a7265">context</text>`;
+  const colors = { global: "#546e7a", jurisdiction: "#90a4ae" };
+  for (const c of contexts) {
+    const f = dateYearNum((c.date || {}).from);
+    const t = dateYearNum((c.date || {}).to);
+    if (f === null) continue;
+    const scopeKind = (c.scope || "global").startsWith("jurisdiction") ? "jurisdiction" : "global";
+    const tip = `<title>${esc(c.title)} (${esc(fmtDate((c.date || {}).from))})\n${esc(c.description || "")}</title>`;
+    if (t !== null && t > f) {
+      svg += `<rect x="${x(f)}" y="${CTXH - 34}" width="${Math.max(3, x(t) - x(f))}" height="12" fill="${colors[scopeKind]}" opacity="0.55">${tip}</rect>`;
+    } else {
+      svg += `<circle cx="${x(f)}" cy="${CTXH - 28}" r="5" fill="${colors[scopeKind]}">${tip}</circle>`;
+    }
+  }
+
+  // tenure rows per see
+  const statusFill = { verified: "#2e7d32", unverified: "#b26a00", disputed: "#b3261e" };
+  seeOrder.forEach((seeId, i) => {
+    const yTop = CTXH + i * ROWH;
+    const see = seesMap.get(seeId);
+    svg += `<text x="4" y="${yTop + 18}" font-size="12" fill="#2b2620">${esc(see ? see.name : seeId)}</text>` +
+           `<line x1="${X0}" y1="${yTop + 24}" x2="${X0 + W}" y2="${yTop + 24}" stroke="#eee8dc"/>`;
+    for (const t of tenures.filter((t) => t.see === seeId)) {
+      const f = dateYearNum(t.from);
+      if (f === null) continue;
+      const open = !t.to;
+      const isIncumbent = open && f > 1900;
+      const tEnd = dateYearNum(t.to) ?? (isIncumbent ? maxY - 25 : f + 8);
+      const wpx = Math.max(6, x(tEnd) - x(f));
+      const p = people.get(t.person);
+      const tip = `<title>${esc(personName(p))}\n${esc(fmtRange(t.from, t.to, isIncumbent ? "incumbent" : "end unrecorded"))}\nstatus: ${esc(t.status)}</title>`;
+      svg += `<a href="person.html?id=${encodeURIComponent(t.person)}">` +
+             `<rect class="tenure-bar" x="${x(f)}" y="${yTop + 8}" width="${wpx}" height="14" rx="2" ` +
+             `fill="${statusFill[t.status] || "#777"}" opacity="${open && !isIncumbent ? 0.55 : 0.9}">${tip}</rect></a>`;
+    }
+  });
+
+  svg += "</svg>";
+  document.getElementById("timeline").innerHTML = svg;
+
+  /* ---------- succession lists ---------- */
+  let html = "";
+  for (const seeId of seeOrder) {
+    const see = seesMap.get(seeId);
+    const rows = tenures
+      .filter((t) => t.see === seeId)
+      .sort((a, b) => (dateYearNum(a.from) ?? 0) - (dateYearNum(b.from) ?? 0))
+      .map((t) => {
+        const p = people.get(t.person);
+        return `<tr><td>${personLink(p)}</td>` +
+               `<td>${esc(fmtRange(t.from, t.to, "—"))}</td>` +
+               `<td>${esc(t.end_reason)}</td>` +
+               `<td>${statusBadge(t.status)}</td>` +
+               `<td>${citationsHtml(t.sources, sources)}</td></tr>`;
+      })
+      .join("");
+    html += `<h3>${esc(see ? see.name : seeId)}</h3>
+      <p class="note">${esc(see && see.notes ? see.notes : "")}</p>
+      <table><thead><tr><th>Bishop</th><th>Tenure</th><th>End</th><th>Status</th><th>Sources</th></tr></thead>
+      <tbody>${rows}</tbody></table>`;
+  }
+  document.getElementById("lists").innerHTML = html;
+})();
+</script>
+</body>
+</html>

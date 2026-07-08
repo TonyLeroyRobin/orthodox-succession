@@ -1,0 +1,55 @@
+/* Prototype dashboard — crude but functional (Milestone 1). */
+:root {
+  --bg: #f7f5f0;
+  --ink: #2b2620;
+  --muted: #7a7265;
+  --line: #d8d2c6;
+  --verified: #2e7d32;
+  --unverified: #b26a00;
+  --disputed: #b3261e;
+  --accent: #5d4037;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 1.5rem;
+  font: 15px/1.55 Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--ink);
+}
+h1, h2, h3 { font-weight: 600; color: var(--accent); }
+h1 { font-size: 1.7rem; margin-bottom: .2rem; }
+a { color: var(--accent); }
+.subtitle { color: var(--muted); margin-top: 0; }
+.panel {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+  overflow-x: auto;
+}
+.badge {
+  display: inline-block;
+  font: 11px/1 sans-serif;
+  padding: 3px 8px;
+  border-radius: 10px;
+  color: #fff;
+  vertical-align: middle;
+}
+.badge.verified { background: var(--verified); }
+.badge.unverified { background: var(--unverified); }
+.badge.disputed { background: var(--disputed); }
+.badge.grade { background: #607d8b; }
+.badge.model { background: #37474f; }
+table { border-collapse: collapse; width: 100%; }
+th, td { text-align: left; padding: .35rem .6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-family: sans-serif; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+.citation { font-size: .88rem; color: var(--muted); margin: .15rem 0 .15rem 1rem; }
+.note { font-size: .88rem; color: var(--muted); font-style: italic; }
+.error { color: var(--disputed); font-weight: bold; }
+svg text { font-family: sans-serif; }
+.tenure-bar { cursor: pointer; }
+.tenure-bar:hover { opacity: .75; }
+footer { color: var(--muted); font-size: .8rem; margin-top: 2rem; }

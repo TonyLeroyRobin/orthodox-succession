@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bishop profile — Orthodox Apostolic Succession</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p><a href="index.html">&larr; back to the Cyprus timeline</a></p>
+<div id="error"></div>
+<div id="profile"></div>
+<footer>
+Data: CC BY 4.0 · The two succession models (occupancy of sees vs. laying-on
+of hands) are shown separately and never conflated. Absent consecration data
+is stated, not inferred.
+</footer>
+
+<script src="app.js"></script>
+<script>
+(async function () {
+  const id = new URLSearchParams(location.search).get("id");
+  let D;
+  try {
+    D = await loadData(["people", "sees", "tenures", "consecrations",
+                        "participations", "events", "works", "sources"]);
+  } catch (e) {
+    document.getElementById("error").innerHTML =
+      `<p class="error">Could not load data: ${esc(e.message)}. Serve the repo
+       root over HTTP (python -m http.server) after running the build.</p>`;
+    return;
+  }
+  const people = byId(D.people), seesMap = byId(D.sees),
+        eventsMap = byId(D.events), sources = byId(D.sources);
+  const p = people.get(id);
+  if (!p) {
+    document.getElementById("error").innerHTML =
+      `<p class="error">No person with id ${esc(id)}.</p>`;
+    return;
+  }
+  document.title = personName(p) + " — Orthodox Apostolic Succession";
+
+  const n = p.names || {};
+  const native = (n.native || []).map((x) => esc(x.value)).join(", ");
+  const variants = (n.variants || []).map(esc).join("; ");
+
+  let html = `<h1>${esc(personName(p))} ${statusBadge(p.status)}</h1>`;
+  html += `<p class="subtitle">${esc(p.id)} · attestation: <strong>${esc(p.attestation)}</strong></p>`;
+
+  html += `<div class="panel"><h2>Identity</h2><table><tbody>`;
+  if (n.baptismal) html += `<tr><th>Baptismal name</th><td>${esc(n.baptismal)}</td></tr>`;
+  if (n.family) html += `<tr><th>Family name</th><td>${esc(n.family)}</td></tr>`;
+  if (native) html += `<tr><th>Native script</th><td>${native}</td></tr>`;
+  if (variants) html += `<tr><th>Variants</th><td>${variants}</td></tr>`;
+  if (p.born) html += `<tr><th>Born</th><td>${esc(fmtDate((p.born || {}).date))}${p.born.place ? " — " + esc(p.born.place) : ""}</td></tr>`;
+  if (p.died) html += `<tr><th>Died</th><td>${esc(fmtDate((p.died || {}).date))}${p.died.place ? " — " + esc(p.died.place) : ""}</td></tr>`;
+  html += `</tbody></table>
+    ${citationsHtml(p.sources, sources)}
+    ${p.notes ? `<p class="note">${esc(p.notes)}</p>` : ""}</div>`;
+
+  /* ---- see-succession: tenures ---- */
+  const myTenures = D.tenures.filter((t) => t.person === id);
+  html += `<div class="panel"><h2>Sees held <span class="badge model">see-succession</span></h2>`;
+  if (myTenures.length) {
+    html += `<table><thead><tr><th>See</th><th>Tenure</th><th>End</th><th>Recognition</th><th>Status</th></tr></thead><tbody>`;
+    for (const t of myTenures) {
+      const see = seesMap.get(t.see);
+      const rec = (t.recognition || [])
+        .map((r) => `${esc(r.by)}: ${esc(r.status)}`).join("; ") || "—";
+      html += `<tr><td>${esc(see ? see.name : t.see)}</td>
+        <td>${esc(fmtRange(t.from, t.to, "end unrecorded / incumbent"))}</td>
+        <td>${esc(t.end_reason)}</td><td>${rec}</td><td>${statusBadge(t.status)}</td></tr>
+        <tr><td colspan="5">${citationsHtml(t.sources, sources)}
+        ${t.notes ? `<div class="note">${esc(t.notes)}</div>` : ""}</td></tr>`;
+    }
+    html += `</tbody></table>`;
+  } else {
+    html += `<p class="note">No tenure records.</p>`;
+  }
+  html += `</div>`;
+
+  /* ---- consecration-succession ---- */
+  const received = D.consecrations.filter((c) => c.consecrated === id);
+  const given = D.consecrations.filter((c) =>
+    c.principal_consecrator === id || (c.co_consecrators || []).includes(id));
+  html += `<div class="panel"><h2>Consecration <span class="badge model">consecration-succession</span></h2>`;
+  if (received.length) {
+    for (const c of received) {
+      const pc = c.principal_consecrator ? personLink(people.get(c.principal_consecrator)) : "<em>not recorded</em>";
+      const cos = (c.co_consecrators || []).map((x) => personLink(people.get(x))).join(", ") ||
+                  "<em>not yet recorded</em>";
+      html += `<table><tbody>
+        <tr><th>Date</th><td>${esc(fmtDate(c.date))}${c.place ? " — " + esc(c.place) : ""}</td></tr>
+        <tr><th>Principal consecrator</th><td>${pc}</td></tr>
+        <tr><th>Co-consecrators</th><td>${cos}</td></tr>
+        <tr><th>Status</th><td>${statusBadge(c.status)}</td></tr>
+        </tbody></table>
+        ${citationsHtml(c.sources, sources)}
+        ${c.notes ? `<p class="note">${esc(c.notes)}</p>` : ""}`;
+    }
+  } else {
+    html += `<p><em>No consecration data recorded — absent, not inferred.</em></p>`;
+  }
+  if (given.length) {
+    html += `<h3>Consecrations performed</h3><ul>`;
+    for (const c of given) {
+      const role = c.principal_consecrator === id ? "principal" : "co-consecrator";
+      html += `<li>${personLink(people.get(c.consecrated))} — ${esc(fmtDate(c.date))} (${role}) ${statusBadge(c.status)}</li>`;
+    }
+    html += `</ul>`;
+  }
+  html += `</div>`;
+
+  /* ---- councils ---- */
+  const myParts = D.participations.filter((x) => x.person === id);
+  if (myParts.length) {
+    html += `<div class="panel"><h2>Councils</h2><table>
+      <thead><tr><th>Council</th><th>Date</th><th>Role</th><th>Status</th><th>Sources</th></tr></thead><tbody>`;
+    for (const pt of myParts) {
+      const ev = eventsMap.get(pt.event);
+      html += `<tr><td>${esc(ev ? ev.title : pt.event)}</td>
+        <td>${esc(ev ? fmtDate((ev.date || {}).from) : "—")}</td>
+        <td>${esc(pt.role)}</td><td>${statusBadge(pt.status)}</td>
+        <td>${citationsHtml(pt.sources, sources)}</td></tr>`;
+    }
+    html += `</tbody></table></div>`;
+  }
+
+  /* ---- works ---- */
+  const myWorks = D.works.filter((w) =>
+    w.author === id || (w.subject_of || []).includes(id));
+  if (myWorks.length) {
+    html += `<div class="panel"><h2>Works</h2>`;
+    for (const w of myWorks) {
+      html += `<h3>${esc(w.title)} ${statusBadge(w.status)}</h3>
+        <p class="note">${esc(w.relation)} this bishop · ${esc(w.genre)} ·
+        attribution: ${esc(w.attribution)}${w.cpg ? " · " + esc(w.cpg) : ""} ·
+        ${esc(fmtDate(w.date))}</p>`;
+      const eds = w.editions || [];
+      if (eds.length) {
+        html += `<table><thead><tr><th>Edition</th><th>Language</th><th>Series / locator</th><th>Rights</th><th>Read</th></tr></thead><tbody>`;
+        for (const ed of eds) {
+          html += `<tr><td>${esc(ed.type)}${ed.translator ? " — tr. " + esc(ed.translator) : ""}${ed.year ? " (" + ed.year + ")" : ""}</td>
+            <td>${esc(ed.language)}</td>
+            <td>${esc([ed.series, ed.locator].filter(Boolean).join(" — "))}</td>
+            <td>${esc(ed.rights)}</td>
+            <td>${ed.url ? `<a href="${esc(ed.url)}">read</a>` : "—"}</td></tr>`;
+        }
+        html += `</tbody></table>`;
+      }
+      html += citationsHtml(w.sources, sources);
+    }
+    html += `</div>`;
+  }
+
+  document.getElementById("profile").innerHTML = html;
+})();
+</script>
+</body>
+</html>
