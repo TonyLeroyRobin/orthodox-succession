@@ -11,11 +11,13 @@ sources:
 - ref: source/wikidata
   locator: Q3138162
   reliability: database
-  note: programmatic seed — verify against a graded source; term dates from P39 start/end
-    qualifiers
+  note: programmatic seed — verify against a graded source; term dates from P39
+    start/end qualifiers
 status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source. Verification pass verification pass
+  2026-07-08: NOT corroborated by the official EP list as fetched — check name form
+  and dates manually against Kiminas/Grumel.'
 to:
   value: '1332'
   calendar: julian

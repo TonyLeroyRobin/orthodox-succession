@@ -2,19 +2,28 @@ id: tenure/constantinople/bartholomew-i-of-constantinople-1991@constantinople
 person: person/constantinople/bartholomew-i-of-constantinople-1991
 see: see/constantinople/constantinople
 from:
-  value: "1991-11-02"
+  value: '1991-11-02'
   calendar: gregorian
   precision: day
-  note: "enthronement 2 November 1991; seeded year 1991 from Wikidata, day from general reference — confirm"
+  note: enthronement 2 November 1991; seeded year 1991 from Wikidata, day from general
+    reference — confirm
 end_reason: unknown
 sources:
-  - ref: source/wikidata
-    locator: Q44501
-    reliability: database
-    note: programmatic seed — verify against a graded source; term dates from P39 start/end qualifiers
-  - ref: source/ecumenical-patriarchate-official
-    reliability: official-list
-status: unverified
-notes: >-
-  Incumbent — tenure ongoing; end_reason `unknown` by convention for sitting
-  hierarchs. Renamed pre-publication from the seeded draft id.
+- ref: source/wikidata
+  locator: Q44501
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39
+    start/end qualifiers
+- ref: source/ecumenical-patriarchate-official
+  reliability: official-list
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Bartholomew 1991–present'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+  note: official EP diadochal list; dates match the seeded record
+status: verified
+notes: 'Incumbent — tenure ongoing; end_reason `unknown` by convention for sitting
+  hierarchs. Renamed pre-publication from the seeded draft id. Verified against
+  the official EP list (verification pass 2026-07-08, pinned snapshot in the citation):
+  name and tenure years match. Review performed by the AI assistant at user direction
+  — spot-check before treating as human-verified.'
