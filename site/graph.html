@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Consecration graph — Orthodox Apostolic Succession</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  #graph { border: 1px solid var(--line); border-radius: 6px; background: #fff; }
+  #graph text { pointer-events: none; }
+  .glegend { font-size: .85rem; color: var(--muted); }
+  .glegend svg { vertical-align: middle; }
+</style>
+</head>
+<body>
+<h1>Consecration-succession graph</h1>
+<p class="subtitle">
+  <a href="index.html">&larr; timelines</a> ·
+  Who laid hands on whom <span class="badge model">consecration-succession</span> —
+  a directed acyclic graph, kept strictly apart from the succession of sees.
+  Drag nodes, scroll to zoom, click a node for the bishop's profile.
+</p>
+<div id="error"></div>
+<div class="panel">
+  <div id="graph"></div>
+  <p class="glegend">
+    edges:
+    <svg width="46" height="10"><line x1="0" y1="5" x2="40" y2="5" stroke="#37474f" stroke-width="2"/></svg> principal consecrator
+    &nbsp;<svg width="46" height="10"><line x1="0" y1="5" x2="40" y2="5" stroke="#37474f" stroke-width="2" stroke-dasharray="5,4"/></svg> co-consecrator
+    &nbsp;&nbsp;nodes:
+    <span class="badge verified">verified</span>
+    <span class="badge unverified">unverified</span>
+    <span class="badge disputed">disputed</span>
+    &nbsp;<svg width="18" height="14"><circle cx="9" cy="7" r="5" fill="#b26a00" stroke="#c9a227" stroke-width="3"/></svg> primary writings survive
+    &nbsp;<svg width="18" height="14"><circle cx="9" cy="7" r="5" fill="#b26a00" stroke="#b3261e" stroke-width="2" stroke-dasharray="3,2"/></svg> recognition disputed
+  </p>
+  <p class="note" id="stats"></p>
+</div>
+<footer>
+  Absent consecration data is stated, never inferred — bishops without a
+  consecration record simply do not appear here. Seeded edges (Wikidata
+  P1598) do not distinguish principal from co-consecrators and render dashed
+  until verified.
+</footer>
+
+<script src="vendor/d3.v7.min.js"></script>
+<script src="app.js"></script>
+<script>
+(async function () {
+  let D;
+  try {
+    D = await loadData(["people", "consecrations", "tenures", "works", "sees"]);
+  } catch (e) {
+    document.getElementById("error").innerHTML =
+      `<p class="error">Could not load data: ${esc(e.message)}. Run the build
+       and serve the repo root over HTTP (python -m http.server).</p>`;
+    return;
+  }
+  const people = byId(D.people);
+
+  // authors whose primary writings survive (relation: by)
+  const authors = new Set(D.works.filter((w) => w.relation === "by" && w.author)
+                                 .map((w) => w.author));
+  // persons with a recognition-disputed tenure
+  const disputedRec = new Set();
+  for (const t of D.tenures) {
+    if ((t.recognition || []).some((r) =>
+        ["disputed", "rival-claimant", "not-recognized"].includes(r.status))) {
+      disputedRec.add(t.person);
+    }
+  }
+
+  // build nodes and links from consecration records
+  const nodeIds = new Set();
+  const links = [];
+  for (const c of D.consecrations) {
+    if (!c.consecrated) continue;
+    if (c.principal_consecrator) {
+      nodeIds.add(c.principal_consecrator);
+      links.push({ source: c.principal_consecrator, target: c.consecrated,
+                   kind: "principal", status: c.status });
+    }
+    for (const co of c.co_consecrators || []) {
+      nodeIds.add(co);
+      links.push({ source: co, target: c.consecrated,
+                   kind: "co-consecrator", status: c.status });
+    }
+    nodeIds.add(c.consecrated);
+  }
+  const nodes = [...nodeIds].map((id) => {
+    const p = people.get(id) || { id, names: { monastic: id } };
+    return {
+      id,
+      label: personName(p),
+      jur: id.split("/")[1],
+      status: p.status || "unverified",
+      writer: authors.has(id),
+      disputed: disputedRec.has(id) || p.status === "disputed",
+    };
+  });
+
+  document.getElementById("stats").textContent =
+    `${nodes.length} bishops · ${links.length} consecration edge(s) · ` +
+    `${nodes.filter((n) => n.writer).length} with surviving writings — ` +
+    `only persons with consecration records appear.`;
+
+  const W = 1160, H = 640;
+  const statusFill = { verified: "#2e7d32", unverified: "#b26a00",
+                       disputed: "#b3261e" };
+
+  const svg = d3.select("#graph").append("svg")
+    .attr("viewBox", [0, 0, W, H]).attr("width", "100%");
+
+  svg.append("defs").append("marker")
+    .attr("id", "arrow").attr("viewBox", "0 -5 10 10")
+    .attr("refX", 18).attr("refY", 0)
+    .attr("markerWidth", 6).attr("markerHeight", 6).attr("orient", "auto")
+    .append("path").attr("d", "M0,-5L10,0L0,5").attr("fill", "#37474f");
+
+  const root = svg.append("g");
+  svg.call(d3.zoom().scaleExtent([0.3, 4])
+    .on("zoom", (ev) => root.attr("transform", ev.transform)));
+
+  const link = root.append("g").selectAll("line").data(links).join("line")
+    .attr("stroke", "#37474f").attr("stroke-width", 1.6)
+    .attr("stroke-opacity", 0.75)
+    .attr("stroke-dasharray", (l) => l.kind === "principal" ? null : "5,4")
+    .attr("marker-end", "url(#arrow)");
+  link.append("title").text((l) =>
+    `${l.kind}${l.status === "unverified" ? " (unverified)" : ""}`);
+
+  const node = root.append("g").selectAll("g").data(nodes).join("g")
+    .style("cursor", "pointer")
+    .on("click", (ev, n) => {
+      location.href = "person.html?id=" + encodeURIComponent(n.id);
+    });
+
+  // dispute ring (outer, red dashed)
+  node.filter((n) => n.disputed).append("circle")
+    .attr("r", 13).attr("fill", "none")
+    .attr("stroke", "#b3261e").attr("stroke-width", 2)
+    .attr("stroke-dasharray", "3,2");
+  // writings ring (gold)
+  node.filter((n) => n.writer).append("circle")
+    .attr("r", 10.5).attr("fill", "none")
+    .attr("stroke", "#c9a227").attr("stroke-width", 3);
+  node.append("circle")
+    .attr("r", 8)
+    .attr("fill", (n) => statusFill[n.status] || "#777")
+    .attr("stroke", "#fff").attr("stroke-width", 1.2);
+  node.append("text")
+    .attr("x", 12).attr("y", 4).attr("font-size", 11).attr("fill", "#2b2620")
+    .text((n) => n.label);
+  node.append("title").text((n) =>
+    `${n.label}\n${n.id}\nstatus: ${n.status}` +
+    (n.writer ? "\nprimary writings survive" : "") +
+    (n.disputed ? "\nrecognition disputed" : ""));
+
+  const sim = d3.forceSimulation(nodes)
+    .force("link", d3.forceLink(links).id((n) => n.id).distance(70))
+    .force("charge", d3.forceManyBody().strength(-260))
+    .force("center", d3.forceCenter(W / 2, H / 2))
+    .force("collide", d3.forceCollide(26))
+    .on("tick", () => {
+      link.attr("x1", (l) => l.source.x).attr("y1", (l) => l.source.y)
+          .attr("x2", (l) => l.target.x).attr("y2", (l) => l.target.y);
+      node.attr("transform", (n) => `translate(${n.x},${n.y})`);
+    });
+
+  node.call(d3.drag()
+    .on("start", (ev, n) => { if (!ev.active) sim.alphaTarget(0.3).restart();
+                              n.fx = n.x; n.fy = n.y; })
+    .on("drag", (ev, n) => { n.fx = ev.x; n.fy = ev.y; })
+    .on("end", (ev, n) => { if (!ev.active) sim.alphaTarget(0);
+                            n.fx = null; n.fy = null; }));
+})();
+</script>
+</body>
+</html>

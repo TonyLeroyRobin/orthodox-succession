@@ -9,6 +9,8 @@
 <body>
 <h1>Orthodox Apostolic Succession Database</h1>
 <p class="subtitle">Succession-of-sees timelines with historical context band.
+See also the <a href="graph.html">interactive consecration graph</a> (the other
+succession model — never conflated with this one).
 Prototype; regenerated from <code>build/site-data/</code>.</p>
 
 <div id="error"></div>
@@ -23,6 +25,8 @@ Prototype; regenerated from <code>build/site-data/</code>.</p>
     <span class="badge verified">verified</span>
     <span class="badge unverified">unverified</span>
     <span class="badge disputed">disputed</span>
+    &nbsp; <svg width="26" height="14"><rect x="1" y="2" width="22" height="10" rx="2" fill="#b26a00" stroke="#b3261e" stroke-width="2" stroke-dasharray="3,2"></rect></svg>
+    recognition disputed
     &nbsp; context: <svg width="30" height="12"><rect x="0" y="2" width="12" height="9" fill="#90a4ae"></rect><circle cx="22" cy="6" r="4" fill="#546e7a"></circle></svg>
     span / point event
   </p>
@@ -119,10 +123,14 @@ graded source. Recognition disputes are recorded, not adjudicated.
       const tEnd = dateYearNum(t.to) ?? (isIncumbent ? maxY - 25 : f + 8);
       const wpx = Math.max(6, x(tEnd) - x(f));
       const p = people.get(t.person);
-      const tip = `<title>${esc(personName(p))}\n${esc(fmtRange(t.from, t.to, isIncumbent ? "incumbent" : "end unrecorded"))}\nstatus: ${esc(t.status)}</title>`;
+      const hasDispute = (t.recognition || []).some((r) =>
+        ["disputed", "rival-claimant", "not-recognized"].includes(r.status));
+      const tip = `<title>${esc(personName(p))}\n${esc(fmtRange(t.from, t.to, isIncumbent ? "incumbent" : "end unrecorded"))}\nstatus: ${esc(t.status)}${hasDispute ? "\nrecognition disputed" : ""}</title>`;
+      const disputeStroke = hasDispute
+        ? ` stroke="#b3261e" stroke-width="2" stroke-dasharray="3,2"` : "";
       svg += `<a href="person.html?id=${encodeURIComponent(t.person)}">` +
              `<rect class="tenure-bar" x="${x(f)}" y="${yTop + 8}" width="${wpx}" height="14" rx="2" ` +
-             `fill="${statusFill[t.status] || "#777"}" opacity="${open && !isIncumbent ? 0.55 : 0.9}">${tip}</rect></a>`;
+             `fill="${statusFill[t.status] || "#777"}"${disputeStroke} opacity="${open && !isIncumbent ? 0.55 : 0.9}">${tip}</rect></a>`;
     }
   });
 
