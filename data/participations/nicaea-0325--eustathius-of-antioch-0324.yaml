@@ -1,0 +1,12 @@
+id: participation/nicaea-0325--eustathius-of-antioch-0324
+person: person/antioch/eustathius-of-antioch-0324
+event: event/council/nicaea-0325
+role: signed
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: subscription lists / acts — locator to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Some later sources credit him with presiding; recorded as signed pending
+  verification.

@@ -1,0 +1,11 @@
+id: participation/nicaea-0325--alexander-i-of-alexandria-0313
+person: person/alexandria/alexander-i-of-alexandria-0313
+event: event/council/nicaea-0325
+role: signed
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: subscription lists / acts — locator to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Subscription lists survive in the conciliar tradition; locator to be confirmed.

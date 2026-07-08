@@ -1,0 +1,10 @@
+id: participation/nicaea-0325--macarius-i-of-jerusalem-0312
+person: person/jerusalem/macarius-i-of-jerusalem-0312
+event: event/council/nicaea-0325
+role: signed
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: subscription lists / acts — locator to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified

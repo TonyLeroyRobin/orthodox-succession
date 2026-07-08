@@ -1,0 +1,28 @@
+id: event/council/constantinople-1872
+type: council-local
+title: Council of Constantinople (1872)
+date:
+  from:
+    value: 1872-08
+    calendar: gregorian
+    precision: month
+  to:
+    value: 1872-09
+    calendar: gregorian
+    precision: month
+place: Constantinople
+outcomes:
+- Condemned ethno-phyletism as an ecclesiological heresy.
+- Declared the Bulgarian Exarchate schismatic (schism lifted 1945).
+affected:
+- jurisdiction/church-of-bulgaria
+- jurisdiction/ecumenical-patriarchate
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+- ref: source/ecumenical-patriarchate-official
+  reliability: official-list
+status: unverified
+notes: ''

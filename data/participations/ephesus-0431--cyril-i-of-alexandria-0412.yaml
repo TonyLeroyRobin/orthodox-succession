@@ -1,0 +1,10 @@
+id: participation/ephesus-0431--cyril-i-of-alexandria-0412
+person: person/alexandria/cyril-i-of-alexandria-0412
+event: event/council/ephesus-0431
+role: presided
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: subscription lists / acts — locator to be confirmed
+  note: primary acts in a scholarly compilation
+status: verified

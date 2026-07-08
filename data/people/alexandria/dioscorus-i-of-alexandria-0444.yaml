@@ -1,0 +1,24 @@
+id: person/alexandria/dioscorus-i-of-alexandria-0444
+names:
+  monastic: Dioscorus
+  native:
+  - script: grc
+    value: Διόσκορος
+  variants:
+  - Dioscorus I of Alexandria
+attestation: attested
+sources:
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: vol. 1 (Chalcedon)
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+status: verified
+notes: Patriarch of Alexandria 444-451; deposed at Chalcedon; died in exile at Gangra
+  (454). Venerated in the non-Chalcedonian communion, which is out of scope here.
+  No consecration data survives — absent, not inferred.
+died:
+  date:
+    value: '0454'
+    calendar: julian
+    precision: year

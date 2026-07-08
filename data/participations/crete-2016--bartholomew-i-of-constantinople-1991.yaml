@@ -1,0 +1,9 @@
+id: participation/crete-2016--bartholomew-i-of-constantinople-1991
+person: person/constantinople/bartholomew-i-of-constantinople-1991
+event: event/council/crete-2016
+role: presided
+sources:
+- ref: source/ecumenical-patriarchate-official
+  reliability: official-list
+  note: official conciliar records
+status: unverified

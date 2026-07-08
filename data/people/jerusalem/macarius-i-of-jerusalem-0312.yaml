@@ -1,0 +1,24 @@
+id: person/jerusalem/macarius-i-of-jerusalem-0312
+names:
+  monastic: Macarius
+  native:
+  - script: grc
+    value: Μακάριος
+  variants:
+  - Macarius I of Jerusalem
+attestation: attested
+sources:
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: vol. 1 (Nicaea)
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+status: unverified
+notes: Bishop of Aelia (Jerusalem) c. 312-335; attended Nicaea I; associated with
+  the building of the Anastasis. Dates approximate. No consecration data survives
+  — absent, not inferred.
+died:
+  date:
+    value: '0335'
+    calendar: julian
+    precision: circa

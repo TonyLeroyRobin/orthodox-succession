@@ -1,0 +1,56 @@
+id: event/council/crete-2016
+type: council-local
+title: Holy and Great Council (Crete)
+date:
+  from:
+    value: '2016-06-19'
+    calendar: gregorian
+    precision: day
+  to:
+    value: '2016-06-26'
+    calendar: gregorian
+    precision: day
+place: Kolymvari, Crete
+outcomes:
+- Adopted six conciliar documents, an encyclical, and a message.
+recognition:
+- by: jurisdiction/ecumenical-patriarchate
+  status: recognized
+- by: jurisdiction/church-of-alexandria
+  status: recognized
+- by: jurisdiction/church-of-jerusalem
+  status: recognized
+- by: jurisdiction/church-of-serbia
+  status: recognized
+- by: jurisdiction/church-of-romania
+  status: recognized
+- by: jurisdiction/church-of-cyprus
+  status: recognized
+- by: jurisdiction/church-of-greece
+  status: recognized
+- by: jurisdiction/church-of-poland
+  status: recognized
+- by: jurisdiction/church-of-albania
+  status: recognized
+- by: jurisdiction/church-of-czech-lands-and-slovakia
+  status: recognized
+- by: jurisdiction/church-of-antioch
+  status: disputed
+  note: declined to attend and questions the council's pan-Orthodox standing
+- by: jurisdiction/church-of-russia
+  status: disputed
+  note: withdrew before the council; does not receive it as pan-Orthodox
+- by: jurisdiction/church-of-bulgaria
+  status: disputed
+  note: declined to attend
+- by: jurisdiction/church-of-georgia
+  status: disputed
+  note: declined to attend
+sources:
+- ref: source/ecumenical-patriarchate-official
+  reliability: official-list
+  note: official conciliar documents site to be pinned during verification
+status: unverified
+notes: Recognition entries record attendance/reception stances per church — recorded,
+  not adjudicated. The ten attending churches are marked recognized; the four absent,
+  disputed.

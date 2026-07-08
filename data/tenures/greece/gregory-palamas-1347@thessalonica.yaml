@@ -1,0 +1,18 @@
+id: tenure/greece/gregory-palamas-1347@thessalonica
+person: person/greece/gregory-palamas-1347
+see: see/greece/thessalonica
+from:
+  value: '1347'
+  calendar: julian
+  precision: year
+to:
+  value: '1359'
+  calendar: julian
+  precision: year
+end_reason: died
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: acts of 1351
+  note: primary acts in a scholarly compilation
+status: verified

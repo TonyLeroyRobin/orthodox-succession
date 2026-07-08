@@ -1,0 +1,10 @@
+id: participation/crete-2016--chrysostomos-ii-2006
+person: person/cyprus/chrysostomos-ii-2006
+event: event/council/crete-2016
+role: attended
+sources:
+- ref: source/ecumenical-patriarchate-official
+  reliability: official-list
+  note: official conciliar records
+status: unverified
+notes: Led the Cypriot delegation.

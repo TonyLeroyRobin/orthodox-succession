@@ -1,0 +1,20 @@
+id: event/council/constantinople-0867
+type: council-local
+title: Council of Constantinople (867)
+date:
+  from:
+    value: 0867
+    calendar: julian
+    precision: year
+place: Constantinople
+outcomes:
+- Under Photius, condemned Latin missionary practice in Bulgaria and the Filioque,
+  and declared Pope Nicholas I deposed.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Acts survive only fragmentarily (destroyed after 869); details contested
+  — verify against modern scholarship (Dvornik).

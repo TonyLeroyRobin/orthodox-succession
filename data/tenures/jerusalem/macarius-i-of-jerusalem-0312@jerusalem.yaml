@@ -1,0 +1,16 @@
+id: tenure/jerusalem/macarius-i-of-jerusalem-0312@jerusalem
+person: person/jerusalem/macarius-i-of-jerusalem-0312
+see: see/jerusalem/jerusalem
+from:
+  value: '0312'
+  calendar: julian
+  precision: circa
+to:
+  value: '0335'
+  calendar: julian
+  precision: circa
+end_reason: died
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+status: unverified

@@ -1,0 +1,10 @@
+id: participation/constantinople-1872--patriarch-anthimus-vi-of-constantinople-1782
+person: person/constantinople/patriarch-anthimus-vi-of-constantinople-1782
+event: event/council/constantinople-1872
+role: presided
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: subscription lists / acts — locator to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified

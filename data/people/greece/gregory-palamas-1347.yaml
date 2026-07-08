@@ -1,0 +1,30 @@
+id: person/greece/gregory-palamas-1347
+names:
+  monastic: Gregory
+  native:
+  - script: grc
+    value: Γρηγόριος Παλαμᾶς
+  variants:
+  - Gregory Palamas
+attestation: attested
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: acts of 1351
+  note: primary acts in a scholarly compilation
+- ref: source/church-of-greece-official
+  reliability: official-list
+status: verified
+notes: Metropolitan of Thessalonica 1347-1359; theologian of hesychasm vindicated
+  by the councils of 1341-1351; glorified 1368. No consecration data survives —
+  absent, not inferred.
+born:
+  date:
+    value: '1296'
+    calendar: julian
+    precision: circa
+died:
+  date:
+    value: '1359'
+    calendar: julian
+    precision: year

@@ -1,0 +1,17 @@
+id: tenure/antioch/eustathius-of-antioch-0324@antioch
+person: person/antioch/eustathius-of-antioch-0324
+see: see/antioch/antioch
+from:
+  value: '0324'
+  calendar: julian
+  precision: circa
+to:
+  value: '0330'
+  calendar: julian
+  precision: circa
+end_reason: deposed
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+status: unverified
+notes: Deposition date debated (327-331).

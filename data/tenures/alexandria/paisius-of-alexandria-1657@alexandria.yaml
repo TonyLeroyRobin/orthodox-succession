@@ -1,0 +1,19 @@
+id: tenure/alexandria/paisius-of-alexandria-1657@alexandria
+person: person/alexandria/paisius-of-alexandria-1657
+see: see/alexandria/alexandria
+from:
+  value: '1657'
+  calendar: gregorian
+  precision: circa
+to:
+  value: '1678'
+  calendar: gregorian
+  precision: circa
+end_reason: unknown
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Deposed and restored during his patriarchate; dates and end to be verified.

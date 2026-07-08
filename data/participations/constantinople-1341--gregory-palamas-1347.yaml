@@ -1,0 +1,11 @@
+id: participation/constantinople-1341--gregory-palamas-1347
+person: person/greece/gregory-palamas-1347
+event: event/council/constantinople-1341
+role: attended
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: subscription lists / acts — locator to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Party to the proceedings in 1341 as hieromonk and vindicated in 1351 as metropolitan.

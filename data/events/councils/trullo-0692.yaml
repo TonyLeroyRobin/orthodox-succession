@@ -1,0 +1,26 @@
+id: event/council/trullo-0692
+type: council-local
+title: Council in Trullo (Quinisext)
+date:
+  from:
+    value: 0692
+    calendar: julian
+    precision: year
+place: Constantinople (Trullan hall)
+outcomes:
+- Issued 102 canons completing the Fifth and Sixth Councils.
+- Canon 39 resettled the see of Cyprus (Nea Justiniana) and confirmed its prerogatives.
+affected:
+- jurisdiction/church-of-cyprus
+- jurisdiction/ecumenical-patriarchate
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+status: verified
+notes: Typed council-local here because its canons were issued apart from the sessions
+  of the Sixth Council, but Orthodox canonical tradition receives them with ecumenical
+  authority (Penthekte).

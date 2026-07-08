@@ -1,0 +1,10 @@
+id: participation/ephesus-0431--juvenal-of-jerusalem-0451
+person: person/jerusalem/juvenal-of-jerusalem-0451
+event: event/council/ephesus-0431
+role: attended
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: subscription lists / acts — locator to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified

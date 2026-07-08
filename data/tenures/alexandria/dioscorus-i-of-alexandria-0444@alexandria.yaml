@@ -1,0 +1,20 @@
+id: tenure/alexandria/dioscorus-i-of-alexandria-0444@alexandria
+person: person/alexandria/dioscorus-i-of-alexandria-0444
+see: see/alexandria/alexandria
+from:
+  value: '0444'
+  calendar: julian
+  precision: year
+to:
+  value: '0451'
+  calendar: julian
+  precision: year
+end_reason: deposed
+sources:
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: vol. 1 (Chalcedon)
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+status: verified
+notes: Deposed by the Council of Chalcedon (451).

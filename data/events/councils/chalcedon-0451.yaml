@@ -1,0 +1,35 @@
+id: event/council/chalcedon-0451
+type: council-ecumenical
+title: Fourth Ecumenical Council (Chalcedon)
+date:
+  from:
+    value: '0451-10-08'
+    calendar: julian
+    precision: day
+  to:
+    value: '0451-11-01'
+    calendar: julian
+    precision: day
+place: Chalcedon, Bithynia
+outcomes:
+- Adopted the Chalcedonian definition of the two natures of Christ.
+- Deposed Dioscorus of Alexandria.
+- Canon 28 confirmed the prerogatives of Constantinople as New Rome.
+- Settled the patriarchal jurisdiction of Jerusalem.
+affected:
+- jurisdiction/ecumenical-patriarchate
+- jurisdiction/church-of-alexandria
+- jurisdiction/church-of-jerusalem
+sources:
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: vol. 1
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+status: verified
+notes: The non-Chalcedonian (Oriental Orthodox) continuation of the Alexandrian
+  line is out of scope by the project's charter.

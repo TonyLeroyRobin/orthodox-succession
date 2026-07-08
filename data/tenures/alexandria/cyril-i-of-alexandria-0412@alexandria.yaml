@@ -1,0 +1,19 @@
+id: tenure/alexandria/cyril-i-of-alexandria-0412@alexandria
+person: person/alexandria/cyril-i-of-alexandria-0412
+see: see/alexandria/alexandria
+from:
+  value: '0412'
+  calendar: julian
+  precision: year
+to:
+  value: '0444'
+  calendar: julian
+  precision: year
+end_reason: died
+sources:
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: vol. 1
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+status: verified

@@ -1,0 +1,27 @@
+id: event/council/constantinople-0553
+type: council-ecumenical
+title: Fifth Ecumenical Council (Constantinople II)
+date:
+  from:
+    value: '0553-05-05'
+    calendar: julian
+    precision: day
+  to:
+    value: '0553-06-02'
+    calendar: julian
+    precision: day
+place: Constantinople
+outcomes:
+- Condemned the Three Chapters and reaffirmed Chalcedon in a Cyrillian key.
+sources:
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: vol. 1
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+status: verified
+notes: ''

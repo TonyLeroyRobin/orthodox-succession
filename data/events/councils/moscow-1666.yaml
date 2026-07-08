@@ -1,0 +1,28 @@
+id: event/council/moscow-1666
+type: council-local
+title: Great Synod of Moscow (1666-1667)
+date:
+  from:
+    value: '1666'
+    calendar: gregorian
+    precision: year
+  to:
+    value: '1667'
+    calendar: gregorian
+    precision: year
+place: Moscow
+outcomes:
+- Deposed Patriarch Nikon while upholding his liturgical reforms.
+- Anathematized the Old Rite, entrenching the Old Believer schism.
+affected:
+- jurisdiction/church-of-russia
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+- ref: source/church-of-russia-official
+  reliability: official-list
+status: unverified
+notes: Presided over with the participation of Patriarchs Paisius of Alexandria
+  and Macarius III of Antioch.

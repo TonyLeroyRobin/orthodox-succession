@@ -1,0 +1,18 @@
+id: person/alexandria/paisius-of-alexandria-1657
+names:
+  monastic: Paisius
+  native:
+  - script: grc
+    value: Παΐσιος
+  variants:
+  - Paisios of Alexandria
+attestation: attested
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: acts of the Moscow synod
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Patriarch of Alexandria (c. 1657-1678); co-presided at the Great Synod of
+  Moscow (1666-1667). Dates uncertain — verify against the Alexandrian diadochal
+  list.

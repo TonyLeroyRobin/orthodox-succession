@@ -1,0 +1,25 @@
+id: person/antioch/eustathius-of-antioch-0324
+names:
+  monastic: Eustathius
+  native:
+  - script: grc
+    value: Εὐστάθιος
+  variants:
+  - Eustathius the Great
+attestation: attested
+sources:
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: vol. 1 (Nicaea)
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+status: unverified
+notes: Bishop of Antioch c. 324-330; prominent at Nicaea I; deposed c. 330 by an
+  Arianizing synod and exiled. Deposition date debated (327-331). No consecration
+  data survives — absent, not inferred.
+died:
+  date:
+    value: '0337'
+    calendar: julian
+    precision: circa
+    note: died in exile; date debated (c. 337 or later)

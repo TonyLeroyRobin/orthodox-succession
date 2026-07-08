@@ -1,0 +1,11 @@
+id: participation/constantinople-1341--callistus-i-of-constantinople-1300
+person: person/constantinople/callistus-i-of-constantinople-1300
+event: event/council/constantinople-1341
+role: presided
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: subscription lists / acts — locator to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Presided at the 1351 session.

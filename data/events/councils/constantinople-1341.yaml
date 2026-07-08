@@ -1,0 +1,24 @@
+id: event/council/constantinople-1341
+type: council-local
+title: Hesychast Councils of Constantinople (1341-1351)
+date:
+  from:
+    value: 1341-06
+    calendar: julian
+    precision: month
+  to:
+    value: 1351-07
+    calendar: julian
+    precision: month
+place: Constantinople
+outcomes:
+- Vindicated the theology of Gregory Palamas on the uncreated divine energies.
+- Condemned Barlaam of Calabria (1341) and Gregory Akindynos (1347, 1351).
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Three principal sessions (June 1341; 1347; May-July 1351) modeled as one
+  event pending finer records — split before publication if participation data warrants.

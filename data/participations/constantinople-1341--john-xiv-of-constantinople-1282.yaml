@@ -1,0 +1,11 @@
+id: participation/constantinople-1341--john-xiv-of-constantinople-1282
+person: person/constantinople/john-xiv-of-constantinople-1282
+event: event/council/constantinople-1341
+role: presided
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: subscription lists / acts — locator to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Presided at the June 1341 session.

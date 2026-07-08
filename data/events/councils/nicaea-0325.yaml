@@ -1,0 +1,35 @@
+id: event/council/nicaea-0325
+type: council-ecumenical
+title: First Ecumenical Council (Nicaea I)
+date:
+  from:
+    value: 0325-05
+    calendar: julian
+    precision: month
+  to:
+    value: 0325-08
+    calendar: julian
+    precision: month
+    note: closing date variously reported
+place: Nicaea, Bithynia
+outcomes:
+- Adopted the Nicene Creed and condemned Arius.
+- Canon 6 confirmed the customary jurisdictions of Alexandria, Rome, and Antioch.
+- Canon 7 accorded honor to the see of Aelia (Jerusalem).
+- Fixed a common reckoning of Pascha.
+affected:
+- jurisdiction/church-of-alexandria
+- jurisdiction/church-of-antioch
+- jurisdiction/church-of-jerusalem
+sources:
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: vol. 1
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+status: verified
+notes: ''

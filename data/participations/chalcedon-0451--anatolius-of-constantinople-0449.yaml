@@ -1,0 +1,11 @@
+id: participation/chalcedon-0451--anatolius-of-constantinople-0449
+person: person/constantinople/anatolius-of-constantinople-0449
+event: event/council/chalcedon-0451
+role: presided
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: subscription lists / acts — locator to be confirmed
+  note: primary acts in a scholarly compilation
+status: verified
+notes: Presided with the imperial commissioners.

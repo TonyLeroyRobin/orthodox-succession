@@ -1,0 +1,37 @@
+id: person/constantinople/bartholomew-i-of-constantinople-1991
+names:
+  monastic: "Bartholomew"
+  family: "Archontonis"
+  baptismal: "Demetrios"
+  native:
+    - script: grc
+      value: "Βαρθολομαῖος"
+  variants:
+    - "Bartholomeos"
+    - "Vartholomaios"
+    - "I. Bartholomeos"
+attestation: attested
+identifiers:
+  wikidata: Q44501
+  viaf: "497159474326027662761"
+born:
+  date:
+    value: "1940-02-29"
+    calendar: gregorian
+    precision: day
+    note: "seeded year 1940 from Wikidata; day from general reference — confirm"
+  place: "Agios Theodoros (Zeytinli), Imbros, Turkey"
+sources:
+  - ref: source/wikidata
+    locator: Q44501
+    reliability: database
+    note: programmatic seed — verify against a graded source
+  - ref: source/ecumenical-patriarchate-official
+    reliability: official-list
+    note: "name forms and biography to be confirmed against the official site"
+status: unverified
+notes: >-
+  Ecumenical Patriarch from 1991 (incumbent). Renamed pre-publication from
+  the seeded draft id person/constantinople/i-bartholomeos-1991 (Turkish
+  label; no English label in the seeded row). Name block follows the
+  project transliteration conventions.

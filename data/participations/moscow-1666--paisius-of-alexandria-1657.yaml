@@ -1,0 +1,11 @@
+id: participation/moscow-1666--paisius-of-alexandria-1657
+person: person/alexandria/paisius-of-alexandria-1657
+event: event/council/moscow-1666
+role: presided
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: subscription lists / acts — locator to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Co-president with Macarius III of Antioch.

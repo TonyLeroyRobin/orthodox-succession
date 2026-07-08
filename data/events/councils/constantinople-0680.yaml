@@ -1,0 +1,29 @@
+id: event/council/constantinople-0680
+type: council-ecumenical
+title: Sixth Ecumenical Council (Constantinople III)
+date:
+  from:
+    value: '0680-11-07'
+    calendar: julian
+    precision: day
+  to:
+    value: '0681-09-16'
+    calendar: julian
+    precision: day
+place: Constantinople
+outcomes:
+- Condemned monothelitism, affirming two wills and two energies in Christ.
+- Posthumously condemned Sergius I of Constantinople, Pope Honorius, and others;
+  condemned Macarius of Antioch.
+sources:
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: vol. 1
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+status: verified
+notes: ''

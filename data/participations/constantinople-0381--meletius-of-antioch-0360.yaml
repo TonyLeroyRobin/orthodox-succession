@@ -1,0 +1,11 @@
+id: participation/constantinople-0381--meletius-of-antioch-0360
+person: person/antioch/meletius-of-antioch-0360
+event: event/council/constantinople-0381
+role: presided
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: subscription lists / acts — locator to be confirmed
+  note: primary acts in a scholarly compilation
+status: verified
+notes: Opened the council as president and died during it.

@@ -1,0 +1,25 @@
+id: person/antioch/meletius-of-antioch-0360
+names:
+  monastic: Meletius
+  native:
+  - script: grc
+    value: Μελέτιος
+  variants:
+  - Meletius of Antioch
+attestation: attested
+sources:
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: vol. 1 (Constantinople I)
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+status: verified
+notes: Bishop of Antioch from 360 (amid the Meletian schism — the rival claimants
+  are not yet modeled); opened the Second Ecumenical Council as its first president
+  and died during it. No consecration data survives — absent, not inferred.
+died:
+  date:
+    value: 0381
+    calendar: julian
+    precision: year
+    note: died at Constantinople during the council

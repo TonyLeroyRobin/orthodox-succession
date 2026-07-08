@@ -1,0 +1,24 @@
+id: person/alexandria/alexander-i-of-alexandria-0313
+names:
+  monastic: Alexander
+  native:
+  - script: grc
+    value: Ἀλέξανδρος
+  variants:
+  - Alexander I of Alexandria
+attestation: attested
+sources:
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: vol. 1 (Nicaea)
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+status: verified
+notes: Bishop of Alexandria c. 313-326/328; first opponent of Arius; attended Nicaea
+  I with his deacon Athanasius. No consecration data survives — absent, not inferred.
+died:
+  date:
+    value: '0326'
+    calendar: julian
+    precision: circa
+    note: d. 326/328

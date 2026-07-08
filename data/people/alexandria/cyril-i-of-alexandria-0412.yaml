@@ -1,0 +1,29 @@
+id: person/alexandria/cyril-i-of-alexandria-0412
+names:
+  monastic: Cyril
+  native:
+  - script: grc
+    value: Κύριλλος
+  variants:
+  - Cyril of Alexandria
+attestation: attested
+sources:
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: vol. 1 (Ephesus)
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+status: verified
+notes: Patriarch of Alexandria 412-444; presided at the Council of Ephesus (431);
+  principal theologian of the Theotokos definition. No consecration data survives
+  — absent, not inferred.
+born:
+  date:
+    value: '0376'
+    calendar: julian
+    precision: circa
+died:
+  date:
+    value: '0444'
+    calendar: julian
+    precision: year

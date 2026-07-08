@@ -1,0 +1,19 @@
+id: tenure/alexandria/alexander-i-of-alexandria-0313@alexandria
+person: person/alexandria/alexander-i-of-alexandria-0313
+see: see/alexandria/alexandria
+from:
+  value: '0313'
+  calendar: julian
+  precision: circa
+to:
+  value: '0326'
+  calendar: julian
+  precision: circa
+end_reason: died
+sources:
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: vol. 1
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+status: verified

@@ -1,0 +1,11 @@
+id: participation/moscow-1666--macarius-iii-ibn-al-za-im-1647
+person: person/antioch/macarius-iii-ibn-al-za-im-1647
+event: event/council/moscow-1666
+role: presided
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: subscription lists / acts — locator to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Co-president with Paisius of Alexandria.

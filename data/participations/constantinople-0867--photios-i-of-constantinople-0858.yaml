@@ -1,0 +1,10 @@
+id: participation/constantinople-0867--photios-i-of-constantinople-0858
+person: person/constantinople/photios-i-of-constantinople-0858
+event: event/council/constantinople-0867
+role: presided
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: subscription lists / acts — locator to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified

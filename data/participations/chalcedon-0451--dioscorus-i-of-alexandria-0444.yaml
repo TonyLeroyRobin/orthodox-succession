@@ -1,0 +1,10 @@
+id: participation/chalcedon-0451--dioscorus-i-of-alexandria-0444
+person: person/alexandria/dioscorus-i-of-alexandria-0444
+event: event/council/chalcedon-0451
+role: deposed-by
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: subscription lists / acts — locator to be confirmed
+  note: primary acts in a scholarly compilation
+status: verified

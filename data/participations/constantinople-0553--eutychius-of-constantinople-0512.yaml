@@ -1,0 +1,10 @@
+id: participation/constantinople-0553--eutychius-of-constantinople-0512
+person: person/constantinople/eutychius-of-constantinople-0512
+event: event/council/constantinople-0553
+role: presided
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: subscription lists / acts — locator to be confirmed
+  note: primary acts in a scholarly compilation
+status: verified

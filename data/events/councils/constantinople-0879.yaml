@@ -1,0 +1,24 @@
+id: event/council/constantinople-0879
+type: council-local
+title: Council of Constantinople (879-880)
+date:
+  from:
+    value: 0879-11
+    calendar: julian
+    precision: month
+  to:
+    value: 0880-03
+    calendar: julian
+    precision: month
+place: Constantinople (Hagia Sophia)
+outcomes:
+- Restored Photius with Roman legates present and annulled the council of 869-870.
+- Reaffirmed the creed without the Filioque.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Counted by some Orthodox canonists as the Eighth Ecumenical Council; recorded
+  here as local pending a sourced reception pass.

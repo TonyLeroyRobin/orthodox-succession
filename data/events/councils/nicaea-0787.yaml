@@ -1,0 +1,27 @@
+id: event/council/nicaea-0787
+type: council-ecumenical
+title: Seventh Ecumenical Council (Nicaea II)
+date:
+  from:
+    value: '0787-09-24'
+    calendar: julian
+    precision: day
+  to:
+    value: '0787-10-23'
+    calendar: julian
+    precision: day
+place: Nicaea, Bithynia
+outcomes:
+- Restored the veneration of icons and condemned iconoclasm.
+sources:
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: vol. 1
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+status: verified
+notes: ''

@@ -1,0 +1,21 @@
+id: tenure/antioch/meletius-of-antioch-0360@antioch
+person: person/antioch/meletius-of-antioch-0360
+see: see/antioch/antioch
+from:
+  value: '0360'
+  calendar: julian
+  precision: year
+to:
+  value: 0381
+  calendar: julian
+  precision: year
+end_reason: died
+sources:
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: vol. 1
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+status: verified
+notes: The rival Eustathian line (Paulinus) is not yet modeled; when it is, recognition
+  qualifiers go on both tenures.
