@@ -1,0 +1,24 @@
+id: jurisdiction/church-of-albania
+name: Orthodox Autocephalous Church of Albania
+type: autocephalous
+autocephaly:
+- granted_by: jurisdiction/ecumenical-patriarchate
+  date:
+    value: '1937'
+    calendar: gregorian
+    precision: year
+    note: self-declared 1922; patriarchal tomos 1937
+  recognition:
+  - by: all
+    status: recognized
+primatial_see: see/albania/tirana
+sources:
+- ref: source/church-of-albania-official
+  reliability: official-list
+  note: structural claims to be verified against the site
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: The church was outlawed 1967-1991 under the Albanian state atheism; hierarchy
+  restored from 1991. Structural record authored from general reference knowledge
+  — verify each autocephaly/recognition entry against a graded source before promotion.

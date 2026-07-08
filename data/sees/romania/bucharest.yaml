@@ -1,0 +1,14 @@
+id: see/romania/bucharest
+name: Bucharest
+location:
+  lat: 44.432
+  lon: 26.104
+  modern_place: Bucharest, Romania
+sources:
+- ref: source/church-of-romania-official
+  reliability: official-list
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Seat of the Patriarch of All Romania (from 1925). Minimal draft — jurisdiction_history,
+  rank_history, and founding data to be added with sources during verification.

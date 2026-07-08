@@ -1,0 +1,15 @@
+id: see/antioch/antioch
+name: Antioch (seated at Damascus)
+location:
+  lat: 33.513
+  lon: 36.292
+  modern_place: Damascus, Syria
+sources:
+- ref: source/church-of-antioch-official
+  reliability: official-list
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Coordinates are Damascus, the seat since the fourteenth century; ancient
+  Antioch is modern Antakya, Turkey. Minimal draft — jurisdiction_history, rank_history,
+  and founding data to be added with sources during verification.

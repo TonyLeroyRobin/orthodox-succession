@@ -1,0 +1,24 @@
+id: jurisdiction/church-of-greece
+name: Church of Greece
+type: autocephalous
+autocephaly:
+- granted_by: jurisdiction/ecumenical-patriarchate
+  date:
+    value: '1850'
+    calendar: gregorian
+    precision: year
+    note: self-declared 1833; regularized by the patriarchal and synodal tomos of
+      1850
+  recognition:
+  - by: all
+    status: recognized
+primatial_see: see/greece/athens
+sources:
+- ref: source/church-of-greece-official
+  reliability: official-list
+  note: structural claims to be verified against the site
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Structural record authored from general reference knowledge — verify each
+  autocephaly/recognition entry against a graded source before promotion.

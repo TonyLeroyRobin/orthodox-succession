@@ -1,0 +1,37 @@
+id: jurisdiction/church-of-serbia
+name: Serbian Orthodox Church
+type: autocephalous
+autocephaly:
+- granted_by: jurisdiction/ecumenical-patriarchate
+  date:
+    value: '1219'
+    calendar: julian
+    precision: year
+    note: autocephalous archbishopric under St Sava
+- granted_by: jurisdiction/ecumenical-patriarchate
+  date:
+    value: '1879'
+    calendar: gregorian
+    precision: year
+    note: tomos for the church in the Kingdom of Serbia, after the 1766 suppression
+      of the Patriarchate of Pec
+- granted_by: unification of Serbian church provinces and restoration of the patriarchate
+  date:
+    value: '1920'
+    calendar: gregorian
+    precision: year
+  recognition:
+  - by: all
+    status: recognized
+primatial_see: see/serbia/belgrade
+sources:
+- ref: source/church-of-serbia-official
+  reliability: official-list
+  note: structural claims to be verified against the site
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Patriarchate of Pec (1346) and its suppression (1766) to be modeled as historical
+  jurisdiction records in a later pass. Structural record authored from general
+  reference knowledge — verify each autocephaly/recognition entry against a graded
+  source before promotion.

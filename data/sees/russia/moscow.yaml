@@ -1,0 +1,14 @@
+id: see/russia/moscow
+name: Moscow
+location:
+  lat: 55.756
+  lon: 37.617
+  modern_place: Moscow, Russia
+sources:
+- ref: source/church-of-russia-official
+  reliability: official-list
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Seat of the Patriarch of Moscow and all Rus'. Minimal draft — jurisdiction_history,
+  rank_history, and founding data to be added with sources during verification.

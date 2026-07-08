@@ -1,0 +1,35 @@
+id: jurisdiction/church-of-bulgaria
+name: Bulgarian Orthodox Church
+type: autocephalous
+autocephaly:
+- granted_by: unilateral establishment of the Bulgarian Exarchate
+  date:
+    value: '1872'
+    calendar: gregorian
+    precision: year
+  recognition:
+  - by: jurisdiction/ecumenical-patriarchate
+    status: not-recognized
+    note: schism declared 1872, lifted 1945
+- granted_by: jurisdiction/ecumenical-patriarchate
+  date:
+    value: '1945'
+    calendar: gregorian
+    precision: year
+    note: schism lifted; autocephaly recognized; patriarchate restored 1953, recognized
+      by Constantinople 1961
+  recognition:
+  - by: all
+    status: recognized
+primatial_see: see/bulgaria/sofia
+sources:
+- ref: source/church-of-bulgaria-official
+  reliability: official-list
+  note: structural claims to be verified against the site
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Medieval Bulgarian patriarchates (Preslav, Ohrid, Tarnovo) to be modeled
+  as historical jurisdictions in a later pass. Structural record authored from general
+  reference knowledge — verify each autocephaly/recognition entry against a graded
+  source before promotion.

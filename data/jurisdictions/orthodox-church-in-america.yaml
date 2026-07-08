@@ -1,0 +1,37 @@
+id: jurisdiction/orthodox-church-in-america
+name: Orthodox Church in America
+type: autocephalous
+autocephaly:
+- granted_by: jurisdiction/church-of-russia
+  date:
+    value: '1970-04-10'
+    calendar: gregorian
+    precision: day
+    note: tomos of autocephaly from the Moscow Patriarchate
+  recognition:
+  - by: jurisdiction/church-of-russia
+    status: recognized
+  - by: jurisdiction/church-of-bulgaria
+    status: recognized
+  - by: jurisdiction/church-of-georgia
+    status: recognized
+  - by: jurisdiction/church-of-poland
+    status: recognized
+  - by: jurisdiction/church-of-czech-lands-and-slovakia
+    status: recognized
+  - by: jurisdiction/ecumenical-patriarchate
+    status: not-recognized
+    note: does not recognize the autocephaly while recognizing the OCA as canonical
+      — recorded, not adjudicated
+primatial_see: see/oca/washington
+sources:
+- ref: source/orthodox-church-in-america-official
+  reliability: official-list
+  note: structural claims to be verified against the site
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Continues the Russian mission in North America (from 1794) and the Metropolia;
+  the dispute over its autocephaly is modeled per-recognizer. Structural record
+  authored from general reference knowledge — verify each autocephaly/recognition
+  entry against a graded source before promotion.

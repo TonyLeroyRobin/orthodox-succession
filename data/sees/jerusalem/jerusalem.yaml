@@ -1,0 +1,15 @@
+id: see/jerusalem/jerusalem
+name: Jerusalem
+location:
+  lat: 31.778
+  lon: 35.23
+  modern_place: Jerusalem
+sources:
+- ref: source/church-of-jerusalem-official
+  reliability: official-list
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Mother church of Christendom; traditional first bishop James the Just (to
+  be modeled with sources in a later pass). Minimal draft — jurisdiction_history,
+  rank_history, and founding data to be added with sources during verification.

@@ -1,0 +1,15 @@
+id: jurisdiction/ecumenical-patriarchate
+name: Ecumenical Patriarchate of Constantinople
+type: autocephalous
+primatial_see: see/constantinople/constantinople
+sources:
+- ref: source/ecumenical-patriarchate-official
+  reliability: official-list
+  note: structural claims to be verified against the site
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Ancient patriarchate; precedence of honor after Old Rome per canon 3 of Constantinople
+  I (381) and canon 28 of Chalcedon (451). Council records for these belong to Milestone
+  3. Structural record authored from general reference knowledge — verify each autocephaly/recognition
+  entry against a graded source before promotion.

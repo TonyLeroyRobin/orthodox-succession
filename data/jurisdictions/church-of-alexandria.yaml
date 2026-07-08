@@ -1,0 +1,15 @@
+id: jurisdiction/church-of-alexandria
+name: Greek Orthodox Patriarchate of Alexandria and All Africa
+type: autocephalous
+primatial_see: see/alexandria/alexandria
+sources:
+- ref: source/church-of-alexandria-official
+  reliability: official-list
+  note: structural claims to be verified against the site
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Ancient patriarchate; the Chalcedonian (Greek) line, distinct from the Coptic
+  Orthodox line, which is out of scope. Structural record authored from general
+  reference knowledge — verify each autocephaly/recognition entry against a graded
+  source before promotion.

@@ -1,0 +1,14 @@
+id: see/albania/tirana
+name: Tirana
+location:
+  lat: 41.328
+  lon: 19.818
+  modern_place: Tirana, Albania
+sources:
+- ref: source/church-of-albania-official
+  reliability: official-list
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Seat of the Archbishop of Tirana and All Albania. Minimal draft — jurisdiction_history,
+  rank_history, and founding data to be added with sources during verification.

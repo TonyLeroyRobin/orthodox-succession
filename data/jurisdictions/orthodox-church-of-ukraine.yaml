@@ -1,0 +1,48 @@
+id: jurisdiction/orthodox-church-of-ukraine
+name: Orthodox Church of Ukraine
+type: autocephalous
+autocephaly:
+- granted_by: jurisdiction/ecumenical-patriarchate
+  date:
+    value: '2019-01-05'
+    calendar: gregorian
+    precision: day
+    note: tomos of autocephaly signed 5 January 2019
+  recognition:
+  - by: jurisdiction/ecumenical-patriarchate
+    status: recognized
+  - by: jurisdiction/church-of-alexandria
+    status: recognized
+    since:
+      value: '2019'
+      calendar: gregorian
+      precision: year
+  - by: jurisdiction/church-of-greece
+    status: recognized
+    since:
+      value: '2019'
+      calendar: gregorian
+      precision: year
+  - by: jurisdiction/church-of-cyprus
+    status: recognized
+    since:
+      value: '2020'
+      calendar: gregorian
+      precision: year
+  - by: jurisdiction/church-of-russia
+    status: not-recognized
+    note: Moscow broke communion with Constantinople over the 2018-2019 grant; the
+      dispute is recorded, not adjudicated
+primatial_see: see/ukraine/kyiv
+sources:
+- ref: source/orthodox-church-of-ukraine-official
+  reliability: official-list
+  note: structural claims to be verified against the site
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: The parallel Ukrainian Orthodox Church (Moscow Patriarchate) and the historical
+  Kyiv metropolitanate belong to later milestones; recognition positions of the
+  remaining churches are to be filled in during verification. Structural record
+  authored from general reference knowledge — verify each autocephaly/recognition
+  entry against a graded source before promotion.

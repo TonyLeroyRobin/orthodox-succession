@@ -1,0 +1,16 @@
+id: jurisdiction/church-of-antioch
+name: Greek Orthodox Patriarchate of Antioch and All the East
+type: autocephalous
+primatial_see: see/antioch/antioch
+sources:
+- ref: source/church-of-antioch-official
+  reliability: official-list
+  note: structural claims to be verified against the site
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Ancient patriarchate; the Chalcedonian line, distinct from the Syriac Orthodox
+  line (out of scope). The patriarchal residence moved from Antioch (modern Antakya)
+  to Damascus in the fourteenth century. Structural record authored from general
+  reference knowledge — verify each autocephaly/recognition entry against a graded
+  source before promotion.

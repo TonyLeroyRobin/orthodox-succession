@@ -1,0 +1,32 @@
+id: jurisdiction/church-of-russia
+name: Russian Orthodox Church (Moscow Patriarchate)
+type: autocephalous
+autocephaly:
+- granted_by: 'de facto autocephaly: election of Metropolitan Jonah without Constantinopolitan
+    confirmation'
+  date:
+    value: '1448'
+    calendar: julian
+    precision: year
+- granted_by: jurisdiction/ecumenical-patriarchate
+  date:
+    value: '1589'
+    calendar: julian
+    precision: year
+    note: elevation to patriarchal rank under Patriarch Jeremias II
+  recognition:
+  - by: all
+    status: recognized
+primatial_see: see/russia/moscow
+sources:
+- ref: source/church-of-russia-official
+  reliability: official-list
+  note: structural claims to be verified against the site
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Metropolitanate of Kiev and all Rus' historically; the Moscow line is modeled
+  here. The patriarchate was abolished 1721-1917 (Synodal period) and restored 1917
+  — tenure data reflects the office holders as seeded. Structural record authored
+  from general reference knowledge — verify each autocephaly/recognition entry against
+  a graded source before promotion.

@@ -1,0 +1,15 @@
+id: see/serbia/belgrade
+name: Belgrade
+location:
+  lat: 44.818
+  lon: 20.457
+  modern_place: Belgrade, Serbia
+sources:
+- ref: source/church-of-serbia-official
+  reliability: official-list
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Seat of the Serbian Patriarch since the 1920 restoration; the historical
+  seat is Pec. Minimal draft — jurisdiction_history, rank_history, and founding
+  data to be added with sources during verification.

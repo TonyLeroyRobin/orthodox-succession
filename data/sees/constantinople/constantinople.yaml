@@ -1,0 +1,15 @@
+id: see/constantinople/constantinople
+name: Constantinople (New Rome)
+location:
+  lat: 41.008
+  lon: 28.98
+  modern_place: Istanbul, Turkey
+sources:
+- ref: source/ecumenical-patriarchate-official
+  reliability: official-list
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Seat of the Ecumenical Patriarch, at the Phanar in Istanbul since 1601. Minimal
+  draft — jurisdiction_history, rank_history, and founding data to be added with
+  sources during verification.

@@ -1,0 +1,14 @@
+id: see/ukraine/kyiv
+name: Kyiv
+location:
+  lat: 50.45
+  lon: 30.523
+  modern_place: Kyiv, Ukraine
+sources:
+- ref: source/orthodox-church-of-ukraine-official
+  reliability: official-list
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Seat of the Metropolitan of Kyiv and All Ukraine (OCU). Minimal draft — jurisdiction_history,
+  rank_history, and founding data to be added with sources during verification.

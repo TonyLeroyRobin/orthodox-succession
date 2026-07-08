@@ -1,0 +1,14 @@
+id: see/poland/warsaw
+name: Warsaw
+location:
+  lat: 52.23
+  lon: 21.011
+  modern_place: Warsaw, Poland
+sources:
+- ref: source/church-of-poland-official
+  reliability: official-list
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Seat of the Metropolitan of Warsaw and All Poland. Minimal draft — jurisdiction_history,
+  rank_history, and founding data to be added with sources during verification.

@@ -1,0 +1,35 @@
+id: jurisdiction/church-of-czech-lands-and-slovakia
+name: Orthodox Church of the Czech Lands and Slovakia
+type: autocephalous
+autocephaly:
+- granted_by: jurisdiction/church-of-russia
+  date:
+    value: '1951'
+    calendar: gregorian
+    precision: year
+  recognition:
+  - by: jurisdiction/ecumenical-patriarchate
+    status: not-recognized
+    note: Constantinople regarded the church as autonomous under its own jurisdiction
+      until its 1998 tomos
+- granted_by: jurisdiction/ecumenical-patriarchate
+  date:
+    value: '1998'
+    calendar: gregorian
+    precision: year
+    note: patriarchal tomos
+  recognition:
+  - by: all
+    status: recognized
+primatial_see: see/czech-slovakia/prague
+sources:
+- ref: source/church-of-czech-lands-and-slovakia-official
+  reliability: official-list
+  note: structural claims to be verified against the site
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Both grants of autocephaly (Moscow 1951, Constantinople 1998) are recorded
+  per the recognition-not-adjudication rule. Structural record authored from general
+  reference knowledge — verify each autocephaly/recognition entry against a graded
+  source before promotion.

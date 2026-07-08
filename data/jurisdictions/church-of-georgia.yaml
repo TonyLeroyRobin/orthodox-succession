@@ -1,0 +1,41 @@
+id: jurisdiction/church-of-georgia
+name: Georgian Orthodox Church
+type: autocephalous
+autocephaly:
+- granted_by: jurisdiction/church-of-antioch
+  date:
+    value: 0487
+    calendar: julian
+    precision: circa
+    note: traditional date of ancient autocephaly from Antioch; grade and date to
+      be verified
+- granted_by: restoration of autocephaly, self-declared after the 1811 abolition
+    under the Russian Synod
+  date:
+    value: '1917'
+    calendar: gregorian
+    precision: year
+  recognition:
+  - by: jurisdiction/church-of-russia
+    status: recognized
+    since:
+      value: '1943'
+      calendar: gregorian
+      precision: year
+  - by: jurisdiction/ecumenical-patriarchate
+    status: recognized
+    since:
+      value: '1990'
+      calendar: gregorian
+      precision: year
+primatial_see: see/georgia/mtskheta-tbilisi
+sources:
+- ref: source/church-of-georgia-official
+  reliability: official-list
+  note: structural claims to be verified against the site
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Catholicos-Patriarch of All Georgia; seat historically Mtskheta, today Tbilisi.
+  Structural record authored from general reference knowledge — verify each autocephaly/recognition
+  entry against a graded source before promotion.

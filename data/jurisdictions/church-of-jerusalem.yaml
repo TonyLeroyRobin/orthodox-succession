@@ -1,0 +1,15 @@
+id: jurisdiction/church-of-jerusalem
+name: Greek Orthodox Patriarchate of Jerusalem
+type: autocephalous
+primatial_see: see/jerusalem/jerusalem
+sources:
+- ref: source/church-of-jerusalem-official
+  reliability: official-list
+  note: structural claims to be verified against the site
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Ancient patriarchate; raised to patriarchal rank at Chalcedon (451). Council
+  records belong to Milestone 3. Structural record authored from general reference
+  knowledge — verify each autocephaly/recognition entry against a graded source
+  before promotion.
