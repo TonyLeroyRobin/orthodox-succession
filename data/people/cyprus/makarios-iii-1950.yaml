@@ -8,12 +8,13 @@ names:
       value: "Μακάριος Γ΄"
   variants:
     - "Makarios III"
+    - "Michael Christodoulou Mouskos"
 born:
   date:
     value: "1913-08-13"
     calendar: gregorian
     precision: day
-  place: "Panayia, Paphos district, Cyprus"
+  place: "Pano Panayia, Paphos district, Cyprus"
 died:
   date:
     value: "1977-08-03"
@@ -27,6 +28,8 @@ sources:
 status: unverified
 notes: >-
   Archbishop of Cyprus 1950-1977 and first President of the Republic of
-  Cyprus (1960-1977). Consecrated Bishop of Kition in 1948 (see
-  consecration/cyprus/makarios-iii-1948). Entered from general reference
-  knowledge — human verification against the official list pending.
+  Cyprus (1960-1977). Elected Bishop of Kition in 1948 (see
+  consecration/cyprus/makarios-iii-1948). Verification pass 2026-07-08:
+  birth/death dates and secular name cross-checked against public reference
+  works (lead-generation only) — promote after confirming against the
+  official list or a scholarly source.

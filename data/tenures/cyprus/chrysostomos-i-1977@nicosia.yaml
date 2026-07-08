@@ -2,22 +2,25 @@ id: tenure/cyprus/chrysostomos-i-1977@nicosia
 person: person/cyprus/chrysostomos-i-1977
 see: see/cyprus/nicosia
 from:
-  value: "1977-11"
+  value: "1977-11-13"
   calendar: gregorian
-  precision: month
-  note: "elected November 1977; exact day to be confirmed"
+  precision: day
+  note: "elected 12 November 1977, installed 13 November 1977 (cross-checked against public reference works, 2026-07-08)"
 to:
-  value: "2006"
+  value: "2006-05-17"
   calendar: gregorian
-  precision: year
+  precision: day
   note: >-
-    Throne declared vacant in 2006 after prolonged incapacity; the precise
-    synodal date is to be confirmed.
+    Removed from office 17 May 2006 by decision of the pan-Orthodox synod
+    convoked at Chambesy, after prolonged incapacity (cross-checked against
+    public reference works, 2026-07-08).
 end_reason: resigned
 sources:
   - ref: source/church-of-cyprus-official-list
     reliability: official-list
 status: unverified
 notes: >-
-  end_reason `resigned` approximates a synodal declaration of vacancy due to
-  incapacity — refine wording during verification.
+  end_reason `resigned` approximates the Chambesy synodal removal due to
+  incapacity — the vocabulary has no closer value; documented here rather
+  than adjudicated. Promote after confirming dates against the official
+  list or a scholarly source.

@@ -4,7 +4,8 @@ see: see/cyprus/salamis-constantia
 from:
   value: "0367"
   calendar: julian
-  precision: year
+  precision: circa
+  note: "accession given as 368 in reference lists, 366/367 in scholarship — circa pending resolution against Le Quien"
 to:
   value: "0403"
   calendar: julian

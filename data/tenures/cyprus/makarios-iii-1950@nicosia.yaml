@@ -2,10 +2,13 @@ id: tenure/cyprus/makarios-iii-1950@nicosia
 person: person/cyprus/makarios-iii-1950
 see: see/cyprus/nicosia
 from:
-  value: "1950-10"
+  value: "1950-09-18"
   calendar: gregorian
-  precision: month
-  note: "elected/enthroned October 1950; exact day to be confirmed"
+  precision: day
+  note: >-
+    Verification pass 2026-07-08: the draft's "October 1950" was WRONG —
+    elected/enthroned 18 September 1950 per public reference works
+    (lead-generation only; confirm against the official list).
 to:
   value: "1977-08-03"
   calendar: gregorian

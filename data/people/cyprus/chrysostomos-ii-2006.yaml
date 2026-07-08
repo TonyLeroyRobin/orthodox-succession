@@ -8,12 +8,13 @@ names:
       value: "Χρυσόστομος Β΄"
   variants:
     - "Chrysostomos II"
+    - "Herodotos Dimitriou"
+    - "Irodotos Dimitriou"
 born:
   date:
     value: "1941-04-10"
     calendar: gregorian
     precision: day
-    note: "date to be confirmed"
   place: "Tala, Paphos district, Cyprus"
 died:
   date:
@@ -24,8 +25,18 @@ died:
 attestation: attested
 sources:
   - ref: source/church-of-cyprus-official-list
+    locator: "archive.churchofcyprus.org.cy/service.php?serviceID=13 (official biography)"
     reliability: official-list
-status: unverified
+    archived_url: "http://web.archive.org/web/20260315235019/https://archive.churchofcyprus.org.cy/service.php?serviceID=13"
+    note: >-
+      The official biography states birth on 10 April 1941 at Tala and the
+      title Archbishop of Nea Justiniana and all Cyprus.
+status: verified
 notes: >-
-  Archbishop of Cyprus 2006-2022; previously Metropolitan of Paphos. Entered
-  from general reference knowledge — human verification pending.
+  Archbishop of Cyprus 2006-2022; previously Metropolitan of Paphos (from
+  1978). Verified 2026-07-08 against the official Church of Cyprus
+  biography (pinned snapshot in the citation): birth date, birthplace, and
+  archiepiscopal title confirmed there. Death date (7 November 2022,
+  Nicosia) postdates that biography and is cross-checked against public
+  reference works. Review performed by the AI assistant at user direction —
+  spot-check before treating as human-verified.

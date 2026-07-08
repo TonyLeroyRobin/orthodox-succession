@@ -2,30 +2,38 @@ id: person/cyprus/chrysostomos-i-1977
 names:
   monastic: "Chrysostomos"
   family: "Aristodimou"
+  baptismal: "Christoforos"
   native:
     - script: el
       value: "Χρυσόστομος Α΄"
   variants:
     - "Chrysostomos I"
+    - "Christoforos Aristodimou"
 born:
   date:
     value: "1927-09-27"
     calendar: gregorian
     precision: day
-    note: "date to be confirmed"
-  place: "Tala, Paphos district, Cyprus"
+  place: "Statos, Paphos district, Cyprus"
 died:
   date:
     value: "2007-12-22"
     calendar: gregorian
     precision: day
-    note: "date to be confirmed"
+  place: "Nicosia, Cyprus"
 attestation: attested
 sources:
   - ref: source/church-of-cyprus-official-list
     reliability: official-list
+    note: "succession claim per the official list; biographical details pending on-site confirmation"
 status: unverified
 notes: >-
-  Archbishop of Cyprus 1977-2006; the throne was declared vacant in 2006
-  after prolonged incapacity. Entered from general reference knowledge —
-  human verification pending.
+  Archbishop of Cyprus 1977-2006. Bishop of Constantia from 1968,
+  Metropolitan of Paphos from July 1973; elected Archbishop 12 November
+  1977, installed 13 November 1977; removed from office 17 May 2006 by
+  decision of the pan-Orthodox synod convoked at Chambesy after prolonged
+  incapacity, retaining his honorific titles. Verification pass 2026-07-08:
+  the draft's birthplace "Tala" was WRONG and has been corrected to Statos;
+  dates cross-checked against public reference works (lead-generation only)
+  — promote after confirming against the official list or a scholarly
+  source.

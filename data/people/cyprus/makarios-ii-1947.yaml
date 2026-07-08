@@ -1,25 +1,37 @@
 id: person/cyprus/makarios-ii-1947
 names:
   monastic: "Makarios"
-  family: "Myriantheus"
+  family: "Papaioannou"
+  baptismal: "Michail"
   native:
     - script: el
       value: "Μακάριος Β΄"
   variants:
     - "Makarios II"
+    - "Michail Charalambous Papaioannou"
+born:
+  date:
+    value: "1870"
+    calendar: gregorian
+    precision: year
+  place: "Prodromos, Cyprus"
 died:
   date:
     value: "1950-06-28"
     calendar: gregorian
     precision: day
-    note: "date to be confirmed against the official list"
 attestation: attested
 sources:
   - ref: source/church-of-cyprus-official-list
     reliability: official-list
+    note: "succession claim per the official list; biographical details pending on-site confirmation"
 status: unverified
 notes: >-
-  Archbishop of Cyprus 1947-1950; predecessor of Makarios III and, per common
-  accounts, his principal consecrator (1948). Entered from general reference
-  knowledge — verify names, dates, and details against the official list and
-  a scholarly source before promotion.
+  Archbishop of Cyprus 1947-1950. Bishop of Kyrenia from 20 March 1917;
+  exiled after the October 1931 disturbances, returned 22 December 1946;
+  elected Archbishop 24 December 1947. Verification pass 2026-07-08: the
+  draft's family name "Myriantheus" was WRONG and has been corrected to
+  Papaioannou (secular name Michail Charalambous Papaioannou); dates
+  cross-checked against public reference works (Wikipedia lead-generation
+  only) — promote after confirming against the official list or a scholarly
+  source.

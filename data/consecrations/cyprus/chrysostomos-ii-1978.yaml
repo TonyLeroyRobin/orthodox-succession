@@ -1,10 +1,13 @@
 id: consecration/cyprus/chrysostomos-ii-1978
 consecrated: person/cyprus/chrysostomos-ii-2006
 date:
-  value: "1978"
+  value: "1978-02-26"
   calendar: gregorian
-  precision: year
-  note: "consecrated Metropolitan of Paphos; date to be confirmed"
+  precision: day
+  note: >-
+    Elected Metropolitan of Paphos 25 February 1978, consecrated 26
+    February 1978 (cross-checked against public reference works,
+    2026-07-08).
 principal_consecrator: person/cyprus/chrysostomos-i-1977
 co_consecrators: []
 sources:
@@ -13,4 +16,6 @@ sources:
     note: "to be confirmed from synodal records"
 status: unverified
 notes: >-
-  Co-consecrators not yet recorded — pending verification.
+  Co-consecrators not yet recorded — pending synodal records. The principal
+  consecrator (provisionally Chrysostomos I, the reigning archbishop) is
+  not named in the public references checked 2026-07-08.

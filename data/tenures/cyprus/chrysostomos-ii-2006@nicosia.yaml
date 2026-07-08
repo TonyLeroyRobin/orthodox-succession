@@ -2,10 +2,12 @@ id: tenure/cyprus/chrysostomos-ii-2006@nicosia
 person: person/cyprus/chrysostomos-ii-2006
 see: see/cyprus/nicosia
 from:
-  value: "2006-11"
+  value: "2006-11-12"
   calendar: gregorian
-  precision: month
-  note: "elected 5 November 2006, enthroned 12 November 2006 (to be confirmed)"
+  precision: day
+  note: >-
+    Installed 12 November 2006 after the autumn 2006 election process
+    (cross-checked against public reference works, 2026-07-08).
 to:
   value: "2022-11-07"
   calendar: gregorian
@@ -16,5 +18,8 @@ sources:
     reliability: official-list
 status: unverified
 notes: >-
-  Entered from general reference knowledge; verify against the official list
-  before promotion.
+  Verification pass 2026-07-08: the official biography (see the person
+  record's pinned citation) confirms he held the archiepiscopal throne;
+  the precise installation and death dates are cross-checked against
+  public reference works — promote after an official/scholarly date
+  confirmation.

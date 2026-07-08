@@ -2,9 +2,13 @@ id: source/church-of-cyprus-official-list
 type: web
 title: "Church of Cyprus — official website (archiepiscopal succession)"
 url: "https://churchofcyprus.org.cy/"
-archived_url: "https://web.archive.org/web/2025/https://churchofcyprus.org.cy/"
+archived_url: "http://web.archive.org/web/20260204144633/https://churchofcyprus.org.cy/"
 status: verified
 notes: >-
-  Official diadochal claims of the autocephalous Church of Cyprus. The
-  archived_url uses a year-wildcard Wayback redirect; pin the exact snapshot
-  (and the exact succession-list page path) during human verification.
+  Official diadochal claims of the autocephalous Church of Cyprus.
+  Verification pass 2026-07-08: archived_url pinned to the 2026-02-04
+  Wayback snapshot. The main site blocks automated access; the church's own
+  archive subdomain (archive.churchofcyprus.org.cy, Wayback snapshot
+  20260216110333) carries the history pages and official biographies —
+  cite specific pages with per-citation locators and archived_urls (see
+  person/cyprus/chrysostomos-ii-2006 for the pattern).
