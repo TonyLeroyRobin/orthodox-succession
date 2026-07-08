@@ -1,0 +1,17 @@
+id: event/context/great-stand-ugra-1480
+type: context
+title: End of the Mongol yoke
+date:
+  from:
+    value: '1480'
+    calendar: julian
+    precision: year
+scope: global
+description: The Great Stand on the Ugra ends Tatar suzerainty over Muscovy.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Great Stand on the Ugra River
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Great_Stand_on_the_Ugra_River
+status: unverified
+notes: ''

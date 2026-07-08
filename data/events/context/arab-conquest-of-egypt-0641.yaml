@@ -1,0 +1,18 @@
+id: event/context/arab-conquest-of-egypt-0641
+type: context
+title: Arab conquest of Egypt
+date:
+  from:
+    value: '0641'
+    calendar: julian
+    precision: year
+scope: global
+description: Alexandria falls to the Arab conquest, transforming the condition of
+  the Chalcedonian patriarchate.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Muslim conquest of Egypt
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Muslim_conquest_of_Egypt
+status: unverified
+notes: ''

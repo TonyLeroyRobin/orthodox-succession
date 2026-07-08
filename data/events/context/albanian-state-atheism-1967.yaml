@@ -1,0 +1,22 @@
+id: event/context/albanian-state-atheism-1967
+type: context
+title: Albanian state atheism
+date:
+  from:
+    value: '1967'
+    calendar: gregorian
+    precision: year
+  to:
+    value: '1991'
+    calendar: gregorian
+    precision: year
+scope: jurisdiction:jurisdiction/church-of-albania
+description: Albania outlaws all religion; the Orthodox Church is suppressed until
+  1991.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Religion in Albania
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Religion_in_Albania
+status: unverified
+notes: ''

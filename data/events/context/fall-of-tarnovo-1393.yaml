@@ -1,0 +1,17 @@
+id: event/context/fall-of-tarnovo-1393
+type: context
+title: Ottoman conquest of Tarnovo
+date:
+  from:
+    value: '1393'
+    calendar: julian
+    precision: year
+scope: global
+description: The fall of Tarnovo extinguishes the medieval Bulgarian patriarchate.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Bulgarian%E2%80%93Ottoman wars
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Bulgarian%E2%80%93Ottoman_wars
+status: unverified
+notes: ''

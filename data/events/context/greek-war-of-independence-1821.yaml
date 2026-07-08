@@ -1,0 +1,22 @@
+id: event/context/greek-war-of-independence-1821
+type: context
+title: Greek War of Independence
+date:
+  from:
+    value: '1821'
+    calendar: gregorian
+    precision: year
+  to:
+    value: '1830'
+    calendar: gregorian
+    precision: year
+scope: global
+description: The Greek revolution — amid which Patriarch Gregory V is executed —
+  creates an independent Greece and reshapes church order in the Balkans.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Greek War of Independence
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Greek_War_of_Independence
+status: unverified
+notes: ''

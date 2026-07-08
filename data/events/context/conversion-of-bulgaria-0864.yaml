@@ -1,0 +1,18 @@
+id: event/context/conversion-of-bulgaria-0864
+type: context
+title: Baptism of Bulgaria
+date:
+  from:
+    value: 0864
+    calendar: julian
+    precision: year
+scope: global
+description: Boris I of Bulgaria is baptized, bringing the Bulgarians into Byzantine
+  Christianity.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Christianization of Bulgaria
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Christianization_of_Bulgaria
+status: unverified
+notes: ''

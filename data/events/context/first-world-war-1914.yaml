@@ -1,0 +1,22 @@
+id: event/context/first-world-war-1914
+type: context
+title: First World War
+date:
+  from:
+    value: '1914'
+    calendar: gregorian
+    precision: year
+  to:
+    value: '1918'
+    calendar: gregorian
+    precision: year
+scope: global
+description: The war destroys the Russian, Ottoman, and Austro-Hungarian orders
+  within which the Orthodox churches had lived.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: World War I
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/World_War_I
+status: unverified
+notes: ''

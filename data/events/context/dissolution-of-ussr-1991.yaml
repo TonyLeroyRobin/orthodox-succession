@@ -1,0 +1,18 @@
+id: event/context/dissolution-of-ussr-1991
+type: context
+title: Dissolution of the USSR
+date:
+  from:
+    value: '1991-12-26'
+    calendar: gregorian
+    precision: day
+scope: global
+description: The end of the Soviet Union opens a new era of church restoration and
+  new jurisdictional questions.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Dissolution of the Soviet Union
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+status: unverified
+notes: ''

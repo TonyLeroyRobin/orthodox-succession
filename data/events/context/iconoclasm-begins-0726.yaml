@@ -1,0 +1,21 @@
+id: event/context/iconoclasm-begins-0726
+type: context
+title: Byzantine iconoclasm begins
+date:
+  from:
+    value: '0726'
+    calendar: julian
+    precision: year
+  to:
+    value: 0787
+    calendar: julian
+    precision: year
+scope: global
+description: Leo III initiates the first iconoclast period, ended by Nicaea II.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Byzantine Iconoclasm
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Byzantine_Iconoclasm
+status: unverified
+notes: ''

@@ -1,0 +1,22 @@
+id: event/context/communist-era-eastern-europe-1945
+type: context
+title: Communist era in Eastern Europe
+date:
+  from:
+    value: '1944'
+    calendar: gregorian
+    precision: year
+  to:
+    value: '1989'
+    calendar: gregorian
+    precision: year
+scope: global
+description: Communist governments constrain, co-opt, or persecute the Orthodox
+  churches from the Baltic to the Balkans.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Eastern Bloc
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Eastern_Bloc
+status: unverified
+notes: ''

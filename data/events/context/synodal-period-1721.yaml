@@ -1,0 +1,22 @@
+id: event/context/synodal-period-1721
+type: context
+title: Synodal period begins
+date:
+  from:
+    value: '1721'
+    calendar: gregorian
+    precision: year
+  to:
+    value: '1917'
+    calendar: gregorian
+    precision: year
+scope: jurisdiction:jurisdiction/church-of-russia
+description: Peter I abolishes the Moscow patriarchate and subjects the Russian
+  church to a Holy Governing Synod until 1917.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Most Holy Synod
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Most_Holy_Synod
+status: unverified
+notes: ''

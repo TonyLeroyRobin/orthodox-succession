@@ -1,0 +1,18 @@
+id: event/context/hagia-sophia-0537
+type: context
+title: Consecration of Hagia Sophia
+date:
+  from:
+    value: '0537'
+    calendar: julian
+    precision: year
+scope: global
+description: Justinian's Great Church is consecrated, the liturgical heart of the
+  Byzantine world.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Hagia Sophia
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Hagia_Sophia
+status: unverified
+notes: ''

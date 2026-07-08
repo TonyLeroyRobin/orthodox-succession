@@ -1,0 +1,18 @@
+id: event/context/union-of-brest-1596
+type: context
+title: Union of Brest
+date:
+  from:
+    value: '1596'
+    calendar: gregorian
+    precision: year
+scope: global
+description: Most Ruthenian bishops of the Kyiv metropolis enter communion with
+  Rome, splitting the church of the Commonwealth.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Union of Brest
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Union_of_Brest
+status: unverified
+notes: ''

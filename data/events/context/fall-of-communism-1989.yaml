@@ -1,0 +1,22 @@
+id: event/context/fall-of-communism-1989
+type: context
+title: Fall of communism
+date:
+  from:
+    value: '1989'
+    calendar: gregorian
+    precision: year
+  to:
+    value: '1991'
+    calendar: gregorian
+    precision: year
+scope: global
+description: The revolutions of 1989-1991 free the Orthodox churches of Eastern
+  Europe and the former USSR.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Revolutions of 1989
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Revolutions_of_1989
+status: unverified
+notes: ''

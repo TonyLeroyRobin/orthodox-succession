@@ -1,0 +1,18 @@
+id: event/context/russian-revolution-1917
+type: context
+title: Russian Revolution
+date:
+  from:
+    value: '1917'
+    calendar: gregorian
+    precision: year
+scope: global
+description: The revolutions of 1917 end the empire, allow the restoration of the
+  Moscow patriarchate, and open the Soviet persecution.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Russian Revolution
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Russian_Revolution
+status: unverified
+notes: ''

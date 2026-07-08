@@ -1,0 +1,18 @@
+id: event/context/congress-of-berlin-1878
+type: context
+title: Congress of Berlin
+date:
+  from:
+    value: '1878'
+    calendar: gregorian
+    precision: year
+scope: global
+description: Serbia, Romania, and Montenegro gain independence and Bulgaria autonomy,
+  preparing new autocephalies.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Congress of Berlin
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Congress_of_Berlin
+status: unverified
+notes: ''

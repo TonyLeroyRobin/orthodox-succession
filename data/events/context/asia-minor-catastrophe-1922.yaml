@@ -1,0 +1,22 @@
+id: event/context/asia-minor-catastrophe-1922
+type: context
+title: Asia Minor catastrophe
+date:
+  from:
+    value: '1919'
+    calendar: gregorian
+    precision: year
+  to:
+    value: '1923'
+    calendar: gregorian
+    precision: year
+scope: global
+description: The Greco-Turkish war and the 1923 population exchange uproot the Greek
+  Orthodox communities of Anatolia.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Population exchange between Greece and Turkey
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Population_exchange_between_Greece_and_Turkey
+status: unverified
+notes: ''

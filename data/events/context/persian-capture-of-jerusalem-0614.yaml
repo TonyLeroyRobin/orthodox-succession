@@ -1,0 +1,18 @@
+id: event/context/persian-capture-of-jerusalem-0614
+type: context
+title: Persian capture of Jerusalem
+date:
+  from:
+    value: '0614'
+    calendar: julian
+    precision: year
+scope: global
+description: The Sasanian conquest devastates the church of Jerusalem and carries
+  off the True Cross.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Siege of Jerusalem (614)
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(614)
+status: unverified
+notes: ''

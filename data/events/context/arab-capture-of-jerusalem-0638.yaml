@@ -1,0 +1,18 @@
+id: event/context/arab-capture-of-jerusalem-0638
+type: context
+title: Arab capture of Jerusalem
+date:
+  from:
+    value: 0638
+    calendar: julian
+    precision: year
+scope: global
+description: Jerusalem passes under Arab rule; Patriarch Sophronius negotiates the
+  surrender.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Siege of Jerusalem (636%E2%80%93637)
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(636%E2%80%93637)
+status: unverified
+notes: ''

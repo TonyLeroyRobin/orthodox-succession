@@ -1,0 +1,18 @@
+id: event/context/sack-of-constantinople-1204
+type: context
+title: Sack of Constantinople
+date:
+  from:
+    value: '1204-04-13'
+    calendar: julian
+    precision: day
+scope: global
+description: The Fourth Crusade sacks Constantinople and installs a Latin empire
+  and patriarchate; the Greek patriarchate continues at Nicaea.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Sack of Constantinople
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Sack_of_Constantinople
+status: unverified
+notes: ''

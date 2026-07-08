@@ -1,0 +1,22 @@
+id: event/context/ottoman-conquest-of-egypt-syria-1517
+type: context
+title: Ottomans take Egypt and Syria
+date:
+  from:
+    value: '1516'
+    calendar: julian
+    precision: year
+  to:
+    value: '1517'
+    calendar: julian
+    precision: year
+scope: global
+description: The Ottoman conquest brings the patriarchates of Antioch, Jerusalem,
+  and Alexandria under the sultan and the millet system.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Ottoman%E2%80%93Mamluk War (1516%E2%80%931517)
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Ottoman%E2%80%93Mamluk_War_(1516%E2%80%931517)
+status: unverified
+notes: ''

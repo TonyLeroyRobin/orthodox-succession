@@ -1,0 +1,17 @@
+id: event/context/ottoman-conquest-of-serbia-1459
+type: context
+title: Ottoman conquest of Serbia
+date:
+  from:
+    value: '1459'
+    calendar: julian
+    precision: year
+scope: global
+description: The fall of Smederevo completes Ottoman rule over the Serbian despotate.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Fall of Smederevo
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Fall_of_Smederevo
+status: unverified
+notes: ''

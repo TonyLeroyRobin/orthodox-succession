@@ -1,0 +1,18 @@
+id: event/context/moravian-mission-0863
+type: context
+title: Mission of Cyril and Methodius
+date:
+  from:
+    value: 0863
+    calendar: julian
+    precision: year
+scope: global
+description: The brothers from Thessalonica begin the Slavonic mission in Great
+  Moravia, creating Slavic letters and liturgy.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Cyril and Methodius
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Cyril_and_Methodius
+status: unverified
+notes: ''

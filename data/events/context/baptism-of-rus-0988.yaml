@@ -1,0 +1,17 @@
+id: event/context/baptism-of-rus-0988
+type: context
+title: Baptism of Rus'
+date:
+  from:
+    value: 0988
+    calendar: julian
+    precision: year
+scope: global
+description: Vladimir of Kyiv is baptized and Rus' enters the Byzantine commonwealth.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Christianization of Kievan Rus%27
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Christianization_of_Kievan_Rus%27
+status: unverified
+notes: ''

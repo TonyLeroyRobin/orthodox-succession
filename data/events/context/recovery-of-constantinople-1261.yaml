@@ -1,0 +1,18 @@
+id: event/context/recovery-of-constantinople-1261
+type: context
+title: Recovery of Constantinople
+date:
+  from:
+    value: '1261-07-25'
+    calendar: julian
+    precision: day
+scope: global
+description: Michael VIII Palaiologos recovers Constantinople and restores the Greek
+  patriarchate to the capital.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Reconquest of Constantinople
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Reconquest_of_Constantinople
+status: unverified
+notes: ''

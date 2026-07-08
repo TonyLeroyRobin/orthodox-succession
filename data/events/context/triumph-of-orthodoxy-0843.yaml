@@ -1,0 +1,18 @@
+id: event/context/triumph-of-orthodoxy-0843
+type: context
+title: Triumph of Orthodoxy
+date:
+  from:
+    value: '0843-03-11'
+    calendar: julian
+    precision: day
+scope: global
+description: The final restoration of the icons under Empress Theodora, kept ever
+  since on the first Sunday of Lent.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Feast of Orthodoxy
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Feast_of_Orthodoxy
+status: unverified
+notes: ''

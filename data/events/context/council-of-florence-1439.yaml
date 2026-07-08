@@ -1,0 +1,18 @@
+id: event/context/council-of-florence-1439
+type: context
+title: Union of Florence
+date:
+  from:
+    value: '1439'
+    calendar: julian
+    precision: year
+scope: global
+description: The union with Rome signed at Ferrara-Florence is repudiated across
+  the Orthodox East.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Council of Florence
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Council_of_Florence
+status: unverified
+notes: ''

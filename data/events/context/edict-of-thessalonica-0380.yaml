@@ -1,0 +1,17 @@
+id: event/context/edict-of-thessalonica-0380
+type: context
+title: Edict of Thessalonica
+date:
+  from:
+    value: 0380
+    calendar: julian
+    precision: year
+scope: global
+description: Theodosius I makes Nicene Christianity the religion of the Roman Empire.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Edict of Thessalonica
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Edict_of_Thessalonica
+status: unverified
+notes: ''

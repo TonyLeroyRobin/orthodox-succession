@@ -1,0 +1,18 @@
+id: event/context/founding-of-constantinople-0330
+type: context
+title: Dedication of Constantinople
+date:
+  from:
+    value: '0330-05-11'
+    calendar: julian
+    precision: day
+scope: global
+description: Constantine dedicates Byzantium as New Rome, the future center of Eastern
+  Christendom.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Constantinople
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Constantinople
+status: unverified
+notes: ''

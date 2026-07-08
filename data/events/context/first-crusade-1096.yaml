@@ -1,0 +1,22 @@
+id: event/context/first-crusade-1096
+type: context
+title: First Crusade
+date:
+  from:
+    value: '1096'
+    calendar: julian
+    precision: year
+  to:
+    value: '1099'
+    calendar: julian
+    precision: year
+scope: global
+description: The First Crusade seizes Antioch and Jerusalem, installing Latin patriarchs
+  alongside the Greek lines.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: First Crusade
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/First_Crusade
+status: unverified
+notes: ''

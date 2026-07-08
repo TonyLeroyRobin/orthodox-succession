@@ -1,0 +1,22 @@
+id: event/context/second-world-war-1939
+type: context
+title: Second World War
+date:
+  from:
+    value: '1939'
+    calendar: gregorian
+    precision: year
+  to:
+    value: '1945'
+    calendar: gregorian
+    precision: year
+scope: global
+description: The war and its aftermath redraw the map within which the Orthodox
+  churches of Eastern Europe must live.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: World War II
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/World_War_II
+status: unverified
+notes: ''
