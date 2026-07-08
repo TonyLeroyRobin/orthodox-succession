@@ -1,0 +1,19 @@
+id: consecration/russia/alexy-i-of-moscow-1945
+consecrated: person/russia/alexy-i-of-moscow-1945
+date:
+  value: '1945'
+  calendar: gregorian
+  precision: circa
+  note: consecration date not in Wikidata; approximated by the first tenure start
+    for chronology — replace from synodal records during verification
+co_consecrators:
+- person/antioch/gregory-iv-of-antioch-1906
+sources:
+- ref: source/wikidata
+  locator: Q547702
+  reliability: database
+  note: programmatic seed — verify against a graded source; consecrator(s) from P1598
+status: unverified
+notes: Draft seeded from Wikidata P1598. P1598 does not distinguish the principal
+  consecrator from co-consecrators, so all are recorded as co_consecrators and principal_consecrator
+  is left absent — assign during verification.

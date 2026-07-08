@@ -374,6 +374,171 @@ def import_office(office: str, jurisdiction: str, see_id: str, dry_run: bool):
 
 
 # ---------------------------------------------------------------------------
+# consecration import: P1598 edges between persons already in the database
+# ---------------------------------------------------------------------------
+
+CONSECRATOR_QUERY = """
+SELECT ?item ?consecrator WHERE {
+  VALUES ?item { %(values)s }
+  ?item wdt:P1598 ?consecrator .
+}
+"""
+
+
+def import_consecrations(min_year: int, dry_run: bool):
+    """For every person in the database with a Wikidata QID, pull P1598
+    (consecrator) and emit consecration drafts where BOTH parties already
+    exist as person records.
+
+    Honesty rules:
+      * P1598 does not distinguish principal from co-consecrators, so every
+        consecrator lands in co_consecrators and principal_consecrator is
+        left absent, noted for verification.
+      * The consecration date is NOT in Wikidata; it is approximated by the
+        consecrated person's first tenure start with precision `circa` and a
+        note saying exactly that. Persons without a dated tenure are
+        skipped (the schema requires a date, and inventing one silently
+        would violate the project's rules).
+      * Consecrators who were dead (or unborn) at the approximated date are
+        dropped; empty records are skipped.
+      * Records that would create a cycle in the consecration graph are
+        skipped and reported.
+    """
+    ensure_wikidata_source(dry_run)
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from common import load_all, date_year  # local import to avoid cycles
+
+    records, _ = load_all()
+    persons = {r["data"]["id"]: r["data"] for r in records
+               if r["kind"] == "person" and r["data"].get("id")}
+    qid_to_pid = {}
+    for pid, p in persons.items():
+        qid = (p.get("identifiers") or {}).get("wikidata")
+        if qid:
+            qid_to_pid[qid] = pid
+
+    # first dated tenure start per person
+    first_start = {}
+    for r in records:
+        if r["kind"] != "tenure":
+            continue
+        d = r["data"]
+        y = date_year(d.get("from"))
+        pid = d.get("person")
+        if pid and y is not None and (pid not in first_start
+                                      or y < first_start[pid]):
+            first_start[pid] = y
+
+    # existing consecration edges (for cycle detection) and existing ids
+    edges = {}
+    existing = set()
+    for r in records:
+        if r["kind"] != "consecration":
+            continue
+        d = r["data"]
+        existing.add(d.get("consecrated"))
+        ks = ([d["principal_consecrator"]]
+              if d.get("principal_consecrator") else []) \
+            + (d.get("co_consecrators") or [])
+        for k in ks:
+            edges.setdefault(k, set()).add(d.get("consecrated"))
+
+    def reaches(src, dst):  # is dst reachable from src?
+        stack, seen = [src], set()
+        while stack:
+            n = stack.pop()
+            if n == dst:
+                return True
+            if n in seen:
+                continue
+            seen.add(n)
+            stack.extend(edges.get(n, ()))
+        return False
+
+    # query Wikidata in chunks
+    qids = sorted(qid_to_pid)
+    pairs = []
+    for i in range(0, len(qids), 150):
+        chunk = qids[i:i + 150]
+        rows = sparql(CONSECRATOR_QUERY
+                      % {"values": " ".join(f"wd:{q}" for q in chunk)})
+        for row in rows:
+            item = row["item"]["value"].rsplit("/", 1)[-1]
+            kons = row["consecrator"]["value"].rsplit("/", 1)[-1]
+            pairs.append((item, kons))
+        print(f"  queried {min(i + 150, len(qids))}/{len(qids)} QIDs, "
+              f"{len(pairs)} P1598 edge(s) so far")
+
+    by_target = {}
+    for item, kons in pairs:
+        by_target.setdefault(item, set()).add(kons)
+
+    written = skipped = 0
+    for qid, kon_qids in sorted(by_target.items()):
+        pid = qid_to_pid[qid]
+        if pid in existing:
+            skipped += 1
+            continue
+        year = first_start.get(pid)
+        if year is None or year < min_year:
+            skipped += 1
+            continue
+        consecrators = []
+        for kq in sorted(kon_qids):
+            kpid = qid_to_pid.get(kq)
+            if not kpid or kpid == pid:
+                continue
+            kp = persons[kpid]
+            died = date_year((kp.get("died") or {}).get("date"))
+            born = date_year((kp.get("born") or {}).get("date"))
+            if died is not None and died < year - 26:
+                continue  # dead well before the approximated date
+            if born is not None and born > year:
+                continue
+            consecrators.append(kpid)
+        if not consecrators:
+            skipped += 1
+            continue
+        if any(reaches(pid, k) for k in consecrators):
+            print(f"  SKIP (would create cycle): {pid}")
+            skipped += 1
+            continue
+
+        jur, suffix = pid.split("/")[1], pid.rsplit("/", 1)[-1]
+        rec = {
+            "id": f"consecration/{jur}/{suffix}",
+            "consecrated": pid,
+            "date": {
+                "value": f"{year:04d}",
+                "calendar": "julian" if year < 1583 else "gregorian",
+                "precision": "circa",
+                "note": ("consecration date not in Wikidata; approximated "
+                         "by the first tenure start for chronology — "
+                         "replace from synodal records during verification"),
+            },
+            "co_consecrators": consecrators,
+            "sources": wikidata_citation(
+                qid, "consecrator(s) from P1598"),
+            "status": "unverified",
+            "notes": ("Draft seeded from Wikidata P1598. P1598 does not "
+                      "distinguish the principal consecrator from "
+                      "co-consecrators, so all are recorded as "
+                      "co_consecrators and principal_consecrator is left "
+                      "absent — assign during verification."),
+        }
+        path = DATA_DIR / "consecrations" / jur / f"{suffix}.yaml"
+        if write_yaml(path, rec, dry_run):
+            written += 1
+            for k in consecrators:
+                edges.setdefault(k, set()).add(pid)
+
+    print(f"import_wikidata: {written} consecration draft(s) written, "
+          f"{skipped} candidate(s) skipped (existing record, no dated "
+          f"tenure, before {min_year}, no surviving consecrator, or cycle)"
+          f"{' [dry run]' if dry_run else ''}")
+
+
+# ---------------------------------------------------------------------------
 # plain person import (original mode)
 # ---------------------------------------------------------------------------
 
@@ -437,6 +602,12 @@ def main():
     ap.add_argument("--office", help="QID of an office; seeds holders + tenures")
     ap.add_argument("--see", help="see id for tenures (required with --office)")
     ap.add_argument("--qids", nargs="+", help="Wikidata QIDs of persons")
+    ap.add_argument("--consecrations", action="store_true",
+                    help="seed P1598 consecration edges between persons "
+                         "already in the database")
+    ap.add_argument("--min-year", type=int, default=1400,
+                    help="with --consecrations: skip approximated dates "
+                         "before this year (default 1400, per Milestone 4)")
     ap.add_argument("--jurisdiction", default="unsorted",
                     help="jurisdiction slug for output paths/ids")
     ap.add_argument("--dry-run", action="store_true")
@@ -450,10 +621,13 @@ def main():
             ap.error("--office requires --see and --jurisdiction")
         import_office(args.office, args.jurisdiction, args.see, args.dry_run)
         return 0
+    if args.consecrations:
+        import_consecrations(args.min_year, args.dry_run)
+        return 0
     if args.qids:
         import_people(sorted(set(args.qids)), args.jurisdiction, args.dry_run)
         return 0
-    ap.error("nothing to do: pass --find, --office, or --qids")
+    ap.error("nothing to do: pass --find, --office, --consecrations, or --qids")
 
 
 if __name__ == "__main__":

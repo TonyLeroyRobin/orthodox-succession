@@ -1,0 +1,19 @@
+id: consecration/constantinople/patriarch-joachim-iii-of-constantinople-1878
+consecrated: person/constantinople/patriarch-joachim-iii-of-constantinople-1878
+date:
+  value: '1878'
+  calendar: gregorian
+  precision: circa
+  note: consecration date not in Wikidata; approximated by the first tenure start
+    for chronology — replace from synodal records during verification
+co_consecrators:
+- person/constantinople/sophronius-iii-of-constantinople-1798
+sources:
+- ref: source/wikidata
+  locator: Q2381876
+  reliability: database
+  note: programmatic seed — verify against a graded source; consecrator(s) from P1598
+status: unverified
+notes: Draft seeded from Wikidata P1598. P1598 does not distinguish the principal
+  consecrator from co-consecrators, so all are recorded as co_consecrators and principal_consecrator
+  is left absent — assign during verification.
