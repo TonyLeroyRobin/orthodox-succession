@@ -1,0 +1,23 @@
+id: see/ohrid/ohrid
+name: Ohrid
+jurisdiction_history:
+- jurisdiction: jurisdiction/archbishopric-of-ohrid
+  from:
+    value: '1018'
+    calendar: julian
+    precision: year
+  to:
+    value: '1767'
+    calendar: gregorian
+    precision: year
+location:
+  lat: 41.117
+  lon: 20.802
+  modern_place: Ohrid, North Macedonia
+sources:
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Seat of the autocephalous Archbishopric of Ohrid (1018-1767); earlier a principal
+  seat of the First Bulgarian Empire's church. Founding data to be added from sources
+  during verification.

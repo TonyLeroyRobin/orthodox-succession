@@ -1,0 +1,33 @@
+id: see/greece/thessalonica
+name: Thessalonica
+jurisdiction_history:
+- jurisdiction: jurisdiction/ecumenical-patriarchate
+  from:
+    value: '0733'
+    calendar: julian
+    precision: year
+    note: transfer of eastern Illyricum from Roman to Constantinopolitan jurisdiction
+      under Leo III; earlier the see was papal vicariate territory
+  to:
+    value: '1928'
+    calendar: gregorian
+    precision: year
+- jurisdiction: jurisdiction/church-of-greece
+  from:
+    value: '1928'
+    calendar: gregorian
+    precision: year
+    note: 'New Lands: administered by the Church of Greece per the 1928 Patriarchal
+      and Synodal Act, spiritual jurisdiction retained by Constantinople — recorded,
+      not adjudicated'
+location:
+  lat: 40.64
+  lon: 22.944
+  modern_place: Thessaloniki, Greece
+sources:
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Apostolic-era community (Paul's letters to the Thessalonians); metropolis
+  of the second city of the empire. Apostolic-founder claim to be modeled with graded
+  sources during verification.

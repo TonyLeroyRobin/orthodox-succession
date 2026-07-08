@@ -1,0 +1,25 @@
+id: jurisdiction/archbishopric-of-ohrid
+name: Archbishopric of Ohrid
+type: historical
+autocephaly:
+- granted_by: imperial sigillia of Basil II
+  date:
+    value: '1018'
+    calendar: julian
+    precision: year
+    note: autocephalous archbishopric organized after the fall of the First Bulgarian
+      Empire
+dissolved:
+  date:
+    value: '1767'
+    calendar: gregorian
+    precision: year
+  successor: jurisdiction/ecumenical-patriarchate
+primatial_see: see/ohrid/ohrid
+sources:
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: Heir of the medieval Bulgarian patriarchate's western seats; suppressed and
+  absorbed by Constantinople in 1767. The modern Macedonian church question is a
+  separate, later record.

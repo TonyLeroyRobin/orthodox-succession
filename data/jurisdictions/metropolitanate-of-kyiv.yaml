@@ -1,0 +1,23 @@
+id: jurisdiction/metropolitanate-of-kyiv
+name: Metropolitanate of Kyiv and all Rus'
+type: historical
+primatial_see: see/ukraine/kyiv
+dissolved:
+  date:
+    value: '1686'
+    calendar: gregorian
+    precision: year
+sources:
+- ref: source/ecumenical-patriarchate-official
+  reliability: official-list
+  note: the 2018 patriarchal act revisits the 1686 letter
+- ref: source/wikidata
+  reliability: database
+status: unverified
+notes: 'Daughter metropolis of Constantinople from the baptism of Rus'' (988). Its
+  1686 attachment to the Moscow Patriarchate is recorded as the dissolution of this
+  historical jurisdiction; the canonical meaning of the 1686 letter is disputed
+  between Constantinople and Moscow (2018) — recorded, not adjudicated. Successor
+  lines: jurisdiction/church-of-russia (1686), jurisdiction/orthodox-church-of-ukraine
+  (2019); the dissolved.successor field is left empty because naming either would
+  adjudicate the dispute.'

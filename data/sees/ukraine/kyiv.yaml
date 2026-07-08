@@ -1,5 +1,37 @@
 id: see/ukraine/kyiv
 name: Kyiv
+jurisdiction_history:
+- jurisdiction: jurisdiction/metropolitanate-of-kyiv
+  from:
+    value: '0988'
+    calendar: julian
+    precision: circa
+    note: metropolis of Constantinople from the baptism of Rus'
+  to:
+    value: '1686'
+    calendar: julian
+    precision: year
+- jurisdiction: jurisdiction/church-of-russia
+  from:
+    value: '1686'
+    calendar: julian
+    precision: year
+    note: attachment to the Moscow Patriarchate; canonical meaning of the 1686
+      letter disputed between Constantinople and Moscow (2018) — recorded, not
+      adjudicated
+  to:
+    value: '2019'
+    calendar: gregorian
+    precision: year
+    note: the UOC (Moscow Patriarchate) line continues in parallel and is not
+      yet modeled
+- jurisdiction: jurisdiction/orthodox-church-of-ukraine
+  from:
+    value: '2019'
+    calendar: gregorian
+    precision: year
+founded:
+  founded_from: see/constantinople/constantinople
 location:
   lat: 50.45
   lon: 30.523

@@ -1,5 +1,7 @@
 id: see/russia/moscow
 name: Moscow
+founded:
+  founded_from: see/ukraine/kyiv
 location:
   lat: 55.756
   lon: 37.617
@@ -10,5 +12,7 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: Seat of the Patriarch of Moscow and all Rus'. Minimal draft — jurisdiction_history,
-  rank_history, and founding data to be added with sources during verification.
+notes: Seat of the Patriarch of Moscow and all Rus'. founded_from records the
+  translation of the Kyiv metropolitan seat northward (Vladimir 1299, Moscow
+  1325). Minimal draft — jurisdiction_history, rank_history, and founding
+  data to be added with sources during verification.
