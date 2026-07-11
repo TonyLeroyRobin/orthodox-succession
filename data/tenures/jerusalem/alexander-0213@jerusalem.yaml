@@ -1,0 +1,22 @@
+id: tenure/jerusalem/alexander-0213@jerusalem
+person: person/jerusalem/alexander-0213
+see: see/jerusalem/jerusalem
+from:
+  value: '0213'
+  calendar: julian
+  precision: year
+  note: founder of the Jerusalem library; martyred under Decius
+to:
+  value: '0251'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 34: Alexander (213–251)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: founder of the Jerusalem library; martyred under Decius
+status: unverified
+notes: Created from the official list (no. 34) during Milestone C reconciliation
+  2026-07-10. founder of the Jerusalem library; martyred under Decius.

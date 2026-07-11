@@ -1,0 +1,56 @@
+id: person/jerusalem/james-the-just-0033
+names:
+  monastic: "James"
+  native:
+    - script: grc
+      value: "Ἰάκωβος"
+  variants:
+    - "James the Just"
+    - "James the Brother of God"
+    - "Iakovos Adelphotheos"
+died:
+  date:
+    value: "0062"
+    calendar: julian
+    precision: circa
+    note: "martyred at Jerusalem; Josephus (Ant. 20.9) places it in 62, the official list gives +62"
+  place: "Jerusalem"
+attestation: attested
+veneration:
+  status: saint
+  titles:
+    - "Apostle"
+    - "Brother of God (Adelphotheos)"
+    - "Hieromartyr"
+  recognition:
+    - by: universal
+  feast_days:
+    - month_day: "10-23"
+      calendar: julian
+      note: "Holy Apostle James the Brother of God, first bishop of Jerusalem"
+  sources:
+    - ref: source/oca-saints
+      locator: /saints/lives/2026/10/23
+      reliability: official-list
+      archived_url: "https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/10/23"
+      note: "Year-wildcard archive redirect — pin during verification."
+sources:
+  - ref: source/acts-of-the-apostles
+    locator: "Acts 12:17; 15:13-21; 21:18"
+    reliability: primary
+    note: "primary for his leadership of the Jerusalem church (presiding at the Apostolic Council)"
+  - ref: source/eusebius-ecclesiastical-history
+    locator: "HE 2.1, 2.23"
+    reliability: tradition
+    note: "first bishop of Jerusalem, entrusted with the throne by the apostles; his martyrdom"
+  - ref: source/jerusalem-patriarchate-succession
+    locator: "no. 1: James the brother of God (+62)"
+    reliability: official-list
+    archived_url: "http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/"
+status: unverified
+notes: >-
+  The official list heads its numbered succession with James as occupant
+  no. 1 — the Peter-at-Rome pattern (apostolic_founder on the see AND a
+  first tenure). His episcopate is better attested than most apostolic-era
+  claims (Acts shows him presiding at Jerusalem; Eusebius preserves
+  Hegesippus's account), but the dates remain tradition-grade.

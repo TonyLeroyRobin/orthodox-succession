@@ -1,0 +1,20 @@
+id: tenure/jerusalem/john-ix-1156@jerusalem
+person: person/jerusalem/john-ix-1156
+see: see/jerusalem/jerusalem
+from:
+  value: '1156'
+  calendar: julian
+  precision: year
+to:
+  value: '1166'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 91: John IX (1156–1166)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 91) during Milestone C reconciliation
+  2026-07-10.

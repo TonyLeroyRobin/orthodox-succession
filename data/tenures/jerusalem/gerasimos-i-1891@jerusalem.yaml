@@ -1,0 +1,22 @@
+id: tenure/jerusalem/gerasimos-i-1891@jerusalem
+person: person/jerusalem/gerasimos-i-1891
+see: see/jerusalem/jerusalem
+from:
+  value: '1891'
+  calendar: gregorian
+  precision: year
+  note: previously of Antioch
+to:
+  value: '1896'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 136: Gerasimos I (1891–1896)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: previously of Antioch
+status: unverified
+notes: Created from the official list (no. 136) during Milestone C reconciliation
+  2026-07-10. previously of Antioch.

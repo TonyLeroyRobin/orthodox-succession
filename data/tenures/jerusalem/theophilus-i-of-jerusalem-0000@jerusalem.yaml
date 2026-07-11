@@ -1,0 +1,25 @@
+id: tenure/jerusalem/theophilus-i-of-jerusalem-0000@jerusalem
+person: person/jerusalem/theophilus-i-of-jerusalem-0000
+see: see/jerusalem/jerusalem
+from:
+  value: '1012'
+  calendar: julian
+  precision: year
+  note: the list styles him Thephilos II — numbering divergence recorded (position
+    implies I)
+to:
+  value: '1020'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 82: Theophilos I (1012–1020)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: the list styles him Thephilos II — numbering divergence recorded (position
+    implies I)
+status: unverified
+notes: Created from the official list (no. 82) during Milestone C reconciliation
+  2026-07-10. the list styles him Thephilos II — numbering divergence recorded (position
+  implies I).

@@ -1,0 +1,13 @@
+id: person/jerusalem/james-ii-1460
+names:
+  monastic: James II
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 111: James II (1460–1460)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: the list gives 'circa 1460'
+status: unverified
+notes: Created from the official list (no. 111) during Milestone C reconciliation
+  2026-07-10. the list gives 'circa 1460'.

@@ -1,0 +1,22 @@
+id: tenure/jerusalem/justus-i-0107@jerusalem
+person: person/jerusalem/justus-i-0107
+see: see/jerusalem/jerusalem
+from:
+  value: '0107'
+  calendar: julian
+  precision: disputed
+  note: the list styles him Justus 1st or Judas, 'to 111'
+to:
+  value: '0111'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 3: Justus I (107–111)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: the list styles him Justus 1st or Judas, 'to 111'
+status: unverified
+notes: Created from the official list (no. 3) during Milestone C reconciliation
+  2026-07-10. the list styles him Justus 1st or Judas, 'to 111'.

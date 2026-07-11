@@ -1,0 +1,20 @@
+id: tenure/jerusalem/parthenius-of-jerusalem-1690@jerusalem
+person: person/jerusalem/parthenius-of-jerusalem-1690
+see: see/jerusalem/jerusalem
+from:
+  value: '1737'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1766'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 124: Parthenios (1737–1766)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 124) during Milestone C reconciliation
+  2026-07-10.

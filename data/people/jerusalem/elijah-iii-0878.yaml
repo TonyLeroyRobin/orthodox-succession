@@ -1,0 +1,12 @@
+id: person/jerusalem/elijah-iii-0878
+names:
+  monastic: Elijah III
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 71: Elijah III (878–907)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 71) during Milestone C reconciliation
+  2026-07-10.

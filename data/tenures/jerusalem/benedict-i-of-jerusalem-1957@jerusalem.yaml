@@ -25,9 +25,14 @@ sources:
   archived_url: https://web.archive.org/web/2026/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
   note: year-wildcard archive redirect; Save Page Now requested 2026-07-08 — pin
     the exact snapshot when it propagates
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 139: Benedictos I (1957–1980)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
 status: verified
 notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
   against a diadochal list or scholarly source. Verified against the official Jerusalem
   Patriarchate apostolic-succession list (verification pass 2026-07-08): name and
   tenure years match. Review performed by the AI assistant at user direction — spot-check
-  before treating as human-verified.'
+  before treating as human-verified. Milestone C reconciliation 2026-07-10: matched
+  to official list no. 139 (Benedictos I, 1957-1980); snapshot now pinned (20260708200213).'

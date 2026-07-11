@@ -1,0 +1,14 @@
+id: person/jerusalem/mark-0134
+names:
+  monastic: Mark
+attestation: uncertain
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 16: Mark (134–?)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: first bishop of the Gentile line at Aelia Capitolina
+status: unverified
+notes: Created from the official list (no. 16) during Milestone C reconciliation
+  2026-07-10. The earliest bishops are known from Eusebius's list (HE 4.5) — Orthodox
+  Tradition, recorded as given. first bishop of the Gentile line at Aelia Capitolina.

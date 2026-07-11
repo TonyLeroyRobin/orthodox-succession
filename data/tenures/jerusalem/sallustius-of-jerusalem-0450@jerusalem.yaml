@@ -1,0 +1,20 @@
+id: tenure/jerusalem/sallustius-of-jerusalem-0450@jerusalem
+person: person/jerusalem/sallustius-of-jerusalem-0450
+see: see/jerusalem/jerusalem
+from:
+  value: 0486
+  calendar: julian
+  precision: year
+to:
+  value: 0493
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 47: Sallustios (486–493)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 47) during Milestone C reconciliation
+  2026-07-10.

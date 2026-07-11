@@ -1,0 +1,12 @@
+id: person/jerusalem/john-ii-0386
+names:
+  monastic: John II
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 42: John II (386–417)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 42) during Milestone C reconciliation
+  2026-07-10.

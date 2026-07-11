@@ -1,0 +1,12 @@
+id: person/jerusalem/paisios-1645
+names:
+  monastic: Paisios
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 119: Paisios (1645–1660)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 119) during Milestone C reconciliation
+  2026-07-10.

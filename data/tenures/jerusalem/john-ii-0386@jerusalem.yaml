@@ -1,0 +1,20 @@
+id: tenure/jerusalem/john-ii-0386@jerusalem
+person: person/jerusalem/john-ii-0386
+see: see/jerusalem/jerusalem
+from:
+  value: 0386
+  calendar: julian
+  precision: year
+to:
+  value: '0417'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 42: John II (386–417)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 42) during Milestone C reconciliation
+  2026-07-10.

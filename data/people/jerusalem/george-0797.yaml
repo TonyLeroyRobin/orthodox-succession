@@ -1,0 +1,12 @@
+id: person/jerusalem/george-0797
+names:
+  monastic: George
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 64: George (797–807)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 64) during Milestone C reconciliation
+  2026-07-10.

@@ -1,0 +1,12 @@
+id: person/jerusalem/markos-iii-1503
+names:
+  monastic: Markos III
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 114: Markos III (1503–1503)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 114) during Milestone C reconciliation
+  2026-07-10.

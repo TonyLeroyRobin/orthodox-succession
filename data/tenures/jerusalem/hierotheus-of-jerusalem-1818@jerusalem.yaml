@@ -1,0 +1,20 @@
+id: tenure/jerusalem/hierotheus-of-jerusalem-1818@jerusalem
+person: person/jerusalem/hierotheus-of-jerusalem-1818
+see: see/jerusalem/jerusalem
+from:
+  value: '1875'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1882'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 134: Hierotheos (1875–1882)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 134) during Milestone C reconciliation
+  2026-07-10.

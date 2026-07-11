@@ -1,0 +1,20 @@
+id: tenure/jerusalem/orestis-0983@jerusalem
+person: person/jerusalem/orestis-0983
+see: see/jerusalem/jerusalem
+from:
+  value: 0983
+  calendar: julian
+  precision: year
+to:
+  value: '1005'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 81: Orestis (983–1005)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 81) during Milestone C reconciliation
+  2026-07-10.

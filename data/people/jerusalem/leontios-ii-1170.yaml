@@ -1,0 +1,12 @@
+id: person/jerusalem/leontios-ii-1170
+names:
+  monastic: Leontios II
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 93: Leontios II (1170–1190)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 93) during Milestone C reconciliation
+  2026-07-10.

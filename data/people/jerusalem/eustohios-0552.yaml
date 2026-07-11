@@ -1,0 +1,12 @@
+id: person/jerusalem/eustohios-0552
+names:
+  monastic: Eustohios
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 52: Eustohios (552–564)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 52) during Milestone C reconciliation
+  2026-07-10.

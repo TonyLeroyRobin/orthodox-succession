@@ -1,0 +1,13 @@
+id: person/jerusalem/kyrill-i-0350
+names:
+  monastic: Kyrill I
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 41: Kyrill I (350–386)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: St Cyril of Jerusalem, catechist
+status: unverified
+notes: Created from the official list (no. 41) during Milestone C reconciliation
+  2026-07-10. St Cyril of Jerusalem, catechist.

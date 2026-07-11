@@ -1,0 +1,20 @@
+id: tenure/jerusalem/thomas-i-of-jerusalem-0750@jerusalem
+person: person/jerusalem/thomas-i-of-jerusalem-0750
+see: see/jerusalem/jerusalem
+from:
+  value: 0807
+  calendar: julian
+  precision: year
+to:
+  value: 0820
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 65: Thomas I (807–820)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 65) during Milestone C reconciliation
+  2026-07-10.

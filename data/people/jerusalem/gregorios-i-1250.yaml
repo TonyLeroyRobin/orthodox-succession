@@ -1,0 +1,13 @@
+id: person/jerusalem/gregorios-i-1250
+names:
+  monastic: Gregorios I
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 99: Gregorios I (1250–1298)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: the list gives '?-1298'
+status: unverified
+notes: Created from the official list (no. 99) during Milestone C reconciliation
+  2026-07-10. the list gives '?-1298'.

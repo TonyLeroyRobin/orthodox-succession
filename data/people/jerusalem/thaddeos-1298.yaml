@@ -1,0 +1,12 @@
+id: person/jerusalem/thaddeos-1298
+names:
+  monastic: Thaddeos
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 100: Thaddeos (1298–1298)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 100) during Milestone C reconciliation
+  2026-07-10.

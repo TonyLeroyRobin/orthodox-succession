@@ -1,0 +1,12 @@
+id: person/jerusalem/leontios-i-0912
+names:
+  monastic: Leontios I
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 73: Leontios I (912–929)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 73) during Milestone C reconciliation
+  2026-07-10.

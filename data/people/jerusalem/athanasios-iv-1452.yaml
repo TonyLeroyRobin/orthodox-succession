@@ -1,0 +1,12 @@
+id: person/jerusalem/athanasios-iv-1452
+names:
+  monastic: Athanasios IV
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 110: Athanasios IV (1452–1460)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 110) during Milestone C reconciliation
+  2026-07-10.

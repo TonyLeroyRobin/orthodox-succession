@@ -1,0 +1,26 @@
+id: tenure/jerusalem/gregorios-ii-1332@jerusalem
+person: person/jerusalem/gregorios-ii-1332
+see: see/jerusalem/jerusalem
+from:
+  value: '1332'
+  calendar: julian
+  precision: disputed
+  note: overlaps Athanasios III as dated; recorded as given
+to:
+  value: '1332'
+  calendar: julian
+  precision: year
+end_reason: unknown
+recognition:
+- by: all
+  status: disputed
+  note: overlaps Athanasios III as dated; recorded as given
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 102: Gregorios II (1332–1332)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: overlaps Athanasios III as dated; recorded as given
+status: unverified
+notes: Created from the official list (no. 102) during Milestone C reconciliation
+  2026-07-10. overlaps Athanasios III as dated; recorded as given.

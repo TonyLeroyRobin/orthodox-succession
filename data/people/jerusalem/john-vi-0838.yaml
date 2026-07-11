@@ -1,0 +1,12 @@
+id: person/jerusalem/john-vi-0838
+names:
+  monastic: John VI
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 67: John VI (838–842)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 67) during Milestone C reconciliation
+  2026-07-10.

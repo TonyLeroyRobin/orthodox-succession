@@ -1,0 +1,26 @@
+id: tenure/jerusalem/james-the-just-0033@jerusalem
+person: person/jerusalem/james-the-just-0033
+see: see/jerusalem/jerusalem
+from:
+  value: "0033"
+  calendar: julian
+  precision: circa
+  note: "traditional start of his episcopate after the Ascension; the official list gives only his martyrdom (+62)"
+to:
+  value: "0062"
+  calendar: julian
+  precision: circa
+end_reason: died
+sources:
+  - ref: source/jerusalem-patriarchate-succession
+    locator: "no. 1: James the brother of God (+62)"
+    reliability: official-list
+    archived_url: "http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/"
+  - ref: source/eusebius-ecclesiastical-history
+    locator: "HE 2.1, 2.23"
+    reliability: tradition
+status: unverified
+notes: >-
+  First occupant per the official numbered list. Tradition-grade dates —
+  permanently ineligible for verified status unless a better source
+  emerges (the Barnabas/Peter/Mark pattern).

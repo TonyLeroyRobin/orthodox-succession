@@ -1,0 +1,20 @@
+id: tenure/jerusalem/sergios-ii-0908@jerusalem
+person: person/jerusalem/sergios-ii-0908
+see: see/jerusalem/jerusalem
+from:
+  value: 0908
+  calendar: julian
+  precision: year
+to:
+  value: 0911
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 72: Sergios II (908–911)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 72) during Milestone C reconciliation
+  2026-07-10.

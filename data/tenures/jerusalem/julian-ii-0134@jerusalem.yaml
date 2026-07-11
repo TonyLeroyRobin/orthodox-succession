@@ -1,0 +1,19 @@
+id: tenure/jerusalem/julian-ii-0134@jerusalem
+person: person/jerusalem/julian-ii-0134
+see: see/jerusalem/jerusalem
+from:
+  value: '0134'
+  calendar: julian
+  precision: disputed
+  note: the official list dates this group of bishops collectively (134-185); individual
+    tenure dates are not preserved — Orthodox Tradition, recorded as given
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 24: Julian II (134–?)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: the list styles him Julian or Walis
+status: unverified
+notes: Created from the official list (no. 24) during Milestone C reconciliation
+  2026-07-10. the list styles him Julian or Walis.

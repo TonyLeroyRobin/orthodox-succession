@@ -1,5 +1,18 @@
 id: see/jerusalem/jerusalem
 name: Jerusalem
+apostolic_founder:
+  person: person/jerusalem/james-the-just-0033
+  sources:
+  - ref: source/eusebius-ecclesiastical-history
+    locator: "HE 2.1"
+    reliability: tradition
+    note: entrusted with the throne of Jerusalem by the apostles — founder
+      AND first occupant per the official numbered list (the Peter-at-Rome
+      pattern); recorded as tradition, graded honestly
+  - ref: source/jerusalem-patriarchate-succession
+    locator: "no. 1: James the brother of God (+62)"
+    reliability: official-list
+    archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
 location:
   lat: 31.778
   lon: 35.23
@@ -10,6 +23,7 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: Mother church of Christendom; traditional first bishop James the Just (to
-  be modeled with sources in a later pass). Minimal draft — jurisdiction_history,
-  rank_history, and founding data to be added with sources during verification.
+notes: Mother church of Christendom. Apostolic founder James the Just modeled
+  during the Milestone C reconciliation (2026-07-10) — founder AND first
+  occupant per the official list. jurisdiction_history, rank_history, and
+  founding data still to be added with sources during verification.

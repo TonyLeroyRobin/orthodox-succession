@@ -1,0 +1,14 @@
+id: person/jerusalem/dios-0213
+names:
+  monastic: Dios
+attestation: uncertain
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 31: Dios (213–?)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: the list dates the group of nos. 31-33 to c. 213
+status: unverified
+notes: Created from the official list (no. 31) during Milestone C reconciliation
+  2026-07-10. The earliest bishops are known from Eusebius's list (HE 4.5) — Orthodox
+  Tradition, recorded as given. the list dates the group of nos. 31-33 to c. 213.

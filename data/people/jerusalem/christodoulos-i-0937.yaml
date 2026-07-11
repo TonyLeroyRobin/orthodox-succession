@@ -1,0 +1,15 @@
+id: person/jerusalem/christodoulos-i-0937
+names:
+  monastic: Christodoulos I
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 75: Christodoulos I (937–950)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: the list gives '…..-937' for him — anchored at his predecessor's end; readings
+    vary
+status: unverified
+notes: Created from the official list (no. 75) during Milestone C reconciliation
+  2026-07-10. the list gives '…..-937' for him — anchored at his predecessor's end;
+  readings vary.

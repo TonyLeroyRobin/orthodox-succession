@@ -1,0 +1,20 @@
+id: tenure/jerusalem/elijah-i-0494@jerusalem
+person: person/jerusalem/elijah-i-0494
+see: see/jerusalem/jerusalem
+from:
+  value: 0494
+  calendar: julian
+  precision: year
+to:
+  value: '0516'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 48: Elijah I (494–516)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 48) during Milestone C reconciliation
+  2026-07-10.

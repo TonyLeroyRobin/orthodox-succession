@@ -1,0 +1,12 @@
+id: person/jerusalem/ephraim-ii-1766
+names:
+  monastic: Ephraim II
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 125: Ephraim II (1766–1771)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 125) during Milestone C reconciliation
+  2026-07-10.

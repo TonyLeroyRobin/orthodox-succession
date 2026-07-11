@@ -13,11 +13,18 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source; term dates from P39
     start/end qualifiers
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 58: Modestos (632–634)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: locum during the captivity, then bishop — counted an occupant (no. 57 in
+    the list numbering here)
 status: unverified
 notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
   against a diadochal list or scholarly source. Verification pass 2026-07-08: not
   corroborated by the official Jerusalem Patriarchate apostolic-succession list
-  as fetched — check name form and dates manually.'
+  as fetched — check name form and dates manually. Milestone C reconciliation 2026-07-10:
+  matched to official list no. 58 (Modestos, 632-634); snapshot now pinned (20260708200213).'
 to:
   value: '0634'
   calendar: julian

@@ -1,0 +1,27 @@
+id: tenure/jerusalem/zacharias-of-jerusalem-0550@jerusalem
+person: person/jerusalem/zacharias-of-jerusalem-0550
+see: see/jerusalem/jerusalem
+from:
+  value: 0609
+  calendar: julian
+  precision: year
+  note: in Persian captivity 614-628 with the True Cross
+to:
+  value: '0632'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 57: Zacharias (609–632)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: in Persian captivity 614-628 with the True Cross
+status: unverified
+notes: Created from the official list (no. 57) during Milestone C reconciliation
+  2026-07-10. in Persian captivity 614-628 with the True Cross.
+recognition:
+- by: all
+  status: disputed
+  note: term overlaps tenure/jerusalem/modestos-of-jerusalem-0630@jerusalem as dated
+    on the official list — recorded as given, not adjudicated

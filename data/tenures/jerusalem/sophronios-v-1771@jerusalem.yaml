@@ -1,0 +1,22 @@
+id: tenure/jerusalem/sophronios-v-1771@jerusalem
+person: person/jerusalem/sophronios-v-1771
+see: see/jerusalem/jerusalem
+from:
+  value: '1771'
+  calendar: gregorian
+  precision: year
+  note: also of Constantinople as Sophronios II
+to:
+  value: '1775'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 126: Sophronios V (1771–1775)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: also of Constantinople as Sophronios II
+status: unverified
+notes: Created from the official list (no. 126) during Milestone C reconciliation
+  2026-07-10. also of Constantinople as Sophronios II.

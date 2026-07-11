@@ -1,0 +1,18 @@
+id: tenure/jerusalem/savvas-1106@jerusalem
+person: person/jerusalem/savvas-1106
+see: see/jerusalem/jerusalem
+from:
+  value: '1106'
+  calendar: julian
+  precision: disputed
+  note: end not given
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 88: Savvas (1106–?)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: end not given
+status: unverified
+notes: Created from the official list (no. 88) during Milestone C reconciliation
+  2026-07-10. end not given.

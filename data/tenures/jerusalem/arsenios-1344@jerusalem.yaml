@@ -1,0 +1,30 @@
+id: tenure/jerusalem/arsenios-1344@jerusalem
+person: person/jerusalem/arsenios-1344
+see: see/jerusalem/jerusalem
+from:
+  value: '1344'
+  calendar: julian
+  precision: disputed
+  note: the list dates him 1344, inside Lazaros's span — rival or restoration; recorded
+    as given
+to:
+  value: '1344'
+  calendar: julian
+  precision: year
+end_reason: unknown
+recognition:
+- by: all
+  status: disputed
+  note: the list dates him 1344, inside Lazaros's span — rival or restoration; recorded
+    as given
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 104: Arsenios (1344–1344)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: the list dates him 1344, inside Lazaros's span — rival or restoration; recorded
+    as given
+status: unverified
+notes: Created from the official list (no. 104) during Milestone C reconciliation
+  2026-07-10. the list dates him 1344, inside Lazaros's span — rival or restoration;
+  recorded as given.

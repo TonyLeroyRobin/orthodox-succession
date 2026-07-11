@@ -1,0 +1,20 @@
+id: tenure/jerusalem/hymeneos-0260@jerusalem
+person: person/jerusalem/hymeneos-0260
+see: see/jerusalem/jerusalem
+from:
+  value: '0260'
+  calendar: julian
+  precision: year
+to:
+  value: 0298
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 36: Hymeneos (260–298)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 36) during Milestone C reconciliation
+  2026-07-10.

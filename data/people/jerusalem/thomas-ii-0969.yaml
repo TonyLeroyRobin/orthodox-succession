@@ -1,0 +1,12 @@
+id: person/jerusalem/thomas-ii-0969
+names:
+  monastic: Thomas II
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 79: Thomas II (969–978)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 79) during Milestone C reconciliation
+  2026-07-10.

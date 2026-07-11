@@ -1,0 +1,15 @@
+id: person/jerusalem/elijah-ii-0770
+names:
+  monastic: Elijah II
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 63: Elijah II (770–797)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: the list numbers him Elijah V — numbering divergence recorded (position
+    implies II)
+status: unverified
+notes: Created from the official list (no. 63) during Milestone C reconciliation
+  2026-07-10. the list numbers him Elijah V — numbering divergence recorded (position
+  implies II).

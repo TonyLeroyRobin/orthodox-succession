@@ -1,0 +1,22 @@
+id: tenure/jerusalem/macarius-ii-of-jerusalem-0000@jerusalem-2
+person: person/jerusalem/macarius-ii-of-jerusalem-0000
+see: see/jerusalem/jerusalem
+from:
+  value: '0564'
+  calendar: julian
+  precision: year
+  note: second term
+to:
+  value: '0575'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 53: Makarios II (564–575)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: second term
+status: unverified
+notes: Created from the official list (no. 53) during Milestone C reconciliation
+  2026-07-10. second term.

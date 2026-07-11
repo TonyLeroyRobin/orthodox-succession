@@ -1,0 +1,20 @@
+id: tenure/jerusalem/thomas-ii-0969@jerusalem
+person: person/jerusalem/thomas-ii-0969
+see: see/jerusalem/jerusalem
+from:
+  value: 0969
+  calendar: julian
+  precision: year
+to:
+  value: 0978
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 79: Thomas II (969–978)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 79) during Milestone C reconciliation
+  2026-07-10.

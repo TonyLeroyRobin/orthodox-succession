@@ -1,0 +1,12 @@
+id: person/jerusalem/sophronios-ii-1040
+names:
+  monastic: Sophronios II
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 85: Sophronios II (1040–1059)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 85) during Milestone C reconciliation
+  2026-07-10.

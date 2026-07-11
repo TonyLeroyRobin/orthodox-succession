@@ -1,0 +1,13 @@
+id: person/jerusalem/thephanis-iii-1608
+names:
+  monastic: Thephanis III
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 118: Thephanis III (1608–1644)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: Theophanes III; the list's spelling kept in the locator
+status: unverified
+notes: Created from the official list (no. 118) during Milestone C reconciliation
+  2026-07-10. Theophanes III; the list's spelling kept in the locator.

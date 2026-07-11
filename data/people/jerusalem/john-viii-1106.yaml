@@ -1,0 +1,15 @@
+id: person/jerusalem/john-viii-1106
+names:
+  monastic: John VIII
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 89: John VIII (1106–1156)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: overlaps Savvas as dated — crusader-era exile at Constantinople; recorded
+    as given
+status: unverified
+notes: Created from the official list (no. 89) during Milestone C reconciliation
+  2026-07-10. overlaps Savvas as dated — crusader-era exile at Constantinople; recorded
+  as given.

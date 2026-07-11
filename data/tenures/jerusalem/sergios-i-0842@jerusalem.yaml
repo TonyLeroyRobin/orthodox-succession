@@ -1,0 +1,20 @@
+id: tenure/jerusalem/sergios-i-0842@jerusalem
+person: person/jerusalem/sergios-i-0842
+see: see/jerusalem/jerusalem
+from:
+  value: 0842
+  calendar: julian
+  precision: year
+to:
+  value: 0844
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 68: Sergios I (842–844)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 68) during Milestone C reconciliation
+  2026-07-10.

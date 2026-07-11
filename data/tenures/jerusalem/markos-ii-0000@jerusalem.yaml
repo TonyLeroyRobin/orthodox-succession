@@ -1,0 +1,22 @@
+id: tenure/jerusalem/markos-ii-0000@jerusalem
+person: person/jerusalem/markos-ii-0000
+see: see/jerusalem/jerusalem
+from:
+  value: '1191'
+  calendar: julian
+  precision: disputed
+  note: end not given by the list
+to:
+  value: '1195'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 95: Mark II (1191–1195)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: end not given by the list
+status: unverified
+notes: Created from the official list (no. 95) during Milestone C reconciliation
+  2026-07-10. end not given by the list.

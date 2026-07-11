@@ -1,0 +1,22 @@
+id: tenure/jerusalem/herman-1537@jerusalem
+person: person/jerusalem/herman-1537
+see: see/jerusalem/jerusalem
+from:
+  value: '1537'
+  calendar: julian
+  precision: year
+  note: usually Germanos in other works — recorded as the list styles him
+to:
+  value: '1579'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 116: Herman (1537–1579)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: usually Germanos in other works — recorded as the list styles him
+status: unverified
+notes: Created from the official list (no. 116) during Milestone C reconciliation
+  2026-07-10. usually Germanos in other works — recorded as the list styles him.

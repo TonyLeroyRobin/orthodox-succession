@@ -1,0 +1,12 @@
+id: person/jerusalem/nicephoros-ii-1166
+names:
+  monastic: Nicephoros II
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 92: Nicephoros II (1166–1170)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 92) during Milestone C reconciliation
+  2026-07-10.

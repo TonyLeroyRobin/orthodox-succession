@@ -1,0 +1,22 @@
+id: tenure/jerusalem/dositheos-i-1191@jerusalem
+person: person/jerusalem/dositheos-i-1191
+see: see/jerusalem/jerusalem
+from:
+  value: '1191'
+  calendar: julian
+  precision: year
+  note: briefly, before translation to Constantinople
+to:
+  value: '1191'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 94: Dositheos I (1191–1191)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: briefly, before translation to Constantinople
+status: unverified
+notes: Created from the official list (no. 94) during Milestone C reconciliation
+  2026-07-10. briefly, before translation to Constantinople.

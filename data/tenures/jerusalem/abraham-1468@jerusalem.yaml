@@ -1,0 +1,20 @@
+id: tenure/jerusalem/abraham-1468@jerusalem
+person: person/jerusalem/abraham-1468
+see: see/jerusalem/jerusalem
+from:
+  value: '1468'
+  calendar: julian
+  precision: year
+to:
+  value: '1468'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 112: Abraham (1468–1468)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 112) during Milestone C reconciliation
+  2026-07-10.

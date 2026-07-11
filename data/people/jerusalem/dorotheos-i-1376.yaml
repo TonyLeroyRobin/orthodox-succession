@@ -1,0 +1,12 @@
+id: person/jerusalem/dorotheos-i-1376
+names:
+  monastic: Dorotheos I
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 105: Dorotheos I (1376–1417)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 105) during Milestone C reconciliation
+  2026-07-10.

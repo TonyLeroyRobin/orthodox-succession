@@ -1,0 +1,22 @@
+id: tenure/jerusalem/euthymius-i-of-jerusalem-1050@jerusalem
+person: person/jerusalem/euthymius-i-of-jerusalem-1050
+see: see/jerusalem/jerusalem
+from:
+  value: '1084'
+  calendar: julian
+  precision: disputed
+  note: the list gives '?-1084'
+to:
+  value: '1084'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 86: Euthymios I (1084–1084)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: the list gives '?-1084'
+status: unverified
+notes: Created from the official list (no. 86) during Milestone C reconciliation
+  2026-07-10. the list gives '?-1084'.

@@ -1,0 +1,12 @@
+id: person/jerusalem/theodoros-0745
+names:
+  monastic: Theodoros
+attestation: attested
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 62: Theodoros (745–770)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 62) during Milestone C reconciliation
+  2026-07-10.

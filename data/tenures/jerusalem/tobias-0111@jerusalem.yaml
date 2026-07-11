@@ -1,0 +1,18 @@
+id: tenure/jerusalem/tobias-0111@jerusalem
+person: person/jerusalem/tobias-0111
+see: see/jerusalem/jerusalem
+from:
+  value: '0111'
+  calendar: julian
+  precision: disputed
+  note: the official list dates this group of bishops collectively (111-134); individual
+    tenure dates are not preserved — Orthodox Tradition, recorded as given
+end_reason: unknown
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 5: Tobias (111–?)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+status: unverified
+notes: Created from the official list (no. 5) during Milestone C reconciliation
+  2026-07-10.

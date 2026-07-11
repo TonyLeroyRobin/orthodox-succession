@@ -1,0 +1,14 @@
+id: person/jerusalem/justus-i-0107
+names:
+  monastic: Justus I
+attestation: uncertain
+sources:
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 3: Justus I (107–111)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: the list styles him Justus 1st or Judas, 'to 111'
+status: unverified
+notes: Created from the official list (no. 3) during Milestone C reconciliation
+  2026-07-10. The earliest bishops are known from Eusebius's list (HE 4.5) — Orthodox
+  Tradition, recorded as given. the list styles him Justus 1st or Judas, 'to 111'.
