@@ -13,6 +13,14 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source; term dates from P39 start/end
     qualifiers
+- ref: source/orthodox-church-in-america-official
+  locator: holy-synod/past-primates
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.oca.org/holy-synod/past-primates
+  note: dates per the official OCA past-primates page (fetched 2026-07-11); year-wildcard
+    archive redirect — pin during verification
 status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
+  a diadochal list or scholarly source. Milestone C reconciliation 2026-07-11: matched to
+  the official past-primates list (Tikhon (Mollard), 2012-present) — elected 13 November 2012;
+  incumbent.'

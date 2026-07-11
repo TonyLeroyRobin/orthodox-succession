@@ -1,6 +1,7 @@
 id: person/oca/tikhon-mollard-2012
 names:
   monastic: Tikhon Mollard
+  family: Mollard
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -8,9 +9,9 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone C reconciliation 2026-07-11 — matched (Tikhon Mollard, 2012-present, incumbent).
 identifiers:
   wikidata: Q4458617
 born:

@@ -1,0 +1,15 @@
+id: person/oca/nestor-zass-1878
+names:
+  monastic: Nestor
+  family: Zass
+attestation: attested
+sources:
+- ref: source/orthodox-church-in-america-official
+  locator: holy-synod/past-primates
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.oca.org/holy-synod/past-primates
+  note: dates per the official OCA past-primates page (fetched 2026-07-11); year-wildcard
+    archive redirect — pin during verification
+status: unverified
+notes: Created from the official OCA past-primates list during Milestone C reconciliation
+  2026-07-11.

@@ -1,0 +1,25 @@
+id: tenure/oca/nestor-zass-1878@washington
+person: person/oca/nestor-zass-1878
+see: see/oca/washington
+from:
+  value: '1878'
+  calendar: julian
+  precision: year
+  note: calendar (OS/NS) to be confirmed
+to:
+  value: '1882'
+  calendar: julian
+  precision: year
+  note: calendar (OS/NS) to be confirmed
+end_reason: died
+sources:
+- ref: source/orthodox-church-in-america-official
+  locator: holy-synod/past-primates
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.oca.org/holy-synod/past-primates
+  note: dates per the official OCA past-primates page (fetched 2026-07-11); year-wildcard
+    archive redirect — pin during verification
+status: unverified
+notes: Created from the official OCA past-primates list during Milestone C reconciliation
+  2026-07-11. Drowned in the Bering Sea in 1882 — verify. The 1882-1887 gap that follows is
+  a documented vacancy, list-inherent.

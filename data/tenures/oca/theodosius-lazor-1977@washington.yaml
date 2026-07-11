@@ -1,0 +1,24 @@
+id: tenure/oca/theodosius-lazor-1977@washington
+person: person/oca/theodosius-lazor-1977
+see: see/oca/washington
+from:
+  value: '1977'
+  calendar: gregorian
+  precision: year
+to:
+  value: '2002'
+  calendar: gregorian
+  precision: year
+end_reason: resigned
+sources:
+- ref: source/orthodox-church-in-america-official
+  locator: holy-synod/past-primates
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.oca.org/holy-synod/past-primates
+  note: dates per the official OCA past-primates page (fetched 2026-07-11); year-wildcard
+    archive redirect — pin during verification
+status: unverified
+notes: Created from the official OCA past-primates list during Milestone C reconciliation
+  2026-07-11. The official list splits the term (1977-80, 1981-2002) around the 1981 transfer
+  of the primatial seat to Washington — carried as one tenure; verify the split's basis. First
+  American-born primate; retired 2002.

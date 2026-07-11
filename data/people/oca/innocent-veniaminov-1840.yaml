@@ -1,0 +1,37 @@
+id: person/oca/innocent-veniaminov-1840
+names:
+  monastic: Innocent
+  family: Veniaminov
+attestation: attested
+sources:
+- ref: source/orthodox-church-in-america-official
+  locator: holy-synod/past-primates
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.oca.org/holy-synod/past-primates
+  note: dates per the official OCA past-primates page (fetched 2026-07-11); year-wildcard
+    archive redirect — pin during verification
+status: unverified
+notes: Created from the official OCA past-primates list during Milestone C reconciliation
+  2026-07-11. St Innocent, Equal-to-the-Apostles and Enlightener of North America; glorified
+  1977. Later Metropolitan of Moscow (1868-1879) — cross-jurisdiction person; the synodal-era
+  Moscow line is backlogged.
+veneration:
+  status: saint
+  titles:
+  - Equal-to-the-Apostles
+  - Enlightener of North America
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 03-31
+    calendar: julian
+    note: repose of St Innocent
+  - month_day: 10-06
+    calendar: julian
+    note: glorification of St Innocent (1977)
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/03/31
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/03/31
+    note: Year-wildcard archive redirect - pin during verification.

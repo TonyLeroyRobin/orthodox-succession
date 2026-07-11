@@ -10,5 +10,17 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: Seat of the Metropolitan of All America and Canada. Minimal draft — jurisdiction_history,
-  rank_history, and founding data to be added with sources during verification.
+notes: 'Seat of the Metropolitan of All America and Canada. Milestone C (2026-07-11)
+  closed the spine on this see per the OFFICIAL OCA past-primates list (oca.org/holy-synod/past-primates
+  — the first directly fetchable official diadochal list of the milestone), which
+  itself spans the mission era: Joasaph Bolotov (1799) through the Russian archdiocese,
+  the Metropolia, and the OCA to Tikhon Mollard (2012–, incumbent). Moving-seat precedent:
+  Kodiak/Sitka → San Francisco (1872) → New York (1905) → Washington (1981), all
+  on this record. The 1799–1840 and 1882–1887 gaps are mission-era vacancies, list-inherent.
+  The list''s vicar-administrator rows (Peter 1859–1866, Paul 1866–1870, Sylvester
+  1974–1977) overlap the ruling tenures and carry disputed recognition qualifiers
+  with administrative notes — recorded as the list gives. The Metropolia-era estrangement
+  from Moscow (1933/1947 suspensions, reconciled by the 1970 tomos) is carried as
+  per-recognizer entries on the affected tenures; the autocephaly dispute itself lives
+  on the jurisdiction record. jurisdiction_history and rank_history still to be added
+  during verification.'

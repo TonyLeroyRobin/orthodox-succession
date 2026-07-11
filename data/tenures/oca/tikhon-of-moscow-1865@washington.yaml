@@ -1,0 +1,28 @@
+id: tenure/oca/tikhon-of-moscow-1865@washington
+person: person/russia/tikhon-of-moscow-1865
+see: see/oca/washington
+from:
+  value: '1898'
+  calendar: julian
+  precision: year
+  note: calendar (OS/NS) to be confirmed
+to:
+  value: '1907'
+  calendar: julian
+  precision: year
+  note: calendar (OS/NS) to be confirmed
+end_reason: translated
+sources:
+- ref: source/orthodox-church-in-america-official
+  locator: holy-synod/past-primates
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.oca.org/holy-synod/past-primates
+  note: dates per the official OCA past-primates page (fetched 2026-07-11); year-wildcard
+    archive redirect — pin during verification
+status: unverified
+notes: Created from the official OCA past-primates list during Milestone C reconciliation
+  2026-07-11. This is the future Patriarch Tikhon of Moscow — tenure linked to the existing
+  Russia person record (cross-jurisdiction person, the Niphon II precedent); his veneration
+  block lives there. The official list splits the term (1898-1900, 1900-05, 1905-07) at the
+  title change (Aleutians and Alaska -> Aleutians and North America, 1900) and the seat move
+  (San Francisco -> New York, 1905) — carried as one tenure. Recalled to Yaroslavl 1907.

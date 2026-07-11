@@ -1,0 +1,29 @@
+id: tenure/oca/paul-popov-1866@washington
+person: person/oca/paul-popov-1866
+see: see/oca/washington
+from:
+  value: '1866'
+  calendar: julian
+  precision: year
+  note: calendar (OS/NS) to be confirmed
+to:
+  value: '1870'
+  calendar: julian
+  precision: year
+  note: calendar (OS/NS) to be confirmed
+end_reason: unknown
+recognition:
+- by: all
+  status: disputed
+  note: vicar/administrator within the tenure of Innocent (1840-1868) per the official list
+    — an administrative overlap, not a rival claim; recorded as the list gives, not adjudicated
+sources:
+- ref: source/orthodox-church-in-america-official
+  locator: holy-synod/past-primates
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.oca.org/holy-synod/past-primates
+  note: dates per the official OCA past-primates page (fetched 2026-07-11); year-wildcard
+    archive redirect — pin during verification
+status: unverified
+notes: Created from the official OCA past-primates list during Milestone C reconciliation
+  2026-07-11.
