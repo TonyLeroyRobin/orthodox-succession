@@ -1,0 +1,23 @@
+id: tenure/russia/philaret-of-moscow-1619@moscow
+person: person/russia/philaret-of-moscow-1619
+see: see/russia/moscow
+from:
+  value: '1619'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1633'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Philaret (1619–1633) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (azbyka.ru reproduction,
+    lead-generation; the official patriarchia.ru list page is inaccessible to automated
+    fetch) — confirm against Stroev and the official site during verification Feodor
+    Romanov, father of Tsar Michael
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  Feodor Romanov, father of Tsar Michael.

@@ -1,0 +1,28 @@
+id: tenure/russia/sergius-of-moscow-1943@moscow
+person: person/russia/sergius-of-moscow-1943
+see: see/russia/moscow
+from:
+  value: '1943'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1944'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Sergius (1943–1944) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (azbyka.ru reproduction,
+    lead-generation; the official patriarchia.ru list page is inaccessible to automated
+    fetch) — confirm against Stroev and the official site during verification patriarch
+    1943-1944; the standard tables date his headship from 1936/1937 as locum tenens
+    — the locum era is noted, not tenured (the project's occupancy rule); the 1925-1943
+    locum tenens era (Peter of Krutitsy, then Sergius) is an interregnum here
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  patriarch 1943-1944; the standard tables date his headship from 1936/1937 as locum
+  tenens — the locum era is noted, not tenured (the project's occupancy rule); the
+  1925-1943 locum tenens era (Peter of Krutitsy, then Sergius) is an interregnum
+  here.

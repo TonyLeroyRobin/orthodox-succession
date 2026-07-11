@@ -1,0 +1,13 @@
+id: person/russia/joachim-of-moscow-1674
+names:
+  monastic: Joachim
+attestation: attested
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Joachim (1674–1690) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (azbyka.ru reproduction,
+    lead-generation; the official patriarchia.ru list page is inaccessible to automated
+    fetch) — confirm against Stroev and the official site during verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.

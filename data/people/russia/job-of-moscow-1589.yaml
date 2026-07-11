@@ -1,0 +1,36 @@
+id: person/russia/job-of-moscow-1589
+names:
+  monastic: Job
+attestation: attested
+veneration:
+  status: saint
+  recognition:
+  - by: universal
+    glorified_date:
+      value: '1989'
+      calendar: gregorian
+      precision: year
+      note: formal glorification by the Russian Church
+  feast_days:
+  - month_day: 11-05
+    calendar: julian
+    note: St Job, first Patriarch of Moscow
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/11/05
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/11/05
+    note: Year-wildcard archive redirect — pin during verification.
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Job (1589–1605) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (azbyka.ru reproduction,
+    lead-generation; the official patriarchia.ru list page is inaccessible to automated
+    fetch) — confirm against Stroev and the official site during verification first
+    Patriarch of Moscow (1589, under Jeremias II of Constantinople); deposed by
+    False Dmitry I, died 1607
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  first Patriarch of Moscow (1589, under Jeremias II of Constantinople); deposed
+  by False Dmitry I, died 1607.

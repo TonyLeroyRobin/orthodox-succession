@@ -1,0 +1,25 @@
+id: tenure/russia/hermogenes-of-moscow-1606@moscow
+person: person/russia/hermogenes-of-moscow-1606
+see: see/russia/moscow
+from:
+  value: '1606'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1612'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Hermogenes (1606–1612) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (azbyka.ru reproduction,
+    lead-generation; the official patriarchia.ru list page is inaccessible to automated
+    fetch) — confirm against Stroev and the official site during verification died
+    in Polish captivity during the Time of Troubles; the see then lay vacant to
+    1619 (interregnum recorded as a gap, not a tenure)
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  died in Polish captivity during the Time of Troubles; the see then lay vacant
+  to 1619 (interregnum recorded as a gap, not a tenure).

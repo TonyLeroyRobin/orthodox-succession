@@ -1,0 +1,25 @@
+id: tenure/russia/tikhon-of-moscow-1865@moscow
+person: person/russia/tikhon-of-moscow-1865
+see: see/russia/moscow
+from:
+  value: '1917'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1925'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Tikhon (1917–1925) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (azbyka.ru reproduction,
+    lead-generation; the official patriarchia.ru list page is inaccessible to automated
+    fetch) — confirm against Stroev and the official site during verification patriarchate
+    restored by the All-Russian Council of 1917-1918; confessor under the Bolshevik
+    persecution
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  patriarchate restored by the All-Russian Council of 1917-1918; confessor under
+  the Bolshevik persecution.

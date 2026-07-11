@@ -11,11 +11,21 @@ sources:
 - ref: source/wikidata
   locator: Q379587
   reliability: database
-  note: programmatic seed — verify against a graded source; term dates from P39 start/end
-    qualifiers
+  note: programmatic seed — verify against a graded source; term dates from P39
+    start/end qualifiers
+- ref: source/stroev-spiski
+  locator: s.v. Nikon (1652–1666) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (azbyka.ru reproduction,
+    lead-generation; the official patriarchia.ru list page is inaccessible to automated
+    fetch) — confirm against Stroev and the official site during verification left
+    the throne de facto in 1658; deposed by the Great Synod of Moscow (1666) — see
+    event/council/moscow-1666
 status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source. Milestone C reconciliation 2026-07-10:
+  matched to the standard chronology (Nikon, 1652–1666). left the throne de facto
+  in 1658; deposed by the Great Synod of Moscow (1666) — see event/council/moscow-1666.'
 to:
   value: '1658'
   calendar: gregorian

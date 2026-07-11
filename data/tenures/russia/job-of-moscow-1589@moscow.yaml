@@ -1,0 +1,25 @@
+id: tenure/russia/job-of-moscow-1589@moscow
+person: person/russia/job-of-moscow-1589
+see: see/russia/moscow
+from:
+  value: '1589'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1605'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Job (1589–1605) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (azbyka.ru reproduction,
+    lead-generation; the official patriarchia.ru list page is inaccessible to automated
+    fetch) — confirm against Stroev and the official site during verification first
+    Patriarch of Moscow (1589, under Jeremias II of Constantinople); deposed by
+    False Dmitry I, died 1607
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  first Patriarch of Moscow (1589, under Jeremias II of Constantinople); deposed
+  by False Dmitry I, died 1607.

@@ -1,0 +1,21 @@
+id: tenure/russia/joasaph-ii-of-moscow-1667@moscow
+person: person/russia/joasaph-ii-of-moscow-1667
+see: see/russia/moscow
+from:
+  value: '1667'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1672'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Joasaph II (1667–1672) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (azbyka.ru reproduction,
+    lead-generation; the official patriarchia.ru list page is inaccessible to automated
+    fetch) — confirm against Stroev and the official site during verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.

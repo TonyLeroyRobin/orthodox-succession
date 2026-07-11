@@ -14,5 +14,11 @@ sources:
 status: unverified
 notes: Seat of the Patriarch of Moscow and all Rus'. founded_from records the
   translation of the Kyiv metropolitan seat northward (Vladimir 1299, Moscow
-  1325). Minimal draft — jurisdiction_history, rank_history, and founding
-  data to be added with sources during verification.
+  1325). Milestone C (2026-07-10) closed the PATRIARCHAL succession
+  (Job 1589 to Kirill, per maintainer decision) — the metropolitans of
+  Moscow (1325-1589) are future work (BACKLOG). The occupancy gaps are
+  historical, not missing data - the 1612-1619 Time of Troubles vacancy,
+  the 1700-1721 Yavorsky locum tenency, the 1721-1917 Synodal period (see
+  event/context/synodal-period-1721), and the 1925-1943 locum tenens era.
+  jurisdiction_history and rank_history still to be added during
+  verification.

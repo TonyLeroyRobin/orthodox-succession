@@ -1,0 +1,27 @@
+id: tenure/russia/adrian-of-moscow-1690@moscow
+person: person/russia/adrian-of-moscow-1690
+see: see/russia/moscow
+from:
+  value: '1690'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1700'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Adrian (1690–1700) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (azbyka.ru reproduction,
+    lead-generation; the official patriarchia.ru list page is inaccessible to automated
+    fetch) — confirm against Stroev and the official site during verification last
+    pre-Synodal patriarch; Stephen Yavorsky then administered as locum tenens (1700-1721,
+    noted not tenured), after which Peter I's Holy Governing Synod replaced the
+    patriarchate — see event/context/synodal-period-1721
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  last pre-Synodal patriarch; Stephen Yavorsky then administered as locum tenens
+  (1700-1721, noted not tenured), after which Peter I's Holy Governing Synod replaced
+  the patriarchate — see event/context/synodal-period-1721.

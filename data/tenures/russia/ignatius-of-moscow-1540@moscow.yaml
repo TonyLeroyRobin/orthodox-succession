@@ -1,0 +1,31 @@
+id: tenure/russia/ignatius-of-moscow-1540@moscow
+person: person/russia/ignatius-of-moscow-1540
+see: see/russia/moscow
+from:
+  value: '1605'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1606'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+recognition:
+- by: all
+  status: rival-claimant
+  note: installed under False Dmitry I; not counted in the standard diadochal reckoning
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Ignatius (1605–1606) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (azbyka.ru reproduction,
+    lead-generation; the official patriarchia.ru list page is inaccessible to automated
+    fetch) — confirm against Stroev and the official site during verification installed
+    under False Dmitry I and removed on his fall; NOT counted in the standard diadochal
+    reckoning (DATA_COMPLETION itself brackets him disputed) — recorded as a rival/disputed
+    term
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  installed under False Dmitry I and removed on his fall; NOT counted in the standard
+  diadochal reckoning (DATA_COMPLETION itself brackets him disputed) — recorded
+  as a rival/disputed term.

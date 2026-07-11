@@ -1,20 +1,6 @@
 id: person/russia/tikhon-of-moscow-1865
 names:
   monastic: Tikhon of Moscow
-attestation: attested
-sources:
-- ref: source/wikidata
-  locator: Q469801
-  reliability: database
-  note: programmatic seed — verify against a graded source
-status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
-  record.
-identifiers:
-  wikidata: Q469801
-  viaf: '10641535'
 born:
   date:
     value: '1865'
@@ -27,3 +13,36 @@ died:
     calendar: gregorian
     precision: year
     note: seeded from Wikidata; verify date, precision, and calendar
+attestation: attested
+identifiers:
+  wikidata: Q469801
+  viaf: '10641535'
+veneration:
+  status: saint
+  recognition:
+  - by: universal
+    glorified_date:
+      value: '1989'
+      calendar: gregorian
+      precision: year
+      note: glorified by the Russian Church, 9 October 1989
+  feast_days:
+  - month_day: 10-09
+    calendar: julian
+    note: St Tikhon, Patriarch of Moscow, Confessor
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/10/09
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/10/09
+    note: Year-wildcard archive redirect — pin during verification.
+sources:
+- ref: source/wikidata
+  locator: Q469801
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
