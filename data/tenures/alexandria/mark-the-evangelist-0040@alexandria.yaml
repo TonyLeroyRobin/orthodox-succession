@@ -1,0 +1,28 @@
+id: tenure/alexandria/mark-the-evangelist-0040@alexandria
+person: person/alexandria/mark-the-evangelist-0040
+see: see/alexandria/alexandria
+from:
+  value: "0040"
+  calendar: julian
+  precision: circa
+  note: "traditional date of Mark's arrival per the official list (40-63)"
+to:
+  value: "0063"
+  calendar: julian
+  precision: circa
+  note: "traditional martyrdom; the official list's Anianos entry (62-82) overlaps by a year — traditional chronology, recorded as given"
+end_reason: died
+sources:
+  - ref: source/alexandria-previous-patriarchs
+    locator: "entry: The Apostle and Evangelist Mark (40-63)"
+    reliability: official-list
+    archived_url: "https://web.archive.org/web/2026/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en"
+    note: "year-wildcard archive redirect; Save Page Now still pending"
+  - ref: source/eusebius-ecclesiastical-history
+    locator: "HE 2.16, 2.24"
+    reliability: tradition
+status: unverified
+notes: >-
+  The traditional enumeration counts Mark first; tradition-grade only —
+  permanently ineligible for verified status unless a better source
+  emerges (the Barnabas/Peter pattern).

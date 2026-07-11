@@ -1,0 +1,22 @@
+id: tenure/alexandria/kallinikos-1858@alexandria
+person: person/alexandria/kallinikos-1858
+see: see/alexandria/alexandria
+from:
+  value: '1858'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1861'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/alexandria-previous-patriarchs
+  locator: 'entry: Kallinikos (1858–1861)'
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
+  note: year-wildcard archive redirect; Save Page Now still pending — pin the exact
+    snapshot when it propagates
+status: unverified
+notes: Created from the official Alexandria list during Milestone C reconciliation
+  2026-07-10.

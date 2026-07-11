@@ -21,3 +21,4 @@ current milestone (ROADMAP_ADDENDUM.md §A4).
 | Reconcile flagged near-matches and no-matches against Kiminas/Grumel (Constantinople 5+8, Jerusalem/Alexandria 6+3) | 2026-07-10 | Milestone C |
 | Rename mislabeled Alexandria seed (Kosmas II 1723–1736, labeled Cosmas III of Constantinople) | 2026-07-10 | Milestone C |
 | Enter the Czech Lands & Slovakia primatial line manually (no Wikidata office item) | 2026-07-10 | Milestone C |
+| Cross-jurisdiction person deduplication (same human in two dirs: Meletios Pigas, Meletios Metaxakis, Cyril Loukaris, Kosmas II/III — Alexandria↔Constantinople) | 2026-07-10 | Milestone C wrap-up / verification |

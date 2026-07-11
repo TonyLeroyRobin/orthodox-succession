@@ -1,0 +1,23 @@
+id: tenure/alexandria/anianos-0062@alexandria
+person: person/alexandria/anianos-0062
+see: see/alexandria/alexandria
+from:
+  value: '0062'
+  calendar: julian
+  precision: circa
+  note: traditional date (Orthodox Tradition)
+to:
+  value: 0082
+  calendar: julian
+  precision: circa
+end_reason: unknown
+sources:
+- ref: source/alexandria-previous-patriarchs
+  locator: 'entry: Anianos (62–82)'
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
+  note: year-wildcard archive redirect; Save Page Now still pending — pin the exact
+    snapshot when it propagates
+status: unverified
+notes: Created from the official Alexandria list during Milestone C reconciliation
+  2026-07-10. Traditional dates — Orthodox Tradition, recorded as given.

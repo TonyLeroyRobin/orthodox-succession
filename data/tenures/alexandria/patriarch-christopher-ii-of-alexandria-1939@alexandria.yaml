@@ -13,11 +13,19 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source; term dates from P39
     start/end qualifiers
+- ref: source/alexandria-previous-patriarchs
+  locator: 'entry: Christophoros II (1939–1967)'
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
+  note: year-wildcard archive redirect; Save Page Now still pending — pin the exact
+    snapshot when it propagates
 status: unverified
 notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
   against a diadochal list or scholarly source. Verification pass 2026-07-08: near-match
   on the official Alexandria Patriarchate Previous Patriarchs list (Christophoros
-  II 1939-1967) but dates differ by a year — reconcile before promotion.'
+  II 1939-1967) but dates differ by a year — reconcile before promotion. Milestone
+  C reconciliation 2026-07-10: matched to the official Alexandria list entry Christophoros
+  II (1939-1967).'
 to:
   value: '1966'
   calendar: gregorian

@@ -1,0 +1,31 @@
+id: tenure/alexandria/kosmas-ii-of-alexandria-1723@alexandria
+person: person/alexandria/kosmas-ii-of-alexandria-1723
+see: see/alexandria/alexandria
+from:
+  value: '1723'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; year confirmed by the official list
+to:
+  value: '1736'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; year confirmed by the official list
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q2998260
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39
+    start/end qualifiers
+- ref: source/alexandria-previous-patriarchs
+  locator: 'entry: Kosmas II (1723–1736)'
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
+  note: year-wildcard archive redirect; Save Page Now still pending — pin the exact
+    snapshot when it propagates
+status: unverified
+notes: 'Renamed pre-publication 2026-07-10 with its person record (see the person
+  note for the Kosmas II/III numbering divergence). The official-list citation is
+  added by the Milestone C reconciliation. Milestone C reconciliation 2026-07-10:
+  matched to the official Alexandria list entry Kosmas II (1723-1736).'

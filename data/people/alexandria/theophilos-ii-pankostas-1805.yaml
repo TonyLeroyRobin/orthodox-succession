@@ -1,0 +1,16 @@
+id: person/alexandria/theophilos-ii-pankostas-1805
+names:
+  monastic: Theophilos II Pankostas
+attestation: attested
+sources:
+- ref: source/alexandria-previous-patriarchs
+  locator: 'entry: Theophilos II Pankostas (see tenure)'
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
+  note: year-wildcard archive redirect; Save Page Now still pending — pin the exact
+    snapshot when it propagates
+status: unverified
+notes: Created from the official Alexandria list during Milestone C reconciliation
+  2026-07-10; reassigned from an asymmetric-numeral mislink caught during acceptance.
+  The official archive numbers both the 1010 and 1805 patriarchs 'Theophilos II'
+  — recorded as given; other works number him Theophilos III.

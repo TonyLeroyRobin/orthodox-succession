@@ -1,0 +1,56 @@
+id: person/alexandria/mark-the-evangelist-0040
+names:
+  monastic: "Mark"
+  native:
+    - script: grc
+      value: "Μᾶρκος"
+  variants:
+    - "Mark the Evangelist"
+    - "John Mark"
+died:
+  date:
+    value: "0063"
+    calendar: julian
+    precision: circa
+    note: >-
+      martyred at Alexandria by tradition (the official list ends his term
+      at 63); not attested in any contemporary document
+  place: "Alexandria (tradition)"
+attestation: attested
+veneration:
+  status: saint
+  titles:
+    - "Apostle"
+    - "Evangelist"
+  recognition:
+    - by: universal
+  feast_days:
+    - month_day: "04-25"
+      calendar: julian
+      note: "Holy Apostle and Evangelist Mark"
+  sources:
+    - ref: source/oca-saints
+      locator: /saints/lives/2026/04/25
+      reliability: official-list
+      archived_url: "https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/04/25"
+      note: "Year-wildcard archive redirect — pin during verification."
+sources:
+  - ref: source/acts-of-the-apostles
+    locator: "Acts 12:12, 12:25, 13:5, 15:37-39"
+    reliability: primary
+    note: "primary for his existence and missionary activity; not for the Alexandrian episcopate"
+  - ref: source/eusebius-ecclesiastical-history
+    locator: "HE 2.16, 2.24"
+    reliability: tradition
+    note: "Mark first sent to Egypt, proclaimed the Gospel at Alexandria; Annianus his successor"
+  - ref: source/alexandria-previous-patriarchs
+    locator: "entry: The Apostle and Evangelist Mark (40-63)"
+    reliability: official-list
+    archived_url: "https://web.archive.org/web/2026/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en"
+    note: "year-wildcard archive redirect; Save Page Now still pending"
+status: unverified
+notes: >-
+  Evangelist; founder and, per the official list and universal tradition,
+  first occupant of the Alexandrian see — the Peter-at-Rome pattern
+  (apostolic_founder on the see AND a tradition-graded first tenure). No
+  consecration data exists for the apostolic era — absent, not inferred.

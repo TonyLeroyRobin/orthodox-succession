@@ -1,0 +1,22 @@
+id: tenure/alexandria/maximus-0265@alexandria
+person: person/alexandria/maximus-0265
+see: see/alexandria/alexandria
+from:
+  value: '0265'
+  calendar: julian
+  precision: year
+to:
+  value: 0282
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/alexandria-previous-patriarchs
+  locator: 'entry: Maximus (265–282)'
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
+  note: year-wildcard archive redirect; Save Page Now still pending — pin the exact
+    snapshot when it propagates
+status: unverified
+notes: Created from the official Alexandria list during Milestone C reconciliation
+  2026-07-10.

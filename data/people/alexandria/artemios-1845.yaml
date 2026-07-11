@@ -1,0 +1,14 @@
+id: person/alexandria/artemios-1845
+names:
+  monastic: Artemios
+attestation: attested
+sources:
+- ref: source/alexandria-previous-patriarchs
+  locator: 'entry: Artemios (1845–1847)'
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
+  note: year-wildcard archive redirect; Save Page Now still pending — pin the exact
+    snapshot when it propagates
+status: unverified
+notes: Created from the official Alexandria list during Milestone C reconciliation
+  2026-07-10.

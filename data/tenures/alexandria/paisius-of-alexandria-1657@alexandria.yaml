@@ -15,8 +15,15 @@ sources:
   reliability: primary
   locator: volume:column to be confirmed
   note: primary acts in a scholarly compilation
+- ref: source/alexandria-previous-patriarchs
+  locator: 'entry: Paisios (1657–1677)'
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
+  note: year-wildcard archive redirect; Save Page Now still pending — pin the exact
+    snapshot when it propagates
 status: unverified
 notes: 'Deposed and restored during his patriarchate; dates and end to be verified.
   Verification pass 2026-07-08: near-match on the official Alexandria Patriarchate
   Previous Patriarchs list (Paisios 1657-1677) but dates differ by a year — reconcile
-  before promotion.'
+  before promotion. Milestone C reconciliation 2026-07-10: matched to the official
+  Alexandria list entry Paisios (1657-1677).'

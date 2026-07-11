@@ -16,5 +16,12 @@ sources:
   locator: vol. 1 (Chalcedon)
 - ref: source/npnf-2-14-seven-councils
   reliability: scholarly
+- ref: source/alexandria-previous-patriarchs
+  locator: 'entry: Dioscurus (444–451)'
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
+  note: year-wildcard archive redirect; Save Page Now still pending — pin the exact
+    snapshot when it propagates
 status: verified
-notes: Deposed by the Council of Chalcedon (451).
+notes: 'Deposed by the Council of Chalcedon (451). Milestone C reconciliation 2026-07-10:
+  matched to the official Alexandria list entry Dioscurus (444-451).'

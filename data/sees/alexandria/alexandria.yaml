@@ -1,5 +1,18 @@
 id: see/alexandria/alexandria
 name: Alexandria
+apostolic_founder:
+  person: person/alexandria/mark-the-evangelist-0040
+  sources:
+  - ref: source/eusebius-ecclesiastical-history
+    locator: "HE 2.16"
+    reliability: tradition
+    note: Mark first proclaimed the Gospel at Alexandria — universal early
+      tradition, recorded as tradition, graded honestly
+  - ref: source/alexandria-previous-patriarchs
+    locator: "entry: The Apostle and Evangelist Mark (40-63), 'Founder of the Alexandrian Church'"
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2026/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
+    note: year-wildcard archive redirect; Save Page Now still pending
 location:
   lat: 31.2
   lon: 29.919
@@ -10,6 +23,7 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: 'Traditional founder: the Apostle and Evangelist Mark (tradition-grade; to
-  be modeled with sources in a later pass). Minimal draft — jurisdiction_history,
-  rank_history, and founding data to be added with sources during verification.'
+notes: 'Apostolic founder Mark modeled during the Milestone C reconciliation
+  (2026-07-10) — founder AND first occupant per the official list (the
+  Peter-at-Rome pattern). jurisdiction_history, rank_history, and founding
+  data still to be added with sources during verification.'

@@ -16,4 +16,12 @@ sources:
   locator: vol. 1
 - ref: source/npnf-2-14-seven-councils
   reliability: scholarly
+- ref: source/alexandria-previous-patriarchs
+  locator: 'entry: Alexander I (313–328)'
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
+  note: year-wildcard archive redirect; Save Page Now still pending — pin the exact
+    snapshot when it propagates
 status: verified
+notes: 'Milestone C reconciliation 2026-07-10: matched to the official Alexandria
+  list entry Alexander I (313-328).'
