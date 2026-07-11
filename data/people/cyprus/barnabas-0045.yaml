@@ -19,6 +19,22 @@ died:
       contemporary document.
   place: "Salamis, Cyprus (tradition)"
 attestation: attested
+veneration:
+  status: saint
+  titles:
+    - Apostle
+  recognition:
+    - by: universal
+  feast_days:
+    - month_day: "06-11"
+      calendar: julian
+      note: "Holy Apostle Barnabas, with the Apostle Bartholomew"
+  sources:
+    - ref: source/oca-saints
+      locator: /saints/lives/2026/06/11
+      reliability: official-list
+      archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/06/11
+      note: Year-wildcard archive redirect - pin during verification.
 sources:
   - ref: source/acts-of-the-apostles
     locator: "Acts 4:36-37; 13:1-12; 15:36-39"
@@ -36,4 +52,5 @@ notes: >-
   apostolic_founder on see/cyprus/salamis-constantia. His death date and
   martyrdom are tradition-grade; his tenure record is therefore unverified.
   No consecration data exists or can exist for the apostolic era — absent,
-  not inferred.
+  not inferred. Cyprus audit 2026-07-11: veneration block added per
+  DATA_COMPLETION §1 (opportunistic, persons touched by milestone work).

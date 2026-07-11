@@ -21,6 +21,21 @@ died:
     precision: year
     note: "died at sea returning from Constantinople to Cyprus"
 attestation: attested
+veneration:
+  status: saint
+  titles: []
+  recognition:
+    - by: universal
+  feast_days:
+    - month_day: "05-12"
+      calendar: julian
+      note: "St Epiphanius, Bishop of Cyprus (with St Germanus of Constantinople)"
+  sources:
+    - ref: source/oca-saints
+      locator: /saints/lives/2026/05/12
+      reliability: official-list
+      archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/05/12
+      note: Year-wildcard archive redirect - pin during verification.
 sources:
   - ref: source/le-quien-oriens-christianus-v2
     locator: "vol. 2, s.v. Salamis/Constantia (columns to be confirmed)"
@@ -40,4 +55,5 @@ notes: >-
   (official-derived and encyclopedic) give the accession as 368 where
   scholarship commonly gives 366/367 — the id keeps 0367 (also the KICKOFF
   convention example); resolve the year against Le Quien / a critical study
-  during the scholarly pass.
+  during the scholarly pass. Cyprus audit 2026-07-11: veneration block added
+  per DATA_COMPLETION §1 (opportunistic, persons touched by milestone work).

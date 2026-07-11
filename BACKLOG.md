@@ -30,3 +30,4 @@ current milestone (ROADMAP_ADDENDUM.md §A4).
 | Russian exarchs of Georgia 1811–1917 (19 names; belong to the Russian church's structures, not the Georgian diadochal reckoning) | 2026-07-11 | post-Milestone C |
 | Catholicate of Abkhazia/Imereti (western Georgia, 13th c.–1795) — parallel Georgian jurisdiction, the Karlovci pattern | 2026-07-11 | post-Milestone C |
 | Georgian ordinal-scheme reconciliation: standard chronology vs official numbering (Nikoloz, David, Okropiri/Ioane lines; 6 seeded persons deliberately unlinked, Germene↔Nikoloz VI span conflict, Melkisedek I death 1033 vs restored term) | 2026-07-11 | verification session |
+| Cyprus full archiepiscopal succession 431–1947 (~90+ occupants incl. Leontios Jun–Jul 1947; Latin-period 1191–1571 complexities, Bulla Cypria) + suffragan tenure lists | 2026-07-11 | post-Milestone C (audit-only scope per §3) |
