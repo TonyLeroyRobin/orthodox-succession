@@ -8,9 +8,11 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
-  record.
+notes: 'Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Milestone C reconciliation
+  2026-07-11 — NOT linked to a spine tenure: the seeded ordinal (Ioane V Okropiri) is ambiguous
+  between the standard chronology''s Okropir (Ioane) I (980-1001) and Okropir (Ioane) II (1031-1049)
+  — FORCE_NEW guard applied; new persons created for both rows; reconcile during verification.'
 identifiers:
   wikidata: Q4451164

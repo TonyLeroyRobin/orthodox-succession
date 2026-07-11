@@ -1,6 +1,9 @@
 id: person/georgia/ambrosius-of-georgia-1861
 names:
-  monastic: Ambrosius of Georgia
+  monastic: Ambrosius
+  variants:
+  - Ambrosius of Georgia
+  family: Khelaia
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -8,10 +11,11 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
-  record.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Milestone C reconciliation
+  2026-07-11 — matched to the standard chronology (St Ambrosius Khelaia, 1921-1927); tenure
+  created.
 identifiers:
   wikidata: Q459700
   viaf: '14220645'
@@ -27,3 +31,14 @@ died:
     calendar: gregorian
     precision: year
     note: seeded from Wikidata; verify date, precision, and calendar
+veneration:
+  status: saint
+  titles: []
+  recognition:
+  - by: jurisdiction:jurisdiction/church-of-georgia
+  sources:
+  - ref: source/church-of-georgia-official
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2026/https://patriarchate.ge/
+    note: marked as a glorified saint in the standard chronology; glorification details and
+      feast day to be verified against the official calendar

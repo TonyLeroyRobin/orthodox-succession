@@ -13,9 +13,18 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source; term dates from P39 start/end
     qualifiers
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Georgia (Iberia) series, s.v. Ilia II (1977-2026) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarchate.ge exposes no reachable diadochal list page to automated fetch — documented)
+    — confirm against Fedalto and the official records of the Georgian Patriarchate during
+    verification
 status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
+  a diadochal list or scholarly source. Milestone C reconciliation 2026-07-11: matched to
+  the standard chronology (Ilia II, 1977-2026). Term ended 17 march 2026 per the standard
+  chronology; end reason to be verified.'
 to:
   value: '2026'
   calendar: gregorian

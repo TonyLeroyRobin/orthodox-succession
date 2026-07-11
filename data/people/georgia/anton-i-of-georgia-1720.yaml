@@ -1,6 +1,8 @@
 id: person/georgia/anton-i-of-georgia-1720
 names:
-  monastic: Anton I of Georgia
+  monastic: Anton I
+  variants:
+  - Anton I of Georgia
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -8,10 +10,11 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
-  record.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Milestone C reconciliation
+  2026-07-11 — matched to the standard chronology (Anton I, 1744-1755 and restored 1764-1788);
+  two tenures created; seeded lifespan 1720-1788 corroborates.
 identifiers:
   wikidata: Q590458
   viaf: '33742803'

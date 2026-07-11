@@ -8,20 +8,11 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+notes: 'Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone C reconciliation 2026-07-11 — NOT matched to a standard-chronology row: the chronology
+  gives Germene (1541-1547) on this span; this record follows the official Georgian numbering
+  — lists disagree; both kept, not adjudicated. Century-precision artifact lifespan (1501-1600)
+  dropped per the source hierarchy — restore during verification if real.'
 identifiers:
   wikidata: Q12867575
-born:
-  date:
-    value: '1501'
-    calendar: julian
-    precision: year
-    note: seeded from Wikidata; verify date, precision, and calendar
-died:
-  date:
-    value: '1600'
-    calendar: gregorian
-    precision: year
-    note: seeded from Wikidata; verify date, precision, and calendar

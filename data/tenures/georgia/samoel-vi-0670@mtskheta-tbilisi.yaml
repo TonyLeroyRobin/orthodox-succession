@@ -1,0 +1,22 @@
+id: tenure/georgia/samoel-vi-0670@mtskheta-tbilisi
+person: person/georgia/samoel-vi-0670
+see: see/georgia/mtskheta-tbilisi
+from:
+  value: '0670'
+  calendar: julian
+  precision: year
+to:
+  value: '0677'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Georgia (Iberia) series, s.v. Samoel VI (0670-0677) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarchate.ge exposes no reachable diadochal list page to automated fetch — documented)
+    — confirm against Fedalto and the official records of the Georgian Patriarchate during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.

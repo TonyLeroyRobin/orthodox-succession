@@ -6,16 +6,26 @@ from:
   calendar: gregorian
   precision: year
   note: seeded from Wikidata; verify date, precision, and calendar
-end_reason: unknown
+end_reason: deposed
 sources:
 - ref: source/wikidata
   locator: Q3652858
   reliability: database
   note: programmatic seed — verify against a graded source; term dates from P39 start/end
     qualifiers
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Georgia (Iberia) series, s.v. Anton II (1788-1811) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarchate.ge exposes no reachable diadochal list page to automated fetch — documented)
+    — confirm against Fedalto and the official records of the Georgian Patriarchate during
+    verification
 status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
+  a diadochal list or scholarly source. Milestone C reconciliation 2026-07-11: matched to
+  the standard chronology (Anton II, 1788-1811). The catholicate was abolished by the russian
+  imperial authorities (1811); the 1811-1917 gap that follows is the abolition/exarchate era
+  (see event/context/abolition-of-georgian-autocephaly-1811), not missing data.'
 to:
   value: '1811'
   calendar: gregorian

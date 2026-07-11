@@ -1,0 +1,23 @@
+id: tenure/georgia/kirion-ii-0678@mtskheta-tbilisi
+person: person/georgia/kirion-ii-0678
+see: see/georgia/mtskheta-tbilisi
+from:
+  value: 0678
+  calendar: julian
+  precision: year
+to:
+  value: 0683
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Georgia (Iberia) series, s.v. Kirion II (0678-0683) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarchate.ge exposes no reachable diadochal list page to automated fetch — documented)
+    — confirm against Fedalto and the official records of the Georgian Patriarchate during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.
+  The medieval Kirion II — distinct from St Kyrion II (1917-1918).

@@ -8,8 +8,8 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone C reconciliation 2026-07-11 — matched to the standard chronology (Shio I, 1356-1364).
 identifiers:
   wikidata: Q131310236

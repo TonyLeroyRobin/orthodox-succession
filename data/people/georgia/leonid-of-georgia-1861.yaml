@@ -1,6 +1,8 @@
 id: person/georgia/leonid-of-georgia-1861
 names:
-  monastic: Leonid of Georgia
+  monastic: Leonid
+  variants:
+  - Leonid of Georgia
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -8,10 +10,10 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
-  record.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Milestone C reconciliation
+  2026-07-11 — matched to the standard chronology (Leonid, 1918-1921); tenure created.
 identifiers:
   wikidata: Q2078566
   viaf: '316546559'

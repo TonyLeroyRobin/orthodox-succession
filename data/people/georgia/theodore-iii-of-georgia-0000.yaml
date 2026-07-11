@@ -1,6 +1,8 @@
 id: person/georgia/theodore-iii-of-georgia-0000
 names:
-  monastic: Theodore III of Georgia
+  monastic: Teodore III
+  variants:
+  - Theodore III of Georgia
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -8,9 +10,9 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
-  record.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Milestone C reconciliation
+  2026-07-11 — matched to the standard chronology (Teodore III, 1428-1435); tenure created.
 identifiers:
   wikidata: Q1106440

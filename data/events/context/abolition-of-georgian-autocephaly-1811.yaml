@@ -1,0 +1,25 @@
+id: event/context/abolition-of-georgian-autocephaly-1811
+type: context
+title: Russian abolition of the Georgian catholicate
+date:
+  from:
+    value: '1811'
+    calendar: gregorian
+    precision: year
+  to:
+    value: '1917'
+    calendar: gregorian
+    precision: year
+    note: autocephaly restored 25 March 1917
+scope: jurisdiction:jurisdiction/church-of-georgia
+description: The Russian imperial authorities abolished the Georgian catholicate in 1811 and
+  governed the church through a Russian exarchate until the 1917 restoration of autocephaly.
+affected:
+- jurisdiction/church-of-georgia
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Georgian Orthodox Church
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Georgian_Orthodox_Church
+status: unverified
+notes: ''

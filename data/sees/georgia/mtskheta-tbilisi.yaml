@@ -10,6 +10,16 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: The catholicosal see; Svetitskhoveli Cathedral in Mtskheta is the historical
-  seat. Minimal draft — jurisdiction_history, rank_history, and founding data to
-  be added with sources during verification.
+notes: 'The catholicosal see; Svetitskhoveli Cathedral in Mtskheta is the historical
+  seat. Milestone C (2026-07-11) closed the single spine John I (326) to Shio III
+  on this see record: archbishops of Mtskheta (326–467), catholicoi of Iberia (467–1010),
+  catholicos-patriarchs (from c. 1010). The early-period spans (326–467) are traditional
+  reconstructions, graded accordingly in the citations. The 1811–1917 gap is the Russian
+  abolition/exarchate era (see event/context/abolition-of-georgian-autocephaly-1811),
+  not missing data — the 19 Russian exarchs are not part of the Georgian diadochal
+  reckoning and are backlogged. Caveat for verification: the ordinal numbering of
+  the standard chronology diverges from the official Georgian reckoning in several
+  lines (notably the Nikolozes, the Davids, and the Okropiri/Ioane line) — divergences
+  are recorded on the affected records, not adjudicated. The western Catholicate of
+  Abkhazia/Imereti (13th c.–1795) is a parallel line, backlogged. jurisdiction_history
+  and rank_history still to be added during verification.'

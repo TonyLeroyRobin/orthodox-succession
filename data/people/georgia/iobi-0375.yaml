@@ -1,0 +1,14 @@
+id: person/georgia/iobi-0375
+names:
+  monastic: Iobi
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Georgia (Iberia) series, s.v. Iobi (0375-0390) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarchate.ge exposes no reachable diadochal list page to automated fetch — documented)
+    — confirm against Fedalto and the official records of the Georgian Patriarchate during
+    verification; the early-period spans (326–467) are traditional reconstructions
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.

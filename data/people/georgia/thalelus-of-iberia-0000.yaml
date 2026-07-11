@@ -1,8 +1,9 @@
 id: person/georgia/thalelus-of-iberia-0000
 names:
-  monastic: Thalelaeus of Iberia
+  monastic: Talale
   variants:
   - Thalelæus of Iberia
+  - Thalelaeus of Iberia
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -10,9 +11,9 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
-  record.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Milestone C reconciliation
+  2026-07-11 — matched to the standard chronology (Talale, 720-731); tenure created.
 identifiers:
   wikidata: Q131310297

@@ -1,0 +1,26 @@
+id: tenure/georgia/kyrion-ii-1855@mtskheta-tbilisi
+person: person/georgia/kyrion-ii-1855
+see: see/georgia/mtskheta-tbilisi
+from:
+  value: '1917-10-01'
+  calendar: julian
+  precision: day
+  note: 1 October 1917; calendar (OS/NS) to be confirmed
+to:
+  value: '1918-06-26'
+  calendar: gregorian
+  precision: day
+  note: 26 June 1918; calendar (OS/NS) to be confirmed
+end_reason: died
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Georgia (Iberia) series, s.v. Kyrion II (1917-1918) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarchate.ge exposes no reachable diadochal list page to automated fetch — documented)
+    — confirm against Fedalto and the official records of the Georgian Patriarchate during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.
+  First catholicos-patriarch after the 25 March 1917 restoration of autocephaly; died in office
+  (found dead 26 June 1918; circumstances disputed) — verify.

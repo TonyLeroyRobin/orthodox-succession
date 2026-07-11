@@ -1,6 +1,6 @@
 id: person/georgia/giorgi-iv-1201
 names:
-  monastic: Giorgi IV.
+  monastic: Giorgi IV
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -8,21 +8,11 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
-  record.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Milestone C reconciliation
+  2026-07-11 — matched to the standard chronology (Giorgi IV, 1225-1230); tenure created.
+  Century-precision artifact lifespan (born 1201, died 1300) dropped per the source hierarchy
+  — restore during verification if real.
 identifiers:
   wikidata: Q20572087
-born:
-  date:
-    value: '1201'
-    calendar: julian
-    precision: year
-    note: seeded from Wikidata; verify date, precision, and calendar
-died:
-  date:
-    value: '1300'
-    calendar: julian
-    precision: year
-    note: seeded from Wikidata; verify date, precision, and calendar

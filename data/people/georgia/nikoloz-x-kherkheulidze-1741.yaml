@@ -1,6 +1,9 @@
 id: person/georgia/nikoloz-x-kherkheulidze-1741
 names:
-  monastic: Nikoloz X (Kherkheulidze)
+  monastic: Nikoloz VIII
+  variants:
+  - Nikoloz X (Kherkheulidze)
+  family: Kherkheulidze
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -8,8 +11,10 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone C reconciliation 2026-07-11 — matched to the standard chronology (Nikoloz VIII
+  Kherkheulidze, 1742-1744); the seeded ordinal (X) follows the official Georgian numbering
+  — divergence recorded.
 identifiers:
   wikidata: Q12867586

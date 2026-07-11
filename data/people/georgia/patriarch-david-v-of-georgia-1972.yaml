@@ -1,8 +1,9 @@
 id: person/georgia/patriarch-david-v-of-georgia-1972
 names:
-  monastic: David V of Georgia
+  monastic: David V
   variants:
   - Patriarch David V of Georgia
+  - David V of Georgia
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -10,9 +11,10 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone C reconciliation 2026-07-11 — matched to the standard chronology (David V, 1972-1977);
+  display name normalized per DATA_COMPLETION §3.
 identifiers:
   wikidata: Q2026798
   viaf: '305445850'

@@ -1,0 +1,29 @@
+id: tenure/georgia/germene-1541@mtskheta-tbilisi
+person: person/georgia/germene-1541
+see: see/georgia/mtskheta-tbilisi
+from:
+  value: '1541'
+  calendar: julian
+  precision: year
+to:
+  value: '1547'
+  calendar: julian
+  precision: year
+end_reason: unknown
+recognition:
+- by: all
+  status: disputed
+  note: the standard chronology gives Germene (1541-1547) where the seeded/official numbering
+    has Nikoloz VI (1542-1547) on the same span — lists disagree; recorded, not adjudicated
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Georgia (Iberia) series, s.v. Germene (1541-1547) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarchate.ge exposes no reachable diadochal list page to automated fetch — documented)
+    — confirm against Fedalto and the official records of the Georgian Patriarchate during
+    verification
+status: disputed
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.
+  Span conflicts with the existing seeded tenure of Nikoloz VI (1542-1547, kept with a reciprocal
+  note) — a genuine lists-disagree case, recorded per DATA_COMPLETION §3.4.

@@ -27,3 +27,6 @@ current milestone (ROADMAP_ADDENDUM.md §A4).
 | Metropolitanate of Moldavia and Bukovina (Iași) succession line 1401–present (parallel Romanian jurisdiction; the Karlovci pattern) | 2026-07-10 | post-Milestone C |
 | Maxim Brancovici's Belgrade/Srem tenure (after Wallachia 1505–1508) — belongs to the future Karlovci/Belgrade parallel line | 2026-07-10 | post-Milestone C |
 | Ohrid archbishops 1018–1767 (see/ohrid/ohrid; official BOC claims the line via its ohrid-patriarchs page; Macedonian question adjacent) | 2026-07-11 | post-Milestone C |
+| Russian exarchs of Georgia 1811–1917 (19 names; belong to the Russian church's structures, not the Georgian diadochal reckoning) | 2026-07-11 | post-Milestone C |
+| Catholicate of Abkhazia/Imereti (western Georgia, 13th c.–1795) — parallel Georgian jurisdiction, the Karlovci pattern | 2026-07-11 | post-Milestone C |
+| Georgian ordinal-scheme reconciliation: standard chronology vs official numbering (Nikoloz, David, Okropiri/Ioane lines; 6 seeded persons deliberately unlinked, Germene↔Nikoloz VI span conflict, Melkisedek I death 1033 vs restored term) | 2026-07-11 | verification session |

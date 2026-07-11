@@ -8,10 +8,13 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
-  record.
+notes: 'Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Milestone C reconciliation
+  2026-07-11 — NOT linked to a spine tenure: the seeded David II/III/IV cluster follows a
+  divergent ordinal scheme with artifact-suspect dates — FORCE_NEW guard applied; new persons
+  created for the chronology rows (David II 1426-1428, David III 1435-1439, David IV 1443/47-1459,
+  Davit IV 1466-1479); reconcile during verification.'
 identifiers:
   wikidata: Q1106450
 born:

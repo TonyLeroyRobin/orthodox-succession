@@ -8,20 +8,10 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone C reconciliation 2026-07-11 — matched to the standard chronology (Mikel VI, 1411-1426).
+  Century-precision artifact lifespan (born 1400, died 1500) dropped per the source hierarchy
+  — restore during verification if real.
 identifiers:
   wikidata: Q16372570
-born:
-  date:
-    value: '1400'
-    calendar: julian
-    precision: year
-    note: seeded from Wikidata; verify date, precision, and calendar
-died:
-  date:
-    value: '1500'
-    calendar: julian
-    precision: year
-    note: seeded from Wikidata; verify date, precision, and calendar

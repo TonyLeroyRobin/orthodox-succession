@@ -1,0 +1,22 @@
+id: tenure/georgia/gabriel-iii-1065@mtskheta-tbilisi
+person: person/georgia/gabriel-iii-1065
+see: see/georgia/mtskheta-tbilisi
+from:
+  value: '1065'
+  calendar: julian
+  precision: year
+to:
+  value: '1080'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Georgia (Iberia) series, s.v. Gabriel III (1065-1080) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarchate.ge exposes no reachable diadochal list page to automated fetch — documented)
+    — confirm against Fedalto and the official records of the Georgian Patriarchate during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.

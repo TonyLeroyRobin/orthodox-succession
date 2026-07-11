@@ -1,6 +1,8 @@
 id: person/georgia/theodore-ii-of-georgia-0000
 names:
-  monastic: Theodore II of Georgia
+  monastic: Theodore II
+  variants:
+  - Theodore II of Georgia
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -8,9 +10,9 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
-  record.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Milestone C reconciliation
+  2026-07-11 — matched to the standard chronology (Theodore II, 1186-1206); tenure created.
 identifiers:
   wikidata: Q16370042

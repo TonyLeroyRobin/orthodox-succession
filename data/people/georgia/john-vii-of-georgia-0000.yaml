@@ -8,9 +8,11 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
-  record.
+notes: 'Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Milestone C reconciliation
+  2026-07-11 — NOT linked to a spine tenure: ambiguous between the standard chronology''s
+  Ioane VII (1208-1210) and Ioan VII Diasamidze (1687-1700) — FORCE_NEW guard applied; reconcile
+  during verification.'
 identifiers:
   wikidata: Q16370611

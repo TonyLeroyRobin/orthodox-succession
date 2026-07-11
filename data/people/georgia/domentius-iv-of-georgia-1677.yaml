@@ -1,6 +1,8 @@
 id: person/georgia/domentius-iv-of-georgia-1677
 names:
-  monastic: Domentius IV of Georgia
+  monastic: Domenti IV
+  variants:
+  - Domentius IV of Georgia
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -8,10 +10,11 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
-  record.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Milestone C reconciliation
+  2026-07-11 — matched to the standard chronology (Domenti IV, 1704-1725 and restored 1739-1741);
+  two tenures created.
 identifiers:
   wikidata: Q13472781
 born:
