@@ -1,0 +1,22 @@
+id: person/pre-schism-rome/marcellinus-0296
+names:
+  monastic: Marcellinus
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q160373
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q160373
+  viaf: '19649446'
+died:
+  date:
+    value: '0304'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

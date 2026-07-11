@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/hilarius-0461
+names:
+  monastic: Hilarius
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q172377
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q172377
+  viaf: '250367776'
+born:
+  date:
+    value: '0415'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0468
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

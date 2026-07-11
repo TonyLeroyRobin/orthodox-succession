@@ -1,0 +1,22 @@
+id: person/pre-schism-rome/anterus-0235
+names:
+  monastic: Anterus
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q132100
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q132100
+  viaf: '84482033'
+died:
+  date:
+    value: '0236'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

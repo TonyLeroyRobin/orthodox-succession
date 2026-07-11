@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/adrian-ii-0867
+names:
+  monastic: Adrian II
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q173995
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q173995
+  viaf: '288685466'
+born:
+  date:
+    value: 0792
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0872
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

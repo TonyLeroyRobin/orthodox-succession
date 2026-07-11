@@ -1,0 +1,22 @@
+id: person/pre-schism-rome/callixtus-i-0218
+names:
+  monastic: Callixtus I
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q122376
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q122376
+  viaf: '302145857107322922610'
+died:
+  date:
+    value: '0222'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

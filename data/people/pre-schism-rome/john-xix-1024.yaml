@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/john-xix-1024
+names:
+  monastic: John XIX
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q227978
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q227978
+  viaf: '34146824920407631220'
+born:
+  date:
+    value: 0975
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1032'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

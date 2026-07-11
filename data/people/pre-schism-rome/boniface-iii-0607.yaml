@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/boniface-iii-0607
+names:
+  monastic: Boniface III
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q170297
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q170297
+  viaf: '22494372'
+born:
+  date:
+    value: '0540'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '0607'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

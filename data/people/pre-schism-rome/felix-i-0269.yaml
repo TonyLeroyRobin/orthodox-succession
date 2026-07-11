@@ -1,0 +1,17 @@
+id: person/pre-schism-rome/felix-i-0269
+names:
+  monastic: Felix I
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q134687
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. Wikidata birth/death dates conflicted with the term dates and
+  were NOT imported — resolve during verification.
+identifiers:
+  wikidata: Q134687
+  viaf: '10651254'

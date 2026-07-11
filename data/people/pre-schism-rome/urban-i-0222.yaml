@@ -1,0 +1,22 @@
+id: person/pre-schism-rome/urban-i-0222
+names:
+  monastic: Urban I
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q125631
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q125631
+  viaf: '305862434'
+died:
+  date:
+    value: '0230'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

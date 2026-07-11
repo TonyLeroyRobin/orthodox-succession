@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/marinus-i-0882
+names:
+  monastic: Marinus I
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q227721
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q227721
+  viaf: '66822943'
+born:
+  date:
+    value: 0830
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0884
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

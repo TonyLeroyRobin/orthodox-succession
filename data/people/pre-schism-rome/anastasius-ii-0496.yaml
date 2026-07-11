@@ -1,0 +1,22 @@
+id: person/pre-schism-rome/anastasius-ii-0496
+names:
+  monastic: Anastasius II
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q132786
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q132786
+  viaf: '50030831'
+died:
+  date:
+    value: 0498
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

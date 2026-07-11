@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/adeodatus-i-0615
+names:
+  monastic: Adeodatus I
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q170550
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q170550
+  viaf: '84483276'
+born:
+  date:
+    value: '0570'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0618
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

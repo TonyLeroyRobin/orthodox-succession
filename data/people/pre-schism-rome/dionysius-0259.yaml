@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/dionysius-0259
+names:
+  monastic: Dionysius
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q131162
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q131162
+  viaf: '63749989'
+born:
+  date:
+    value: '0200'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0268
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

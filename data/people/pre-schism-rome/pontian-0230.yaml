@@ -1,0 +1,22 @@
+id: person/pre-schism-rome/pontian-0230
+names:
+  monastic: Pontian
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q132113
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q132113
+  viaf: '816944'
+died:
+  date:
+    value: '0235'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

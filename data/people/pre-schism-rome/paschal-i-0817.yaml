@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/paschal-i-0817
+names:
+  monastic: Paschal I
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q103308
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q103308
+  viaf: '41226927'
+born:
+  date:
+    value: '0775'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0824
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

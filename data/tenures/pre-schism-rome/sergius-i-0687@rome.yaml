@@ -1,0 +1,23 @@
+id: tenure/pre-schism-rome/sergius-i-0687@rome
+person: person/pre-schism-rome/sergius-i-0687
+see: see/pre-schism-rome/rome
+from:
+  value: 0687
+  calendar: julian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q173086
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
+status: unverified
+notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source.
+to:
+  value: '0701'
+  calendar: julian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar

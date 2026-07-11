@@ -1,0 +1,28 @@
+id: tenure/pre-schism-rome/clement-i-0088@rome
+person: person/pre-schism-rome/clement-i-0088
+see: see/pre-schism-rome/rome
+from:
+  value: 0088
+  calendar: julian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q42887
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
+status: unverified
+notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source.
+to:
+  value: 0099
+  calendar: julian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+recognition:
+- by: all
+  status: disputed
+  note: seeded term dates overlap tenure/pre-schism-rome/anacletus-0079@rome — rival
+    claim, restoration, or bad data; resolve during human verification

@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/symmachus-0498
+names:
+  monastic: Symmachus
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q160935
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q160935
+  viaf: '67261845'
+born:
+  date:
+    value: '0460'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '0514'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

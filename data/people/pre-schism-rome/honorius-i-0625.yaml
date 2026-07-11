@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/honorius-i-0625
+names:
+  monastic: Honorius I
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q170502
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q170502
+  viaf: '50892373'
+born:
+  date:
+    value: 0585
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0638
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

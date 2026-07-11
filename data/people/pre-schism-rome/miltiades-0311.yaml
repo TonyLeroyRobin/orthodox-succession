@@ -1,0 +1,22 @@
+id: person/pre-schism-rome/miltiades-0311
+names:
+  monastic: Miltiades
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q162090
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q162090
+  viaf: '8182724'
+died:
+  date:
+    value: '0314'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

@@ -1,0 +1,22 @@
+id: person/pre-schism-rome/sylvester-ii-0999
+names:
+  monastic: Sylvester II
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q172383
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q172383
+  viaf: '264422706'
+died:
+  date:
+    value: '1003'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

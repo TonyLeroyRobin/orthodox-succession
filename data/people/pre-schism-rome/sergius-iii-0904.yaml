@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/sergius-iii-0904
+names:
+  monastic: Sergius III
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q172424
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q172424
+  viaf: '1996689'
+born:
+  date:
+    value: 0860
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0911
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

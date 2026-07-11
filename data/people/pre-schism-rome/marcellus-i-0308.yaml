@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/marcellus-i-0308
+names:
+  monastic: Marcellus I
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q102131
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q102131
+  viaf: '5735322'
+born:
+  date:
+    value: '0255'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0309
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

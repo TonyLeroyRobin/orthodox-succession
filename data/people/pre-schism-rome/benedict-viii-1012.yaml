@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/benedict-viii-1012
+names:
+  monastic: Benedict VIII
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q162102
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q162102
+  viaf: '70918274'
+born:
+  date:
+    value: 0980
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1024'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

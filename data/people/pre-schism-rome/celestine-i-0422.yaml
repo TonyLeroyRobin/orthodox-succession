@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/celestine-i-0422
+names:
+  monastic: Celestine I
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q160922
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q160922
+  viaf: '89775553'
+born:
+  date:
+    value: '0400'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '0432'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

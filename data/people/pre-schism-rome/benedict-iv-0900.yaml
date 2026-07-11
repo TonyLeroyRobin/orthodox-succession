@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/benedict-iv-0900
+names:
+  monastic: Benedict IV
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q182463
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q182463
+  viaf: '33986483'
+born:
+  date:
+    value: 0900
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0903
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

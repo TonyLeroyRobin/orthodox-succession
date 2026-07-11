@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/marinus-ii-0942
+names:
+  monastic: Marinus II
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q103423
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q103423
+  viaf: '311318091'
+born:
+  date:
+    value: 0900
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0946
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

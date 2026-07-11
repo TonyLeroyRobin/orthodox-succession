@@ -1,0 +1,22 @@
+id: person/pre-schism-rome/julius-i-0337
+names:
+  monastic: Julius I
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q103101
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q103101
+  viaf: '67271093'
+died:
+  date:
+    value: '0352'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

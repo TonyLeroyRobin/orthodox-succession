@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/benedict-i-0575
+names:
+  monastic: Benedict I
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q151902
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q151902
+  viaf: '56605844'
+born:
+  date:
+    value: '0525'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0579
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

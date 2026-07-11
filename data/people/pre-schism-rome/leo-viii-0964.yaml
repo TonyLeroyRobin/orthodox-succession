@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/leo-viii-0964
+names:
+  monastic: Leo VIII
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q227965
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q227965
+  viaf: '172695250'
+born:
+  date:
+    value: 0915
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0965
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

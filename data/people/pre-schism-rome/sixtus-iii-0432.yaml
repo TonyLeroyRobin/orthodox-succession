@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/sixtus-iii-0432
+names:
+  monastic: Sixtus III
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q167065
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q167065
+  viaf: '232197307'
+born:
+  date:
+    value: 0390
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '0440'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

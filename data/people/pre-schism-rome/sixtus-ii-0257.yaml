@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/sixtus-ii-0257
+names:
+  monastic: Sixtus II
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q127385
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q127385
+  viaf: '1336166'
+born:
+  date:
+    value: '0215'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0258
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

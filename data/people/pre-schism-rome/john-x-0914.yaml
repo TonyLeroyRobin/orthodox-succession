@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/john-x-0914
+names:
+  monastic: John X
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q227976
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q227976
+  viaf: '7043150869810422190007'
+born:
+  date:
+    value: 0860
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0929
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

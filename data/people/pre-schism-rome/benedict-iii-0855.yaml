@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/benedict-iii-0855
+names:
+  monastic: Benedict III
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q172445
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q172445
+  viaf: '307158270'
+born:
+  date:
+    value: 0810
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0858
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/agatho-0678
+names:
+  monastic: Agatho
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q104467
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q104467
+  viaf: '38904165'
+born:
+  date:
+    value: '0574'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0681
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

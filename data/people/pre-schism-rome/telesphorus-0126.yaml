@@ -1,0 +1,22 @@
+id: person/pre-schism-rome/telesphorus-0126
+names:
+  monastic: Telesphorus
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q81647
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q81647
+  viaf: '21672405'
+died:
+  date:
+    value: '0130'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

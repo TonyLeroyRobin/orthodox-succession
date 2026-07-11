@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/conon-0686
+names:
+  monastic: Conon
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q171537
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q171537
+  viaf: '27422198'
+born:
+  date:
+    value: '0630'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0687
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

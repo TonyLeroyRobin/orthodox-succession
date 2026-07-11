@@ -1,0 +1,22 @@
+id: person/pre-schism-rome/donus-0676
+names:
+  monastic: Donus
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q103545
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q103545
+  viaf: '22494420'
+died:
+  date:
+    value: 0678
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

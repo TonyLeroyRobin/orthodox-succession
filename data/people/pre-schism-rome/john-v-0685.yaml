@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/john-v-0685
+names:
+  monastic: John V
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q199533
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q199533
+  viaf: '2823776'
+born:
+  date:
+    value: '0635'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0686
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

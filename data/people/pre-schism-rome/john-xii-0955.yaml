@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/john-xii-0955
+names:
+  monastic: John XII
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q172933
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q172933
+  viaf: '58607513'
+born:
+  date:
+    value: 0937
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0964
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

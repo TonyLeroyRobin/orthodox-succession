@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/clement-ii-1047
+names:
+  monastic: Clement II
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q58573
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q58573
+  viaf: '315159474329327662898'
+born:
+  date:
+    value: '1005'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1047'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

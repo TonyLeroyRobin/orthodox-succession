@@ -1,0 +1,22 @@
+id: person/pre-schism-rome/caius-0283
+names:
+  monastic: Caius
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q160882
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q160882
+  viaf: '248159474307527662288'
+died:
+  date:
+    value: 0296
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

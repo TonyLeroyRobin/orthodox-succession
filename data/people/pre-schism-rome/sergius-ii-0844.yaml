@@ -1,0 +1,28 @@
+id: person/pre-schism-rome/sergius-ii-0844
+names:
+  monastic: Sergius II
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q228644
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q228644
+  viaf: '307158135'
+born:
+  date:
+    value: 0790
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: 0847
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
