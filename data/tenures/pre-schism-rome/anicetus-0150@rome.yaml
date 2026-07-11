@@ -11,11 +11,18 @@ sources:
 - ref: source/wikidata
   locator: Q546590
   reliability: database
-  note: programmatic seed — verify against a graded source; term dates from P39 start/end
-    qualifiers
+  note: programmatic seed — verify against a graded source; term dates from P39
+    start/end qualifiers
+- ref: source/annuario-pontificio-list
+  locator: 'no. 11: Anicetus (150–153)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260627105739/https://www.vatican.va/content/vatican/en/holy-father.html
 status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source. reconciliation 2026-07-10 vs the
+  official vatican.va list (no. 11): official list gives 150–153 (seeded 150–160);
+  traditional early dates vary between reference works. Status remains unverified
+  per the Milestone B contract (maintainer verifies).'
 to:
   value: '0160'
   calendar: julian

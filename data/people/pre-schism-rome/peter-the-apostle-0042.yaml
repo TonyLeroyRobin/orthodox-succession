@@ -18,6 +18,8 @@ died:
       in any contemporary document
   place: 'Rome (tradition: Vatican hill)'
 attestation: attested
+identifiers:
+  wikidata: Q33923
 sources:
 - ref: source/acts-of-the-apostles
   locator: Acts 1-15 passim

@@ -1,0 +1,24 @@
+id: tenure/pre-schism-rome/christopher-antipope-0903@rome
+person: person/pre-schism-rome/christopher-antipope-0903
+see: see/pre-schism-rome/rome
+from:
+  value: 0903
+  calendar: julian
+  precision: year
+to:
+  value: 0904
+  calendar: julian
+  precision: year
+end_reason: deposed
+recognition:
+- by: all
+  status: rival-claimant
+  note: deposed Leo V; some older lists counted him legitimate — the official vatican.va
+    list omits him
+sources:
+- ref: source/kelly-oxford-dictionary-of-popes
+  locator: s.v. (page to be confirmed)
+  reliability: scholarly
+status: unverified
+notes: 'Overlapping rival tenure, recognition: rival-claimant per the established
+  pattern.'

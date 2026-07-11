@@ -1,0 +1,23 @@
+id: tenure/pre-schism-rome/anastasius-bibliothecarius-0855@rome
+person: person/pre-schism-rome/anastasius-bibliothecarius-0855
+see: see/pre-schism-rome/rome
+from:
+  value: 0855
+  calendar: julian
+  precision: year
+to:
+  value: 0855
+  calendar: julian
+  precision: year
+end_reason: deposed
+recognition:
+- by: all
+  status: rival-claimant
+  note: briefly intruded against Benedict III; later papal librarian and scholar
+sources:
+- ref: source/kelly-oxford-dictionary-of-popes
+  locator: s.v. (page to be confirmed)
+  reliability: scholarly
+status: unverified
+notes: 'Overlapping rival tenure, recognition: rival-claimant per the established
+  pattern.'

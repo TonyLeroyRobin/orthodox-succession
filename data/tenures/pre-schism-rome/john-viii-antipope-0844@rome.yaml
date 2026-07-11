@@ -1,0 +1,23 @@
+id: tenure/pre-schism-rome/john-viii-antipope-0844@rome
+person: person/pre-schism-rome/john-viii-antipope-0844
+see: see/pre-schism-rome/rome
+from:
+  value: 0844
+  calendar: julian
+  precision: year
+to:
+  value: 0844
+  calendar: julian
+  precision: year
+end_reason: deposed
+recognition:
+- by: all
+  status: rival-claimant
+  note: deacon acclaimed against Sergius II
+sources:
+- ref: source/kelly-oxford-dictionary-of-popes
+  locator: s.v. (page to be confirmed)
+  reliability: scholarly
+status: unverified
+notes: 'Overlapping rival tenure, recognition: rival-claimant per the established
+  pattern.'

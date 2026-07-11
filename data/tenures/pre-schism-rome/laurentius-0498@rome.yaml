@@ -1,0 +1,23 @@
+id: tenure/pre-schism-rome/laurentius-0498@rome
+person: person/pre-schism-rome/laurentius-0498
+see: see/pre-schism-rome/rome
+from:
+  value: 0498
+  calendar: julian
+  precision: year
+to:
+  value: '0506'
+  calendar: julian
+  precision: year
+end_reason: deposed
+recognition:
+- by: all
+  status: rival-claimant
+  note: the Laurentian schism against Symmachus (with interruptions)
+sources:
+- ref: source/kelly-oxford-dictionary-of-popes
+  locator: s.v. (page to be confirmed)
+  reliability: scholarly
+status: unverified
+notes: 'Overlapping rival tenure, recognition: rival-claimant per the established
+  pattern.'

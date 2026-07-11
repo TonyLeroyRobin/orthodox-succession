@@ -11,11 +11,18 @@ sources:
 - ref: source/wikidata
   locator: Q81647
   reliability: database
-  note: programmatic seed — verify against a graded source; term dates from P39 start/end
-    qualifiers
+  note: programmatic seed — verify against a graded source; term dates from P39
+    start/end qualifiers
+- ref: source/annuario-pontificio-list
+  locator: 'no. 8: Telesphorus (127–137)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260627105739/https://www.vatican.va/content/vatican/en/holy-father.html
 status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source. reconciliation 2026-07-10 vs the
+  official vatican.va list (no. 8): official list gives 127–137 (seeded 126–130);
+  traditional early dates vary between reference works. Status remains unverified
+  per the Milestone B contract (maintainer verifies).'
 to:
   value: '0130'
   calendar: julian

@@ -1,0 +1,23 @@
+id: tenure/pre-schism-rome/eulalius-0418@rome
+person: person/pre-schism-rome/eulalius-0418
+see: see/pre-schism-rome/rome
+from:
+  value: 0418
+  calendar: julian
+  precision: year
+to:
+  value: 0419
+  calendar: julian
+  precision: year
+end_reason: deposed
+recognition:
+- by: all
+  status: rival-claimant
+  note: rival to Boniface I
+sources:
+- ref: source/kelly-oxford-dictionary-of-popes
+  locator: s.v. (page to be confirmed)
+  reliability: scholarly
+status: unverified
+notes: 'Overlapping rival tenure, recognition: rival-claimant per the established
+  pattern.'

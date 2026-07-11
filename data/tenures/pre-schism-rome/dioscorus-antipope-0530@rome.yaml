@@ -1,0 +1,24 @@
+id: tenure/pre-schism-rome/dioscorus-antipope-0530@rome
+person: person/pre-schism-rome/dioscorus-antipope-0530
+see: see/pre-schism-rome/rome
+from:
+  value: '0530'
+  calendar: julian
+  precision: year
+to:
+  value: '0530'
+  calendar: julian
+  precision: year
+end_reason: deposed
+recognition:
+- by: all
+  status: rival-claimant
+  note: rival to Boniface II for 22 days; arguably the legitimately elected candidate
+    — recorded, not adjudicated
+sources:
+- ref: source/kelly-oxford-dictionary-of-popes
+  locator: s.v. (page to be confirmed)
+  reliability: scholarly
+status: unverified
+notes: 'Overlapping rival tenure, recognition: rival-claimant per the established
+  pattern.'
