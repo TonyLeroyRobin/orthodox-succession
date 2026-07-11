@@ -1,0 +1,22 @@
+id: tenure/romania/eftimie-ii-1568@bucharest
+person: person/romania/eftimie-ii-1568
+see: see/romania/bucharest
+from:
+  value: '1568'
+  calendar: julian
+  precision: year
+to:
+  value: '1576'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Ungro-Wallachia series, s.v. Eftimie II (1568–1576) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarhia.ro carries narrative history pages but no single diadochal list page) — confirm
+    against Păcurariu, Istoria Bisericii Ortodoxe Române, and the official history pages during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.

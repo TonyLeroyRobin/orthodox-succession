@@ -1,0 +1,40 @@
+id: person/romania/antim-ivireanul-1708
+names:
+  monastic: Antim Ivireanul
+  variants:
+  - Anthimus the Iberian
+  - Antim of Iviria
+attestation: attested
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Ungro-Wallachia series, s.v. Antim Ivireanul (1708–1716) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarhia.ro carries narrative history pages but no single diadochal list page) — confirm
+    against Păcurariu, Istoria Bisericii Ortodoxe Române, and the official history pages during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  Of Georgian (Iberian) origin; printer, engraver, and scholar; one of the great learned hierarchs
+  (official history page III.a). Hieromartyr, canonized by the Romanian Holy Synod in 1992.
+veneration:
+  status: saint
+  titles:
+  - Hieromartyr
+  recognition:
+  - by: jurisdiction:jurisdiction/church-of-romania
+    glorified_date:
+      value: '1992'
+      calendar: gregorian
+      precision: year
+      note: glorified by the Romanian Holy Synod — verify the exact date
+    note: also venerated in the Church of Georgia (Georgian by origin)
+  feast_days:
+  - month_day: 09-27
+    calendar: gregorian
+    note: Hieromartyr Antim Ivireanul — verify against the official calendar
+  sources:
+  - ref: source/church-of-romania-official
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2026/https://patriarhia.ro/
+    note: canonized 1992, feast 27 September — pin the official calendar page during verification

@@ -1,0 +1,15 @@
+id: person/romania/stefan-i-1648
+names:
+  monastic: Ștefan I
+attestation: attested
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Ungro-Wallachia series, s.v. Ștefan I (1648–1653) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarhia.ro carries narrative history pages but no single diadochal list page) — confirm
+    against Păcurariu, Istoria Bisericii Ortodoxe Române, and the official history pages during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  Printed the first service books with the typikon in Romanian (official history page III.a).

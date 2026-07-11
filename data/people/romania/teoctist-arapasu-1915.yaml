@@ -11,7 +11,9 @@ status: unverified
 notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
   calendar, and see assignment against a graded source; the id year is the earliest
   seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
-  record.
+  record. Milestone C reconciliation 2026-07-10 — matched to the standard chronology
+  (Teoctist, 1986–1990 and 1990–2007, split at the 1990 restyling of the metropolitan
+  title); two tenures created.
 identifiers:
   wikidata: Q472516
   viaf: '79207203'

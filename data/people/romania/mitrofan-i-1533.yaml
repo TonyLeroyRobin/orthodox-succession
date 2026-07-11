@@ -1,0 +1,14 @@
+id: person/romania/mitrofan-i-1533
+names:
+  monastic: Mitrofan I
+attestation: attested
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Ungro-Wallachia series, s.v. Mitrofan I (attested 1533) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarhia.ro carries narrative history pages but no single diadochal list page) — confirm
+    against Păcurariu, Istoria Bisericii Ortodoxe Române, and the official history pages during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.

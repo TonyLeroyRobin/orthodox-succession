@@ -1,0 +1,34 @@
+id: person/romania/maxim-brancovici-1505
+names:
+  monastic: Maxim Brancovici
+  variants:
+  - Maksim Branković
+  - Maximus of Wallachia
+attestation: attested
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Ungro-Wallachia series, s.v. Maxim Brancovici (1505–1508) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarhia.ro carries narrative history pages but no single diadochal list page) — confirm
+    against Păcurariu, Istoria Bisericii Ortodoxe Române, and the official history pages during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  Son of the Serbian despot Stefan Branković; after Wallachia, metropolitan of Belgrade and
+  Srem (that line is outside this spine — cf. the Karlovci backlog entry).
+veneration:
+  status: saint
+  titles: []
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 01-18
+    calendar: julian
+    note: St Maximus (Branković), Archbishop of Wallachia
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/01/18
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/01/18
+    note: Year-wildcard archive redirect - pin during verification.

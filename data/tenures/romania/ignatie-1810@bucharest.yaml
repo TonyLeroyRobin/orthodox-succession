@@ -1,0 +1,23 @@
+id: tenure/romania/ignatie-1810@bucharest
+person: person/romania/ignatie-1810
+see: see/romania/bucharest
+from:
+  value: '1810'
+  calendar: julian
+  precision: year
+to:
+  value: '1812'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Ungro-Wallachia series, s.v. Ignatie (1810–1812) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarhia.ro carries narrative history pages but no single diadochal list page) — confirm
+    against Păcurariu, Istoria Bisericii Ortodoxe Române, and the official history pages during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  Appointed during the Russian occupation of the Principalities — verify circumstances.

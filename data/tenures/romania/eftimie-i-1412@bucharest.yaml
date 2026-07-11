@@ -1,0 +1,19 @@
+id: tenure/romania/eftimie-i-1412@bucharest
+person: person/romania/eftimie-i-1412
+see: see/romania/bucharest
+from:
+  value: '1412'
+  calendar: julian
+  precision: circa
+  note: attestation date only — tenure bounds unknown
+end_reason: unknown
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Ungro-Wallachia series, s.v. Eftimie I (attested 1412) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarhia.ro carries narrative history pages but no single diadochal list page) — confirm
+    against Păcurariu, Istoria Bisericii Ortodoxe Române, and the official history pages during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.

@@ -1,0 +1,25 @@
+id: tenure/romania/conon-aramescu-donici-1911@bucharest
+person: person/romania/conon-aramescu-donici-1911
+see: see/romania/bucharest
+from:
+  value: '1911'
+  calendar: julian
+  precision: year
+to:
+  value: '1919'
+  calendar: gregorian
+  precision: year
+end_reason: resigned
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Ungro-Wallachia series, s.v. Conon Arămescu-Donici (1911–1919) — locator to be
+    confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarhia.ro carries narrative history pages but no single diadochal list page) — confirm
+    against Păcurariu, Istoria Bisericii Ortodoxe Române, and the official history pages during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  The standard chronology gives 1911; some references give the election in February 1912 —
+  divergence to resolve during verification. Resigned at the start of 1919.

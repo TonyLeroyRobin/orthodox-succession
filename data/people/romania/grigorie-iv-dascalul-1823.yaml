@@ -1,0 +1,36 @@
+id: person/romania/grigorie-iv-dascalul-1823
+names:
+  monastic: Grigorie IV Dascălul
+attestation: attested
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Ungro-Wallachia series, s.v. Grigorie IV Dascălul (1823–1834) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarhia.ro carries narrative history pages but no single diadochal list page) — confirm
+    against Păcurariu, Istoria Bisericii Ortodoxe Române, and the official history pages during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  Canonized by the Romanian Holy Synod (decision 2005, proclaimed 2006).
+veneration:
+  status: saint
+  titles:
+  - the Teacher (Dascălul)
+  recognition:
+  - by: jurisdiction:jurisdiction/church-of-romania
+    glorified_date:
+      value: '2006'
+      calendar: gregorian
+      precision: year
+      note: synodal decision 2005, proclaimed 2006 — verify the exact date
+  feast_days:
+  - month_day: 06-22
+    calendar: gregorian
+    note: St Grigorie Dascălul, Metropolitan of Ungro-Wallachia — verify against the official
+      calendar
+  sources:
+  - ref: source/church-of-romania-official
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2026/https://patriarhia.ro/
+    note: canonized 2005/2006, feast 22 June — pin the official calendar page during verification

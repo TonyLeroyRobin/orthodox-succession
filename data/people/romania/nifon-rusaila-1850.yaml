@@ -1,0 +1,18 @@
+id: person/romania/nifon-rusaila-1850
+names:
+  monastic: Nifon Rusailă
+  variants:
+  - Nifon II
+attestation: attested
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Ungro-Wallachia series, s.v. Nifon Rusailă (1850–1865) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarhia.ro carries narrative history pages but no single diadochal list page) — confirm
+    against Păcurariu, Istoria Bisericii Ortodoxe Române, and the official history pages during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  Styled Nifon II in some lists (Nifon I being the 1502–1505 metropolitan, the former Ecumenical
+  Patriarch Niphon II).

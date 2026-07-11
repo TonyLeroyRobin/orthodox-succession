@@ -1,0 +1,21 @@
+id: tenure/romania/atanasie-0000@bucharest
+person: person/romania/atanasie-0000
+see: see/romania/bucharest
+from:
+  value: '1381'
+  calendar: julian
+  precision: disputed
+  note: wholly undated — placed after Antim (1381–?) in the standard chronology
+end_reason: unknown
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Ungro-Wallachia series, s.v. Atanasie (undated) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarhia.ro carries narrative history pages but no single diadochal list page) — confirm
+    against Păcurariu, Istoria Bisericii Ortodoxe Române, and the official history pages during
+    verification
+status: disputed
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  Wholly undated; present in the standard chronology between Antim and Teodor I but absent
+  from some reproductions of the list — recorded as disputed, not adjudicated.

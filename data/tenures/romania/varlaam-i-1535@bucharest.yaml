@@ -1,0 +1,22 @@
+id: tenure/romania/varlaam-i-1535@bucharest
+person: person/romania/varlaam-i-1535
+see: see/romania/bucharest
+from:
+  value: '1535'
+  calendar: julian
+  precision: year
+to:
+  value: '1544'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Ungro-Wallachia series, s.v. Varlaam I (1535–1544) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarhia.ro carries narrative history pages but no single diadochal list page) — confirm
+    against Păcurariu, Istoria Bisericii Ortodoxe Române, and the official history pages during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.

@@ -1,0 +1,28 @@
+id: tenure/romania/patriarch-justinian-of-romania-1901@bucharest
+person: person/romania/patriarch-justinian-of-romania-1901
+see: see/romania/bucharest
+from:
+  value: '1948'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1977'
+  calendar: gregorian
+  precision: year
+end_reason: died
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Ungro-Wallachia series, s.v. Justinian Marina (1948–1977) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarhia.ro carries narrative history pages but no single diadochal list page) — confirm
+    against Păcurariu, Istoria Bisericii Ortodoxe Române, and the official history pages during
+    verification
+- ref: source/church-of-romania-official
+  locator: en/history-of-the-romanian-orthodox-church/patriarchs-of-romania/
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://patriarhia.ro/en/history-of-the-romanian-orthodox-church/patriarchs-of-romania/
+  note: official page lists the Patriarchs of Romania 1925–2007 with these years; year-wildcard
+    archive redirect — pin during verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.

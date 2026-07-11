@@ -1,0 +1,39 @@
+id: person/romania/iachint-of-vicina-1359
+names:
+  monastic: Iachint of Vicina
+attestation: attested
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Ungro-Wallachia series, s.v. Iachint of Vicina (1359–1372) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarhia.ro carries narrative history pages but no single diadochal list page) — confirm
+    against Păcurariu, Istoria Bisericii Ortodoxe Române, and the official history pages during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  First metropolitan of Ungro-Wallachia (1359, under Ecumenical Patriarch Kallistos I at the
+  request of voivode Nicolae Alexandru); previously metropolitan of Vicina. Canonized by the
+  Romanian Holy Synod in 2008.
+veneration:
+  status: saint
+  titles:
+  - Saint Hierarch
+  recognition:
+  - by: jurisdiction:jurisdiction/church-of-romania
+    glorified_date:
+      value: '2008'
+      calendar: gregorian
+      precision: year
+      note: glorified by the Holy Synod of the Romanian Orthodox Church — verify the exact
+        date
+  feast_days:
+  - month_day: 10-28
+    calendar: gregorian
+    note: St Iachint of Vicina, Metropolitan of Ungro-Wallachia — verify against the official
+      calendar
+  sources:
+  - ref: source/church-of-romania-official
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2026/https://patriarhia.ro/
+    note: canonized 2008, feast 28 October — pin the official calendar page during verification

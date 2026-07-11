@@ -1,0 +1,30 @@
+id: tenure/romania/teofil-1636@bucharest
+person: person/romania/teofil-1636
+see: see/romania/bucharest
+from:
+  value: '1636'
+  calendar: julian
+  precision: year
+to:
+  value: '1648'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Ungro-Wallachia series, s.v. Teofil (1636–1648) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarhia.ro carries narrative history pages but no single diadochal list page) — confirm
+    against Păcurariu, Istoria Bisericii Ortodoxe Române, and the official history pages during
+    verification
+- ref: source/church-of-romania-official
+  locator: iii-a-biserica-din-Tara-romaneasca-si-moldova-in-evul-mediu-mijlocul-secolului-al-xiv-lea-1821--149.html
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://patriarhia.ro/iii-a-biserica-din-Tara-romaneasca-si-moldova-in-evul-mediu-mijlocul-secolului-al-xiv-lea-1821--149.html
+  note: official history page (III.a, the medieval church of Wallachia and Moldavia) names
+    this tenure with matching years; year-wildcard archive redirect — pin during verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  Printing presses established at Câmpulung, Govora, Dealu, and Târgoviște during his tenure
+  (official history page III.a).

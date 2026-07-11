@@ -11,7 +11,8 @@ status: unverified
 notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
   calendar, and see assignment against a graded source; the id year is the earliest
   seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
-  record.
+  record. Milestone C reconciliation 2026-07-10 — matched to the standard chronology
+  (Nicodim, 1939–1948); tenure created.
 identifiers:
   wikidata: Q1840498
   viaf: '276144782968237622366'

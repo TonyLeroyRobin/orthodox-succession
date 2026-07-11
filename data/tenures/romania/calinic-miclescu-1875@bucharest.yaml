@@ -1,0 +1,23 @@
+id: tenure/romania/calinic-miclescu-1875@bucharest
+person: person/romania/calinic-miclescu-1875
+see: see/romania/bucharest
+from:
+  value: '1875'
+  calendar: julian
+  precision: year
+to:
+  value: '1886'
+  calendar: julian
+  precision: year
+end_reason: died
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Ungro-Wallachia series, s.v. Calinic Miclescu (1875–1886) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarhia.ro carries narrative history pages but no single diadochal list page) — confirm
+    against Păcurariu, Istoria Bisericii Ortodoxe Române, and the official history pages during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  Constantinople recognized Romanian autocephaly (tomos of 1885) during his tenure.

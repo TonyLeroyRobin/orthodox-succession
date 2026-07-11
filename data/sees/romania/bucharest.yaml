@@ -9,6 +9,20 @@ sources:
   reliability: official-list
 - ref: source/wikidata
   reliability: database
+- ref: source/pacurariu-istoria-bor
+  reliability: scholarly
+  note: citation-of-record for the Ungro-Wallachia/Bucharest spine — locators to be
+    confirmed
 status: unverified
-notes: Seat of the Patriarch of All Romania (from 1925). Minimal draft — jurisdiction_history,
-  rank_history, and founding data to be added with sources during verification.
+notes: 'Seat of the Patriarch of All Romania (from 1925). Milestone C (2026-07-10)
+  closed the single spine Iachint of Vicina (1359) to Daniel on this see record per
+  maintainer decision — the Constantinople/Serbia precedent for a line whose seat
+  moved: Curtea de Argeș (1359–1517), Târgoviște (1517–1668), Bucharest (1668–).
+  The line is the Metropolitanate of Ungro-Wallachia (1359–1865), the Metropolitan-Primacy
+  of Romania (1865, autocephaly recognized by the tomos of 1885), and the Patriarchate
+  (1925). Occupancy gaps in the 15th–early 16th centuries reflect attestation-only
+  records in the standard chronology (Eftimie I 1412, Iosif 1464, Macarie I 1480/1483,
+  Ilarion I 1493, etc.), not suppression; the 1834–1840 and 1849–1850 gaps are documented
+  vacancies (locum tenens periods). The Metropolitanate of Moldavia (Iași) parallel
+  line is backlogged as a separate jurisdiction (the Karlovci pattern). jurisdiction_history
+  and rank_history still to be added during verification.'

@@ -1,0 +1,24 @@
+id: tenure/romania/nifon-rusaila-1850@bucharest
+person: person/romania/nifon-rusaila-1850
+see: see/romania/bucharest
+from:
+  value: '1850'
+  calendar: julian
+  precision: year
+to:
+  value: '1865'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Ungro-Wallachia series, s.v. Nifon Rusailă (1850–1865) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarhia.ro carries narrative history pages but no single diadochal list page) — confirm
+    against Păcurariu, Istoria Bisericii Ortodoxe Române, and the official history pages during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  Term split at 1865, when he was named the first Metropolitan-Primate of the united Romanian
+  church — same person, two terms (the Serbia/Dimitrije pattern).

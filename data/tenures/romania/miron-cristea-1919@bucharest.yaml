@@ -1,0 +1,24 @@
+id: tenure/romania/miron-cristea-1919@bucharest
+person: person/romania/miron-cristea-1919
+see: see/romania/bucharest
+from:
+  value: '1919'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1925'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Ungro-Wallachia series, s.v. Miron Cristea (1919–1925) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarhia.ro carries narrative history pages but no single diadochal list page) — confirm
+    against Păcurariu, Istoria Bisericii Ortodoxe Române, and the official history pages during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  Elected Metropolitan-Primate in December 1919; term split at the 1925 elevation of the church
+  to a patriarchate — same person, two terms (the Serbia/Dimitrije pattern).

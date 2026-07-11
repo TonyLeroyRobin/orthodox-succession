@@ -24,3 +24,5 @@ current milestone (ROADMAP_ADDENDUM.md §A4).
 | Cross-jurisdiction person deduplication (same human in two dirs: Meletios Pigas, Meletios Metaxakis, Cyril Loukaris, Kosmas II/III — Alexandria↔Constantinople) | 2026-07-10 | Milestone C wrap-up / verification |
 | Metropolitans of Moscow 1325–1589 (Peter → Job's predecessors) + the historical Kyiv metropolitan line — pre-patriarchal Russian succession | 2026-07-10 | post-Milestone C |
 | Metropolitanate/Patriarchate of Karlovci 1690–1920 (parallel Serbian jurisdiction; seeded persons annotated: Rajačić, Maširević, Anđelić, Branković, Bogdanović) | 2026-07-10 | post-Milestone C |
+| Metropolitanate of Moldavia and Bukovina (Iași) succession line 1401–present (parallel Romanian jurisdiction; the Karlovci pattern) | 2026-07-10 | post-Milestone C |
+| Maxim Brancovici's Belgrade/Srem tenure (after Wallachia 1505–1508) — belongs to the future Karlovci/Belgrade parallel line | 2026-07-10 | post-Milestone C |
