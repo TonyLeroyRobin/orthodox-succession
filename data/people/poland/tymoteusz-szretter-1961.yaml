@@ -1,0 +1,23 @@
+id: person/poland/tymoteusz-szretter-1961
+names:
+  monastic: Tymoteusz
+  family: Szretter
+  baptismal: Jerzy
+  variants:
+  - Timotheus (Szretter)
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Poland series, s.v. Tymoteusz (Szretter) (1961-1962) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation);
+    the official primates page (orthodox.pl/zwierzchnicy/) is JS-walled to automated fetch
+    — pin its snapshot and confirm during verification
+- ref: source/church-of-poland-official
+  locator: zwierzchnicy/
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.orthodox.pl/zwierzchnicy/
+  note: official primates page (JS-walled to automated fetch; year-wildcard archive redirect)
+    — pin during verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.

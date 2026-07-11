@@ -1,20 +1,18 @@
-id: tenure/poland/sawa-1998@warsaw
-person: person/poland/sawa-1998
+id: tenure/poland/dionizy-waledynski-1923@warsaw
+person: person/poland/dionizy-waledynski-1923
 see: see/poland/warsaw
 from:
-  value: '1998'
+  value: '1923'
   calendar: gregorian
   precision: year
-  note: seeded from Wikidata; verify date, precision, and calendar
-end_reason: unknown
+to:
+  value: '1948'
+  calendar: gregorian
+  precision: year
+end_reason: deposed
 sources:
-- ref: source/wikidata
-  locator: Q1976279
-  reliability: database
-  note: programmatic seed — verify against a graded source; term dates from P39 start/end
-    qualifiers
 - ref: source/fedalto-hierarchia-ecclesiastica-orientalis
-  locator: Poland series, s.v. Sawa (Hrycuniak) (1998-present) — locator to be confirmed
+  locator: Poland series, s.v. Dionizy (Waledyński) (1923-1948) — locator to be confirmed
   reliability: scholarly
   note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation);
     the official primates page (orthodox.pl/zwierzchnicy/) is JS-walled to automated fetch
@@ -26,6 +24,8 @@ sources:
   note: official primates page (JS-walled to automated fetch; year-wildcard archive redirect)
     — pin during verification
 status: unverified
-notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
-  a diadochal list or scholarly source. Milestone C reconciliation 2026-07-11: matched to
-  the standard chronology (Sawa, 1998-present, incumbent).'
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.
+  Primate at the 1924 tomos of autocephaly. Forced from office in 1948 amid the state- and
+  Moscow-aligned reorganization (the 1948 Moscow grant, cf. the jurisdiction record) — recorded,
+  not adjudicated. The 1948-1951 gap that follows is a locum tenens interval (Tymoteusz Szretter),
+  list-inherent, not missing data.

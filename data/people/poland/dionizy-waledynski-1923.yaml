@@ -1,0 +1,23 @@
+id: person/poland/dionizy-waledynski-1923
+names:
+  monastic: Dionizy
+  family: Waledyński
+  baptismal: Konstanty
+  variants:
+  - Dionysius (Waledynski)
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Poland series, s.v. Dionizy (Waledyński) (1923-1948) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation);
+    the official primates page (orthodox.pl/zwierzchnicy/) is JS-walled to automated fetch
+    — pin its snapshot and confirm during verification
+- ref: source/church-of-poland-official
+  locator: zwierzchnicy/
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.orthodox.pl/zwierzchnicy/
+  note: official primates page (JS-walled to automated fetch; year-wildcard archive redirect)
+    — pin during verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.

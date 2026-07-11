@@ -10,5 +10,11 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: Seat of the Metropolitan of Warsaw and All Poland. Minimal draft — jurisdiction_history,
-  rank_history, and founding data to be added with sources during verification.
+notes: 'Seat of the Metropolitan of Warsaw and All Poland. Milestone C (2026-07-11)
+  closed the spine on this see: Jerzy Jaroszewski (1922, assassinated 1923) to Sawa
+  (1998–, incumbent), 7 tenures. The occupancy gaps (1948–1951, 1959–1961, 1962–1965,
+  1969–1970) are documented locum-tenens intervals, list-inherent, not missing data.
+  The 1924 Constantinople tomos vs the 1948 Moscow grant duality is carried on the
+  jurisdiction record — recorded, not adjudicated. The official primates page (orthodox.pl/zwierzchnicy/)
+  is JS-walled to automated fetch; pin during verification. jurisdiction_history,
+  rank_history, and founding data still to be added during verification.'

@@ -1,20 +1,18 @@
-id: tenure/poland/sawa-1998@warsaw
-person: person/poland/sawa-1998
+id: tenure/poland/bazyli-doroszkiewicz-1970@warsaw
+person: person/poland/bazyli-doroszkiewicz-1970
 see: see/poland/warsaw
 from:
+  value: '1970'
+  calendar: gregorian
+  precision: year
+to:
   value: '1998'
   calendar: gregorian
   precision: year
-  note: seeded from Wikidata; verify date, precision, and calendar
-end_reason: unknown
+end_reason: died
 sources:
-- ref: source/wikidata
-  locator: Q1976279
-  reliability: database
-  note: programmatic seed — verify against a graded source; term dates from P39 start/end
-    qualifiers
 - ref: source/fedalto-hierarchia-ecclesiastica-orientalis
-  locator: Poland series, s.v. Sawa (Hrycuniak) (1998-present) — locator to be confirmed
+  locator: Poland series, s.v. Bazyli (Doroszkiewicz) (1970-1998) — locator to be confirmed
   reliability: scholarly
   note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation);
     the official primates page (orthodox.pl/zwierzchnicy/) is JS-walled to automated fetch
@@ -26,6 +24,5 @@ sources:
   note: official primates page (JS-walled to automated fetch; year-wildcard archive redirect)
     — pin during verification
 status: unverified
-notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
-  a diadochal list or scholarly source. Milestone C reconciliation 2026-07-11: matched to
-  the standard chronology (Sawa, 1998-present, incumbent).'
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.
+  Died in office February 1998 — verify.
