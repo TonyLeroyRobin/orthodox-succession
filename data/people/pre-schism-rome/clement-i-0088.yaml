@@ -2,6 +2,26 @@ id: person/pre-schism-rome/clement-i-0088
 names:
   monastic: Clement I
 attestation: attested
+identifiers:
+  wikidata: Q42887
+  viaf: '46860095'
+veneration:
+  status: saint
+  titles:
+  - Hieromartyr
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 11-25
+    calendar: julian
+    note: Hieromartyr Clement, Pope of Rome
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/11/25
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/11/25
+    note: 'OCA: Hieromartyr Clement, Pope of Rome (Nov 25). Year-wildcard archive
+      redirect — pin during verification.'
 sources:
 - ref: source/wikidata
   locator: Q42887
@@ -12,6 +32,3 @@ notes: Draft seeded from Wikidata (office holders import). Verify name forms, da
   calendar, and see assignment against a graded source; the id year is the earliest
   seeded term start. Wikidata birth/death dates conflicted with the term dates and
   were NOT imported — resolve during verification.
-identifiers:
-  wikidata: Q42887
-  viaf: '46860095'

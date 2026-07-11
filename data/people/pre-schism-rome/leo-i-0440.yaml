@@ -1,19 +1,6 @@
 id: person/pre-schism-rome/leo-i-0440
 names:
   monastic: Leo I
-attestation: attested
-sources:
-- ref: source/wikidata
-  locator: Q43954
-  reliability: database
-  note: programmatic seed — verify against a graded source
-status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
-identifiers:
-  wikidata: Q43954
-  viaf: '9875336'
 born:
   date:
     value: 0390
@@ -26,3 +13,33 @@ died:
     calendar: julian
     precision: year
     note: seeded from Wikidata; verify date, precision, and calendar
+attestation: attested
+identifiers:
+  wikidata: Q43954
+  viaf: '9875336'
+veneration:
+  status: saint
+  titles:
+  - the Great
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 02-18
+    calendar: julian
+    note: St Leo the Great, Pope of Rome
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/02/18
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/02/18
+    note: 'OCA: St Leo the Great, Pope of Rome (Feb 18). Year-wildcard archive redirect
+      — pin during verification.'
+sources:
+- ref: source/wikidata
+  locator: Q43954
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.

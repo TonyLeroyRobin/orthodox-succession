@@ -16,6 +16,23 @@ died:
     note: beheaded at Rome under Nero, c. 64-68 by tradition
   place: 'Rome (tradition: on the Ostian Way)'
 attestation: attested
+veneration:
+  status: saint
+  titles:
+  - Apostle
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 06-29
+    calendar: julian
+    note: Holy, Glorious and All-Praised Leaders of the Apostles, Peter and Paul
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/06/29
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/06/29
+    note: 'OCA: Apostles Peter and Paul (Jun 29). Year-wildcard archive redirect
+      — pin during verification.'
 sources:
 - ref: source/acts-of-the-apostles
   locator: Acts 9; 13-28

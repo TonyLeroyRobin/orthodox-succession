@@ -20,6 +20,27 @@ died:
 attestation: attested
 identifiers:
   wikidata: Q33923
+veneration:
+  status: saint
+  titles:
+  - Apostle
+  - First-Enthroned
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 06-29
+    calendar: julian
+    note: Holy, Glorious and All-Praised Leaders of the Apostles, Peter and Paul
+  - month_day: 01-16
+    calendar: julian
+    note: Veneration of the Precious Chains of the Apostle Peter
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/06/29
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/06/29
+    note: 'OCA: Apostles Peter and Paul (Jun 29). Year-wildcard archive redirect
+      — pin during verification.'
 sources:
 - ref: source/acts-of-the-apostles
   locator: Acts 1-15 passim

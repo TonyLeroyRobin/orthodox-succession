@@ -1,19 +1,6 @@
 id: person/pre-schism-rome/gregory-i-0590
 names:
   monastic: Gregory I
-attestation: attested
-sources:
-- ref: source/wikidata
-  locator: Q42827
-  reliability: database
-  note: programmatic seed — verify against a graded source
-status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
-identifiers:
-  wikidata: Q42827
-  viaf: '100184667'
 born:
   date:
     value: '0540'
@@ -26,3 +13,33 @@ died:
     calendar: julian
     precision: year
     note: seeded from Wikidata; verify date, precision, and calendar
+attestation: attested
+identifiers:
+  wikidata: Q42827
+  viaf: '100184667'
+veneration:
+  status: saint
+  titles:
+  - the Dialogist
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 03-12
+    calendar: julian
+    note: St Gregory the Dialogist, Pope of Rome
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/03/12
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/03/12
+    note: 'OCA: St Gregory the Dialogist, Pope of Rome (Mar 12). Year-wildcard archive
+      redirect — pin during verification.'
+sources:
+- ref: source/wikidata
+  locator: Q42827
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
