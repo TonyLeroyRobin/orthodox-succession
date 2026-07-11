@@ -44,7 +44,9 @@ def main():
           f"{GAP_YEARS} years, per see\n")
 
     for see_id in sorted(tenures_by_see):
-        spans = sorted(tenures_by_see[see_id])
+        spans = sorted(tenures_by_see[see_id],
+                       key=lambda s: (s[0], s[1] if s[1] is not None
+                                      else s[0]))
         statuses = defaultdict(int)
         for _, _, d in spans:
             statuses[d.get("status", "?")] += 1
