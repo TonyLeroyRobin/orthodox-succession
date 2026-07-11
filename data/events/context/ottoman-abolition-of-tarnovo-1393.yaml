@@ -1,0 +1,26 @@
+id: event/context/ottoman-abolition-of-tarnovo-1393
+type: context
+title: Fall of Tarnovo ends the second Bulgarian patriarchate
+date:
+  from:
+    value: '1393'
+    calendar: julian
+    precision: year
+  to:
+    value: '1870'
+    calendar: gregorian
+    precision: year
+    note: until the establishment of the Bulgarian Exarchate
+scope: jurisdiction:jurisdiction/church-of-bulgaria
+description: The Ottoman capture of Tarnovo in 1393 ended the second Bulgarian patriarchate,
+  whose dioceses passed under Constantinople until the Bulgarian Exarchate of 1870.
+affected:
+- jurisdiction/tarnovo-patriarchate
+- jurisdiction/church-of-bulgaria
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Tarnovo Patriarchate
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Tarnovo_Patriarchate
+status: unverified
+notes: ''

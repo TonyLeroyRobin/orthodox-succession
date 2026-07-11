@@ -1,0 +1,27 @@
+id: tenure/bulgaria/damyan-0972@preslav
+person: person/bulgaria/damyan-0972
+see: see/bulgaria/preslav
+from:
+  value: 0972
+  calendar: julian
+  precision: circa
+  note: attested as patriarch at the fall of Preslav (972); begin date unknown
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Bulgaria series, s.v. Damyan (attested 972) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the official bg-patriarshia.bg era pages (fetched 2026-07-11),
+    which give attestations rather than office bounds for most medieval rows — reconcile against
+    Fedalto and scholarship during verification
+- ref: source/church-of-bulgaria-official
+  locator: preslav-patriarchs
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/preslav-patriarchs
+  note: official era page (the Preslav patriarchs) — year-wildcard archive redirect, pin during
+    verification
+status: unverified
+notes: Created from the official bg-patriarshia.bg era lists during Milestone C reconciliation
+  2026-07-11. Continued after the fall of Preslav; scholarship places his later seat at Dorostol/Sredets
+  — verify. The official Preslav page ends with him; the westward tail (German through David)
+  is carried on the official ohrid-patriarchs page.

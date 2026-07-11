@@ -1,0 +1,23 @@
+id: person/bulgaria/david-1015
+names:
+  monastic: David
+  native:
+  - script: bg
+    value: Давид
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Bulgaria series, s.v. David (c. 1015-1018) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the official bg-patriarshia.bg era pages (fetched 2026-07-11),
+    which give attestations rather than office bounds for most medieval rows — reconcile against
+    Fedalto and scholarship during verification
+- ref: source/church-of-bulgaria-official
+  locator: ohrid-patriarchs
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/ohrid-patriarchs
+  note: official era page (the westward first hierarchs) — year-wildcard archive redirect,
+    pin during verification
+status: unverified
+notes: Created from the official bg-patriarshia.bg era lists during Milestone C reconciliation
+  2026-07-11.

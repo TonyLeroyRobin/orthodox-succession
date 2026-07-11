@@ -6,16 +6,23 @@ from:
   calendar: gregorian
   precision: year
   note: seeded from Wikidata; verify date, precision, and calendar
-end_reason: unknown
+end_reason: died
 sources:
 - ref: source/wikidata
   locator: Q324495
   reliability: database
   note: programmatic seed — verify against a graded source; term dates from P39 start/end
     qualifiers
+- ref: source/church-of-bulgaria-official
+  locator: bul-patriarch
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/bul-patriarch
+  note: official page memorializes Patriarch Maxim (1914–2012) — year-wildcard archive
+    redirect, pin during verification
 status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
+notes: 'Draft tenure seeded from Wikidata P39. Milestone C reconciliation 2026-07-11:
+  matched to the official reckoning (Maxim, 1971–2012); died in office (end_reason
+  updated per the official memorial page — verify).'
 to:
   value: '2012'
   calendar: gregorian

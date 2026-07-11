@@ -1,0 +1,21 @@
+id: event/context/ohrid-downgrade-1018
+type: context
+title: Bulgarian patriarchate reduced to the Archbishopric of Ohrid
+date:
+  from:
+    value: '1018'
+    calendar: julian
+    precision: year
+scope: jurisdiction:jurisdiction/church-of-bulgaria
+description: After annexing Bulgaria, Basil II abolished the Bulgarian patriarchate and organized
+  its dioceses as the autocephalous Archbishopric of Ohrid.
+affected:
+- jurisdiction/preslav-patriarchate
+- jurisdiction/archbishopric-of-ohrid
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Archbishopric of Ohrid
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Archbishopric_of_Ohrid
+status: unverified
+notes: ''

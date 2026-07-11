@@ -1,0 +1,32 @@
+id: tenure/bulgaria/stefan-i-1945@sofia
+person: person/bulgaria/stefan-i-1945
+see: see/bulgaria/sofia
+from:
+  value: '1945'
+  calendar: gregorian
+  precision: year
+  note: elected January 1945
+to:
+  value: '1948'
+  calendar: gregorian
+  precision: year
+end_reason: resigned
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Bulgaria series, s.v. Stefan I (1945-1948) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the official bg-patriarshia.bg era pages (fetched 2026-07-11),
+    which give attestations rather than office bounds for most medieval rows — reconcile against
+    Fedalto and scholarship during verification
+- ref: source/church-of-bulgaria-official
+  locator: bulg-exarches
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/bulg-exarches
+  note: official era page (the Bulgarian exarchs) — year-wildcard archive redirect, pin during
+    verification
+status: unverified
+notes: Created from the official bg-patriarshia.bg era lists during Milestone C reconciliation
+  2026-07-11. Elected exarch January 1945; the 1872 schism was lifted the following month
+  (February 1945), so no recognition qualifier is carried on this tenure. Resigned September
+  1948 under state pressure — verify circumstances. The 1948–1953 vacancy that follows is
+  list-inherent, not missing data.

@@ -1,0 +1,26 @@
+id: person/bulgaria/antim-i-1872
+names:
+  monastic: Antim I
+  native:
+  - script: bg
+    value: Антим I
+  variants:
+  - Anthimus I
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Bulgaria series, s.v. Antim I (1872-1877) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the official bg-patriarshia.bg era pages (fetched 2026-07-11),
+    which give attestations rather than office bounds for most medieval rows — reconcile against
+    Fedalto and scholarship during verification
+- ref: source/church-of-bulgaria-official
+  locator: bulg-exarches
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/bulg-exarches
+  note: official era page (the Bulgarian exarchs) — year-wildcard archive redirect, pin during
+    verification
+status: unverified
+notes: Created from the official bg-patriarshia.bg era lists during Milestone C reconciliation
+  2026-07-11. Born 1816, died 1888 (life years per the official page); previously metropolitan
+  of Vidin.

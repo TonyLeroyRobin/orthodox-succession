@@ -1,0 +1,35 @@
+id: tenure/bulgaria/antim-i-1872@sofia
+person: person/bulgaria/antim-i-1872
+see: see/bulgaria/sofia
+from:
+  value: '1872'
+  calendar: gregorian
+  precision: year
+  note: elected February 1872
+to:
+  value: '1877'
+  calendar: gregorian
+  precision: year
+end_reason: deposed
+recognition:
+- by: jurisdiction/ecumenical-patriarchate
+  status: not-recognized
+  note: the 1872 council of Constantinople declared the Exarchate schismatic (schism lifted
+    February 1945)
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Bulgaria series, s.v. Antim I (1872-1877) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the official bg-patriarshia.bg era pages (fetched 2026-07-11),
+    which give attestations rather than office bounds for most medieval rows — reconcile against
+    Fedalto and scholarship during verification
+- ref: source/church-of-bulgaria-official
+  locator: bulg-exarches
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/bulg-exarches
+  note: official era page (the Bulgarian exarchs) — year-wildcard archive redirect, pin during
+    verification
+status: unverified
+notes: Created from the official bg-patriarshia.bg era lists during Milestone C reconciliation
+  2026-07-11. First Bulgarian Exarch (seat at Constantinople); removed by the Ottoman government
+  in 1877 and exiled — verify circumstances.

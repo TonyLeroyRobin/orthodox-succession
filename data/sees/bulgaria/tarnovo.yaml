@@ -1,0 +1,31 @@
+id: see/bulgaria/tarnovo
+name: Tarnovo
+location:
+  lat: 43.084
+  lon: 25.64
+  modern_place: Veliko Tarnovo, Bulgaria
+suppressed:
+  date:
+    value: '1393'
+    calendar: julian
+    precision: year
+    note: Ottoman conquest; the patriarchal throne was not filled again
+sources:
+- ref: source/church-of-bulgaria-official
+  locator: tarnovo-patriarchs
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/tarnovo-patriarchs
+  note: official era page (the Tarnovo patriarchs) — year-wildcard archive redirect, pin during
+    verification
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Bulgaria series, s.v. see of Tarnovo (1186-1393) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the official bg-patriarshia.bg era pages (fetched 2026-07-11),
+    which give attestations rather than office bounds for most medieval rows — reconcile against
+    Fedalto and scholarship during verification
+status: unverified
+notes: 'Primatial see of the second Bulgarian patriarchate (jurisdiction/tarnovo-patriarchate),
+  1186–1393: archbishopric from the Asen restoration (1186, union with Rome 1204–1235), patriarchate
+  from the Council of Lampsacus (1235), ended by the Ottoman conquest (1393). Occupancy gaps
+  reflect attestation-only records in the official list, not missing data. Created in Milestone
+  C (2026-07-11), architecture approved by the maintainer.'

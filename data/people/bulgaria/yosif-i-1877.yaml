@@ -1,0 +1,25 @@
+id: person/bulgaria/yosif-i-1877
+names:
+  monastic: Yosif I
+  native:
+  - script: bg
+    value: Йосиф I
+  variants:
+  - Joseph I
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Bulgaria series, s.v. Yosif I (1877-1915) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the official bg-patriarshia.bg era pages (fetched 2026-07-11),
+    which give attestations rather than office bounds for most medieval rows — reconcile against
+    Fedalto and scholarship during verification
+- ref: source/church-of-bulgaria-official
+  locator: bulg-exarches
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/bulg-exarches
+  note: official era page (the Bulgarian exarchs) — year-wildcard archive redirect, pin during
+    verification
+status: unverified
+notes: Created from the official bg-patriarshia.bg era lists during Milestone C reconciliation
+  2026-07-11. Born 1840, died 1915 per the official page.

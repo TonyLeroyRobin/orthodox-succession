@@ -1,0 +1,40 @@
+id: jurisdiction/tarnovo-patriarchate
+name: Patriarchate of Tarnovo (second Bulgarian patriarchate)
+type: historical
+autocephaly:
+- granted_by: restoration under the Asen dynasty
+  date:
+    value: '1186'
+    calendar: julian
+    precision: circa
+    note: archbishopric of Tarnovo; in union with Rome 1204–1235
+- granted_by: Council of Lampsacus (Ecumenical Patriarchate and the eastern patriarchs)
+  date:
+    value: '1235'
+    calendar: julian
+    precision: year
+dissolved:
+  date:
+    value: '1393'
+    calendar: julian
+    precision: year
+    note: Ottoman conquest of Tarnovo; Patriarch Evtimiy exiled
+  successor: jurisdiction/ecumenical-patriarchate
+primatial_see: see/bulgaria/tarnovo
+sources:
+- ref: source/church-of-bulgaria-official
+  locator: tarnovo-patriarchs
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/tarnovo-patriarchs
+  note: official era page (the Tarnovo patriarchs) — year-wildcard archive redirect, pin during
+    verification
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Bulgaria series, s.v. second Bulgarian patriarchate (1186-1393) — locator to be
+    confirmed
+  reliability: scholarly
+  note: dates transcribed from the official bg-patriarshia.bg era pages (fetched 2026-07-11),
+    which give attestations rather than office bounds for most medieval rows — reconcile against
+    Fedalto and scholarship during verification
+status: unverified
+notes: Modeled per Milestone C (2026-07-11), architecture A approved by the maintainer. The
+  diocese passed under Constantinople after 1393 until the Bulgarian Exarchate (1870).

@@ -1,0 +1,30 @@
+id: tenure/bulgaria/cyril-of-bulgaria-1901@sofia
+person: person/bulgaria/cyril-of-bulgaria-1901
+see: see/bulgaria/sofia
+from:
+  value: '1953'
+  calendar: gregorian
+  precision: year
+  note: patriarchate restored 10 May 1953
+to:
+  value: '1971'
+  calendar: gregorian
+  precision: year
+end_reason: died
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Bulgaria series, s.v. Kiril (1953-1971) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the official bg-patriarshia.bg era pages (fetched 2026-07-11),
+    which give attestations rather than office bounds for most medieval rows — reconcile against
+    Fedalto and scholarship during verification
+- ref: source/church-of-bulgaria-official
+  locator: bul-patriarch
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/bul-patriarch
+  note: official page (the modern Bulgarian patriarchs) — year-wildcard archive redirect,
+    pin during verification
+status: unverified
+notes: Created from the official bg-patriarshia.bg era lists during Milestone C reconciliation
+  2026-07-11. First patriarch of the restored patriarchate (1953); Constantinople recognized
+  the restoration in 1961 (cf. the jurisdiction record). Died in office 1971.

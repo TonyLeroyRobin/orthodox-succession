@@ -1,0 +1,32 @@
+id: see/bulgaria/preslav
+name: Preslav
+location:
+  lat: 43.162
+  lon: 26.815
+  modern_place: Veliki Preslav, Bulgaria
+suppressed:
+  date:
+    value: '1018'
+    calendar: julian
+    precision: year
+    note: patriarchate abolished by Basil II; succeeded by the Archbishopric of Ohrid
+sources:
+- ref: source/church-of-bulgaria-official
+  locator: preslav-patriarchs
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/preslav-patriarchs
+  note: official era page (the Preslav patriarchs) — year-wildcard archive redirect, pin during
+    verification
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Bulgaria series, s.v. see of Preslav (870-1018) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the official bg-patriarshia.bg era pages (fetched 2026-07-11),
+    which give attestations rather than office bounds for most medieval rows — reconcile against
+    Fedalto and scholarship during verification
+status: unverified
+notes: 'Primatial see of the first Bulgarian patriarchate (jurisdiction/preslav-patriarchate),
+  carrying the single spine 870–1018 per the moving-seat precedent: Pliska (870–893), Preslav
+  (893–972), then the westward seats after the fall of Preslav (Dorostol/Sredets/Voden/Prespa/Ohrid,
+  972–1018). Occupancy gaps reflect attestation-only records in the official list (Boril''s
+  Synodikon names without dates), not missing data. Created in Milestone C (2026-07-11), architecture
+  approved by the maintainer.'

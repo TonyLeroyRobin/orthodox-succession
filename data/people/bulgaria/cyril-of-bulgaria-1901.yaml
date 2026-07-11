@@ -1,6 +1,12 @@
 id: person/bulgaria/cyril-of-bulgaria-1901
 names:
-  monastic: Cyril of Bulgaria
+  monastic: Kiril
+  native:
+  - script: bg
+    value: Кирил
+  variants:
+  - Cyril of Bulgaria
+  - Kiril of Bulgaria
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -11,7 +17,10 @@ status: unverified
 notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
   calendar, and see assignment against a graded source; the id year is the earliest
   seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
-  record.
+  record. Milestone C reconciliation 2026-07-11 — matched to the official reckoning
+  (Kiril, first patriarch of the restored patriarchate, 1953–1971); tenure created;
+  display name normalized per DATA_COMPLETION §3. Life years 1901–1971 match the
+  official memorial page.
 identifiers:
   wikidata: Q1234207
   viaf: '12622649'

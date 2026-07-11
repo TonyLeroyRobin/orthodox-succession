@@ -29,7 +29,13 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: Medieval Bulgarian patriarchates (Preslav, Ohrid, Tarnovo) to be modeled
-  as historical jurisdictions in a later pass. Structural record authored from general
-  reference knowledge — verify each autocephaly/recognition entry against a graded
-  source before promotion.
+notes: 'Structural record authored from general reference knowledge — verify each
+  autocephaly/recognition entry against a graded source before promotion. Milestone
+  C (2026-07-11): the medieval patriarchates are now modeled as historical jurisdictions
+  per the maintainer-approved architecture — jurisdiction/preslav-patriarchate (870–1018)
+  and jurisdiction/tarnovo-patriarchate (1186–1393); the Archbishopric of Ohrid (1018–1767)
+  was already modeled. The official bg-patriarshia.bg site reckons all of these lines,
+  including the Ohrid first hierarchs, as this church''s own heritage (per-era list
+  pages) — that claim is recorded here, not adjudicated. Ohrid''s occupants 1018–1767
+  remain backlogged. Modern succession (exarchs 1872–1948, patriarchs 1953–present)
+  is carried on see/bulgaria/sofia.'

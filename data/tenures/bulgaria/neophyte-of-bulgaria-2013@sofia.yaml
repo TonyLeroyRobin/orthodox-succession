@@ -14,8 +14,12 @@ sources:
   note: programmatic seed — verify against a graded source; term dates from P39 start/end
     qualifiers
 status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source. Milestone C reconciliation 2026-07-11:
+  matched to the official reckoning (Neofit, 2013–2024, died in office March 2024
+  — verify and set end_reason); the official bul-patriarch page had not yet been
+  extended past Maxim at fetch time, so no official-list citation is attached. The
+  2012–2013 locum interval is list-inherent.'
 to:
   value: '2024'
   calendar: gregorian

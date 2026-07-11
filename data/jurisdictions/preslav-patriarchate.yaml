@@ -1,0 +1,42 @@
+id: jurisdiction/preslav-patriarchate
+name: Patriarchate of Preslav (first Bulgarian patriarchate)
+type: historical
+autocephaly:
+- granted_by: Council of Constantinople (870)
+  date:
+    value: 0870
+    calendar: julian
+    precision: year
+    note: autonomous archbishopric under Constantinople
+- granted_by: council under Simeon I of Bulgaria
+  date:
+    value: 0919
+    calendar: julian
+    precision: circa
+    note: raised to a patriarchate 918/919; recognized by Constantinople in the peace of 927
+dissolved:
+  date:
+    value: '1018'
+    calendar: julian
+    precision: year
+    note: abolished by Basil II after the Byzantine annexation
+  successor: jurisdiction/archbishopric-of-ohrid
+primatial_see: see/bulgaria/preslav
+sources:
+- ref: source/church-of-bulgaria-official
+  locator: preslav-patriarchs
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/preslav-patriarchs
+  note: official era page (the Preslav patriarchs) — year-wildcard archive redirect, pin during
+    verification
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Bulgaria series, s.v. first Bulgarian patriarchate (870-1018) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the official bg-patriarshia.bg era pages (fetched 2026-07-11),
+    which give attestations rather than office bounds for most medieval rows — reconcile against
+    Fedalto and scholarship during verification
+status: unverified
+notes: 'Modeled per Milestone C (2026-07-11), architecture A approved by the maintainer: the
+  medieval Bulgarian patriarchates are historical jurisdictions (cf. the church-of-bulgaria
+  note and the archbishopric-of-ohrid precedent). The official bg-patriarshia.bg reckoning
+  counts this line, the Ohrid hierarchs, and Tarnovo as its own heritage — recorded, not adjudicated.'

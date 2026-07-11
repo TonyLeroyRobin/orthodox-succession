@@ -1,0 +1,35 @@
+id: tenure/bulgaria/yosif-i-1877@sofia
+person: person/bulgaria/yosif-i-1877
+see: see/bulgaria/sofia
+from:
+  value: '1877'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1915'
+  calendar: gregorian
+  precision: year
+end_reason: died
+recognition:
+- by: jurisdiction/ecumenical-patriarchate
+  status: not-recognized
+  note: the 1872 council of Constantinople declared the Exarchate schismatic (schism lifted
+    February 1945)
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Bulgaria series, s.v. Yosif I (1877-1915) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the official bg-patriarshia.bg era pages (fetched 2026-07-11),
+    which give attestations rather than office bounds for most medieval rows — reconcile against
+    Fedalto and scholarship during verification
+- ref: source/church-of-bulgaria-official
+  locator: bulg-exarches
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/bulg-exarches
+  note: official era page (the Bulgarian exarchs) — year-wildcard archive redirect, pin during
+    verification
+status: unverified
+notes: Created from the official bg-patriarshia.bg era lists during Milestone C reconciliation
+  2026-07-11. Exarchal seat at Constantinople, moved to Sofia in 1913 after the Balkan Wars
+  (moving-seat note on the see record). The 1915–1945 vacancy that follows (locum tenens era)
+  is list-inherent, not missing data.

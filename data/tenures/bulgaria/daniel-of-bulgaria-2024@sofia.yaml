@@ -13,6 +13,13 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source; term dates from P39 start/end
     qualifiers
+- ref: source/church-of-bulgaria-official
+  locator: patriarch
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/patriarch
+  note: official page presents Daniil as the incumbent patriarch (elected June 2024)
+    — year-wildcard archive redirect, pin during verification
 status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source. Milestone C reconciliation 2026-07-11:
+  matched to the official reckoning (Daniil, elected 30 June 2024, incumbent).'

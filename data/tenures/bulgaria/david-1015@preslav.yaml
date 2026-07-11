@@ -1,0 +1,31 @@
+id: tenure/bulgaria/david-1015@preslav
+person: person/bulgaria/david-1015
+see: see/bulgaria/preslav
+from:
+  value: '1015'
+  calendar: julian
+  precision: circa
+  note: attested in the final years of the First Empire (c. 1015–1018)
+to:
+  value: '1018'
+  calendar: julian
+  precision: circa
+  note: patriarchate abolished by Basil II; autocephalous archbishopric of Ohrid established
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Bulgaria series, s.v. David (c. 1015-1018) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the official bg-patriarshia.bg era pages (fetched 2026-07-11),
+    which give attestations rather than office bounds for most medieval rows — reconcile against
+    Fedalto and scholarship during verification
+- ref: source/church-of-bulgaria-official
+  locator: ohrid-patriarchs
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/ohrid-patriarchs
+  note: official era page (the westward first hierarchs) — year-wildcard archive redirect,
+    pin during verification
+status: unverified
+notes: Created from the official bg-patriarshia.bg era lists during Milestone C reconciliation
+  2026-07-11. Last patriarch of the first Bulgarian patriarchate; the office ended with the
+  1018 Byzantine annexation (see event/context/ohrid-downgrade-1018).
