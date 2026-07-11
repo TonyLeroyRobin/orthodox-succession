@@ -1,0 +1,28 @@
+id: tenure/czech-slovakia/dorotej-filip-1964@prague
+person: person/czech-slovakia/dorotej-filip-1964
+see: see/czech-slovakia/prague
+from:
+  value: '1964'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1999'
+  calendar: gregorian
+  precision: year
+end_reason: died
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Czechoslovakia series, s.v. Dorotej (Filip) (1964-1999) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the official site pravoslavnacirkev.cz returns 403 to automated fetch — documented) —
+    confirm against the official history and Fedalto during verification
+- ref: source/church-of-czech-lands-and-slovakia-official
+  reliability: official-list
+  note: official site blocks automated access (HTTP 403) — pin the succession page and snapshot
+    during verification
+status: unverified
+notes: Created manually from the standard chronology during Milestone C reconciliation 2026-07-11.
+  Longest-serving primate; the primatial title became Metropolitan of the Czech Lands and
+  Slovakia after the 1992-1993 dissolution of Czechoslovakia; died in office 30 December 1999
+  — verify.

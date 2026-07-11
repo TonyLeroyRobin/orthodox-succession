@@ -1,0 +1,21 @@
+id: see/czech-slovakia/presov
+name: Prešov
+location:
+  lat: 48.998
+  lon: 21.24
+  modern_place: Prešov, Slovakia
+sources:
+- ref: source/church-of-czech-lands-and-slovakia-official
+  reliability: official-list
+  note: official site blocks automated access (HTTP 403) — pin during verification
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  reliability: scholarly
+  locator: Czechoslovakia series — locator to be confirmed
+status: unverified
+notes: 'Seat of the Archbishop of Prešov and Slovakia. Created in Milestone C (2026-07-11)
+  — the refinement the Prague see note anticipated: the primacy of the Orthodox Church of
+  the Czech Lands and Slovakia alternates by statute between the archbishops of Prague and
+  of Prešov, so primatial tenures live on the see each primate actually occupied (Nikolaj
+  Kocvár 2000-2006, Rastislav Gont 2014-present here). Occupancy gaps on this record reflect
+  the alternation, not missing data; the non-primatial occupants of both sees are backlogged.
+  jurisdiction_history and rank_history to be added during verification.'

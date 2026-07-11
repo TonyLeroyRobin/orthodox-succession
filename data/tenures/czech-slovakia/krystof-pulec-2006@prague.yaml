@@ -1,0 +1,27 @@
+id: tenure/czech-slovakia/krystof-pulec-2006@prague
+person: person/czech-slovakia/krystof-pulec-2006
+see: see/czech-slovakia/prague
+from:
+  value: '2006'
+  calendar: gregorian
+  precision: year
+to:
+  value: '2013'
+  calendar: gregorian
+  precision: year
+end_reason: resigned
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Czechoslovakia series, s.v. Kryštof (Pulec) (2006-2013) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the official site pravoslavnacirkev.cz returns 403 to automated fetch — documented) —
+    confirm against the official history and Fedalto during verification
+- ref: source/church-of-czech-lands-and-slovakia-official
+  reliability: official-list
+  note: official site blocks automated access (HTTP 403) — pin the succession page and snapshot
+    during verification
+status: unverified
+notes: Created manually from the standard chronology during Milestone C reconciliation 2026-07-11.
+  Resigned 12 April 2013 amid controversy — verify circumstances; the 2013-2014 interval is
+  a locum-tenens period, list-inherent.

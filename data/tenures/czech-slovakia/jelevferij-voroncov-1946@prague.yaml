@@ -1,0 +1,29 @@
+id: tenure/czech-slovakia/jelevferij-voroncov-1946@prague
+person: person/czech-slovakia/jelevferij-voroncov-1946
+see: see/czech-slovakia/prague
+from:
+  value: '1946'
+  calendar: gregorian
+  precision: year
+  note: exarch of the Moscow patriarchate in Czechoslovakia from 1946; first metropolitan
+    of the autocephalous church from its 1951 erection
+to:
+  value: '1955'
+  calendar: gregorian
+  precision: year
+end_reason: translated
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Czechoslovakia series, s.v. Jelevferij (Voroncov) (1946-1955) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the official site pravoslavnacirkev.cz returns 403 to automated fetch — documented) —
+    confirm against the official history and Fedalto during verification
+- ref: source/church-of-czech-lands-and-slovakia-official
+  reliability: official-list
+  note: official site blocks automated access (HTTP 403) — pin the succession page and snapshot
+    during verification
+status: unverified
+notes: Created manually from the standard chronology during Milestone C reconciliation 2026-07-11.
+  First primate (the Moscow autocephaly of 1951, cf. the jurisdiction record); recalled to
+  the Leningrad see in 1955 — verify.

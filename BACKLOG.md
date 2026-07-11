@@ -20,7 +20,8 @@ current milestone (ROADMAP_ADDENDUM.md §A4).
 | Pin exact Wayback snapshots for Jerusalem/Alexandria official lists (SPN requested 2026-07-08, not yet propagated) | 2026-07-10 | next verification session |
 | Reconcile flagged near-matches and no-matches against Kiminas/Grumel (Constantinople 5+8, Jerusalem/Alexandria 6+3) | 2026-07-10 | Milestone C |
 | Rename mislabeled Alexandria seed (Kosmas II 1723–1736, labeled Cosmas III of Constantinople) | 2026-07-10 | Milestone C |
-| Enter the Czech Lands & Slovakia primatial line manually (no Wikidata office item) | 2026-07-10 | Milestone C |
+| ~~Enter the Czech Lands & Slovakia primatial line manually (no Wikidata office item)~~ DONE 2026-07-11 (Milestone C) | 2026-07-10 | Milestone C |
+| Bishop Gorazd (Pavlík) of Prague 1921–1942 (pre-autocephaly, under Serbian jurisdiction; executed 1942; New-Martyr — veneration block when modeled) + non-primatial Prague/Prešov occupants | 2026-07-11 | post-Milestone C |
 | Cross-jurisdiction person deduplication (same human in two dirs: Meletios Pigas, Meletios Metaxakis, Cyril Loukaris, Kosmas II/III — Alexandria↔Constantinople) | 2026-07-10 | Milestone C wrap-up / verification |
 | Metropolitans of Moscow 1325–1589 (Peter → Job's predecessors) + the historical Kyiv metropolitan line — pre-patriarchal Russian succession | 2026-07-10 | post-Milestone C |
 | Metropolitanate/Patriarchate of Karlovci 1690–1920 (parallel Serbian jurisdiction; seeded persons annotated: Rajačić, Maširević, Anđelić, Branković, Bogdanović) | 2026-07-10 | post-Milestone C |

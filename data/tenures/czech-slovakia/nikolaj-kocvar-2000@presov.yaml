@@ -1,0 +1,27 @@
+id: tenure/czech-slovakia/nikolaj-kocvar-2000@presov
+person: person/czech-slovakia/nikolaj-kocvar-2000
+see: see/czech-slovakia/presov
+from:
+  value: '2000'
+  calendar: gregorian
+  precision: year
+to:
+  value: '2006'
+  calendar: gregorian
+  precision: year
+end_reason: died
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Czechoslovakia series, s.v. Nikolaj (Kocvár) (2000-2006) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the official site pravoslavnacirkev.cz returns 403 to automated fetch — documented) —
+    confirm against the official history and Fedalto during verification
+- ref: source/church-of-czech-lands-and-slovakia-official
+  reliability: official-list
+  note: official site blocks automated access (HTTP 403) — pin the succession page and snapshot
+    during verification
+status: unverified
+notes: Created manually from the standard chronology during Milestone C reconciliation 2026-07-11.
+  First primate seated at Prešov under the alternation statute; died in office 30 January
+  2006 — verify.

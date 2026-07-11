@@ -1,0 +1,23 @@
+id: tenure/czech-slovakia/rastislav-gont-2014@presov
+person: person/czech-slovakia/rastislav-gont-2014
+see: see/czech-slovakia/presov
+from:
+  value: '2014'
+  calendar: gregorian
+  precision: year
+  note: elected 11 January 2014
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Czechoslovakia series, s.v. Rastislav (Gont) (2014-present) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the official site pravoslavnacirkev.cz returns 403 to automated fetch — documented) —
+    confirm against the official history and Fedalto during verification
+- ref: source/church-of-czech-lands-and-slovakia-official
+  reliability: official-list
+  note: official site blocks automated access (HTTP 403) — pin the succession page and snapshot
+    during verification
+status: unverified
+notes: Created manually from the standard chronology during Milestone C reconciliation 2026-07-11.
+  Incumbent; seated at Prešov under the alternation statute.
