@@ -31,6 +31,7 @@ KINDS = {
     "work": ("works", "work.json", "flat"),
     "tradition": ("traditions", "tradition.json", "flat"),
     "source": ("sources", "source.json", "flat"),
+    "relationship": ("relationships", "relationship.json", "flat"),
 }
 
 

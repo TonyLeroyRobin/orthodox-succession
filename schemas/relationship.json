@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orthodox-succession.org/schemas/relationship.json",
+  "title": "Relationship",
+  "description": "Generic person-to-person relationship (ROADMAP_ADDENDUM A1). The enum value 'consecrated' is RESERVED for exports only — consecration lineage lives exclusively in Consecration records, and validate.py rejects relationship records of that type to prevent forked truth. Populate opportunistically during verification work, never by dedicated collection pass.",
+  "type": "object",
+  "properties": {
+    "id": { "$ref": "defs.json#/$defs/relationshipId" },
+    "from": { "$ref": "defs.json#/$defs/personId" },
+    "to": { "$ref": "defs.json#/$defs/personId" },
+    "type": { "enum": ["tonsured", "spiritual-father", "teacher", "consecrated"] },
+    "date": { "$ref": "defs.json#/$defs/date" },
+    "sources": { "$ref": "defs.json#/$defs/sources" },
+    "status": { "$ref": "defs.json#/$defs/status" },
+    "notes": { "type": "string" }
+  },
+  "required": ["id", "from", "to", "type", "sources", "status"],
+  "additionalProperties": false
+}

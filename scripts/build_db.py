@@ -78,6 +78,10 @@ CREATE TABLE sources (
 CREATE TABLE traditions (
     id TEXT PRIMARY KEY, title TEXT, region TEXT, status TEXT
 );
+CREATE TABLE relationships (
+    id TEXT PRIMARY KEY, from_person TEXT, to_person TEXT, type TEXT,
+    date_value TEXT, status TEXT
+);
 CREATE TABLE citations (
     record_id TEXT, ref TEXT, reliability TEXT, locator TEXT, archived_url TEXT
 );
@@ -206,6 +210,12 @@ def main():
             con.execute(
                 "INSERT INTO traditions VALUES (?,?,?,?)",
                 (rid, d.get("title"), d.get("region"), status),
+            )
+        elif kind == "relationship":
+            con.execute(
+                "INSERT INTO relationships VALUES (?,?,?,?,?,?)",
+                (rid, d.get("from"), d.get("to"), d.get("type"),
+                 (d.get("date") or {}).get("value"), status),
             )
 
     con.commit()

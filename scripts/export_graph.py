@@ -36,6 +36,7 @@ KIND_TO_FILE = {
     "work": "works.json",
     "source": "sources.json",
     "tradition": "traditions.json",
+    "relationship": "relationships.json",
 }
 
 
@@ -124,6 +125,13 @@ def export_graphml(con):
            JOIN consecrations c ON c.id = e.consecration_id"""
     ):
         edge(consecrator, consecrated, role, None, status)
+
+    # Generic relationships (tonsured / spiritual-father / teacher) as their
+    # own edge types — never conflated with the two succession models.
+    for src, dst, rtype, status in con.execute(
+        "SELECT from_person, to_person, type, status FROM relationships"
+    ):
+        edge(src, dst, rtype, None, status)
 
     BUILD_DIR.mkdir(exist_ok=True)
     tree = ET.ElementTree(root)

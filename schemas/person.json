@@ -57,6 +57,26 @@
       },
       "additionalProperties": false
     },
+    "veneration": {
+      "type": "object",
+      "description": "Absence of this block means 'not yet assessed'; presence is an assessed claim and requires at least one source (enforced by validate.py). Oriental Orthodox veneration of figures condemned by the seven councils is out of scope.",
+      "properties": {
+        "status": { "enum": ["saint", "not-venerated", "uncertain"] },
+        "titles": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "e.g. Equal-to-the-Apostles, Hieromartyr, Confessor, Wonderworker, the Great, the Theologian, the Dialogist"
+        },
+        "recognition": { "$ref": "defs.json#/$defs/venerationRecognition" },
+        "feast_days": {
+          "type": "array",
+          "items": { "$ref": "defs.json#/$defs/feastDay" }
+        },
+        "sources": { "$ref": "defs.json#/$defs/sources" }
+      },
+      "required": ["status"],
+      "additionalProperties": false
+    },
     "sources": { "$ref": "defs.json#/$defs/sources" },
     "status": { "$ref": "defs.json#/$defs/status" },
     "notes": { "type": "string" }

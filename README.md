@@ -53,6 +53,7 @@ data/               YAML — the single source of truth
   participations/   person ↔ council links
   works/            works by/about bishops (one Work, many Editions)
   traditions/       apostolic claims without surviving lineage
+  relationships/    person↔person links (tonsured, spiritual-father, teacher)
   sources/          bibliography, one file per source
 schemas/            JSON Schema for every entity type
 scripts/            validate / build / export / import tooling

@@ -28,6 +28,7 @@ Exit status is non-zero on any error, so CI can gate pull requests.
 
 from __future__ import annotations
 
+import datetime
 import difflib
 import json
 import re
@@ -167,6 +168,9 @@ def iter_refs(kind, data):
     elif kind == "tradition":
         for p in data.get("persons") or []:
             yield ("persons", p)
+    elif kind == "relationship":
+        yield ("from", data.get("from"))
+        yield ("to", data.get("to"))
     elif kind == "event":
         for a in data.get("affected") or []:
             yield ("affected", a)
@@ -353,6 +357,55 @@ def main():
             if not advanced:
                 color[node] = 2
                 stack.pop()
+
+    # ---- veneration (DATA_COMPLETION §1) and relationships (ADDENDUM A1) ---
+    for pid, rec in persons.items():
+        ven = rec["data"].get("veneration")
+        if not ven:
+            continue  # absent block = "not yet assessed" — fine
+        if not ven.get("sources"):
+            rep.error(rec["path"],
+                      "veneration block present but has no sources — presence "
+                      "is an assessed claim (absence means not-yet-assessed)")
+        for c in ven.get("sources") or []:
+            if c.get("ref") and c["ref"] not in by_id:
+                rep.error(rec["path"],
+                          f"unresolved veneration source ref: {c['ref']!r}")
+        for entry in ven.get("recognition") or []:
+            by = entry.get("by", "")
+            if by.startswith("jurisdiction:"):
+                jid = by.split(":", 1)[1]
+                if jid not in by_id:
+                    rep.error(rec["path"],
+                              f"unresolved veneration recognizer: {jid!r}")
+        for fd in ven.get("feast_days") or []:
+            md = fd.get("month_day", "")
+            try:
+                datetime.date(2000, int(md[:2]), int(md[3:5]))  # 2000 is leap
+            except (ValueError, IndexError):
+                rep.error(rec["path"], f"invalid feast month_day {md!r}")
+
+    for rel in (r for r in records if r["kind"] == "relationship"):
+        d, path = rel["data"], rel["path"]
+        if d.get("type") == "consecrated":
+            rep.error(path,
+                      "relationship type 'consecrated' is reserved for "
+                      "exports — consecration lineage lives in Consecration "
+                      "records only (no forked truth)")
+        if d.get("from") and d.get("from") == d.get("to"):
+            rep.error(path, "relationship from == to")
+        rdate = d.get("date")
+        if rdate:
+            for role in ("from", "to"):
+                p = persons.get(d.get(role))
+                if p:
+                    born, died = lifespan(p["data"])
+                    if not before(born, rdate):
+                        rep.error(path, f"relationship date precedes the "
+                                        f"birth of the '{role}' person")
+                    if not before(rdate, died):
+                        rep.error(path, f"relationship date follows the "
+                                        f"death of the '{role}' person")
 
     # ---- rule 5: overlapping tenures need a recognition qualifier ----------
     by_see = defaultdict(list)

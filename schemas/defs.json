@@ -69,6 +69,37 @@
         "additionalProperties": false
       }
     },
+    "venerationRecognition": {
+      "type": "array",
+      "description": "Per-recognizer veneration entries. Local-only veneration names specific jurisdictions; universal veneration uses by: universal.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "by": {
+            "type": "string",
+            "pattern": "^(universal|pre-schism-church|jurisdiction:jurisdiction/[a-z0-9-]+)$"
+          },
+          "glorified_date": { "$ref": "defs.json#/$defs/date" },
+          "note": { "type": "string" }
+        },
+        "required": ["by"],
+        "additionalProperties": false
+      }
+    },
+    "feastDay": {
+      "type": "object",
+      "properties": {
+        "month_day": {
+          "type": "string",
+          "pattern": "^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$",
+          "description": "MM-DD"
+        },
+        "calendar": { "enum": ["julian", "gregorian"] },
+        "note": { "type": "string" }
+      },
+      "required": ["month_day", "calendar"],
+      "additionalProperties": false
+    },
     "personId": { "type": "string", "pattern": "^person/[a-z0-9-]+/[a-z0-9-]+$" },
     "seeId": { "type": "string", "pattern": "^see/[a-z0-9-]+/[a-z0-9-]+$" },
     "tenureId": { "type": "string", "pattern": "^tenure/[a-z0-9-]+/[a-z0-9-]+@[a-z0-9-]+$" },
@@ -78,6 +109,7 @@
     "workId": { "type": "string", "pattern": "^work/[a-z0-9-]+$" },
     "sourceId": { "type": "string", "pattern": "^source/[a-z0-9-]+$" },
     "traditionId": { "type": "string", "pattern": "^tradition/[a-z0-9-]+$" },
+    "relationshipId": { "type": "string", "pattern": "^relationship/[a-z0-9-]+$" },
     "participationId": { "type": "string", "pattern": "^participation/[a-z0-9-]+--[a-z0-9-]+$" },
     "place": {
       "type": "string",

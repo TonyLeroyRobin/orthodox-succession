@@ -161,7 +161,11 @@ Field lists below are the minimum; add `notes: ""` (free text) to every entity.
 
 ### 4.1 Person
 `id, names{}, born{date?, place?}, died{date?, place?}, attestation
-(attested | legendary | uncertain), identifiers{wikidata?, viaf?}, sources[], status`
+(attested | legendary | uncertain), identifiers{wikidata?, viaf?},
+veneration{status: saint|not-venerated|uncertain, titles[], recognition[{by:
+universal|pre-schism-church|jurisdiction:<id>, glorified_date?, note}],
+feast_days[{month_day, calendar, note}], sources[]}?  # per DATA_COMPLETION §1;
+absence = not yet assessed; presence requires ≥1 source, sources[], status`
 
 ### 4.2 See
 `id, name, jurisdiction_history[{jurisdiction, from, to}], rank_history[{rank:
