@@ -17,6 +17,10 @@ Read it before making structural changes. These rules bind every session.
 4. **IDs are permanent.** Never rename a published ID. Format examples:
    `person/cyprus/epiphanios-of-salamis-0367`, `see/cyprus/salamis-constantia`,
    `event/council/ephesus-0431`. Years zero-padded to 4 digits.
+   *Clarification (maintainer, 2026-07-10): the dataset is unpublished; ID
+   corrections are permitted through the Milestone C reconciliation
+   (DATA_COMPLETION §3). The permanence rule locks in at the first public
+   release (v0.1.0).*
 5. **Two succession models, never conflated:** see-succession (Tenure order) vs.
    consecration-succession (Consecration DAG, principal vs. co-consecrator edges).
    Absent consecration data is stated, not inferred.
