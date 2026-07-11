@@ -81,7 +81,11 @@ def main():
     af_unsourced = []
     for sid, s in sorted(sees.items()):
         af = s.get("apostolic_founder")
-        if not af or not af.get("sources"):
+        afs = s.get("apostolic_founders") or []
+        if afs:
+            if any(not e.get("sources") for e in afs):
+                af_unsourced.append(sid)
+        elif not af or not af.get("sources"):
             af_unsourced.append(sid + ("" if af else "  (no founder at all)"))
 
     print(f"-- summary: {len(tenures_by_see)} see(s) with tenures, "

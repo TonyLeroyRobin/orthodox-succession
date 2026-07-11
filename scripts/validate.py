@@ -143,11 +143,16 @@ def iter_refs(kind, data):
         if af.get("person"):
             yield ("apostolic_founder.person", af["person"])
         yield from citations(af.get("sources"), "apostolic_founder")
+        for af2 in data.get("apostolic_founders") or []:
+            if af2.get("person"):
+                yield ("apostolic_founders.person", af2["person"])
+            yield from citations(af2.get("sources"), "apostolic_founders")
     elif kind == "jurisdiction":
         if data.get("primatial_see"):
             yield ("primatial_see", data["primatial_see"])
-        if (data.get("dissolved") or {}).get("successor"):
-            yield ("dissolved.successor", data["dissolved"]["successor"])
+        succ = (data.get("dissolved") or {}).get("successor")
+        if succ and succ != "none-in-scope":
+            yield ("dissolved.successor", succ)
         for a in data.get("autocephaly") or []:
             gb = a.get("granted_by", "")
             # granted_by may be free text; check only when it looks like an id

@@ -171,7 +171,9 @@ absence = not yet assessed; presence requires ≥1 source, sources[], status`
 `id, name, jurisdiction_history[{jurisdiction, from, to}], rank_history[{rank:
 bishopric|archbishopric|metropolis|patriarchate, from, to}], founded{date?,
 founded_from: see-id?}, suppressed{date?}, location{lat?, lon?, modern_place?},
-apostolic_founder{person-id?, sources[]}, sources[], status`
+apostolic_founder{person-id?, sources[]} | apostolic_founders[{person-id,
+sources[]}]  # plural form for multi-founder sees (Rome: Peter AND Paul),
+sources[], status`
 
 ### 4.3 Tenure
 `id, person, see, from{date}, to{date?}, end_reason (died | translated | resigned |
@@ -189,7 +191,8 @@ Principal vs. co-consecrator are distinct edge types in every export.
 
 ### 4.5 Jurisdiction
 `id, name, type (autocephalous | autonomous | historical), autocephaly[{granted_by,
-date, recognition[{by, status, since?}]}], dissolved{date?, successor?}, primatial_see:
+date, recognition[{by, status, since?}]}], dissolved{date?, successor?: jurisdiction-id
+| "none-in-scope"}  # sentinel per DATA_COMPLETION §2, primatial_see:
 see-id, sources[], status`
 
 ### 4.6 Source

@@ -214,7 +214,8 @@ def ensure_wikidata_source(dry_run: bool):
 # office import: persons + tenures
 # ---------------------------------------------------------------------------
 
-def import_office(office: str, jurisdiction: str, see_id: str, dry_run: bool):
+def import_office(office: str, jurisdiction: str, see_id: str, dry_run: bool,
+                  max_start_year: int | None = None):
     ensure_wikidata_source(dry_run)
     rows = sparql(OFFICE_QUERY % {"office": office})
     see_slug = see_id.rsplit("/", 1)[-1]
@@ -242,12 +243,22 @@ def import_office(office: str, jurisdiction: str, see_id: str, dry_run: bool):
     persons_written = tenures_written = skipped_terms = 0
     tenure_drafts = []  # (from_year, to_year_or_None, record, path)
 
+    capped = 0
     for qid, e in sorted(people.items(), key=lambda kv: kv[1]["label"]):
         label = e["label"]
         terms = sorted(
             {(ts_year(s), ts_year(en), s, en) for s, en in e["terms"]},
             key=lambda t: (t[0] is None, t[0] or 0),
         )
+        if max_start_year is not None:
+            # with a cap active, keep only dated terms starting at or before
+            # it; persons with no in-range dated term are skipped entirely
+            # (era unknowable without a start date)
+            terms = [t for t in terms
+                     if t[0] is not None and t[0] <= max_start_year]
+            if not terms:
+                capped += 1
+                continue
         start_years = [t[0] for t in terms if t[0] is not None]
         born_y, died_y = ts_year(e["born"]), ts_year(e["died"])
 
@@ -367,10 +378,12 @@ def import_office(office: str, jurisdiction: str, see_id: str, dry_run: bool):
         if write_yaml(tpath, t_rec, dry_run):
             tenures_written += 1
 
+    cap_note = (f", {capped} person(s) skipped by --max-start-year"
+                if max_start_year is not None else "")
     print(f"import_wikidata: office {office} -> {persons_written} person "
           f"draft(s), {tenures_written} tenure draft(s) "
-          f"({skipped_terms} term(s) without start skipped), all unverified"
-          f"{' [dry run]' if dry_run else ''}")
+          f"({skipped_terms} term(s) without start skipped{cap_note}), "
+          f"all unverified{' [dry run]' if dry_run else ''}")
 
 
 # ---------------------------------------------------------------------------
@@ -601,6 +614,9 @@ def main():
     ap.add_argument("--find", help="search Wikidata entities by label")
     ap.add_argument("--office", help="QID of an office; seeds holders + tenures")
     ap.add_argument("--see", help="see id for tenures (required with --office)")
+    ap.add_argument("--max-start-year", type=int, default=None,
+                    help="with --office: skip terms starting after this year "
+                         "(and persons with no dated term in range)")
     ap.add_argument("--qids", nargs="+", help="Wikidata QIDs of persons")
     ap.add_argument("--consecrations", action="store_true",
                     help="seed P1598 consecration edges between persons "
@@ -619,7 +635,8 @@ def main():
     if args.office:
         if not args.see or args.jurisdiction == "unsorted":
             ap.error("--office requires --see and --jurisdiction")
-        import_office(args.office, args.jurisdiction, args.see, args.dry_run)
+        import_office(args.office, args.jurisdiction, args.see, args.dry_run,
+                      args.max_start_year)
         return 0
     if args.consecrations:
         import_consecrations(args.min_year, args.dry_run)

@@ -64,6 +64,19 @@
       },
       "additionalProperties": false
     },
+    "apostolic_founders": {
+      "type": "array",
+      "description": "For sees with more than one apostolic founder (e.g. Rome: Peter AND Paul, per Irenaeus). Use either this or the singular form, not both.",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "person": { "$ref": "defs.json#/$defs/personId" },
+          "sources": { "$ref": "defs.json#/$defs/sources" }
+        },
+        "additionalProperties": false
+      }
+    },
     "sources": { "$ref": "defs.json#/$defs/sources" },
     "status": { "$ref": "defs.json#/$defs/status" },
     "notes": { "type": "string" }

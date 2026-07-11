@@ -27,7 +27,13 @@
       "type": "object",
       "properties": {
         "date": { "$ref": "defs.json#/$defs/date" },
-        "successor": { "$ref": "defs.json#/$defs/jurisdictionId" }
+        "successor": {
+          "anyOf": [
+            { "$ref": "defs.json#/$defs/jurisdictionId" },
+            { "const": "none-in-scope",
+              "description": "explicit sentinel: the continuing line falls outside this database's scope (DATA_COMPLETION §2) — distinct from an omitted (unknown) successor" }
+          ]
+        }
       },
       "additionalProperties": false
     },
