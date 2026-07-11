@@ -1,8 +1,11 @@
 PY ?= python
 
-.PHONY: build validate db export clean
+.PHONY: build validate db export gaps clean
 
-build: validate db export
+build: validate db export gaps
+
+gaps:
+	$(PY) scripts/gap_report.py
 
 validate:
 	$(PY) scripts/validate.py

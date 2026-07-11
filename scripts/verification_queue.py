@@ -55,6 +55,10 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--jurisdiction", help="filter by jurisdiction slug")
     ap.add_argument("--kind", help="filter by record kind (person, tenure, ...)")
+    ap.add_argument("--see", help="filter to records referencing this see id "
+                                  "(tenures at it, plus the see itself)")
+    ap.add_argument("--batch", help="filter to records added in this git "
+                                    "commit (import-batch review)")
     ap.add_argument("--include-disputed", action="store_true")
     ap.add_argument("--limit", type=int, default=25,
                     help="max records listed per group (default 25)")
@@ -68,6 +72,29 @@ def main():
 
     statuses = {"unverified"} | ({"disputed"} if args.include_disputed else set())
     queue = [r for r in records if r["data"].get("status") in statuses]
+
+    if args.see:
+        queue = [r for r in queue
+                 if r["data"].get("see") == args.see
+                 or r["data"].get("id") == args.see]
+
+    if args.batch:
+        import subprocess
+        out = subprocess.run(
+            ["git", "-C", str(REPO_ROOT), "show", "--diff-filter=A",
+             "--name-only", "--format=", args.batch],
+            capture_output=True, text=True)
+        if out.returncode != 0:
+            print(f"--batch: git could not resolve {args.batch!r}:"
+                  f" {out.stderr.strip()}")
+            return 1
+        added = {line.strip().replace("/", "\\") for line in
+                 out.stdout.splitlines() if line.strip()}
+        added |= {p.replace("\\", "/") for p in added}
+        queue = [r for r in queue
+                 if str(Path(r["path"]).relative_to(REPO_ROOT)) in added
+                 or str(Path(r["path"]).relative_to(REPO_ROOT)).replace(
+                     "\\", "/") in added]
     tenured_people = {r["data"].get("person")
                       for r in records if r["kind"] == "tenure"}
 
