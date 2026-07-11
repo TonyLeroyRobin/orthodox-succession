@@ -1,0 +1,26 @@
+id: tenure/antioch/nicephorus-the-black-1080@antioch
+person: person/antioch/nicephorus-the-black-1080
+see: see/antioch/antioch
+from:
+  value: '1080'
+  calendar: julian
+  precision: disputed
+  note: end not given by the list
+to:
+  value: '1090'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Nicephorus the Black (1080–1090) — locator to be
+    confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification end not given by the list
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. end not given by the list.

@@ -1,0 +1,30 @@
+id: tenure/antioch/evagrius-0388@antioch
+person: person/antioch/evagrius-0388
+see: see/antioch/antioch
+from:
+  value: 0388
+  calendar: julian
+  precision: year
+to:
+  value: 0393
+  calendar: julian
+  precision: year
+end_reason: unknown
+recognition:
+- by: all
+  status: rival-claimant
+  note: Eustathian rival line; consecrated by the dying Paulinus, uncanonically
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Evagrius (388–393) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification Eustathian rival line; consecrated
+    by the dying Paulinus, uncanonically
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. Eustathian rival line; consecrated
+  by the dying Paulinus, uncanonically.

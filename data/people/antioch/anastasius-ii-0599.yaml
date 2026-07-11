@@ -1,0 +1,15 @@
+id: person/antioch/anastasius-ii-0599
+names:
+  monastic: Anastasius II
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Anastasius II (599–609) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification killed in the Jewish revolt; the
+    see then lay vacant some thirty years
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  killed in the Jewish revolt; the see then lay vacant some thirty years.

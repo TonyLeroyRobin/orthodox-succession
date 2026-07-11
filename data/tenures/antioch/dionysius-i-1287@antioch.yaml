@@ -1,0 +1,33 @@
+id: tenure/antioch/dionysius-i-1287@antioch
+person: person/antioch/dionysius-i-1287
+see: see/antioch/antioch
+from:
+  value: '1287'
+  calendar: julian
+  precision: disputed
+  note: overlaps Cyril III in the list's own chronology — conflicting reconstructions
+    of a poorly documented era
+to:
+  value: '1316'
+  calendar: julian
+  precision: year
+end_reason: unknown
+recognition:
+- by: all
+  status: rival-claimant
+  note: overlaps Cyril III in the list's own chronology — conflicting reconstructions
+    of a poorly documented era
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Dionysius I (1287–1316) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification overlaps Cyril III in the list's
+    own chronology — conflicting reconstructions of a poorly documented era
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. overlaps Cyril III in the list's own
+  chronology — conflicting reconstructions of a poorly documented era.

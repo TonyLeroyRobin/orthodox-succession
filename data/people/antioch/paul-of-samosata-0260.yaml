@@ -1,0 +1,15 @@
+id: person/antioch/paul-of-samosata-0260
+names:
+  monastic: Paul of Samosata
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Paul of Samosata (260–268) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification deposed by the synods of Antioch
+    (264-268) for heresy
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  deposed by the synods of Antioch (264-268) for heresy.

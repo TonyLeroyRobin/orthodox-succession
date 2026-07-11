@@ -1,0 +1,14 @@
+id: person/antioch/job-0813
+names:
+  monastic: Job
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Job (813–844) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification 813/4-844/5
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  813/4-844/5.

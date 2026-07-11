@@ -1,0 +1,14 @@
+id: person/antioch/simeon-ii-1206
+names:
+  monastic: Simeon II
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Simeon II (1206–1235) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification before 1206 to after 1235
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  before 1206 to after 1235.

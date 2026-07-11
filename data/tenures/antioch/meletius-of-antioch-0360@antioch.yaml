@@ -16,6 +16,14 @@ sources:
   locator: vol. 1
 - ref: source/npnf-2-14-seven-councils
   reliability: scholarly
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Meletius (360–381) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification briefly deposed 361-362; presided
+    at Constantinople I and died during it
 status: verified
-notes: The rival Eustathian line (Paulinus) is not yet modeled; when it is, recognition
-  qualifiers go on both tenures.
+notes: 'The rival Eustathian line (Paulinus) is not yet modeled; when it is, recognition
+  qualifiers go on both tenures. Milestone C reconciliation 2026-07-10: matched
+  to the standard chronology entry Meletius (360-381).'

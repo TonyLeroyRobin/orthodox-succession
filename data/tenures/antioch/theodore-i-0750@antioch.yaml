@@ -1,0 +1,24 @@
+id: tenure/antioch/theodore-i-0750@antioch
+person: person/antioch/theodore-i-0750
+see: see/antioch/antioch
+from:
+  value: '0750'
+  calendar: julian
+  precision: year
+to:
+  value: '0773'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Theodore I (750–773) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification 750/1-773/4
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. 750/1-773/4.

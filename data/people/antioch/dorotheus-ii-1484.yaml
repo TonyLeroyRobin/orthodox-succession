@@ -1,0 +1,14 @@
+id: person/antioch/dorotheus-ii-1484
+names:
+  monastic: Dorotheus II
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Dorotheus II (1484–1500) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification before 1484 to after 1500
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  before 1484 to after 1500.

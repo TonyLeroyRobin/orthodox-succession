@@ -1,0 +1,14 @@
+id: person/antioch/christopher-0960
+names:
+  monastic: Christopher
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Christopher (960–969) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification martyred; venerated
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  martyred; venerated.

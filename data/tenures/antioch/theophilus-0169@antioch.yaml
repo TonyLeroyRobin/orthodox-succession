@@ -1,0 +1,25 @@
+id: tenure/antioch/theophilus-0169@antioch
+person: person/antioch/theophilus-0169
+see: see/antioch/antioch
+from:
+  value: 0169
+  calendar: julian
+  precision: circa
+  note: the apologist, author of Ad Autolycum
+to:
+  value: 0182
+  calendar: julian
+  precision: circa
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Theophilus (169–182) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification the apologist, author of Ad Autolycum
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. the apologist, author of Ad Autolycum.

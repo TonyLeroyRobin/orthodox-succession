@@ -1,0 +1,24 @@
+id: tenure/antioch/fabius-0253@antioch
+person: person/antioch/fabius-0253
+see: see/antioch/antioch
+from:
+  value: '0253'
+  calendar: julian
+  precision: circa
+to:
+  value: '0256'
+  calendar: julian
+  precision: circa
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Fabius (253–256) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification.

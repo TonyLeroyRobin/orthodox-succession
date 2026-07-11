@@ -1,0 +1,27 @@
+id: tenure/antioch/meletius-ii-of-antioch-1837@antioch
+person: person/antioch/meletius-ii-of-antioch-1837
+see: see/antioch/antioch
+from:
+  value: '1899'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1906'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Meletius II Doumani (1899–1906) — locator to be
+    confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification first Arab patriarch of the modern
+    era
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. first Arab patriarch of the modern
+  era.

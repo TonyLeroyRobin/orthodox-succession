@@ -1,0 +1,27 @@
+id: tenure/antioch/macarius-iii-ibn-al-za-im-1647@antioch
+person: person/antioch/macarius-iii-ibn-al-za-im-1647
+see: see/antioch/antioch
+from:
+  value: '1647'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1672'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Macarius III Ibn al-Zaim (1647–1672) — locator to
+    be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification co-presided at the Great Synod of
+    Moscow (1666-1667)
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. co-presided at the Great Synod of
+  Moscow (1666-1667).

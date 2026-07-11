@@ -1,0 +1,14 @@
+id: person/antioch/theodosius-iii-1057
+names:
+  monastic: Theodosius III
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Theodosius III (1057–1059) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification to after 1059 per the list
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  to after 1059 per the list.

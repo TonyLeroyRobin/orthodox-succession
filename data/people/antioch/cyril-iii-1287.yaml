@@ -1,0 +1,16 @@
+id: person/antioch/cyril-iii-1287
+names:
+  monastic: Cyril III
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Cyril III (1287–1308) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification fl. 1287-c. 1308; the list also carries
+    a Dionysius I 1287-1316 — conflicting reconstructions recorded as given
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  fl. 1287-c. 1308; the list also carries a Dionysius I 1287-1316 — conflicting
+  reconstructions recorded as given.

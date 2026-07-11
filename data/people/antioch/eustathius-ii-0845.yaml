@@ -1,0 +1,16 @@
+id: person/antioch/eustathius-ii-0845
+names:
+  monastic: Eustathius II
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Eustathius II (845–869) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification the list dates him 845-861x869, overlapping
+    Nicholas I — rival or confused tradition; recorded as given
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  the list dates him 845-861x869, overlapping Nicholas I — rival or confused tradition;
+  recorded as given.

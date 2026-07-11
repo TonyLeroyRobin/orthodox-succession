@@ -1,0 +1,30 @@
+id: tenure/antioch/george-ii-0685@antioch
+person: person/antioch/george-ii-0685
+see: see/antioch/antioch
+from:
+  value: 0685
+  calendar: julian
+  precision: disputed
+  note: the list gives 685?-702? — the seeded Alexander II (695-702) conflicts;
+    seventh-century lists disagree (recorded on both records)
+to:
+  value: '0702'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. George II (685–702) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification the list gives 685?-702? — the seeded
+    Alexander II (695-702) conflicts; seventh-century lists disagree (recorded on
+    both records)
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. the list gives 685?-702? — the seeded
+  Alexander II (695-702) conflicts; seventh-century lists disagree (recorded on
+  both records).

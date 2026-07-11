@@ -1,0 +1,27 @@
+id: tenure/antioch/nilus-1388@antioch
+person: person/antioch/nilus-1388
+see: see/antioch/antioch
+from:
+  value: '1388'
+  calendar: julian
+  precision: disputed
+  note: before 1388-1395; the list styles him Nilus or Nikon
+to:
+  value: '1395'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Nilus (1388–1395) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification before 1388-1395; the list styles
+    him Nilus or Nikon
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. before 1388-1395; the list styles
+  him Nilus or Nikon.

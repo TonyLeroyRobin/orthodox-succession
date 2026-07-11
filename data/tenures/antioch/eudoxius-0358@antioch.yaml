@@ -1,0 +1,24 @@
+id: tenure/antioch/eudoxius-0358@antioch
+person: person/antioch/eudoxius-0358
+see: see/antioch/antioch
+from:
+  value: 0358
+  calendar: julian
+  precision: year
+to:
+  value: 0359
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Eudoxius (358–359) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification later of Constantinople
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. later of Constantinople.

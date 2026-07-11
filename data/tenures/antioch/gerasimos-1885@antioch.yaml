@@ -1,0 +1,24 @@
+id: tenure/antioch/gerasimos-1885@antioch
+person: person/antioch/gerasimos-1885
+see: see/antioch/antioch
+from:
+  value: '1885'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1891'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Gerasimos (1885–1891) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification then of Jerusalem
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. then of Jerusalem.

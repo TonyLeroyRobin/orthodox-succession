@@ -1,0 +1,27 @@
+id: tenure/antioch/cyril-iv-1316@antioch
+person: person/antioch/cyril-iv-1316
+see: see/antioch/antioch
+from:
+  value: '1316'
+  calendar: julian
+  precision: disputed
+  note: dates not given (?-?) — placed after Dionysius I in list order
+to:
+  value: '1330'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Cyril IV (1316–1330) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification dates not given (?-?) — placed after
+    Dionysius I in list order
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. dates not given (?-?) — placed after
+  Dionysius I in list order.

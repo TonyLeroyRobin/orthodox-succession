@@ -13,10 +13,17 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source; term dates from P39
     start/end qualifiers
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. John X Yazigi (2012–present) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification elected 17 December 2012
 status: unverified
 notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
   against a diadochal list or scholarly source. Verification pass 2026-07-08 (Wikipedia
   lead-generation cross-check ONLY — no official Antioch list found online; not
   sufficient for promotion): the Wikipedia list dates John X (Yazigi) from 2012
   (elected 17 December 2012; enthroned February 2013) — the seeded 2013 start reflects
-  the enthronement.'
+  the enthronement. Milestone C reconciliation 2026-07-10: matched to the standard
+  chronology entry John X Yazigi (2012-None).'

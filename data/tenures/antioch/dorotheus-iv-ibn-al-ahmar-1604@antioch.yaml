@@ -1,0 +1,25 @@
+id: tenure/antioch/dorotheus-iv-ibn-al-ahmar-1604@antioch
+person: person/antioch/dorotheus-iv-ibn-al-ahmar-1604
+see: see/antioch/antioch
+from:
+  value: '1604'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1611'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Dorotheus IV Ibn Al-Ahmar (1604–1611) — locator
+    to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification.

@@ -1,0 +1,15 @@
+id: person/antioch/nilus-1388
+names:
+  monastic: Nilus
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Nilus (1388–1395) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification before 1388-1395; the list styles
+    him Nilus or Nikon
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  before 1388-1395; the list styles him Nilus or Nikon.

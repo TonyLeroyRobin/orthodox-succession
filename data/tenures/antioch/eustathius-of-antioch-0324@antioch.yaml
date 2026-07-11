@@ -13,5 +13,12 @@ end_reason: deposed
 sources:
 - ref: source/npnf-2-14-seven-councils
   reliability: scholarly
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Eustathius (324–330) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification
 status: unverified
-notes: Deposition date debated (327-331).
+notes: 'Deposition date debated (327-331). Milestone C reconciliation 2026-07-10:
+  matched to the standard chronology entry Eustathius (324-330).'

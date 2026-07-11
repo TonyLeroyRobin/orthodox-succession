@@ -1,0 +1,35 @@
+id: person/antioch/ignatius-0070
+names:
+  monastic: Ignatius
+attestation: uncertain
+veneration:
+  status: saint
+  titles:
+  - Hieromartyr
+  - God-bearer (Theophorus)
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 12-20
+    calendar: julian
+    note: Hieromartyr Ignatius the God-bearer, Bishop of Antioch
+  - month_day: 01-29
+    calendar: julian
+    note: Translation of the relics of Hieromartyr Ignatius
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/12/20
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/12/20
+    note: Year-wildcard archive redirect - pin during verification.
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Ignatius (70–107) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification Ignatius the God-bearer (Theophorus)
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  Early-list attestation is thin — traditional dates, Orthodox Tradition, recorded
+  as given. Ignatius the God-bearer (Theophorus).

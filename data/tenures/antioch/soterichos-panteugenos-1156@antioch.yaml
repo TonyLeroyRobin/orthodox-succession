@@ -1,0 +1,32 @@
+id: tenure/antioch/soterichos-panteugenos-1156@antioch
+person: person/antioch/soterichos-panteugenos-1156
+see: see/antioch/antioch
+from:
+  value: '1156'
+  calendar: julian
+  precision: year
+to:
+  value: '1157'
+  calendar: julian
+  precision: year
+end_reason: unknown
+recognition:
+- by: all
+  status: rival-claimant
+  note: patriarch-elect, condemned by the Constantinople synod of 1157 before consecration
+    — recorded per the list, flagged
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Soterichos Panteugenos (1156–1157) — locator to
+    be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification patriarch-elect, condemned by the
+    Constantinople synod of 1157 before consecration — recorded per the list, flagged
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. patriarch-elect, condemned by the
+  Constantinople synod of 1157 before consecration — recorded per the list, flagged.

@@ -1,5 +1,14 @@
 id: see/antioch/antioch
 name: Antioch (seated at Damascus)
+apostolic_founder:
+  person: person/pre-schism-rome/peter-the-apostle-0042
+  sources:
+  - ref: source/eusebius-ecclesiastical-history
+    locator: "HE 3.36; cf. Galatians 2:11"
+    reliability: tradition
+    note: founder AND first occupant per the Antiochene tradition (the
+      Peter-at-Rome pattern) — one person record serves both sees;
+      recorded as tradition, graded honestly
 location:
   lat: 33.513
   lon: 36.292
@@ -11,5 +20,6 @@ sources:
   reliability: database
 status: unverified
 notes: Coordinates are Damascus, the seat since the fourteenth century; ancient
-  Antioch is modern Antakya, Turkey. Minimal draft — jurisdiction_history, rank_history,
-  and founding data to be added with sources during verification.
+  Antioch is modern Antakya, Turkey. Apostolic founder Peter added during the
+  Milestone C reconciliation (2026-07-10). jurisdiction_history, rank_history,
+  and founding data still to be added with sources during verification.

@@ -1,0 +1,25 @@
+id: tenure/antioch/athanasius-iii-dabbas-1685@antioch-2
+person: person/antioch/athanasius-iii-dabbas-1685
+see: see/antioch/antioch
+from:
+  value: '1720'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1724'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Athanasius III Dabbas (1720–1724) — locator to be
+    confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification second term
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. second term.

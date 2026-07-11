@@ -1,0 +1,28 @@
+id: tenure/antioch/joachim-ii-1458@antioch
+person: person/antioch/joachim-ii-1458
+see: see/antioch/antioch
+from:
+  value: '1458'
+  calendar: julian
+  precision: disputed
+  note: 1458 to 1459 or after; the list names him Joachim I again — numbering follows
+    position here, divergence recorded
+to:
+  value: '1459'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Joachim II (1458–1459) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification 1458 to 1459 or after; the list names
+    him Joachim I again — numbering follows position here, divergence recorded
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. 1458 to 1459 or after; the list names
+  him Joachim I again — numbering follows position here, divergence recorded.

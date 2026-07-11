@@ -1,0 +1,28 @@
+id: tenure/antioch/theodore-iv-balsamon-1189@antioch
+person: person/antioch/theodore-iv-balsamon-1189
+see: see/antioch/antioch
+from:
+  value: '1189'
+  calendar: julian
+  precision: disputed
+  note: before 1189 to 1195 or later; the great canonist
+to:
+  value: '1195'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Theodore IV Balsamon (1189–1195) — locator to be
+    confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification before 1189 to 1195 or later; the
+    great canonist
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. before 1189 to 1195 or later; the
+  great canonist.

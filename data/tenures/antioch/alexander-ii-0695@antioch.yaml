@@ -19,9 +19,15 @@ notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verif
   lead-generation cross-check ONLY — no official Antioch list found online; not
   sufficient for promotion): DISCREPANCY: the Wikipedia list gives George II (685?-702?)
   in this window and no Alexander II — seventh-century Antiochene lists conflict;
-  resolve against Grumel before promotion.'
+  resolve against Grumel before promotion. Milestone C reconciliation 2026-07-10:
+  no counterpart in the standard chronology — kept as a disputed extra term.'
 to:
   value: '0702'
   calendar: julian
   precision: year
   note: seeded from Wikidata; verify date, precision, and calendar
+recognition:
+- by: all
+  status: disputed
+  note: term not in the standard chronology as transcribed — kept per maintainer
+    decision; reconcile against Fedalto

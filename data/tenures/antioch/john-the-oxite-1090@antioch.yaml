@@ -13,12 +13,20 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source; term dates from P39
     start/end qualifiers
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. John V (1091–1100) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification John the Oxite; resigned after the
+    crusader capture
 status: unverified
 notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
   against a diadochal list or scholarly source. Verification pass 2026-07-08 (Wikipedia
   lead-generation cross-check ONLY — no official Antioch list found online; not
   sufficient for promotion): near-consistent with the Wikipedia list (John V (or
-  IV) the Oxite, 1091-1100); start year and numbering vary.'
+  IV) the Oxite, 1091-1100); start year and numbering vary. Milestone C reconciliation
+  2026-07-10: matched to the standard chronology entry John V (1091-1100).'
 to:
   value: '1100'
   calendar: julian

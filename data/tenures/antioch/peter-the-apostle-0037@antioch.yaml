@@ -1,0 +1,30 @@
+id: tenure/antioch/peter-the-apostle-0037@antioch
+person: person/pre-schism-rome/peter-the-apostle-0042
+see: see/antioch/antioch
+from:
+  value: "0037"
+  calendar: julian
+  precision: circa
+  note: "traditional date; the standard chronology gives c. 37 - c. 53"
+to:
+  value: "0053"
+  calendar: julian
+  precision: circa
+end_reason: translated
+sources:
+  - ref: source/eusebius-ecclesiastical-history
+    locator: "HE 3.36 (Ignatius second after Peter at Antioch); cf. Galatians 2:11 for Peter's presence at Antioch"
+    reliability: tradition
+  - ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+    locator: "Antioch series, s.v. Peter — locator to be confirmed"
+    reliability: scholarly
+status: unverified
+notes: >-
+  The traditional Antiochene enumeration counts Peter as first bishop
+  before his departure for Rome (hence end_reason translated — his Roman
+  tenure, tenure/pre-schism-rome/peter-0042@rome, follows by tradition).
+  One person record holds both traditional tenures; the two-see overlap of
+  traditional dates (Antioch to c. 53, Rome from c. 42) is a known feature
+  of the two traditions, recorded as given. Tradition-grade only —
+  permanently ineligible for verified status unless a better source
+  emerges.

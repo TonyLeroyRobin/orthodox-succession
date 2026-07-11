@@ -1,0 +1,25 @@
+id: tenure/antioch/joachim-i-1413@antioch
+person: person/antioch/joachim-i-1413
+see: see/antioch/antioch
+from:
+  value: '1413'
+  calendar: julian
+  precision: disputed
+  note: to 1424/5; start not given
+to:
+  value: '1425'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Joachim I (1413–1425) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification to 1424/5; start not given
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. to 1424/5; start not given.

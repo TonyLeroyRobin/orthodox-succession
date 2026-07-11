@@ -1,0 +1,16 @@
+id: person/antioch/dionysius-i-1287
+names:
+  monastic: Dionysius I
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Dionysius I (1287–1316) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification overlaps Cyril III in the list's
+    own chronology — conflicting reconstructions of a poorly documented era
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  overlaps Cyril III in the list's own chronology — conflicting reconstructions
+  of a poorly documented era.

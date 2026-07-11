@@ -1,0 +1,14 @@
+id: person/antioch/theodoret-0787
+names:
+  monastic: Theodoret
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Theodoret (787–799) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification attested before 787; end not given
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  attested before 787; end not given.

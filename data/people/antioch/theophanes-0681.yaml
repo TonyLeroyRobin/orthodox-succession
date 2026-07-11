@@ -1,0 +1,14 @@
+id: person/antioch/theophanes-0681
+names:
+  monastic: Theophanes
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Theophanes (681–684) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification end not given by the list
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  end not given by the list.

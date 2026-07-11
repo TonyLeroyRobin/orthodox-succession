@@ -1,0 +1,14 @@
+id: person/antioch/euthymius-ii-karmah-1634
+names:
+  monastic: Euthymius II Karmah
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Euthymius II Karmah (1634–1635) — locator to be
+    confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.

@@ -1,0 +1,25 @@
+id: tenure/antioch/theophylact-bar-qanbara-0744@antioch
+person: person/antioch/theophylact-bar-qanbara-0744
+see: see/antioch/antioch
+from:
+  value: '0744'
+  calendar: julian
+  precision: year
+to:
+  value: '0750'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Theophylact Bar Qanbara (744–750) — locator to be
+    confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification 744/5-750
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. 744/5-750.

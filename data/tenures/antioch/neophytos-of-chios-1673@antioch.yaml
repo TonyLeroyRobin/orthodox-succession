@@ -13,14 +13,28 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source; term dates from P39
     start/end qualifiers
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Neophytos of Chios (1673–1682) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification rival to Cyril V in the list's own
+    chronology
 status: unverified
 notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
   against a diadochal list or scholarly source. Verification pass 2026-07-08 (Wikipedia
   lead-generation cross-check ONLY — no official Antioch list found online; not
   sufficient for promotion): consistent with the Wikipedia list (Neophytos of Chios,
-  1673-1682).'
+  1673-1682). Milestone C reconciliation 2026-07-10: matched to the standard chronology
+  entry Neophytos of Chios (1673-1682).'
 to:
   value: '1682'
   calendar: gregorian
   precision: year
   note: seeded from Wikidata; verify date, precision, and calendar
+recognition:
+- by: all
+  status: disputed
+  note: term overlaps tenure/antioch/cyrille-iii-d-antioche-1694@antioch-2 in the
+    standard chronology — rival claims or conflicting reconstructions; recorded
+    as given, not adjudicated

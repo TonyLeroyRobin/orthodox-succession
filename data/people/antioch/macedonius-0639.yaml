@@ -1,0 +1,15 @@
+id: person/antioch/macedonius-0639
+names:
+  monastic: Macedonius
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Macedonius (639–649) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification after 649 per the list; resided at
+    Constantinople
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  after 649 per the list; resided at Constantinople.

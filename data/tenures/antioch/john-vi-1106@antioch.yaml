@@ -1,0 +1,26 @@
+id: tenure/antioch/john-vi-1106@antioch
+person: person/antioch/john-vi-1106
+see: see/antioch/antioch
+from:
+  value: '1106'
+  calendar: julian
+  precision: year
+to:
+  value: '1134'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. John VI (1106–1134) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification in exile at Constantinople through
+    the Latin period, as were his successors to 1268
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. in exile at Constantinople through
+  the Latin period, as were his successors to 1268.

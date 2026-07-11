@@ -1,0 +1,14 @@
+id: person/antioch/cyril-ii-1173
+names:
+  monastic: Cyril II
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Cyril II (1173–1179) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification fl. 1173-1179
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  fl. 1173-1179.

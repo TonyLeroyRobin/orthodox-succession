@@ -1,0 +1,26 @@
+id: tenure/antioch/sylvester-of-antioch-1680@antioch
+person: person/antioch/sylvester-of-antioch-1680
+see: see/antioch/antioch
+from:
+  value: '1724'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1766'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Sylvester (1724–1766) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification the Orthodox line after the 1724
+    Melkite split (the line that entered communion with Rome is out of scope)
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+  chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+  printed Antioch series during verification. the Orthodox line after the 1724 Melkite
+  split (the line that entered communion with Rome is out of scope).
