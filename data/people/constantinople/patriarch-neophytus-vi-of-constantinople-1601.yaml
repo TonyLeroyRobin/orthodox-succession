@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-neophytus-vi-of-constantinople-1601
 names:
-  monastic: Patriarch Neophytus VI of Constantinople
+  monastic: Neophytus VI of Constantinople
+  variants:
+  - Patriarch Neophytus VI of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

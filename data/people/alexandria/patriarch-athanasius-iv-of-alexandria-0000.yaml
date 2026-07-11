@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-athanasius-iv-of-alexandria-0000
 names:
-  monastic: Patriarch Athanasius IV of Alexandria
+  monastic: Athanasius IV of Alexandria
+  variants:
+  - Patriarch Athanasius IV of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

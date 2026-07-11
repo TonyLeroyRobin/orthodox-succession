@@ -1,6 +1,8 @@
 id: person/greece/archbishop-damaskinos-papandreou-1941
 names:
-  monastic: Archbishop Damaskinos Papandreou
+  monastic: Damaskinos Papandreou
+  variants:
+  - Archbishop Damaskinos Papandreou
 attestation: attested
 sources:
 - ref: source/wikidata

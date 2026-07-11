@@ -1,6 +1,8 @@
 id: person/constantinople/theophane-ier-de-constantinople-1550
 names:
-  monastic: Théophane Ier de Constantinople
+  monastic: Theophanes I of Constantinople
+  variants:
+  - Théophane Ier de Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

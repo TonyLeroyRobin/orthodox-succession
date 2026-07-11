@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-job-of-alexandria-0000
 names:
-  monastic: Patriarch Job of Alexandria
+  monastic: Job of Alexandria
+  variants:
+  - Patriarch Job of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

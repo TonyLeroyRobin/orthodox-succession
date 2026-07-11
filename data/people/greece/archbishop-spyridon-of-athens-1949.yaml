@@ -1,6 +1,8 @@
 id: person/greece/archbishop-spyridon-of-athens-1949
 names:
-  monastic: Archbishop Spyridon of Athens
+  monastic: Spyridon of Athens
+  variants:
+  - Archbishop Spyridon of Athens
 attestation: attested
 sources:
 - ref: source/wikidata

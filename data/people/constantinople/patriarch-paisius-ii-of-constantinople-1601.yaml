@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-paisius-ii-of-constantinople-1601
 names:
-  monastic: Patriarch Paisius II of Constantinople
+  monastic: Paisius II of Constantinople
+  variants:
+  - Patriarch Paisius II of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

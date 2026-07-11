@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-sophronius-i-of-alexandria-0000
 names:
-  monastic: Patriarch Sophronius I of Alexandria
+  monastic: Sophronius I of Alexandria
+  variants:
+  - Patriarch Sophronius I of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

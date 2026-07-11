@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-raphael-ii-of-constantinople-1600
 names:
-  monastic: Patriarch Raphael II of Constantinople
+  monastic: Raphael II of Constantinople
+  variants:
+  - Patriarch Raphael II of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

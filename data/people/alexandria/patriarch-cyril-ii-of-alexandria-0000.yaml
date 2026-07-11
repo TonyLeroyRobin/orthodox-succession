@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-cyril-ii-of-alexandria-0000
 names:
-  monastic: Patriarch Cyril II of Alexandria
+  monastic: Cyril II of Alexandria
+  variants:
+  - Patriarch Cyril II of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

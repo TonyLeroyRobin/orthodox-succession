@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-gregory-v-of-alexandria-0000
 names:
-  monastic: Patriarch Gregory V of Alexandria
+  monastic: Gregory V of Alexandria
+  variants:
+  - Patriarch Gregory V of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

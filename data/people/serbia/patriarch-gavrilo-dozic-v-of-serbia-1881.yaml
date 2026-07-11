@@ -1,6 +1,8 @@
 id: person/serbia/patriarch-gavrilo-dozic-v-of-serbia-1881
 names:
-  monastic: Patriarch Gavrilo Dožić V of Serbia
+  monastic: Gavrilo Dožić V of Serbia
+  variants:
+  - Patriarch Gavrilo Dožić V of Serbia
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/serbia/patriarch-vikentije-of-serbia-1890
 names:
-  monastic: Patriarch Vikentije of Serbia
+  monastic: Vikentije of Serbia
+  variants:
+  - Patriarch Vikentije of Serbia
 attestation: attested
 sources:
 - ref: source/wikidata

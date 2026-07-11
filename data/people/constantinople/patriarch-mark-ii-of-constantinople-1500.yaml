@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-mark-ii-of-constantinople-1500
 names:
-  monastic: Patriarch Mark II of Constantinople
+  monastic: Mark II of Constantinople
+  variants:
+  - Patriarch Mark II of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

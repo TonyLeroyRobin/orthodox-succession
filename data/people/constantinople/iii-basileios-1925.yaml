@@ -1,6 +1,8 @@
 id: person/constantinople/iii-basileios-1925
 names:
-  monastic: III. Basileios
+  monastic: Basileios III
+  variants:
+  - III. Basileios
 attestation: attested
 sources:
 - ref: source/wikidata

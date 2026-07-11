@@ -1,6 +1,8 @@
 id: person/jerusalem/patriarch-diodoros-of-jerusalem-1923
 names:
-  monastic: Patriarch Diodoros of Jerusalem
+  monastic: Diodoros of Jerusalem
+  variants:
+  - Patriarch Diodoros of Jerusalem
 attestation: attested
 sources:
 - ref: source/wikidata

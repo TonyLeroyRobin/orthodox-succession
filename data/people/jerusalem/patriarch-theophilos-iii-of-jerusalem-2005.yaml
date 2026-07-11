@@ -1,6 +1,8 @@
 id: person/jerusalem/patriarch-theophilos-iii-of-jerusalem-2005
 names:
-  monastic: Patriarch Theophilos III of Jerusalem
+  monastic: Theophilos III of Jerusalem
+  variants:
+  - Patriarch Theophilos III of Jerusalem
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/greece/archbishop-christodoulos-of-athens-1998
 names:
-  monastic: Archbishop Christodoulos of Athens
+  monastic: Christodoulos of Athens
+  variants:
+  - Archbishop Christodoulos of Athens
 attestation: attested
 sources:
 - ref: source/wikidata

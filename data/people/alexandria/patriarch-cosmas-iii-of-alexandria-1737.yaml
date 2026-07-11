@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-cosmas-iii-of-alexandria-1737
 names:
-  monastic: Patriarch Cosmas III of Alexandria
+  monastic: Cosmas III of Alexandria
+  variants:
+  - Patriarch Cosmas III of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

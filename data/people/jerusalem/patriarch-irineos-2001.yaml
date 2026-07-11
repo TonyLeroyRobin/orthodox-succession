@@ -1,6 +1,8 @@
 id: person/jerusalem/patriarch-irineos-2001
 names:
-  monastic: Patriarch Irineos
+  monastic: Irineos
+  variants:
+  - Patriarch Irineos
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-nikolaos-v-of-alexandria-1936
 names:
-  monastic: Patriarch Nikolaos V of Alexandria
+  monastic: Nikolaos V of Alexandria
+  variants:
+  - Patriarch Nikolaos V of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

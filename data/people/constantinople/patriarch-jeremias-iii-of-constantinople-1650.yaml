@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-jeremias-iii-of-constantinople-1650
 names:
-  monastic: Patriarch Jeremias III of Constantinople
+  monastic: Jeremias III of Constantinople
+  variants:
+  - Patriarch Jeremias III of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

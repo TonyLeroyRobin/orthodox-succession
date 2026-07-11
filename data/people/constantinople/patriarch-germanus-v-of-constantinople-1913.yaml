@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-germanus-v-of-constantinople-1913
 names:
-  monastic: Patriarch Germanus V of Constantinople
+  monastic: Germanus V of Constantinople
+  variants:
+  - Patriarch Germanus V of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

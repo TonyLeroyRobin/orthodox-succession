@@ -1,6 +1,8 @@
 id: person/constantinople/archbishop-atticus-of-constantinople-0370
 names:
-  monastic: Archbishop Atticus of Constantinople
+  monastic: Atticus of Constantinople
+  variants:
+  - Archbishop Atticus of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/romania/patriarch-daniel-of-romania-2007
 names:
-  monastic: Patriarch Daniel of Romania
+  monastic: Daniel of Romania
+  variants:
+  - Patriarch Daniel of Romania
 attestation: attested
 sources:
 - ref: source/wikidata

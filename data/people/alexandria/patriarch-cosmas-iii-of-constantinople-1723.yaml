@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-cosmas-iii-of-constantinople-1723
 names:
-  monastic: Patriarch Cosmas III of Constantinople
+  monastic: Cosmas III of Constantinople
+  variants:
+  - Patriarch Cosmas III of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-nicholas-iv-of-alexandria-1400
 names:
-  monastic: Patriarch Nicholas IV of Alexandria
+  monastic: Nicholas IV of Alexandria
+  variants:
+  - Patriarch Nicholas IV of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

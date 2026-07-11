@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-joachim-ii-of-constantinople-1802
 names:
-  monastic: Patriarch Joachim II of Constantinople
+  monastic: Joachim II of Constantinople
+  variants:
+  - Patriarch Joachim II of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/constantinople/archbishop-maximianus-of-constantinople-1000
 names:
-  monastic: Archbishop Maximianus of Constantinople
+  monastic: Maximianus of Constantinople
+  variants:
+  - Archbishop Maximianus of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

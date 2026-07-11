@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-pachomius-ii-of-constantinople-1550
 names:
-  monastic: Patriarch Pachomius II of Constantinople
+  monastic: Pachomius II of Constantinople
+  variants:
+  - Patriarch Pachomius II of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

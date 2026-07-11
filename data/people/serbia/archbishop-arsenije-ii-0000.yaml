@@ -1,6 +1,8 @@
 id: person/serbia/archbishop-arsenije-ii-0000
 names:
-  monastic: Archbishop Arsenije II
+  monastic: Arsenije II
+  variants:
+  - Archbishop Arsenije II
 attestation: attested
 sources:
 - ref: source/wikidata

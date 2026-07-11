@@ -1,6 +1,8 @@
 id: person/greece/archbishop-serafim-of-athens-1974
 names:
-  monastic: Archbishop Serafim of Athens
+  monastic: Serafim of Athens
+  variants:
+  - Archbishop Serafim of Athens
 attestation: attested
 sources:
 - ref: source/wikidata

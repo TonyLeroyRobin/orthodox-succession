@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-grigorios-vii-of-constantinople-1923
 names:
-  monastic: Patriarch Grigorios VII of Constantinople
+  monastic: Grigorios VII of Constantinople
+  variants:
+  - Patriarch Grigorios VII of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

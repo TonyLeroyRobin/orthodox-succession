@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-gabriel-iii-of-constantinople-1601
 names:
-  monastic: Patriarch Gabriel III of Constantinople
+  monastic: Gabriel III of Constantinople
+  variants:
+  - Patriarch Gabriel III of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

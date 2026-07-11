@@ -1,6 +1,8 @@
 id: person/serbia/saint-spiridon-of-serbia-1301
 names:
-  monastic: Saint Spiridon of Serbia
+  monastic: Spiridon of Serbia
+  variants:
+  - Saint Spiridon of Serbia
 attestation: attested
 sources:
 - ref: source/wikidata

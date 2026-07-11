@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-germanus-iv-of-constantinople-1788
 names:
-  monastic: Patriarch Germanus IV of Constantinople
+  monastic: Germanus IV of Constantinople
+  variants:
+  - Patriarch Germanus IV of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

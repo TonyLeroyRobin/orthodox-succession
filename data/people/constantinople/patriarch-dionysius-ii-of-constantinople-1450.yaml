@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-dionysius-ii-of-constantinople-1450
 names:
-  monastic: Patriarch Dionysius II of Constantinople
+  monastic: Dionysius II of Constantinople
+  variants:
+  - Patriarch Dionysius II of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

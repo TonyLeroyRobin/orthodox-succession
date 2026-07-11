@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-cyril-v-of-constantinople-1748
 names:
-  monastic: Patriarch Cyril V of Constantinople
+  monastic: Cyril V of Constantinople
+  variants:
+  - Patriarch Cyril V of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

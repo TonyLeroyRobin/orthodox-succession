@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-eustatius-of-alexandria-0813
 names:
-  monastic: Patriarch Eustatius of Alexandria
+  monastic: Eustathius of Alexandria
+  variants:
+  - Patriarch Eustatius of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

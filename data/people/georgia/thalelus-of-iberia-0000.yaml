@@ -1,6 +1,8 @@
 id: person/georgia/thalelus-of-iberia-0000
 names:
-  monastic: Thalelæus of Iberia
+  monastic: Thalelaeus of Iberia
+  variants:
+  - Thalelæus of Iberia
 attestation: attested
 sources:
 - ref: source/wikidata

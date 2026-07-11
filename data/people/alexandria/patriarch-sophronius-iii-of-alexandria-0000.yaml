@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-sophronius-iii-of-alexandria-0000
 names:
-  monastic: Patriarch Sophronius III of Alexandria
+  monastic: Sophronius III of Alexandria
+  variants:
+  - Patriarch Sophronius III of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

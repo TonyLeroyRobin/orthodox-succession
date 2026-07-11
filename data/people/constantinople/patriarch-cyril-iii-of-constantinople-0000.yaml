@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-cyril-iii-of-constantinople-0000
 names:
-  monastic: Patriarch Cyril III of Constantinople
+  monastic: Cyril III of Constantinople
+  variants:
+  - Patriarch Cyril III of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

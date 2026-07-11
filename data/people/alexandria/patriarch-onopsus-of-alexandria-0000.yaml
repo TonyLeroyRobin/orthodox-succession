@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-onopsus-of-alexandria-0000
 names:
-  monastic: Patriarch Onopsus of Alexandria
+  monastic: Onopsus of Alexandria
+  variants:
+  - Patriarch Onopsus of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

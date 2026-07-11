@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-mark-iv-of-alexandria-0000
 names:
-  monastic: Patriarch Mark IV of Alexandria
+  monastic: Mark IV of Alexandria
+  variants:
+  - Patriarch Mark IV of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

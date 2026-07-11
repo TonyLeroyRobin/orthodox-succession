@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-athanasios-iii-of-alexandria-1276
 names:
-  monastic: Patriarch Athanasios III of Alexandria
+  monastic: Athanasios III of Alexandria
+  variants:
+  - Patriarch Athanasios III of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

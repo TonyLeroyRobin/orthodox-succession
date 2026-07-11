@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-mark-iii-of-alexandria-1180
 names:
-  monastic: Patriarch Mark III of Alexandria
+  monastic: Mark III of Alexandria
+  variants:
+  - Patriarch Mark III of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/jerusalem/abrame-ier-de-jerusalem-1775
 names:
-  monastic: Abrame Ier de Jérusalem
+  monastic: Abraham I of Jerusalem
+  variants:
+  - Abrame Ier de Jérusalem
 attestation: attested
 sources:
 - ref: source/wikidata

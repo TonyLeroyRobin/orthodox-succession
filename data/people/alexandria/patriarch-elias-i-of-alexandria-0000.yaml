@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-elias-i-of-alexandria-0000
 names:
-  monastic: Patriarch Elias I of Alexandria
+  monastic: Elias I of Alexandria
+  variants:
+  - Patriarch Elias I of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

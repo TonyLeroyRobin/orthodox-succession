@@ -1,6 +1,8 @@
 id: person/constantinople/ecumenical-patriarch-clement-of-constantinople-1650
 names:
-  monastic: Ecumenical Patriarch Clement of Constantinople
+  monastic: Clement of Constantinople
+  variants:
+  - Ecumenical Patriarch Clement of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

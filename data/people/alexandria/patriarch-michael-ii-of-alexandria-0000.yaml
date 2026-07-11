@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-michael-ii-of-alexandria-0000
 names:
-  monastic: Patriarch Michael II of Alexandria
+  monastic: Michael II of Alexandria
+  variants:
+  - Patriarch Michael II of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

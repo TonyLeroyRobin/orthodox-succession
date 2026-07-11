@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-theoleptus-ii-of-constantinople-1550
 names:
-  monastic: Patriarch Theoleptus II of Constantinople
+  monastic: Theoleptus II of Constantinople
+  variants:
+  - Patriarch Theoleptus II of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-christopher-ii-of-alexandria-1939
 names:
-  monastic: Patriarch Christopher II of Alexandria
+  monastic: Christopher II of Alexandria
+  variants:
+  - Patriarch Christopher II of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

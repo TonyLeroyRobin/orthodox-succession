@@ -1,6 +1,8 @@
 id: person/greece/archbishop-chrysanthos-of-athens-1881
 names:
-  monastic: Archbishop Chrysanthos of Athens
+  monastic: Chrysanthos of Athens
+  variants:
+  - Archbishop Chrysanthos of Athens
 attestation: attested
 sources:
 - ref: source/wikidata

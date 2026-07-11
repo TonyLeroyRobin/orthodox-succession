@@ -1,6 +1,8 @@
 id: person/russia/patriarch-nikon-of-moscow-1652
 names:
-  monastic: Patriarch Nikon of Moscow
+  monastic: Nikon of Moscow
+  variants:
+  - Patriarch Nikon of Moscow
 attestation: attested
 sources:
 - ref: source/wikidata

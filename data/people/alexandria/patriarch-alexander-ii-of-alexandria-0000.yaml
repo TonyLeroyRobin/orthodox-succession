@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-alexander-ii-of-alexandria-0000
 names:
-  monastic: Patriarch Alexander II of Alexandria
+  monastic: Alexander II of Alexandria
+  variants:
+  - Patriarch Alexander II of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-niphon-of-alexandria-1350
 names:
-  monastic: Patriarch Niphon of Alexandria
+  monastic: Niphon of Alexandria
+  variants:
+  - Patriarch Niphon of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

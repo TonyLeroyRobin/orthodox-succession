@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-anthimus-ii-of-constantinople-1550
 names:
-  monastic: Patriarch Anthimus II of Constantinople
+  monastic: Anthimus II of Constantinople
+  variants:
+  - Patriarch Anthimus II of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

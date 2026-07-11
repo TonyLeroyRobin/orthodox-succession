@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-eulogius-ii-of-alexandria-0000
 names:
-  monastic: Patriarch Eulogius II of Alexandria
+  monastic: Eulogius II of Alexandria
+  variants:
+  - Patriarch Eulogius II of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

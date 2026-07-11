@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-parthenius-iii-of-constantinople-1550
 names:
-  monastic: Patriarch Parthenius III of Constantinople
+  monastic: Parthenius III of Constantinople
+  variants:
+  - Patriarch Parthenius III of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-philotheus-of-alexandria-0000
 names:
-  monastic: Patriarch Philotheus of Alexandria
+  monastic: Philotheus of Alexandria
+  variants:
+  - Patriarch Philotheus of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

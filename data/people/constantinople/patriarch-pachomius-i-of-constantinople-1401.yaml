@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-pachomius-i-of-constantinople-1401
 names:
-  monastic: Patriarch Pachomius I of Constantinople
+  monastic: Pachomius I of Constantinople
+  variants:
+  - Patriarch Pachomius I of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

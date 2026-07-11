@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-peter-v-of-alexandria-0000
 names:
-  monastic: Patriarch Peter V of Alexandria
+  monastic: Peter V of Alexandria
+  variants:
+  - Patriarch Peter V of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

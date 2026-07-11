@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-neophytus-ii-of-constantinople-1501
 names:
-  monastic: Patriarch Neophytus II of Constantinople
+  monastic: Neophytus II of Constantinople
+  variants:
+  - Patriarch Neophytus II of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

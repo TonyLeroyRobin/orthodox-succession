@@ -1,6 +1,8 @@
 id: person/constantinople/dionysios-iii-de-constantinople-1615
 names:
-  monastic: Dionysios III de Constantinople
+  monastic: Dionysios III of Constantinople
+  variants:
+  - Dionysios III de Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

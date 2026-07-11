@@ -1,6 +1,8 @@
 id: person/albania/archbishop-joan-of-albania-2025
 names:
-  monastic: Archbishop Joan of Albania
+  monastic: Joan of Albania
+  variants:
+  - Archbishop Joan of Albania
 attestation: attested
 sources:
 - ref: source/wikidata

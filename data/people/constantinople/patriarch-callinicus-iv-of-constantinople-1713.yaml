@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-callinicus-iv-of-constantinople-1713
 names:
-  monastic: Patriarch Callinicus IV of Constantinople
+  monastic: Callinicus IV of Constantinople
+  variants:
+  - Patriarch Callinicus IV of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-mark-vi-of-alexandria-1459
 names:
-  monastic: Patriarch Mark VI of Alexandria
+  monastic: Mark VI of Alexandria
+  variants:
+  - Patriarch Mark VI of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

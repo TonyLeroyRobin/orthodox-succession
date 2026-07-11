@@ -1,6 +1,8 @@
 id: person/constantinople/archbishop-sisinnius-i-of-constantinople-0400
 names:
-  monastic: Archbishop Sisinnius I of Constantinople
+  monastic: Sisinnius I of Constantinople
+  variants:
+  - Archbishop Sisinnius I of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

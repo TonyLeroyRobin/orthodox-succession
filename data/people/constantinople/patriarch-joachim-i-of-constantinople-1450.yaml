@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-joachim-i-of-constantinople-1450
 names:
-  monastic: Patriarch Joachim I of Constantinople
+  monastic: Joachim I of Constantinople
+  variants:
+  - Patriarch Joachim I of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-joachim-iv-of-constantinople-1884
 names:
-  monastic: Patriarch Joachim IV of Constantinople
+  monastic: Joachim IV of Constantinople
+  variants:
+  - Patriarch Joachim IV of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

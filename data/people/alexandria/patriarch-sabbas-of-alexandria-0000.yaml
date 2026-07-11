@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-sabbas-of-alexandria-0000
 names:
-  monastic: Patriarch Sabbas of Alexandria
+  monastic: Sabbas of Alexandria
+  variants:
+  - Patriarch Sabbas of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

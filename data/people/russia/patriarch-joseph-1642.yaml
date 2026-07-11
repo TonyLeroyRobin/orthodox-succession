@@ -1,6 +1,8 @@
 id: person/russia/patriarch-joseph-1642
 names:
-  monastic: Patriarch Joseph
+  monastic: Joseph
+  variants:
+  - Patriarch Joseph
 attestation: attested
 sources:
 - ref: source/wikidata

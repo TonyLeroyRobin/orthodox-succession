@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-grigorios-v-of-constantinople-1797
 names:
-  monastic: Patriarch Grigorios V of Constantinople
+  monastic: Grigorios V of Constantinople
+  variants:
+  - Patriarch Grigorios V of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

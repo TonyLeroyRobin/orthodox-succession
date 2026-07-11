@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-mark-v-of-alexandria-1425
 names:
-  monastic: Patriarch Mark V of Alexandria
+  monastic: Mark V of Alexandria
+  variants:
+  - Patriarch Mark V of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-anthimus-v-of-constantinople-1779
 names:
-  monastic: Patriarch Anthimus V of Constantinople
+  monastic: Anthimus V of Constantinople
+  variants:
+  - Patriarch Anthimus V of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

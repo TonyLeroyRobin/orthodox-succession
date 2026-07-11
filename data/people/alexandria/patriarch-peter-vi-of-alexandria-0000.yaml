@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-peter-vi-of-alexandria-0000
 names:
-  monastic: Patriarch Peter VI of Alexandria
+  monastic: Peter VI of Alexandria
+  variants:
+  - Patriarch Peter VI of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-joasaph-ii-of-constantinople-1556
 names:
-  monastic: Patriarch Joasaph II of Constantinople
+  monastic: Joasaph II of Constantinople
+  variants:
+  - Patriarch Joasaph II of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

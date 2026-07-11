@@ -1,6 +1,8 @@
 id: person/jerusalem/germain-ier-de-jerusalem-0000
 names:
-  monastic: Germain Ier de Jérusalem
+  monastic: Germain I of Jerusalem
+  variants:
+  - Germain Ier de Jérusalem
 attestation: attested
 sources:
 - ref: source/wikidata

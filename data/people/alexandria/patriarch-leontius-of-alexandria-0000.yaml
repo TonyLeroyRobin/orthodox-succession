@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-leontius-of-alexandria-0000
 names:
-  monastic: Patriarch Leontius of Alexandria
+  monastic: Leontius of Alexandria
+  variants:
+  - Patriarch Leontius of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/serbia/patriarch-kalinik-ii-of-serbia-0000
 names:
-  monastic: Patriarch Kalinik II of Serbia
+  monastic: Kalinik II of Serbia
+  variants:
+  - Patriarch Kalinik II of Serbia
 attestation: attested
 sources:
 - ref: source/wikidata

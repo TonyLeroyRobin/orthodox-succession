@@ -1,6 +1,8 @@
 id: person/constantinople/vi-konstantinos-1924
 names:
-  monastic: VI. Konstantinos
+  monastic: Konstantinos VI
+  variants:
+  - VI. Konstantinos
 attestation: attested
 sources:
 - ref: source/wikidata

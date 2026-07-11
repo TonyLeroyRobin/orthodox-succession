@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-theophylactus-of-alexandria-0000
 names:
-  monastic: Patriarch Theophylactus of Alexandria
+  monastic: Theophylactus of Alexandria
+  variants:
+  - Patriarch Theophylactus of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

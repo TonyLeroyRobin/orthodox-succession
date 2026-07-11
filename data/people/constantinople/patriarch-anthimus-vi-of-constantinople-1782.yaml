@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-anthimus-vi-of-constantinople-1782
 names:
-  monastic: Patriarch Anthimus VI of Constantinople
+  monastic: Anthimus VI of Constantinople
+  variants:
+  - Patriarch Anthimus VI of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

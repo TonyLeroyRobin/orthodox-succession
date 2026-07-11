@@ -1,6 +1,8 @@
 id: person/serbia/patriarch-varnava-rosic-of-serbia-1880
 names:
-  monastic: Patriarch Varnava Rosić of Serbia
+  monastic: Varnava Rosić of Serbia
+  variants:
+  - Patriarch Varnava Rosić of Serbia
 attestation: attested
 sources:
 - ref: source/wikidata

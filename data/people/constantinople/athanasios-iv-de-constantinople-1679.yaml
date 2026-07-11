@@ -1,6 +1,8 @@
 id: person/constantinople/athanasios-iv-de-constantinople-1679
 names:
-  monastic: Athanasios IV de Constantinople
+  monastic: Athanasios IV of Constantinople
+  variants:
+  - Athanasios IV de Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

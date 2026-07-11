@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-eleutherius-of-alexandria-0000
 names:
-  monastic: Patriarch Eleutherius of Alexandria
+  monastic: Eleutherius of Alexandria
+  variants:
+  - Patriarch Eleutherius of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

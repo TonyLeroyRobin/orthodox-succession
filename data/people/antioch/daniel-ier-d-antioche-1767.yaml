@@ -1,6 +1,8 @@
 id: person/antioch/daniel-ier-d-antioche-1767
 names:
-  monastic: Daniel Ier d'Antioche
+  monastic: Daniel I of Antioch
+  variants:
+  - Daniel Ier d'Antioche
 attestation: attested
 sources:
 - ref: source/wikidata

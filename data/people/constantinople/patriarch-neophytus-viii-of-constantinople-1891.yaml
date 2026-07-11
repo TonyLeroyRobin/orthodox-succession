@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-neophytus-viii-of-constantinople-1891
 names:
-  monastic: Patriarch Neophytus VIII of Constantinople
+  monastic: Neophytus VIII of Constantinople
+  variants:
+  - Patriarch Neophytus VIII of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-matthew-ii-of-constantinople-1501
 names:
-  monastic: Patriarch Matthew II of Constantinople
+  monastic: Matthew II of Constantinople
+  variants:
+  - Patriarch Matthew II of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

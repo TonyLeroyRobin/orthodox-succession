@@ -1,6 +1,8 @@
 id: person/serbia/patriarch-joannicius-iii-of-constantinople-1737
 names:
-  monastic: Patriarch Joannicius III of Constantinople
+  monastic: Joannicius III of Constantinople
+  variants:
+  - Patriarch Joannicius III of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

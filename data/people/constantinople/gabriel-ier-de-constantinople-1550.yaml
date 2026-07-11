@@ -1,6 +1,8 @@
 id: person/constantinople/gabriel-ier-de-constantinople-1550
 names:
-  monastic: Gabriel Ier de Constantinople
+  monastic: Gabriel I of Constantinople
+  variants:
+  - Gabriel Ier de Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

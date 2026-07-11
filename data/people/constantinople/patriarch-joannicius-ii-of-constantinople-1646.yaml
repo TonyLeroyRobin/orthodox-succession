@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-joannicius-ii-of-constantinople-1646
 names:
-  monastic: Patriarch Joannicius II of Constantinople
+  monastic: Joannicius II of Constantinople
+  variants:
+  - Patriarch Joannicius II of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

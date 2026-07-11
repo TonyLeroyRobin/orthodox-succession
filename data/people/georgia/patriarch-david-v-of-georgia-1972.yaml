@@ -1,6 +1,8 @@
 id: person/georgia/patriarch-david-v-of-georgia-1972
 names:
-  monastic: Patriarch David V of Georgia
+  monastic: David V of Georgia
+  variants:
+  - Patriarch David V of Georgia
 attestation: attested
 sources:
 - ref: source/wikidata

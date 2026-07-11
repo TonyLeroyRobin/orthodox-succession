@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-theodoros-ii-of-alexandria-2004
 names:
-  monastic: Patriarch Theodoros II of Alexandria
+  monastic: Theodoros II of Alexandria
+  variants:
+  - Patriarch Theodoros II of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

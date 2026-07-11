@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-benjamin-i-of-constantinople-1936
 names:
-  monastic: Patriarch Benjamin I of Constantinople
+  monastic: Benjamin I of Constantinople
+  variants:
+  - Patriarch Benjamin I of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

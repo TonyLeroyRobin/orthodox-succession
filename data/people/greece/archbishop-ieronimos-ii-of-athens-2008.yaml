@@ -1,6 +1,8 @@
 id: person/greece/archbishop-ieronimos-ii-of-athens-2008
 names:
-  monastic: Archbishop Ieronimos II of Athens
+  monastic: Ieronimos II of Athens
+  variants:
+  - Archbishop Ieronimos II of Athens
 attestation: attested
 sources:
 - ref: source/wikidata

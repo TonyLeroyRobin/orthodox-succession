@@ -1,6 +1,8 @@
 id: person/constantinople/ecumenical-patriarch-callinicus-iii-of-constantinople-1650
 names:
-  monastic: Ecumenical Patriarch Callinicus III of Constantinople
+  monastic: Callinicus III of Constantinople
+  variants:
+  - Ecumenical Patriarch Callinicus III of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

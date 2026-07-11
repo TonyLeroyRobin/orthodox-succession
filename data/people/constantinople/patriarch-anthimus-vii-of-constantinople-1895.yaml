@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-anthimus-vii-of-constantinople-1895
 names:
-  monastic: Patriarch Anthimus VII of Constantinople
+  monastic: Anthimus VII of Constantinople
+  variants:
+  - Patriarch Anthimus VII of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

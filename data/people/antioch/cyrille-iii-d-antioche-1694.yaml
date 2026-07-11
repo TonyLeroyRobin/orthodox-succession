@@ -1,6 +1,8 @@
 id: person/antioch/cyrille-iii-d-antioche-1694
 names:
-  monastic: Cyrille III d'Antioche
+  monastic: Cyril III of Antioch
+  variants:
+  - Cyrille III d'Antioche
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-nicholas-iii-of-alexandria-1389
 names:
-  monastic: Patriarch Nicholas III of Alexandria
+  monastic: Nicholas III of Alexandria
+  variants:
+  - Patriarch Nicholas III of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

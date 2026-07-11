@@ -1,6 +1,8 @@
 id: person/constantinople/i-athenagoras-1948
 names:
-  monastic: I. Athenagoras
+  monastic: Athenagoras I
+  variants:
+  - I. Athenagoras
 attestation: attested
 sources:
 - ref: source/wikidata

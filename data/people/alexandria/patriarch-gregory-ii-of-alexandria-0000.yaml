@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-gregory-ii-of-alexandria-0000
 names:
-  monastic: Patriarch Gregory II of Alexandria
+  monastic: Gregory II of Alexandria
+  variants:
+  - Patriarch Gregory II of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

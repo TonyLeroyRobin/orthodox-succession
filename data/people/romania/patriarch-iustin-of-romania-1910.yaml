@@ -1,6 +1,8 @@
 id: person/romania/patriarch-iustin-of-romania-1910
 names:
-  monastic: Patriarch Iustin of Romania
+  monastic: Iustin of Romania
+  variants:
+  - Patriarch Iustin of Romania
 attestation: attested
 sources:
 - ref: source/wikidata

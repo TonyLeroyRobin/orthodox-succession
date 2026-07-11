@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-gregory-iii-of-alexandria-0000
 names:
-  monastic: Patriarch Gregory III of Alexandria
+  monastic: Gregory III of Alexandria
+  variants:
+  - Patriarch Gregory III of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

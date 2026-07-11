@@ -1,6 +1,8 @@
 id: person/romania/patriarch-justinian-of-romania-1901
 names:
-  monastic: Patriarch Justinian of Romania
+  monastic: Justinian of Romania
+  variants:
+  - Patriarch Justinian of Romania
 attestation: attested
 sources:
 - ref: source/wikidata

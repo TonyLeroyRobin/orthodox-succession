@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-sophronius-ii-of-alexandria-0000
 names:
-  monastic: Patriarch Sophronius II of Alexandria
+  monastic: Sophronius II of Alexandria
+  variants:
+  - Patriarch Sophronius II of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/jerusalem/dorotheus-ii-of-jerusalem-1506
 names:
-  monastic: Dorotheus II of Jérusalem
+  monastic: Dorotheus II of Jerusalem
+  variants:
+  - Dorotheus II of Jérusalem
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/serbia/patriarch-pavle-of-serbia-1990
 names:
-  monastic: Patriarch Pavle of Serbia
+  monastic: Pavle of Serbia
+  variants:
+  - Patriarch Pavle of Serbia
 attestation: attested
 sources:
 - ref: source/wikidata

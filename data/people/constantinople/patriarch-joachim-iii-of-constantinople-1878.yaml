@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-joachim-iii-of-constantinople-1878
 names:
-  monastic: Patriarch Joachim III of Constantinople
+  monastic: Joachim III of Constantinople
+  variants:
+  - Patriarch Joachim III of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

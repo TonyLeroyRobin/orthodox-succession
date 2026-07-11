@@ -1,6 +1,8 @@
 id: person/jerusalem/patriarch-cyril-ii-of-jerusalem-1845
 names:
-  monastic: Patriarch Cyril II of Jerusalem
+  monastic: Cyril II of Jerusalem
+  variants:
+  - Patriarch Cyril II of Jerusalem
 attestation: attested
 sources:
 - ref: source/wikidata

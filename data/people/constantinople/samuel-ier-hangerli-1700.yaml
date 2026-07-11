@@ -1,6 +1,8 @@
 id: person/constantinople/samuel-ier-hangerli-1700
 names:
-  monastic: Samuel Ier Hangerli
+  monastic: Samuel I Hangerli
+  variants:
+  - Samuel Ier Hangerli
 attestation: attested
 sources:
 - ref: source/wikidata

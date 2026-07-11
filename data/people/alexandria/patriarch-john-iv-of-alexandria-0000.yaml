@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-john-iv-of-alexandria-0000
 names:
-  monastic: Patriarch John IV of Alexandria
+  monastic: John IV of Alexandria
+  variants:
+  - Patriarch John IV of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

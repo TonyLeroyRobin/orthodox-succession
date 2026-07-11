@@ -1,6 +1,8 @@
 id: person/greece/archbishop-iakovos-1895
 names:
-  monastic: Archbishop Iakovos
+  monastic: Iakovos
+  variants:
+  - Archbishop Iakovos
 attestation: attested
 sources:
 - ref: source/wikidata

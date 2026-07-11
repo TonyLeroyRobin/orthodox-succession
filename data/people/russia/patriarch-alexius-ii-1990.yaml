@@ -1,6 +1,8 @@
 id: person/russia/patriarch-alexius-ii-1990
 names:
-  monastic: Patriarch Alexius II
+  monastic: Alexius II
+  variants:
+  - Patriarch Alexius II
 attestation: attested
 sources:
 - ref: source/wikidata

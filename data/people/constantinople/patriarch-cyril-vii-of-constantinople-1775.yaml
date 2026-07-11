@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-cyril-vii-of-constantinople-1775
 names:
-  monastic: Patriarch Cyril VII of Constantinople
+  monastic: Cyril VII of Constantinople
+  variants:
+  - Patriarch Cyril VII of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-elias-ii-of-alexandria-0000
 names:
-  monastic: Patriarch Elias II of Alexandria
+  monastic: Elias II of Alexandria
+  variants:
+  - Patriarch Elias II of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

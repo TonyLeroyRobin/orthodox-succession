@@ -1,6 +1,8 @@
 id: person/jerusalem/polycarpe-ier-de-jerusalem-1750
 names:
-  monastic: Polycarpe Ier de Jérusalem
+  monastic: Polycarpe I of Jerusalem
+  variants:
+  - Polycarpe Ier de Jérusalem
 attestation: attested
 sources:
 - ref: source/wikidata

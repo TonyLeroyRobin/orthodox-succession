@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-gregory-iv-of-alexandria-0000
 names:
-  monastic: Patriarch Gregory IV of Alexandria
+  monastic: Gregory IV of Alexandria
+  variants:
+  - Patriarch Gregory IV of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

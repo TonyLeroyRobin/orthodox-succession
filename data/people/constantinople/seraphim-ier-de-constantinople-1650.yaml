@@ -1,6 +1,8 @@
 id: person/constantinople/seraphim-ier-de-constantinople-1650
 names:
-  monastic: Séraphim Ier de Constantinople
+  monastic: Seraphim I of Constantinople
+  variants:
+  - Séraphim Ier de Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

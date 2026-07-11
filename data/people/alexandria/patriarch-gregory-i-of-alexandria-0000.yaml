@@ -1,6 +1,8 @@
 id: person/alexandria/patriarch-gregory-i-of-alexandria-0000
 names:
-  monastic: Patriarch Gregory I of Alexandria
+  monastic: Gregory I of Alexandria
+  variants:
+  - Patriarch Gregory I of Alexandria
 attestation: attested
 sources:
 - ref: source/wikidata

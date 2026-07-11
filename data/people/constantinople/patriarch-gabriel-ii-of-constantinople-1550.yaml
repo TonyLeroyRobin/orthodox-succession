@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-gabriel-ii-of-constantinople-1550
 names:
-  monastic: Patriarch Gabriel II of Constantinople
+  monastic: Gabriel II of Constantinople
+  variants:
+  - Patriarch Gabriel II of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

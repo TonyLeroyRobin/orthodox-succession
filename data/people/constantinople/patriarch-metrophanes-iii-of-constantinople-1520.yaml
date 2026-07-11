@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-metrophanes-iii-of-constantinople-1520
 names:
-  monastic: Patriarch Metrophanes III of Constantinople
+  monastic: Metrophanes III of Constantinople
+  variants:
+  - Patriarch Metrophanes III of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata

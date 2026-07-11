@@ -1,6 +1,8 @@
 id: person/constantinople/patriarch-gregory-iv-of-constantinople-1501
 names:
-  monastic: Patriarch Gregory IV of Constantinople
+  monastic: Gregory IV of Constantinople
+  variants:
+  - Patriarch Gregory IV of Constantinople
 attestation: attested
 sources:
 - ref: source/wikidata
