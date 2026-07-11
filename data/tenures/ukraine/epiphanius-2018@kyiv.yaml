@@ -5,7 +5,8 @@ from:
   value: '2018'
   calendar: gregorian
   precision: year
-  note: seeded from Wikidata; verify date, precision, and calendar
+  note: elected 15 December 2018 at the unification council; tomos of autocephaly 5 January
+    2019; enthroned 3 February 2019 — refine precision during verification
 end_reason: unknown
 sources:
 - ref: source/wikidata
@@ -13,6 +14,23 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source; term dates from P39 start/end
     qualifiers
+- ref: source/orthodox-church-of-ukraine-official
+  locator: en/?page_id=1203
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.pomisna.info/en/?page_id=1203
+  note: official biography page of Metropolitan Epiphanius (site reachable, fetched 2026-07-11);
+    year-wildcard archive redirect — pin during verification
 status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
+  a diadochal list or scholarly source. Milestone C reconciliation 2026-07-11: matched to
+  the OCU official reckoning (Epiphanius, 2018/2019-present, incumbent). The overlap with
+  the UOC-MP claimant tenure is the recorded recognition dispute itself (golden rule 6).'
+recognition:
+- by: jurisdiction/ecumenical-patriarchate
+  status: recognized
+  note: primate of the OCU under the 2019 tomos; also recognized by Alexandria (2019), Greece
+    (2019), and Cyprus (2020) — cf. the jurisdiction record
+- by: jurisdiction/church-of-russia
+  status: not-recognized
+  note: Moscow recognizes Onufriy (Berezovsky) as Metropolitan of Kyiv (see the overlapping
+    tenure) — the rival claims are recorded, not adjudicated

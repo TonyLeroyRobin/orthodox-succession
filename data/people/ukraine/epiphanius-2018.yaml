@@ -1,16 +1,29 @@
 id: person/ukraine/epiphanius-2018
 names:
   monastic: Epiphanius
+  family: Dumenko
+  baptismal: Serhii
+  variants:
+  - Epifaniy (Dumenko)
+  - Epiphany Dumenko
 attestation: attested
 sources:
 - ref: source/wikidata
   locator: Q11696998
   reliability: database
   note: programmatic seed — verify against a graded source
+- ref: source/orthodox-church-of-ukraine-official
+  locator: en/?page_id=1203
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.pomisna.info/en/?page_id=1203
+  note: official biography page of Metropolitan Epiphanius (site reachable, fetched 2026-07-11);
+    year-wildcard archive redirect — pin during verification
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone C reconciliation 2026-07-11 — matched (Epiphanius Dumenko, primate of the OCU
+  from the 2018 unification council); family and baptismal names added from the official biography
+  — verify.
 identifiers:
   wikidata: Q11696998
   viaf: '311348521'

@@ -5,7 +5,7 @@ from:
   value: '2014'
   calendar: gregorian
   precision: year
-  note: seeded from Wikidata; verify date, precision, and calendar
+  note: elected 13 August 2014, enthroned 17 August 2014 — refine precision during verification
 end_reason: unknown
 sources:
 - ref: source/wikidata
@@ -14,5 +14,22 @@ sources:
   note: programmatic seed — verify against a graded source; term dates from P39 start/end
     qualifiers
 status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
+  a diadochal list or scholarly source. Milestone C reconciliation 2026-07-11: this is Metropolitan
+  Onufriy (Berezovsky) of the Ukrainian Orthodox Church (Moscow Patriarchate), seeded under
+  his civil name. His tenure is recorded on the shared Kyiv see because the see-claim itself
+  is the recorded dispute (golden rule 6); the parallel UOC jurisdiction structure is not
+  yet modeled — backlogged, a maintainer scope decision.'
+recognition:
+- by: jurisdiction/church-of-russia
+  status: recognized
+  note: recognized by Moscow as the canonical Metropolitan of Kyiv and All Ukraine (UOC)
+- by: jurisdiction/ecumenical-patriarchate
+  status: not-recognized
+  since:
+    value: '2019'
+    calendar: gregorian
+    precision: year
+  note: from the 2019 tomos Constantinople regards the Kyiv see as held by the OCU primate;
+    Onufriy's 2014-2018 tenure predates the rivalry and was then undisputed — recorded, not
+    adjudicated

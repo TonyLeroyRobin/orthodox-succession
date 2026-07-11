@@ -1,6 +1,11 @@
 id: person/ukraine/orest-berezovskyi-2014
 names:
-  monastic: Orest Berezovskyi
+  monastic: Onufriy
+  family: Berezovsky
+  baptismal: Orest
+  variants:
+  - Orest Berezovskyi
+  - Onuphrius (Berezovsky)
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -8,9 +13,12 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+notes: 'Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone C reconciliation 2026-07-11 — identified: the seed carried his civil name (Orest
+  Berezovskyi); this is Metropolitan Onufriy of the UOC (Moscow Patriarchate), Metropolitan
+  of Kyiv per the Moscow reckoning from 2014 (b. 1944 corroborates). Display name set to the
+  monastic name per the conventions.'
 identifiers:
   wikidata: Q2091966
   viaf: '30156009960449581426'

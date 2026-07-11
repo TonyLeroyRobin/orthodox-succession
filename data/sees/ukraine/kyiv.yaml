@@ -42,5 +42,16 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: Seat of the Metropolitan of Kyiv and All Ukraine (OCU). Minimal draft — jurisdiction_history,
-  rank_history, and founding data to be added with sources during verification.
+notes: 'Seat of the Metropolitan of Kyiv and All Ukraine. Milestone C (2026-07-11)
+  reconciled the modern claims on this see: the OCU reckoning has one primate (Epiphanius
+  Dumenko, elected at the December 2018 unification council, tomos January 2019,
+  incumbent), and the overlapping tenure of Onufriy Berezovsky (UOC-MP, from 2014)
+  is the recorded rival claim — both tenures carry symmetric per-recognizer recognition
+  entries (golden rule 6; nothing adjudicated). The 2014–2018 gap-report seam is
+  an artifact of the open-ended overlap, not missing data. Backlogged: the parallel
+  UOC (Moscow Patriarchate) jurisdiction structure (a maintainer scope decision);
+  the OCU predecessor bodies 1990–2018 (UOC-KP under Mstyslav/Volodymyr/Filaret,
+  UAOC) whose pre-unification status is precisely the recorded-not-adjudicated kind;
+  Filaret Denysenko''s honorary-patriarch episode and 2019 departure; and the historical
+  Kyiv metropolitan line 988–1686 (jurisdiction/metropolitanate-of-kyiv, already
+  recorded structurally). rank_history still to be added during verification.'
