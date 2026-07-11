@@ -1,0 +1,25 @@
+id: event/context/abolition-of-pec-1766
+type: context
+title: "Abolition of the Patriarchate of Peć"
+date:
+  from:
+    value: "1766"
+    calendar: gregorian
+    precision: year
+  to:
+    value: "1879"
+    calendar: gregorian
+    precision: year
+    note: "until the autocephaly tomos for the Metropolitanate of Belgrade"
+scope: "jurisdiction:jurisdiction/church-of-serbia"
+description: >-
+  The Ottoman authorities abolish the Patriarchate of Peć and place its
+  dioceses directly under Constantinople, until the 1879 tomos restores
+  autocephaly to the Metropolitanate of Belgrade.
+sources:
+  - ref: source/wikipedia
+    locator: "Serbian Patriarchate of Peć"
+    reliability: database
+    archived_url: "https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Serbian_Patriarchate_of_Pe%C4%87"
+status: unverified
+notes: "Explains the 1766-1879 gap in the Serbian succession — a historical abolition, not missing data."

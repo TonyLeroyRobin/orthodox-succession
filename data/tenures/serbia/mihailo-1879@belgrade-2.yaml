@@ -1,0 +1,22 @@
+id: tenure/serbia/mihailo-1879@belgrade-2
+person: person/serbia/mihailo-1879
+see: see/serbia/belgrade
+from:
+  value: '1889'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1898'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. Mihailo (1889–1898) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification second term, restored
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  second term, restored.

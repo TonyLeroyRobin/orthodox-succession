@@ -1,0 +1,24 @@
+id: tenure/serbia/dimitrije-pavlovic-1846@belgrade
+person: person/serbia/dimitrije-pavlovic-1846
+see: see/serbia/belgrade
+from:
+  value: '1905'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1920'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. Dimitrije (1905–1920) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification Dimitrije Pavlovic,
+    metropolitan; became first patriarch of the reunified church in 1920
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  Dimitrije Pavlovic, metropolitan; became first patriarch of the reunified church
+  in 1920.

@@ -1,0 +1,14 @@
+id: person/serbia/german-1958
+names:
+  monastic: German
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. German (1958–1990) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification German Doric
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  German Doric.

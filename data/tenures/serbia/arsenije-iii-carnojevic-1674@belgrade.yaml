@@ -11,11 +11,24 @@ sources:
 - ref: source/wikidata
   locator: Q1280568
   reliability: database
-  note: programmatic seed — verify against a graded source; term dates from P39 start/end
-    qualifiers
+  note: programmatic seed — verify against a graded source; term dates from P39
+    start/end qualifiers
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. Arsenije III (1674–1690) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification Arsenije III Carnojevic;
+    led the Great Migration of 1690 into Habsburg lands and headed the Serbs there
+    until 1706 — the Karlovci line that follows is a separate parallel jurisdiction
+    (backlogged)
 status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source. Milestone C reconciliation 2026-07-10:
+  matched to the standard chronology (Arsenije III, 1674–1690). Arsenije III Carnojevic;
+  led the Great Migration of 1690 into Habsburg lands and headed the Serbs there
+  until 1706 — the Karlovci line that follows is a separate parallel jurisdiction
+  (backlogged).'
 to:
   value: '1690'
   calendar: gregorian

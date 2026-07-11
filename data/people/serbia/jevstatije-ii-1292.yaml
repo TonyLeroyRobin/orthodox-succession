@@ -1,0 +1,13 @@
+id: person/serbia/jevstatije-ii-1292
+names:
+  monastic: Jevstatije II
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. Jevstatije II (1292–1309) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.

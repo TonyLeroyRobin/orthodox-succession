@@ -1,0 +1,21 @@
+id: tenure/serbia/nikodim-i-1316@belgrade
+person: person/serbia/nikodim-i-1316
+see: see/serbia/belgrade
+from:
+  value: '1316'
+  calendar: julian
+  precision: year
+to:
+  value: '1324'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. Nikodim I (1316–1324) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.

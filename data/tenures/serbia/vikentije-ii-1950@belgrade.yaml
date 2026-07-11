@@ -1,0 +1,21 @@
+id: tenure/serbia/vikentije-ii-1950@belgrade
+person: person/serbia/vikentije-ii-1950
+see: see/serbia/belgrade
+from:
+  value: '1950'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1958'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. Vikentije II (1950–1958) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.

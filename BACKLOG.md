@@ -23,3 +23,4 @@ current milestone (ROADMAP_ADDENDUM.md §A4).
 | Enter the Czech Lands & Slovakia primatial line manually (no Wikidata office item) | 2026-07-10 | Milestone C |
 | Cross-jurisdiction person deduplication (same human in two dirs: Meletios Pigas, Meletios Metaxakis, Cyril Loukaris, Kosmas II/III — Alexandria↔Constantinople) | 2026-07-10 | Milestone C wrap-up / verification |
 | Metropolitans of Moscow 1325–1589 (Peter → Job's predecessors) + the historical Kyiv metropolitan line — pre-patriarchal Russian succession | 2026-07-10 | post-Milestone C |
+| Metropolitanate/Patriarchate of Karlovci 1690–1920 (parallel Serbian jurisdiction; seeded persons annotated: Rajačić, Maširević, Anđelić, Branković, Bogdanović) | 2026-07-10 | post-Milestone C |

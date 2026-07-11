@@ -1,0 +1,21 @@
+id: tenure/serbia/sava-ii-1263@belgrade
+person: person/serbia/sava-ii-1263
+see: see/serbia/belgrade
+from:
+  value: '1263'
+  calendar: julian
+  precision: year
+to:
+  value: '1271'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. Sava II (1263–1271) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.

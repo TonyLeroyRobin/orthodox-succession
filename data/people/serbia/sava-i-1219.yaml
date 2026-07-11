@@ -1,0 +1,34 @@
+id: person/serbia/sava-i-1219
+names:
+  monastic: Sava I
+attestation: attested
+veneration:
+  status: saint
+  titles:
+  - Equal-to-the-Apostles (Enlightener of Serbia)
+  - First Archbishop of Serbia
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 01-14
+    calendar: julian
+    note: St Sava, first Archbishop of Serbia
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/01/14
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/01/14
+    note: Year-wildcard archive redirect - pin during verification.
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. Sava I (1219–1233) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification St Sava, first archbishop
+    of the autocephalous Serbian church (1219, under Manuel I of Nicaea); resigned
+    1233, died 1236
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  St Sava, first archbishop of the autocephalous Serbian church (1219, under Manuel
+  I of Nicaea); resigned 1233, died 1236.

@@ -1,0 +1,23 @@
+id: tenure/serbia/dimitrije-pavlovic-1846@belgrade-2
+person: person/serbia/dimitrije-pavlovic-1846
+see: see/serbia/belgrade
+from:
+  value: '1920'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1930'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. Dimitrije (1920–1930) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification first Patriarch of
+    the reunified Serbian Orthodox Church (1920 restoration)
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  first Patriarch of the reunified Serbian Orthodox Church (1920 restoration).

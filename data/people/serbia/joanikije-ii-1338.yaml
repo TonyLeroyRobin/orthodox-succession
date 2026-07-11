@@ -1,0 +1,15 @@
+id: person/serbia/joanikije-ii-1338
+names:
+  monastic: Joanikije II
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. Joanikije II (1338–1346) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification archbishop; raised
+    to patriarch 1346
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  archbishop; raised to patriarch 1346.

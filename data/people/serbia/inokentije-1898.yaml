@@ -1,0 +1,14 @@
+id: person/serbia/inokentije-1898
+names:
+  monastic: Inokentije
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. Inokentije (1898–1905) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification Inokentije Pavlovic
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  Inokentije Pavlovic.

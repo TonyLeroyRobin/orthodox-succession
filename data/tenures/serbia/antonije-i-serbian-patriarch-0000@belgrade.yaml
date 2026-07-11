@@ -1,0 +1,21 @@
+id: tenure/serbia/antonije-i-serbian-patriarch-0000@belgrade
+person: person/serbia/antonije-i-serbian-patriarch-0000
+see: see/serbia/belgrade
+from:
+  value: '1571'
+  calendar: julian
+  precision: year
+to:
+  value: '1575'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. Antonije I (1571–1575) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.

@@ -1,0 +1,25 @@
+id: tenure/serbia/sava-i-1219@belgrade
+person: person/serbia/sava-i-1219
+see: see/serbia/belgrade
+from:
+  value: '1219'
+  calendar: julian
+  precision: year
+to:
+  value: '1233'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. Sava I (1219–1233) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification St Sava, first archbishop
+    of the autocephalous Serbian church (1219, under Manuel I of Nicaea); resigned
+    1233, died 1236
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  St Sava, first archbishop of the autocephalous Serbian church (1219, under Manuel
+  I of Nicaea); resigned 1233, died 1236.

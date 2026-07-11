@@ -1,0 +1,24 @@
+id: tenure/serbia/arsenije-ii-1457@belgrade
+person: person/serbia/arsenije-ii-1457
+see: see/serbia/belgrade
+from:
+  value: '1457'
+  calendar: julian
+  precision: year
+to:
+  value: '1463'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. Arsenije II (1457–1463) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification the patriarchate was
+    then suppressed under Ohrid (1463-1557) — an explained gap, see event/context/suppression-of-pec-1463
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  the patriarchate was then suppressed under Ohrid (1463-1557) — an explained gap,
+  see event/context/suppression-of-pec-1463.

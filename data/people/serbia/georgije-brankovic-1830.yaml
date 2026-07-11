@@ -8,10 +8,12 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+notes: 'Draft seeded from Wikidata (office holders import). Verify name forms, dates,
   calendar, and see assignment against a graded source; the id year is the earliest
   seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
-  record.
+  record. Milestone C reconciliation 2026-07-10: this hierarch belongs to the Metropolitanate/Patriarchate
+  of Karlovci (1690-1920, Habsburg lands) — a parallel jurisdiction backlogged per
+  maintainer decision; he holds no tenure on the Pec/Belgrade spine.'
 identifiers:
   wikidata: Q334181
   viaf: '90477738'

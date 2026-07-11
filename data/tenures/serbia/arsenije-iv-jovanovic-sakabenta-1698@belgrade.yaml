@@ -1,0 +1,24 @@
+id: tenure/serbia/arsenije-iv-jovanovic-sakabenta-1698@belgrade
+person: person/serbia/arsenije-iv-jovanovic-sakabenta-1698
+see: see/serbia/belgrade
+from:
+  value: '1724'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1737'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. Arsenije IV (1724–1737) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification Arsenije IV Jovanovic
+    Sakabenta; led the second migration (1737) and continued at Karlovci until 1748
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  Arsenije IV Jovanovic Sakabenta; led the second migration (1737) and continued
+  at Karlovci until 1748.

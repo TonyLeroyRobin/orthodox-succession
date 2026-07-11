@@ -1,0 +1,14 @@
+id: person/serbia/arsenije-i-1233
+names:
+  monastic: Arsenije I
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. Arsenije I (1233–1263) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification moved the seat to Pec
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  moved the seat to Pec.
