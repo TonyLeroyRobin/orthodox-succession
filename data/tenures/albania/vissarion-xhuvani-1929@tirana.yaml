@@ -1,20 +1,18 @@
-id: tenure/albania/archbishop-joan-of-albania-2025@tirana
-person: person/albania/archbishop-joan-of-albania-2025
+id: tenure/albania/vissarion-xhuvani-1929@tirana
+person: person/albania/vissarion-xhuvani-1929
 see: see/albania/tirana
 from:
-  value: '2025'
+  value: '1929'
   calendar: gregorian
   precision: year
-  note: seeded from Wikidata; verify date, precision, and calendar
-end_reason: unknown
+to:
+  value: '1936'
+  calendar: gregorian
+  precision: year
+end_reason: resigned
 sources:
-- ref: source/wikidata
-  locator: Q13040383
-  reliability: database
-  note: programmatic seed — verify against a graded source; term dates from P39 start/end
-    qualifiers
 - ref: source/fedalto-hierarchia-ecclesiastica-orientalis
-  locator: Albania series, s.v. Joan (Pelushi) (2025-present) — locator to be confirmed
+  locator: Albania series, s.v. Vissarion (Xhuvani) (1929-1936) — locator to be confirmed
   reliability: scholarly
   note: dates transcribed from the standard chronology at year precision (the encyclopedic
     reproduction's day dates were internally inconsistent and discarded — documented); the
@@ -27,6 +25,8 @@ sources:
   note: official church-history page (no diadochal list page found); year-wildcard archive
     redirect — pin during verification
 status: unverified
-notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
-  a diadochal list or scholarly source. Milestone C reconciliation 2026-07-11: matched to
-  the standard chronology (Joan (Pelushi), 2025-present) — elected 11 March 2025; incumbent.'
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.
+  First archbishop under the self-declared (1922, Congress of Berat) autocephaly; consecrated
+  outside the Ecumenical Patriarchate's communion process — his status was regularized retroactively
+  by the 1937 settlement; resigned 1936 in the run-up to the tomos — verify circumstances;
+  recorded, not adjudicated.

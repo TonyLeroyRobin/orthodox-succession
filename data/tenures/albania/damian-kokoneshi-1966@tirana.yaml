@@ -1,20 +1,18 @@
-id: tenure/albania/kryepiskop-paisi-1949@tirana
-person: person/albania/kryepiskop-paisi-1949
+id: tenure/albania/damian-kokoneshi-1966@tirana
+person: person/albania/damian-kokoneshi-1966
 see: see/albania/tirana
 from:
-  value: '1949'
+  value: '1966'
   calendar: gregorian
   precision: year
-  note: seeded from Wikidata; verify date, precision, and calendar
+to:
+  value: '1973'
+  calendar: gregorian
+  precision: year
 end_reason: died
 sources:
-- ref: source/wikidata
-  locator: Q4342211
-  reliability: database
-  note: programmatic seed — verify against a graded source; term dates from P39 start/end
-    qualifiers
 - ref: source/fedalto-hierarchia-ecclesiastica-orientalis
-  locator: Albania series, s.v. Paisi (Vodica) (1949-1966) — locator to be confirmed
+  locator: Albania series, s.v. Damian (Kokoneshi) (1966-1973) — locator to be confirmed
   reliability: scholarly
   note: dates transcribed from the standard chronology at year precision (the encyclopedic
     reproduction's day dates were internally inconsistent and discarded — documented); the
@@ -27,12 +25,7 @@ sources:
   note: official church-history page (no diadochal list page found); year-wildcard archive
     redirect — pin during verification
 status: unverified
-notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
-  a diadochal list or scholarly source. Milestone C reconciliation 2026-07-11: matched to
-  the standard chronology (Paisi (Vodica), 1949-1966) — installed August 1949 after the deposition
-  of Kristofor Kisi; died 4 March 1966.'
-to:
-  value: '1966'
-  calendar: gregorian
-  precision: year
-  note: seeded from Wikidata; verify date, precision, and calendar
+notes: 'Created from the standard chronology during Milestone C reconciliation 2026-07-11.
+  Last primate before the abolition era: the state outlawed all religion in 1967 (see event/context/albanian-abolition-of-religion-1967);
+  he remained titular under house arrest and died 8 October 1973. The 1973-1992 vacancy that
+  follows is the abolition era, not missing data.'

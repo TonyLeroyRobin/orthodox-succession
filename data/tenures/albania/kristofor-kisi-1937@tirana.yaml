@@ -1,20 +1,18 @@
-id: tenure/albania/kryepiskop-paisi-1949@tirana
-person: person/albania/kryepiskop-paisi-1949
+id: tenure/albania/kristofor-kisi-1937@tirana
+person: person/albania/kristofor-kisi-1937
 see: see/albania/tirana
 from:
+  value: '1937'
+  calendar: gregorian
+  precision: year
+to:
   value: '1949'
   calendar: gregorian
   precision: year
-  note: seeded from Wikidata; verify date, precision, and calendar
-end_reason: died
+end_reason: deposed
 sources:
-- ref: source/wikidata
-  locator: Q4342211
-  reliability: database
-  note: programmatic seed — verify against a graded source; term dates from P39 start/end
-    qualifiers
 - ref: source/fedalto-hierarchia-ecclesiastica-orientalis
-  locator: Albania series, s.v. Paisi (Vodica) (1949-1966) — locator to be confirmed
+  locator: Albania series, s.v. Kristofor (Kisi) (1937-1949) — locator to be confirmed
   reliability: scholarly
   note: dates transcribed from the standard chronology at year precision (the encyclopedic
     reproduction's day dates were internally inconsistent and discarded — documented); the
@@ -27,12 +25,7 @@ sources:
   note: official church-history page (no diadochal list page found); year-wildcard archive
     redirect — pin during verification
 status: unverified
-notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
-  a diadochal list or scholarly source. Milestone C reconciliation 2026-07-11: matched to
-  the standard chronology (Paisi (Vodica), 1949-1966) — installed August 1949 after the deposition
-  of Kristofor Kisi; died 4 March 1966.'
-to:
-  value: '1966'
-  calendar: gregorian
-  precision: year
-  note: seeded from Wikidata; verify date, precision, and calendar
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.
+  Archbishop at the 1937 patriarchal tomos of autocephaly; deposed in August 1949 by the communist-aligned
+  church administration — recorded, not adjudicated; some references give 1948 for the removal
+  — divergence to resolve during verification.

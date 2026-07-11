@@ -6,16 +6,31 @@ from:
   calendar: gregorian
   precision: year
   note: seeded from Wikidata; verify date, precision, and calendar
-end_reason: unknown
+end_reason: died
 sources:
 - ref: source/wikidata
   locator: Q486886
   reliability: database
   note: programmatic seed — verify against a graded source; term dates from P39 start/end
     qualifiers
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Albania series, s.v. Anastasios (Yannoulatos) (1992-2025) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology at year precision (the encyclopedic
+    reproduction's day dates were internally inconsistent and discarded — documented); the
+    official site carries a history narrative but no diadochal list page — confirm against
+    the official history and Fedalto during verification
+- ref: source/church-of-albania-official
+  locator: 2026/kisha-jone/historia-e-kishes/
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://orthodoxalbania.org/2026/kisha-jone/historia-e-kishes/
+  note: official church-history page (no diadochal list page found); year-wildcard archive
+    redirect — pin during verification
 status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
+  a diadochal list or scholarly source. Milestone C reconciliation 2026-07-11: matched to
+  the standard chronology (Anastasios (Yannoulatos), 1992-2025) — restorer of the church after
+  the abolition era (elected June 1992); died in office 25 January 2025.'
 to:
   value: '2025'
   calendar: gregorian

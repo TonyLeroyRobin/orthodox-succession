@@ -10,5 +10,11 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: Seat of the Archbishop of Tirana and All Albania. Minimal draft — jurisdiction_history,
-  rank_history, and founding data to be added with sources during verification.
+notes: 'Seat of the Archbishop of Tirana and All Albania. Milestone C (2026-07-11)
+  closed the spine on this see: Vissarion Xhuvani (1929) to Joan Pelushi (2025–,
+  incumbent), 6 tenures. The 1936–1937 seam is the settlement that produced the patriarchal
+  tomos; the 1973–1992 occupancy gap is the state abolition-of-religion era (see
+  event/context/albanian-abolition-of-religion-1967), not missing data. Pre-1992
+  dates are year-precision — the encyclopedic reproduction''s day dates were internally
+  inconsistent and discarded, documented in the citations. jurisdiction_history,
+  rank_history, and founding data still to be added during verification.'

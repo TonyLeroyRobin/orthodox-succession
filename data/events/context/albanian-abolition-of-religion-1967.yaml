@@ -1,0 +1,25 @@
+id: event/context/albanian-abolition-of-religion-1967
+type: context
+title: Albanian state abolition of religion
+date:
+  from:
+    value: '1967'
+    calendar: gregorian
+    precision: year
+  to:
+    value: '1990'
+    calendar: gregorian
+    precision: year
+    note: religious practice legal again from 1990; hierarchy restored 1991-1992
+scope: jurisdiction:jurisdiction/church-of-albania
+description: The Hoxha regime outlawed all religious practice in 1967 and closed every church
+  in Albania; the Orthodox hierarchy was destroyed and not restored until 1991-1992.
+affected:
+- jurisdiction/church-of-albania
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Orthodox Autocephalous Church of Albania
+  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Orthodox_Autocephalous_Church_of_Albania
+status: unverified
+notes: ''

@@ -1,0 +1,24 @@
+id: person/albania/vissarion-xhuvani-1929
+names:
+  monastic: Vissarion
+  family: Xhuvani
+  variants:
+  - Bessarion (Xhuvani)
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Albania series, s.v. Vissarion (Xhuvani) (1929-1936) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology at year precision (the encyclopedic
+    reproduction's day dates were internally inconsistent and discarded — documented); the
+    official site carries a history narrative but no diadochal list page — confirm against
+    the official history and Fedalto during verification
+- ref: source/church-of-albania-official
+  locator: 2026/kisha-jone/historia-e-kishes/
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://orthodoxalbania.org/2026/kisha-jone/historia-e-kishes/
+  note: official church-history page (no diadochal list page found); year-wildcard archive
+    redirect — pin during verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.
+  Life years 1890-1965 per the standard chronology.

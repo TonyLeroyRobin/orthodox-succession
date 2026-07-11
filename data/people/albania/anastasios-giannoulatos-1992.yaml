@@ -1,6 +1,9 @@
 id: person/albania/anastasios-giannoulatos-1992
 names:
-  monastic: Anastasios Giannoulatos
+  monastic: Anastasios
+  variants:
+  - Anastasios Giannoulatos
+  family: Yannoulatos
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -8,9 +11,9 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone C reconciliation 2026-07-11 — matched (Anastasios Yannoulatos, 1992-2025).
 identifiers:
   wikidata: Q486886
   viaf: '25146030497135861628'
