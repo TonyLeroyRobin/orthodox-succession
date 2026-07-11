@@ -1,0 +1,25 @@
+id: tenure/greece/prokopios-ii-1896@athens
+person: person/greece/prokopios-ii-1896
+see: see/greece/athens
+from:
+  value: '1896-10-23'
+  calendar: julian
+  precision: day
+  note: calendar (OS/NS) to be confirmed
+to:
+  value: '1901-11-21'
+  calendar: julian
+  precision: day
+  note: calendar (OS/NS) to be confirmed
+end_reason: resigned
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Greece series, s.v. Prokopios II (1896-1901) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the official ecclesia.gr former-archbishops page was unreachable to automated fetch —
+    documented) — confirm against the official list and Fedalto during verification; pre-1924
+    day dates may be old style (OS/NS to be confirmed)
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.
+  Removed/resigned in the aftermath of the November 1901 Evangelika riots — verify circumstances.

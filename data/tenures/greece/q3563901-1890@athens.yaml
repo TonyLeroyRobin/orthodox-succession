@@ -1,0 +1,24 @@
+id: tenure/greece/q3563901-1890@athens
+person: person/greece/q3563901-1890
+see: see/greece/athens
+from:
+  value: '1957-08-07'
+  calendar: gregorian
+  precision: day
+to:
+  value: '1962-01-08'
+  calendar: gregorian
+  precision: day
+end_reason: died
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Greece series, s.v. Theoklitos II (1957-1962) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the official ecclesia.gr former-archbishops page was unreachable to automated fetch —
+    documented) — confirm against the official list and Fedalto during verification; pre-1924
+    day dates may be old style (OS/NS to be confirmed)
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.
+  Person record is the formerly unlabeled Wikidata seed Q3563901 — the identification rests
+  on the seeded lifespan (1890-1962) matching Theoklitos II; verify.

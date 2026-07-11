@@ -1,0 +1,15 @@
+id: person/greece/misail-1862
+names:
+  monastic: Misail
+  family: Apostolidis
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Greece series, s.v. Misail (1862-1862) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the official ecclesia.gr former-archbishops page was unreachable to automated fetch —
+    documented) — confirm against the official list and Fedalto during verification; pre-1924
+    day dates may be old style (OS/NS to be confirmed)
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.

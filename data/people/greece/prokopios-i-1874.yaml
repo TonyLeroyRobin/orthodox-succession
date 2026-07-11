@@ -1,0 +1,16 @@
+id: person/greece/prokopios-i-1874
+names:
+  monastic: Prokopios I
+  variants:
+  - Procopius I
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Greece series, s.v. Prokopios I (1874-1889) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the official ecclesia.gr former-archbishops page was unreachable to automated fetch —
+    documented) — confirm against the official list and Fedalto during verification; pre-1924
+    day dates may be old style (OS/NS to be confirmed)
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.

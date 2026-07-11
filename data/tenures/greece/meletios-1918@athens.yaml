@@ -6,16 +6,27 @@ from:
   calendar: gregorian
   precision: year
   note: seeded from Wikidata; verify date, precision, and calendar
-end_reason: unknown
+end_reason: deposed
 sources:
 - ref: source/wikidata
   locator: Q919288
   reliability: database
   note: programmatic seed — verify against a graded source; term dates from P39 start/end
     qualifiers
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Greece series, s.v. Meletios III (1918-1920) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the official ecclesia.gr former-archbishops page was unreachable to automated fetch —
+    documented) — confirm against the official list and Fedalto during verification; pre-1924
+    day dates may be old style (OS/NS to be confirmed)
 status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
+  a diadochal list or scholarly source. Milestone C reconciliation 2026-07-11: matched to
+  the standard chronology (Meletios III, 1918-1920). chronology day dates 13 March 1918 -
+  29 November 1920; removed after the November 1920 elections (deposed); later Ecumenical
+  Patriarch Meletios IV and Pope of Alexandria Meletios II — cross-jurisdiction person, cf.
+  the BACKLOG dedup line.'
 to:
   value: '1920'
   calendar: gregorian

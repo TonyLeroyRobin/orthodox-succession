@@ -1,0 +1,24 @@
+id: tenure/greece/theophilos-1862@athens
+person: person/greece/theophilos-1862
+see: see/greece/athens
+from:
+  value: '1862-08-08'
+  calendar: julian
+  precision: day
+  note: calendar (OS/NS) to be confirmed
+to:
+  value: '1873-07-15'
+  calendar: julian
+  precision: day
+  note: calendar (OS/NS) to be confirmed
+end_reason: died
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Greece series, s.v. Theophilos (1862-1873) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the official ecclesia.gr former-archbishops page was unreachable to automated fetch —
+    documented) — confirm against the official list and Fedalto during verification; pre-1924
+    day dates may be old style (OS/NS to be confirmed)
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.

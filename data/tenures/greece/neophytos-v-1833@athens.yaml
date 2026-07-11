@@ -1,0 +1,27 @@
+id: tenure/greece/neophytos-v-1833@athens
+person: person/greece/neophytos-v-1833
+see: see/greece/athens
+from:
+  value: '1833-12-02'
+  calendar: julian
+  precision: day
+  note: calendar (OS/NS) to be confirmed
+to:
+  value: '1862-01-10'
+  calendar: julian
+  precision: day
+  note: calendar (OS/NS) to be confirmed
+end_reason: died
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Greece series, s.v. Neophytos V (1833-1862) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the official ecclesia.gr former-archbishops page was unreachable to automated fetch —
+    documented) — confirm against the official list and Fedalto during verification; pre-1924
+    day dates may be old style (OS/NS to be confirmed)
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.
+  First primate of the autocephalous Church of Greece (self-declared 1833; regularized by
+  the tomos of 1850). The two preceding EP-era metropolitans (Gregory IV 1827-1828, Anthimus
+  VII 1828-1833) precede the autocephalous jurisdiction and are backlogged.

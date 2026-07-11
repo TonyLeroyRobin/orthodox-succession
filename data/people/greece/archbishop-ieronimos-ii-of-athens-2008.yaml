@@ -1,8 +1,11 @@
 id: person/greece/archbishop-ieronimos-ii-of-athens-2008
 names:
-  monastic: Ieronimos II of Athens
+  monastic: Ieronymos II
   variants:
   - Archbishop Ieronimos II of Athens
+  - Ieronimos II of Athens
+  - Ieronimos II
+  family: Liapis
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -10,9 +13,10 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone C reconciliation 2026-07-11 — matched (Ieronymos II, 2008-present, incumbent).
+  Display name normalized per DATA_COMPLETION §3.
 identifiers:
   wikidata: Q442703
   viaf: '232314384'

@@ -1,0 +1,22 @@
+id: tenure/greece/dorotheus-of-athens-1888@athens
+person: person/greece/dorotheus-of-athens-1888
+see: see/greece/athens
+from:
+  value: '1956-03-29'
+  calendar: gregorian
+  precision: day
+to:
+  value: '1957-07-26'
+  calendar: gregorian
+  precision: day
+end_reason: died
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Greece series, s.v. Dorotheos III (1956-1957) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the official ecclesia.gr former-archbishops page was unreachable to automated fetch —
+    documented) — confirm against the official list and Fedalto during verification; pre-1924
+    day dates may be old style (OS/NS to be confirmed)
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.

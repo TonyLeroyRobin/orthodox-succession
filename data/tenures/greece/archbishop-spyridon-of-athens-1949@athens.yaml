@@ -6,18 +6,28 @@ from:
   calendar: gregorian
   precision: year
   note: seeded from Wikidata; verify date, precision, and calendar
-end_reason: unknown
+end_reason: died
 sources:
 - ref: source/wikidata
   locator: Q2367723
   reliability: database
   note: programmatic seed — verify against a graded source; term dates from P39 start/end
     qualifiers
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Greece series, s.v. Spyridon (1949-1956) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the official ecclesia.gr former-archbishops page was unreachable to automated fetch —
+    documented) — confirm against the official list and Fedalto during verification; pre-1924
+    day dates may be old style (OS/NS to be confirmed)
 status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
+  a diadochal list or scholarly source. Milestone C reconciliation 2026-07-11: matched to
+  the standard chronology (Spyridon, 1949-1956). chronology day dates 4 June 1949 - 21 March
+  1956 (died).'
 to:
-  value: '1956'
+  value: '1956-03-21'
   calendar: gregorian
-  precision: year
-  note: seeded from Wikidata; verify date, precision, and calendar
+  precision: day
+  note: seeded year (1956) refined to the standard chronology day date during Milestone C
+    2026-07-11 - verify against the official list

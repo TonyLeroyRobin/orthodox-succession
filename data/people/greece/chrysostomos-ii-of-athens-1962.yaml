@@ -1,6 +1,10 @@
 id: person/greece/chrysostomos-ii-of-athens-1962
 names:
-  monastic: Chrysostomos II of Athens
+  monastic: Chrysostomos II
+  variants:
+  - Chrysostomos II of Athens
+  - Hatzistavrou
+  family: Chatzistavrou
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -8,9 +12,10 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone C reconciliation 2026-07-11 — matched (Chrysostomos II, 1962-1967). Display name
+  normalized per DATA_COMPLETION §3.
 identifiers:
   wikidata: Q2967427
   viaf: '24314986'

@@ -1,6 +1,10 @@
 id: person/greece/theoklitos-i-of-athens-1848
 names:
-  monastic: Theoklitos I of Athens
+  monastic: Theoklitos I
+  variants:
+  - Theoklitos I of Athens
+  - Theocletus I
+  family: Minopoulos
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -8,10 +12,11 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
-  record.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Milestone C reconciliation
+  2026-07-11 — matched (Theoklitos I, 1902-1917 and restored 1920-1922); two tenures created.
+  Display name normalized per DATA_COMPLETION §3.
 identifiers:
   wikidata: Q12874090
   viaf: '308742722'

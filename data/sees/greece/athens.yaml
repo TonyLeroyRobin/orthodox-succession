@@ -10,5 +10,15 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: Seat of the Archbishop of Athens and All Greece. Minimal draft — jurisdiction_history,
-  rank_history, and founding data to be added with sources during verification.
+notes: 'Seat of the Archbishop of Athens and All Greece. Milestone C (2026-07-11)
+  closed the spine of the autocephalous Church of Greece on this see: Neophytos V
+  (1833) to Ieronymos II (incumbent), 24 chronology rows carried as 23 tenures (Chrysostomos
+  I''s split at the 31 December 1923 metropolitan-to-archbishop restyling is carried
+  as one tenure with a note). Out of scope and backlogged: the ancient bishops/metropolitans
+  of Athens (to 1827) and the two EP-era metropolitans of the revolution period (Gregory
+  IV 1827–1828, Anthimus VII 1828–1833). The 20th-century turbulence (the National
+  Schism removals of Theoklitos I and Meletios III, the annulled 1938 election of
+  Damaskinos, the occupation-era removal of Chrysanthos, the junta-era removal of
+  Chrysostomos II) is recorded with end_reason values and notes, not adjudicated.
+  jurisdiction_history, rank_history, and founding data still to be added during
+  verification.'

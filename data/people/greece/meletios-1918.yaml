@@ -1,6 +1,11 @@
 id: person/greece/meletios-1918
 names:
-  monastic: Meletios
+  monastic: Meletios III
+  variants:
+  - Meletios
+  - Meletius III
+  - Meletios Metaxakis
+  family: Metaxakis
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -8,9 +13,11 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone C reconciliation 2026-07-11 — matched (Meletios III, 1918-1920); later Ecumenical
+  Patriarch Meletios IV (1921-1923) and Pope of Alexandria Meletios II (1926-1935) — cross-jurisdiction
+  person, cf. the BACKLOG dedup line. Display name normalized per DATA_COMPLETION §3.
 identifiers:
   wikidata: Q919288
   viaf: '526159474178927661254'

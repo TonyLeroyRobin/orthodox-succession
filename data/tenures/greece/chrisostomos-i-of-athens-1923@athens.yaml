@@ -6,16 +6,27 @@ from:
   calendar: gregorian
   precision: year
   note: seeded from Wikidata; verify date, precision, and calendar
-end_reason: unknown
+end_reason: died
 sources:
 - ref: source/wikidata
   locator: Q11690362
   reliability: database
   note: programmatic seed — verify against a graded source; term dates from P39 start/end
     qualifiers
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Greece series, s.v. Chrysostomos I (1923-1938) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the official ecclesia.gr former-archbishops page was unreachable to automated fetch —
+    documented) — confirm against the official list and Fedalto during verification; pre-1924
+    day dates may be old style (OS/NS to be confirmed)
 status: unverified
-notes: Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source.
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
+  a diadochal list or scholarly source. Milestone C reconciliation 2026-07-11: matched to
+  the standard chronology (Chrysostomos I, 1923-1938). chronology day dates 8 March 1923 -
+  22 October 1938 (died); the standard chronology splits this tenure at 31 December 1923,
+  when the primate''s style changed from metropolitan to archbishop — carried here as ONE
+  tenure with this note (the Romania/Grigorie II merge precedent).'
 to:
   value: '1938'
   calendar: gregorian

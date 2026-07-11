@@ -1,8 +1,11 @@
 id: person/greece/archbishop-ieronimos-i-of-athens-1967
 names:
-  monastic: Ieronimos I of Athens
+  monastic: Ieronymos I
   variants:
   - Archbishop Ieronimos I of Athens
+  - Ieronimos I of Athens
+  - Ieronimos I
+  family: Kotsonis
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -10,9 +13,10 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone C reconciliation 2026-07-11 — matched (Ieronymos I, 1967-1973). Display name normalized
+  per DATA_COMPLETION §3.
 identifiers:
   wikidata: Q2599189
   viaf: '16127561'

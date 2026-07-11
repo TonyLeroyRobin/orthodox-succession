@@ -1,0 +1,25 @@
+id: tenure/greece/theoklitos-i-of-athens-1848@athens-2
+person: person/greece/theoklitos-i-of-athens-1848
+see: see/greece/athens
+from:
+  value: '1920-11-29'
+  calendar: julian
+  precision: day
+  note: calendar (OS/NS) to be confirmed
+to:
+  value: '1922-12-16'
+  calendar: julian
+  precision: day
+  note: calendar (OS/NS) to be confirmed
+end_reason: deposed
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Greece series, s.v. Theoklitos I (1920-1922) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the official ecclesia.gr former-archbishops page was unreachable to automated fetch —
+    documented) — confirm against the official list and Fedalto during verification; pre-1924
+    day dates may be old style (OS/NS to be confirmed)
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.
+  Restored after the November 1920 elections; removed again December 1922 — verify.

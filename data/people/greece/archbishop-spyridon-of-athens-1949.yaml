@@ -1,8 +1,10 @@
 id: person/greece/archbishop-spyridon-of-athens-1949
 names:
-  monastic: Spyridon of Athens
+  monastic: Spyridon
   variants:
   - Archbishop Spyridon of Athens
+  - Spyridon of Athens
+  family: Vlachos
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -10,9 +12,10 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone C reconciliation 2026-07-11 — matched (Spyridon, 1949-1956). Display name normalized
+  per DATA_COMPLETION §3.
 identifiers:
   wikidata: Q2367723
 born:

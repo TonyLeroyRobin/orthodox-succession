@@ -31,3 +31,5 @@ current milestone (ROADMAP_ADDENDUM.md §A4).
 | Catholicate of Abkhazia/Imereti (western Georgia, 13th c.–1795) — parallel Georgian jurisdiction, the Karlovci pattern | 2026-07-11 | post-Milestone C |
 | Georgian ordinal-scheme reconciliation: standard chronology vs official numbering (Nikoloz, David, Okropiri/Ioane lines; 6 seeded persons deliberately unlinked, Germene↔Nikoloz VI span conflict, Melkisedek I death 1033 vs restored term) | 2026-07-11 | verification session |
 | Cyprus full archiepiscopal succession 431–1947 (~90+ occupants incl. Leontios Jun–Jul 1947; Latin-period 1191–1571 complexities, Bulla Cypria) + suffragan tenure lists | 2026-07-11 | post-Milestone C (audit-only scope per §3) |
+| Athens pre-1833 line: ancient bishops/metropolitans (Dionysius the Areopagite tradition onward) + the EP-era revolution metropolitans (Gregory IV 1827–1828, Anthimus VII 1828–1833) | 2026-07-11 | post-Milestone C |
+| Thessalonica line beyond the Palamas anchor (see/greece/thessalonica has 1 tenure; under Constantinople until 1912/1928 New Lands — jurisdiction_history wrinkle) | 2026-07-11 | post-Milestone C |

@@ -1,8 +1,11 @@
 id: person/greece/archbishop-serafim-of-athens-1974
 names:
-  monastic: Serafim of Athens
+  monastic: Seraphim
   variants:
   - Archbishop Serafim of Athens
+  - Serafim of Athens
+  - Serafim
+  family: Tikas
 attestation: attested
 sources:
 - ref: source/wikidata
@@ -10,9 +13,10 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone C reconciliation 2026-07-11 — matched (Seraphim, 1974-1998). Display name normalized
+  per DATA_COMPLETION §3.
 identifiers:
   wikidata: Q2593381
   viaf: '13743076'
