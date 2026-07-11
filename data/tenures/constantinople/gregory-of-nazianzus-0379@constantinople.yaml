@@ -29,3 +29,9 @@ to:
   calendar: julian
   precision: year
   note: seeded from Wikidata; verify date, precision, and calendar
+recognition:
+- by: all
+  status: disputed
+  note: term overlaps tenure/constantinople/demophilus-of-constantinople-0000@constantinople
+    as dated on the official list — deposition/restoration alternation or traditional
+    chronology; recorded as given, not adjudicated

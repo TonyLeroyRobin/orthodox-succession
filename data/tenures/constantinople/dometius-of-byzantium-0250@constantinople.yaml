@@ -1,0 +1,19 @@
+id: tenure/constantinople/dometius-of-byzantium-0250@constantinople
+person: person/constantinople/dometius-of-byzantium-0250
+see: see/constantinople/constantinople
+from:
+  value: 0293
+  calendar: julian
+  precision: disputed
+  note: the official list gives NO dates for Dometios; placed between Ruphinos I
+    (284-293) and Probos (303-315) in list order — other traditional lists give
+    272-284
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Dometios ?–?'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.
+  Traditional dates — Orthodox Tradition, recorded as given.

@@ -1,0 +1,19 @@
+id: tenure/constantinople/gerasimus-iii-of-constantinople-1710@constantinople
+person: person/constantinople/gerasimus-iii-of-constantinople-1710
+see: see/constantinople/constantinople
+from:
+  value: '1794'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1797'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Gerasimos III 1794–1797'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

@@ -1,0 +1,16 @@
+id: person/constantinople/john-xii-1294
+names:
+  monastic: John XII
+  variants:
+  - John XII Kosmas
+attestation: attested
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: "entry: John XII 1294–1304"
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: >-
+  Created from the official EP list during Milestone C reconciliation
+  2026-07-10 (the entry had been missed by the chunked list extraction and
+  was recovered during acceptance when the gap report flagged 1293-1304).

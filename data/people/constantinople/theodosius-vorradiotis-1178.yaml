@@ -1,0 +1,15 @@
+id: person/constantinople/theodosius-vorradiotis-1178
+names:
+  monastic: Theodosius Vorradiotis
+attestation: attested
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: "entry: Theodosius Vorradiotis 1178–1183"
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: >-
+  Created from the official EP list during Milestone C reconciliation
+  2026-07-10; his tenure had initially been mislinked to Dositheos
+  (name-similarity artifact caught by the post-run audit) and was
+  reassigned the same day.

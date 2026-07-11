@@ -1,0 +1,19 @@
+id: tenure/constantinople/cyril-iv-of-constantinople-1650@constantinople
+person: person/constantinople/cyril-iv-of-constantinople-1650
+see: see/constantinople/constantinople
+from:
+  value: '1711'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1713'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Cyril IV 1711–1713'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

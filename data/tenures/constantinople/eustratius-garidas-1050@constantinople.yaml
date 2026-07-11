@@ -1,0 +1,19 @@
+id: tenure/constantinople/eustratius-garidas-1050@constantinople
+person: person/constantinople/eustratius-garidas-1050
+see: see/constantinople/constantinople
+from:
+  value: '1081'
+  calendar: julian
+  precision: year
+to:
+  value: '1084'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Efstratius Garidas 1081–1084'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

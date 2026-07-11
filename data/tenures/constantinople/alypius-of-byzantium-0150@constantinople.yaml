@@ -1,0 +1,21 @@
+id: tenure/constantinople/alypius-of-byzantium-0150@constantinople
+person: person/constantinople/alypius-of-byzantium-0150
+see: see/constantinople/constantinople
+from:
+  value: '0166'
+  calendar: julian
+  precision: circa
+  note: traditional date (Orthodox Tradition)
+to:
+  value: 0169
+  calendar: julian
+  precision: circa
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Alypios 166–169'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.
+  Traditional dates — Orthodox Tradition, recorded as given.

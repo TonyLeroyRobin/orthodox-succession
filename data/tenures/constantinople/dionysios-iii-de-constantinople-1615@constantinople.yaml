@@ -1,0 +1,19 @@
+id: tenure/constantinople/dionysios-iii-de-constantinople-1615@constantinople
+person: person/constantinople/dionysios-iii-de-constantinople-1615
+see: see/constantinople/constantinople
+from:
+  value: '1662'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1665'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Dionysios III 1662–1665'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

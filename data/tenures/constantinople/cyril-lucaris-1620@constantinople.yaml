@@ -13,11 +13,16 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source; term dates from P39
     start/end qualifiers
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Cyril I Lucaris 1620–1623'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
 status: unverified
 notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
   against a diadochal list or scholarly source. Verification pass 2026-07-08: NOT
   corroborated by the official EP list as fetched — check name form and dates manually
-  against Kiminas/Grumel.'
+  against Kiminas/Grumel. Milestone C reconciliation 2026-07-10: matched to the
+  official list entry Cyril I Lucaris 1620-1623.'
 to:
   value: '1623'
   calendar: gregorian

@@ -1,0 +1,51 @@
+id: person/constantinople/andrew-the-apostle-0038
+names:
+  monastic: "Andrew"
+  native:
+    - script: grc
+      value: "Ἀνδρέας"
+  variants:
+    - "Andrew the Apostle"
+    - "Andrew the First-Called"
+died:
+  date:
+    value: "0062"
+    calendar: julian
+    precision: circa
+    note: "martyred at Patras by tradition; date not attested in any contemporary document"
+  place: "Patras, Achaia (tradition)"
+attestation: attested
+veneration:
+  status: saint
+  titles:
+    - "Apostle"
+    - "First-Called"
+  recognition:
+    - by: universal
+  feast_days:
+    - month_day: "11-30"
+      calendar: julian
+      note: "The Holy and All-Praised Apostle Andrew the First-Called — the official EP list itself notes 30 November against his entry"
+  sources:
+    - ref: source/oca-saints
+      locator: /saints/lives/2026/11/30
+      reliability: official-list
+      archived_url: "https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/11/30"
+      note: "Year-wildcard archive redirect — pin during verification."
+sources:
+  - ref: source/acts-of-the-apostles
+    locator: "Acts 1:13"
+    reliability: primary
+    note: "primary for his existence among the Twelve; not for the Byzantium mission"
+  - ref: source/ep-council-patriarch-list
+    locator: "entry: Andrew the Apostle and Founder of the Church of Constantinople"
+    reliability: official-list
+    archived_url: "http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html"
+    note: "the official list heads the succession with Andrew as Founder"
+status: unverified
+notes: >-
+  Apostle; founder of the church at Byzantium per Orthodox Tradition (the
+  official EP list heads its succession with him as Founder, not as an
+  occupant — he holds no tenure here, matching the Peter/Paul founder
+  pattern at Rome). The Byzantium mission is tradition-grade; recorded
+  honestly, graded honestly.

@@ -1,0 +1,19 @@
+id: tenure/constantinople/antony-ii-of-constantinople-0829@constantinople
+person: person/constantinople/antony-ii-of-constantinople-0829
+see: see/constantinople/constantinople
+from:
+  value: 0893
+  calendar: julian
+  precision: year
+to:
+  value: 0901
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Antonios II Kauleas 893–901'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

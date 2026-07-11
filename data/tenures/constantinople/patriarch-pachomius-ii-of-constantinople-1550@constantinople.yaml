@@ -1,0 +1,19 @@
+id: tenure/constantinople/patriarch-pachomius-ii-of-constantinople-1550@constantinople
+person: person/constantinople/patriarch-pachomius-ii-of-constantinople-1550
+see: see/constantinople/constantinople
+from:
+  value: '1584'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1585'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Pachomius II 1584–1585'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

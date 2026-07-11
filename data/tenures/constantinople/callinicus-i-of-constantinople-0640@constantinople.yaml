@@ -1,0 +1,19 @@
+id: tenure/constantinople/callinicus-i-of-constantinople-0640@constantinople
+person: person/constantinople/callinicus-i-of-constantinople-0640
+see: see/constantinople/constantinople
+from:
+  value: 0693
+  calendar: julian
+  precision: year
+to:
+  value: '0705'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Callinicus I 693–705'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

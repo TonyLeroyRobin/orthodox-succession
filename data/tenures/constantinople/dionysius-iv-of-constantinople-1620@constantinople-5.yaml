@@ -1,0 +1,22 @@
+id: tenure/constantinople/dionysius-iv-of-constantinople-1620@constantinople-5
+person: person/constantinople/dionysius-iv-of-constantinople-1620
+see: see/constantinople/constantinople
+from:
+  value: '1676'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1679'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Dionysios IV 1676-1679 (2nd term)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10;
+  this term had been consumed by a name-similarity mislink (Athanasius IV) caught
+  during acceptance and was restored. Term ordinal -5 reflects creation order, not
+  historical sequence - the official sequence is 1671, 1676, 1682, 1686, 1693.

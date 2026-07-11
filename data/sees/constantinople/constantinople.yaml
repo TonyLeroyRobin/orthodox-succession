@@ -1,5 +1,15 @@
 id: see/constantinople/constantinople
 name: Constantinople (New Rome)
+apostolic_founder:
+  person: person/constantinople/andrew-the-apostle-0038
+  sources:
+  - ref: source/ep-council-patriarch-list
+    locator: "entry: Andrew the Apostle and Founder of the Church of Constantinople"
+    reliability: official-list
+    archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+    note: the founding claim is Orthodox Tradition (the apostle's Byzantium
+      mission); the official list heads its succession with Andrew as
+      Founder — recorded as tradition, graded honestly
 location:
   lat: 41.008
   lon: 28.98
@@ -10,6 +20,7 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: Seat of the Ecumenical Patriarch, at the Phanar in Istanbul since 1601. Minimal
-  draft — jurisdiction_history, rank_history, and founding data to be added with
-  sources during verification.
+notes: Seat of the Ecumenical Patriarch, at the Phanar in Istanbul since 1601.
+  Apostolic founder Andrew added during the Milestone C reconciliation
+  (2026-07-10) per the official list, tradition-graded. jurisdiction_history
+  and rank_history still to be added with sources during verification.

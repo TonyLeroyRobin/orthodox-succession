@@ -1,0 +1,21 @@
+id: tenure/constantinople/meletius-i-pegas-1549@constantinople
+person: person/constantinople/meletius-i-pegas-1549
+see: see/constantinople/constantinople
+from:
+  value: '1597'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1598'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Meletius I Pigas 1597–1598'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.
+  The official list marks this term 'overseer' (locum) — kept as listed, with this
+  caveat.

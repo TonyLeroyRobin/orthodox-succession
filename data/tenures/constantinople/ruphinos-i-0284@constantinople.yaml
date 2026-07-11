@@ -1,0 +1,21 @@
+id: tenure/constantinople/ruphinos-i-0284@constantinople
+person: person/constantinople/ruphinos-i-0284
+see: see/constantinople/constantinople
+from:
+  value: 0284
+  calendar: julian
+  precision: circa
+  note: traditional date (Orthodox Tradition)
+to:
+  value: 0293
+  calendar: julian
+  precision: circa
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Ruphinos I 284–293'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.
+  Traditional dates — Orthodox Tradition, recorded as given.

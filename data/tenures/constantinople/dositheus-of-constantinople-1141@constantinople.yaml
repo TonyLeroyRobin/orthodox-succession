@@ -1,0 +1,25 @@
+id: tenure/constantinople/dositheus-of-constantinople-1141@constantinople
+person: person/constantinople/dositheus-of-constantinople-1141
+see: see/constantinople/constantinople
+from:
+  value: '1190'
+  calendar: julian
+  precision: year
+to:
+  value: '1191'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: "entry: Dositheos 1190–1191"
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: >-
+  Created from the official EP list during Milestone C reconciliation
+  2026-07-10; consolidated to the base tenure id after the mislinked
+  1178-1183 term (Theodosius Vorradiotis) was reassigned to its own
+  person. Dositheos also held the throne for days in February 1189 before
+  Leontius — the official list records only the 1190-1191 term; the brief
+  1189 claim can be added as a disputed term during verification.

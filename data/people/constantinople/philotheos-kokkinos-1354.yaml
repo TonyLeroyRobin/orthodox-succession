@@ -1,0 +1,11 @@
+id: person/constantinople/philotheos-kokkinos-1354
+names:
+  monastic: Philotheos Kokkinos
+attestation: attested
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Philotheos Kokkinos 1354–1355'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

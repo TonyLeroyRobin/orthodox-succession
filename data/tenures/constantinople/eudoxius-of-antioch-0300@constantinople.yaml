@@ -1,0 +1,19 @@
+id: tenure/constantinople/eudoxius-of-antioch-0300@constantinople
+person: person/constantinople/eudoxius-of-antioch-0300
+see: see/constantinople/constantinople
+from:
+  value: '0360'
+  calendar: julian
+  precision: year
+to:
+  value: '0370'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Eudoxius 360–370'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

@@ -1,0 +1,11 @@
+id: person/constantinople/samuel-i-1763
+names:
+  monastic: Samuel I
+attestation: attested
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Samuel I 1763–1768'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

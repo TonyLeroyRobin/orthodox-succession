@@ -1,0 +1,27 @@
+id: tenure/constantinople/titos-0242@constantinople
+person: person/constantinople/titos-0242
+see: see/constantinople/constantinople
+from:
+  value: '0242'
+  calendar: julian
+  precision: circa
+  note: traditional date (Orthodox Tradition)
+to:
+  value: '0272'
+  calendar: julian
+  precision: circa
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Titos 242–272'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.
+  Traditional dates — Orthodox Tradition, recorded as given.
+recognition:
+- by: all
+  status: disputed
+  note: term overlaps tenure/constantinople/eugenius-i-0200@constantinople as dated
+    on the official list — deposition/restoration alternation or traditional chronology;
+    recorded as given, not adjudicated

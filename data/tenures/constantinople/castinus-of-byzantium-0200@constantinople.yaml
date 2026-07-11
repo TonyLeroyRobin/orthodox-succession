@@ -1,0 +1,21 @@
+id: tenure/constantinople/castinus-of-byzantium-0200@constantinople
+person: person/constantinople/castinus-of-byzantium-0200
+see: see/constantinople/constantinople
+from:
+  value: '0230'
+  calendar: julian
+  precision: circa
+  note: traditional date (Orthodox Tradition)
+to:
+  value: '0237'
+  calendar: julian
+  precision: circa
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Castinos 230–237'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.
+  Traditional dates — Orthodox Tradition, recorded as given.

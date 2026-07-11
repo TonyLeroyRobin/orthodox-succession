@@ -8,8 +8,12 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+notes: 'Draft seeded from Wikidata (office holders import). Verify name forms, dates,
   calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+  seeded term start. Milestone C reconciliation 2026-07-10: Dorotheos (Mammelis)
+  of Prussa administered the Ecumenical Throne as locum tenens during the 1918-1921
+  interregnum; the official list records an interregnum, not an occupancy, so his
+  seeded tenure record was removed pre-publication per maintainer decision. He was
+  never patriarch.'
 identifiers:
   wikidata: Q11917712

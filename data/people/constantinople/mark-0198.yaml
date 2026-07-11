@@ -1,0 +1,16 @@
+id: person/constantinople/mark-0198
+names:
+  monastic: Mark
+attestation: legendary
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Mark 198–211'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+  note: Traditional early-Byzantium chronology — Orthodox Tradition, recorded as
+    given per maintainer direction.
+status: unverified
+notes: 'Created from the official EP list during Milestone C reconciliation 2026-07-10.
+  Attestation legendary: the pre-Metrophanes list of bishops of Byzantium is Orthodox
+  Tradition; scholarship regards it as a later construction — recorded honestly,
+  graded honestly.'

@@ -1,0 +1,19 @@
+id: tenure/constantinople/john-xiv-of-constantinople-1282@constantinople
+person: person/constantinople/john-xiv-of-constantinople-1282
+see: see/constantinople/constantinople
+from:
+  value: '1334'
+  calendar: julian
+  precision: year
+to:
+  value: '1347'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: John XIV Kalekas 1334–1347'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

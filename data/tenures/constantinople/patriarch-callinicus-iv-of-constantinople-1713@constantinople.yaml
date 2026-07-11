@@ -1,0 +1,25 @@
+id: tenure/constantinople/patriarch-callinicus-iv-of-constantinople-1713@constantinople
+person: person/constantinople/patriarch-callinicus-iv-of-constantinople-1713
+see: see/constantinople/constantinople
+from:
+  value: '1757'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1757'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: "entry: Callinicus III 1757"
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: >-
+  Created from the official EP list during Milestone C reconciliation
+  2026-07-10. Numbering divergence recorded, not adjudicated: the official
+  list numbers this 1757 patriarch Callinicus III; Wikidata (Q2934212,
+  1713-1791) and other reference works number him Callinicus IV, counting
+  the 1726 patriarch-elect as III. The person record keeps its seeded id;
+  reconcile numbering during verification.

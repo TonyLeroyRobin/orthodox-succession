@@ -1,0 +1,19 @@
+id: tenure/constantinople/manuel-ii-of-constantinople-1150@constantinople
+person: person/constantinople/manuel-ii-of-constantinople-1150
+see: see/constantinople/constantinople
+from:
+  value: '1240'
+  calendar: julian
+  precision: year
+to:
+  value: '1255'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Manuel II 1240–1255'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

@@ -1,0 +1,19 @@
+id: tenure/constantinople/meletius-ii-1750@constantinople
+person: person/constantinople/meletius-ii-1750
+see: see/constantinople/constantinople
+from:
+  value: '1768'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1769'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Meletius II 1768–1769'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

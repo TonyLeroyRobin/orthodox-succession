@@ -1,0 +1,11 @@
+id: person/constantinople/john-i-chrysostom-0398
+names:
+  monastic: John I Chrysostom
+attestation: attested
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: John I Chrysostom 398–404'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

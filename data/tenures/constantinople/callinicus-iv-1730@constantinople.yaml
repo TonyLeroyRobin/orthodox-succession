@@ -1,0 +1,24 @@
+id: tenure/constantinople/callinicus-iv-1730@constantinople
+person: person/constantinople/callinicus-iv-1730
+see: see/constantinople/constantinople
+from:
+  value: '1801'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1806'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: "entry: Callinicus IV 1801–1806 (1st term)"
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: >-
+  Created from the official EP list during Milestone C reconciliation
+  2026-07-10; term assignment corrected the same day after the chronology
+  validator exposed a numbering mislink (see the person note). The official
+  list numbers this patriarch Callinicus IV; some reference works number
+  him Callinicus V.

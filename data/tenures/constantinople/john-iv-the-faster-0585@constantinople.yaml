@@ -1,0 +1,19 @@
+id: tenure/constantinople/john-iv-the-faster-0585@constantinople
+person: person/constantinople/john-iv-the-faster-0585
+see: see/constantinople/constantinople
+from:
+  value: 0585
+  calendar: julian
+  precision: year
+to:
+  value: 0595
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: John IV the Faster 585–595'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

@@ -1,0 +1,19 @@
+id: tenure/constantinople/jeremies-iv-de-constantinoble-1730@constantinople
+person: person/constantinople/jeremies-iv-de-constantinoble-1730
+see: see/constantinople/constantinople
+from:
+  value: '1809'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1813'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Jeremias IV 1809–1813'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

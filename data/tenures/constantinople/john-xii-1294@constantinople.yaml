@@ -1,0 +1,23 @@
+id: tenure/constantinople/john-xii-1294@constantinople
+person: person/constantinople/john-xii-1294
+see: see/constantinople/constantinople
+from:
+  value: '1294'
+  calendar: julian
+  precision: year
+to:
+  value: '1304'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: "entry: John XII 1294–1304"
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: >-
+  Created from the official EP list during Milestone C reconciliation
+  2026-07-10 (recovered during acceptance — see the person record). His
+  end year as listed (1304) meets Athanasius I's second term (1304-1310);
+  the alternation is the Athanasian controversy, recorded as given.

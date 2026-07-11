@@ -1,0 +1,19 @@
+id: tenure/constantinople/callinicus-ii-of-constantinople-1630@constantinople-3
+person: person/constantinople/callinicus-ii-of-constantinople-1630
+see: see/constantinople/constantinople
+from:
+  value: '1694'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1702'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Callinicus II 1694–1702'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

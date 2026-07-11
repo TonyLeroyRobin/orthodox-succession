@@ -1,0 +1,11 @@
+id: person/constantinople/alexandros-0314
+names:
+  monastic: Alexandros
+attestation: attested
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Alexandros 314–337'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

@@ -1,0 +1,11 @@
+id: person/constantinople/maximian-0431
+names:
+  monastic: Maximian
+attestation: attested
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Maximian 431–434'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

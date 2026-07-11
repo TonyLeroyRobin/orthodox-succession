@@ -1,0 +1,19 @@
+id: tenure/constantinople/athanasios-iii-of-constantinople-1597@constantinople
+person: person/constantinople/athanasios-iii-of-constantinople-1597
+see: see/constantinople/constantinople
+from:
+  value: '1652'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1652'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Athanasius III 1652–1652'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

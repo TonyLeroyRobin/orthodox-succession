@@ -1,0 +1,25 @@
+id: tenure/constantinople/methodios-i-of-constantinople-0788@constantinople
+person: person/constantinople/methodios-i-of-constantinople-0788
+see: see/constantinople/constantinople
+from:
+  value: 0842
+  calendar: julian
+  precision: year
+to:
+  value: 0846
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Methodius I 842–846'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.
+recognition:
+- by: all
+  status: disputed
+  note: term overlaps tenure/constantinople/john-vii-of-constantinople-0837@constantinople
+    as dated on the official list — deposition/restoration alternation or traditional
+    chronology; recorded as given, not adjudicated
