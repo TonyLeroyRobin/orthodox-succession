@@ -1,0 +1,38 @@
+id: person/pre-schism-rome/paul-the-apostle-0060
+names:
+  monastic: Paul
+  baptismal: Saul
+  native:
+  - script: grc
+    value: Παῦλος
+  variants:
+  - Saul of Tarsus
+  - Saint Paul
+died:
+  date:
+    value: '0067'
+    calendar: julian
+    precision: circa
+    note: beheaded at Rome under Nero, c. 64-68 by tradition
+  place: 'Rome (tradition: on the Ostian Way)'
+attestation: attested
+sources:
+- ref: source/acts-of-the-apostles
+  locator: Acts 9; 13-28
+  reliability: primary
+  note: primary for his existence, mission, and arrival at Rome (Acts 28)
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 2.25; 3.2, 3.4
+  reliability: tradition
+  note: martyrdoms of Peter and Paul at Rome under Nero; Linus first bishop after
+    them
+- ref: source/irenaeus-adversus-haereses
+  locator: III.3.2-3
+  reliability: tradition
+  note: the church 'founded and organized at Rome by the two most glorious apostles,
+    Peter and Paul'; the episcopal list then begins with Linus
+status: unverified
+notes: Apostle; co-founder of the Roman church with Peter, per Irenaeus and the
+  universal early tradition. Recorded as apostolic founder on see/pre-schism-rome/rome;
+  he holds no tenure because no enumeration counts him among the occupants of the
+  see. The id year is his traditional arrival at Rome (c. 60-61, Acts 28).

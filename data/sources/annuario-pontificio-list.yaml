@@ -1,0 +1,9 @@
+id: source/annuario-pontificio-list
+type: web
+title: Chronological list of the Roman Pontiffs (Annuario Pontificio-derived, vatican.va)
+url: https://www.vatican.va/content/vatican/en/holy-father.html
+archived_url: https://web.archive.org/web/2025/https://www.vatican.va/content/vatican/en/holy-father.html
+status: unverified
+notes: Official-list grade for the Roman succession. The exact list page and a pinned
+  snapshot are to be confirmed during the Milestone B reconciliation (year-wildcard
+  redirect until then).

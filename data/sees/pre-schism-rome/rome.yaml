@@ -1,0 +1,67 @@
+id: see/pre-schism-rome/rome
+name: Rome (Old Rome)
+jurisdiction_history:
+- jurisdiction: jurisdiction/pre-schism-rome
+  from:
+    value: '0042'
+    calendar: julian
+    precision: circa
+    note: apostolic-era origin by tradition
+  to:
+    value: '1054'
+    calendar: julian
+    precision: year
+rank_history:
+- rank: bishopric
+  from:
+    value: '0042'
+    calendar: julian
+    precision: circa
+- rank: patriarchate
+  from:
+    value: '0451'
+    calendar: julian
+    precision: circa
+    note: first see in the conciliar order of the five patriarchates (Nicaea canon
+      6; Constantinople I canon 3; Chalcedon canon 28)
+founded:
+  date:
+    value: '0042'
+    calendar: julian
+    precision: circa
+    note: traditional date of Peter's arrival; the Roman church certainly predates
+      Paul's Epistle to the Romans (c. 57)
+location:
+  lat: 41.902
+  lon: 12.457
+  modern_place: Rome, Italy
+apostolic_founders:
+- person: person/pre-schism-rome/peter-the-apostle-0042
+  sources:
+  - &id001
+    ref: source/irenaeus-adversus-haereses
+    locator: III.3.2-3
+    reliability: tradition
+    note: the church 'founded and organized at Rome by the two most glorious apostles,
+      Peter and Paul'; the episcopal list then begins with Linus
+  - &id002
+    ref: source/eusebius-ecclesiastical-history
+    locator: HE 2.25; 3.2, 3.4
+    reliability: tradition
+    note: martyrdoms of Peter and Paul at Rome under Nero; Linus first bishop after
+      them
+- person: person/pre-schism-rome/paul-the-apostle-0060
+  sources:
+  - *id001
+  - *id002
+sources:
+- ref: source/liber-pontificalis-duchesne
+  reliability: primary
+  note: locators to be confirmed
+- ref: source/kelly-oxford-dictionary-of-popes
+  reliability: scholarly
+status: unverified
+notes: Both Peter and Paul are recorded as apostolic founders, per Irenaeus and
+  the universal early tradition — neither is subordinated to the other. The succession
+  of occupants is recorded from Peter per the traditional enumeration, with the
+  note that the earliest episcopal lists begin with Linus.

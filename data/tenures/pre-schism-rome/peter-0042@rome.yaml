@@ -1,0 +1,29 @@
+id: tenure/pre-schism-rome/peter-0042@rome
+person: person/pre-schism-rome/peter-the-apostle-0042
+see: see/pre-schism-rome/rome
+from:
+  value: '0042'
+  calendar: julian
+  precision: circa
+  note: traditional start of the 25-year Roman episcopate
+to:
+  value: '0066'
+  calendar: julian
+  precision: circa
+  note: traditional martyrdom under Nero (64-68)
+end_reason: died
+sources:
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 3.2; Chronicle (25-year episcopate)
+  reliability: tradition
+- ref: source/liber-pontificalis-duchesne
+  locator: vita Petri (locator to be confirmed)
+  reliability: tradition
+  note: the Liber Pontificalis is tradition-grade for the apostolic era, primary/near-primary
+    only for the early-medieval popes
+status: unverified
+notes: The traditional enumeration counts Peter as the first occupant of the Roman
+  see; the earliest succession list (Irenaeus, Adv. Haer. III.3) treats Peter and
+  Paul as founders and begins the episcopal succession with Linus. Both readings
+  are recorded — here and on Linus's tenure — and neither is adjudicated. Tradition-grade
+  only; permanently ineligible for verified status unless a better source emerges.

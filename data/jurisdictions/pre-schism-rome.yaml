@@ -1,0 +1,26 @@
+id: jurisdiction/pre-schism-rome
+name: See of Rome (pre-schism)
+type: historical
+dissolved:
+  date:
+    value: 1054-07
+    calendar: julian
+    precision: month
+    note: The end cap is the conventional schism date (the mutual excommunications
+      of July 1054). The estrangement of Rome and the East was gradual, over centuries;
+      the conventional date is used as a practical boundary, not as a historical
+      judgment.
+  successor: none-in-scope
+primatial_see: see/pre-schism-rome/rome
+sources:
+- ref: source/kelly-oxford-dictionary-of-popes
+  reliability: scholarly
+  note: structural claims; locators to be confirmed
+- ref: source/liber-pontificalis-duchesne
+  reliability: primary
+  note: serial papal biographies; locators to be confirmed
+status: unverified
+notes: 'The See of Rome from the apostolic era to 1054, modeled as part of the undivided
+  pre-schism Church per the explicit scope amendment in DATA_COMPLETION section
+  2. The post-1054 line continues outside this database''s scope (successor: none-in-scope).
+  First in honor in the order of the ancient patriarchates throughout this period.'
