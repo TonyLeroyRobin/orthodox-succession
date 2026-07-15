@@ -104,12 +104,35 @@ python -m http.server 8000
 
 See [`CLAUDE.md`](CLAUDE.md) for the full working conventions and
 [`KICKOFF.md`](KICKOFF.md) for the authoritative project specification.
+Governance: [`docs/NEUTRALITY.md`](docs/NEUTRALITY.md),
+[`docs/NAMING.md`](docs/NAMING.md), [`CONTRIBUTING.md`](CONTRIBUTING.md)
+(placeholders pending maintainer drafting). Change history:
+[`CHANGELOG.md`](CHANGELOG.md).
+
+## Releases & how to cite
+
+<!-- DOI badge — replace the placeholder once Zenodo mints the concept DOI
+     after the first GitHub release:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+-->
+
+Releases follow semver: **data additions increment the minor version,
+corrections the patch** (ROADMAP_ADDENDUM §B1). Each GitHub release ships the
+repository plus the built artifacts (`build/succession.sqlite`,
+`build/graph.graphml`, `build/site-data/*.json`) and is archived on Zenodo
+with a DOI. **IDs are permanent from v0.1.0 onward.**
+
+To cite the dataset (fill in the DOI after the first release):
+
+> Robinson, L. (2026). *Orthodox Apostolic Succession Database* (v0.1.0)
+> [Data set]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
 
 ## Contributing
 
 All changes go through pull requests. `python scripts/validate.py` must pass
 (exit 0) — validation failures block merges. One commit per source consulted
-or per coherent record batch; commit messages name the source.
+or per coherent record batch; commit messages name the source. See
+[`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Licenses
 
