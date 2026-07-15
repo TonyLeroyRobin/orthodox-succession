@@ -5,6 +5,8 @@ names:
   - Meletios
   - Meletius III
   - Meletios Metaxakis
+  - Meletios IV of Constantinople
+  - Meletios II of Alexandria
   family: Metaxakis
 attestation: attested
 sources:
@@ -13,11 +15,16 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+notes: 'Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
   and see assignment against a graded source; the id year is the earliest seeded term start.
   Milestone C reconciliation 2026-07-11 — matched (Meletios III, 1918-1920); later Ecumenical
   Patriarch Meletios IV (1921-1923) and Pope of Alexandria Meletios II (1926-1935) — cross-jurisdiction
-  person, cf. the BACKLOG dedup line. Display name normalized per DATA_COMPLETION §3.
+  person, cf. the BACKLOG dedup line. Display name normalized per DATA_COMPLETION §3. Verification
+  session 2026-07-15 — cross-jurisdiction dedup: absorbed the duplicate records person/constantinople/meletios-1921
+  and person/alexandria/meletios-1926 (same man, Q919288). One human, three primatial thrones:
+  Athens (Meletios III, 1918-1920), Constantinople (Meletios IV, 1921-1923), Alexandria (Meletios
+  II, 1926-1935). Earlier also of Kition (Cyprus) — that tenure is not modeled (suffragan
+  lists backlogged).'
 identifiers:
   wikidata: Q919288
   viaf: '526159474178927661254'

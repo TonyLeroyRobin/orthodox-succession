@@ -1,5 +1,5 @@
 id: tenure/alexandria/meletios-1926@alexandria
-person: person/alexandria/meletios-1926
+person: person/greece/meletios-1918
 see: see/alexandria/alexandria
 from:
   value: '1926'
@@ -11,20 +11,23 @@ sources:
 - ref: source/wikidata
   locator: Q919288
   reliability: database
-  note: programmatic seed — verify against a graded source; term dates from P39
-    start/end qualifiers
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
 - ref: source/alexandria-previous-patriarchs
   locator: 'entry: Meletios II Metaxakis 1926–1935'
   reliability: official-list
   archived_url: https://web.archive.org/web/2026/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
-  note: year-wildcard archive redirect; Save Page Now requested 2026-07-08 — pin
-    the exact snapshot when it propagates
+  note: year-wildcard archive redirect; Save Page Now requested 2026-07-08 — pin the exact
+    snapshot when it propagates
 status: verified
-notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source. Verified against the official Alexandria
-  Patriarchate Previous Patriarchs list (verification pass 2026-07-08): name and
-  tenure years match. Review performed by the AI assistant at user direction — spot-check
-  before treating as human-verified.'
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
+  a diadochal list or scholarly source. Verified against the official Alexandria Patriarchate
+  Previous Patriarchs list (verification pass 2026-07-08): name and tenure years match. Review
+  performed by the AI assistant at user direction — spot-check before treating as human-verified.
+  Verification session 2026-07-15 — cross-jurisdiction person consolidation: person ref repointed
+  from person/alexandria/meletios-1926 to person/greece/meletios-1918 (Meletios Metaxakis:
+  Pope of Alexandria (Meletios II) 1926-1935 — same man, Q919288). Tenure id unchanged (ids
+  are permanent; the embedded slug is historical).'
 to:
   value: '1935'
   calendar: gregorian

@@ -1,5 +1,5 @@
 id: tenure/constantinople/patriarch-cosmas-iii-of-constantinople-1714@constantinople
-person: person/constantinople/patriarch-cosmas-iii-of-constantinople-1714
+person: person/alexandria/kosmas-ii-of-alexandria-1723
 see: see/constantinople/constantinople
 from:
   value: '1714'
@@ -11,19 +11,22 @@ sources:
 - ref: source/wikidata
   locator: Q2998260
   reliability: database
-  note: programmatic seed — verify against a graded source; term dates from P39
-    start/end qualifiers
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
 - ref: source/ep-council-patriarch-list
   locator: 'entry: Kosmas III 1714–1716'
   reliability: official-list
   archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
   note: official EP diadochal list; dates match the seeded record
 status: verified
-notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source. Verified against the official EP
-  list (verification pass 2026-07-08, pinned snapshot in the citation): name and
-  tenure years match. Review performed by the AI assistant at user direction — spot-check
-  before treating as human-verified.'
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
+  a diadochal list or scholarly source. Verified against the official EP list (verification
+  pass 2026-07-08, pinned snapshot in the citation): name and tenure years match. Review performed
+  by the AI assistant at user direction — spot-check before treating as human-verified. Verification
+  session 2026-07-15 — cross-jurisdiction person consolidation: person ref repointed from
+  person/constantinople/patriarch-cosmas-iii-of-constantinople-1714 to person/alexandria/kosmas-ii-of-alexandria-1723
+  (Kosmas III of Constantinople (1714-1716) later Pope of Alexandria as Kosmas II (1723-1736)
+  — same man, Q2998260). Tenure id unchanged (ids are permanent; the embedded slug is historical).'
 to:
   value: '1716'
   calendar: gregorian

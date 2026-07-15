@@ -1,5 +1,5 @@
 id: tenure/serbia/patriarch-joannicius-iii-of-constantinople-1737@belgrade
-person: person/serbia/patriarch-joannicius-iii-of-constantinople-1737
+person: person/serbia/joanikije-iii-1737
 see: see/serbia/belgrade
 from:
   value: '1737'
@@ -11,20 +11,22 @@ sources:
 - ref: source/wikidata
   locator: Q657933
   reliability: database
-  note: programmatic seed — verify against a graded source; term dates from P39
-    start/end qualifiers
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
 - ref: source/fedalto-hierarchia-ecclesiastica-orientalis
   locator: Serbia series, s.v. Joanikije III (1739–1746) — locator to be confirmed
   reliability: scholarly
-  note: dates transcribed from the standard chronology (encyclopedic reproduction,
-    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
-    Fedalto and the official SPC records during verification later Ecumenical Patriarch
-    (1761-1763)
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    spc.rs was unreachable to automated fetch) — confirm against Fedalto and the official
+    SPC records during verification later Ecumenical Patriarch (1761-1763)
 status: unverified
-notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source. Milestone C reconciliation 2026-07-10:
-  matched to the standard chronology (Joanikije III, 1739–1746). later Ecumenical
-  Patriarch (1761-1763).'
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
+  a diadochal list or scholarly source. Milestone C reconciliation 2026-07-10: matched to
+  the standard chronology (Joanikije III, 1739–1746). later Ecumenical Patriarch (1761-1763).
+  Verification session 2026-07-15 — cross-jurisdiction person consolidation: person ref repointed
+  from person/serbia/patriarch-joannicius-iii-of-constantinople-1737 to person/serbia/joanikije-iii-1737
+  (person id renamed in the pre-publication ID window; same record). Tenure id unchanged (ids
+  are permanent; the embedded slug is historical).'
 to:
   value: '1746'
   calendar: gregorian

@@ -1,16 +1,28 @@
 id: person/constantinople/cyril-lucaris-1620
 names:
   monastic: Cyril Lucaris
+  variants:
+  - Kyrillos III Loukaris
+  - Cyril III of Alexandria
+  - Kyrillos Loukaris
 attestation: attested
 sources:
 - ref: source/wikidata
   locator: Q440558
   reliability: database
   note: programmatic seed — verify against a graded source
+- ref: source/alexandria-previous-patriarchs
+  locator: 'entry: Kyrillos III Loukaris (1601–1620)'
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
+  note: year-wildcard archive redirect; Save Page Now still pending — pin the exact snapshot
+    when it propagates
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+notes: 'Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Verification session 2026-07-15 — cross-jurisdiction dedup: absorbed the duplicate person/alexandria/kyrillos-iii-loukaris-1601
+  (same man; the official Alexandria list citation merged). Pope of Alexandria (as Kyrillos
+  III) 1601-1620, then Ecumenical Patriarch (as Cyril I) across six terms 1620-1638.'
 identifiers:
   wikidata: Q440558
   viaf: '76342704'

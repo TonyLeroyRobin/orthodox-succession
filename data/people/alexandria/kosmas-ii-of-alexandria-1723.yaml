@@ -26,19 +26,18 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 - ref: source/alexandria-previous-patriarchs
-  locator: "entry: Kosmas II (1723-1736)"
+  locator: 'entry: Kosmas II (1723-1736)'
   reliability: official-list
-  archived_url: "https://web.archive.org/web/2026/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en"
-  note: year-wildcard archive redirect; Save Page Now still pending — pin
-    the exact snapshot when it propagates
+  archived_url: https://web.archive.org/web/2026/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
+  note: year-wildcard archive redirect; Save Page Now still pending — pin the exact snapshot
+    when it propagates
 status: unverified
-notes: >-
-  Renamed pre-publication 2026-07-10 (Milestone C ID window) from the
-  seeded id patriarch-cosmas-iii-of-constantinople-1723: the official
-  Alexandria list has him as KOSMAS II of Alexandria (1723-1736); the
-  Wikidata label reflects his earlier tenure as Kosmas III of
-  CONSTANTINOPLE (1714-1716). Both offices are real - the Constantinople
-  tenure for this person can be linked during verification (the see's
-  1714-1716 term currently references the separate seeded Constantinople
-  person record; consolidation flagged for the manual pass). Numbering
-  divergence recorded, not adjudicated.
+notes: 'Renamed pre-publication 2026-07-10 (Milestone C ID window) from the seeded id patriarch-cosmas-iii-of-constantinople-1723:
+  the official Alexandria list has him as KOSMAS II of Alexandria (1723-1736); the Wikidata
+  label reflects his earlier tenure as Kosmas III of CONSTANTINOPLE (1714-1716). Both offices
+  are real - the Constantinople tenure for this person can be linked during verification (the
+  see''s 1714-1716 term currently references the separate seeded Constantinople person record;
+  consolidation flagged for the manual pass). Numbering divergence recorded, not adjudicated.
+  Verification session 2026-07-15 — the consolidation this record''s Milestone C note flagged
+  is done: the Constantinople tenure (Kosmas III, 1714-1716) now points here; the duplicate
+  person/constantinople/patriarch-cosmas-iii-of-constantinople-1714 (same man, Q2998260) deleted.'

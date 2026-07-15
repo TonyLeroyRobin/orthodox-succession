@@ -1,5 +1,5 @@
 id: tenure/constantinople/meletios-1921@constantinople
-person: person/constantinople/meletios-1921
+person: person/greece/meletios-1918
 see: see/constantinople/constantinople
 from:
   value: '1921'
@@ -11,19 +11,22 @@ sources:
 - ref: source/wikidata
   locator: Q919288
   reliability: database
-  note: programmatic seed — verify against a graded source; term dates from P39
-    start/end qualifiers
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
 - ref: source/ep-council-patriarch-list
   locator: 'entry: Meletios IV 1921–1923'
   reliability: official-list
   archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
   note: official EP diadochal list; dates match the seeded record
 status: verified
-notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source. Verified against the official EP
-  list (verification pass 2026-07-08, pinned snapshot in the citation): name and
-  tenure years match. Review performed by the AI assistant at user direction — spot-check
-  before treating as human-verified.'
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
+  a diadochal list or scholarly source. Verified against the official EP list (verification
+  pass 2026-07-08, pinned snapshot in the citation): name and tenure years match. Review performed
+  by the AI assistant at user direction — spot-check before treating as human-verified. Verification
+  session 2026-07-15 — cross-jurisdiction person consolidation: person ref repointed from
+  person/constantinople/meletios-1921 to person/greece/meletios-1918 (Meletios Metaxakis:
+  Athens 1918-1920, Ecumenical Patriarch (Meletios IV) 1921-1923 — same man, Q919288). Tenure
+  id unchanged (ids are permanent; the embedded slug is historical).'
 to:
   value: '1923'
   calendar: gregorian

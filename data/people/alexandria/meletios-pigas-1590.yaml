@@ -1,14 +1,34 @@
 id: person/alexandria/meletios-pigas-1590
 names:
   monastic: Meletios Pigas
+  variants:
+  - Meletius I Pegas
 attestation: attested
 sources:
 - ref: source/alexandria-previous-patriarchs
   locator: 'entry: Meletios Pigas (1590–1601)'
   reliability: official-list
   archived_url: https://web.archive.org/web/2026/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
-  note: year-wildcard archive redirect; Save Page Now still pending — pin the exact
-    snapshot when it propagates
+  note: year-wildcard archive redirect; Save Page Now still pending — pin the exact snapshot
+    when it propagates
 status: unverified
-notes: Created from the official Alexandria list during Milestone C reconciliation
-  2026-07-10.
+notes: 'Created from the official Alexandria list during Milestone C reconciliation 2026-07-10.
+  Verification session 2026-07-15 — cross-jurisdiction dedup: absorbed the duplicate person/constantinople/meletius-i-pegas-1549
+  (same man, Q2078267; identifiers and life dates merged from the seed). Pope of Alexandria
+  1590-1601; administered the Ecumenical throne 1597-1598, reckoned Meletius I in the Constantinople
+  numbering.'
+identifiers:
+  wikidata: Q2078267
+  viaf: '47607458'
+born:
+  date:
+    value: '1549'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1601'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

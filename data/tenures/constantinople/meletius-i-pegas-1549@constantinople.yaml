@@ -1,5 +1,5 @@
 id: tenure/constantinople/meletius-i-pegas-1549@constantinople
-person: person/constantinople/meletius-i-pegas-1549
+person: person/alexandria/meletios-pigas-1590
 see: see/constantinople/constantinople
 from:
   value: '1597'
@@ -16,6 +16,9 @@ sources:
   reliability: official-list
   archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
 status: unverified
-notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.
-  The official list marks this term 'overseer' (locum) — kept as listed, with this
-  caveat.
+notes: 'Created from the official EP list during Milestone C reconciliation 2026-07-10. The
+  official list marks this term ''overseer'' (locum) — kept as listed, with this caveat. Verification
+  session 2026-07-15 — cross-jurisdiction person consolidation: person ref repointed from
+  person/constantinople/meletius-i-pegas-1549 to person/alexandria/meletios-pigas-1590 (Meletios
+  Pigas of Alexandria administered the Ecumenical throne 1597-1598 — same man, Q2078267).
+  Tenure id unchanged (ids are permanent; the embedded slug is historical).'

@@ -1,5 +1,5 @@
 id: tenure/constantinople/patriarch-joannicius-iii-of-constantinople-1761@constantinople
-person: person/constantinople/patriarch-joannicius-iii-of-constantinople-1761
+person: person/serbia/joanikije-iii-1737
 see: see/constantinople/constantinople
 from:
   value: '1761'
@@ -11,19 +11,23 @@ sources:
 - ref: source/wikidata
   locator: Q657933
   reliability: database
-  note: programmatic seed — verify against a graded source; term dates from P39
-    start/end qualifiers
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
 - ref: source/ep-council-patriarch-list
   locator: 'entry: Joannicios III 1761–1763'
   reliability: official-list
   archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
   note: official EP diadochal list; dates match the seeded record
 status: verified
-notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
-  against a diadochal list or scholarly source. Verified against the official EP
-  list (verification pass 2026-07-08, pinned snapshot in the citation): name and
-  tenure years match. Review performed by the AI assistant at user direction — spot-check
-  before treating as human-verified.'
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
+  a diadochal list or scholarly source. Verified against the official EP list (verification
+  pass 2026-07-08, pinned snapshot in the citation): name and tenure years match. Review performed
+  by the AI assistant at user direction — spot-check before treating as human-verified. Verification
+  session 2026-07-15 — cross-jurisdiction person consolidation: person ref repointed from
+  person/constantinople/patriarch-joannicius-iii-of-constantinople-1761 to person/serbia/joanikije-iii-1737
+  (Joanikije III Karadža: Patriarch of Peć 1739-1746, Ecumenical Patriarch 1761-1763 — same
+  man, Q657933; this tenure''s verified status is untouched (only the person ref and this
+  note changed)). Tenure id unchanged (ids are permanent; the embedded slug is historical).'
 to:
   value: '1763'
   calendar: gregorian
