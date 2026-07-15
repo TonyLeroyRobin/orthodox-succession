@@ -1,0 +1,37 @@
+id: tenure/ukraine/filaret-denysenko-1995@kyiv
+person: person/ukraine/filaret-denysenko-1995
+see: see/ukraine/kyiv
+from:
+  value: '1995'
+  calendar: gregorian
+  precision: year
+to:
+  value: '2018'
+  calendar: gregorian
+  precision: year
+  note: the 15 December 2018 unification council
+end_reason: resigned
+recognition:
+- by: all
+  status: not-recognized
+  note: 'a claim of the body jurisdiction/uoc-kyiv-patriarchate: unrecognized by the canonical
+    Orthodox churches throughout the body''s existence; the 11 October 2018 act of the Ecumenical
+    Patriarchate lifted the anathemas/irregularities and received the hierarchs, and the body
+    merged into the OCU at the 15 December 2018 unification council — recorded, not adjudicated'
+sources:
+- ref: source/orthodox-church-of-ukraine-official
+  reliability: official-list
+  note: the 2018 unification council's reception of both bodies is the OCU's own foundation
+    narrative — pin during verification
+- ref: source/wikipedia
+  reliability: database
+  note: draft citation — replace with sourced accounts during verification
+status: unverified
+notes: 'Created in the OCU-predecessors batch 2026-07-15. Third UOC-KP patriarch (1995-2018).
+  The full arc is recorded, adjudicated nowhere: canonical Metropolitan of Kyiv under Moscow
+  1966-1992 (that line is unmodeled — backlogged), deposed by Moscow (1992) and anathematized
+  (1997); the 11 October 2018 EP act lifted the anathema and received him; honorary patriarch
+  within the OCU from December 2018; broke with the OCU in June 2019 attempting a UOC-KP revival
+  — his subsequent status is contested between the OCU and his circle and is left to a future
+  sourced pass. The overlaps with the other claims on this see (each other, and the Moscow-jurisdiction
+  line) are the recorded dispute itself — golden rule 6.'

@@ -1,0 +1,33 @@
+id: tenure/ukraine/mstyslav-skrypnyk-1990@kyiv
+person: person/ukraine/mstyslav-skrypnyk-1990
+see: see/ukraine/kyiv
+from:
+  value: '1990'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1993'
+  calendar: gregorian
+  precision: year
+  note: died 11 June 1993
+end_reason: died
+recognition:
+- by: all
+  status: not-recognized
+  note: 'a claim of the body jurisdiction/uaoc: unrecognized by the canonical Orthodox churches
+    throughout the body''s existence; the 11 October 2018 act of the Ecumenical Patriarchate
+    lifted the anathemas/irregularities and received the hierarchs, and the body merged into
+    the OCU at the 15 December 2018 unification council — recorded, not adjudicated'
+sources:
+- ref: source/orthodox-church-of-ukraine-official
+  reliability: official-list
+  note: the 2018 unification council's reception of both bodies is the OCU's own foundation
+    narrative — pin during verification
+- ref: source/wikipedia
+  reliability: database
+  note: draft citation — replace with sourced accounts during verification
+status: unverified
+notes: Created in the OCU-predecessors batch 2026-07-15. Patriarch of Kyiv per the UAOC's
+  1990 proclamation — the first of the revival patriarchs; resident abroad for most of the
+  tenure. The overlaps with the other claims on this see (each other, and the Moscow-jurisdiction
+  line) are the recorded dispute itself — golden rule 6.

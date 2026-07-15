@@ -1,0 +1,15 @@
+id: person/ukraine/mefodiy-kudriakov-2000
+names:
+  monastic: Mefodiy
+  family: Kudriakov
+attestation: attested
+sources:
+- ref: source/orthodox-church-of-ukraine-official
+  reliability: official-list
+  note: the 2018 unification council's reception of both bodies is the OCU's own foundation
+    narrative — pin during verification
+- ref: source/wikipedia
+  reliability: database
+  note: draft citation — replace with sourced accounts during verification
+status: unverified
+notes: Created in the OCU-predecessors batch (maintainer decision) 2026-07-15. Born 1949.

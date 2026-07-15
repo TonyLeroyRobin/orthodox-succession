@@ -1,0 +1,17 @@
+id: person/ukraine/mstyslav-skrypnyk-1990
+names:
+  monastic: Mstyslav
+  family: Skrypnyk
+attestation: attested
+sources:
+- ref: source/orthodox-church-of-ukraine-official
+  reliability: official-list
+  note: the 2018 unification council's reception of both bodies is the OCU's own foundation
+    narrative — pin during verification
+- ref: source/wikipedia
+  reliability: database
+  note: draft citation — replace with sourced accounts during verification
+status: unverified
+notes: Created in the OCU-predecessors batch (maintainer decision) 2026-07-15. Born 1898;
+  the nephew of Symon Petliura; bishop of the 1942 autocephalist formation (out of scope),
+  decades in the North American diaspora before the 1990 election.
