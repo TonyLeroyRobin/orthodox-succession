@@ -7,6 +7,7 @@ version heading at tag time.
 
 ## [Unreleased]
 
+- site: R4 — person page completion (Identity with Role row, Veneration with per-recognizer glorifications and feast days, Works grouped by/about/involving with attribution notes and survival badges, Councils after Works, Relationships both-direction rendering, Sources as final section); work/epistle-of-james created with attribution:disputed and both sides sourced (Eusebius HE + Brown); §4-authors and participations rendering audits pass 0 failures
 - schema: P4 (schema half) — Work survival/survival_note/preserved_in with validator rules; edition archived_url required (39 works backfilled: 6 pinned, 18 SPN-pending); docs/REPOSITORIES.md controlled host list with warn-level enforcement; scripts/check_links.py link-rot checker (make check-links); `influenced` relationship type gated on scholarly sourcing
 - sees: P2 — 19 Fathers' sees (13 Eastern incl. the approved Neocaesarea; 6 Western by-name promotions incl. the approved Poitiers), Gregory of Nyssa created, the Cappadocian tenures (Basil at Caesarea; the Sasima protest and both Nazianzus stints), Le Quien v1 and Gams sources
 - site: R1 — full static-site generation (1,822 pages with content in the HTML, path-based entity URLs mirroring IDs, legacy query-URL redirectors), persistent navigation, MiniSearch over names/variants/native scripts, About page (absorbing R6's remainder), gaps page, per-jurisdiction data chunks + purpose-built compact artifacts, responsive pass, JSON-LD on person/see/council pages; Pages artifact becomes the generated site

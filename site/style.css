@@ -44,6 +44,7 @@ a { color: var(--accent); }
 .badge.grade { background: #607d8b; }
 .badge.model { background: #37474f; }
 .badge.corroborated { background: #00695c; }
+.badge.survival { background: #5d4037; }
 .map-land { fill: #eae5da; stroke: #d8d2c6; stroke-width: .5; }
 .map-see { cursor: pointer; }
 .map-see:hover { opacity: .75; }

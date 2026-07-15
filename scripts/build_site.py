@@ -208,12 +208,16 @@ def main():
     for pt in participations:
         parts_by_person[pt.get("person")].append(pt)
         parts_by_event[pt.get("event")].append(pt)
+    # (relation, work) pairs — the relation is per person-work pair, not the
+    # record's alone: the author keeps the record's curated relation, but a
+    # subject_of person always sees "about" (Life of Clement is BY Theophylact
+    # and ABOUT Clement).
     works_by_person = defaultdict(list)
     for w in works:
         if w.get("author"):
-            works_by_person[w["author"]].append(w)
+            works_by_person[w["author"]].append((w.get("relation", "by"), w))
         for s in w.get("subject_of") or []:
-            works_by_person[s].append(w)
+            works_by_person[s].append(("about", w))
     cons_by_person = defaultdict(list)
     cons_given = defaultdict(list)
     for c in consecrations:
@@ -222,6 +226,11 @@ def main():
             cons_given[c["principal_consecrator"]].append(c)
         for k in c.get("co_consecrators") or []:
             cons_given[k].append(c)
+    relationships = [r["data"] for r in by_kind["relationship"]]
+    rels_by_person = defaultdict(list)
+    for rel in relationships:
+        rels_by_person[rel.get("from")].append(("from", rel))
+        rels_by_person[rel.get("to")].append(("to", rel))
 
     if OUT.exists():
         shutil.rmtree(OUT)
@@ -277,7 +286,7 @@ def main():
         n = p.get("names") or {}
         url = entity_url(pid)
         canonical = f"https://tonyleroyrobin.github.io/orthodox-succession{url}"
-        rows = []
+        rows = [("Role", esc(p.get("role", "bishop")))]
         if n.get("baptismal"):
             rows.append(("Baptismal name", esc(n["baptismal"])))
         if n.get("family"):
@@ -296,6 +305,39 @@ def main():
                          + (f" — {esc(p['died'].get('place'))}"
                             if p["died"].get("place") else "")))
         ident = "".join(f"<tr><th>{k}</th><td>{v}</td></tr>" for k, v in rows)
+
+        ven = p.get("veneration")
+        ven_html = ""
+        if ven:
+            vparts = [f"<p>Status: {badge(ven.get('status'))}"
+                      + (" · " + ", ".join(esc(t) for t in ven["titles"])
+                         if ven.get("titles") else "") + "</p>"]
+            for rec in ven.get("recognition") or []:
+                by = rec.get("by", "")
+                if by.startswith("jurisdiction:"):
+                    jid = by.split(":", 1)[1]
+                    j = jurs.get(jid)
+                    jurl = entity_url(jid)
+                    label = (f'<a href="{jurl}">{esc(j.get("name"))}</a>'
+                             if j and jurl else esc(jid))
+                else:
+                    label = esc(by)
+                gd = rec.get("glorified_date")
+                vparts.append(
+                    "<p class=note>Recognized by " + label
+                    + (f" · glorified {esc(fmt_date(gd))}" if gd else "")
+                    + (f" — {esc(rec['note'])}" if rec.get("note") else "")
+                    + "</p>")
+            feasts = ven.get("feast_days") or []
+            if feasts:
+                vparts.append("<p>Feast days: " + "; ".join(
+                    f"{esc(f['month_day'])} ({esc(f.get('calendar'))})"
+                    + (f" — {esc(f['note'])}" if f.get("note") else "")
+                    for f in feasts) + "</p>")
+            ven_html = ("<div class=panel><h2>Veneration</h2>"
+                        + "".join(vparts)
+                        + citations_html(ven.get("sources"), sources_by_id)
+                        + "</div>")
 
         my_tenures = tenures_by_person.get(pid, [])
         trows = "".join(
@@ -357,29 +399,79 @@ def main():
         works_html = ""
         my_works = works_by_person.get(pid, [])
         if my_works:
-            wrows = ""
-            for w in my_works:
-                eds = ""
-                for ed in w.get("editions") or []:
-                    rd = (f' <a href="{esc(ed["url"])}">read</a>'
-                          if ed.get("url") else "")
-                    eds += (f"<div class=citation>{esc(ed.get('type'))} · "
-                            f"{esc(ed.get('language'))} · "
-                            f"{esc(ed.get('series', ''))} "
-                            f"({esc(ed.get('rights'))}){rd}</div>")
-                surv = w.get("survival")
-                sline = (f" · survival: {esc(surv)}"
-                         + (f" ({esc(w['survival_note'])})"
-                            if w.get("survival_note") else "")
-                         if surv else "")
-                wrows += (f"<h3 id=\"{esc(w['id'].split('/', 1)[1])}\">"
-                          f"{esc(w.get('title'))} {badge(w.get('status'))}</h3>"
-                          f"<p class=note>{esc(w.get('relation'))} this person "
-                          f"· {esc(w.get('genre'))} · attribution: "
-                          f"{esc(w.get('attribution'))}"
-                          + (f" · {esc(w['cpg'])}" if w.get("cpg") else "")
-                          + f" · {esc(fmt_date(w.get('date')))}{sline}</p>{eds}")
-            works_html = f"<div class=panel><h2>Works</h2>{wrows}</div>"
+            groups = defaultdict(list)
+            for relname, w in my_works:
+                groups[relname].append(w)
+            GROUP_LABEL = {"by": "By this person",
+                           "about": "About this person",
+                           "involving": "Involving this person"}
+            sections = ""
+            for relname in ("by", "about", "involving"):
+                ws = groups.get(relname)
+                if not ws:
+                    continue
+                wrows = ""
+                for w in sorted(ws, key=lambda w: w.get("title", "")):
+                    eds = ""
+                    for ed in w.get("editions") or []:
+                        rd = (f' <a href="{esc(ed["url"])}">read</a>'
+                              if ed.get("url") else "")
+                        eds += (f"<div class=citation>{esc(ed.get('type'))} · "
+                                f"{esc(ed.get('language'))} · "
+                                f"{esc(ed.get('series', ''))} "
+                                f"({esc(ed.get('rights'))}){rd}</div>")
+                    surv = w.get("survival")
+                    sbadge = (f' <span class="badge survival">{esc(surv)}'
+                              f'</span>' if surv else "")
+                    snote = (f"<p class=note>Survival: "
+                             f"{esc(w['survival_note'])}</p>"
+                             if w.get("survival_note") else "")
+                    wnote = (f"<p class=note>{esc(w['notes'])}</p>"
+                             if w.get("notes") else "")
+                    wrows += (f"<h4 id=\"{esc(w['id'].split('/', 1)[1])}\">"
+                              f"{esc(w.get('title'))}{sbadge} "
+                              f"{badge(w.get('status'))}</h4>"
+                              f"<p class=note>{esc(w.get('genre'))} · "
+                              f"attribution: "
+                              f"<strong>{esc(w.get('attribution'))}</strong>"
+                              + (f" · {esc(w['cpg'])}" if w.get("cpg") else "")
+                              + f" · {esc(fmt_date(w.get('date')))}</p>"
+                              + wnote + snote + eds)
+                sections += f"<h3>{GROUP_LABEL[relname]}</h3>{wrows}"
+            works_html = f"<div class=panel><h2>Works</h2>{sections}</div>"
+
+        rel_html = ""
+        my_rels = rels_by_person.get(pid, [])
+        if my_rels:
+            REL_VERB = {
+                "tonsured": ("tonsured", "tonsured by"),
+                "spiritual-father": ("spiritual father of",
+                                     "spiritual child of"),
+                "teacher": ("teacher of", "student of"),
+                "influenced": ("influenced", "influenced by"),
+                "consecrated": ("consecrated", "consecrated by"),
+            }
+            lines = ""
+            for direction, rel in my_rels:
+                other = rel["to"] if direction == "from" else rel["from"]
+                fwd, back = REL_VERB.get(
+                    rel.get("type"), (rel.get("type"), rel.get("type")))
+                verb = fwd if direction == "from" else back
+                lines += (f"<li>{esc(verb.capitalize())} {plink(other)}"
+                          + (f" · {esc(fmt_date(rel.get('date')))}"
+                             if rel.get("date") else "")
+                          + f" {badge(rel.get('status'))}"
+                          + (f"<div class=note>{esc(rel['notes'])}</div>"
+                             if rel.get("notes") else "")
+                          + citations_html(rel.get("sources"), sources_by_id)
+                          + "</li>")
+            rel_html = (f"<div class=panel><h2>Relationships</h2>"
+                        f"<ul>{lines}</ul></div>")
+
+        src_html = ("<div class=panel><h2>Sources</h2>"
+                    + citations_html(p.get("sources"), sources_by_id)
+                    + (f'<p class=note>{esc(p.get("notes"))}</p>'
+                       if p.get("notes") else "") + "</div>")
 
         jsonld = {
             "@context": "https://schema.org", "@type": "Person",
@@ -401,12 +493,11 @@ def main():
         content = f"""<h1>{esc(person_name(p))} {badge(p.get('status'))}</h1>
 <p class="subtitle">{esc(pid)} · attestation: <strong>{esc(p.get('attestation'))}</strong>
 · role: <strong>{esc(p.get('role', 'bishop'))}</strong></p>
-<div class="panel"><h2>Identity</h2><table><tbody>{ident}</tbody></table>
-{citations_html(p.get('sources'), sources_by_id)}
-{f'<p class=note>{esc(p.get("notes"))}</p>' if p.get('notes') else ''}</div>
+<div class="panel"><h2>Identity</h2><table><tbody>{ident}</tbody></table></div>
+{ven_html}
 <div class="panel"><h2>Sees held <span class="badge model">see-succession</span></h2>{tenure_html}</div>
 <div class="panel"><h2>Consecration <span class="badge model">consecration-succession</span></h2>{cons_html}</div>
-{parts_html}{works_html}"""
+{works_html}{parts_html}{rel_html}{src_html}"""
         write(OUT / url.strip("/") / "index.html",
               layout(person_name(p), content, canonical, jsonld, "People"))
 

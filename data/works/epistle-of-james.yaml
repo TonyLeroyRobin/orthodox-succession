@@ -1,0 +1,47 @@
+id: work/epistle-of-james
+title: Epistle of James
+author: person/jerusalem/james-the-just-0033
+relation: by
+language: Koine Greek
+date:
+  value: '0062'
+  calendar: julian
+  precision: disputed
+  note: the traditional ascription implies composition before the martyrdom of
+    62; scholarly datings favoring pseudonymity run roughly 70-110
+attribution: disputed
+genre: letter
+editions:
+- type: translation
+  language: English
+  series: Early Christian Writings (public-domain translations aggregated)
+  url: http://www.earlychristianwritings.com/james.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/http://www.earlychristianwritings.com/james.html
+  notes: Year-wildcard archive redirect - pin during verification (availability
+    API rate-limited at creation, 2026-07-15).
+sources:
+- ref: source/eusebius-ecclesiastical-history
+  locator: "HE 2.23.24-25; 3.25.3"
+  reliability: tradition
+  note: the traditional side - Eusebius records the epistle as the first of the
+    catholic epistles, ascribed to James the Lord's brother, while himself
+    reporting that it is disputed (nothomenon) and listing it among the
+    antilegomena; its reception into the canon carried the ascription
+- ref: source/brown-introduction-nt
+  locator: ch. 32
+  reliability: scholarly
+  note: the modern-dispute side - surveys the case for pseudonymous composition
+    (polished literary Greek, late and uneven early attestation) alongside
+    defenders of authorship by James the brother of the Lord; presents the
+    question as genuinely open
+notes: >-
+  Attribution disputed, both sides recorded per rule 6's spirit: the
+  traditional ascription to James the Just (first bishop of Jerusalem) is
+  ancient and canonical reception carried it; modern critical scholarship is
+  divided over pseudonymity. This database records the dispute and does not
+  adjudicate it. Created in Milestone R4, 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - canonical New Testament book, continuously transmitted;
+  assessed at creation (R4, 2026-07-15)
