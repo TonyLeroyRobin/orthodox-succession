@@ -1,0 +1,51 @@
+id: person/constantinople/basil-the-great-0370
+names:
+  monastic: Basil the Great
+  native:
+  - script: grc
+    value: Βασίλειος
+  variants:
+  - Basil of Caesarea
+  - Basileios the Great
+born:
+  date:
+    value: '0330'
+    calendar: julian
+    precision: circa
+died:
+  date:
+    value: 0379
+    calendar: julian
+    precision: year
+    note: 1 January 379 (his principal feast)
+attestation: attested
+veneration:
+  status: saint
+  titles:
+  - the Great
+  - Hierarch
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 01-01
+    calendar: julian
+    note: St Basil the Great
+  - month_day: 01-30
+    calendar: julian
+    note: Synaxis of the Three Hierarchs
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/01/01
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/01/01
+    note: Year-wildcard archive redirect - pin during verification.
+sources:
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: PG 29-32
+  note: author of the PG 29-32 corpus
+status: unverified
+notes: 'Created in Milestone D (works backfill) 2026-07-15. Archbishop of Caesarea in Cappadocia
+  (370-379) — that see is not modeled, so he carries no tenure record; recorded for the Works
+  and veneration layers (DATA_COMPLETION §4). Namespace: the constantinople folder as the
+  later jurisdiction of Cappadocia — a filing choice, not a historical claim.'

@@ -1,0 +1,51 @@
+id: person/constantinople/mark-of-ephesus-1437
+names:
+  monastic: Mark
+  family: Eugenikos
+  native:
+  - script: grc
+    value: Μᾶρκος Εὐγενικός
+  variants:
+  - Mark of Ephesus
+  - Markos Eugenikos
+born:
+  date:
+    value: '1392'
+    calendar: julian
+    precision: circa
+died:
+  date:
+    value: '1444'
+    calendar: julian
+    precision: circa
+    note: 23 June 1444 or 1445 — sources disagree
+attestation: attested
+veneration:
+  status: saint
+  titles:
+  - Pillar of Orthodoxy
+  recognition:
+  - by: universal
+    glorified_date:
+      value: '1734'
+      calendar: julian
+      precision: year
+      note: glorified by the synod of Constantinople — verify the exact act
+  feast_days:
+  - month_day: 01-19
+    calendar: julian
+    note: St Mark of Ephesus
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/01/19
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/01/19
+    note: Year-wildcard archive redirect - pin during verification.
+sources:
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: PG 160 — to be confirmed
+status: unverified
+notes: Created in Milestone D (works backfill) 2026-07-15. Metropolitan of Ephesus (1437 to
+  his death); the see of Ephesus is not modeled, so he carries no tenure record. The sole
+  Eastern signatory-refuser of the union of Florence (1439).

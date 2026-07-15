@@ -1,0 +1,28 @@
+id: work/divine-liturgy-chrysostom
+title: Divine Liturgy of St John Chrysostom
+author: person/constantinople/john-i-chrysostom-0398
+relation: by
+language: Ancient Greek
+date:
+  value: '0400'
+  calendar: julian
+  precision: circa
+  note: core anaphora era; the received formulary is substantially later
+attribution: disputed
+genre: liturgical
+editions:
+- type: original
+  language: Ancient Greek
+  series: received Byzantine text (many printings)
+  rights: public-domain
+  notes: cite a critical edition during verification index/search link only - pin the exact
+    scan during verification.
+  url: https://archive.org/search?query=%22divine+liturgy%22+chrysostom+greek
+sources:
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: liturgical corpus — CPG assignment to be confirmed
+notes: 'Created in Milestone D (works backfill) 2026-07-15. Attribution DISPUTED per DATA_COMPLETION
+  §4: the liturgy bears his name from the 8th century; the core anaphora may go back to him,
+  the received formulary does not — recorded, not adjudicated.'
+status: unverified

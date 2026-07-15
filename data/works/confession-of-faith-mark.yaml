@@ -1,0 +1,28 @@
+id: work/confession-of-faith-mark
+title: Confession of Faith at Florence
+author: person/constantinople/mark-of-ephesus-1437
+relation: by
+language: Ancient Greek
+date:
+  value: '1439'
+  calendar: julian
+  precision: year
+attribution: authentic
+genre: treatise
+editions:
+- type: original
+  language: Ancient Greek
+  series: Patrologia Orientalis 17, ed. L. Petit
+  year: 1923
+  locator: PO 17 — pages to be confirmed
+  rights: public-domain
+  notes: edition data THIN per DATA_COMPLETION §4 — confirm against PO 17 during verification
+    index/search link only - pin the exact scan during verification.
+  url: https://archive.org/search?query=%22patrologia+orientalis%22+17
+sources:
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: PG 160 (older printing) — to be confirmed
+notes: 'Created in Milestone D (works backfill) 2026-07-15. Maintainer decision 2026-07-15:
+  thin editions flagged, nothing guessed.'
+status: unverified

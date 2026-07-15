@@ -8,4 +8,24 @@ sources:
   reliability: official-list
   archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
 status: unverified
-notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.
+notes: 'Created from the official EP list during Milestone C reconciliation 2026-07-10. Milestone
+  D 2026-07-15: veneration block added per DATA_COMPLETION §4.'
+veneration:
+  status: saint
+  titles:
+  - Chrysostom (Golden-mouthed)
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 11-13
+    calendar: julian
+    note: St John Chrysostom, Archbishop of Constantinople
+  - month_day: 01-30
+    calendar: julian
+    note: Synaxis of the Three Hierarchs
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/11/13
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/11/13
+    note: Year-wildcard archive redirect - pin during verification.

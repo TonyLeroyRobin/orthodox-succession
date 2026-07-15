@@ -1,0 +1,37 @@
+id: work/tome-of-leo
+title: Tome of Leo (Epistle 28, to Flavian of Constantinople)
+author: person/pre-schism-rome/leo-i-0440
+relation: by
+language: Latin
+date:
+  value: 0449
+  calendar: julian
+  precision: year
+attribution: authentic
+genre: letter
+editions:
+- type: original
+  language: Latin
+  series: Patrologia Latina
+  locator: PL 54 — columns to be confirmed
+  rights: public-domain
+  notes: public-domain scans; link a scan during verification
+  url: https://patristica.net/latina/
+- type: translation
+  language: English
+  translator: Charles Lett Feltoe
+  series: NPNF, Series II, vol. 12
+  year: 1895
+  url: https://www.ccel.org/ccel/schaff/npnf212.html
+  rights: public-domain
+sources:
+- ref: source/migne-patrologia-latina
+  reliability: scholarly
+  locator: PL 54 — columns to be confirmed
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+  locator: Chalcedon section (the Tome within the acts)
+notes: 'Created in Milestone D (works backfill) 2026-07-15. relation: by; ALSO conciliar material
+  (involving) per DATA_COMPLETION §4 — read and acclaimed at Chalcedon (see event/council/chalcedon-0451).
+  Latin father: CPL 1656 (to be confirmed) rather than CPG.'
+status: unverified

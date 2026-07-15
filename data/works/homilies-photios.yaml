@@ -1,0 +1,33 @@
+id: work/homilies-photios
+title: Homilies
+author: person/constantinople/photios-i-of-constantinople-0858
+relation: by
+language: Ancient Greek
+date:
+  value: 0860
+  calendar: julian
+  precision: circa
+attribution: authentic
+genre: homily
+editions:
+- type: original
+  language: Ancient Greek
+  series: ed. B. Laourdas (Thessalonica)
+  year: 1959
+  rights: in-copyright
+- type: translation
+  language: English
+  translator: Cyril Mango
+  series: The Homilies of Photius (Dumbarton Oaks Studies 3, Harvard)
+  year: 1958
+  url: https://search.worldcat.org/search?q=%22The+Homilies+of+Photius%22+Mango
+  rights: in-copyright
+  notes: in-copyright per DATA_COMPLETION §4 — WorldCat search link; pin the OCLC record during
+    verification
+sources:
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: PG 102 (partial)
+notes: Created in Milestone D (works backfill) 2026-07-15. Includes the homilies on the 860
+  Rus' attack. Post-patristic, no CPG.
+status: unverified

@@ -8,9 +8,9 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+notes: 'Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone D 2026-07-15: veneration block added per DATA_COMPLETION §4.'
 identifiers:
   wikidata: Q243187
   viaf: '14775071'
@@ -26,3 +26,19 @@ died:
     calendar: julian
     precision: year
     note: seeded from Wikidata; verify date, precision, and calendar
+veneration:
+  status: saint
+  titles:
+  - Equal-to-the-Apostles
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 02-06
+    calendar: julian
+    note: St Photius the Great, Patriarch of Constantinople
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/02/06
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/02/06
+    note: Year-wildcard archive redirect - pin during verification.

@@ -1,0 +1,33 @@
+id: work/pastoral-rule-gregory
+title: Pastoral Rule (Regula pastoralis)
+author: person/pre-schism-rome/gregory-i-0590
+relation: by
+language: Latin
+date:
+  value: 0590
+  calendar: julian
+  precision: year
+attribution: authentic
+genre: treatise
+editions:
+- type: original
+  language: Latin
+  series: Patrologia Latina
+  locator: PL 77
+  rights: public-domain
+  notes: public-domain scans; link a scan during verification
+  url: https://patristica.net/latina/
+- type: translation
+  language: English
+  translator: James Barmby
+  series: NPNF, Series II, vol. 12
+  year: 1895
+  url: https://www.ccel.org/ccel/schaff/npnf212.html
+  rights: public-domain
+sources:
+- ref: source/migne-patrologia-latina
+  reliability: scholarly
+  locator: PL 77
+notes: Created in Milestone D (works backfill) 2026-07-15. NPNF II.12-13 carry Gregory per
+  DATA_COMPLETION §4.
+status: unverified

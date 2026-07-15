@@ -1,0 +1,31 @@
+id: work/mystagogy-photios
+title: Mystagogy of the Holy Spirit
+author: person/constantinople/photios-i-of-constantinople-0858
+relation: by
+language: Ancient Greek
+date:
+  value: 0886
+  calendar: julian
+  precision: circa
+  note: late work; dating debated
+attribution: authentic
+genre: treatise
+editions:
+- type: original
+  language: Ancient Greek
+  series: Patrologia Graeca
+  locator: PG 102
+  url: https://patristica.net/graeca/
+  rights: public-domain
+- type: translation
+  language: English
+  series: On the Mystagogy of the Holy Spirit (Studion, 1983)
+  year: 1983
+  rights: in-copyright
+sources:
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: PG 102
+notes: Created in Milestone D (works backfill) 2026-07-15. The classic Byzantine statement
+  against the Filioque. Post-patristic, so no CPG number.
+status: unverified

@@ -1,0 +1,35 @@
+id: work/homilies-on-matthew-chrysostom
+title: Homilies on Matthew
+author: person/constantinople/john-i-chrysostom-0398
+relation: by
+language: Ancient Greek
+date:
+  value: 0390
+  calendar: julian
+  precision: circa
+attribution: authentic
+cpg: CPG 4424
+genre: homily
+editions:
+- type: original
+  language: Ancient Greek
+  series: Patrologia Graeca
+  locator: PG 57-58
+  url: https://patristica.net/graeca/
+  rights: public-domain
+- type: translation
+  language: English
+  translator: George Prevost
+  series: NPNF, Series I, vol. 10
+  year: 1888
+  url: https://www.ccel.org/ccel/schaff/npnf110.html
+  rights: public-domain
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 4424
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: PG 57-58
+notes: Created in Milestone D (works backfill) 2026-07-15.
+status: unverified

@@ -1,0 +1,35 @@
+id: work/life-of-antony-athanasius
+title: Life of Antony (Vita Antonii)
+author: person/alexandria/athanasios-i-the-great-0328
+relation: by
+language: Ancient Greek
+date:
+  value: '0357'
+  calendar: julian
+  precision: circa
+attribution: authentic
+cpg: CPG 2101
+genre: hagiography
+editions:
+- type: original
+  language: Ancient Greek
+  series: Patrologia Graeca
+  locator: PG 26
+  url: https://patristica.net/graeca/
+  rights: public-domain
+- type: translation
+  language: English
+  translator: H. Ellershaw
+  series: NPNF, Series II, vol. 4
+  year: 1892
+  url: https://www.ccel.org/ccel/schaff/npnf204.html
+  rights: public-domain
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 2101
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: PG 26
+notes: Created in Milestone D (works backfill) 2026-07-15. The founding text of monastic hagiography.
+status: unverified

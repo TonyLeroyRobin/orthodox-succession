@@ -7,8 +7,27 @@ sources:
   locator: 'entry: Athanasios I the Great (328–373)'
   reliability: official-list
   archived_url: http://web.archive.org/web/20260708200458/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
-  note: year-wildcard archive redirect; Save Page Now still pending — pin the exact
-    snapshot when it propagates
+  note: year-wildcard archive redirect; Save Page Now still pending — pin the exact snapshot
+    when it propagates
 status: unverified
-notes: Created from the official Alexandria list during Milestone C reconciliation
-  2026-07-10.
+notes: 'Created from the official Alexandria list during Milestone C reconciliation 2026-07-10.
+  Milestone D 2026-07-15: veneration block added per DATA_COMPLETION §4.'
+veneration:
+  status: saint
+  titles:
+  - the Great
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 01-18
+    calendar: julian
+    note: Sts Athanasius and Cyril of Alexandria
+  - month_day: 05-02
+    calendar: julian
+    note: repose of St Athanasius
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/01/18
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/01/18
+    note: Year-wildcard archive redirect - pin during verification.

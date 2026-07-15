@@ -1,0 +1,38 @@
+id: work/twelve-anathemas-cyril
+title: Twelve Anathemas (Twelve Chapters)
+author: person/alexandria/cyril-i-of-alexandria-0412
+relation: involving
+language: Ancient Greek
+date:
+  value: '0430'
+  calendar: julian
+  precision: year
+attribution: authentic
+cpg: CPG 5317 — to be confirmed
+genre: canon
+editions:
+- type: original
+  language: Ancient Greek
+  series: Patrologia Graeca
+  locator: PG 77 (Ep. 17, ad Nestorium III) — columns to be confirmed
+  url: https://patristica.net/graeca/
+  rights: public-domain
+- type: translation
+  language: English
+  translator: Henry R. Percival
+  series: NPNF, Series II, vol. 14 (The Seven Ecumenical Councils)
+  year: 1900
+  url: https://www.ccel.org/ccel/schaff/npnf214.html
+  rights: public-domain
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 5317 — to be confirmed
+- ref: source/aco-concilium-universale-ephesenum
+  reliability: primary
+  locator: third letter to Nestorius with the twelve anathemas, received into the Ephesus
+    acts
+notes: 'Created in Milestone D (works backfill) 2026-07-15. relation: involving per DATA_COMPLETION
+  §4 — conciliar material: appended to the third letter to Nestorius and received into the
+  acts of Ephesus (see event/council/ephesus-0431 and participation/ephesus-0431--cyril-i-of-alexandria-0412).'
+status: unverified

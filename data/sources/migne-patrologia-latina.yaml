@@ -1,0 +1,8 @@
+id: source/migne-patrologia-latina
+type: book
+title: Patrologia Latina
+author: Jacques-Paul Migne (ed.)
+year: 1844
+status: verified
+notes: 221 volumes (1844-1865); public-domain scans widely available. Citation locators as
+  PL <vol>:<cols>. Created in Milestone D for the Latin fathers (Leo I, Gregory the Dialogist).

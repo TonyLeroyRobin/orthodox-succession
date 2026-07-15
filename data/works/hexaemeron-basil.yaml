@@ -1,0 +1,36 @@
+id: work/hexaemeron-basil
+title: Hexaemeron
+author: person/constantinople/basil-the-great-0370
+relation: by
+language: Ancient Greek
+date:
+  value: 0378
+  calendar: julian
+  precision: circa
+attribution: authentic
+cpg: CPG 2835
+genre: homily
+editions:
+- type: original
+  language: Ancient Greek
+  series: Patrologia Graeca
+  locator: PG 29
+  url: https://patristica.net/graeca/
+  rights: public-domain
+- type: translation
+  language: English
+  translator: Blomfield Jackson
+  series: NPNF, Series II, vol. 8
+  year: 1895
+  url: https://www.ccel.org/ccel/schaff/npnf208.html
+  rights: public-domain
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 2835
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: PG 29
+notes: Created in Milestone D (works backfill) 2026-07-15. Nine homilies on the six days of
+  creation.
+status: unverified

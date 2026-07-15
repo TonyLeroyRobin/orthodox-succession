@@ -8,9 +8,9 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+notes: 'Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone D 2026-07-15: veneration block added per DATA_COMPLETION §4.'
 identifiers:
   wikidata: Q44011
   viaf: '108675755'
@@ -26,3 +26,22 @@ died:
     calendar: julian
     precision: year
     note: seeded from Wikidata; verify date, precision, and calendar
+veneration:
+  status: saint
+  titles:
+  - the Theologian
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 01-25
+    calendar: julian
+    note: St Gregory the Theologian
+  - month_day: 01-30
+    calendar: julian
+    note: Synaxis of the Three Hierarchs
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/01/25
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/01/25
+    note: Year-wildcard archive redirect - pin during verification.

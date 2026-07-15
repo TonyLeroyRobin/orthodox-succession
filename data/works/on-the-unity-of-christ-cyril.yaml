@@ -1,0 +1,34 @@
+id: work/on-the-unity-of-christ-cyril
+title: On the Unity of Christ (Quod unus sit Christus)
+author: person/alexandria/cyril-i-of-alexandria-0412
+relation: by
+language: Ancient Greek
+date:
+  value: 0438
+  calendar: julian
+  precision: circa
+attribution: authentic
+cpg: CPG 5228 — to be confirmed
+genre: treatise
+editions:
+- type: original
+  language: Ancient Greek
+  series: Patrologia Graeca
+  locator: PG 75
+  url: https://patristica.net/graeca/
+  rights: public-domain
+- type: translation
+  language: English
+  translator: John A. McGuckin
+  series: St Vladimir's Seminary Press, Popular Patristics
+  year: 1995
+  rights: in-copyright
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 5228 — to be confirmed
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: PG 75
+notes: Created in Milestone D (works backfill) 2026-07-15.
+status: unverified

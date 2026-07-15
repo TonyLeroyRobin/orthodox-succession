@@ -1,0 +1,35 @@
+id: work/on-the-priesthood-chrysostom
+title: On the Priesthood (De sacerdotio)
+author: person/constantinople/john-i-chrysostom-0398
+relation: by
+language: Ancient Greek
+date:
+  value: 0390
+  calendar: julian
+  precision: circa
+attribution: authentic
+cpg: CPG 4316
+genre: treatise
+editions:
+- type: original
+  language: Ancient Greek
+  series: Patrologia Graeca
+  locator: PG 48
+  url: https://patristica.net/graeca/
+  rights: public-domain
+- type: translation
+  language: English
+  translator: W. R. W. Stephens
+  series: NPNF, Series I, vol. 9
+  year: 1889
+  url: https://www.ccel.org/ccel/schaff/npnf109.html
+  rights: public-domain
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 4316
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: PG 48
+notes: Created in Milestone D (works backfill) 2026-07-15.
+status: unverified

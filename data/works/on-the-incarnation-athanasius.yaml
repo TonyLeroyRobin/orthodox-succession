@@ -1,0 +1,36 @@
+id: work/on-the-incarnation-athanasius
+title: On the Incarnation (De incarnatione Verbi)
+author: person/alexandria/athanasios-i-the-great-0328
+relation: by
+language: Ancient Greek
+date:
+  value: '0330'
+  calendar: julian
+  precision: circa
+  note: dating debated, c. 318-335
+attribution: authentic
+cpg: CPG 2091
+genre: treatise
+editions:
+- type: original
+  language: Ancient Greek
+  series: Patrologia Graeca
+  locator: PG 25
+  url: https://patristica.net/graeca/
+  rights: public-domain
+- type: translation
+  language: English
+  translator: Archibald Robertson
+  series: NPNF, Series II, vol. 4
+  year: 1892
+  url: https://www.ccel.org/ccel/schaff/npnf204.html
+  rights: public-domain
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 2091
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: PG 25
+notes: Created in Milestone D (works backfill) 2026-07-15.
+status: unverified

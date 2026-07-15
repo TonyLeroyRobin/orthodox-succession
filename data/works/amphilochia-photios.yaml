@@ -1,0 +1,25 @@
+id: work/amphilochia-photios
+title: Amphilochia
+author: person/constantinople/photios-i-of-constantinople-0858
+relation: by
+language: Ancient Greek
+date:
+  value: 0870
+  calendar: julian
+  precision: circa
+attribution: authentic
+genre: treatise
+editions:
+- type: original
+  language: Ancient Greek
+  series: Patrologia Graeca
+  locator: PG 101
+  url: https://patristica.net/graeca/
+  rights: public-domain
+sources:
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: PG 101
+notes: Created in Milestone D (works backfill) 2026-07-15. Exegetical and theological questions
+  addressed to Amphilochios of Cyzicus. Post-patristic, no CPG.
+status: unverified

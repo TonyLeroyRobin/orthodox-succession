@@ -1,0 +1,34 @@
+id: work/dialogues-gregory-dialogist
+title: Dialogues
+author: person/pre-schism-rome/gregory-i-0590
+relation: by
+language: Latin
+date:
+  value: 0593
+  calendar: julian
+  precision: circa
+attribution: authentic
+genre: hagiography
+editions:
+- type: original
+  language: Latin
+  series: Patrologia Latina
+  locator: PL 77
+  rights: public-domain
+  notes: public-domain scans; link a scan during verification
+  url: https://patristica.net/latina/
+- type: translation
+  language: English
+  series: ed. Edmund G. Gardner (1911)
+  year: 1911
+  rights: public-domain
+  notes: public-domain translation — link a scan during verification index/search link only
+    - pin the exact scan during verification.
+  url: https://archive.org/search?query=%22dialogues%22+gregory+gardner+1911
+sources:
+- ref: source/migne-patrologia-latina
+  reliability: scholarly
+  locator: PL 77
+notes: Created in Milestone D (works backfill) 2026-07-15. Book II is the Life of St Benedict;
+  the source of the byname the Dialogist. Latin father — no CPG.
+status: unverified

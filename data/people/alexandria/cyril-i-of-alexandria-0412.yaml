@@ -14,9 +14,9 @@ sources:
 - ref: source/npnf-2-14-seven-councils
   reliability: scholarly
 status: verified
-notes: Patriarch of Alexandria 412-444; presided at the Council of Ephesus (431);
-  principal theologian of the Theotokos definition. No consecration data survives
-  — absent, not inferred.
+notes: 'Patriarch of Alexandria 412-444; presided at the Council of Ephesus (431); principal
+  theologian of the Theotokos definition. No consecration data survives — absent, not inferred.
+  Milestone D 2026-07-15: veneration block added per DATA_COMPLETION §4.'
 born:
   date:
     value: '0376'
@@ -27,3 +27,22 @@ died:
     value: '0444'
     calendar: julian
     precision: year
+veneration:
+  status: saint
+  titles:
+  - Pillar of Faith
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 01-18
+    calendar: julian
+    note: Sts Athanasius and Cyril of Alexandria
+  - month_day: 06-09
+    calendar: julian
+    note: repose of St Cyril
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/01/18
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/01/18
+    note: Year-wildcard archive redirect - pin during verification.

@@ -15,9 +15,10 @@ sources:
 - ref: source/church-of-greece-official
   reliability: official-list
 status: verified
-notes: Metropolitan of Thessalonica 1347-1359; theologian of hesychasm vindicated
-  by the councils of 1341-1351; glorified 1368. No consecration data survives —
-  absent, not inferred.
+notes: 'Metropolitan of Thessalonica 1347-1359; theologian of hesychasm vindicated by the
+  councils of 1341-1351; glorified 1368. No consecration data survives — absent, not inferred.
+  Milestone D 2026-07-15: veneration block added per DATA_COMPLETION §4. The movable commemoration
+  on the Second Sunday of Great Lent cannot be encoded as a fixed month-day — noted here instead.'
 born:
   date:
     value: '1296'
@@ -28,3 +29,19 @@ died:
     value: '1359'
     calendar: julian
     precision: year
+veneration:
+  status: saint
+  titles:
+  - Wonderworker
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 11-14
+    calendar: julian
+    note: St Gregory Palamas, Archbishop of Thessalonica
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/11/14
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/11/14
+    note: Year-wildcard archive redirect - pin during verification.

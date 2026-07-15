@@ -1,0 +1,31 @@
+id: work/homilies-palamas
+title: Homilies
+author: person/greece/gregory-palamas-1347
+relation: by
+language: Ancient Greek
+date:
+  value: '1350'
+  calendar: julian
+  precision: circa
+attribution: authentic
+genre: homily
+editions:
+- type: original
+  language: Ancient Greek
+  series: Patrologia Graeca
+  locator: PG 151 (partial)
+  url: https://patristica.net/graeca/
+  rights: public-domain
+- type: translation
+  language: English
+  translator: Christopher Veniamin
+  series: The Homilies of Saint Gregory Palamas (Mount Thabor)
+  year: 2009
+  rights: in-copyright
+sources:
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: PG 151 (partial)
+notes: Created in Milestone D (works backfill) 2026-07-15. Sixty-three homilies from his Thessalonian
+  archiepiscopate. Post-patristic, no CPG.
+status: unverified
