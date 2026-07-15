@@ -6,4 +6,6 @@ if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 python scripts/export_graph.py
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 python scripts/gap_report.py
+python scripts/build_site.py
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 Write-Host "build: OK"

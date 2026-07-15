@@ -5,4 +5,5 @@ python scripts/validate.py
 python scripts/build_db.py
 python scripts/export_graph.py
 python scripts/gap_report.py
+python scripts/build_site.py
 echo "build: OK"

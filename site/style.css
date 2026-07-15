@@ -62,3 +62,33 @@ svg text { font-family: sans-serif; }
 .tenure-bar { cursor: pointer; }
 .tenure-bar:hover { opacity: .75; }
 footer { color: var(--muted); font-size: .8rem; margin-top: 2rem; }
+
+/* ---- R1: static-site header, search, responsive ---- */
+.site-header {
+  display: flex; flex-wrap: wrap; gap: .6rem 1rem; align-items: center;
+  justify-content: space-between; padding: .5rem 0 .8rem;
+  border-bottom: 2px solid var(--line); margin-bottom: 1rem;
+}
+.site-header nav { display: flex; flex-wrap: wrap; gap: .15rem .35rem; }
+.site-header nav a {
+  font: 13px/1 sans-serif; text-decoration: none; padding: .6rem .55rem;
+  border-radius: 4px; min-height: 40px; display: inline-flex;
+  align-items: center;
+}
+.site-header nav a:hover { background: #efe9dd; }
+.site-header nav a.active { background: var(--accent); color: #fff; }
+.searchbox input {
+  font: 14px Georgia, serif; padding: .55rem .7rem; min-height: 40px;
+  border: 1px solid var(--line); border-radius: 4px; width: 240px;
+  max-width: 100%; background: #fff;
+}
+main { display: block; }
+table { min-width: 480px; }
+.panel { overflow-x: auto; }
+@media (max-width: 700px) {
+  body { padding: .8rem; }
+  .site-header { flex-direction: column; align-items: stretch; }
+  .searchbox input { width: 100%; }
+  h1 { font-size: 1.35rem; }
+  .map-controls { flex-wrap: wrap; }
+}

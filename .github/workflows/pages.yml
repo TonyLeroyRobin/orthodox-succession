@@ -26,19 +26,11 @@ jobs:
         run: pip install pyyaml jsonschema
       - name: Validate and build (validation failures fail the deploy)
         run: make build
-      - name: Assemble site artifact
-        run: |
-          mkdir -p _site/build
-          cp -r site _site/site
-          cp -r build/site-data _site/build/site-data
-          cat > _site/index.html <<'EOF'
-          <!DOCTYPE html><meta charset="utf-8">
-          <meta http-equiv="refresh" content="0; url=site/">
-          <a href="site/">Orthodox Apostolic Succession Database dashboard</a>
-          EOF
+      - name: Assemble site artifact (R1 — the generated static site IS the artifact)
+        run: test -f build/site/index.html
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: build/site
 
   deploy:
     needs: build
