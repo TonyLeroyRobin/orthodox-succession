@@ -20,7 +20,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   note: draft citation — replace with a critical-edition citation during verification
-notes: 'Created in the second works pass 2026-07-15. His famous verse lament for the decayed
-  Athens is NOT modeled separately: the genre enum has no poetry value — a schema question
-  for the maintainer (BACKLOG), not shoehorned.'
+notes: Created in the second works pass 2026-07-15. The verse lament is now modeled separately
+  (work/lament-for-athens-choniates) after the maintainer added the poetry genre (2026-07-15).
 status: unverified

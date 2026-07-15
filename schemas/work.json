@@ -20,7 +20,7 @@
     "attribution": { "enum": ["authentic", "disputed", "spurious"] },
     "cpg": { "type": "string", "description": "Clavis Patrum Graecorum number, e.g. \"CPG 3745\"" },
     "genre": {
-      "enum": ["homily", "letter", "treatise", "canon", "encyclical", "liturgical", "hagiography", "biography", "acts", "study"]
+      "enum": ["homily", "letter", "treatise", "canon", "encyclical", "liturgical", "hagiography", "biography", "acts", "study", "poetry"]
     },
     "editions": {
       "type": "array",

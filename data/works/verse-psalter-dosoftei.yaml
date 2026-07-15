@@ -8,7 +8,7 @@ date:
   calendar: julian
   precision: year
 attribution: authentic
-genre: liturgical
+genre: poetry
 editions:
 - type: original
   language: Romanian
@@ -24,5 +24,6 @@ sources:
   locator: s.v. Dosoftei, the 1673 verse Psalter — locator to be confirmed
 notes: Created in the second works pass 2026-07-15. The first great verse monument of Romanian;
   genre recorded as liturgical (a psalter paraphrase) — the enum has no poetry value, cf.
-  the BACKLOG schema question.
+  the BACKLOG schema question. Re-genred liturgical -> poetry 2026-07-15 upon the maintainer
+  decision adding the value (the record that motivated it, with the Choniates lament).
 status: unverified

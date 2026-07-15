@@ -203,7 +203,7 @@ series?, url?, archived_url?, worldcat?, notes`
 `id, title, author: person-id, subject_of[person-id]?  # for works ABOUT a bishop,
 relation (by | about | involving), language, date{}, attribution (authentic |
 disputed | spurious), cpg?, genre (homily | letter | treatise | canon | encyclical |
-liturgical | hagiography | biography | acts | study), editions[{type: original |
+liturgical | hagiography | biography | acts | study | poetry), editions[{type: original |
 translation, language, translator?, series?, year?, locator?  # e.g. "PG 48:623–692",
 url?, rights: public-domain | in-copyright}], sources[], status`
 

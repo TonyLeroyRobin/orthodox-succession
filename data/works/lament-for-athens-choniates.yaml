@@ -1,0 +1,27 @@
+id: work/lament-for-athens-choniates
+title: Lament for Athens (the verse monody)
+author: person/greece/michael-ii-choniates-1182
+relation: by
+language: Ancient Greek
+date:
+  value: '1200'
+  calendar: julian
+  precision: circa
+attribution: authentic
+genre: poetry
+editions:
+- type: original
+  language: Ancient Greek
+  series: in the Lampros edition of his works (1879-1880)
+  year: 1879
+  rights: public-domain
+  url: https://archive.org/search?query=lampros+michael+akominatos
+  notes: index/search link only - pin the exact scan during verification.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  note: draft citation - replace with a critical-edition citation during verification
+status: unverified
+notes: 'Created 2026-07-15 upon the maintainer decision adding the poetry genre (the first
+  record to use it): the famous elegy on the decayed ancient city, written from his metropolitanate
+  before the Frankish conquest.'
