@@ -1,0 +1,28 @@
+id: tenure/romania/sebastian-rusan-1950@iasi
+person: person/romania/sebastian-rusan-1950
+see: see/romania/iasi
+from:
+  value: '1950'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1956'
+  calendar: gregorian
+  precision: year
+end_reason: died
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Moldavia series, s.v. Sebastian (1950-1956) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction), cross-checked
+    against the official mmb.ro/istoric narrative (fetched 2026-07-15; its own row-level divergences
+    are noted per record) — confirm against Păcurariu during verification
+- ref: source/church-of-romania-official
+  locator: mmb.ro/istoric (Metropolis of Moldavia and Bukovina)
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://mmb.ro/istoric
+  note: official metropolitan-history narrative; year-wildcard archive redirect — pin during
+    verification
+status: unverified
+notes: Created from the merged witnesses (Moldavia batch) 2026-07-15. The 1948-1950 interval
+  is a locum period, list-inherent.

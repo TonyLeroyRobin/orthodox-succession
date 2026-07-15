@@ -1,0 +1,28 @@
+id: tenure/romania/meletie-lefter-1844@iasi
+person: person/romania/meletie-lefter-1844
+see: see/romania/iasi
+from:
+  value: '1844'
+  calendar: julian
+  precision: year
+to:
+  value: '1848'
+  calendar: julian
+  precision: year
+end_reason: died
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Moldavia series, s.v. Meletie (1844-1848) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction), cross-checked
+    against the official mmb.ro/istoric narrative (fetched 2026-07-15; its own row-level divergences
+    are noted per record) — confirm against Păcurariu during verification
+- ref: source/church-of-romania-official
+  locator: mmb.ro/istoric (Metropolis of Moldavia and Bukovina)
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://mmb.ro/istoric
+  note: official metropolitan-history narrative; year-wildcard archive redirect — pin during
+    verification
+status: unverified
+notes: Created from the merged witnesses (Moldavia batch) 2026-07-15. The official narrative
+  extends him 'through 1851' — divergence recorded; the 1848-1851 interval is administrator/vacancy.

@@ -1,0 +1,28 @@
+id: tenure/romania/patriarch-justinian-of-romania-1901@iasi
+person: person/romania/patriarch-justinian-of-romania-1901
+see: see/romania/iasi
+from:
+  value: '1947'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1948'
+  calendar: gregorian
+  precision: year
+end_reason: translated
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Moldavia series, s.v. Justinian (1947-1948) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction), cross-checked
+    against the official mmb.ro/istoric narrative (fetched 2026-07-15; its own row-level divergences
+    are noted per record) — confirm against Păcurariu during verification
+- ref: source/church-of-romania-official
+  locator: mmb.ro/istoric (Metropolis of Moldavia and Bukovina)
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://mmb.ro/istoric
+  note: official metropolitan-history narrative; year-wildcard archive redirect — pin during
+    verification
+status: unverified
+notes: Created from the merged witnesses (Moldavia batch) 2026-07-15. Metropolitan of Moldavia
+  1947-1948, then Patriarch — the patriarchal tenure is the existing Bucharest record.

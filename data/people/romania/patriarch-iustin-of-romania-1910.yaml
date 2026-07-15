@@ -12,12 +12,12 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
-  record. Milestone C reconciliation 2026-07-10 — matched to the standard chronology
-  (Iustin, 1977–1986); tenure created; display name normalized per DATA_COMPLETION
-  §3.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Milestone C reconciliation
+  2026-07-10 — matched to the standard chronology (Iustin, 1977–1986); tenure created; display
+  name normalized per DATA_COMPLETION §3. Moldavia batch 2026-07-15 - his Iasi tenure (1957-1977)
+  created.
 identifiers:
   wikidata: Q1675502
   viaf: '100899926'

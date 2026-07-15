@@ -7,6 +7,7 @@ version heading at tag time.
 
 ## [Unreleased]
 
+- moldavia: the Iași line, Iosif I Mușat 1401 to Teofan Savu (incumbent) — new see, 57 tenures, six future primates linked, saints Varlaam/Dosoftei/Iacob/Iosif veneration blocks
 - docs: v0.2.0 citation and DOI (10.5281/zenodo.21383432) in the README
 
 ## [0.2.0] — 2026-07-15 (the parallel and historical lines)

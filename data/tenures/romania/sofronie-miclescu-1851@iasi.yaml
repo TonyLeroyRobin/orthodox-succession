@@ -1,0 +1,29 @@
+id: tenure/romania/sofronie-miclescu-1851@iasi
+person: person/romania/sofronie-miclescu-1851
+see: see/romania/iasi
+from:
+  value: '1851'
+  calendar: julian
+  precision: year
+to:
+  value: '1860'
+  calendar: julian
+  precision: year
+end_reason: deposed
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Moldavia series, s.v. Sofronie (1851-1860) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction), cross-checked
+    against the official mmb.ro/istoric narrative (fetched 2026-07-15; its own row-level divergences
+    are noted per record) — confirm against Păcurariu during verification
+- ref: source/church-of-romania-official
+  locator: mmb.ro/istoric (Metropolis of Moldavia and Bukovina)
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://mmb.ro/istoric
+  note: official metropolitan-history narrative; year-wildcard archive redirect — pin during
+    verification
+status: unverified
+notes: Created from the merged witnesses (Moldavia batch) 2026-07-15. Suspended and removed
+  (1860) in the conflict with Cuza's secularization program — recorded, not adjudicated. The
+  1860-1865 interval is the era's locum administration.

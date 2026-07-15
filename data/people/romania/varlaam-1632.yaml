@@ -1,0 +1,39 @@
+id: person/romania/varlaam-1632
+names:
+  monastic: Varlaam
+attestation: attested
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Moldavia series, s.v. Varlaam (1632-1653) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction), cross-checked
+    against the official mmb.ro/istoric narrative (fetched 2026-07-15; its own row-level divergences
+    are noted per record) — confirm against Păcurariu during verification
+- ref: source/church-of-romania-official
+  locator: mmb.ro/istoric (Metropolis of Moldavia and Bukovina)
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://mmb.ro/istoric
+  note: official metropolitan-history narrative; year-wildcard archive redirect — pin during
+    verification
+status: unverified
+notes: Created from the merged witnesses (Moldavia batch) 2026-07-15. St Varlaam of Moldavia,
+  glorified 2007.
+veneration:
+  status: saint
+  titles: []
+  recognition:
+  - by: jurisdiction:jurisdiction/church-of-romania
+    glorified_date:
+      value: '2007'
+      calendar: gregorian
+      precision: year
+      note: verify the exact act
+  feast_days:
+  - month_day: 08-30
+    calendar: gregorian
+    note: St Varlaam, Metropolitan of Moldavia — verify against the official calendar
+  sources:
+  - ref: source/church-of-romania-official
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2026/https://patriarhia.ro/
+    note: pin the official calendar page during verification

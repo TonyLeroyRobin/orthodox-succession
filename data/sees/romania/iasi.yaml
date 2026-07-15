@@ -1,0 +1,33 @@
+id: see/romania/iasi
+name: Iași
+location:
+  lat: 47.158
+  lon: 27.601
+  modern_place: Iași, Romania
+jurisdiction_history:
+- jurisdiction: jurisdiction/church-of-romania
+  from:
+    value: '1872'
+    calendar: gregorian
+    precision: year
+    note: union of the Moldavian and Ungro-Wallachian metropolias into the Romanian church
+sources:
+- ref: source/church-of-romania-official
+  locator: mmb.ro/istoric (Metropolis of Moldavia and Bukovina)
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2026/https://mmb.ro/istoric
+  note: official metropolitan-history narrative — pin during verification
+- ref: source/pacurariu-istoria-bor
+  reliability: scholarly
+  locator: Moldavia series — locators to be confirmed
+status: unverified
+notes: Seat of the Metropolitan of Moldavia and Bukovina; earlier seats Suceava (to 1677ish)
+  — the moving-seat precedent, all on this record. The Moldavia batch (2026-07-15) closed
+  the line Iosif I Mușat (recognized 1401) to Teofan Savu (2008-, incumbent). Pre-1872 the
+  metropolitanate was effectively self-governing under nominal Constantinople oversight —
+  NOT modeled as a separate jurisdiction, by symmetry with the maintainer's Ungro-Wallachia
+  single-spine decision (contrast Bulgaria's historical-jurisdictions architecture). Occupancy
+  gaps (1428-1436 around the disputed Grigorie I, 1666-1670, 1701-1708, 1848-1851, 1860-1865,
+  1948-1950, 1986-1990) are documented vacancy/administrator intervals or witness-divergence
+  seams, list-inherent. Six future primates passed through this see — their persons link to
+  the Bucharest records.

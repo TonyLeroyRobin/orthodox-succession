@@ -11,11 +11,11 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: 'Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start. Milestone C reconciliation 2026-07-10: matched to the standard
-  chronology (Daniel, 2007–present); display name normalized per DATA_COMPLETION §3
-  (office expressed by the Tenure, not the name).'
+notes: 'Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone C reconciliation 2026-07-10: matched to the standard chronology (Daniel, 2007–present);
+  display name normalized per DATA_COMPLETION §3 (office expressed by the Tenure, not the
+  name). Moldavia batch 2026-07-15 - his Iasi tenure (1990-2007) created.'
 identifiers:
   wikidata: Q443453
   viaf: '45207624'

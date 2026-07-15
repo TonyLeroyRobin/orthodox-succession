@@ -33,7 +33,8 @@ current milestone (ROADMAP_ADDENDUM.md §A4).
 | ~~Metropolitans of Moscow 1325–1589 + the historical Kyiv line~~ DONE 2026-07-15 (Kyiv batch: 988–1686; Moscow batch: Jonah 1448 → Job's -2 term; 1325–1448 stays on the Kyiv line by title with the Moscow claim recorded) | 2026-07-10 | done |
 | Russian works candidates from the metropolitans batch: the Great Menaion (Macarius), Philaret Drozdov's catechism + the Russian Bible translation, Macarius Bulgakov's History of the Russian Church, Hilarion's Sermon (Kyiv) | 2026-07-15 | future works pass |
 | ~~Metropolitanate/Patriarchate of Karlovci 1690–1920~~ DONE 2026-07-15 (v0.2.0 cycle: own jurisdiction+see, 21 tenures; 7 persons linked incl. both migration Arsenijes; dissolved 1920 → church-of-serbia) | 2026-07-10 | done |
-| Metropolitanate of Moldavia and Bukovina (Iași) succession line 1401–present (parallel Romanian jurisdiction; the Karlovci pattern) | 2026-07-10 | post-Milestone C |
+| ~~Metropolitanate of Moldavia and Bukovina (Iași) 1401–present~~ DONE 2026-07-15 (57 tenures on the new see/romania/iasi; six future primates linked; four saints' veneration blocks) | 2026-07-10 | done |
+| Moldavian works candidates: Varlaam's Cazania (1643), Dosoftei's verse Psalter (1673), Veniamin Costachi's translations | 2026-07-15 | future works pass |
 | Maxim Brancovici's Belgrade/Srem tenure (after Wallachia 1505–1508) — belongs to the future Karlovci/Belgrade parallel line | 2026-07-10 | post-Milestone C |
 | ~~Ohrid archbishops 1018–1767~~ DONE 2026-07-15 (v0.2.0 cycle: 81 occupants, 84 terms; Mark Xylokaravis linked cross-jurisdiction) | 2026-07-11 | done |
 | Theophylact of Ohrid: Work records (Gospel commentaries, Life of Clement) + veneration assessment with calendar sources | 2026-07-15 | future works pass |
