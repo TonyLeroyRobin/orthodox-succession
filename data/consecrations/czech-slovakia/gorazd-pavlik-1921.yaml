@@ -1,0 +1,17 @@
+id: consecration/czech-slovakia/gorazd-pavlik-1921
+consecrated: person/czech-slovakia/gorazd-pavlik-1921
+date:
+  value: '1921-09-25'
+  calendar: gregorian
+  precision: day
+  note: verify OS/NS and the co-consecrators from the synodal records
+place: Belgrade
+principal_consecrator: person/serbia/dimitrije-pavlovic-1846
+sources:
+- ref: source/church-of-serbia-official
+  reliability: official-list
+  note: consecrated at Belgrade by Patriarch Dimitrije - the well-documented consecration
+    tying the Czech line into the Serbian DAG; pin the synodal record during verification
+status: unverified
+notes: Created in the Gorazd batch 2026-07-15. Co-consecrators not yet recorded - absent,
+  not inferred; assign during verification.

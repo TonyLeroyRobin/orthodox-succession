@@ -1,0 +1,25 @@
+id: event/context/nazi-suppression-czech-orthodoxy-1942
+type: context
+title: Nazi dissolution of Czech Orthodoxy
+date:
+  from:
+    value: '1942'
+    calendar: gregorian
+    precision: year
+  to:
+    value: '1945'
+    calendar: gregorian
+    precision: year
+scope: jurisdiction:jurisdiction/church-of-czech-lands-and-slovakia
+description: After the execution of Bishop Gorazd and his clergy for sheltering the Heydrich-assassination
+  paratroopers (1942), the occupation authorities dissolved the Czech Orthodox church until
+  the liberation (1945).
+affected:
+- jurisdiction/church-of-czech-lands-and-slovakia
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Gorazd (Pavlik)
+  archived_url: https://web.archive.org/web/2026/https://en.wikipedia.org/wiki/Gorazd_(Pavlik)
+status: unverified
+notes: ''

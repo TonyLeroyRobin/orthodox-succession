@@ -21,7 +21,7 @@ current milestone (ROADMAP_ADDENDUM.md §A4).
 | Reconcile flagged near-matches and no-matches against Kiminas/Grumel (Constantinople 5+8, Jerusalem/Alexandria 6+3) | 2026-07-10 | Milestone C |
 | Rename mislabeled Alexandria seed (Kosmas II 1723–1736, labeled Cosmas III of Constantinople) | 2026-07-10 | Milestone C |
 | ~~Enter the Czech Lands & Slovakia primatial line manually (no Wikidata office item)~~ DONE 2026-07-11 (Milestone C) | 2026-07-10 | Milestone C |
-| Bishop Gorazd (Pavlík) of Prague 1921–1942 (pre-autocephaly, under Serbian jurisdiction; executed 1942; New-Martyr — veneration block when modeled) + non-primatial Prague/Prešov occupants | 2026-07-11 | post-Milestone C |
+| ~~Bishop Gorazd (Pavlík) of Prague~~ DONE 2026-07-15 (person + tenure + veneration + the Belgrade consecration record + the Nazi-suppression context event). REMAINING: non-primatial Prague/Prešov occupants | 2026-07-11 | post-Milestone C |
 | ~~Synodal-era Moscow metropolitans (1742–1917)~~ DONE 2026-07-15 (15 diocesan tenures, explicitly non-primatial; Innocent's Moscow term linked cross-jurisdiction; veneration: Philaret, Vladimir Bogoyavlensky, Macarius Nevsky) | 2026-07-11 | done |
 | UOC (Moscow Patriarchate) parallel jurisdiction record + Onufriy's structure (his Kyiv rival-claim tenure exists; jurisdiction modeling is a maintainer scope decision) | 2026-07-11 | maintainer decision |
 | OCU predecessor bodies 1990–2018 (UOC-KP: Mstyslav, Volodymyr Romaniuk, Filaret; UAOC) + Filaret's honorary-patriarch episode and 2019 departure | 2026-07-11 | maintainer decision |

@@ -1,0 +1,29 @@
+id: tenure/czech-slovakia/gorazd-pavlik-1921@prague
+person: person/czech-slovakia/gorazd-pavlik-1921
+see: see/czech-slovakia/prague
+from:
+  value: '1921'
+  calendar: gregorian
+  precision: year
+  note: consecrated 25 September 1921 at Belgrade
+to:
+  value: '1942-09-04'
+  calendar: gregorian
+  precision: day
+end_reason: died
+sources:
+- ref: source/church-of-czech-lands-and-slovakia-official
+  reliability: official-list
+  note: the church venerates Gorazd as its founder-martyr; the official site blocks automated
+    access (HTTP 403) - pin during verification
+- ref: source/oca-saints
+  locator: /saints/lives/2026/09/04
+  reliability: official-list
+  archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/09/04
+  note: Year-wildcard archive redirect - pin during verification.
+status: unverified
+notes: Created in the Gorazd batch 2026-07-15. Eparchy under the SERBIAN jurisdiction (1921-1942),
+  before the Moscow-era autocephaly - the see record and the Jelevferij tenure carry the later
+  structure. After his execution the occupation authorities dissolved the Czech Orthodox church
+  (see event/context/nazi-suppression-czech-orthodoxy-1942) - the 1942-1946 gap is that suppression,
+  not missing data.

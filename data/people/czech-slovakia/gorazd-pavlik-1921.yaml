@@ -1,0 +1,56 @@
+id: person/czech-slovakia/gorazd-pavlik-1921
+names:
+  monastic: Gorazd
+  family: Pavlík
+  baptismal: Matěj
+  variants:
+  - Gorazd II
+  - Matthias Pavlik
+born:
+  date:
+    value: '1879'
+    calendar: gregorian
+    precision: year
+  place: Hrubá Vrbka, Moravia
+died:
+  date:
+    value: '1942-09-04'
+    calendar: gregorian
+    precision: day
+    note: executed at the Kobylisy range, Prague
+  place: Prague
+attestation: attested
+veneration:
+  status: saint
+  titles:
+  - Hieromartyr
+  - New-Martyr
+  recognition:
+  - by: universal
+    glorified_date:
+      value: '1987'
+      calendar: gregorian
+      precision: year
+      note: glorified by the Orthodox Church of Czechoslovakia (1987); earlier Serbian veneration
+        - verify the acts
+  feast_days:
+  - month_day: 09-04
+    calendar: gregorian
+    note: Hieromartyr Gorazd of Prague - verify (some calendars keep August 22 Julian)
+  sources: &id001
+  - ref: source/church-of-czech-lands-and-slovakia-official
+    reliability: official-list
+    note: the church venerates Gorazd as its founder-martyr; the official site blocks automated
+      access (HTTP 403) - pin during verification
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/09/04
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/09/04
+    note: Year-wildcard archive redirect - pin during verification.
+sources: *id001
+status: unverified
+notes: Created in the Gorazd batch 2026-07-15. Bishop of the Czech religious communities under
+  the Serbian jurisdiction (1921-1942); executed 4 September 1942 with his clergy for sheltering
+  the Heydrich-assassination paratroopers in the crypt of Ss Cyril and Methodius cathedral.
+  The pre-autocephaly anchor of Czech Orthodoxy - the autocephalous line begins with Jelevferij
+  (1946).

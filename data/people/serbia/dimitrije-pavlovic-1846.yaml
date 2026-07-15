@@ -8,10 +8,10 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
-  record.
+notes: 'Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Gorazd batch (2026-07-15):
+  principal consecrator of Hieromartyr Gorazd of Prague (Belgrade, 1921) - see consecration/czech-slovakia/gorazd-pavlik-1921.'
 identifiers:
   wikidata: Q1282567
   viaf: '316447530'

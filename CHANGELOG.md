@@ -7,6 +7,7 @@ version heading at tag time.
 
 ## [Unreleased]
 
+- gorazd: Hieromartyr Gorazd of Prague (1921–1942) — person, tenure, veneration, his Belgrade consecration by Patriarch Dimitrije (tying the Czech line into the Serbian consecration DAG), and the Nazi-suppression context event
 - halych + lithuania: the 14th-century parallel metropolitanates — two historical jurisdictions absorbed into Kyiv, 7 tenures; Roman (the Alexius rivalry) and Gregory Tsamblak (the list's own "in pretense") carry rule-6 qualifiers
 - cyprus: suffragan anchors + incumbents (explicitly partial) — Lazarus of Kition as tradition-graded apostolic founder, Theodotus/Auxibius/Kyrillos anchors, the five incumbent metropolitans, the Paphos cursus (both archbishops linked) and the contested 2025 Tychikos removal per rule 6
 - docs: v0.3.0 citation and DOI (10.5281/zenodo.21383603) in the README
