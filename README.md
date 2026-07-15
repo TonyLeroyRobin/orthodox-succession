@@ -105,9 +105,8 @@ python -m http.server 8000
 See [`CLAUDE.md`](CLAUDE.md) for the full working conventions and
 [`KICKOFF.md`](KICKOFF.md) for the authoritative project specification.
 Governance: [`docs/NEUTRALITY.md`](docs/NEUTRALITY.md),
-[`docs/NAMING.md`](docs/NAMING.md), [`CONTRIBUTING.md`](CONTRIBUTING.md)
-(placeholders pending maintainer drafting). Change history:
-[`CHANGELOG.md`](CHANGELOG.md).
+[`docs/NAMING.md`](docs/NAMING.md), [`CONTRIBUTING.md`](CONTRIBUTING.md).
+Change history: [`CHANGELOG.md`](CHANGELOG.md).
 
 ## Releases & how to cite
 

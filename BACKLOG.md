@@ -26,6 +26,8 @@ current milestone (ROADMAP_ADDENDUM.md §A4).
 | UOC (Moscow Patriarchate) parallel jurisdiction record + Onufriy's structure (his Kyiv rival-claim tenure exists; jurisdiction modeling is a maintainer scope decision) | 2026-07-11 | maintainer decision |
 | OCU predecessor bodies 1990–2018 (UOC-KP: Mstyslav, Volodymyr Romaniuk, Filaret; UAOC) + Filaret's honorary-patriarch episode and 2019 departure | 2026-07-11 | maintainer decision |
 | Historical Kyiv metropolitans 988–1686 (jurisdiction/metropolitanate-of-kyiv exists structurally; ~60 tenures) | 2026-07-11 | post-Milestone C |
+| Dashboard: per-recognizer "view as reckoned by X" toggle (NEUTRALITY.md decision 2026-07-15 — badge now, toggle later) | 2026-07-15 | dashboard phase |
+| Georgian display ordinals: re-check against the official diptych once reachable (NAMING.md decision 2026-07-15 — the church's own numbering leads display names) | 2026-07-15 | verification session (continued) |
 | ~~Cross-jurisdiction person deduplication (Meletios Pigas, Meletios Metaxakis, Cyril Loukaris, Kosmas II/III)~~ DONE 2026-07-15 (verification session; + Joanikije III Karadža and the Georgian Okropir II seed — six merges total; earlier links: Niphon II, Tikhon of Moscow) | 2026-07-10 | done |
 | Metropolitans of Moscow 1325–1589 (Peter → Job's predecessors) + the historical Kyiv metropolitan line — pre-patriarchal Russian succession | 2026-07-10 | post-Milestone C |
 | Metropolitanate/Patriarchate of Karlovci 1690–1920 (parallel Serbian jurisdiction; seeded persons annotated: Rajačić, Maširević, Anđelić, Branković, Bogdanović) | 2026-07-10 | post-Milestone C |

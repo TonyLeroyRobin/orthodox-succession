@@ -7,7 +7,7 @@ version heading at tag time.
 
 ## [Unreleased]
 
-*(nothing yet)*
+- governance: NEUTRALITY.md, NAMING.md, CONTRIBUTING.md drafted with the maintainer (B2) — disputes UI badge-now-toggle-later, ecclesiastical see names, church's-own-numbering ordinals, maintainer-only verification
 
 ## [0.1.0] — date set at tag time (first public release; ID permanence locks here)
 
