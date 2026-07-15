@@ -1,0 +1,24 @@
+id: event/council/constantinople-0448
+type: synod
+title: Home Synod of Constantinople (448)
+date:
+  from:
+    value: '0448-11'
+    calendar: julian
+    precision: month
+place: Constantinople
+outcomes:
+- Condemned the archimandrite Eutyches for refusing two natures in Christ after the union.
+- Flavian's tome of the proceedings became evidence at Ephesus 449 and Chalcedon.
+canonical_reception: received-locally
+reception_note: Its condemnation of Eutyches was annulled at Ephesus 449 and then vindicated at Chalcedon 451 - the received dogmatic line runs through it.
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 3, sec. 172
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

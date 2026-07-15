@@ -1,0 +1,15 @@
+id: source/hefele-history-of-the-councils
+type: book
+title: "A History of the Councils of the Church, from the Original Documents"
+author: "Karl Josef von Hefele (tr. W. R. Clark et al.)"
+url: https://archive.org/search?query=hefele+history+of+the+councils+of+the+church
+archived_url: https://web.archive.org/web/2026/https://archive.org/search?query=hefele+history+of+the+councils+of+the+church
+status: verified
+notes: >-
+  English translation, T&T Clark, Edinburgh, 5 vols (1871-1896), covering to
+  787; public domain. The R5 catalog's working survey source - grade
+  scholarly (19th-century, Roman Catholic standpoint; check reception claims
+  against Orthodox sources). Honest index link - individual volume scans get
+  pinned per-citation via locator during verification (record volume + page,
+  e.g. "vol. 2, p. 67"). Archive wildcard pending pin (availability API
+  rate-limited, 2026-07-15).

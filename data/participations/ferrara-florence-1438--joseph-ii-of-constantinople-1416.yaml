@@ -1,0 +1,10 @@
+id: participation/ferrara-florence-1438--joseph-ii-of-constantinople-1416
+person: person/constantinople/joseph-ii-of-constantinople-1416
+event: event/council/ferrara-florence-1438
+role: attended
+sources:
+- ref: source/mansi-collectio
+  reliability: scholarly
+  locator: acts / subscription lists - locator to be confirmed
+status: unverified
+notes: Died at Florence on 10 June 1439, before the decree was proclaimed.

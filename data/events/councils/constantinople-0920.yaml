@@ -1,0 +1,25 @@
+id: event/council/constantinople-0920
+type: synod
+title: Synod of Constantinople (920, the Tome of Union)
+date:
+  from:
+    value: '0920-07'
+    calendar: julian
+    precision: month
+place: Constantinople
+outcomes:
+- Issued the Tome of Union healing the schism over the fourth marriage (tetragamy) of the emperor Leo VI.
+- Ruled fourth marriage inadmissible and third marriage penanced, restoring communion between the Euthymian and Nicholaite parties.
+canonical_reception: received-locally
+reception_note: The Tome entered Byzantine canonical collections and was commemorated annually in Constantinople (the Feast of Union); its marriage discipline remains the Orthodox norm.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+- ref: source/pedalion-rudder
+  reliability: official-list
+  locator: on marriage discipline (third marriages)
+  note: reception of the canons in the Orthodox corpus
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

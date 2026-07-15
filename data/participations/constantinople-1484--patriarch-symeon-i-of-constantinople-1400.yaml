@@ -1,0 +1,9 @@
+id: participation/constantinople-1484--patriarch-symeon-i-of-constantinople-1400
+person: person/constantinople/patriarch-symeon-i-of-constantinople-1400
+event: event/council/constantinople-1484
+role: presided
+sources:
+- ref: source/mansi-collectio
+  reliability: scholarly
+  locator: acts / subscription lists - locator to be confirmed
+status: unverified

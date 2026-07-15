@@ -1,0 +1,9 @@
+id: participation/constantinople-1691--callinicus-ii-of-constantinople-1630
+person: person/constantinople/callinicus-ii-of-constantinople-1630
+event: event/council/constantinople-1691
+role: presided
+sources:
+- ref: source/mansi-collectio
+  reliability: scholarly
+  locator: acts / subscription lists - locator to be confirmed
+status: unverified

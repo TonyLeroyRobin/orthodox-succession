@@ -1,0 +1,9 @@
+id: participation/constantinople-0869--photios-i-of-constantinople-0858
+person: person/constantinople/photios-i-of-constantinople-0858
+event: event/council/constantinople-0869
+role: condemned
+sources:
+- ref: source/mansi-collectio
+  reliability: scholarly
+  locator: acts / subscription lists - locator to be confirmed
+status: unverified

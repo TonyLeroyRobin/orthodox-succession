@@ -1,0 +1,10 @@
+id: participation/constantinople-1368--philotheos-kokkinos-1354
+person: person/constantinople/philotheos-kokkinos-1354
+event: event/council/constantinople-1368
+role: presided
+sources:
+- ref: source/mansi-collectio
+  reliability: scholarly
+  locator: acts / subscription lists - locator to be confirmed
+status: unverified
+notes: His encomium and the synodal tome frame Palamas' glorification.

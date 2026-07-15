@@ -27,6 +27,19 @@
         "pattern": "^(see/[a-z0-9-]+/[a-z0-9-]+|jurisdiction/[a-z0-9-]+)$"
       }
     },
+    "canonical_reception": {
+      "enum": ["received-universally", "received-locally", "historical-only", "condemned"],
+      "description": "R5: how Orthodoxy receives the council's acts/canons. Council types only (validate.py enforces). Recorded, never adjudicated - nuance goes in reception_note."
+    },
+    "reception_note": {
+      "type": "string",
+      "description": "e.g. 'canons received via Quinisext canon 2'; pair with canonical_reception"
+    },
+    "related_works": {
+      "type": "array",
+      "items": { "$ref": "defs.json#/$defs/workId" },
+      "description": "R5: works produced by or defining for the council (Tome of Leo <-> Chalcedon). Council types only; refs validated."
+    },
     "recognition": { "$ref": "defs.json#/$defs/recognition" },
     "sources": { "$ref": "defs.json#/$defs/sources" },
     "status": { "$ref": "defs.json#/$defs/status" },

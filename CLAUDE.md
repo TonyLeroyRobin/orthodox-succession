@@ -80,3 +80,8 @@ context-event layer, where Wikipedia links are acceptable.
 - When transcribing scans (Le Quien, Mansi), always record the page/column locator.
 - Prefer editing existing records over creating near-duplicates; run the Work
   duplicate detector when adding bibliography.
+- **Council leads (R5, standing):** any synod named in ANY source during ANY
+  work gets logged in `docs/COUNCIL_LEADS.md` (name, date-guess, where
+  encountered) — even mid-task on something unrelated. The gap report lists
+  leads not yet cataloged; a lead is closed by cataloging the council or by a
+  maintainer out-of-scope note, never by silent deletion.

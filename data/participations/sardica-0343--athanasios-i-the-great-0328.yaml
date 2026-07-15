@@ -1,0 +1,10 @@
+id: participation/sardica-0343--athanasios-i-the-great-0328
+person: person/alexandria/athanasios-i-the-great-0328
+event: event/council/sardica-0343
+role: attended
+sources:
+- ref: source/mansi-collectio
+  reliability: scholarly
+  locator: acts / subscription lists - locator to be confirmed
+status: unverified
+notes: Present as the principal vindicated party.

@@ -1,0 +1,25 @@
+id: event/council/constantinople-0861
+type: council-local
+title: First-Second Council (Prima Secunda)
+date:
+  from:
+    value: '0861'
+    calendar: julian
+    precision: year
+place: Constantinople (church of the Holy Apostles)
+outcomes:
+- Confirmed Photius on the patriarchal throne and heard the case of the deposed Ignatius before papal legates.
+- Issued 17 canons, including canons regulating monastery founding and forbidding lay investiture of bishops.
+canonical_reception: received-universally
+reception_note: The 17 canons entered the received canonical corpus (the Pedalion prints them with commentary); the synod's disposition of Ignatius was contested at Rome and reversed in 869-870, itself annulled in 879-880 - the canons' reception outlived the politics.
+sources:
+- ref: source/pedalion-rudder
+  reliability: official-list
+  locator: canons of the First-and-Second Synod
+  note: reception of the canons in the Orthodox corpus
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Called First-Second for its two stages after an interrupted first session. Created in Milestone R5 (council catalog) 2026-07-15.

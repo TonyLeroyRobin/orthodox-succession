@@ -1,0 +1,21 @@
+id: event/council/constantinople-1638
+type: synod
+title: Synod of Constantinople (1638)
+date:
+  from:
+    value: '1638'
+    calendar: julian
+    precision: year
+place: Constantinople
+outcomes:
+- Anathematized the Calvinist Confession circulated (1629) under the name of Cyril Loukaris, and Loukaris himself, months after his death.
+- Opened the seventeenth-century confessional sequence continued at Jassy 1642 and Jerusalem 1672.
+canonical_reception: received-locally
+reception_note: The condemnation of the Confession's doctrine was upheld by Jassy and Jerusalem; the personal anathema on Loukaris was softened by the 1642 Constantinople synod, which condemned the Confession while leaving its authorship open - both recorded, not adjudicated.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Loukaris' own authorship of the 1629 Confession remains disputed in scholarship. Created in Milestone R5 (council catalog) 2026-07-15.

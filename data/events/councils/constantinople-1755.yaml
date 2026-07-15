@@ -1,0 +1,25 @@
+id: event/council/constantinople-1755
+type: synod
+title: Synod of Constantinople (1755-1756, the Oros on rebaptism)
+date:
+  from:
+    value: '1755'
+    calendar: julian
+    precision: year
+  to:
+    value: '1756'
+    calendar: julian
+    precision: year
+place: Constantinople
+outcomes:
+- Issued the Oros requiring converts from the Latin and Armenian churches to be received by baptism.
+- Signed by the patriarchs of Constantinople, Alexandria, and Jerusalem.
+canonical_reception: received-locally
+reception_note: Reversed the 1484 chrismation rite for the Greek churches; Russian practice continued reception by chrismation - a live divergence recorded, not adjudicated.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Cyril V issued the Oros amid the anabaptism controversy that twice cost him the throne. Created in Milestone R5 (council catalog) 2026-07-15.

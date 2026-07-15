@@ -1,0 +1,21 @@
+id: event/council/constantinople-1368
+type: synod
+title: Synod of Constantinople (1368)
+date:
+  from:
+    value: '1368'
+    calendar: julian
+    precision: year
+place: Constantinople
+outcomes:
+- Glorified Gregory Palamas as a saint, eleven years after his death, and appointed his feast to the second Sunday of Lent.
+- Condemned Prochoros Kydones for reviving anti-Palamite teaching.
+canonical_reception: received-locally
+reception_note: Completes the hesychast conciliar arc (1341-1351-1368); Palamas' feast and the anti-Palamite anathemas live in the Synodikon and the Triodion church-wide.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

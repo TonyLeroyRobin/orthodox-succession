@@ -45,6 +45,11 @@ a { color: var(--accent); }
 .badge.model { background: #37474f; }
 .badge.corroborated { background: #00695c; }
 .badge.survival { background: #5d4037; }
+.badge.reception.received-universally { background: #2e7d32; }
+.badge.reception.received-locally { background: #558b2f; }
+.badge.reception.historical-only { background: #607d8b; }
+.badge.reception.condemned { background: #6d4c41; }
+#councilFilter label { margin-right: 1.5em; }
 .map-land { fill: #eae5da; stroke: #d8d2c6; stroke-width: .5; }
 .map-see { cursor: pointer; }
 .map-see:hover { opacity: .75; }

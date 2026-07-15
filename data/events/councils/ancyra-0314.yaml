@@ -1,0 +1,31 @@
+id: event/council/ancyra-0314
+type: council-local
+title: Council of Ancyra
+date:
+  from:
+    value: '0314'
+    calendar: julian
+    precision: year
+place: Ancyra, Galatia
+outcomes:
+- Issued canons (traditionally 25) on the reconciliation of the lapsed after the persecution of Maximinus.
+- Regulated clerical discipline, including canon 10 on deacons marrying after ordination.
+canonical_reception: received-universally
+reception_note: Canons received via Quinisext canon 2 into the universal corpus.
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 1, sec. 16
+- ref: source/pedalion-rudder
+  reliability: official-list
+  locator: canons of Ancyra
+  note: reception of the canons in the Orthodox corpus
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+  locator: The Canons of the Councils of Ancyra, Gangra, Neocaesarea, Antioch and Laodicea / of Sardica / of Carthage
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

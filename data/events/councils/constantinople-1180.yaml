@@ -1,0 +1,20 @@
+id: event/council/constantinople-1180
+type: synod
+title: Synod of Constantinople (1180, on the God of Muhammad)
+date:
+  from:
+    value: '1180'
+    calendar: julian
+    precision: year
+place: Constantinople
+outcomes:
+- Revised, at Manuel I Komnenos' insistence, the abjuration formula for converts from Islam so that the anathema falls on Muhammad's doctrine rather than on the God of Muhammad.
+canonical_reception: historical-only
+reception_note: A catechetical-formula ruling preserved in the abjuration rites; cited in modern scholarship on Byzantine views of Islam more than in canonical collections.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

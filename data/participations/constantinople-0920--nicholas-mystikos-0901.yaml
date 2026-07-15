@@ -1,0 +1,10 @@
+id: participation/constantinople-0920--nicholas-mystikos-0901
+person: person/constantinople/nicholas-mystikos-0901
+event: event/council/constantinople-0920
+role: presided
+sources:
+- ref: source/mansi-collectio
+  reliability: scholarly
+  locator: acts / subscription lists - locator to be confirmed
+status: unverified
+notes: His restoration as patriarch framed the settlement.

@@ -1,0 +1,10 @@
+id: participation/blachernae-1285--gregory-ii-of-constantinople-1241
+person: person/constantinople/gregory-ii-of-constantinople-1241
+event: event/council/blachernae-1285
+role: presided
+sources:
+- ref: source/mansi-collectio
+  reliability: scholarly
+  locator: acts / subscription lists - locator to be confirmed
+status: unverified
+notes: His Tomus is the council's doctrinal act.

@@ -1,0 +1,9 @@
+id: participation/constantinople-0394--flavian-i-0381
+person: person/antioch/flavian-i-0381
+event: event/council/constantinople-0394
+role: signed
+sources:
+- ref: source/mansi-collectio
+  reliability: scholarly
+  locator: acts / subscription lists - locator to be confirmed
+status: unverified

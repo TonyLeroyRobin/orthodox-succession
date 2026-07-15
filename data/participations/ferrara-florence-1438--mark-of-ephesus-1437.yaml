@@ -1,0 +1,10 @@
+id: participation/ferrara-florence-1438--mark-of-ephesus-1437
+person: person/constantinople/mark-of-ephesus-1437
+event: event/council/ferrara-florence-1438
+role: attended
+sources:
+- ref: source/mansi-collectio
+  reliability: scholarly
+  locator: acts / subscription lists - locator to be confirmed
+status: unverified
+notes: Refused to sign the union decree - the see of Ephesus' signature is absent from Laetentur caeli.

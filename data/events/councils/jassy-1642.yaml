@@ -1,0 +1,27 @@
+id: event/council/jassy-1642
+type: council-local
+title: Synod of Jassy (Iasi)
+date:
+  from:
+    value: '1642-09'
+    calendar: julian
+    precision: month
+  to:
+    value: '1642-10'
+    calendar: julian
+    precision: month
+place: Iasi, Moldavia (church of the Three Hierarchs)
+outcomes:
+- Reviewed and corrected Peter Mohyla's Orthodox Confession, removing Latinizing articles (purgatory, the moment of consecration).
+- Condemned the Calvinist articles circulated under Cyril Loukaris' name.
+canonical_reception: received-universally
+reception_note: The corrected Confession was ratified by the four Eastern patriarchs (1643) and circulated church-wide among the symbolic books; like Jerusalem 1672 its authority is high but qualified in modern Orthodox assessment.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Met in Varlaam's Moldavia under Vasile Lupu's patronage; Mohyla did not attend in person - his Confession is linked via related_works. Created in Milestone R5 (council catalog) 2026-07-15.
+related_works:
+- work/orthodox-confession-mohyla

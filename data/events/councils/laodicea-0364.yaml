@@ -1,0 +1,31 @@
+id: event/council/laodicea-0364
+type: council-local
+title: Council of Laodicea
+date:
+  from:
+    value: '0364'
+    calendar: julian
+    precision: year
+place: Laodicea, Phrygia
+outcomes:
+- Issued 60 canons on liturgical order, clerical discipline, and relations with heretics and Jews.
+- Canon 60 lists the canonical books of Scripture.
+canonical_reception: received-universally
+reception_note: Canons received via Quinisext canon 2; date approximate (c. 363-364); canon 60's authenticity is debated in scholarship.
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 2, sec. 93
+- ref: source/pedalion-rudder
+  reliability: official-list
+  locator: canons of Laodicea
+  note: reception of the canons in the Orthodox corpus
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+  locator: The Canons of the Councils of Ancyra, Gangra, Neocaesarea, Antioch and Laodicea / of Sardica / of Carthage
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Dating approximate. Created in Milestone R5 (council catalog) 2026-07-15.

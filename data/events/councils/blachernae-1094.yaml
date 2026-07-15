@@ -1,0 +1,21 @@
+id: event/council/blachernae-1094
+type: synod
+title: Synod of Blachernae (1094)
+date:
+  from:
+    value: '1094'
+    calendar: julian
+    precision: year
+place: Blachernae palace, Constantinople
+outcomes:
+- Settled the controversy of Leo of Chalcedon over the melting down of church treasures under Alexios I, distinguishing veneration of images from the material of the images.
+- Restored Leo of Chalcedon to his see upon his assent.
+canonical_reception: historical-only
+reception_note: A doctrinal clarification within the icon-theology tradition; not part of the received canonical corpus, but a standing reference in Byzantine image-theology scholarship.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

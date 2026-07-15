@@ -1,0 +1,10 @@
+id: participation/oak-0403--john-i-chrysostom-0398
+person: person/constantinople/john-i-chrysostom-0398
+event: event/council/oak-0403
+role: deposed-by
+sources:
+- ref: source/mansi-collectio
+  reliability: scholarly
+  locator: acts / subscription lists - locator to be confirmed
+status: unverified
+notes: Refused to appear before a tribunal of his accusers.

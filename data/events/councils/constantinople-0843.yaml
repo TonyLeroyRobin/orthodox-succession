@@ -1,0 +1,21 @@
+id: event/council/constantinople-0843
+type: synod
+title: Synod of Constantinople (843, the Triumph of Orthodoxy)
+date:
+  from:
+    value: '0843-03'
+    calendar: julian
+    precision: month
+place: Constantinople
+outcomes:
+- Restored the veneration of icons definitively, reaffirming Nicaea II under the empress Theodora and the new patriarch Methodios.
+- Instituted the Feast of Orthodoxy (first Sunday of Lent) with the Synodikon of Orthodoxy as its living document.
+canonical_reception: received-universally
+reception_note: Liturgically received by the whole church every first Sunday of Lent; the Synodikon it created became the running register of conciliar reception (Italos, hesychast, and later anathemas were entered into it).
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: The context event event/context/triumph-of-orthodoxy-0843 renders the same moment as a timeline band; this record is the synod itself - both layers kept deliberately (R5). Created in Milestone R5 (council catalog) 2026-07-15.

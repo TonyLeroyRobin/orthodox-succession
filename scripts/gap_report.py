@@ -11,12 +11,13 @@ Info-level only — always exits 0; wired into the build chain after export.
 
 from __future__ import annotations
 
+import re
 import sys
 from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from common import date_year, load_all  # noqa: E402
+from common import REPO_ROOT, date_year, load_all  # noqa: E402
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -97,6 +98,24 @@ def main():
     print(f"-- sees without sourced apostolic_founder ({len(af_unsourced)}):")
     for s in af_unsourced:
         print(f"     {s}")
+
+    # ---- council leads not yet cataloged (R5 standing rule) ----------------
+    leads_doc = REPO_ROOT / "docs" / "COUNCIL_LEADS.md"
+    open_leads = []
+    if leads_doc.exists():
+        for line in leads_doc.read_text(encoding="utf-8").splitlines():
+            m = re.match(r"^\|([^|]+)\|([^|]+)\|[^|]+\|([^|]*)\|\s*$", line)
+            if not m:
+                continue
+            lead, guess, closed = (g.strip() for g in m.groups())
+            if lead in ("Lead", "---") or lead.startswith("-"):
+                continue
+            if not closed:
+                open_leads.append(f"{lead} ({guess})")
+    print(f"-- council leads not yet cataloged ({len(open_leads)}) "
+          f"[docs/COUNCIL_LEADS.md]:")
+    for lead in open_leads:
+        print(f"     {lead}")
     return 0
 
 

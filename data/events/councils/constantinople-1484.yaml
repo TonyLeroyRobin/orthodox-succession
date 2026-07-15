@@ -1,0 +1,21 @@
+id: event/council/constantinople-1484
+type: council-local
+title: Council of Constantinople (1484)
+date:
+  from:
+    value: '1484'
+    calendar: julian
+    precision: year
+place: Constantinople (Pammakaristos church)
+outcomes:
+- Formally repudiated the Union of Florence with representatives of the four Eastern patriarchates present.
+- Issued a rite for receiving converts from the Latin church by chrismation (not rebaptism).
+canonical_reception: received-universally
+reception_note: The first synod after 1453 to speak for the four patriarchates together; its chrismation rite governed Greek practice until the 1755 Oros superseded it with rebaptism - the tension is recorded on both records, not resolved.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

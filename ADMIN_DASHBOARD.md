@@ -20,6 +20,11 @@ stub with the real specification; keep the requirements below.
 4. **Verification queue** (DATA_COMPLETION §5): filters by see and by import
    batch — already available in the CLI (`scripts/verification_queue.py
    --see … --batch …`); the dashboard should expose the same.
+5. **Council forms** (SITE_REFINEMENT R5): the event editor must cover
+   `canonical_reception` (received-universally | received-locally |
+   historical-only | condemned) + `reception_note`, and `related_works`
+   (work-reference picker) — all three offered only when the event type is a
+   council type, per validate.py.
 
 ## Boundaries already decided (ROADMAP_ADDENDUM §D)
 

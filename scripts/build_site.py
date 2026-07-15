@@ -598,6 +598,7 @@ def main():
                  active="Jurisdictions"))
 
     # ---------------- council pages ----------------
+    works_by_id = {w["id"]: w for w in works}
     for ev in councils:
         rid = ev["id"]
         url = entity_url(rid)
@@ -615,32 +616,122 @@ def main():
         outcomes = "".join(f"<li>{esc(o)}</li>"
                            for o in ev.get("outcomes") or [])
         d = ev.get("date") or {}
+        recp = ev.get("canonical_reception")
+        recp_html = ""
+        if recp:
+            recp_html = (f'<div class="panel"><h2>Reception</h2>'
+                         f'<p><span class="badge reception {esc(recp)}">'
+                         f'{esc(recp)}</span></p>'
+                         + (f'<p class=note>{esc(ev["reception_note"])}</p>'
+                            if ev.get("reception_note") else "")
+                         + "</div>")
+        rec_entries = ev.get("recognition") or []
+        recog_html = ""
+        if rec_entries:
+            rlines = "".join(
+                f"<li>{esc((r.get('by') or '').split('/')[-1])} — "
+                f"{badge(r.get('status'))}"
+                + (f" <span class=note>{esc(r['note'])}</span>"
+                   if r.get("note") else "") + "</li>"
+                for r in rec_entries)
+            recog_html = (f'<div class="panel"><h2>Recognition '
+                          f'(per recognizer)</h2><ul>{rlines}</ul></div>')
+        rel_works = ev.get("related_works") or []
+        rw_html = ""
+        if rel_works:
+            rw_lines = "".join(
+                f'<li><a href="{entity_url(w)}">'
+                f'{esc(works_by_id.get(w, {}).get("title", w))}</a></li>'
+                for w in rel_works)
+            rw_html = (f'<div class="panel"><h2>Related works</h2>'
+                       f'<ul>{rw_lines}</ul></div>')
         jsonld = {"@context": "https://schema.org", "@type": "Event",
                   "name": ev.get("title"), "identifier": rid}
         content = f"""<h1>{esc(ev.get('title'))} {badge(ev.get('status'))}</h1>
 <p class="subtitle">{esc(rid)} · {esc(ev.get('type'))} ·
 {esc(fmt_range(d.get('from'), d.get('to'), 'single session'))}
 {f" · {esc(ev.get('place'))}" if ev.get('place') else ''}</p>
+{recp_html}{recog_html}
 {f'<div class="panel"><h2>Outcomes</h2><ul>{outcomes}</ul></div>' if outcomes else ''}
 <div class="panel"><h2>Participants</h2>{ptable}</div>
+{rw_html}
 <div class="panel"><h2>Record</h2>{citations_html(ev.get('sources'), sources_by_id)}
 {f'<p class=note>{esc(ev.get("notes"))}</p>' if ev.get('notes') else ''}</div>"""
         write(OUT / url.strip("/") / "index.html",
               layout(ev.get("title", rid), content, canonical, jsonld,
                      "Councils"))
 
-    c_idx = "".join(
-        f'<li><a href="{entity_url(ev["id"])}">{esc(ev.get("title"))}</a> '
-        f'<span class=note>{esc(fmt_date((ev.get("date") or {}).get("from")))} '
-        f'· {esc(ev.get("type"))}</span></li>'
-        for ev in sorted(councils,
-                         key=lambda e: date_year((e.get("date") or {}).get("from")) or 0))
+    GROUPS = [
+        ("received-universally", "Received universally",
+         "The seven ecumenical councils, the councils Orthodoxy treats "
+         "with near-ecumenical authority, and the local councils whose "
+         "canons entered the universal corpus (Quinisext canon 2)."),
+        ("received-locally", "Received locally",
+         "Councils whose acts are operative in part of the church or "
+         "whose reception is qualified — see each record's note."),
+        ("historical-only", "Historical significance only",
+         "Recorded for their historical weight; not part of the received "
+         "canonical or dogmatic corpus."),
+        ("condemned", "Condemned or annulled",
+         "Councils Orthodoxy rejects — recorded, not erased."),
+        (None, "Reception not yet assessed", ""),
+    ]
+
+    def century(ev):
+        y = date_year((ev.get("date") or {}).get("from"))
+        return (y - 1) // 100 + 1 if y else None
+
+    def c_entry(ev):
+        cent = century(ev)
+        return (f'<li data-type="{esc(ev.get("type"))}" '
+                f'data-century="{cent or ""}">'
+                f'<a href="{entity_url(ev["id"])}">{esc(ev.get("title"))}</a> '
+                f'<span class=note>'
+                f'{esc(fmt_date((ev.get("date") or {}).get("from")))} '
+                f'· {esc(ev.get("type"))}'
+                + (f" · {cent}th c." if cent else "") + "</span></li>")
+
+    c_sorted = sorted(councils, key=lambda e: date_year(
+        (e.get("date") or {}).get("from")) or 0)
+    c_groups = ""
+    for key, label, blurb in GROUPS:
+        evs = [e for e in c_sorted if e.get("canonical_reception") == key]
+        if not evs:
+            continue
+        c_groups += (f"<h2>{esc(label)} ({len(evs)})</h2>"
+                     + (f"<p class=note>{esc(blurb)}</p>" if blurb else "")
+                     + "<ul class=council-list>"
+                     + "".join(c_entry(e) for e in evs) + "</ul>")
+    filter_ui = """<div class="panel" id="councilFilter">
+<label>Type <select id="cfType"><option value="">all</option>
+<option>council-ecumenical</option><option>council-local</option>
+<option>synod</option></select></label>
+<label>Century <input id="cfCentury" type="number" min="1" max="21"
+placeholder="any" style="width:5em"></label>
+</div>
+<script>
+(function () {
+  var t = document.getElementById('cfType'),
+      c = document.getElementById('cfCentury');
+  function apply() {
+    document.querySelectorAll('.council-list li').forEach(function (li) {
+      var ok = (!t.value || li.dataset.type === t.value) &&
+               (!c.value || li.dataset.century === c.value);
+      li.style.display = ok ? '' : 'none';
+    });
+  }
+  t.addEventListener('change', apply);
+  c.addEventListener('input', apply);
+})();
+</script>"""
     write(OUT / "councils" / "index.html",
           layout("Councils",
                  f"<h1>Councils &amp; synods ({len(councils)})</h1>"
-                 f"<p class=note>The catalog grows in Milestone R5; context "
-                 f"events are a background layer, not listed here.</p>"
-                 f"<ul>{c_idx}</ul>",
+                 f"<p class=note>Grouped by canonical reception — recorded, "
+                 f"never adjudicated; nuance lives in each record's "
+                 f"reception note. Context events are a background layer, "
+                 f"not listed here.</p>"
+                 f"{filter_ui}{c_groups}",
                  "https://tonyleroyrobin.github.io/orthodox-succession/councils/",
                  active="Councils"))
 

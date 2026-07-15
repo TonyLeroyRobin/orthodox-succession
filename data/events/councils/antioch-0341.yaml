@@ -1,0 +1,31 @@
+id: event/council/antioch-0341
+type: council-local
+title: Council of Antioch (the Dedication Council)
+date:
+  from:
+    value: '0341'
+    calendar: julian
+    precision: year
+place: Antioch (dedication of the Golden Church)
+outcomes:
+- Issued 25 disciplinary canons, including canon 5 on schismatic clergy and canons on episcopal translation and appeals.
+- Its dogmatic sessions produced creeds bypassing the Nicene homoousios (the Dedication creeds).
+canonical_reception: received-universally
+reception_note: The 25 canons are received via Quinisext canon 2 even though the council's dogmatic activity, in the Arian controversy's context, was not - reception distinguishes the canons from the creeds.
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 2, sec. 56
+- ref: source/pedalion-rudder
+  reliability: official-list
+  locator: canons of Antioch
+  note: reception of the canons in the Orthodox corpus
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+  locator: The Canons of the Councils of Ancyra, Gangra, Neocaesarea, Antioch and Laodicea / of Sardica / of Carthage
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

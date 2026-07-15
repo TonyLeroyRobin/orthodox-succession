@@ -1,0 +1,20 @@
+id: event/council/constantinople-1691
+type: synod
+title: Synod of Constantinople (1691)
+date:
+  from:
+    value: '1691'
+    calendar: julian
+    precision: year
+place: Constantinople
+outcomes:
+- Affirmed, against the logothete John Karyophylles, the term metousiosis (transubstantiation) as an Orthodox expression of the eucharistic change.
+canonical_reception: received-locally
+reception_note: Its definition was received into Russian synodal teaching as well (cited in the 1690s Moscow decisions on the Eucharist); the terminology debate it settled resurfaces in modern Orthodox dogmatics.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

@@ -1,0 +1,31 @@
+id: event/council/ferrara-florence-1438
+type: council-local
+title: Council of Ferrara-Florence (1438-1439)
+date:
+  from:
+    value: '1438-04'
+    calendar: julian
+    precision: month
+  to:
+    value: '1439-07'
+    calendar: julian
+    precision: month
+place: Ferrara, then Florence
+outcomes:
+- Negotiated and proclaimed a union of the Greek and Latin churches (the decree Laetentur caeli, 6 July 1439) accepting the Filioque, purgatory, and Roman primacy definitions.
+- Mark of Ephesus alone among the Greek metropolitans refused to sign; the union was repudiated across the East after the delegation's return.
+canonical_reception: condemned
+reception_note: Counted by Rome as ecumenical; Orthodoxy rejects the union - repudiated in practice immediately, formally by the 1484 council of the four patriarchates. Recorded, not adjudicated.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: vol. 1 (Basel-Ferrara-Florence)
+status: unverified
+notes: The context event event/context/council-of-florence-1439 renders the same council as a timeline band; both layers kept deliberately (R5, maintainer-approved). Created in Milestone R5 (council catalog) 2026-07-15.
+related_works:
+- work/encyclical-mark-of-ephesus
+- work/confession-of-faith-mark

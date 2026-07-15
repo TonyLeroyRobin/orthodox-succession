@@ -1,0 +1,21 @@
+id: event/council/blachernae-1285
+type: council-local
+title: Council of Blachernae (1285)
+date:
+  from:
+    value: '1285'
+    calendar: julian
+    precision: year
+place: Blachernae palace, Constantinople
+outcomes:
+- Repudiated the Union of Lyons (1274) and deposed the unionist ex-patriarch John XI Bekkos.
+- Adopted the Tomus of Gregory II of Cyprus on the eternal manifestation of the Spirit through the Son - the classic patristic response to the Filioque.
+canonical_reception: received-locally
+reception_note: The Tomus was contested even within Byzantium and Gregory later resigned, but the council's rejection of Lyons is the received Orthodox position; modern scholarship treats the Tomus as a key dogmatic text.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

@@ -1,0 +1,21 @@
+id: event/council/constantinople-1166
+type: synod
+title: Synod of Constantinople (1166)
+date:
+  from:
+    value: '1166'
+    calendar: julian
+    precision: year
+place: Constantinople
+outcomes:
+- Ruled on the interpretation of My Father is greater than I (John 14:28) against Demetrios of Lampe, under the emperor Manuel I Komnenos.
+- Its definitions were engraved on marble slabs displayed in Hagia Sophia; anathemas entered the Synodikon.
+canonical_reception: received-locally
+reception_note: Synodikon reception; the engraved edicts survive in part.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

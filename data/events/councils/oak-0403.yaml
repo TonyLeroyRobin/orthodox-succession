@@ -1,0 +1,24 @@
+id: event/council/oak-0403
+type: synod
+title: Synod of the Oak
+date:
+  from:
+    value: '0403'
+    calendar: julian
+    precision: year
+place: the Oak (Rufinianae), near Chalcedon
+outcomes:
+- Deposed John Chrysostom, archbishop of Constantinople, on charges pressed by Theophilus of Alexandria.
+- Its verdict was carried out through Chrysostom's first exile.
+canonical_reception: condemned
+reception_note: Orthodoxy rejects the deposition - Chrysostom was recalled, exiled again by a subsequent synod's confirmation, and posthumously vindicated; his relics were solemnly returned in 438 and he is venerated among the Three Hierarchs.
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 2, sec. 107
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

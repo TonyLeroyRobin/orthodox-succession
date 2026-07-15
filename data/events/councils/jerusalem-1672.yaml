@@ -1,0 +1,24 @@
+id: event/council/jerusalem-1672
+type: council-local
+title: Synod of Jerusalem (1672, Dositheus)
+date:
+  from:
+    value: '1672-03'
+    calendar: julian
+    precision: month
+place: Jerusalem (church of the Holy Sepulchre; sessions at Bethlehem)
+outcomes:
+- Adopted the Confession of Dositheus, rejecting the Calvinist articles circulated under the name of Cyril Loukaris.
+- Affirmed the Orthodox doctrine of the Eucharist, the number of the mysteries, and the canonical books including the anaginoskomena.
+canonical_reception: received-universally
+reception_note: Treated with near-ecumenical authority among the symbolic books of Orthodoxy; particular articles (e.g. on lay Scripture reading) were qualified in later Orthodox use, and the 1723 reply of the Eastern Patriarchs to the Non-Jurors transmitted its Confession.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: not covered by the English Hefele (post-787); cited via the acts
+status: unverified
+notes: Also called the Synod of Bethlehem. Created in Milestone R5 (council catalog) 2026-07-15.

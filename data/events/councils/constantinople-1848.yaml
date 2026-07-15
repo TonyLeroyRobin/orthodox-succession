@@ -1,0 +1,24 @@
+id: event/council/constantinople-1848
+type: synod
+title: Encyclical of the Eastern Patriarchs (1848)
+date:
+  from:
+    value: '1848-05'
+    calendar: julian
+    precision: month
+place: Constantinople
+outcomes:
+- Issued the synodal reply to Pius IX's In suprema Petri apostoli sede, rejecting the Filioque and papal supremacy.
+- Declared that the guardian of religion is the very body of the church, the people itself.
+canonical_reception: received-universally
+reception_note: A synodal encyclical rather than a council in session - signed by the patriarchs of Constantinople, Alexandria, Antioch, and Jerusalem with their synods (31 signatures); cited quasi-authoritatively across Orthodoxy ever since.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+- ref: source/ecumenical-patriarchate-official
+  reliability: official-list
+  note: text preserved in the patriarchate's published acts
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

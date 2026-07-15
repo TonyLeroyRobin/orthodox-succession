@@ -1,0 +1,28 @@
+id: event/council/constantinople-0869
+type: council-local
+title: Council of Constantinople (869-870, anti-Photian)
+date:
+  from:
+    value: '0869-10'
+    calendar: julian
+    precision: month
+  to:
+    value: '0870-02'
+    calendar: julian
+    precision: month
+place: Constantinople (Hagia Sophia)
+outcomes:
+- Condemned and deposed Photius, restoring Ignatius, with papal legates presiding over procedure.
+- Its closing sessions assigned the newly converted Bulgaria to the jurisdiction of Constantinople, against Roman protest.
+canonical_reception: condemned
+reception_note: Counted by Rome as the Eighth Ecumenical Council; in the East it was annulled by the council of 879-880 with Roman legates assenting, and Orthodoxy has never received it - the starkest East-West divergence in conciliar counting, recorded here without adjudication.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 4 (French continuation; English series ends 787)
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

@@ -1,0 +1,25 @@
+id: event/council/constantinople-1156
+type: synod
+title: Synods of Constantinople (1156-1157)
+date:
+  from:
+    value: '1156'
+    calendar: julian
+    precision: year
+  to:
+    value: '1157'
+    calendar: julian
+    precision: year
+place: Constantinople
+outcomes:
+- Condemned the teaching of Soterichos Panteugenos that the eucharistic sacrifice is offered to the Father only, affirming that Christ is both offerer and offered, and the sacrifice is to the whole Trinity.
+- Anathemas entered the Synodikon of Orthodoxy.
+canonical_reception: received-locally
+reception_note: Synodikon reception; two sessions (January 1156, May 1157), the second deposing Soterichos from his election to Antioch.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

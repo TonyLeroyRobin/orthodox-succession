@@ -1,0 +1,10 @@
+id: participation/constantinople-1638--cyril-ii-of-constantinople-1550
+person: person/constantinople/cyril-ii-of-constantinople-1550
+event: event/council/constantinople-1638
+role: presided
+sources:
+- ref: source/mansi-collectio
+  reliability: scholarly
+  locator: acts / subscription lists - locator to be confirmed
+status: unverified
+notes: Cyril II Kontaris, Loukaris' rival, drove the condemnation.

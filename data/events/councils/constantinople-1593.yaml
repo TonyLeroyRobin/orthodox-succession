@@ -1,0 +1,21 @@
+id: event/council/constantinople-1593
+type: council-local
+title: Council of Constantinople (1593)
+date:
+  from:
+    value: '1593-02'
+    calendar: julian
+    precision: month
+place: Constantinople
+outcomes:
+- Confirmed the Moscow patriarchate with all four Eastern patriarchs represented, Meletios Pigas of Alexandria concurring and drafting.
+- Fixed Moscow's place as fifth in the diptychs, after Jerusalem.
+canonical_reception: received-universally
+reception_note: The definitive canonical seal on the 1589 elevation; cited in every later dispute over patriarchal precedence.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

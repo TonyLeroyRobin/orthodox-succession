@@ -1,0 +1,31 @@
+id: event/council/carthage-0419
+type: council-local
+title: Council of Carthage (419)
+date:
+  from:
+    value: '0419-05'
+    calendar: julian
+    precision: month
+place: Carthage
+outcomes:
+- Compiled and ratified the African canonical corpus (the Codex Canonum Ecclesiae Africanae, 133 canons received in the East as the canons of Carthage).
+- Contested, against Rome, the appeal canons cited as Nicene (actually Sardican) in the case of the presbyter Apiarius.
+canonical_reception: received-universally
+reception_note: The African corpus is received via Quinisext canon 2 as the canons of Carthage; this 419 plenary is its fixing point, absorbing the series of African councils under Aurelius.
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 2, sec. 120-121
+- ref: source/pedalion-rudder
+  reliability: official-list
+  locator: canons of Carthage
+  note: reception of the canons in the Orthodox corpus
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+  locator: The Canons of the Councils of Ancyra, Gangra, Neocaesarea, Antioch and Laodicea / of Sardica / of Carthage
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Aurelius of Carthage presided and Augustine of Hippo attended; neither has a person record yet (R5 creates no persons - P3 candidates). Created in Milestone R5 (council catalog) 2026-07-15.

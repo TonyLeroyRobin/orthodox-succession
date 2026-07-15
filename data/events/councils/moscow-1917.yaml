@@ -1,0 +1,28 @@
+id: event/council/moscow-1917
+type: council-local
+title: All-Russian Church Council (Moscow, 1917-1918)
+date:
+  from:
+    value: '1917-08'
+    calendar: julian
+    precision: month
+  to:
+    value: '1918-09'
+    calendar: julian
+    precision: month
+place: Moscow
+outcomes:
+- Restored the Moscow patriarchate after the synodal period and elected Tikhon (Bellavin) patriarch by lot among three candidates.
+- Reorganized church governance (parish statute, diocesan administration) before the Bolshevik state cut its work short.
+canonical_reception: received-locally
+reception_note: Its restoration of the patriarchate is universally operative fact; its statutes remain the reference point of Russian church governance debates.
+sources:
+- ref: source/church-of-russia-official
+  reliability: official-list
+  note: the patriarchate's own account of the 1917-18 council
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

@@ -1,0 +1,31 @@
+id: event/council/gangra-0340
+type: council-local
+title: Council of Gangra
+date:
+  from:
+    value: '0340'
+    calendar: julian
+    precision: year
+place: Gangra, Paphlagonia
+outcomes:
+- Condemned the exaggerated asceticism associated with Eustathius of Sebaste (rejection of marriage, of meat, of church assemblies).
+- Issued 20 canons with a concluding epilogue on honorable asceticism.
+canonical_reception: received-universally
+reception_note: Canons received via Quinisext canon 2; the council's date is debated across c. 340-355.
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 2, sec. 57
+- ref: source/pedalion-rudder
+  reliability: official-list
+  locator: canons of Gangra
+  note: reception of the canons in the Orthodox corpus
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+  locator: The Canons of the Councils of Ancyra, Gangra, Neocaesarea, Antioch and Laodicea / of Sardica / of Carthage
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Date disputed within c. 340-355; anchored at the conventional 340. Created in Milestone R5 (council catalog) 2026-07-15.

@@ -1,0 +1,24 @@
+id: event/council/ephesus-0449
+type: council-local
+title: Second Council of Ephesus (the Latrocinium)
+date:
+  from:
+    value: '0449-08'
+    calendar: julian
+    precision: month
+place: Ephesus
+outcomes:
+- Rehabilitated Eutyches and deposed Flavian of Constantinople, Theodoret of Cyrrhus, and others.
+- Refused the reading of Leo's Tome.
+canonical_reception: condemned
+reception_note: Annulled at Chalcedon 451; Leo of Rome's label latrocinium (robber council) became its standing name in Chalcedonian tradition.
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 3, sec. 177-179
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Flavian died shortly after the council, of treatment received there by tradition's account. Created in Milestone R5 (council catalog) 2026-07-15.

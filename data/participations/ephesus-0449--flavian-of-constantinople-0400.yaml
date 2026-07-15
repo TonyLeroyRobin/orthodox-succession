@@ -1,0 +1,9 @@
+id: participation/ephesus-0449--flavian-of-constantinople-0400
+person: person/constantinople/flavian-of-constantinople-0400
+event: event/council/ephesus-0449
+role: deposed-by
+sources:
+- ref: source/mansi-collectio
+  reliability: scholarly
+  locator: acts / subscription lists - locator to be confirmed
+status: unverified

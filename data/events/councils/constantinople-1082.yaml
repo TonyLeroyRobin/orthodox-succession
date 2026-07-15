@@ -1,0 +1,28 @@
+id: event/council/constantinople-1082
+type: synod
+title: Synods on John Italos (1076-1082)
+date:
+  from:
+    value: '1076'
+    calendar: julian
+    precision: year
+  to:
+    value: '1082'
+    calendar: julian
+    precision: year
+place: Constantinople
+outcomes:
+- Condemned eleven propositions of the philosopher John Italos (metempsychosis, eternity of matter, pagan rationalism in theology).
+- The anathemas were entered in the Synodikon of Orthodoxy.
+canonical_reception: received-locally
+reception_note: The Italos anathemas are read each Sunday of Orthodoxy in the Synodikon - liturgical reception broader than the synod's local standing.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: not covered by the English Hefele (post-787)
+status: unverified
+notes: Two stages - 1076-77 under Michael VII and the definitive trial of 1082 under Alexios I Komnenos. Created in Milestone R5 (council catalog) 2026-07-15.

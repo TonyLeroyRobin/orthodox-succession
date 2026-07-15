@@ -544,6 +544,26 @@ def main():
                                 "least one scholarly-grade source — never "
                                 "inferred (P4)")
 
+    # ---- R5: canonical reception / related works (council events only) -----
+    for ev in (r for r in records if r["kind"] == "event"):
+        d, path = ev["data"], ev["path"]
+        is_council = d.get("type") in ("council-ecumenical", "council-local",
+                                       "synod")
+        if d.get("canonical_reception") and not is_council:
+            rep.error(path, "canonical_reception is for council-type events "
+                            "only (R5)")
+        if d.get("related_works"):
+            if not is_council:
+                rep.error(path, "related_works is for council-type events "
+                                "only (R5)")
+            for ref in d["related_works"]:
+                if ref not in work_ids:
+                    rep.error(path, f"related_works references missing work "
+                                    f"{ref!r}")
+        if d.get("reception_note") and not d.get("canonical_reception"):
+            rep.warn(path, "reception_note without canonical_reception — "
+                           "pair them (R5)")
+
     # ---- rule 7: work hygiene (warn) ----------------------------------------
     def norm_title(t):
         return re.sub(r"[^a-z0-9 ]", "", (t or "").lower()).strip()

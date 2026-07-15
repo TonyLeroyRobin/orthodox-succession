@@ -221,7 +221,15 @@ Key rule: **one Work, many Editions** — never duplicate a work per translation
 `id, type (council-ecumenical | council-local | synod | context), title, date{from,
 to?}, place?, scope (global | jurisdiction:<id>)  # context events only,
 outcomes[]?, affected[see-id | jurisdiction-id]?, recognition[{by, status}]?  # e.g.
-Crete 2016, sources[], status`
+Crete 2016, canonical_reception (received-universally | received-locally |
+historical-only | condemned)?  # council types only (R5), reception_note?  # e.g.
+"canons received via Quinisext canon 2", related_works[work-id]?  # council types
+only, refs validated (R5), sources[], status`
+
+Reception is recorded, never adjudicated: `canonical_reception` states how
+Orthodoxy receives the council's acts, with every nuance (partial reception,
+per-recognizer differences, the 879–880 "Eighth Ecumenical" debate) stated in
+`reception_note` rather than resolved.
 
 Context events: curated, ~150–300 total ceiling, one-sentence description, one source
 link (Wikipedia acceptable for this layer only). Rendered as background band, never

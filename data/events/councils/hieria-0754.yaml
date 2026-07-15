@@ -1,0 +1,24 @@
+id: event/council/hieria-0754
+type: council-local
+title: Council of Hieria
+date:
+  from:
+    value: '0754'
+    calendar: julian
+    precision: year
+place: Hieria palace, opposite Constantinople
+outcomes:
+- Defined iconoclasm as doctrine under Constantine V, styling itself the Seventh Ecumenical Council.
+- Anathematized the defenders of images including Germanus of Constantinople and John of Damascus.
+canonical_reception: condemned
+reception_note: Overturned by Nicaea II (787), which examined and refuted its definition session by session; no patriarch of the pentarchy was represented at Hieria.
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 5, sec. 339
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

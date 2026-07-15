@@ -1,0 +1,27 @@
+id: event/council/constantinople-0394
+type: council-local
+title: Council of Constantinople (394)
+date:
+  from:
+    value: '0394-09'
+    calendar: julian
+    precision: month
+place: Constantinople
+outcomes:
+- Ruled, in the case of the see of Bostra, that a bishop may not be deposed by two or three bishops but only by a synod of the province.
+canonical_reception: received-universally
+reception_note: Received in the canonical corpus (its ruling circulates among the received canons); notable for gathering Nectarius of Constantinople, Theophilus of Alexandria, and Flavian of Antioch in one session.
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 2, sec. 105
+- ref: source/pedalion-rudder
+  reliability: official-list
+  locator: canon of Constantinople 394
+  note: reception of the canons in the Orthodox corpus
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

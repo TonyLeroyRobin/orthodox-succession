@@ -1,0 +1,24 @@
+id: event/council/constantinople-0815
+type: council-local
+title: Iconoclast Council of St Sophia (815)
+date:
+  from:
+    value: '0815'
+    calendar: julian
+    precision: year
+place: Constantinople (Hagia Sophia)
+outcomes:
+- Reinstated the iconoclast definition of Hieria under Leo V, deposing the iconophile patriarch Nikephoros.
+- Opened the second iconoclasm (815-843).
+canonical_reception: condemned
+reception_note: Rejected with Hieria by the restored iconophile church; the 843 synod's Synodikon anathematizes its party by name.
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 5 (second iconoclasm)
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.

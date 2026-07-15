@@ -1,0 +1,32 @@
+id: event/council/sardica-0343
+type: council-local
+title: Council of Sardica
+date:
+  from:
+    value: '0343'
+    calendar: julian
+    precision: year
+place: Sardica (Serdica, modern Sofia)
+outcomes:
+- Vindicated Athanasius of Alexandria and other Nicenes deposed by the Eusebian party.
+- Issued canons including canons 3-5 on appeal procedure to the bishop of Rome.
+- The Eastern bishops withdrew to Philippopolis and held a rival assembly.
+canonical_reception: received-universally
+reception_note: Canons received via Quinisext canon 2; the council's date is given as 343 (formerly 347). Its appeal canons were later cited at Carthage under the name of Nicaea, a confusion the African corpus itself documents.
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 2, sec. 58-67
+- ref: source/pedalion-rudder
+  reliability: official-list
+  locator: canons of Sardica
+  note: reception of the canons in the Orthodox corpus
+- ref: source/npnf-2-14-seven-councils
+  reliability: scholarly
+  locator: The Canons of the Councils of Ancyra, Gangra, Neocaesarea, Antioch and Laodicea / of Sardica / of Carthage
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified
+notes: Created in Milestone R5 (council catalog) 2026-07-15.
