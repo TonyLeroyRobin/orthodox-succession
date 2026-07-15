@@ -1,0 +1,22 @@
+id: tenure/ohrid/dionysius-iii-1752@ohrid
+person: person/ohrid/dionysius-iii-1752
+see: see/ohrid/ohrid
+from:
+  value: '1752'
+  calendar: julian
+  precision: year
+to:
+  value: '1756'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Achrida (Ohrid) series, s.v. Dionysius III (1752-1756) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    known anchors — John of Debar 1018, Leo 1037-1056, Theophylact, Chomatianos, Prohor, the
+    1767 abolition — corroborate) — confirm against Fedalto (Achrida series) and scholarship
+    during verification
+status: unverified
+notes: Created from the standard chronology (Ohrid batch, v0.2.0 cycle) 2026-07-15.

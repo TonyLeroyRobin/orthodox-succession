@@ -1,0 +1,22 @@
+id: tenure/ohrid/mark-ii-1466@ohrid
+person: person/constantinople/mark-ii-1466
+see: see/ohrid/ohrid
+from:
+  value: '1466'
+  calendar: julian
+  precision: circa
+  note: attestation date only — tenure bounds unknown
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Achrida (Ohrid) series, s.v. Mark (1466-?) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    known anchors — John of Debar 1018, Leo 1037-1056, Theophylact, Chomatianos, Prohor, the
+    1767 abolition — corroborate) — confirm against Fedalto (Achrida series) and scholarship
+    during verification
+status: unverified
+notes: 'Created from the standard chronology (Ohrid batch, v0.2.0 cycle) 2026-07-15. Mark
+  Xylokaravis: briefly Ecumenical Patriarch (Mark II, 1466), then translated to Ohrid the
+  same year — tenure linked to the existing Constantinople person record (cross-jurisdiction
+  person, the Niphon II precedent).'

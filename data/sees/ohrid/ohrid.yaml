@@ -14,10 +14,26 @@ location:
   lat: 41.117
   lon: 20.802
   modern_place: Ohrid, North Macedonia
+suppressed:
+  date:
+    value: '1767'
+    calendar: julian
+    precision: year
+    note: archbishopric abolished under Mustafa III; dioceses passed to Constantinople
 sources:
 - ref: source/wikidata
   reliability: database
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  reliability: scholarly
+  locator: Achrida (Ohrid) series — locator to be confirmed
 status: unverified
-notes: Seat of the autocephalous Archbishopric of Ohrid (1018-1767); earlier a principal
-  seat of the First Bulgarian Empire's church. Founding data to be added from sources
-  during verification.
+notes: 'Seat of the autocephalous Archbishopric of Ohrid (1018-1767); earlier a principal
+  seat of the First Bulgarian Empire''s church (that era lives on see/bulgaria/preslav
+  per the maintainer-approved Bulgaria architecture). The v0.2.0-cycle batch (2026-07-15)
+  closed the line on this see: John I of Debar (1018) to Arsenius II (deposed at
+  the 1767 abolition — see event/context/abolition-of-ohrid-1767), 81 occupants across
+  84 terms. Occupancy gaps (notably the 13th–15th-century stretches and 1486–1528)
+  are attestation sparsity in the standard chronology, not modeled vacancies; nine
+  wholly-undated occupants carry disputed placement. Heritage claims on this line
+  (Bulgarian, Macedonian, Serbian) are recorded on the jurisdiction record, not adjudicated.
+  Founding data still to be added during verification.'

@@ -1,0 +1,22 @@
+id: tenure/ohrid/joasaph-ii-1719@ohrid
+person: person/ohrid/joasaph-ii-1719
+see: see/ohrid/ohrid
+from:
+  value: '1719'
+  calendar: julian
+  precision: year
+to:
+  value: '1745'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Achrida (Ohrid) series, s.v. Joasaph II (1719-1745) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    known anchors — John of Debar 1018, Leo 1037-1056, Theophylact, Chomatianos, Prohor, the
+    1767 abolition — corroborate) — confirm against Fedalto (Achrida series) and scholarship
+    during verification
+status: unverified
+notes: Created from the standard chronology (Ohrid batch, v0.2.0 cycle) 2026-07-15.

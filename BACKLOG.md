@@ -33,7 +33,9 @@ current milestone (ROADMAP_ADDENDUM.md §A4).
 | Metropolitanate/Patriarchate of Karlovci 1690–1920 (parallel Serbian jurisdiction; seeded persons annotated: Rajačić, Maširević, Anđelić, Branković, Bogdanović) | 2026-07-10 | post-Milestone C |
 | Metropolitanate of Moldavia and Bukovina (Iași) succession line 1401–present (parallel Romanian jurisdiction; the Karlovci pattern) | 2026-07-10 | post-Milestone C |
 | Maxim Brancovici's Belgrade/Srem tenure (after Wallachia 1505–1508) — belongs to the future Karlovci/Belgrade parallel line | 2026-07-10 | post-Milestone C |
-| Ohrid archbishops 1018–1767 (see/ohrid/ohrid; official BOC claims the line via its ohrid-patriarchs page; Macedonian question adjacent) | 2026-07-11 | post-Milestone C |
+| ~~Ohrid archbishops 1018–1767~~ DONE 2026-07-15 (v0.2.0 cycle: 81 occupants, 84 terms; Mark Xylokaravis linked cross-jurisdiction) | 2026-07-11 | done |
+| Theophylact of Ohrid: Work records (Gospel commentaries, Life of Clement) + veneration assessment with calendar sources | 2026-07-15 | future works pass |
+| Macedonian Orthodox Church – Ohrid Archbishopric (autocephalous 2022; tomos recognition per-recognizer) — whether to model the modern jurisdiction | 2026-07-15 | maintainer decision |
 | Russian exarchs of Georgia 1811–1917 (19 names; belong to the Russian church's structures, not the Georgian diadochal reckoning) | 2026-07-11 | post-Milestone C |
 | Catholicate of Abkhazia/Imereti (western Georgia, 13th c.–1795) — parallel Georgian jurisdiction, the Karlovci pattern | 2026-07-11 | post-Milestone C |
 | Georgian ordinal-scheme reconciliation — PARTIALLY DONE 2026-07-15: the OrthodoxWiki reproduction identified as the second scheme; Okropiri seed identified and merged; Germene↔Nikoloz VI keep-both corroborated (possibly parallel catholicoi); Melkisedek I counter-source named. REMAINING: the David II/III/IV seed cluster, the john-vii and nikoloz unnumbered seeds, scheme-mapping the 1440s–1590s Nikolozes against a scholarly source | 2026-07-11 | verification session (continued) |

@@ -1,0 +1,22 @@
+id: event/context/abolition-of-ohrid-1767
+type: context
+title: Abolition of the Archbishopric of Ohrid
+date:
+  from:
+    value: '1767'
+    calendar: julian
+    precision: year
+scope: jurisdiction:jurisdiction/archbishopric-of-ohrid
+description: The autocephalous Archbishopric of Ohrid was abolished in 1767 under Sultan Mustafa
+  III and its dioceses passed to the Patriarchate of Constantinople, a year after the parallel
+  abolition of the Serbian Patriarchate of Peć.
+affected:
+- jurisdiction/archbishopric-of-ohrid
+- jurisdiction/ecumenical-patriarchate
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Archbishopric of Ohrid
+  archived_url: https://web.archive.org/web/2026/https://en.wikipedia.org/wiki/Archbishopric_of_Ohrid
+status: unverified
+notes: ''

@@ -1,0 +1,20 @@
+id: tenure/ohrid/hadrian-0000@ohrid
+person: person/ohrid/hadrian-0000
+see: see/ohrid/ohrid
+from:
+  value: '1285'
+  calendar: julian
+  precision: disputed
+  note: wholly undated in the standard chronology — listed after Jacob Proarchius
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Achrida (Ohrid) series, s.v. Hadrian (1285-?) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    known anchors — John of Debar 1018, Leo 1037-1056, Theophylact, Chomatianos, Prohor, the
+    1767 abolition — corroborate) — confirm against Fedalto (Achrida series) and scholarship
+    during verification
+status: disputed
+notes: Created from the standard chronology (Ohrid batch, v0.2.0 cycle) 2026-07-15. wholly
+  undated in the standard chronology.

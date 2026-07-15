@@ -7,6 +7,7 @@ version heading at tag time.
 
 ## [Unreleased]
 
+- ohrid: the Archbishopric of Ohrid line closed, John I of Debar 1018 to Arsenius II 1767 — 84 tenures, 80 persons, abolition context event; Mark Xylokaravis linked cross-jurisdiction
 - works: Milestone D backfill — 19 works for the §4 starter set (PG/PL/CPG locators, CCEL links, Mark of Ephesus per maintainer decision), Basil the Great and Mark of Ephesus person records, Patrologia Latina source, veneration blocks on the six authors lacking them
 - dashboard: ROADMAP §C phase — map of sees over time (C1, bundled Natural Earth), commemorated-today calendar with Julian/Gregorian toggle (C2), schema.org JSON-LD on person pages (C3), corroboration badges (C4, maintainer-approved), GitHub Pages deployment workflow
 - docs: Zenodo DOI badge and citation backfilled after the v0.1.0 release (concept DOI 10.5281/zenodo.21382721)
