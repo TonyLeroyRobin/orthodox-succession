@@ -12,6 +12,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Battle of Kosovo
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Battle_of_Kosovo
+  archived_url: http://web.archive.org/web/20260701221457/https://en.wikipedia.org/wiki/Battle_of_Kosovo
 status: unverified
 notes: ''

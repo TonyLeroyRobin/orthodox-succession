@@ -13,6 +13,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Dissolution of the Soviet Union
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
+  archived_url: http://web.archive.org/web/20260701095929/https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union
 status: unverified
 notes: ''

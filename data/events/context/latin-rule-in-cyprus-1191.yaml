@@ -19,6 +19,6 @@ sources:
   - ref: source/wikipedia
     locator: "Kingdom of Cyprus"
     reliability: database
-    archived_url: "https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Kingdom_of_Cyprus"
+    archived_url: "http://web.archive.org/web/20260711195514/https://en.wikipedia.org/wiki/Kingdom_of_Cyprus"
 status: unverified
 notes: ""

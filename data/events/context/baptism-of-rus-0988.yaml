@@ -12,6 +12,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Christianization of Kievan Rus%27
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Christianization_of_Kievan_Rus%27
+  archived_url: http://web.archive.org/web/20260629051430/https://en.wikipedia.org/wiki/Christianization_of_Kievan_Rus%27
 status: unverified
 notes: ''

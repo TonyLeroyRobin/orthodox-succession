@@ -13,6 +13,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Hagia Sophia
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Hagia_Sophia
+  archived_url: http://web.archive.org/web/20260707155206/https://en.wikipedia.org/wiki/Hagia_Sophia
 status: unverified
 notes: ''

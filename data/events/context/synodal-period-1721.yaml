@@ -17,6 +17,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Most Holy Synod
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Most_Holy_Synod
+  archived_url: http://web.archive.org/web/20260212021018/https://en.wikipedia.org/wiki/Most_Holy_Synod
 status: unverified
 notes: ''

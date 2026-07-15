@@ -13,6 +13,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Siege of Jerusalem (636%E2%80%93637)
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(636%E2%80%93637)
+  archived_url: http://web.archive.org/web/20260704094924/https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(636%E2%80%93637)
 status: unverified
 notes: ''

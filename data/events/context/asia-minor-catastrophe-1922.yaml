@@ -17,6 +17,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Population exchange between Greece and Turkey
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Population_exchange_between_Greece_and_Turkey
+  archived_url: http://web.archive.org/web/20260703010428/https://en.wikipedia.org/wiki/Population_exchange_between_Greece_and_Turkey
 status: unverified
 notes: ''

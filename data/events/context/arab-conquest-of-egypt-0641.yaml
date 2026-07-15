@@ -13,6 +13,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Muslim conquest of Egypt
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Muslim_conquest_of_Egypt
+  archived_url: http://web.archive.org/web/20260704174432/https://en.wikipedia.org/wiki/Muslim_conquest_of_Egypt
 status: unverified
 notes: ''

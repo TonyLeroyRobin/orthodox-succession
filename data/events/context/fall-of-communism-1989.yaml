@@ -17,6 +17,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Revolutions of 1989
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Revolutions_of_1989
+  archived_url: http://web.archive.org/web/20260630194536/https://en.wikipedia.org/wiki/Revolutions_of_1989
 status: unverified
 notes: ''

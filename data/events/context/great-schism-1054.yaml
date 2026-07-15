@@ -14,6 +14,6 @@ sources:
   - ref: source/wikipedia
     locator: "East-West Schism"
     reliability: database
-    archived_url: "https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/East%E2%80%93West_Schism"
+    archived_url: "http://web.archive.org/web/20260702021453/https://en.wikipedia.org/wiki/East%E2%80%93West_Schism"
 status: unverified
 notes: ""

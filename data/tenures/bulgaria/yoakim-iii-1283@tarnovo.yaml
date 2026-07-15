@@ -22,9 +22,13 @@ sources:
 - ref: source/church-of-bulgaria-official
   locator: tarnovo-patriarchs
   reliability: official-list
-  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/tarnovo-patriarchs
+  archived_url: http://web.archive.org/web/20260702090642/https://bg-patriarshia.bg/tarnovo-patriarchs
   note: official era page (the Tarnovo patriarchs) — year-wildcard archive redirect, pin during
     verification
 status: unverified
-notes: Created from the official bg-patriarshia.bg era lists during Milestone C reconciliation
-  2026-07-11. Executed under Tsar Theodore Svetoslav c. 1300 — verify circumstances.
+notes: 'Created from the official bg-patriarshia.bg era lists during Milestone C reconciliation
+  2026-07-11. Executed under Tsar Theodore Svetoslav c. 1300 — verify circumstances. Verification
+  session 2026-07-15 cross-check: the encyclopedic reconstruction (en.wikipedia Tarnovo Patriarchate)
+  gives 1284-1300 for this tenure where the official list gives mentioned 1283, died c. 1300
+  - divergence recorded at note level; the official list remains the source of the structured
+  dates.'

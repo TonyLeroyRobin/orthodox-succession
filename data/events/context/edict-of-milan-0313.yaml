@@ -14,6 +14,6 @@ sources:
   - ref: source/wikipedia
     locator: "Edict of Milan"
     reliability: database
-    archived_url: "https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Edict_of_Milan"
+    archived_url: "http://web.archive.org/web/20260708215255/https://en.wikipedia.org/wiki/Edict_of_Milan"
 status: unverified
 notes: ""

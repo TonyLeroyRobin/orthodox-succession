@@ -12,6 +12,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Edict of Thessalonica
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Edict_of_Thessalonica
+  archived_url: http://web.archive.org/web/20260707224837/https://en.wikipedia.org/wiki/Edict_of_Thessalonica
 status: unverified
 notes: ''

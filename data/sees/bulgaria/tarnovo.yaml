@@ -14,7 +14,7 @@ sources:
 - ref: source/church-of-bulgaria-official
   locator: tarnovo-patriarchs
   reliability: official-list
-  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/tarnovo-patriarchs
+  archived_url: http://web.archive.org/web/20260702090642/https://bg-patriarshia.bg/tarnovo-patriarchs
   note: official era page (the Tarnovo patriarchs) — year-wildcard archive redirect, pin during
     verification
 - ref: source/fedalto-hierarchia-ecclesiastica-orientalis

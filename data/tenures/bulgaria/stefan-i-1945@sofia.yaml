@@ -21,7 +21,7 @@ sources:
 - ref: source/church-of-bulgaria-official
   locator: bulg-exarches
   reliability: official-list
-  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/bulg-exarches
+  archived_url: http://web.archive.org/web/20260715163926/https://bg-patriarshia.bg/bulg-exarches
   note: official era page (the Bulgarian exarchs) — year-wildcard archive redirect, pin during
     verification
 status: unverified

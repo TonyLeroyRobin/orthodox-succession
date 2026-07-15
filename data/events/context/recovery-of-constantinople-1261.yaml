@@ -13,6 +13,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Reconquest of Constantinople
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Reconquest_of_Constantinople
+  archived_url: http://web.archive.org/web/20260512113738/https://en.wikipedia.org/wiki/Reconquest_of_Constantinople
 status: unverified
 notes: ''

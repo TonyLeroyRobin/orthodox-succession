@@ -21,6 +21,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Tarnovo Patriarchate
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Tarnovo_Patriarchate
+  archived_url: http://web.archive.org/web/20251114052621/https://en.wikipedia.org/wiki/Tarnovo_Patriarchate
 status: unverified
 notes: ''

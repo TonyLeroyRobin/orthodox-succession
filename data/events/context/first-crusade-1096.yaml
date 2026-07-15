@@ -17,6 +17,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: First Crusade
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/First_Crusade
+  archived_url: http://web.archive.org/web/20260621084128/https://en.wikipedia.org/wiki/First_Crusade
 status: unverified
 notes: ''

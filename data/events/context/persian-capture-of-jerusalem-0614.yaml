@@ -13,6 +13,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Siege of Jerusalem (614)
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(614)
+  archived_url: http://web.archive.org/web/20260715163625/https://en.wikipedia.org/wiki/Siege_of_Jerusalem_(614)
 status: unverified
 notes: ''

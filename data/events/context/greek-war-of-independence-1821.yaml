@@ -17,6 +17,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Greek War of Independence
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Greek_War_of_Independence
+  archived_url: http://web.archive.org/web/20260622185301/https://en.wikipedia.org/wiki/Greek_War_of_Independence
 status: unverified
 notes: ''

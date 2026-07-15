@@ -21,7 +21,7 @@ sources:
 - ref: source/church-of-romania-official
   locator: en/history-of-the-romanian-orthodox-church/patriarchs-of-romania/
   reliability: official-list
-  archived_url: https://web.archive.org/web/2026/https://patriarhia.ro/en/history-of-the-romanian-orthodox-church/patriarchs-of-romania/
+  archived_url: http://web.archive.org/web/20260418234927/https://patriarhia.ro/en/history-of-the-romanian-orthodox-church/patriarchs-of-romania/
   note: official page lists the Patriarchs of Romania 1925–2007 with these years; year-wildcard
     archive redirect — pin during verification
 status: unverified

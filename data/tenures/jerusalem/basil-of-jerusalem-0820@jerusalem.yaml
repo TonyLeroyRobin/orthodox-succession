@@ -25,7 +25,7 @@ sources:
 - ref: source/jerusalem-patriarchate-succession
   locator: "entry: Basilios 820–838 (no. 65)"
   reliability: official-list
-  archived_url: "https://web.archive.org/web/2026/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/"
+  archived_url: "http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/"
   note: year-wildcard archive redirect; Save Page Now requested 2026-07-08 —
     pin the exact snapshot when it propagates
 status: verified

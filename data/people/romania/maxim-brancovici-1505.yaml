@@ -30,5 +30,5 @@ veneration:
   - ref: source/oca-saints
     locator: /saints/lives/2026/01/18
     reliability: official-list
-    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/01/18
+    archived_url: http://web.archive.org/web/20260118060341/https://www.oca.org/saints/lives/2026/01/18
     note: Year-wildcard archive redirect - pin during verification.

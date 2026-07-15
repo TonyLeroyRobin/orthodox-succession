@@ -16,7 +16,7 @@ sources:
 - ref: source/church-of-bulgaria-official
   locator: patriarch
   reliability: official-list
-  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/patriarch
+  archived_url: http://web.archive.org/web/20260418062636/https://bg-patriarshia.bg/patriarch
   note: official page presents Daniil as the incumbent patriarch (elected June 2024)
     — year-wildcard archive redirect, pin during verification
 status: unverified

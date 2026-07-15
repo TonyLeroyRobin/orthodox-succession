@@ -12,6 +12,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Great Stand on the Ugra River
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Great_Stand_on_the_Ugra_River
+  archived_url: http://web.archive.org/web/20260704075921/https://en.wikipedia.org/wiki/Great_Stand_on_the_Ugra_River
 status: unverified
 notes: ''

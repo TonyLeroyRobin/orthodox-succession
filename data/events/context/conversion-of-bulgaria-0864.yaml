@@ -13,6 +13,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Christianization of Bulgaria
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Christianization_of_Bulgaria
+  archived_url: http://web.archive.org/web/20260707125518/https://en.wikipedia.org/wiki/Christianization_of_Bulgaria
 status: unverified
 notes: ''

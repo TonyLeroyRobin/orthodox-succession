@@ -12,6 +12,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Bulgarian%E2%80%93Ottoman wars
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Bulgarian%E2%80%93Ottoman_wars
+  archived_url: http://web.archive.org/web/20260206220029/https://en.wikipedia.org/wiki/Bulgarian%E2%80%93Ottoman_wars
 status: unverified
 notes: ''

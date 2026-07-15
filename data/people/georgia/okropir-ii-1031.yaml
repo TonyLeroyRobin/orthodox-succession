@@ -3,6 +3,8 @@ names:
   monastic: Okropir II
   variants:
   - Okropir (Ioane) II
+  - Ioane V Okropiri
+  - John V Chrysostom (Okropiri)
 attestation: attested
 sources:
 - ref: source/fedalto-hierarchia-ecclesiastica-orientalis
@@ -13,4 +15,11 @@ sources:
     — confirm against Fedalto and the official records of the Georgian Patriarchate during
     verification
 status: unverified
-notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.
+notes: 'Created from the standard chronology during Milestone C reconciliation 2026-07-11.
+  Verification session 2026-07-15 — the FORCE_NEW guard on the seeded Ioane V Okropiri is
+  resolved: the parallel reproduction (orthodoxwiki.org List of Catholicoses of Georgia, fetched
+  2026-07-15) lists him as John V Chrysostom (approx. 1033-1049), i.e. this man (Okropir II
+  of the standard chronology, 1031-1039 and 1045-1049) under the other ordinal scheme. Duplicate
+  seed absorbed (Q4451164).'
+identifiers:
+  wikidata: Q4451164

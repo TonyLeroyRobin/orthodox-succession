@@ -13,6 +13,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Constantinople
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Constantinople
+  archived_url: http://web.archive.org/web/20260708180112/https://en.wikipedia.org/wiki/Constantinople
 status: unverified
 notes: ''

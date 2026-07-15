@@ -17,6 +17,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Religion in Albania
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Religion_in_Albania
+  archived_url: http://web.archive.org/web/20260707101448/https://en.wikipedia.org/wiki/Religion_in_Albania
 status: unverified
 notes: ''

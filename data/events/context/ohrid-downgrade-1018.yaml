@@ -16,6 +16,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Archbishopric of Ohrid
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Archbishopric_of_Ohrid
+  archived_url: http://web.archive.org/web/20260715163433/https://en.wikipedia.org/wiki/Archbishopric_of_Ohrid
 status: unverified
 notes: ''

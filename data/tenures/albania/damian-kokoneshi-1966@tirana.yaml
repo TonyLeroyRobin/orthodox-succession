@@ -21,7 +21,7 @@ sources:
 - ref: source/church-of-albania-official
   locator: 2026/kisha-jone/historia-e-kishes/
   reliability: official-list
-  archived_url: https://web.archive.org/web/2026/https://orthodoxalbania.org/2026/kisha-jone/historia-e-kishes/
+  archived_url: http://web.archive.org/web/20260715163708/https://orthodoxalbania.org/2026/kisha-jone/historia-e-kishes/
   note: official church-history page (no diadochal list page found); year-wildcard archive
     redirect — pin during verification
 status: unverified

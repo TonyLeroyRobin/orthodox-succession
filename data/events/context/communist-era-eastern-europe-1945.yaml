@@ -17,6 +17,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Eastern Bloc
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Eastern_Bloc
+  archived_url: http://web.archive.org/web/20260703215614/https://en.wikipedia.org/wiki/Eastern_Bloc
 status: unverified
 notes: ''

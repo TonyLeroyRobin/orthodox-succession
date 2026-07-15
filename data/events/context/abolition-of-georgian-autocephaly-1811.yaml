@@ -20,6 +20,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Georgian Orthodox Church
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Georgian_Orthodox_Church
+  archived_url: http://web.archive.org/web/20260702033559/https://en.wikipedia.org/wiki/Georgian_Orthodox_Church
 status: unverified
 notes: ''

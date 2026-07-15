@@ -13,6 +13,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Russian Revolution
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Russian_Revolution
+  archived_url: http://web.archive.org/web/20260630033215/https://en.wikipedia.org/wiki/Russian_Revolution
 status: unverified
 notes: ''

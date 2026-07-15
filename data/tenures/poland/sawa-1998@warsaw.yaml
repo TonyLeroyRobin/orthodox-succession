@@ -22,7 +22,7 @@ sources:
 - ref: source/church-of-poland-official
   locator: zwierzchnicy/
   reliability: official-list
-  archived_url: https://web.archive.org/web/2026/https://www.orthodox.pl/zwierzchnicy/
+  archived_url: http://web.archive.org/web/20230605113803/https://www.orthodox.pl/zwierzchnicy/
   note: official primates page (JS-walled to automated fetch; year-wildcard archive redirect)
     — pin during verification
 status: unverified

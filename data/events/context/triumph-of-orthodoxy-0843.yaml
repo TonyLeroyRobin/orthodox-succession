@@ -13,6 +13,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Feast of Orthodoxy
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Feast_of_Orthodoxy
+  archived_url: http://web.archive.org/web/20260328103752/https://en.wikipedia.org/wiki/Feast_of_Orthodoxy
 status: unverified
 notes: ''

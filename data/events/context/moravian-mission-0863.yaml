@@ -13,6 +13,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Cyril and Methodius
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Cyril_and_Methodius
+  archived_url: http://web.archive.org/web/20260705132358/https://en.wikipedia.org/wiki/Cyril_and_Methodius
 status: unverified
 notes: ''

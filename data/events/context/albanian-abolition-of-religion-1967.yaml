@@ -20,6 +20,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Orthodox Autocephalous Church of Albania
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Orthodox_Autocephalous_Church_of_Albania
+  archived_url: http://web.archive.org/web/20251223054754/https://en.wikipedia.org/wiki/Orthodox_Autocephalous_Church_of_Albania
 status: unverified
 notes: ''

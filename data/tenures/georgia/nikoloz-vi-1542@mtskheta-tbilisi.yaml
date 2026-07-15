@@ -27,7 +27,10 @@ notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verif
   the standard chronology (Nikoloz VI (official numbering), 1542-1547). The standard chronology
   gives germene (1541-1547) on this span (recorded as a disputed tenure, tenure/georgia/germene-1541@mtskheta-tbilisi);
   this seeded tenure follows the official georgian numbering — lists disagree; both kept,
-  not adjudicated.'
+  not adjudicated. Verification session 2026-07-15: the parallel reproduction (orthodoxwiki.org
+  List of Catholicoses of Georgia, fetched 2026-07-15) also lists a Nikoloz VI at approx.
+  1542-1547 alongside Germane (approx. 1535-1546) — the seeded record matches that scheme
+  exactly; keep-both corroborated.'
 to:
   value: '1547'
   calendar: julian

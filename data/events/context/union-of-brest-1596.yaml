@@ -13,6 +13,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Union of Brest
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Union_of_Brest
+  archived_url: http://web.archive.org/web/20260713071532/https://en.wikipedia.org/wiki/Union_of_Brest
 status: unverified
 notes: ''

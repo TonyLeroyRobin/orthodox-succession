@@ -14,7 +14,7 @@ sources:
 - ref: source/alexandria-previous-patriarchs
   locator: 'entry: Kyrillos III Loukaris (1601–1620)'
   reliability: official-list
-  archived_url: https://web.archive.org/web/2026/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
+  archived_url: http://web.archive.org/web/20260708200458/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
   note: year-wildcard archive redirect; Save Page Now still pending — pin the exact snapshot
     when it propagates
 status: unverified

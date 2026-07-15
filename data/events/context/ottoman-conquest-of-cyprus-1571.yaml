@@ -18,6 +18,6 @@ sources:
   - ref: source/wikipedia
     locator: "Ottoman Cyprus"
     reliability: database
-    archived_url: "https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Ottoman_Cyprus"
+    archived_url: "http://web.archive.org/web/20260706155025/https://en.wikipedia.org/wiki/Ottoman_Cyprus"
 status: unverified
 notes: ""

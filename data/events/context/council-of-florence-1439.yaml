@@ -13,6 +13,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Council of Florence
-  archived_url: https://web.archive.org/web/2025/https://en.wikipedia.org/wiki/Council_of_Florence
+  archived_url: http://web.archive.org/web/20260701204605/https://en.wikipedia.org/wiki/Council_of_Florence
 status: unverified
 notes: ''

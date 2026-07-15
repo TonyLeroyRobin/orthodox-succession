@@ -15,7 +15,7 @@ sources:
 - ref: source/church-of-bulgaria-official
   locator: ohrid-patriarchs
   reliability: official-list
-  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/ohrid-patriarchs
+  archived_url: http://web.archive.org/web/20260129121159/https://bg-patriarshia.bg/ohrid-patriarchs
   note: official era page (the westward first hierarchs) — year-wildcard archive redirect,
     pin during verification
 status: unverified
