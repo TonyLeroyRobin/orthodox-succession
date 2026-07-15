@@ -7,6 +7,10 @@ version heading at tag time.
 
 ## [Unreleased]
 
+*(nothing yet)*
+
+## [0.3.0] — 2026-07-15 (the deep lines: Athens and Moldavia)
+
 - athens: the pre-1833 line, Hierotheos/Dionysius the Areopagite to Anthimus VII — 105 tenures, Frankish-era exile metropolitans with context event, dual apostolic founders honestly graded
 - moldavia: the Iași line, Iosif I Mușat 1401 to Teofan Savu (incumbent) — new see, 57 tenures, six future primates linked, saints Varlaam/Dosoftei/Iacob/Iosif veneration blocks
 - docs: v0.2.0 citation and DOI (10.5281/zenodo.21383432) in the README
