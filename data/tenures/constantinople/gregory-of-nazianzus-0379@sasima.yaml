@@ -1,0 +1,25 @@
+id: tenure/constantinople/gregory-of-nazianzus-0379@sasima
+person: person/constantinople/gregory-of-nazianzus-0379
+see: see/constantinople/sasima
+from:
+  value: '0372'
+  calendar: julian
+  precision: year
+  note: consecrated by Basil amid the Cappadocian province division
+to:
+  value: '0372'
+  calendar: julian
+  precision: circa
+  note: never effectively took possession — his own orations record the protest; withdrew
+    to Nazianzus
+end_reason: resigned
+sources:
+- ref: source/le-quien-oriens-christianus-v1
+  reliability: scholarly
+  locator: locator to be confirmed
+  note: provincial structures and dates to be confirmed against Le Quien vol. 1 during verification
+status: unverified
+notes: 'Created in P2 (2026-07-15): the famous non-occupancy, recorded as the consecration-to-withdrawal
+  interval. His Constantinople tenure (379-381, council-corroborated) is the existing record;
+  chronology reconciles: Sasima 372 → Nazianzus stints → Constantinople 379-381 → Nazianzus
+  again 382-384.'

@@ -7,6 +7,7 @@ version heading at tag time.
 
 ## [Unreleased]
 
+- sees: P2 — 19 Fathers' sees (13 Eastern incl. the approved Neocaesarea; 6 Western by-name promotions incl. the approved Poitiers), Gregory of Nyssa created, the Cappadocian tenures (Basil at Caesarea; the Sasima protest and both Nazianzus stints), Le Quien v1 and Gams sources
 - site: R1 — full static-site generation (1,822 pages with content in the HTML, path-based entity URLs mirroring IDs, legacy query-URL redirectors), persistent navigation, MiniSearch over names/variants/native scripts, About page (absorbing R6's remainder), gaps page, per-jurisdiction data chunks + purpose-built compact artifacts, responsive pass, JSON-LD on person/see/council pages; Pages artifact becomes the generated site
 - schema: P1 — person `role` field (absent = bishop for pre-P1 records; explicit henceforth) and the non-bishop admission rule (validate.py, error level); role materialized in exports and shown on person pages; KICKOFF §4.1 and CLAUDE.md updated
 - docs: v0.6.0 citation and DOI (10.5281/zenodo.21384060) in the README

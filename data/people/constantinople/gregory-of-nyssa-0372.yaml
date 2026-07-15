@@ -1,0 +1,45 @@
+id: person/constantinople/gregory-of-nyssa-0372
+names:
+  monastic: Gregory of Nyssa
+  native:
+  - script: grc
+    value: Γρηγόριος Νύσσης
+  variants:
+  - Gregorius Nyssenus
+born:
+  date:
+    value: '0335'
+    calendar: julian
+    precision: circa
+died:
+  date:
+    value: 0395
+    calendar: julian
+    precision: circa
+    note: after 394, the year of his last attestation
+attestation: attested
+role: bishop
+veneration:
+  status: saint
+  titles:
+  - Father of Fathers
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 01-10
+    calendar: julian
+    note: St Gregory of Nyssa
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/01/10
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/01/10
+    note: Year-wildcard archive redirect - pin during verification.
+sources:
+- ref: source/le-quien-oriens-christianus-v1
+  reliability: scholarly
+  locator: locator to be confirmed
+  note: provincial structures and dates to be confirmed against Le Quien vol. 1 during verification
+status: unverified
+notes: 'Created in P2 (2026-07-15): the youngest Cappadocian, brother of Basil and of Macrina
+  (the teacher relationship arrives with P3 tier iv). His works are a P4 target.'

@@ -1,0 +1,23 @@
+id: see/constantinople/nyssa
+name: Nyssa
+jurisdiction_history:
+- jurisdiction: jurisdiction/ecumenical-patriarchate
+  from:
+    value: 0381
+    calendar: julian
+    precision: circa
+    note: the post-Nicene provincial structures within the Constantinopolitan orbit (the Pontic
+      and Asian dioceses; canon 28 of Chalcedon) — refine during verification
+location:
+  lat: 38.36
+  lon: 34.45
+  modern_place: near Harmandalı, Nevşehir Province, Türkiye
+sources:
+- ref: source/le-quien-oriens-christianus-v1
+  reliability: scholarly
+  locator: locator to be confirmed
+  note: provincial structures and dates to be confirmed against Le Quien vol. 1 during verification
+status: unverified
+notes: Suffragan of Caesarea; the see of St Gregory of Nyssa (tenure created in this milestone).
+  Coordinates are approximate site locations — verify. Namespace is a filing choice (the Basil
+  precedent), not a historical claim.

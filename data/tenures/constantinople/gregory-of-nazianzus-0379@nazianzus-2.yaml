@@ -1,0 +1,20 @@
+id: tenure/constantinople/gregory-of-nazianzus-0379@nazianzus-2
+person: person/constantinople/gregory-of-nazianzus-0379
+see: see/constantinople/nazianzus
+from:
+  value: 0382
+  calendar: julian
+  precision: circa
+to:
+  value: 0384
+  calendar: julian
+  precision: circa
+end_reason: resigned
+sources:
+- ref: source/le-quien-oriens-christianus-v1
+  reliability: scholarly
+  locator: locator to be confirmed
+  note: provincial structures and dates to be confirmed against Le Quien vol. 1 during verification
+status: unverified
+notes: 'Created in P2 (2026-07-15): resumed the care of Nazianzus after Constantinople (382-384),
+  then retired to Arianzum until his death (c. 390).'

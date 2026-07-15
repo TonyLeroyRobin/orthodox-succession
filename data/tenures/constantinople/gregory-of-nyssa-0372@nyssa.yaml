@@ -1,0 +1,21 @@
+id: tenure/constantinople/gregory-of-nyssa-0372@nyssa
+person: person/constantinople/gregory-of-nyssa-0372
+see: see/constantinople/nyssa
+from:
+  value: '0372'
+  calendar: julian
+  precision: year
+to:
+  value: 0394
+  calendar: julian
+  precision: circa
+  note: last attested at the 394 Constantinople synod
+end_reason: unknown
+sources:
+- ref: source/le-quien-oriens-christianus-v1
+  reliability: scholarly
+  locator: locator to be confirmed
+  note: provincial structures and dates to be confirmed against Le Quien vol. 1 during verification
+status: unverified
+notes: Created in P2 (2026-07-15). Deposed and exiled under Valens (376-378), restored after
+  Valens's death — carried as one tenure with the exile noted, not split.

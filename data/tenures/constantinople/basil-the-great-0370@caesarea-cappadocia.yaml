@@ -1,0 +1,20 @@
+id: tenure/constantinople/basil-the-great-0370@caesarea-cappadocia
+person: person/constantinople/basil-the-great-0370
+see: see/constantinople/caesarea-cappadocia
+from:
+  value: '0370'
+  calendar: julian
+  precision: year
+to:
+  value: 0379
+  calendar: julian
+  precision: year
+end_reason: died
+sources:
+- ref: source/le-quien-oriens-christianus-v1
+  reliability: scholarly
+  locator: locator to be confirmed
+  note: provincial structures and dates to be confirmed against Le Quien vol. 1 during verification
+status: unverified
+notes: 'Created in P2 (2026-07-15): the see his Milestone D person record was waiting for
+  — the no-tenure note retires.'

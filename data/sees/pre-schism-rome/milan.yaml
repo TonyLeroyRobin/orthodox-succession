@@ -1,0 +1,27 @@
+id: see/pre-schism-rome/milan
+name: Milan
+jurisdiction_history:
+- jurisdiction: jurisdiction/pre-schism-rome
+  from:
+    value: '0300'
+    calendar: julian
+    precision: circa
+    note: attestation-era anchor — the see is older; founding data during verification
+  to:
+    value: '1054'
+    calendar: julian
+    precision: year
+location:
+  lat: 45.464
+  lon: 9.19
+  modern_place: Milan, Italy
+sources:
+- ref: source/gams-series-episcoporum
+  reliability: scholarly
+  locator: locator to be confirmed
+  note: dates and successions to be confirmed against Gams during verification
+status: unverified
+notes: 'The see of St Ambrose (P3). Pre-schism scope only, mirroring the Rome record: the
+  end cap 1054 is the conventional schism date, the estrangement was gradual, and the post-1054
+  line continues outside this database''s scope. Created in P2 (2026-07-15); intentionally
+  EMPTY pending the P3 roster. Coordinates approximate — verify.'

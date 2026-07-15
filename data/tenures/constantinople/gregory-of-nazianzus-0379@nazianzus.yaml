@@ -1,0 +1,21 @@
+id: tenure/constantinople/gregory-of-nazianzus-0379@nazianzus
+person: person/constantinople/gregory-of-nazianzus-0379
+see: see/constantinople/nazianzus
+from:
+  value: '0374'
+  calendar: julian
+  precision: circa
+to:
+  value: '0375'
+  calendar: julian
+  precision: circa
+end_reason: resigned
+sources:
+- ref: source/le-quien-oriens-christianus-v1
+  reliability: scholarly
+  locator: locator to be confirmed
+  note: provincial structures and dates to be confirmed against Le Quien vol. 1 during verification
+status: unverified
+notes: 'Created in P2 (2026-07-15): administered his father''s see after Gregory the Elder''s
+  death (c. 374) without formal election — withdrew to Seleucia (c. 375). Second stint is
+  the -2 tenure.'

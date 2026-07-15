@@ -1,0 +1,23 @@
+id: see/constantinople/caesarea-cappadocia
+name: Caesarea in Cappadocia
+jurisdiction_history:
+- jurisdiction: jurisdiction/ecumenical-patriarchate
+  from:
+    value: 0381
+    calendar: julian
+    precision: circa
+    note: the post-Nicene provincial structures within the Constantinopolitan orbit (the Pontic
+      and Asian dioceses; canon 28 of Chalcedon) — refine during verification
+location:
+  lat: 38.722
+  lon: 35.487
+  modern_place: Kayseri, Türkiye
+sources:
+- ref: source/le-quien-oriens-christianus-v1
+  reliability: scholarly
+  locator: locator to be confirmed
+  note: provincial structures and dates to be confirmed against Le Quien vol. 1 during verification
+status: unverified
+notes: Metropolitan see of Cappadocia; the see of St Basil the Great (tenure created in this
+  milestone). Coordinates are approximate site locations — verify. Namespace is a filing choice
+  (the Basil precedent), not a historical claim.

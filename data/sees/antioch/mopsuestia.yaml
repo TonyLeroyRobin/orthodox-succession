@@ -1,0 +1,25 @@
+id: see/antioch/mopsuestia
+name: Mopsuestia
+jurisdiction_history:
+- jurisdiction: jurisdiction/church-of-antioch
+  from:
+    value: '0325'
+    calendar: julian
+    precision: circa
+    note: the Antiochene provincial structure — refine during verification
+location:
+  lat: 36.958
+  lon: 35.62
+  modern_place: Yakapınar (Misis), Adana Province, Türkiye
+sources:
+- ref: source/le-quien-oriens-christianus-v1
+  reliability: scholarly
+  locator: locator to be confirmed
+  note: provincial structures and dates to be confirmed against Le Quien vol. 1 during verification
+status: unverified
+notes: The see of Theodore of Mopsuestia, posthumously condemned at Constantinople II (553)
+  — when his person record arrives (P3) the condemnation is carried by a Participation record,
+  recorded, not adjudicated. Created in P2 (2026-07-15) as part of the Fathers'-sees fill-in;
+  intentionally EMPTY pending the P3 roster — its Father(s) and any further occupants arrive
+  tier by tier. Coordinates are approximate site locations — verify. Namespace is a filing
+  choice (the Basil precedent), not a historical claim.

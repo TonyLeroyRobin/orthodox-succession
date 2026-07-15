@@ -1,0 +1,25 @@
+id: see/constantinople/iconium
+name: Iconium
+jurisdiction_history:
+- jurisdiction: jurisdiction/ecumenical-patriarchate
+  from:
+    value: 0381
+    calendar: julian
+    precision: circa
+    note: the post-Nicene provincial structures within the Constantinopolitan orbit (the Pontic
+      and Asian dioceses; canon 28 of Chalcedon) — refine during verification
+location:
+  lat: 37.872
+  lon: 32.492
+  modern_place: Konya, Türkiye
+sources:
+- ref: source/le-quien-oriens-christianus-v1
+  reliability: scholarly
+  locator: locator to be confirmed
+  note: provincial structures and dates to be confirmed against Le Quien vol. 1 during verification
+status: unverified
+notes: The see of Amphilochius, the addressee of Basil's On the Holy Spirit and Photios's
+  namesake collection. Created in P2 (2026-07-15) as part of the Fathers'-sees fill-in; intentionally
+  EMPTY pending the P3 roster — its Father(s) and any further occupants arrive tier by tier.
+  Coordinates are approximate site locations — verify. Namespace is a filing choice (the Basil
+  precedent), not a historical claim.
