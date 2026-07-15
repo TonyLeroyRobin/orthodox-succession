@@ -1,0 +1,51 @@
+name: Build and deploy dashboard to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install pyyaml jsonschema
+      - name: Validate and build (validation failures fail the deploy)
+        run: make build
+      - name: Assemble site artifact
+        run: |
+          mkdir -p _site/build
+          cp -r site _site/site
+          cp -r build/site-data _site/build/site-data
+          cat > _site/index.html <<'EOF'
+          <!DOCTYPE html><meta charset="utf-8">
+          <meta http-equiv="refresh" content="0; url=site/">
+          <a href="site/">Orthodox Apostolic Succession Database dashboard</a>
+          EOF
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

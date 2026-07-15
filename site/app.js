@@ -108,6 +108,107 @@ function personLink(p) {
   return `<a href="person.html?id=${encodeURIComponent(p.id)}">${esc(personName(p))}</a>`;
 }
 
+/* ---- corroboration tier (ROADMAP C4, maintainer-approved 2026-07-15):
+   >=2 citations from DISTINCT sources, neither tradition- nor database-grade.
+   Computed client-side from the record's own citations; purely visual. ---- */
+
+function isCorroborated(record) {
+  const cits = (record && record.sources) || [];
+  const refs = new Set(
+    cits
+      .filter((c) => c.reliability && !["tradition", "database"].includes(c.reliability))
+      .map((c) => c.ref)
+  );
+  return refs.size >= 2;
+}
+
+function corroborationBadge(record) {
+  return isCorroborated(record)
+    ? ` <span class="badge corroborated" title="${esc(t("badge.corroborated.tip"))}">${t("badge.corroborated")}</span>`
+    : "";
+}
+
+/* ---- liturgical calendar helpers (ROADMAP C2) ------------------------- */
+
+/* Julian -> Gregorian civil offset is +13 days for 1900-03-14..2100-02-28. */
+function julianFeastCivilDate(monthDay, year) {
+  const [m, d] = monthDay.split("-").map(Number);
+  const dt = new Date(Date.UTC(year, m - 1, d));
+  dt.setUTCDate(dt.getUTCDate() + 13);
+  return dt;
+}
+
+function mmdd(dt) {
+  return String(dt.getUTCMonth() + 1).padStart(2, "0") + "-" +
+         String(dt.getUTCDate()).padStart(2, "0");
+}
+
+/* All commemorations falling on the given civil date: a gregorian-recorded
+   feast falls on its own month-day; a julian-recorded feast falls 13 days
+   later on the civil calendar. */
+function commemorationsOn(civilDate, people) {
+  const todayMd = mmdd(civilDate);
+  const year = civilDate.getUTCFullYear();
+  const out = [];
+  for (const p of people) {
+    const ven = p.veneration;
+    if (!ven || ven.status !== "saint") continue;
+    for (const f of ven.feast_days || []) {
+      if (!f.month_day) continue;
+      const civil = f.calendar === "julian"
+        ? mmdd(julianFeastCivilDate(f.month_day, year))
+        : f.month_day;
+      if (civil === todayMd) out.push({ person: p, feast: f });
+    }
+  }
+  return out;
+}
+
+/* ---- schema.org JSON-LD (ROADMAP C3) --------------------------------- */
+
+function jsonLdForPerson(p, myTenures, seesMap) {
+  const n = p.names || {};
+  const alternates = [
+    ...(n.variants || []),
+    ...((n.native || []).map((x) => x.value)),
+  ];
+  const sameAs = [];
+  const ids = p.identifiers || {};
+  if (ids.wikidata) sameAs.push("https://www.wikidata.org/wiki/" + ids.wikidata);
+  if (ids.viaf) sameAs.push("https://viaf.org/viaf/" + ids.viaf);
+  const born = p.born && p.born.date ? String(dateYearNum(p.born.date)) : undefined;
+  const died = p.died && p.died.date ? String(dateYearNum(p.died.date)) : undefined;
+  const roles = myTenures.map((tn) => {
+    const see = seesMap.get(tn.see);
+    return {
+      "@type": "Role",
+      "roleName": "Bishop",
+      "location": see ? see.name : tn.see,
+      "startDate": tn.from ? String(dateYearNum(tn.from)) : undefined,
+      "endDate": tn.to ? String(dateYearNum(tn.to)) : undefined,
+    };
+  });
+  const ld = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": personName(p),
+    "identifier": p.id,
+  };
+  if (alternates.length) ld.alternateName = alternates;
+  if (born) ld.birthDate = born;
+  if (died) ld.deathDate = died;
+  if (sameAs.length) ld.sameAs = sameAs;
+  if (roles.length) ld.hasOccupation = roles;
+  return ld;
+}
+
+function injectJsonLd(obj) {
+  const s = document.createElement("script");
+  s.type = "application/ld+json";
+  s.textContent = JSON.stringify(obj, null, 1);
+  document.head.appendChild(s);
+}
+
 function citationsHtml(cits, sourcesMap) {
   if (!cits || !cits.length) return `<div class="citation">${t("citation.none")}</div>`;
   return cits

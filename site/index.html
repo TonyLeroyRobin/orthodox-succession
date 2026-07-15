@@ -12,6 +12,18 @@
 
 <div id="error"></div>
 
+<div class="panel" id="calendarPanel">
+  <h2 data-i18n="calendar.h2"></h2>
+  <p class="note">
+    <span data-i18n="calendar.note"></span>
+    &nbsp;<label><input type="radio" name="calview" value="gregorian" checked>
+    <span data-i18n="calendar.view.gregorian"></span></label>
+    <label><input type="radio" name="calview" value="julian">
+    <span data-i18n="calendar.view.julian"></span></label>
+  </p>
+  <div id="calendar"></div>
+</div>
+
 <div class="panel">
   <h2 data-i18n="index.timelines.h2"></h2>
   <p class="note" data-i18n="index.timelines.note"></p>
@@ -47,6 +59,41 @@
     return;
   }
   const people = byId(D.people), seesMap = byId(D.sees), sources = byId(D.sources);
+
+  /* ---------- commemorated today (ROADMAP C2) ---------- */
+  function renderCalendar() {
+    const view = document.querySelector('input[name="calview"]:checked').value;
+    const now = new Date();
+    const civil = new Date(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()));
+    const comms = commemorationsOn(civil, D.people);
+    let html = `<p><strong>${esc(civil.toISOString().slice(0, 10))}</strong> — ` +
+      (comms.length ? t("calendar.count", { n: String(comms.length) }) : t("calendar.none")) + `</p>`;
+    if (comms.length) {
+      html += "<ul class='commemorations'>";
+      for (const { person: p, feast: f } of comms) {
+        const julianMd = f.calendar === "julian" ? f.month_day
+          : null;
+        const dateLabel = view === "julian"
+          ? (julianMd ? `${julianMd}${t("fmt.julian")}` : `${f.month_day} (${t("calendar.newCalendar")})`)
+          : mmdd(civil);
+        const titles = ((p.veneration || {}).titles || []).join(", ");
+        const lastTenure = D.tenures.filter((tn) => tn.person === p.id)
+          .sort((a, b) => (dateYearNum(b.from) ?? 0) - (dateYearNum(a.from) ?? 0))[0];
+        const see = lastTenure ? seesMap.get(lastTenure.see) : null;
+        html += `<li>${personLink(p)}` +
+          (titles ? ` <span class="note">${esc(titles)}</span>` : "") +
+          (f.note ? ` — ${esc(f.note)}` : "") +
+          ` <span class="badge grade">${esc(dateLabel)}</span>` +
+          (see ? ` <span class="note">${esc(see.name)}${lastTenure ? ", " + esc(fmtRange(lastTenure.from, lastTenure.to, t("fmt.incumbent"))) : ""}</span>` : "") +
+          corroborationBadge(p) + `</li>`;
+      }
+      html += "</ul>";
+    }
+    document.getElementById("calendar").innerHTML = html;
+  }
+  renderCalendar();
+  for (const r of document.querySelectorAll('input[name="calview"]'))
+    r.addEventListener("change", renderCalendar);
 
   /* ---------- timeline ---------- */
   const tenures = D.tenures.slice();
@@ -138,7 +185,7 @@
         return `<tr><td>${personLink(p)}</td>` +
                `<td>${esc(fmtRange(t.from, t.to, "—"))}</td>` +
                `<td>${esc(t.end_reason)}</td>` +
-               `<td>${statusBadge(t.status)}</td>` +
+               `<td>${statusBadge(t.status)}${corroborationBadge(t)}</td>` +
                `<td>${citationsHtml(t.sources, sources)}</td></tr>`;
       })
       .join("");

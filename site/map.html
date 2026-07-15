@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" data-i18n-title="map.title">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Map — Orthodox Apostolic Succession</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 data-i18n="map.h1">Sees over time</h1>
+<p class="subtitle" data-i18n="map.subtitle"></p>
+
+<div id="error"></div>
+
+<div class="panel">
+  <div class="map-controls">
+    <label for="yearSlider"><span data-i18n="map.year"></span>
+      <strong id="yearLabel"></strong></label>
+    <input type="range" id="yearSlider" min="33" max="2026" value="2026" step="1">
+    <button id="playBtn" data-i18n="map.play"></button>
+  </div>
+  <div id="map"></div>
+  <p>
+    <span class="badge verified" data-i18n="status.verified"></span>
+    <span class="badge unverified" data-i18n="status.unverified"></span>
+    <span class="badge disputed" data-i18n="status.disputed"></span>
+    &nbsp;<svg width="16" height="14"><circle cx="8" cy="8" r="4" fill="none" stroke="#7a7265" stroke-width="1.5"/></svg>
+    <span data-i18n="map.legend.attested"></span>
+    &nbsp;<svg width="18" height="14"><circle cx="9" cy="8" r="5" fill="#b26a00" stroke="#b3261e" stroke-width="2" stroke-dasharray="3,2"/></svg>
+    <span data-i18n="map.legend.disputedRing"></span>
+  </p>
+  <p class="note" data-i18n="map.note"></p>
+</div>
+
+<footer data-i18n="map.footer"></footer>
+
+<script src="vendor/d3.v7.min.js"></script>
+<script src="vendor/topojson-client.min.js"></script>
+<script src="app.js"></script>
+<script>
+(async function () {
+  await initLocale();
+  let D, world;
+  try {
+    D = await loadData(["sees", "tenures", "people", "jurisdictions"]);
+    const resp = await fetch("vendor/countries-110m.json");
+    if (!resp.ok) throw new Error("failed to load world map (" + resp.status + ")");
+    world = await resp.json();
+  } catch (e) {
+    document.getElementById("error").innerHTML =
+      `<p class="error">${t("error.load", { msg: esc(e.message) })}</p>`;
+    return;
+  }
+
+  const people = byId(D.people), jurs = byId(D.jurisdictions);
+  const land = topojson.feature(world, world.objects.countries);
+
+  const located = D.sees.filter((s) => s.location && s.location.lat != null);
+  const tenuresBySee = new Map();
+  for (const tn of D.tenures) {
+    if (!tenuresBySee.has(tn.see)) tenuresBySee.set(tn.see, []);
+    tenuresBySee.get(tn.see).push(tn);
+  }
+
+  const W = 1150, H = 560;
+  const projection = d3.geoNaturalEarth1();
+  const seePoints = { type: "FeatureCollection", features: located.map((s) => ({
+    type: "Feature",
+    geometry: { type: "Point", coordinates: [s.location.lon, s.location.lat] },
+  })) };
+  projection.fitExtent([[30, 20], [W - 30, H - 20]], seePoints);
+  const path = d3.geoPath(projection);
+
+  const svg = d3.select("#map").append("svg")
+    .attr("viewBox", `0 0 ${W} ${H}`).attr("width", "100%");
+  svg.append("g").selectAll("path").data(land.features).join("path")
+    .attr("d", path).attr("class", "map-land");
+
+  const statusFill = { verified: "#2e7d32", unverified: "#b26a00", disputed: "#b3261e" };
+  const g = svg.append("g");
+
+  function stateAt(see, year) {
+    const tens = tenuresBySee.get(see.id) || [];
+    let earliest = Infinity, active = null;
+    for (const tn of tens) {
+      const f = dateYearNum(tn.from);
+      if (f === null) continue;
+      earliest = Math.min(earliest, f);
+      const open = !tn.to;
+      const incumbent = open && f > 1900;
+      const end = dateYearNum(tn.to) ?? (incumbent ? 2026 : f);
+      if (f <= year && year <= end) active = tn;
+    }
+    if (active) return { kind: "active", tenure: active };
+    if (earliest <= year) return { kind: "attested" };
+    return { kind: "hidden" };
+  }
+
+  function tooltip(see, st, year) {
+    const jur = (see.id.match(/^see\/([a-z0-9-]+)\//) || [])[1];
+    let s = see.name;
+    if (st.kind === "active") {
+      const p = people.get(st.tenure.person);
+      s += "\n" + t("map.tip.occupant", {
+        name: personName(p),
+        range: fmtRange(st.tenure.from, st.tenure.to, t("fmt.incumbent")),
+      });
+      s += "\n" + t("tip.status") + " " + st.tenure.status;
+    } else {
+      s += "\n" + t("map.tip.noTenure", { year: String(year) });
+    }
+    return s;
+  }
+
+  function render(year) {
+    document.getElementById("yearLabel").textContent = year;
+    const data = located
+      .map((s) => ({ see: s, st: stateAt(s, year) }))
+      .filter((d) => d.st.kind !== "hidden");
+    g.selectAll("a").remove();
+    const nodes = g.selectAll("a").data(data).join("a")
+      .attr("href", (d) => d.st.kind === "active"
+        ? "person.html?id=" + encodeURIComponent(d.st.tenure.person) : null);
+    nodes.append("circle")
+      .attr("cx", (d) => projection([d.see.location.lon, d.see.location.lat])[0])
+      .attr("cy", (d) => projection([d.see.location.lon, d.see.location.lat])[1])
+      .attr("r", (d) => (d.st.kind === "active" ? 6 : 3.5))
+      .attr("class", "map-see")
+      .attr("fill", (d) => d.st.kind === "active"
+        ? (statusFill[d.st.tenure.status] || "#777") : "none")
+      .attr("stroke", (d) => {
+        if (d.st.kind !== "active") return "#7a7265";
+        const disputed = (d.st.tenure.recognition || []).some((r) =>
+          ["disputed", "rival-claimant", "not-recognized"].includes(r.status));
+        return disputed ? "#b3261e" : "#fff";
+      })
+      .attr("stroke-dasharray", (d) =>
+        d.st.kind === "active" &&
+        (d.st.tenure.recognition || []).some((r) =>
+          ["disputed", "rival-claimant", "not-recognized"].includes(r.status))
+          ? "3,2" : null)
+      .attr("stroke-width", 1.5)
+      .append("title").text((d) => tooltip(d.see, d.st, year));
+  }
+
+  const slider = document.getElementById("yearSlider");
+  slider.addEventListener("input", () => render(+slider.value));
+  render(+slider.value);
+
+  /* play: sweep 33 -> 2026 */
+  let timer = null;
+  const playBtn = document.getElementById("playBtn");
+  playBtn.addEventListener("click", () => {
+    if (timer) { clearInterval(timer); timer = null; playBtn.textContent = t("map.play"); return; }
+    if (+slider.value >= 2026) slider.value = 33;
+    playBtn.textContent = t("map.pause");
+    timer = setInterval(() => {
+      slider.value = Math.min(2026, +slider.value + 8);
+      render(+slider.value);
+      if (+slider.value >= 2026) { clearInterval(timer); timer = null; playBtn.textContent = t("map.play"); }
+    }, 60);
+  });
+})();
+</script>
+</body>
+</html>

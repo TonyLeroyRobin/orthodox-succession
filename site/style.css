@@ -43,6 +43,15 @@ a { color: var(--accent); }
 .badge.disputed { background: var(--disputed); }
 .badge.grade { background: #607d8b; }
 .badge.model { background: #37474f; }
+.badge.corroborated { background: #00695c; }
+.map-land { fill: #eae5da; stroke: #d8d2c6; stroke-width: .5; }
+.map-see { cursor: pointer; }
+.map-see:hover { opacity: .75; }
+.map-controls { display: flex; align-items: center; gap: 1rem; margin-bottom: .6rem; font-family: sans-serif; font-size: 13px; }
+.map-controls input[type="range"] { flex: 1; }
+.map-controls button { font: 12px sans-serif; padding: 4px 12px; border: 1px solid var(--line); border-radius: 4px; background: #fff; cursor: pointer; }
+.commemorations li { margin: .25rem 0; }
+#calendarPanel label { font-family: sans-serif; font-size: 12px; margin-right: .8rem; }
 table { border-collapse: collapse; width: 100%; }
 th, td { text-align: left; padding: .35rem .6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
 th { font-family: sans-serif; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }

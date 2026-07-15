@@ -7,6 +7,7 @@ version heading at tag time.
 
 ## [Unreleased]
 
+- dashboard: ROADMAP §C phase — map of sees over time (C1, bundled Natural Earth), commemorated-today calendar with Julian/Gregorian toggle (C2), schema.org JSON-LD on person pages (C3), corroboration badges (C4, maintainer-approved), GitHub Pages deployment workflow
 - docs: Zenodo DOI badge and citation backfilled after the v0.1.0 release (concept DOI 10.5281/zenodo.21382721)
 
 ## [0.1.0] — 2026-07-15 (first public release; ID permanence locks here)

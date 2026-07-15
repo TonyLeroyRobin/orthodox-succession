@@ -40,7 +40,7 @@
   const native = (n.native || []).map((x) => esc(x.value)).join(", ");
   const variants = (n.variants || []).map(esc).join("; ");
 
-  let html = `<h1>${esc(personName(p))} ${statusBadge(p.status)}</h1>`;
+  let html = `<h1>${esc(personName(p))} ${statusBadge(p.status)}${corroborationBadge(p)}</h1>`;
   html += `<p class="subtitle">${esc(p.id)} · ${t("person.attestation")} <strong>${esc(p.attestation)}</strong></p>`;
 
   html += `<div class="panel"><h2>${t("person.identity.h2")}</h2><table><tbody>`;
@@ -65,7 +65,7 @@
         .map((r) => `${esc(r.by)}: ${esc(r.status)}`).join("; ") || "—";
       html += `<tr><td>${esc(see ? see.name : t.see)}</td>
         <td>${esc(fmtRange(t.from, t.to, window.t("fmt.endUnrecordedOrIncumbent")))}</td>
-        <td>${esc(t.end_reason)}</td><td>${rec}</td><td>${statusBadge(t.status)}</td></tr>
+        <td>${esc(t.end_reason)}</td><td>${rec}</td><td>${statusBadge(t.status)}${corroborationBadge(t)}</td></tr>
         <tr><td colspan="5">${citationsHtml(t.sources, sources)}
         ${t.notes ? `<div class="note">${esc(t.notes)}</div>` : ""}</td></tr>`;
     }
@@ -149,6 +149,9 @@
   }
 
   document.getElementById("profile").innerHTML = html;
+
+  /* schema.org structured data (ROADMAP C3) */
+  injectJsonLd(jsonLdForPerson(p, myTenures, seesMap));
 })();
 </script>
 </body>
