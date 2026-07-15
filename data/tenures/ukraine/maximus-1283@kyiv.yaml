@@ -1,0 +1,24 @@
+id: tenure/ukraine/maximus-1283@kyiv
+person: person/ukraine/maximus-1283
+see: see/ukraine/kyiv
+from:
+  value: '1283'
+  calendar: julian
+  precision: year
+to:
+  value: '1299'
+  calendar: julian
+  precision: year
+  note: commonly given to 1305; the reproduction ends the row at 1299, the year the residence
+    moved to Vladimir — divergence recorded
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Kiev series, s.v. Maximus (1283-1299) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the early-era rows carry the reproduction's own question marks as circa/disputed precision)
+    — confirm against scholarship (Golubinsky, Podskalsky) during verification
+status: unverified
+notes: Created from the standard chronology (Kyiv line batch, v0.2.0 cycle) 2026-07-15. Moved
+  the metropolitan residence to Vladimir-on-Klyazma (1299) while retaining the Kyiv title.

@@ -3,7 +3,7 @@ name: Kyiv
 jurisdiction_history:
 - jurisdiction: jurisdiction/metropolitanate-of-kyiv
   from:
-    value: '0988'
+    value: 0988
     calendar: julian
     precision: circa
     note: metropolis of Constantinople from the baptism of Rus'
@@ -16,15 +16,13 @@ jurisdiction_history:
     value: '1686'
     calendar: julian
     precision: year
-    note: attachment to the Moscow Patriarchate; canonical meaning of the 1686
-      letter disputed between Constantinople and Moscow (2018) — recorded, not
-      adjudicated
+    note: attachment to the Moscow Patriarchate; canonical meaning of the 1686 letter disputed
+      between Constantinople and Moscow (2018) — recorded, not adjudicated
   to:
     value: '2019'
     calendar: gregorian
     precision: year
-    note: the UOC (Moscow Patriarchate) line continues in parallel and is not
-      yet modeled
+    note: the UOC (Moscow Patriarchate) line continues in parallel and is not yet modeled
 - jurisdiction: jurisdiction/orthodox-church-of-ukraine
   from:
     value: '2019'
@@ -42,16 +40,25 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: 'Seat of the Metropolitan of Kyiv and All Ukraine. Milestone C (2026-07-11)
-  reconciled the modern claims on this see: the OCU reckoning has one primate (Epiphanius
-  Dumenko, elected at the December 2018 unification council, tomos January 2019,
-  incumbent), and the overlapping tenure of Onufriy Berezovsky (UOC-MP, from 2014)
-  is the recorded rival claim — both tenures carry symmetric per-recognizer recognition
-  entries (golden rule 6; nothing adjudicated). The 2014–2018 gap-report seam is
-  an artifact of the open-ended overlap, not missing data. Backlogged: the parallel
-  UOC (Moscow Patriarchate) jurisdiction structure (a maintainer scope decision);
-  the OCU predecessor bodies 1990–2018 (UOC-KP under Mstyslav/Volodymyr/Filaret,
-  UAOC) whose pre-unification status is precisely the recorded-not-adjudicated kind;
-  Filaret Denysenko''s honorary-patriarch episode and 2019 departure; and the historical
-  Kyiv metropolitan line 988–1686 (jurisdiction/metropolitanate-of-kyiv, already
-  recorded structurally). rank_history still to be added during verification.'
+notes: 'Seat of the Metropolitan of Kyiv and All Ukraine. Milestone C (2026-07-11) reconciled
+  the modern claims on this see: the OCU reckoning has one primate (Epiphanius Dumenko, elected
+  at the December 2018 unification council, tomos January 2019, incumbent), and the overlapping
+  tenure of Onufriy Berezovsky (UOC-MP, from 2014) is the recorded rival claim — both tenures
+  carry symmetric per-recognizer recognition entries (golden rule 6; nothing adjudicated).
+  The 2014–2018 gap-report seam is an artifact of the open-ended overlap, not missing data.
+  Backlogged: the parallel UOC (Moscow Patriarchate) jurisdiction structure (a maintainer
+  scope decision); the OCU predecessor bodies 1990–2018 (UOC-KP under Mstyslav/Volodymyr/Filaret,
+  UAOC) whose pre-unification status is precisely the recorded-not-adjudicated kind; Filaret
+  Denysenko''s honorary-patriarch episode and 2019 departure; and the historical Kyiv metropolitan
+  line 988–1686 (jurisdiction/metropolitanate-of-kyiv, already recorded structurally). rank_history
+  still to be added during verification. Kyiv line batch (v0.2.0 cycle, 2026-07-15): the historical
+  metropolitanate 988-1686 is now populated - 60 tenures from Michael I (988, traditional)
+  through Gedeon Chetvertynsky (consecrated 1685; the contested 1686 transfer is the jurisdiction
+  dissolution point; his tenure recorded in full to 1690). The main line only: the parallel
+  Halych and Lithuania metropolitanates, the post-1448 Moscow line (Jonah onward), and the
+  Pimen/Dionysius appointment tangle of the 1380s remain backlogged. Rival pairs (Michael
+  I+Leontius vs Theophylact, Clement vs Constantine, Alexius vs Cyprian, Spyridon vs Misail,
+  Tukalsky vs Vinnicky) carry rule-6 recognition qualifiers; the 1596-1620 gap is the post-Brest
+  suppression (event/context/union-of-brest-1596); 1679-1685 is a list-inherent vacancy. The
+  Vladimir/Moscow-resident metropolitans (Maximus through Isidore) are on this line because
+  they held the Kyiv title - the shared heritage is recorded, not adjudicated.'

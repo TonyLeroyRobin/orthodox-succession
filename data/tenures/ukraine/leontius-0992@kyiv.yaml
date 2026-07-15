@@ -1,0 +1,22 @@
+id: tenure/ukraine/leontius-0992@kyiv
+person: person/ukraine/leontius-0992
+see: see/ukraine/kyiv
+from:
+  value: 0992
+  calendar: julian
+  precision: disputed
+  note: placed after Michael I per the traditional diptych; the reproduction combines Michael
+    I and Leontius over 988(?)-1004(?); the traditional diptych is sequential — placement
+    disputed
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Kiev series, s.v. Leontius (0992-?) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the early-era rows carry the reproduction's own question marks as circa/disputed precision)
+    — confirm against scholarship (Golubinsky, Podskalsky) during verification
+status: disputed
+notes: Created from the standard chronology (Kyiv line batch, v0.2.0 cycle) 2026-07-15. The
+  reproduction combines michael i and leontius over 988(?)-1004(?); the traditional diptych
+  is sequential — placement disputed.

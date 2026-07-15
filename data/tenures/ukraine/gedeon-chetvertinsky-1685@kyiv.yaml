@@ -1,0 +1,25 @@
+id: tenure/ukraine/gedeon-chetvertinsky-1685@kyiv
+person: person/ukraine/gedeon-chetvertinsky-1685
+see: see/ukraine/kyiv
+from:
+  value: '1685'
+  calendar: julian
+  precision: year
+to:
+  value: '1690'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Kiev series, s.v. Gedeon (1685-1690) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the early-era rows carry the reproduction's own question marks as circa/disputed precision)
+    — confirm against scholarship (Golubinsky, Podskalsky) during verification
+status: unverified
+notes: Created from the standard chronology (Kyiv line batch, v0.2.0 cycle) 2026-07-15. Consecrated
+  at Moscow (1685); the 1686 transfer of the metropolitanate to the Moscow patriarchate is
+  the dissolution point of this historical jurisdiction (whose successor field is deliberately
+  empty — the 1686/2018 dispute, cf. the jurisdiction record); his tenure is recorded in full
+  to 1690. The 1679-1685 vacancy before him is list-inherent.

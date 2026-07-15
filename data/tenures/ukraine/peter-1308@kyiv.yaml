@@ -1,0 +1,24 @@
+id: tenure/ukraine/peter-1308@kyiv
+person: person/ukraine/peter-1308
+see: see/ukraine/kyiv
+from:
+  value: '1308'
+  calendar: julian
+  precision: year
+to:
+  value: '1326'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Kiev series, s.v. Peter (1308-1326) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the early-era rows carry the reproduction's own question marks as circa/disputed precision)
+    — confirm against scholarship (Golubinsky, Podskalsky) during verification
+status: unverified
+notes: Created from the standard chronology (Kyiv line batch, v0.2.0 cycle) 2026-07-15. Resident
+  at Moscow from c. 1325 while titled of Kyiv and all Rus'; St Peter of Moscow — veneration
+  with calendar sources backlogged. The later Moscow line's own reckoning claims him — recorded,
+  not adjudicated.

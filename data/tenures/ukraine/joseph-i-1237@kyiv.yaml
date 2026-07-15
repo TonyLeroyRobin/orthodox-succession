@@ -1,0 +1,18 @@
+id: tenure/ukraine/joseph-i-1237@kyiv
+person: person/ukraine/joseph-i-1237
+see: see/ukraine/kyiv
+from:
+  value: '1237'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Kiev series, s.v. Joseph I (1237-?) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the early-era rows carry the reproduction's own question marks as circa/disputed precision)
+    — confirm against scholarship (Golubinsky, Podskalsky) during verification
+status: unverified
+notes: Created from the standard chronology (Kyiv line batch, v0.2.0 cycle) 2026-07-15. Disappears
+  from the record at the Mongol sack of Kyiv (1240) — verify.

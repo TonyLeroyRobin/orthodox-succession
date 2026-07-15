@@ -1,0 +1,21 @@
+id: tenure/ukraine/teopempt-1037@kyiv
+person: person/ukraine/teopempt-1037
+see: see/ukraine/kyiv
+from:
+  value: '1037'
+  calendar: julian
+  precision: circa
+to:
+  value: '1043'
+  calendar: julian
+  precision: circa
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Kiev series, s.v. Theopemptus (1037-1043) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the early-era rows carry the reproduction's own question marks as circa/disputed precision)
+    — confirm against scholarship (Golubinsky, Podskalsky) during verification
+status: unverified
+notes: Created from the standard chronology (Kyiv line batch, v0.2.0 cycle) 2026-07-15.

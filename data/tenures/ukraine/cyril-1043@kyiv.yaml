@@ -1,0 +1,20 @@
+id: tenure/ukraine/cyril-1043@kyiv
+person: person/ukraine/cyril-1043
+see: see/ukraine/kyiv
+from:
+  value: '1043'
+  calendar: julian
+  precision: disputed
+  note: placed between Theopemptus and Hilarion; attested only in compilations no earlier
+    than the 16th century
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Kiev series, s.v. Cyril (1043-?) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the early-era rows carry the reproduction's own question marks as circa/disputed precision)
+    — confirm against scholarship (Golubinsky, Podskalsky) during verification
+status: disputed
+notes: Created from the standard chronology (Kyiv line batch, v0.2.0 cycle) 2026-07-15. The
+  reproduction itself flags the late attestation — recorded as given, historicity uncertain.

@@ -1,0 +1,21 @@
+id: tenure/ukraine/nicephorus-ii-1182@kyiv
+person: person/ukraine/nicephorus-ii-1182
+see: see/ukraine/kyiv
+from:
+  value: '1182'
+  calendar: julian
+  precision: circa
+to:
+  value: '1197'
+  calendar: julian
+  precision: circa
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Kiev series, s.v. Nicephorus II (1182-1197) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the early-era rows carry the reproduction's own question marks as circa/disputed precision)
+    — confirm against scholarship (Golubinsky, Podskalsky) during verification
+status: unverified
+notes: Created from the standard chronology (Kyiv line batch, v0.2.0 cycle) 2026-07-15.

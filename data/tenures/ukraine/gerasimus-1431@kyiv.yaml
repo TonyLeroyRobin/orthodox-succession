@@ -1,0 +1,23 @@
+id: tenure/ukraine/gerasimus-1431@kyiv
+person: person/ukraine/gerasimus-1431
+see: see/ukraine/kyiv
+from:
+  value: '1431'
+  calendar: julian
+  precision: year
+to:
+  value: '1437'
+  calendar: julian
+  precision: year
+  note: burned at Vitebsk in 1435 per common accounts; the reproduction gives 1437 — divergence
+    recorded
+end_reason: died
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Kiev series, s.v. Gerasimus (1431-1437) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the early-era rows carry the reproduction's own question marks as circa/disputed precision)
+    — confirm against scholarship (Golubinsky, Podskalsky) during verification
+status: unverified
+notes: Created from the standard chronology (Kyiv line batch, v0.2.0 cycle) 2026-07-15.

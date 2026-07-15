@@ -1,0 +1,19 @@
+id: tenure/ukraine/john-v-1177@kyiv
+person: person/ukraine/john-v-1177
+see: see/ukraine/kyiv
+from:
+  value: '1177'
+  calendar: julian
+  precision: disputed
+  note: wholly undated in the standard chronology — listed after Michael II
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Kiev series, s.v. John V (1177-?) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the early-era rows carry the reproduction's own question marks as circa/disputed precision)
+    — confirm against scholarship (Golubinsky, Podskalsky) during verification
+status: disputed
+notes: Created from the standard chronology (Kyiv line batch, v0.2.0 cycle) 2026-07-15. wholly
+  undated in the standard chronology.

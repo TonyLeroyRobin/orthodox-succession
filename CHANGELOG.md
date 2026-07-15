@@ -7,6 +7,7 @@ version heading at tag time.
 
 ## [Unreleased]
 
+- kyiv: the historical metropolitanate populated, Michael I 988 to Gedeon Chetvertynsky 1685/1690 — 60 tenures with rule-6 qualifiers on five rival pairs; post-Brest suppression referenced
 - cyprus: the archiepiscopal line closed, Gelasios I 325 to Leontios 1947 — 61 tenures across Salamis-Constantia and Nicosia; Bulla Cypria context event; the audit's documented gap eliminated
 - ohrid: the Archbishopric of Ohrid line closed, John I of Debar 1018 to Arsenius II 1767 — 84 tenures, 80 persons, abolition context event; Mark Xylokaravis linked cross-jurisdiction
 - works: Milestone D backfill — 19 works for the §4 starter set (PG/PL/CPG locators, CCEL links, Mark of Ephesus per maintainer decision), Basil the Great and Mark of Ephesus person records, Patrologia Latina source, veneration blocks on the six authors lacking them

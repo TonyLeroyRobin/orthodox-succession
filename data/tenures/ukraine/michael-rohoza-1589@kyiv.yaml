@@ -1,0 +1,33 @@
+id: tenure/ukraine/michael-rohoza-1589@kyiv
+person: person/ukraine/michael-rohoza-1589
+see: see/ukraine/kyiv
+from:
+  value: '1589'
+  calendar: julian
+  precision: year
+to:
+  value: '1599'
+  calendar: julian
+  precision: year
+end_reason: unknown
+recognition:
+- by: jurisdiction/ecumenical-patriarchate
+  status: not-recognized
+  since:
+    value: '1596'
+    calendar: julian
+    precision: year
+  note: acceded to the Union of Brest (1596, see event/context/union-of-brest-1596); anathematized
+    by the Orthodox side while continuing as Uniate metropolitan (the Uniate line is out of
+    scope) — recorded, not adjudicated
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Kiev series, s.v. Michael III (1589-1599) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the early-era rows carry the reproduction's own question marks as circa/disputed precision)
+    — confirm against scholarship (Golubinsky, Podskalsky) during verification
+status: unverified
+notes: Created from the standard chronology (Kyiv line batch, v0.2.0 cycle) 2026-07-15. The
+  1596-1620 gap that follows is the post-Brest suppression of the Orthodox metropolitanate,
+  not missing data.

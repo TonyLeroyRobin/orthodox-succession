@@ -1,0 +1,21 @@
+id: tenure/ukraine/john-ii-1077@kyiv
+person: person/ukraine/john-ii-1077
+see: see/ukraine/kyiv
+from:
+  value: '1077'
+  calendar: julian
+  precision: circa
+to:
+  value: '1089'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Kiev series, s.v. John II (1077-1089) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the early-era rows carry the reproduction's own question marks as circa/disputed precision)
+    — confirm against scholarship (Golubinsky, Podskalsky) during verification
+status: unverified
+notes: Created from the standard chronology (Kyiv line batch, v0.2.0 cycle) 2026-07-15.

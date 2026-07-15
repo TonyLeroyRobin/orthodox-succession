@@ -1,0 +1,23 @@
+id: tenure/ukraine/job-boretsky-1620@kyiv
+person: person/ukraine/job-boretsky-1620
+see: see/ukraine/kyiv
+from:
+  value: '1620'
+  calendar: julian
+  precision: year
+to:
+  value: '1631'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Kiev series, s.v. Job (1620-1631) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the early-era rows carry the reproduction's own question marks as circa/disputed precision)
+    — confirm against scholarship (Golubinsky, Podskalsky) during verification
+status: unverified
+notes: Created from the standard chronology (Kyiv line batch, v0.2.0 cycle) 2026-07-15. Consecrated
+  1620 by Patriarch Theophanes III of Jerusalem, restoring the Orthodox hierarchy after Brest
+  — cf. event/context/union-of-brest-1596.

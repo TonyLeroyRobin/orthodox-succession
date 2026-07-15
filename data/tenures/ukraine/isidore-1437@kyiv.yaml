@@ -1,0 +1,25 @@
+id: tenure/ukraine/isidore-1437@kyiv
+person: person/ukraine/isidore-1437
+see: see/ukraine/kyiv
+from:
+  value: '1437'
+  calendar: julian
+  precision: year
+to:
+  value: '1441'
+  calendar: julian
+  precision: year
+end_reason: deposed
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Kiev series, s.v. Isidore (1437-1441) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the early-era rows carry the reproduction's own question marks as circa/disputed precision)
+    — confirm against scholarship (Golubinsky, Podskalsky) during verification
+status: unverified
+notes: 'Created from the standard chronology (Kyiv line batch, v0.2.0 cycle) 2026-07-15. Signed
+  the Union of Florence (1439); repudiated at Moscow (1441) and fled; later a cardinal of
+  the Roman church. The Constantinople-period list ends here: the Moscow line''s Jonah (1448)
+  belongs to the backlogged pre-patriarchal Russian succession; this Kyiv line resumes with
+  Gregory the Bulgarian (1458).'
