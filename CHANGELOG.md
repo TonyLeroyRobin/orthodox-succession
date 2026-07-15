@@ -7,6 +7,10 @@ version heading at tag time.
 
 ## [Unreleased]
 
+*(nothing yet)*
+
+## [0.2.0] — 2026-07-15 (the parallel and historical lines)
+
 - moscow: both metropolitan series added — the pre-patriarchal primatial line (Jonah 1448 → Job 1589, completing the Kyiv/Moscow fork) and the synodal-era diocesan line (1742–1917, non-primatial); 31 tenures, six saints' veneration blocks, Innocent Veniaminov linked across continents
 - karlovci: the Habsburg-era Serbian jurisdiction modeled, Arsenije III 1690 to Lukijan Bogdanović 1913 (merged 1920) — new jurisdiction and see, 21 tenures, 7 cross-linked persons
 - kyiv: the historical metropolitanate populated, Michael I 988 to Gedeon Chetvertynsky 1685/1690 — 60 tenures with rule-6 qualifiers on five rival pairs; post-Brest suppression referenced
