@@ -1,0 +1,24 @@
+id: tenure/karlovci/isaija-dakovic-1708@karlovci
+person: person/karlovci/isaija-dakovic-1708
+see: see/karlovci/karlovci
+from:
+  value: '1708'
+  calendar: julian
+  precision: year
+to:
+  value: '1708'
+  calendar: julian
+  precision: year
+  note: died within the year
+end_reason: died
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Karlovci series, s.v. Isaija (1708-1708) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction gives the
+    patriarchal-era years; metropolitan-era years from the standard chronology, lead-generation)
+    — confirm against Fedalto and SPC historiography during verification
+status: unverified
+notes: Created from the standard chronology (Karlovci batch, v0.2.0 cycle) 2026-07-15. First
+  elected metropolitan (Krušedol, 1708); died the same year. The 1706-1708 and 1708-1710 intervals
+  are administrator/vacancy periods, list-inherent.

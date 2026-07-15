@@ -1,0 +1,22 @@
+id: tenure/karlovci/stefan-stratimirovic-1790@karlovci
+person: person/karlovci/stefan-stratimirovic-1790
+see: see/karlovci/karlovci
+from:
+  value: '1790'
+  calendar: julian
+  precision: year
+to:
+  value: '1836'
+  calendar: julian
+  precision: year
+end_reason: died
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Karlovci series, s.v. Stefan (1790-1836) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction gives the
+    patriarchal-era years; metropolitan-era years from the standard chronology, lead-generation)
+    — confirm against Fedalto and SPC historiography during verification
+status: unverified
+notes: Created from the standard chronology (Karlovci batch, v0.2.0 cycle) 2026-07-15. The
+  longest tenure of the line (46 years).

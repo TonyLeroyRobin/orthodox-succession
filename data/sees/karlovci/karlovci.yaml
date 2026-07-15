@@ -1,0 +1,23 @@
+id: see/karlovci/karlovci
+name: Sremski Karlovci
+location:
+  lat: 45.203
+  lon: 19.94
+  modern_place: Sremski Karlovci, Serbia
+suppressed:
+  date:
+    value: '1920'
+    calendar: julian
+    precision: year
+    note: merged into the reunified Serbian Patriarchate — a unification, not a suppression;
+      field set for gap reporting
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  reliability: scholarly
+  locator: Karlovci series — locator to be confirmed
+status: unverified
+notes: Seat of the Karlovci metropolitanate/patriarchate (Krušedol 1708-1713, then Sremski
+  Karlovci to 1920), created in the v0.2.0 cycle. Occupancy gaps (1706-1708, 1708-1710, 1711-1713,
+  1861-1864, 1870-1874, 1879-1881, 1888-1890, 1907-1908, 1913-1920) are administrator/vacancy
+  intervals under the Habsburg confirmation regime — list-inherent, documented, not missing
+  data.

@@ -1,0 +1,14 @@
+id: person/karlovci/vicentije-jovanovic-vidak-1774
+names:
+  monastic: Vićentije
+  family: Jovanović Vidak
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Karlovci series, s.v. Vićentije (1774-1780) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction gives the
+    patriarchal-era years; metropolitan-era years from the standard chronology, lead-generation)
+    — confirm against Fedalto and SPC historiography during verification
+status: unverified
+notes: Created from the standard chronology (Karlovci batch, v0.2.0 cycle) 2026-07-15.

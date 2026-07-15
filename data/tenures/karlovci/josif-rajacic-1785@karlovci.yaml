@@ -1,0 +1,24 @@
+id: tenure/karlovci/josif-rajacic-1785@karlovci
+person: person/serbia/josif-rajacic-1785
+see: see/karlovci/karlovci
+from:
+  value: '1842'
+  calendar: julian
+  precision: year
+to:
+  value: '1848'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Karlovci series, s.v. Josif (1842-1848) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction gives the
+    patriarchal-era years; metropolitan-era years from the standard chronology, lead-generation)
+    — confirm against Fedalto and SPC historiography during verification
+status: unverified
+notes: Created from the standard chronology (Karlovci batch, v0.2.0 cycle) 2026-07-15. Metropolitan
+  1842-1848; the term splits at the May Assembly's proclamation of the patriarchal dignity
+  (1848, confirmed by the crown) — same person, two terms (the Miron Cristea precedent); the
+  patriarchal term is the -2 tenure.

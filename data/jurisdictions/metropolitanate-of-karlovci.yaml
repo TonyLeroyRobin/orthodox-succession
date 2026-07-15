@@ -1,0 +1,33 @@
+id: jurisdiction/metropolitanate-of-karlovci
+name: Metropolitanate (from 1848 Patriarchate) of Karlovci
+type: historical
+autocephaly:
+- granted_by: privileges of Leopold I to the migrated Serbs (1690-1695); metropolitanate erected
+    at Krušedol 1708
+  date:
+    value: '1708'
+    calendar: julian
+    precision: year
+    note: de facto self-governing within the Habsburg monarchy; nominally under Peć until
+      the 1766 abolition; patriarchal dignity from 1848
+dissolved:
+  date:
+    value: '1920'
+    calendar: julian
+    precision: year
+    note: merged into the reunified Serbian Patriarchate — an uncontested unification
+  successor: jurisdiction/church-of-serbia
+primatial_see: see/karlovci/karlovci
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  reliability: scholarly
+  locator: Karlovci series — locator to be confirmed
+- ref: source/church-of-serbia-official
+  reliability: official-list
+  note: the SPC's own history treats Karlovci as part of its heritage — the 1920 unification
+    is uncontested
+status: unverified
+notes: 'The parallel Serbian jurisdiction in the Habsburg lands (1690-1920), backlogged at
+  the Serbia Milestone C batch and closed in the v0.2.0 cycle. Seats: Krušedol (1708-1713),
+  Sremski Karlovci (1713-1920). The two Peć patriarchs who led the migrations (Arsenije III,
+  Arsenije IV) head both lines — cross-jurisdiction persons, linked not duplicated.'

@@ -8,9 +8,11 @@ sources:
   reliability: database
   note: programmatic seed — verify against a graded source
 status: unverified
-notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
-  calendar, and see assignment against a graded source; the id year is the earliest
-  seeded term start.
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Karlovci batch 2026-07-15 - his post-migration leadership (1690-1706) now has its tenure
+  on see/karlovci/karlovci; the Pec (1674-1690) and Karlovci lines meet exactly at 1690 on
+  this one person record.
 identifiers:
   wikidata: Q1280568
   viaf: '3646726'

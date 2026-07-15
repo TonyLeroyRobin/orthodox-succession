@@ -1,0 +1,25 @@
+id: tenure/karlovci/arsenije-iii-carnojevic-1674@karlovci
+person: person/serbia/arsenije-iii-carnojevic-1674
+see: see/karlovci/karlovci
+from:
+  value: '1690'
+  calendar: julian
+  precision: year
+to:
+  value: '1706'
+  calendar: julian
+  precision: year
+end_reason: died
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Karlovci series, s.v. Arsenije III (1690-1706) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction gives the
+    patriarchal-era years; metropolitan-era years from the standard chronology, lead-generation)
+    — confirm against Fedalto and SPC historiography during verification
+status: unverified
+notes: Created from the standard chronology (Karlovci batch, v0.2.0 cycle) 2026-07-15. Led
+  the Great Migration (1690) and headed the migrated church in the Habsburg lands until his
+  death (1706); his Peć tenure (1674-1690) is the linked person's Serbia-spine record — the
+  two lines meet exactly at 1690. The formal metropolitanate was erected at Krušedol in 1708,
+  after him.

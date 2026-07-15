@@ -1,0 +1,22 @@
+id: tenure/karlovci/mojsije-petrovic-1726@karlovci
+person: person/karlovci/mojsije-petrovic-1726
+see: see/karlovci/karlovci
+from:
+  value: '1726'
+  calendar: julian
+  precision: year
+to:
+  value: '1730'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Karlovci series, s.v. Mojsije (1726-1730) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction gives the
+    patriarchal-era years; metropolitan-era years from the standard chronology, lead-generation)
+    — confirm against Fedalto and SPC historiography during verification
+status: unverified
+notes: Created from the standard chronology (Karlovci batch, v0.2.0 cycle) 2026-07-15. United
+  the Belgrade and Karlovci metropolias (1726) — verify the arrangement's dates.

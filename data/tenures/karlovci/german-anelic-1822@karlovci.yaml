@@ -1,0 +1,23 @@
+id: tenure/karlovci/german-anelic-1822@karlovci
+person: person/serbia/german-anelic-1822
+see: see/karlovci/karlovci
+from:
+  value: '1881'
+  calendar: julian
+  precision: year
+to:
+  value: '1888'
+  calendar: julian
+  precision: year
+end_reason: died
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Karlovci series, s.v. German (1881-1888) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction gives the
+    patriarchal-era years; metropolitan-era years from the standard chronology, lead-generation)
+    — confirm against Fedalto and SPC historiography during verification
+status: unverified
+notes: Created from the standard chronology (Karlovci batch, v0.2.0 cycle) 2026-07-15. Crown-appointed
+  after the contested 1881 election — recorded, not adjudicated; verify. The 1888-1890 interval
+  is an administrator period.

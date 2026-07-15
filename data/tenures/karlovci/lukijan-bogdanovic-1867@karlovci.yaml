@@ -1,0 +1,24 @@
+id: tenure/karlovci/lukijan-bogdanovic-1867@karlovci
+person: person/serbia/lukijan-bogdanovic-1867
+see: see/karlovci/karlovci
+from:
+  value: '1908'
+  calendar: julian
+  precision: year
+to:
+  value: '1913'
+  calendar: julian
+  precision: year
+end_reason: died
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Karlovci series, s.v. Lukijan (1908-1913) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction gives the
+    patriarchal-era years; metropolitan-era years from the standard chronology, lead-generation)
+    — confirm against Fedalto and SPC historiography during verification
+status: unverified
+notes: Created from the standard chronology (Karlovci batch, v0.2.0 cycle) 2026-07-15. Died
+  in unclear circumstances at Bad Gastein (1913) — verify. The patriarchal throne then remained
+  vacant (locum tenens) until the 1920 merger into the reunified Serbian Patriarchate — the
+  end of this jurisdiction, not missing data.

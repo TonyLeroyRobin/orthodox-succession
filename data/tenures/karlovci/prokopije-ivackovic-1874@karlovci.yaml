@@ -1,0 +1,23 @@
+id: tenure/karlovci/prokopije-ivackovic-1874@karlovci
+person: person/karlovci/prokopije-ivackovic-1874
+see: see/karlovci/karlovci
+from:
+  value: '1874'
+  calendar: julian
+  precision: year
+to:
+  value: '1879'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Karlovci series, s.v. Prokopije (1874-1879) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction gives the
+    patriarchal-era years; metropolitan-era years from the standard chronology, lead-generation)
+    — confirm against Fedalto and SPC historiography during verification
+status: unverified
+notes: Created from the standard chronology (Karlovci batch, v0.2.0 cycle) 2026-07-15. Removed/retired
+  1879 amid the era's church-political conflicts — verify; the 1879-1881 interval is an administrator
+  period.
