@@ -1,0 +1,19 @@
+id: person/macedonia/stefan-veljanovski-1999
+names:
+  monastic: Stefan
+  family: Veljanovski
+  native:
+  - script: mk
+    value: Стефан Вељановски
+born:
+  date:
+    value: '1955'
+    calendar: gregorian
+    precision: year
+attestation: attested
+sources:
+- ref: source/macedonian-orthodox-church-official
+  reliability: official-list
+  note: incumbent archbishop - pin the biography during verification
+status: unverified
+notes: Created minimally 2026-07-15 per the maintainer decision.

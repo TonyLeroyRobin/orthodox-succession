@@ -1,0 +1,48 @@
+id: jurisdiction/macedonian-orthodox-church
+name: Macedonian Orthodox Church - Ohrid Archbishopric
+type: autocephalous
+autocephaly:
+- granted_by: self-declared at the 1967 Ohrid church-national assembly
+  date:
+    value: '1967'
+    calendar: gregorian
+    precision: year
+  recognition:
+  - by: all
+    status: not-recognized
+    note: unrecognized by the Orthodox churches until 2022; the primates of that era are backlogged
+      - recorded, not adjudicated
+- granted_by: jurisdiction/church-of-serbia
+  date:
+    value: '2022'
+    calendar: gregorian
+    precision: year
+    note: reception into communion by the Serbian church (May 2022) and tomos of autocephaly
+      (June 2022) - verify exact dates
+  recognition:
+  - by: jurisdiction/church-of-serbia
+    status: recognized
+  - by: jurisdiction/church-of-russia
+    status: recognized
+    note: accepted the Serbian tomos - verify
+  - by: jurisdiction/ecumenical-patriarchate
+    status: disputed
+    note: received the church into communion (May 2022) under the name Ohrid Archbishopric
+      with its jurisdiction within North Macedonia; the EP position on the Serbian tomos and
+      the Macedonian name remains distinct - recorded, not adjudicated
+primatial_see: see/macedonia/skopje
+sources:
+- ref: source/macedonian-orthodox-church-official
+  reliability: official-list
+  note: structural claims to be verified against the site
+- ref: source/wikipedia
+  reliability: database
+  note: draft citation - replace during verification
+status: unverified
+notes: 'Modeled minimally per the maintainer decision 2026-07-15: jurisdiction, see, and the
+  incumbent only. The church claims the heritage of the historical Archbishopric of Ohrid
+  (jurisdiction/archbishopric-of-ohrid, 1018-1767) - a claim also made by the Bulgarian church;
+  both recorded on the respective records, adjudicated nowhere. Backlogged: the 1967-2022
+  era primates (Dositej onward), and the Serbian-jurisdiction parallel Orthodox Ohrid Archbishopric
+  of Jovan Vraniskovski (2002-2023, wound down in the reconciliation). Remaining churches
+  recognition positions to be filled during verification.'

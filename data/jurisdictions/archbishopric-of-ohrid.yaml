@@ -7,8 +7,7 @@ autocephaly:
     value: '1018'
     calendar: julian
     precision: year
-    note: autocephalous archbishopric organized after the fall of the First Bulgarian
-      Empire
+    note: autocephalous archbishopric organized after the fall of the First Bulgarian Empire
 dissolved:
   date:
     value: '1767'
@@ -20,6 +19,7 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: Heir of the medieval Bulgarian patriarchate's western seats; suppressed and
-  absorbed by Constantinople in 1767. The modern Macedonian church question is a
-  separate, later record.
+notes: Heir of the medieval Bulgarian patriarchate's western seats; suppressed and absorbed
+  by Constantinople in 1767. The modern Macedonian church question is a separate, later record.
+  The modern Macedonian church (jurisdiction/macedonian-orthodox-church, modeled 2026-07-15)
+  claims this line as heritage, as does the Bulgarian church - both recorded, neither adjudicated.

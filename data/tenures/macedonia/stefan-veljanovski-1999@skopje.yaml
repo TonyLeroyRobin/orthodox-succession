@@ -1,0 +1,19 @@
+id: tenure/macedonia/stefan-veljanovski-1999@skopje
+person: person/macedonia/stefan-veljanovski-1999
+see: see/macedonia/skopje
+from:
+  value: '1999'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+recognition:
+- by: all
+  status: disputed
+  note: 'archbishop from 1999: the tenure spans the unrecognized era (to 2022) and the canonical
+    era (from the 2022 reception/tomos) - recorded, not adjudicated; the Vraniskovski parallel
+    structure of 2002-2023 is backlogged'
+sources:
+- ref: source/macedonian-orthodox-church-official
+  reliability: official-list
+status: unverified
+notes: Created minimally 2026-07-15 per the maintainer decision.

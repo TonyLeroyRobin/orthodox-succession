@@ -1,0 +1,13 @@
+id: see/macedonia/skopje
+name: Skopje
+location:
+  lat: 41.998
+  lon: 21.428
+  modern_place: Skopje, North Macedonia
+sources:
+- ref: source/macedonian-orthodox-church-official
+  reliability: official-list
+status: unverified
+notes: Seat of the Archbishop of Ohrid and Macedonia (the modern church; the historical Ohrid
+  see is see/ohrid/ohrid). Created minimally 2026-07-15 per the maintainer decision; coverage
+  is the incumbent only - the 1967-2022 era is backlogged.
