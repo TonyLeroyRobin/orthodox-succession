@@ -7,6 +7,10 @@ version heading at tag time.
 
 ## [Unreleased]
 
+*(nothing yet)*
+
+## [0.4.0] — 2026-07-15 (anchors, martyrs, and the literary layer)
+
 - works: the second pass — 12 works across six languages (Cazania, verse Psalter, Mohyla's Confession, Hilarion's Sermon, the Great Menaion, Philaret's Catechism, Macarius Bulgakov's History, Theophylact's commentaries and Life of Clement, Choniates' Letters, the Corpus Areopagiticum as attribution:spurious, Tsamblak's cross-jurisdiction Eulogy for Evtimiy)
 - gorazd: Hieromartyr Gorazd of Prague (1921–1942) — person, tenure, veneration, his Belgrade consecration by Patriarch Dimitrije (tying the Czech line into the Serbian consecration DAG), and the Nazi-suppression context event
 - halych + lithuania: the 14th-century parallel metropolitanates — two historical jurisdictions absorbed into Kyiv, 7 tenures; Roman (the Alexius rivalry) and Gregory Tsamblak (the list's own "in pretense") carry rule-6 qualifiers
