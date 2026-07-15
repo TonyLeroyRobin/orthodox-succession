@@ -1,0 +1,14 @@
+id: person/lithuania/gregory-tsamblak-1414
+names:
+  monastic: Gregory
+  family: Tsamblak
+attestation: attested
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Halych/Lithuania series, s.v. Gregory (1414-1420) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (the parallel columns of the Kyiv list
+    reproduction) — confirm against Fedalto and Golubinsky/Podskalsky during verification
+status: unverified
+notes: 'Created from the parallel-columns batch (Halych/Lithuania) 2026-07-15. Gregory Tsamblak:
+  hagiographer and homilist of the Tarnovo school; works candidates backlogged.'

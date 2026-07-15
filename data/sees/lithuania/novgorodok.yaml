@@ -1,0 +1,20 @@
+id: see/lithuania/novgorodok
+name: Novgorodok (Navahrudak)
+location:
+  lat: 53.596
+  lon: 25.827
+  modern_place: Navahrudak, Belarus
+suppressed:
+  date:
+    value: '1420'
+    calendar: julian
+    precision: circa
+    note: lapsed after Gregory Tsamblak; reunited under Photius of Kyiv — field set for gap
+      reporting
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  reliability: scholarly
+  locator: Lithuania series — locator to be confirmed
+status: unverified
+notes: Seat of the Lithuanian metropolitanate; the 1330-1355 and 1362-1414 gaps are lapses
+  of the structure itself, documented, not missing data.

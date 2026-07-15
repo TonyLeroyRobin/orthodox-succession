@@ -1,0 +1,28 @@
+id: jurisdiction/metropolitanate-of-halych
+name: Metropolitanate of Halych
+type: historical
+autocephaly:
+- granted_by: erected by the Patriarchate of Constantinople for the Galician princes
+  date:
+    value: '1303'
+    calendar: julian
+    precision: circa
+    note: a metropolitan province of Constantinople, not an autocephaly — the field records
+      the structural erection
+dissolved:
+  date:
+    value: '1401'
+    calendar: julian
+    precision: circa
+    note: definitively absorbed into the Kyiv metropolitanate after lapsing in the 1390s
+  successor: jurisdiction/metropolitanate-of-kyiv
+primatial_see: see/halych/halych
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  reliability: scholarly
+  locator: Halych series — locator to be confirmed
+status: unverified
+notes: The intermittent 14th-century Galician metropolitanate (erected c. 1303; suppressed
+  and restored repeatedly — the 1347 chrysobull, the 1370 Casimir-era restoration). The reproduction
+  carries four metropolitans; the suppression/restoration intervals are documented on the
+  tenures. Absorbed into Kyiv (uncontested — successor named).

@@ -1,0 +1,24 @@
+id: tenure/halych/niphont-1303@halych
+person: person/halych/niphont-1303
+see: see/halych/halych
+from:
+  value: '1303'
+  calendar: julian
+  precision: year
+to:
+  value: '1305'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Halych/Lithuania series, s.v. Niphont (1303-1305) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (the parallel columns of the Kyiv list
+    reproduction) — confirm against Fedalto and Golubinsky/Podskalsky during verification
+status: unverified
+notes: Created from the parallel-columns batch (Halych/Lithuania) 2026-07-15. First metropolitan
+  of the Halych erection (c. 1303, for the Galician princes). The intervals between the Halych
+  rows (1305-1326, 1329-1337, 1347-1370) are re-absorptions into the Kyiv metropolitanate
+  — documented, not missing data. Peter (the later St Peter of Moscow) was proposed for Halych
+  but made metropolitan of Kyiv instead (1308) — cf. person/ukraine/peter-1308.

@@ -1,0 +1,21 @@
+id: see/halych/halych
+name: Halych
+location:
+  lat: 49.122
+  lon: 24.729
+  modern_place: Halych, Ukraine
+suppressed:
+  date:
+    value: '1401'
+    calendar: julian
+    precision: circa
+    note: absorbed into the Kyiv metropolitanate — a reunification, not a suppression; field
+      set for gap reporting
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  reliability: scholarly
+  locator: Halych series — locator to be confirmed
+status: unverified
+notes: Seat of the intermittent 14th-century Halych metropolitanate; the gaps between its
+  four recorded tenures are the documented re-absorption intervals (1305-1326, 1329-1337,
+  1347-1370).

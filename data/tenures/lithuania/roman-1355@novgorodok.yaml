@@ -1,0 +1,29 @@
+id: tenure/lithuania/roman-1355@novgorodok
+person: person/lithuania/roman-1355
+see: see/lithuania/novgorodok
+from:
+  value: '1355'
+  calendar: julian
+  precision: year
+to:
+  value: '1362'
+  calendar: julian
+  precision: year
+end_reason: unknown
+recognition:
+- by: all
+  status: disputed
+  note: appointed 1355 amid the Moscow-Lithuania struggle as rival to Alexius of Kyiv (cf.
+    tenure/ukraine/alexius-1354@kyiv and the Cyprian-era notes) and claimed Kyiv itself —
+    recorded, not adjudicated
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Halych/Lithuania series, s.v. Roman (1355-1362) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (the parallel columns of the Kyiv list
+    reproduction) — confirm against Fedalto and Golubinsky/Podskalsky during verification
+status: unverified
+notes: Created from the parallel-columns batch (Halych/Lithuania) 2026-07-15. The famous rivalry
+  with Alexius; some treatments interpose Theodoret (1352-1354, consecrated at Tarnovo against
+  Constantinople — cf. jurisdiction/tarnovo-patriarchate) before him; Theodoret is absent
+  from the reproduction and is recorded on the jurisdiction record as a note, not modeled.

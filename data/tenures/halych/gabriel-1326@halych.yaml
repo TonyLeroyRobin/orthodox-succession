@@ -1,0 +1,20 @@
+id: tenure/halych/gabriel-1326@halych
+person: person/halych/gabriel-1326
+see: see/halych/halych
+from:
+  value: '1326'
+  calendar: julian
+  precision: year
+to:
+  value: '1329'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Halych/Lithuania series, s.v. Gabriel (1326-1329) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (the parallel columns of the Kyiv list
+    reproduction) — confirm against Fedalto and Golubinsky/Podskalsky during verification
+status: unverified
+notes: Created from the parallel-columns batch (Halych/Lithuania) 2026-07-15.

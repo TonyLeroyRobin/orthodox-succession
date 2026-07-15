@@ -1,0 +1,29 @@
+id: jurisdiction/metropolitanate-of-lithuania
+name: Metropolitanate of Lithuania
+type: historical
+autocephaly:
+- granted_by: erected by the Patriarchate of Constantinople in the Gediminas era
+  date:
+    value: '1315'
+    calendar: julian
+    precision: circa
+    note: a metropolitan province of Constantinople, not an autocephaly — the field records
+      the structural erection
+dissolved:
+  date:
+    value: '1420'
+    calendar: julian
+    precision: circa
+    note: lapsed after Gregory Tsamblak; reunited under Photius of Kyiv
+  successor: jurisdiction/metropolitanate-of-kyiv
+primatial_see: see/lithuania/novgorodok
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  reliability: scholarly
+  locator: Lithuania series — locator to be confirmed
+status: unverified
+notes: The Lithuanian metropolitanate at Novgorodok (Navahrudak). Some treatments interpose
+  Theodoret (1352-1354, consecrated at Tarnovo by the Bulgarian patriarch against Constantinople
+  — cf. jurisdiction/tarnovo-patriarchate) between Theophilus and Roman; he is ABSENT from
+  the reproduction and therefore recorded only as this note — modeling deferred to a sourced
+  pass. Absorbed into Kyiv (uncontested — successor named).
