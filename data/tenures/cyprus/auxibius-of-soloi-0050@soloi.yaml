@@ -1,0 +1,18 @@
+id: tenure/cyprus/auxibius-of-soloi-0050@soloi
+person: person/cyprus/auxibius-of-soloi-0050
+see: see/cyprus/soloi
+from:
+  value: '0050'
+  calendar: julian
+  precision: circa
+  note: the apostolic-era tradition (ordained per the Mark narrative) — bounds unknown
+end_reason: died
+sources:
+- ref: source/le-quien-oriens-christianus-v2
+  locator: vol. 2, Cyprus section, s.v. Auxibius (1st c.) — columns to be confirmed
+  reliability: tradition
+  note: first bishop of Soloi per the hagiographic tradition — graded tradition
+status: unverified
+notes: Created in the Cypriot-suffragans batch (anchors + incumbents, explicitly partial)
+  2026-07-15. Tradition-grade anchor; the see's next recorded occupant is Evagrios (attested
+  431, verified).

@@ -1,0 +1,27 @@
+id: person/cyprus/auxibius-of-soloi-0050
+names:
+  monastic: Auxibius
+attestation: attested
+sources:
+- ref: source/le-quien-oriens-christianus-v2
+  locator: vol. 2, Cyprus section, s.v. Auxibius (1st c.) — columns to be confirmed
+  reliability: tradition
+  note: first bishop of Soloi per the hagiographic tradition — graded tradition
+status: unverified
+notes: Created in the Cypriot-suffragans batch (anchors + incumbents, explicitly partial)
+  2026-07-15.
+veneration:
+  status: saint
+  titles: []
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 02-17
+    calendar: julian
+    note: St Auxibius, bishop of Soloi — verify against the calendar
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/02/17
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/02/17
+    note: Year-wildcard archive redirect - pin during verification.

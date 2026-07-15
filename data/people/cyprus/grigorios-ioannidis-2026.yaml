@@ -1,0 +1,13 @@
+id: person/cyprus/grigorios-ioannidis-2026
+names:
+  monastic: Grigorios
+  family: Ioannidis
+attestation: attested
+sources:
+- ref: source/church-of-cyprus-official-list
+  reliability: official-list
+  note: incumbent per contemporary reporting (2026) — pin the official announcement during
+    verification
+status: unverified
+notes: Created in the Cypriot-suffragans batch (anchors + incumbents, explicitly partial)
+  2026-07-15.

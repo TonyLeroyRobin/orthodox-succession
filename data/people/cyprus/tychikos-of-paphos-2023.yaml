@@ -1,0 +1,12 @@
+id: person/cyprus/tychikos-of-paphos-2023
+names:
+  monastic: Tychikos
+attestation: attested
+sources:
+- ref: source/church-of-cyprus-official-list
+  reliability: official-list
+  note: election 2023 and removal 2025 per contemporary reporting — pin the synodal acts during
+    verification
+status: unverified
+notes: Created in the Cypriot-suffragans batch (anchors + incumbents, explicitly partial)
+  2026-07-15.

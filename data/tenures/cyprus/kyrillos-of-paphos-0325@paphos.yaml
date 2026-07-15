@@ -1,0 +1,21 @@
+id: tenure/cyprus/kyrillos-of-paphos-0325@paphos
+person: person/cyprus/kyrillos-of-paphos-0325
+see: see/cyprus/paphos
+from:
+  value: '0325'
+  calendar: julian
+  precision: circa
+  note: attested at Nicaea (325) — bounds unknown
+end_reason: unknown
+sources:
+- ref: source/le-quien-oriens-christianus-v2
+  locator: vol. 2, Cyprus section, s.v. Kyrillos (Cyril) of Paphos (att. 325) — columns to
+    be confirmed
+  reliability: scholarly
+  note: a Nicaea I signatory per the subscription lists — a participation record is a candidate
+    for a councils pass; confirm against Le Quien (vol. 2, Cyprus) and Fedalto during verification;
+    the official churchofcyprus.org.cy blocks automated access — documented
+status: unverified
+notes: Created in the Cypriot-suffragans batch (anchors + incumbents, explicitly partial)
+  2026-07-15. The see's ancient anchor; Nicaea participation candidate — verify against the
+  subscription lists.

@@ -1,0 +1,32 @@
+id: tenure/cyprus/tychikos-of-paphos-2023@paphos
+person: person/cyprus/tychikos-of-paphos-2023
+see: see/cyprus/paphos
+from:
+  value: '2023'
+  calendar: gregorian
+  precision: year
+to:
+  value: '2025'
+  calendar: gregorian
+  precision: year
+end_reason: deposed
+recognition:
+- by: jurisdiction/church-of-cyprus
+  status: not-recognized
+  since:
+    value: '2025'
+    calendar: gregorian
+    precision: year
+  note: removed from the administration of the diocese by the Holy Synod (2025); his appeal
+    to the Ecumenical Patriarchate was pending at the time of recording — the dispute is recorded,
+    not adjudicated
+sources:
+- ref: source/church-of-cyprus-official-list
+  reliability: official-list
+  note: election 2023 and removal 2025 per contemporary reporting — pin the synodal acts during
+    verification
+status: unverified
+notes: 'Created in the Cypriot-suffragans batch (anchors + incumbents, explicitly partial)
+  2026-07-15. Removed by the Holy Synod (2025) amid canonical charges he contests; appeal
+  pending before the EP at recording time — rule 6 in a live case: statuses to be revisited
+  as the process concludes.'

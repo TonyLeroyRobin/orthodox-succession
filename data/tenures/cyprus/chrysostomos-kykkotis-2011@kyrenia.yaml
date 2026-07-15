@@ -1,0 +1,16 @@
+id: tenure/cyprus/chrysostomos-kykkotis-2011@kyrenia
+person: person/cyprus/chrysostomos-kykkotis-2011
+see: see/cyprus/kyrenia
+from:
+  value: '2011'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/church-of-cyprus-official-list
+  reliability: official-list
+  note: incumbent Metropolitan of Kyrenia (2011-) — pin during verification
+status: unverified
+notes: Created in the Cypriot-suffragans batch (anchors + incumbents, explicitly partial)
+  2026-07-15. Incumbent Metropolitan of Kyrenia (the see's territory under Turkish occupation
+  since 1974 — cf. the context layer).

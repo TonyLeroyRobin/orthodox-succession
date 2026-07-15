@@ -1,0 +1,28 @@
+id: person/cyprus/theodotus-of-kyrenia-0310
+names:
+  monastic: Theodotus
+attestation: attested
+sources:
+- ref: source/le-quien-oriens-christianus-v2
+  locator: vol. 2, Cyprus section, s.v. Theodotus (early 4th c.) — columns to be confirmed
+  reliability: tradition
+  note: martyr-bishop of Kyrenia under Licinius per the hagiographic tradition — graded tradition
+status: unverified
+notes: Created in the Cypriot-suffragans batch (anchors + incumbents, explicitly partial)
+  2026-07-15.
+veneration:
+  status: saint
+  titles:
+  - Hieromartyr
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 03-02
+    calendar: julian
+    note: Hieromartyr Theodotus, bishop of Kyrenia — verify against the calendar
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/03/02
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/03/02
+    note: Year-wildcard archive redirect - pin during verification.

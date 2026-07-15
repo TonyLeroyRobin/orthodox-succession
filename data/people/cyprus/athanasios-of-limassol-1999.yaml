@@ -1,0 +1,11 @@
+id: person/cyprus/athanasios-of-limassol-1999
+names:
+  monastic: Athanasios
+attestation: attested
+sources:
+- ref: source/church-of-cyprus-official-list
+  reliability: official-list
+  note: incumbent Metropolitan of Limassol (1999-) — pin during verification
+status: unverified
+notes: Created in the Cypriot-suffragans batch (anchors + incumbents, explicitly partial)
+  2026-07-15.

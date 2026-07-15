@@ -1,0 +1,26 @@
+id: tenure/cyprus/lazarus-of-kition-0045@kition
+person: person/cyprus/lazarus-of-kition-0045
+see: see/cyprus/kition
+from:
+  value: '0045'
+  calendar: julian
+  precision: circa
+  note: the tradition places his Kition episcopate after the resurrection narrative of John
+    11; bounds unknown
+to:
+  value: '0063'
+  calendar: julian
+  precision: circa
+  note: traditional span of about eighteen further years — tradition only
+end_reason: died
+sources:
+- ref: source/le-quien-oriens-christianus-v2
+  locator: vol. 2, Cyprus section, s.v. Lazarus (1st c.) — columns to be confirmed
+  reliability: tradition
+  note: the Kition episcopate of Lazarus is ecclesiastical tradition (anchored by the 890
+    relic-finding at Larnaca); Le Quien records it — graded tradition per the source hierarchy,
+    permanently ineligible for verified unless better evidence emerges
+status: unverified
+notes: Created in the Cypriot-suffragans batch (anchors + incumbents, explicitly partial)
+  2026-07-15. Tradition-grade only, recorded honestly (the Barnabas pattern); Lazarus Saturday
+  is movable and cannot be encoded as a fixed month-day — noted here.

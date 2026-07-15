@@ -1,0 +1,32 @@
+id: person/cyprus/lazarus-of-kition-0045
+names:
+  monastic: Lazarus
+attestation: attested
+sources:
+- ref: source/le-quien-oriens-christianus-v2
+  locator: vol. 2, Cyprus section, s.v. Lazarus (1st c.) — columns to be confirmed
+  reliability: tradition
+  note: the Kition episcopate of Lazarus is ecclesiastical tradition (anchored by the 890
+    relic-finding at Larnaca); Le Quien records it — graded tradition per the source hierarchy,
+    permanently ineligible for verified unless better evidence emerges
+status: unverified
+notes: Created in the Cypriot-suffragans batch (anchors + incumbents, explicitly partial)
+  2026-07-15. The Lazarus of John 11, by tradition first bishop of Kition; relics found at
+  Larnaca in 890.
+veneration:
+  status: saint
+  titles:
+  - Righteous
+  - Friend of Christ
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 10-17
+    calendar: julian
+    note: translation of the relics of Righteous Lazarus of the Four Days
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/10/17
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/10/17
+    note: Year-wildcard archive redirect - pin during verification.

@@ -1,0 +1,22 @@
+id: tenure/cyprus/georgios-iii-2022@paphos
+person: person/cyprus/georgios-iii-2022
+see: see/cyprus/paphos
+from:
+  value: '2006'
+  calendar: gregorian
+  precision: year
+  note: elected Metropolitan of Paphos 29 December 2006 per his existing person record
+to:
+  value: '2022'
+  calendar: gregorian
+  precision: year
+end_reason: translated
+sources:
+- ref: source/church-of-cyprus-official-list
+  reliability: official-list
+  note: his Paphos metropolitanate (2006-2022) precedes the archiepiscopal tenure on the existing
+    record
+status: unverified
+notes: Created in the Cypriot-suffragans batch (anchors + incumbents, explicitly partial)
+  2026-07-15. Metropolitan of Paphos 2006-2022, then Archbishop (December 2022) — the cursus,
+  second instance.

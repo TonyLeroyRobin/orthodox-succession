@@ -6,8 +6,8 @@ jurisdiction_history:
     value: '0431'
     calendar: julian
     precision: year
-    note: jurisdiction from the confirmation of Cypriot autocephaly; the see itself
-      is older — founding data to be added with sources
+    note: jurisdiction from the confirmation of Cypriot autocephaly; the see itself is older
+      — founding data to be added with sources
 location:
   lat: 35.198
   lon: 32.989
@@ -19,6 +19,8 @@ sources:
   reliability: scholarly
   locator: vol. 2, Cyprus section (columns to be confirmed)
 status: unverified
-notes: Metropolis continuing the ancient see of Soloi; its seat has been under Turkish
-  occupation since 1974. Suffragan-see draft (Milestone 4) — rank_history and tenure
-  lists to be filled from the official list and Fedalto during verification.
+notes: 'Metropolis continuing the ancient see of Soloi; its seat has been under Turkish occupation
+  since 1974. Suffragan-see draft (Milestone 4) — rank_history and tenure lists to be filled
+  from the official list and Fedalto during verification. Suffragans batch (2026-07-15): coverage
+  on this see is EXPLICITLY PARTIAL - ancient anchor and/or incumbent only; the full tenure
+  list remains to be filled from Le Quien/Fedalto and the official list (BACKLOG).'

@@ -1,0 +1,16 @@
+id: tenure/cyprus/neophytos-of-morphou-1998@morphou
+person: person/cyprus/neophytos-of-morphou-1998
+see: see/cyprus/morphou
+from:
+  value: '1998'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/church-of-cyprus-official-list
+  reliability: official-list
+  note: incumbent Metropolitan of Morphou (1998-) — pin during verification
+status: unverified
+notes: Created in the Cypriot-suffragans batch (anchors + incumbents, explicitly partial)
+  2026-07-15. Incumbent Metropolitan of Morphou (the see's town under Turkish occupation since
+  1974; the metropolitan resides at Evrychou — verify).

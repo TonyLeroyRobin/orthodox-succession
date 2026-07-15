@@ -1,0 +1,11 @@
+id: person/cyprus/neophytos-of-morphou-1998
+names:
+  monastic: Neophytos
+attestation: attested
+sources:
+- ref: source/church-of-cyprus-official-list
+  reliability: official-list
+  note: incumbent Metropolitan of Morphou (1998-) — pin during verification
+status: unverified
+notes: Created in the Cypriot-suffragans batch (anchors + incumbents, explicitly partial)
+  2026-07-15.

@@ -7,6 +7,7 @@ version heading at tag time.
 
 ## [Unreleased]
 
+- cyprus: suffragan anchors + incumbents (explicitly partial) — Lazarus of Kition as tradition-graded apostolic founder, Theodotus/Auxibius/Kyrillos anchors, the five incumbent metropolitans, the Paphos cursus (both archbishops linked) and the contested 2025 Tychikos removal per rule 6
 - docs: v0.3.0 citation and DOI (10.5281/zenodo.21383603) in the README
 
 ## [0.3.0] — 2026-07-15 (the deep lines: Athens and Moldavia)

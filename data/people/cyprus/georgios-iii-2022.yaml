@@ -1,31 +1,29 @@
 id: person/cyprus/georgios-iii-2022
 names:
-  monastic: "Georgios"
-  family: "Papachrysostomou"
+  monastic: Georgios
+  family: Papachrysostomou
   native:
-    - script: el
-      value: "Γεώργιος Γ΄"
+  - script: el
+    value: Γεώργιος Γ΄
   variants:
-    - "George III of Cyprus"
+  - George III of Cyprus
 born:
   date:
-    value: "1949-05-25"
+    value: '1949-05-25'
     calendar: gregorian
     precision: day
-    note: "cross-checked against public reference works, 2026-07-08"
-  place: "Athienou, Larnaca district, Cyprus"
+    note: cross-checked against public reference works, 2026-07-08
+  place: Athienou, Larnaca district, Cyprus
 attestation: attested
 sources:
-  - ref: source/church-of-cyprus-official-list
-    reliability: official-list
+- ref: source/church-of-cyprus-official-list
+  reliability: official-list
 status: unverified
-notes: >-
-  Archbishop of Cyprus from December 2022; ordained deacon 23 December 1984
-  and priest 17 May 1985 by Chrysostomos I; Bishop of Arsinoe from 26 May
-  1996; elected Metropolitan of Paphos 29 December 2006; elected Archbishop
-  24 December 2022, enthroned 8 January 2023 at St Barnabas Cathedral,
-  Nicosia. Verification pass 2026-07-08: the draft's birthplace "Statos"
-  was WRONG (that is Chrysostomos I's birthplace) and has been corrected to
-  Athienou; details cross-checked against public reference works
-  (lead-generation only) — promote after confirming against the official
-  list.
+notes: 'Archbishop of Cyprus from December 2022; ordained deacon 23 December 1984 and priest
+  17 May 1985 by Chrysostomos I; Bishop of Arsinoe from 26 May 1996; elected Metropolitan
+  of Paphos 29 December 2006; elected Archbishop 24 December 2022, enthroned 8 January 2023
+  at St Barnabas Cathedral, Nicosia. Verification pass 2026-07-08: the draft''s birthplace
+  "Statos" was WRONG (that is Chrysostomos I''s birthplace) and has been corrected to Athienou;
+  details cross-checked against public reference works (lead-generation only) — promote after
+  confirming against the official list. Suffragans batch 2026-07-15 - his Paphos metropolitanate
+  (2006-2022) now has its tenure.'

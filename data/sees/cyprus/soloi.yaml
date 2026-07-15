@@ -1,30 +1,31 @@
 id: see/cyprus/soloi
-name: "Soloi (Soli)"
+name: Soloi (Soli)
 jurisdiction_history:
-  - jurisdiction: jurisdiction/church-of-cyprus
-    from:
-      value: "0431"
-      calendar: julian
-      precision: year
+- jurisdiction: jurisdiction/church-of-cyprus
+  from:
+    value: '0431'
+    calendar: julian
+    precision: year
 rank_history:
-  - rank: bishopric
-    from:
-      value: "0431"
-      calendar: julian
-      precision: circa
-      note: "attested as a bishopric by its presence at Ephesus (431)"
+- rank: bishopric
+  from:
+    value: '0431'
+    calendar: julian
+    precision: circa
+    note: attested as a bishopric by its presence at Ephesus (431)
 location:
   lat: 35.141
   lon: 32.812
-  modern_place: "ruins of Soli, near Karavostasi / Gemikonagi, Cyprus"
+  modern_place: ruins of Soli, near Karavostasi / Gemikonagi, Cyprus
 sources:
-  - ref: source/aco-concilium-universale-ephesenum
-    locator: "subscriptions of the Cypriot bishops"
-    reliability: primary
-  - ref: source/le-quien-oriens-christianus-v2
-    locator: "vol. 2, s.v. Soli (columns to be confirmed)"
-    reliability: scholarly
+- ref: source/aco-concilium-universale-ephesenum
+  locator: subscriptions of the Cypriot bishops
+  reliability: primary
+- ref: source/le-quien-oriens-christianus-v2
+  locator: vol. 2, s.v. Soli (columns to be confirmed)
+  reliability: scholarly
 status: verified
-notes: >-
-  Ancient suffragan bishopric of Cyprus; earliest firmly attested bishop in
-  this database is Evagrios, present at the Council of Ephesus (431).
+notes: 'Ancient suffragan bishopric of Cyprus; earliest firmly attested bishop in this database
+  is Evagrios, present at the Council of Ephesus (431). Suffragans batch (2026-07-15): coverage
+  on this see is EXPLICITLY PARTIAL - ancient anchor and/or incumbent only; the full tenure
+  list remains to be filled from Le Quien/Fedalto and the official list (BACKLOG).'
