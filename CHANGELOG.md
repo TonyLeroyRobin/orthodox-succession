@@ -7,6 +7,10 @@ version heading at tag time.
 
 ## [Unreleased]
 
+*(nothing yet)*
+
+## [0.6.0] — 2026-07-15 (every claim to Kyiv)
+
 - ukraine: the OCU predecessor bodies (maintainer decision) — UOC-KP and UAOC as historical jurisdictions dissolved into the OCU, seven qualified tenures on the shared Kyiv see, Filaret's full arc recorded without characterization
 - docs: v0.5.0 citation and DOI (10.5281/zenodo.21383966) in the README
 
