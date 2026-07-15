@@ -1,0 +1,26 @@
+id: work/letters-choniates
+title: Letters
+author: person/greece/michael-ii-choniates-1182
+relation: by
+language: Ancient Greek
+date:
+  value: '1200'
+  calendar: julian
+  precision: circa
+  note: the corpus spans his Athens years and the Keos exile
+attribution: authentic
+genre: letter
+editions:
+- type: original
+  language: Ancient Greek
+  series: ed. F. Kolovou (CFHB 41, De Gruyter)
+  year: 2001
+  rights: in-copyright
+sources:
+- ref: source/wikipedia
+  reliability: database
+  note: draft citation — replace with a critical-edition citation during verification
+notes: 'Created in the second works pass 2026-07-15. His famous verse lament for the decayed
+  Athens is NOT modeled separately: the genre enum has no poetry value — a schema question
+  for the maintainer (BACKLOG), not shoehorned.'
+status: unverified

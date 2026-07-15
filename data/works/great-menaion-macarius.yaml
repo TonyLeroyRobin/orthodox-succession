@@ -1,0 +1,27 @@
+id: work/great-menaion-macarius
+title: The Great Menaion Reader (Velikie Chetii-Minei)
+author: person/russia/macarius-of-moscow-1542
+relation: by
+language: Church Slavonic
+date:
+  value: '1552'
+  calendar: julian
+  precision: circa
+attribution: authentic
+genre: hagiography
+editions:
+- type: original
+  language: Church Slavonic
+  series: the Uspensky and Tsarsky sets; Archeographic Commission edition (1868-1917, incomplete)
+  rights: public-domain
+  notes: link scans during verification index/search link only - pin the exact scan during
+    verification.
+  url: https://archive.org/search?query=velikie+chetii+minei
+sources:
+- ref: source/wikipedia
+  reliability: database
+  note: draft citation — replace with a critical-edition citation during verification
+notes: 'Created in the second works pass 2026-07-15. Authored as compiler-editor: the twelve-volume
+  calendar compendium of the readable holy corpus of Rus'' — the note records the compilation
+  character.'
+status: unverified

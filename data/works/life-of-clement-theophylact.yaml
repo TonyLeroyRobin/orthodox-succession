@@ -1,0 +1,25 @@
+id: work/life-of-clement-theophylact
+title: Life of Clement of Ohrid (the Long Life)
+author: person/ohrid/theophylact-1084
+relation: by
+language: Ancient Greek
+date:
+  value: '1100'
+  calendar: julian
+  precision: circa
+attribution: authentic
+genre: hagiography
+editions:
+- type: original
+  language: Ancient Greek
+  series: Patrologia Graeca
+  locator: PG 126
+  url: https://patristica.net/graeca/
+  rights: public-domain
+sources:
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: PG 126
+notes: Created in the second works pass 2026-07-15. Attribution generally accepted; debated
+  in parts of the scholarship — noted, kept authentic pending the verification pass.
+status: unverified

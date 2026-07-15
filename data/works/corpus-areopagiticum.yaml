@@ -1,0 +1,38 @@
+id: work/corpus-areopagiticum
+title: Corpus Areopagiticum
+author: person/greece/dionysius-the-areopagite-0052
+relation: by
+language: Ancient Greek
+date:
+  value: '0500'
+  calendar: julian
+  precision: circa
+  note: c. 485-528 per the scholarly consensus
+attribution: spurious
+genre: treatise
+cpg: CPG 6600-6635 — to be confirmed
+editions:
+- type: original
+  language: Ancient Greek
+  series: Patrologia Graeca
+  locator: PG 3-4
+  url: https://patristica.net/graeca/
+  rights: public-domain
+- type: translation
+  language: English
+  translator: Colm Luibheid
+  series: Classics of Western Spirituality (Paulist)
+  year: 1987
+  rights: in-copyright
+sources:
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: PG 3-4
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 6600-6635 — to be confirmed
+notes: 'Created in the second works pass 2026-07-15. attribution: SPURIOUS — the 5th-6th-century
+  corpus transmitted under the Areopagite''s name (the schema''s spurious value exists for
+  exactly this case); enormously influential regardless. The author link records the ATTRIBUTION
+  target, not a claim of authorship — cf. the person record''s note.'
+status: unverified

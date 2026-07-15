@@ -1,0 +1,29 @@
+id: work/eulogy-for-evtimiy-tsamblak
+title: Eulogy for Patriarch Evtimiy of Tarnovo
+author: person/lithuania/gregory-tsamblak-1414
+subject_of:
+- person/bulgaria/evtimiy-1375
+relation: by
+language: Church Slavonic
+date:
+  value: '1415'
+  calendar: julian
+  precision: circa
+attribution: authentic
+genre: homily
+editions:
+- type: original
+  language: Church Slavonic
+  series: critical editions from the 20th c.
+  rights: public-domain
+  notes: link a scan during verification index/search link only - pin the exact scan during
+    verification.
+  url: https://archive.org/search?query=tsamblak+evtimiy+eulogy
+sources:
+- ref: source/wikipedia
+  reliability: database
+  note: draft citation — replace with a critical-edition citation during verification
+notes: 'Created in the second works pass 2026-07-15. The Tarnovo school across three jurisdictions:
+  authored by the Lithuanian metropolitan about the last Tarnovo patriarch (subject_of cross-reference)
+  — the database''s first author-and-subject work spanning two modeled lines.'
+status: unverified

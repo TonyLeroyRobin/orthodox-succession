@@ -1,0 +1,27 @@
+id: work/history-of-the-russian-church-macarius
+title: History of the Russian Church
+author: person/russia/macarius-bulgakov-1879
+relation: by
+language: Russian
+date:
+  value: '1857'
+  calendar: julian
+  precision: year
+  note: twelve volumes, 1857-1883
+attribution: authentic
+genre: study
+editions:
+- type: original
+  language: Russian
+  series: 12 vols., St Petersburg
+  year: 1857
+  rights: public-domain
+  notes: link scans during verification index/search link only - pin the exact scan during
+    verification.
+  url: https://archive.org/search?query=makarii+istoriya+russkoi+tserkvi
+sources:
+- ref: source/wikipedia
+  reliability: database
+  note: draft citation — replace with a critical-edition citation during verification
+notes: Created in the second works pass 2026-07-15.
+status: unverified

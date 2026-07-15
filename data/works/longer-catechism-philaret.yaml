@@ -1,0 +1,32 @@
+id: work/longer-catechism-philaret
+title: The Longer Catechism of the Orthodox, Catholic, Eastern Church
+author: person/russia/philaret-drozdov-1821
+relation: by
+language: Russian
+date:
+  value: '1823'
+  calendar: julian
+  precision: year
+attribution: authentic
+genre: treatise
+editions:
+- type: original
+  language: Russian
+  year: 1823
+  rights: public-domain
+  url: https://archive.org/search?query=philaret+catechism+russian
+  notes: index/search link only - pin the exact scan during verification.
+- type: translation
+  language: English
+  translator: R. W. Blackmore
+  year: 1845
+  rights: public-domain
+  notes: link a scan during verification index/search link only - pin the exact scan during
+    verification.
+  url: https://archive.org/search?query=blackmore+doctrine+russian+church
+sources:
+- ref: source/wikipedia
+  reliability: database
+  note: draft citation — replace with a critical-edition citation during verification
+notes: Created in the second works pass 2026-07-15.
+status: unverified

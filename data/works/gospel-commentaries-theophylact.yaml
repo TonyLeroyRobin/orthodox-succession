@@ -1,0 +1,29 @@
+id: work/gospel-commentaries-theophylact
+title: Commentaries on the Gospels
+author: person/ohrid/theophylact-1084
+relation: by
+language: Ancient Greek
+date:
+  value: '1095'
+  calendar: julian
+  precision: circa
+attribution: authentic
+genre: treatise
+editions:
+- type: original
+  language: Ancient Greek
+  series: Patrologia Graeca
+  locator: PG 123-126
+  url: https://patristica.net/graeca/
+  rights: public-domain
+- type: translation
+  language: English
+  series: Chrysostom Press (House Springs)
+  rights: in-copyright
+sources:
+- ref: source/migne-patrologia-graeca
+  reliability: scholarly
+  locator: PG 123-126
+notes: Created in the second works pass 2026-07-15. The exegetical staple of the Byzantine
+  and Slavic worlds. Post-patristic, no CPG.
+status: unverified
