@@ -7,7 +7,7 @@ version heading at tag time.
 
 ## [Unreleased]
 
-*(nothing yet)*
+- docs: v0.5.0 citation and DOI (10.5281/zenodo.21383966) in the README
 
 ## [0.5.0] — 2026-07-15 (the decisions release)
 
