@@ -412,6 +412,51 @@ def main():
                         rep.error(path, f"relationship date follows the "
                                         f"death of the '{role}' person")
 
+    # ---- P1 admission rule: non-bishop persons must connect to the corpus --
+    # (PERSONS_LIBRARY_CONTROVERSIES §P1.2, error level.) A person whose
+    # explicit role is not bishop must be reachable via a Work
+    # (author/subject_of), a Participation, a Relationship (either
+    # direction), or citation as apostolic founder on a See / person
+    # reference in a Tradition. Absent role means bishop (pre-P1 default).
+    # NOTE: Jurisdiction records have no structured founder/evangelizer
+    # person field today; that leg of the rule activates if one is added.
+    connected = set()
+    for rec in records:
+        d, k = rec["data"], rec["kind"]
+        if k == "work":
+            if d.get("author"):
+                connected.add(d["author"])
+            for p in d.get("subject_of") or []:
+                connected.add(p)
+        elif k == "participation":
+            if d.get("person"):
+                connected.add(d["person"])
+        elif k == "relationship":
+            for f in ("from", "to"):
+                if d.get(f):
+                    connected.add(d[f])
+        elif k == "see":
+            af = d.get("apostolic_founder") or {}
+            if af.get("person"):
+                connected.add(af["person"])
+            for af2 in d.get("apostolic_founders") or []:
+                if af2.get("person"):
+                    connected.add(af2["person"])
+        elif k == "tradition":
+            for p in d.get("persons") or []:
+                connected.add(p)
+    for pid, rec in persons.items():
+        role = rec["data"].get("role", "bishop")
+        if role != "bishop" and pid not in connected:
+            rep.error(
+                rec["path"],
+                f"non-bishop person (role: {role}) has no corpus connection — "
+                "the admission rule requires a Work (author or subject_of), a "
+                "Participation, a Relationship, or citation as apostolic "
+                "founder on a See / person reference in a Tradition "
+                "(PERSONS_LIBRARY_CONTROVERSIES §P1)",
+            )
+
     # ---- rule 5: overlapping tenures need a recognition qualifier ----------
     by_see = defaultdict(list)
     for t in tenures:

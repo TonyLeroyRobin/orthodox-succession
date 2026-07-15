@@ -51,6 +51,11 @@ Read it before making structural changes. These rules bind every session.
   deposed-by | posthumously-condemned. Council subscription lists are primary
   evidence — they corroborate person + see + tenure at once.
 - Overlapping tenures on one see require a `recognition` qualifier on at least one.
+- **Person roles (P1):** `role` absent = bishop (pre-P1 records); explicit on all
+  new records. Non-bishop persons are admitted ONLY via a corpus connection — a
+  Work (author/subject_of), a Participation, a Relationship, or an
+  apostolic-founder/tradition citation (validate.py enforces, error level). No
+  general clergy coverage.
 
 ## Source hierarchy
 

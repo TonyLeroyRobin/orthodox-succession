@@ -48,6 +48,12 @@ def export_site_data(con):
             "SELECT json FROM records WHERE kind = ? ORDER BY id", (kind,)
         ).fetchall()
         items = [json.loads(r[0]) for r in rows]
+        if kind == "person":
+            # P1: absent role means bishop (pre-P1 records) — materialize it
+            # so the site and downstream consumers always see an explicit
+            # value.
+            for item in items:
+                item.setdefault("role", "bishop")
         with open(SITE_DATA / filename, "w", encoding="utf-8") as fh:
             json.dump(items, fh, ensure_ascii=False, indent=1)
         counts[kind] = len(items)

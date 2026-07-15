@@ -41,7 +41,7 @@
   const variants = (n.variants || []).map(esc).join("; ");
 
   let html = `<h1>${esc(personName(p))} ${statusBadge(p.status)}${corroborationBadge(p)}</h1>`;
-  html += `<p class="subtitle">${esc(p.id)} · ${t("person.attestation")} <strong>${esc(p.attestation)}</strong></p>`;
+  html += `<p class="subtitle">${esc(p.id)} · ${t("person.attestation")} <strong>${esc(p.attestation)}</strong> · ${t("person.role")} <strong>${esc(p.role || "bishop")}</strong></p>`;
 
   html += `<div class="panel"><h2>${t("person.identity.h2")}</h2><table><tbody>`;
   if (n.baptismal) html += `<tr><th>${t("person.identity.baptismal")}</th><td>${esc(n.baptismal)}</td></tr>`;

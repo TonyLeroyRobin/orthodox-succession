@@ -161,7 +161,11 @@ Field lists below are the minimum; add `notes: ""` (free text) to every entity.
 
 ### 4.1 Person
 `id, names{}, born{date?, place?}, died{date?, place?}, attestation
-(attested | legendary | uncertain), identifiers{wikidata?, viaf?},
+(attested | legendary | uncertain), role (bishop | priest | deacon |
+deaconess | monastic | layperson)?  # per PERSONS_LIBRARY_CONTROVERSIES §P1:
+absent = bishop (pre-P1 records); explicit on new records; non-bishops
+require a corpus connection (validate.py admission rule),
+identifiers{wikidata?, viaf?},
 veneration{status: saint|not-venerated|uncertain, titles[], recognition[{by:
 universal|pre-schism-church|jurisdiction:<id>, glorified_date?, note}],
 feast_days[{month_day, calendar, note}], sources[]}?  # per DATA_COMPLETION §1;

@@ -49,6 +49,10 @@
       "additionalProperties": false
     },
     "attestation": { "enum": ["attested", "legendary", "uncertain"] },
+    "role": {
+      "enum": ["bishop", "priest", "deacon", "deaconess", "monastic", "layperson"],
+      "description": "P1 (PERSONS_LIBRARY_CONTROVERSIES): absent means bishop (pre-P1 records); explicit on all new records. Non-bishops must satisfy the admission rule (validate.py): a Work, Participation, Relationship, or apostolic-founder/tradition citation."
+    },
     "identifiers": {
       "type": "object",
       "properties": {

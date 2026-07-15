@@ -7,6 +7,7 @@ version heading at tag time.
 
 ## [Unreleased]
 
+- schema: P1 — person `role` field (absent = bishop for pre-P1 records; explicit henceforth) and the non-bishop admission rule (validate.py, error level); role materialized in exports and shown on person pages; KICKOFF §4.1 and CLAUDE.md updated
 - docs: v0.6.0 citation and DOI (10.5281/zenodo.21384060) in the README
 
 ## [0.6.0] — 2026-07-15 (every claim to Kyiv)
