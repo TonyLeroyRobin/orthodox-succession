@@ -1,0 +1,23 @@
+id: tenure/russia/job-of-moscow-1589@moscow-2
+person: person/russia/job-of-moscow-1589
+see: see/russia/moscow
+from:
+  value: '1586'
+  calendar: julian
+  precision: year
+to:
+  value: '1589'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Job (1586-1589) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation)
+    — confirm against Stroev and the official records during verification
+status: unverified
+notes: Created from the standard chronology (Moscow metropolitans batch, v0.2.0 cycle) 2026-07-15.
+  Metropolitan of Moscow 1586-1589, elevated to first Patriarch of Moscow (1589) — the patriarchal
+  tenure is the existing record; the -2 suffix is chronologically the EARLIER term (suffixes
+  are ids, not order — the Damaskinos precedent).

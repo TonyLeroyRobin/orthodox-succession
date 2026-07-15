@@ -1,0 +1,23 @@
+id: tenure/russia/timothy-shcherbatsky-1757@moscow
+person: person/russia/timothy-shcherbatsky-1757
+see: see/russia/moscow
+from:
+  value: '1757'
+  calendar: julian
+  precision: year
+to:
+  value: '1767'
+  calendar: julian
+  precision: year
+end_reason: died
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Timothy (1757-1767) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation)
+    — confirm against Stroev and the official records during verification
+status: unverified
+notes: 'Created from the standard chronology (Moscow metropolitans batch, v0.2.0 cycle) 2026-07-15.
+  Diocesan metropolitan of Moscow during the Synodal period — NOT a primatial tenure: the
+  church was governed by the Most Holy Synod (see event/context/synodal-period-1721); the
+  patriarchal throne stayed vacant 1721-1917. The 1754-1757 interval is a documented vacancy.'

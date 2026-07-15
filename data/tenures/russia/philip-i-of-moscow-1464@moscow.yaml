@@ -1,0 +1,22 @@
+id: tenure/russia/philip-i-of-moscow-1464@moscow
+person: person/russia/philip-i-of-moscow-1464
+see: see/russia/moscow
+from:
+  value: '1464'
+  calendar: julian
+  precision: year
+to:
+  value: '1473'
+  calendar: julian
+  precision: year
+end_reason: died
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Philip I (1464-1473) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation)
+    — confirm against Stroev and the official records during verification
+status: unverified
+notes: Created from the standard chronology (Moscow metropolitans batch, v0.2.0 cycle) 2026-07-15.
+  Metropolitan of Moscow and all Rus' — the primatial line between the 1448 autocephaly and
+  the 1589 patriarchate.

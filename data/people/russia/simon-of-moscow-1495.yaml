@@ -1,0 +1,12 @@
+id: person/russia/simon-of-moscow-1495
+names:
+  monastic: Simon
+attestation: attested
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Simon (1495-1511) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation)
+    — confirm against Stroev and the official records during verification
+status: unverified
+notes: Created from the standard chronology (Moscow metropolitans batch, v0.2.0 cycle) 2026-07-15.

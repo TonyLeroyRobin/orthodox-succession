@@ -22,7 +22,7 @@ current milestone (ROADMAP_ADDENDUM.md §A4).
 | Rename mislabeled Alexandria seed (Kosmas II 1723–1736, labeled Cosmas III of Constantinople) | 2026-07-10 | Milestone C |
 | ~~Enter the Czech Lands & Slovakia primatial line manually (no Wikidata office item)~~ DONE 2026-07-11 (Milestone C) | 2026-07-10 | Milestone C |
 | Bishop Gorazd (Pavlík) of Prague 1921–1942 (pre-autocephaly, under Serbian jurisdiction; executed 1942; New-Martyr — veneration block when modeled) + non-primatial Prague/Prešov occupants | 2026-07-11 | post-Milestone C |
-| Synodal-era Moscow metropolitans (1721–1917, unmodeled line) — incl. St Innocent Veniaminov's Moscow term 1868–1879 (cross-jurisdiction with OCA) and St Philaret Drozdov | 2026-07-11 | post-Milestone C |
+| ~~Synodal-era Moscow metropolitans (1742–1917)~~ DONE 2026-07-15 (15 diocesan tenures, explicitly non-primatial; Innocent's Moscow term linked cross-jurisdiction; veneration: Philaret, Vladimir Bogoyavlensky, Macarius Nevsky) | 2026-07-11 | done |
 | UOC (Moscow Patriarchate) parallel jurisdiction record + Onufriy's structure (his Kyiv rival-claim tenure exists; jurisdiction modeling is a maintainer scope decision) | 2026-07-11 | maintainer decision |
 | OCU predecessor bodies 1990–2018 (UOC-KP: Mstyslav, Volodymyr Romaniuk, Filaret; UAOC) + Filaret's honorary-patriarch episode and 2019 departure | 2026-07-11 | maintainer decision |
 | ~~Historical Kyiv metropolitans 988–1686~~ DONE 2026-07-15 (v0.2.0 cycle: 60 tenures, Michael I → Gedeon; rival pairs qualified). REMAINING from that line: the Halych and Lithuania parallel metropolitanates; the Pimen/Dionysius appointment tangle (1380s, omitted by the reproduction) | 2026-07-11 | post-Milestone C |
@@ -30,7 +30,8 @@ current milestone (ROADMAP_ADDENDUM.md §A4).
 | Dashboard: per-recognizer "view as reckoned by X" toggle (NEUTRALITY.md decision 2026-07-15 — badge now, toggle later) | 2026-07-15 | dashboard phase |
 | Georgian display ordinals: re-check against the official diptych once reachable (NAMING.md decision 2026-07-15 — the church's own numbering leads display names) | 2026-07-15 | verification session (continued) |
 | ~~Cross-jurisdiction person deduplication (Meletios Pigas, Meletios Metaxakis, Cyril Loukaris, Kosmas II/III)~~ DONE 2026-07-15 (verification session; + Joanikije III Karadža and the Georgian Okropir II seed — six merges total; earlier links: Niphon II, Tikhon of Moscow) | 2026-07-10 | done |
-| Metropolitans of Moscow 1325–1589 (Peter → Job's predecessors) + the historical Kyiv metropolitan line — pre-patriarchal Russian succession | 2026-07-10 | post-Milestone C |
+| ~~Metropolitans of Moscow 1325–1589 + the historical Kyiv line~~ DONE 2026-07-15 (Kyiv batch: 988–1686; Moscow batch: Jonah 1448 → Job's -2 term; 1325–1448 stays on the Kyiv line by title with the Moscow claim recorded) | 2026-07-10 | done |
+| Russian works candidates from the metropolitans batch: the Great Menaion (Macarius), Philaret Drozdov's catechism + the Russian Bible translation, Macarius Bulgakov's History of the Russian Church, Hilarion's Sermon (Kyiv) | 2026-07-15 | future works pass |
 | ~~Metropolitanate/Patriarchate of Karlovci 1690–1920~~ DONE 2026-07-15 (v0.2.0 cycle: own jurisdiction+see, 21 tenures; 7 persons linked incl. both migration Arsenijes; dissolved 1920 → church-of-serbia) | 2026-07-10 | done |
 | Metropolitanate of Moldavia and Bukovina (Iași) succession line 1401–present (parallel Romanian jurisdiction; the Karlovci pattern) | 2026-07-10 | post-Milestone C |
 | Maxim Brancovici's Belgrade/Srem tenure (after Wallachia 1505–1508) — belongs to the future Karlovci/Belgrade parallel line | 2026-07-10 | post-Milestone C |

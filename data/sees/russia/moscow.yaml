@@ -12,13 +12,20 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: Seat of the Patriarch of Moscow and all Rus'. founded_from records the
-  translation of the Kyiv metropolitan seat northward (Vladimir 1299, Moscow
-  1325). Milestone C (2026-07-10) closed the PATRIARCHAL succession
-  (Job 1589 to Kirill, per maintainer decision) — the metropolitans of
-  Moscow (1325-1589) are future work (BACKLOG). The occupancy gaps are
-  historical, not missing data - the 1612-1619 Time of Troubles vacancy,
-  the 1700-1721 Yavorsky locum tenency, the 1721-1917 Synodal period (see
-  event/context/synodal-period-1721), and the 1925-1943 locum tenens era.
-  jurisdiction_history and rank_history still to be added during
-  verification.
+notes: 'Seat of the Patriarch of Moscow and all Rus''. founded_from records the translation
+  of the Kyiv metropolitan seat northward (Vladimir 1299, Moscow 1325). Milestone C (2026-07-10)
+  closed the PATRIARCHAL succession (Job 1589 to Kirill, per maintainer decision) — the metropolitans
+  of Moscow (1325-1589) are future work (BACKLOG). The occupancy gaps are historical, not
+  missing data - the 1612-1619 Time of Troubles vacancy, the 1700-1721 Yavorsky locum tenency,
+  the 1721-1917 Synodal period (see event/context/synodal-period-1721), and the 1925-1943
+  locum tenens era. jurisdiction_history and rank_history still to be added during verification.
+  Moscow metropolitans batch (v0.2.0 cycle, 2026-07-15): two backlogged series added on this
+  see. (1) The pre-patriarchal primatial line, Jonah (1448, the autocephaly fork from the
+  Kyiv line - cf. see/ukraine/kyiv) through Jobs metropolitan term (1586-1589, the -2 tenure
+  of his patriarchal record); the 1325-1448 Vladimir/Moscow-resident metropolitans stay on
+  the Kyiv line by title, with the Moscow reckonings claim recorded there. (2) The synodal-era
+  DIOCESAN metropolitans (1742-1917) - explicitly non-primatial tenures; the patriarchal throne
+  remained vacant 1721-1917 and event/context/synodal-period-1721 still carries that story:
+  the Milestone C design (a patriarchal gap with context event) is refined, not reversed.
+  The 1700-1742, 1754-1757, 1771-1775, and 1812-1818 intervals are documented vacancies/administrator
+  periods.'

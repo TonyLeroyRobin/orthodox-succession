@@ -1,0 +1,32 @@
+id: person/russia/jonah-of-moscow-1448
+names:
+  monastic: Jonah
+attestation: attested
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Jonah (1448-1461) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation)
+    — confirm against Stroev and the official records during verification
+status: unverified
+notes: Created from the standard chronology (Moscow metropolitans batch, v0.2.0 cycle) 2026-07-15.
+  St Jonah of Moscow, glorified 1547.
+veneration:
+  status: saint
+  titles:
+  - Wonderworker
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 03-31
+    calendar: julian
+    note: repose of St Jonah, Metropolitan of Moscow
+  - month_day: 06-15
+    calendar: julian
+    note: translation of the relics
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/03/31
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/03/31
+    note: Year-wildcard archive redirect - pin during verification.

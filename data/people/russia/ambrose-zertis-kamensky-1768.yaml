@@ -1,0 +1,13 @@
+id: person/russia/ambrose-zertis-kamensky-1768
+names:
+  monastic: Ambrose
+  family: Zertis-Kamensky
+attestation: attested
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Ambrose (1768-1771) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation)
+    — confirm against Stroev and the official records during verification
+status: unverified
+notes: Created from the standard chronology (Moscow metropolitans batch, v0.2.0 cycle) 2026-07-15.

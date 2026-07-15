@@ -1,0 +1,32 @@
+id: person/russia/vladimir-bogoyavlensky-1898
+names:
+  monastic: Vladimir
+  family: Bogoyavlensky
+attestation: attested
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Vladimir (1898-1912) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation)
+    — confirm against Stroev and the official records during verification
+status: unverified
+notes: 'Created from the standard chronology (Moscow metropolitans batch, v0.2.0 cycle) 2026-07-15.
+  Hieromartyr Vladimir (Bogoyavlensky), the first bishop-martyr of the revolution (Kyiv, 1918),
+  glorified 1992. Cross-jurisdiction career: Georgia exarchate 1892-1898 (backlogged), Moscow
+  1898-1912, St Petersburg, Kyiv.'
+veneration:
+  status: saint
+  titles:
+  - Hieromartyr
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 01-25
+    calendar: julian
+    note: Hieromartyr Vladimir, Metropolitan of Kiev
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/01/25
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/01/25
+    note: Year-wildcard archive redirect - pin during verification.

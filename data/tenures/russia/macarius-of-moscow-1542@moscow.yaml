@@ -1,0 +1,23 @@
+id: tenure/russia/macarius-of-moscow-1542@moscow
+person: person/russia/macarius-of-moscow-1542
+see: see/russia/moscow
+from:
+  value: '1542'
+  calendar: julian
+  precision: year
+to:
+  value: '1563'
+  calendar: julian
+  precision: year
+end_reason: died
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Macarius (1542-1563) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation)
+    — confirm against Stroev and the official records during verification
+status: unverified
+notes: Created from the standard chronology (Moscow metropolitans batch, v0.2.0 cycle) 2026-07-15.
+  Metropolitan of Moscow and all Rus' — the primatial line between the 1448 autocephaly and
+  the 1589 patriarchate. The Stoglav council (1551), the Great Menaion, and Ivan IV's coronation
+  (1547) fall in this tenure; glorified 1988.

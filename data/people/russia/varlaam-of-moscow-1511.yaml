@@ -1,0 +1,12 @@
+id: person/russia/varlaam-of-moscow-1511
+names:
+  monastic: Varlaam
+attestation: attested
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Varlaam (1511-1521) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation)
+    — confirm against Stroev and the official records during verification
+status: unverified
+notes: Created from the standard chronology (Moscow metropolitans batch, v0.2.0 cycle) 2026-07-15.

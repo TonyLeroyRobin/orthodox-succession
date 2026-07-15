@@ -1,0 +1,25 @@
+id: tenure/russia/innocent-veniaminov-1840@moscow
+person: person/oca/innocent-veniaminov-1840
+see: see/russia/moscow
+from:
+  value: '1868'
+  calendar: julian
+  precision: year
+to:
+  value: '1879'
+  calendar: julian
+  precision: year
+end_reason: died
+sources:
+- ref: source/stroev-spiski
+  locator: s.v. Innocent (1868-1879) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation)
+    — confirm against Stroev and the official records during verification
+status: unverified
+notes: 'Created from the standard chronology (Moscow metropolitans batch, v0.2.0 cycle) 2026-07-15.
+  Diocesan metropolitan of Moscow during the Synodal period — NOT a primatial tenure: the
+  church was governed by the Most Holy Synod (see event/context/synodal-period-1721); the
+  patriarchal throne stayed vacant 1721-1917. St Innocent, Equal-to-the-Apostles: translated
+  from the American see (his tenure on see/oca/washington, whose record noted this Moscow
+  term as backlogged — now resolved); the veneration block lives on the linked person record.'
