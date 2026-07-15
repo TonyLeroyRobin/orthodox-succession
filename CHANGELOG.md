@@ -7,7 +7,7 @@ version heading at tag time.
 
 ## [Unreleased]
 
-*(nothing yet)*
+- docs: v0.4.0 citation and DOI (10.5281/zenodo.21383863) in the README
 
 ## [0.4.0] — 2026-07-15 (anchors, martyrs, and the literary layer)
 

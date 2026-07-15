@@ -121,8 +121,8 @@ with a DOI. **IDs are permanent from v0.1.0 onward.**
 To cite the dataset (the concept DOI `10.5281/zenodo.21382721` always
 resolves to the latest version; the DOI below is version-specific):
 
-> Robinson, L. (2026). *Orthodox Apostolic Succession Database* (v0.3.0)
-> [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21383603
+> Robinson, L. (2026). *Orthodox Apostolic Succession Database* (v0.4.0)
+> [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21383863
 
 ## Contributing
 
