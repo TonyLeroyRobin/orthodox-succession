@@ -1,0 +1,26 @@
+id: event/context/bulla-cypria-1260
+type: context
+title: Bulla Cypria abolishes the Orthodox archbishopric of Cyprus
+date:
+  from:
+    value: '1260'
+    calendar: julian
+    precision: year
+  to:
+    value: '1571'
+    calendar: julian
+    precision: year
+    note: Orthodox archbishopric restored after the Ottoman conquest of Cyprus
+scope: jurisdiction:jurisdiction/church-of-cyprus
+description: Pope Alexander IV's Bulla Cypria (1260) abolished the Orthodox archbishopric
+  of Cyprus under Latin rule, leaving four Orthodox bishops under Latin obedience until the
+  archbishopric was restored after the Ottoman conquest of 1571.
+affected:
+- jurisdiction/church-of-cyprus
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Bulla Cypria
+  archived_url: https://web.archive.org/web/2026/https://en.wikipedia.org/wiki/Bulla_Cypria
+status: unverified
+notes: ''

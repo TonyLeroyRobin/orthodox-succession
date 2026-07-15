@@ -1,0 +1,19 @@
+id: person/cyprus/ioannikios-1840
+names:
+  monastic: Ioannikios
+  variants:
+  - Ioannikos
+attestation: attested
+sources:
+- ref: source/le-quien-oriens-christianus-v2
+  locator: vol. 2, Cyprus section, s.v. Ioannikios (1840-1849) — columns to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the official churchofcyprus.org.cy site blocks automated access — documented in the source
+    record) — confirm against the official list, Le Quien v2, and Fedalto during verification
+- ref: source/church-of-cyprus-official-list
+  reliability: official-list
+  note: official diadochal claims; the site blocks automated fetch — pin the succession page
+    during verification
+status: unverified
+notes: Created from the standard chronology (Cyprus line batch, v0.2.0 cycle) 2026-07-15.

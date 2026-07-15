@@ -1,58 +1,58 @@
 id: see/cyprus/salamis-constantia
-name: "Salamis (Constantia)"
+name: Salamis (Constantia)
 jurisdiction_history:
-  - jurisdiction: jurisdiction/church-of-cyprus
-    from:
-      value: "0431"
-      calendar: julian
-      precision: year
-      note: >-
-        From the confirmation of Cypriot autocephaly at Ephesus. Before 431
-        Antioch claimed jurisdiction over Cyprus; the claim was rejected by
-        the council and is recorded here rather than modeled as a tenure of
-        jurisdiction.
+- jurisdiction: jurisdiction/church-of-cyprus
+  from:
+    value: '0431'
+    calendar: julian
+    precision: year
+    note: From the confirmation of Cypriot autocephaly at Ephesus. Before 431 Antioch claimed
+      jurisdiction over Cyprus; the claim was rejected by the council and is recorded here
+      rather than modeled as a tenure of jurisdiction.
 rank_history:
-  - rank: metropolis
-    from:
-      value: "0431"
-      calendar: julian
-      precision: circa
-      note: "attested as the metropolitan see of the island by the fifth century"
-founded:
-  date:
-    value: "0045"
+- rank: metropolis
+  from:
+    value: '0431'
     calendar: julian
     precision: circa
-    note: >-
-      Apostolic-era origin by tradition; the date is the approximate time of
-      the mission of Barnabas and Paul (Acts 13).
+    note: attested as the metropolitan see of the island by the fifth century
+founded:
+  date:
+    value: '0045'
+    calendar: julian
+    precision: circa
+    note: Apostolic-era origin by tradition; the date is the approximate time of the mission
+      of Barnabas and Paul (Acts 13).
 location:
   lat: 35.1833
   lon: 33.9
-  modern_place: "ruins of Salamis, near Famagusta (Ammochostos), Cyprus"
+  modern_place: ruins of Salamis, near Famagusta (Ammochostos), Cyprus
 apostolic_founder:
   person: person/cyprus/barnabas-0045
   sources:
-    - ref: source/acts-of-the-apostles
-      locator: "Acts 13:1-12"
-      reliability: primary
-      note: >-
-        Primary for the mission presence of Barnabas in Cyprus; his status as
-        founder-bishop of Salamis is later tradition.
-    - ref: source/eusebius-ecclesiastical-history
-      locator: "HE 2.3 (Barnabas among the Seventy)"
-      reliability: tradition
+  - ref: source/acts-of-the-apostles
+    locator: Acts 13:1-12
+    reliability: primary
+    note: Primary for the mission presence of Barnabas in Cyprus; his status as founder-bishop
+      of Salamis is later tradition.
+  - ref: source/eusebius-ecclesiastical-history
+    locator: HE 2.3 (Barnabas among the Seventy)
+    reliability: tradition
 sources:
-  - ref: source/le-quien-oriens-christianus-v2
-    locator: "vol. 2, s.v. Salamis/Constantia (columns to be confirmed)"
-    reliability: scholarly
-  - ref: source/fedalto-hierarchia-ecclesiastica-orientalis
-    reliability: scholarly
+- ref: source/le-quien-oriens-christianus-v2
+  locator: vol. 2, s.v. Salamis/Constantia (columns to be confirmed)
+  reliability: scholarly
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  reliability: scholarly
 status: verified
-notes: >-
-  Rebuilt as Constantia in the fourth century; styled Nea Justiniana after
-  the temporary resettlement of the Cypriots under Justinian II (c. 691).
-  The archiepiscopal line continued through the medieval upheavals and its
-  seat settled at Nicosia; see see/cyprus/nicosia. The founded date is a
-  tradition-grade approximation; no founded_from is recorded (apostolic
-  foundation claim, no mother see).
+notes: 'Rebuilt as Constantia in the fourth century; styled Nea Justiniana after the temporary
+  resettlement of the Cypriots under Justinian II (c. 691). The archiepiscopal line continued
+  through the medieval upheavals and its seat settled at Nicosia; see see/cyprus/nicosia.
+  The founded date is a tradition-grade approximation; no founded_from is recorded (apostolic
+  foundation claim, no mother see). Cyprus line batch (v0.2.0 cycle, 2026-07-15): the ancient
+  archiepiscopal line is now carried on this see record from Gelasios I (attested 325, Nicaea)
+  through Sophronios II (attested 1191) - 27 tenures added around the existing verified anchors
+  (Epiphanios, Rheginos, untouched); the line continues on see/cyprus/nicosia from Isaias
+  (1209). Occupancy gaps here are attestation sparsity (the chronology is attestation-only
+  for most of the first millennium); the to-present tail flag is an artifact of the seat settlement
+  at Nicosia, not a suppression.'
