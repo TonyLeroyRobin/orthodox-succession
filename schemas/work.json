@@ -22,6 +22,16 @@
     "genre": {
       "enum": ["homily", "letter", "treatise", "canon", "encyclical", "liturgical", "hagiography", "biography", "acts", "study", "poetry"]
     },
+    "survival": {
+      "enum": ["extant", "fragmentary", "lost", "extant-in-translation-only"],
+      "description": "P4: absence means not-yet-assessed; set extant only when actually verified as such. Lost and fragmentary works are first-class records — absence is information."
+    },
+    "survival_note": { "type": "string", "description": "e.g. 'complete only in Latin; Greek fragments'" },
+    "preserved_in": {
+      "type": "array",
+      "items": { "$ref": "defs.json#/$defs/workId" },
+      "description": "P4: for fragmentary/lost works surviving as quotations within other works (validate.py: only on fragmentary/lost; referenced works must exist)."
+    },
     "editions": {
       "type": "array",
       "items": {
@@ -34,6 +44,7 @@
           "year": { "type": "integer" },
           "locator": { "type": "string", "description": "e.g. \"PG 48:623–692\"" },
           "url": { "type": "string" },
+          "archived_url": { "type": "string", "description": "P4: mandatory when url is present — the same archive rule as sources (validate.py, error level)" },
           "rights": { "enum": ["public-domain", "in-copyright"] },
           "notes": { "type": "string" }
         },

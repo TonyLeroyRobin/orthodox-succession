@@ -17,6 +17,7 @@ editions:
   locator: PG 75
   url: https://patristica.net/graeca/
   rights: public-domain
+  archived_url: http://web.archive.org/web/20260702072122/https://patristica.net/graeca/
 - type: translation
   language: English
   translator: John A. McGuckin
@@ -32,3 +33,6 @@ sources:
   locator: PG 75
 notes: Created in Milestone D (works backfill) 2026-07-15.
 status: unverified
+survival: extant
+survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit
+  2026-07-15

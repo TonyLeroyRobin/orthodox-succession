@@ -207,7 +207,11 @@ series?, url?, archived_url?, worldcat?, notes`
 `id, title, author: person-id, subject_of[person-id]?  # for works ABOUT a bishop,
 relation (by | about | involving), language, date{}, attribution (authentic |
 disputed | spurious), cpg?, genre (homily | letter | treatise | canon | encyclical |
-liturgical | hagiography | biography | acts | study | poetry), editions[{type: original |
+liturgical | hagiography | biography | acts | study | poetry),
+survival (extant | fragmentary | lost | extant-in-translation-only)?,
+survival_note?, preserved_in[work-id]?  # per P4: preserved_in only on
+fragmentary/lost; absence of survival = not yet assessed,
+editions[{type: original |
 translation, language, translator?, series?, year?, locator?  # e.g. "PG 48:623–692",
 url?, rights: public-domain | in-copyright}], sources[], status`
 

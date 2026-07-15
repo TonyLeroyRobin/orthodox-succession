@@ -1,39 +1,42 @@
 id: work/panarion
-title: "Panarion (Adversus Haereses)"
+title: Panarion (Adversus Haereses)
 author: person/cyprus/epiphanios-of-salamis-0367
 relation: by
-language: "Ancient Greek"
+language: Ancient Greek
 date:
-  value: "0375"
+  value: '0375'
   calendar: julian
   precision: circa
-  note: "composed c. 374-377"
+  note: composed c. 374-377
 attribution: authentic
-cpg: "CPG 3745"
+cpg: CPG 3745
 genre: treatise
 editions:
-  - type: original
-    language: "Ancient Greek"
-    series: "Patrologia Graeca"
-    locator: "PG 41:173-1200; PG 42:9-832"
-    url: "https://patristica.net/graeca/"
-    rights: public-domain
-    notes: "Migne text; the modern critical edition is Holl (GCS)."
-  - type: translation
-    language: "English"
-    translator: "Frank Williams"
-    series: "Nag Hammadi and Manichaean Studies (Brill)"
-    year: 2009
-    rights: in-copyright
-    notes: "The Panarion of Epiphanius of Salamis, 2 vols., rev. ed."
+- type: original
+  language: Ancient Greek
+  series: Patrologia Graeca
+  locator: PG 41:173-1200; PG 42:9-832
+  url: https://patristica.net/graeca/
+  rights: public-domain
+  notes: Migne text; the modern critical edition is Holl (GCS).
+  archived_url: http://web.archive.org/web/20260702072122/https://patristica.net/graeca/
+- type: translation
+  language: English
+  translator: Frank Williams
+  series: Nag Hammadi and Manichaean Studies (Brill)
+  year: 2009
+  rights: in-copyright
+  notes: The Panarion of Epiphanius of Salamis, 2 vols., rev. ed.
 sources:
-  - ref: source/clavis-patrum-graecorum
-    locator: "CPG 3745"
-    reliability: scholarly
-  - ref: source/migne-patrologia-graeca
-    locator: "PG 41-42"
-    reliability: scholarly
+- ref: source/clavis-patrum-graecorum
+  locator: CPG 3745
+  reliability: scholarly
+- ref: source/migne-patrologia-graeca
+  locator: PG 41-42
+  reliability: scholarly
 status: verified
-notes: >-
-  A refutation of eighty heresies — the fullest heresiological catalogue of
-  the fourth century.
+notes: A refutation of eighty heresies — the fullest heresiological catalogue of the fourth
+  century.
+survival: extant
+survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit
+  2026-07-15

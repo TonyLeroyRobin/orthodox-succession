@@ -15,16 +15,20 @@ editions:
   series: Patrologia Latina
   locator: PL 77
   rights: public-domain
-  notes: public-domain scans; link a scan during verification
+  notes: public-domain scans; link a scan during verification Archive snapshot pending (SPN
+    requested 2026-07-15) - year-wildcard meanwhile.
   url: https://patristica.net/latina/
+  archived_url: https://web.archive.org/web/2026/https://patristica.net/latina/
 - type: translation
   language: English
   series: ed. Edmund G. Gardner (1911)
   year: 1911
   rights: public-domain
   notes: public-domain translation — link a scan during verification index/search link only
-    - pin the exact scan during verification.
+    - pin the exact scan during verification. Archive snapshot pending (SPN requested 2026-07-15)
+    - year-wildcard meanwhile.
   url: https://archive.org/search?query=%22dialogues%22+gregory+gardner+1911
+  archived_url: https://web.archive.org/web/2026/https://archive.org/search?query=%22dialogues%22+gregory+gardner+1911
 sources:
 - ref: source/migne-patrologia-latina
   reliability: scholarly
@@ -32,3 +36,6 @@ sources:
 notes: Created in Milestone D (works backfill) 2026-07-15. Book II is the Life of St Benedict;
   the source of the byname the Dialogist. Latin father — no CPG.
 status: unverified
+survival: extant
+survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit
+  2026-07-15

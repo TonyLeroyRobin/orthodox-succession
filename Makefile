@@ -7,6 +7,9 @@ build: validate db export gaps site
 site:
 	$(PY) scripts/build_site.py
 
+check-links:
+	$(PY) scripts/check_links.py
+
 gaps:
 	$(PY) scripts/gap_report.py
 

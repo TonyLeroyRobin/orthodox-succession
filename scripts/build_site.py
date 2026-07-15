@@ -367,13 +367,18 @@ def main():
                             f"{esc(ed.get('language'))} · "
                             f"{esc(ed.get('series', ''))} "
                             f"({esc(ed.get('rights'))}){rd}</div>")
+                surv = w.get("survival")
+                sline = (f" · survival: {esc(surv)}"
+                         + (f" ({esc(w['survival_note'])})"
+                            if w.get("survival_note") else "")
+                         if surv else "")
                 wrows += (f"<h3 id=\"{esc(w['id'].split('/', 1)[1])}\">"
                           f"{esc(w.get('title'))} {badge(w.get('status'))}</h3>"
                           f"<p class=note>{esc(w.get('relation'))} this person "
                           f"· {esc(w.get('genre'))} · attribution: "
                           f"{esc(w.get('attribution'))}"
                           + (f" · {esc(w['cpg'])}" if w.get("cpg") else "")
-                          + f" · {esc(fmt_date(w.get('date')))}</p>{eds}")
+                          + f" · {esc(fmt_date(w.get('date')))}{sline}</p>{eds}")
             works_html = f"<div class=panel><h2>Works</h2>{wrows}</div>"
 
         jsonld = {
@@ -555,6 +560,7 @@ def main():
         f'<td>{plink(w["author"]) if w.get("author") else esc(w.get("author_display", "—"))}</td>'
         f'<td>{esc(w.get("genre"))}</td>'
         f'<td>{esc(w.get("attribution"))}</td>'
+        f'<td>{esc(w.get("survival", "not assessed"))}</td>'
         f'<td>{esc(fmt_date(w.get("date")))}</td>'
         f'<td>{badge(w.get("status"))}</td></tr>'
         for w in sorted(works, key=lambda w: w.get("title", "")))
@@ -566,7 +572,7 @@ def main():
                  f"and read-links live on the author pages meanwhile.</p>"
                  f"<div class=panel><table><thead><tr><th>Title</th>"
                  f"<th>Author</th><th>Genre</th><th>Attribution</th>"
-                 f"<th>Date</th><th>Status</th></tr></thead>"
+                 f"<th>Survival</th><th>Date</th><th>Status</th></tr></thead>"
                  f"<tbody>{lib_rows}</tbody></table></div>",
                  "https://tonyleroyrobin.github.io/orthodox-succession/library/",
                  active="Library"))

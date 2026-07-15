@@ -1,26 +1,28 @@
 id: work/encountering-the-mystery
-title: "Encountering the Mystery: Understanding Orthodox Christianity Today"
+title: 'Encountering the Mystery: Understanding Orthodox Christianity Today'
 author: person/constantinople/bartholomew-i-of-constantinople-1991
 relation: by
 language: English
 date:
-  value: "2008"
+  value: '2008'
   calendar: gregorian
   precision: year
 attribution: authentic
 genre: study
 editions:
-  - type: original
-    language: English
-    series: "Doubleday"
-    year: 2008
-    rights: in-copyright
+- type: original
+  language: English
+  series: Doubleday
+  year: 2008
+  rights: in-copyright
 sources:
-  - ref: source/ecumenical-patriarchate-official
-    reliability: official-list
-    note: "bibliographic details to be confirmed"
+- ref: source/ecumenical-patriarchate-official
+  reliability: official-list
+  note: bibliographic details to be confirmed
 status: unverified
-notes: >-
-  A modern work by a sitting hierarch — included to exercise the
-  writings-survive layer for living authors; the patristic corpus enters
-  via the works of Epiphanios, Gregory, Cyril, Photius, and Palamas.
+notes: A modern work by a sitting hierarch — included to exercise the writings-survive layer
+  for living authors; the patristic corpus enters via the works of Epiphanios, Gregory, Cyril,
+  Photius, and Palamas.
+survival: extant
+survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit
+  2026-07-15

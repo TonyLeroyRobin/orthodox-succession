@@ -16,7 +16,9 @@ editions:
   year: 1879
   rights: public-domain
   url: https://archive.org/search?query=lampros+michael+akominatos
-  notes: index/search link only - pin the exact scan during verification.
+  notes: index/search link only - pin the exact scan during verification. Archive snapshot
+    pending (SPN requested 2026-07-15) - year-wildcard meanwhile.
+  archived_url: https://web.archive.org/web/2026/https://archive.org/search?query=lampros+michael+akominatos
 sources:
 - ref: source/wikipedia
   reliability: database
@@ -25,3 +27,6 @@ status: unverified
 notes: 'Created 2026-07-15 upon the maintainer decision adding the poetry genre (the first
   record to use it): the famous elegy on the decayed ancient city, written from his metropolitanate
   before the Frankish conquest.'
+survival: extant
+survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit
+  2026-07-15

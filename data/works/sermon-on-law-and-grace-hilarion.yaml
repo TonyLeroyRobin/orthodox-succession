@@ -15,8 +15,9 @@ editions:
   series: critical editions from the 19th c.
   rights: public-domain
   notes: link a scan during verification index/search link only - pin the exact scan during
-    verification.
+    verification. Archive snapshot pending (SPN requested 2026-07-15) - year-wildcard meanwhile.
   url: https://archive.org/search?query=hilarion+slovo+zakone+blagodati
+  archived_url: https://web.archive.org/web/2026/https://archive.org/search?query=hilarion+slovo+zakone+blagodati
 sources:
 - ref: source/wikipedia
   reliability: database
@@ -24,3 +25,6 @@ sources:
 notes: Created in the second works pass 2026-07-15. The oldest original monument of East Slavic
   literature, by the first native metropolitan of Kyiv.
 status: unverified
+survival: extant
+survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit
+  2026-07-15

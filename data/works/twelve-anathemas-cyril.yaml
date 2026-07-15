@@ -17,6 +17,7 @@ editions:
   locator: PG 77 (Ep. 17, ad Nestorium III) — columns to be confirmed
   url: https://patristica.net/graeca/
   rights: public-domain
+  archived_url: http://web.archive.org/web/20260702072122/https://patristica.net/graeca/
 - type: translation
   language: English
   translator: Henry R. Percival
@@ -24,6 +25,7 @@ editions:
   year: 1900
   url: https://www.ccel.org/ccel/schaff/npnf214.html
   rights: public-domain
+  archived_url: http://web.archive.org/web/20260627033519/https://ccel.org/ccel/schaff/npnf214.html
 sources:
 - ref: source/clavis-patrum-graecorum
   reliability: scholarly
@@ -36,3 +38,5 @@ notes: 'Created in Milestone D (works backfill) 2026-07-15. relation: involving 
   §4 — conciliar material: appended to the third letter to Nestorius and received into the
   acts of Ephesus (see event/council/ephesus-0431 and participation/ephesus-0431--cyril-i-of-alexandria-0412).'
 status: unverified
+survival: extant
+survival_note: extant within the third letter to Nestorius and the conciliar acts

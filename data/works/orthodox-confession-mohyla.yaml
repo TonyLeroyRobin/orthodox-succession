@@ -17,8 +17,9 @@ editions:
   series: the 1642 Iași revision (ed. Meletios Syrigos)
   rights: public-domain
   notes: link a scan during verification index/search link only - pin the exact scan during
-    verification.
+    verification. Archive snapshot pending (SPN requested 2026-07-15) - year-wildcard meanwhile.
   url: https://archive.org/search?query=orthodox+confession+mogila+syrigos
+  archived_url: https://web.archive.org/web/2026/https://archive.org/search?query=orthodox+confession+mogila+syrigos
 sources:
 - ref: source/wikipedia
   reliability: database
@@ -27,3 +28,6 @@ notes: Created in the second works pass 2026-07-15. Authentic as Mohyla's, with 
   1642 Syrigos revision noted — the received text is the synodally approved one; a conciliar
   cross-reference candidate if the Iași synod is ever modeled.
 status: unverified
+survival: extant
+survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit
+  2026-07-15

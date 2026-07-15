@@ -16,8 +16,9 @@ editions:
   year: 1673
   rights: public-domain
   notes: link a scan during verification index/search link only - pin the exact scan during
-    verification.
+    verification. Archive snapshot pending (SPN requested 2026-07-15) - year-wildcard meanwhile.
   url: https://archive.org/search?query=psaltirea+versuri+dosoftei
+  archived_url: https://web.archive.org/web/2026/https://archive.org/search?query=psaltirea+versuri+dosoftei
 sources:
 - ref: source/pacurariu-istoria-bor
   reliability: scholarly
@@ -27,3 +28,6 @@ notes: Created in the second works pass 2026-07-15. The first great verse monume
   the BACKLOG schema question. Re-genred liturgical -> poetry 2026-07-15 upon the maintainer
   decision adding the value (the record that motivated it, with the Choniates lament).
 status: unverified
+survival: extant
+survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit
+  2026-07-15

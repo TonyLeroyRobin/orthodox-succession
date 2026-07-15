@@ -16,6 +16,7 @@ editions:
   locator: PG 123-126
   url: https://patristica.net/graeca/
   rights: public-domain
+  archived_url: http://web.archive.org/web/20260702072122/https://patristica.net/graeca/
 - type: translation
   language: English
   series: Chrysostom Press (House Springs)
@@ -27,3 +28,6 @@ sources:
 notes: Created in the second works pass 2026-07-15. The exegetical staple of the Byzantine
   and Slavic worlds. Post-patristic, no CPG.
 status: unverified
+survival: extant
+survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit
+  2026-07-15

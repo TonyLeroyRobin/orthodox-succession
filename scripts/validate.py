@@ -502,8 +502,49 @@ def main():
                     "it must remain unverified or be flagged disputed",
                 )
 
-    # ---- rule 7: work hygiene (warn) ----------------------------------------
+    # ---- P4: works survival / preserved_in / edition archives / hosts ------
     works = [r for r in records if r["kind"] == "work"]
+    REPO_HOSTS = set()
+    repos_doc = REPO_ROOT / "docs" / "REPOSITORIES.md"
+    if repos_doc.exists():
+        for m in re.finditer(r"host:\s*`([^`]+)`", repos_doc.read_text(encoding="utf-8")):
+            REPO_HOSTS.add(m.group(1).lower())
+    work_ids = {w["data"].get("id") for w in works}
+    for w in works:
+        d, path = w["data"], w["path"]
+        if d.get("preserved_in"):
+            if d.get("survival") not in ("fragmentary", "lost"):
+                rep.error(path, "preserved_in is only for fragmentary/lost "
+                                "works (P4)")
+            for ref in d["preserved_in"]:
+                if ref not in work_ids:
+                    rep.error(path, f"preserved_in references missing work "
+                                    f"{ref!r}")
+        for idx, ed in enumerate(d.get("editions") or []):
+            if ed.get("url") and not ed.get("archived_url"):
+                rep.error(path, f"edition #{idx + 1} has a url but no "
+                                "archived_url — editions get the same "
+                                "archive rule as sources (P4)")
+            if ed.get("url") and REPO_HOSTS:
+                host = re.sub(r"^https?://(www\.)?", "",
+                              ed["url"]).split("/")[0].lower()
+                if host and host not in REPO_HOSTS:
+                    rep.warn(path, f"edition #{idx + 1} url host {host!r} is "
+                                   "not on the controlled repositories list "
+                                   "(docs/REPOSITORIES.md) — extending the "
+                                   "list requires maintainer approval")
+
+    # ---- P4: influenced relationships need scholarly sourcing --------------
+    for rel in (r for r in records if r["kind"] == "relationship"):
+        d, path = rel["data"], rel["path"]
+        if d.get("type") == "influenced":
+            if not any(c.get("reliability") == "scholarly"
+                       for c in d.get("sources") or []):
+                rep.error(path, "relationship type 'influenced' requires at "
+                                "least one scholarly-grade source — never "
+                                "inferred (P4)")
+
+    # ---- rule 7: work hygiene (warn) ----------------------------------------
     def norm_title(t):
         return re.sub(r"[^a-z0-9 ]", "", (t or "").lower()).strip()
     by_author = defaultdict(list)

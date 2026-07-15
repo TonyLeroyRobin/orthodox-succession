@@ -56,6 +56,12 @@ Read it before making structural changes. These rules bind every session.
   Work (author/subject_of), a Participation, a Relationship, or an
   apostolic-founder/tradition citation (validate.py enforces, error level). No
   general clergy coverage.
+- **Works survival (P4):** `survival` absent = not yet assessed; `extant` only
+  when actually verified. `preserved_in` only on fragmentary/lost works. Edition
+  URLs require `archived_url` (error) and must use hosts on
+  `docs/REPOSITORIES.md` (warn; extending the list needs maintainer approval).
+  LINK, NEVER RE-HOST. `influenced` relationships require a scholarly source
+  (error) and are never inferred.
 
 ## Source hierarchy
 

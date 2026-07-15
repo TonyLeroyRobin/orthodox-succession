@@ -15,8 +15,10 @@ editions:
   series: Patrologia Latina
   locator: PL 54 — columns to be confirmed
   rights: public-domain
-  notes: public-domain scans; link a scan during verification
+  notes: public-domain scans; link a scan during verification Archive snapshot pending (SPN
+    requested 2026-07-15) - year-wildcard meanwhile.
   url: https://patristica.net/latina/
+  archived_url: https://web.archive.org/web/2026/https://patristica.net/latina/
 - type: translation
   language: English
   translator: Charles Lett Feltoe
@@ -24,6 +26,8 @@ editions:
   year: 1895
   url: https://www.ccel.org/ccel/schaff/npnf212.html
   rights: public-domain
+  archived_url: https://web.archive.org/web/2026/https://www.ccel.org/ccel/schaff/npnf212.html
+  notes: Archive snapshot pending (SPN requested 2026-07-15) - year-wildcard meanwhile.
 sources:
 - ref: source/migne-patrologia-latina
   reliability: scholarly
@@ -35,3 +39,6 @@ notes: 'Created in Milestone D (works backfill) 2026-07-15. relation: by; ALSO c
   (involving) per DATA_COMPLETION §4 — read and acclaimed at Chalcedon (see event/council/chalcedon-0451).
   Latin father: CPL 1656 (to be confirmed) rather than CPG.'
 status: unverified
+survival: extant
+survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit
+  2026-07-15

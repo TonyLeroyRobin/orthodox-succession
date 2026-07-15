@@ -12,8 +12,7 @@ genre: treatise
 editions:
 - type: original
   language: Ancient Greek
-  series: Defense des saints hesychastes, ed. J. Meyendorff (Spicilegium Sacrum
-    Lovaniense)
+  series: Defense des saints hesychastes, ed. J. Meyendorff (Spicilegium Sacrum Lovaniense)
   year: 1959
   rights: in-copyright
 - type: translation
@@ -27,5 +26,8 @@ sources:
   reliability: official-list
   note: attribution uncontested; add a scholarly citation during verification
 status: unverified
-notes: Defense of hesychast prayer vindicated by the councils of 1341-1351 (see
-  event/council/constantinople-1341). Post-patristic, so no CPG number.
+notes: Defense of hesychast prayer vindicated by the councils of 1341-1351 (see event/council/constantinople-1341).
+  Post-patristic, so no CPG number.
+survival: extant
+survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit
+  2026-07-15

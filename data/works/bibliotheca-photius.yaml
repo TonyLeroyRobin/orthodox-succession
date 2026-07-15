@@ -17,6 +17,7 @@ editions:
   locator: PG 103-104
   url: https://patristica.net/graeca/
   rights: public-domain
+  archived_url: http://web.archive.org/web/20260702072122/https://patristica.net/graeca/
 - type: translation
   language: English
   translator: N. G. Wilson (selection)
@@ -28,5 +29,8 @@ sources:
   reliability: scholarly
   locator: PG 103-104
 status: verified
-notes: Reviews of 279 books, many otherwise lost — the greatest literary catalogue
-  of Byzantium. Post-patristic, so no CPG number.
+notes: Reviews of 279 books, many otherwise lost — the greatest literary catalogue of Byzantium.
+  Post-patristic, so no CPG number.
+survival: extant
+survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit
+  2026-07-15

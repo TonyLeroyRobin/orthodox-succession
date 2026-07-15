@@ -1,37 +1,40 @@
 id: work/ancoratus
-title: "Ancoratus"
+title: Ancoratus
 author: person/cyprus/epiphanios-of-salamis-0367
 relation: by
-language: "Ancient Greek"
+language: Ancient Greek
 date:
-  value: "0374"
+  value: '0374'
   calendar: julian
   precision: year
 attribution: authentic
-cpg: "CPG 3744"
+cpg: CPG 3744
 genre: treatise
 editions:
-  - type: original
-    language: "Ancient Greek"
-    series: "Patrologia Graeca"
-    locator: "PG 43:17-236 (column range to be confirmed)"
-    url: "https://patristica.net/graeca/"
-    rights: public-domain
-    notes: "Migne text; the modern critical edition is Holl (GCS)."
-  - type: translation
-    language: "English"
-    translator: "Young Richard Kim"
-    series: "Fathers of the Church (CUA Press), vol. 128"
-    year: 2014
-    rights: in-copyright
+- type: original
+  language: Ancient Greek
+  series: Patrologia Graeca
+  locator: PG 43:17-236 (column range to be confirmed)
+  url: https://patristica.net/graeca/
+  rights: public-domain
+  notes: Migne text; the modern critical edition is Holl (GCS).
+  archived_url: http://web.archive.org/web/20260702072122/https://patristica.net/graeca/
+- type: translation
+  language: English
+  translator: Young Richard Kim
+  series: Fathers of the Church (CUA Press), vol. 128
+  year: 2014
+  rights: in-copyright
 sources:
-  - ref: source/clavis-patrum-graecorum
-    locator: "CPG 3744"
-    reliability: scholarly
-  - ref: source/migne-patrologia-graeca
-    locator: "PG 43"
-    reliability: scholarly
+- ref: source/clavis-patrum-graecorum
+  locator: CPG 3744
+  reliability: scholarly
+- ref: source/migne-patrologia-graeca
+  locator: PG 43
+  reliability: scholarly
 status: verified
-notes: >-
-  "The Well-Anchored" — a compendium of Trinitarian doctrine written shortly
-  before the Panarion.
+notes: '"The Well-Anchored" — a compendium of Trinitarian doctrine written shortly before
+  the Panarion.'
+survival: extant
+survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit
+  2026-07-15

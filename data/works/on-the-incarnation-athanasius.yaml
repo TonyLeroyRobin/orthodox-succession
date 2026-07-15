@@ -18,6 +18,7 @@ editions:
   locator: PG 25
   url: https://patristica.net/graeca/
   rights: public-domain
+  archived_url: http://web.archive.org/web/20260702072122/https://patristica.net/graeca/
 - type: translation
   language: English
   translator: Archibald Robertson
@@ -25,6 +26,8 @@ editions:
   year: 1892
   url: https://www.ccel.org/ccel/schaff/npnf204.html
   rights: public-domain
+  archived_url: https://web.archive.org/web/2026/https://www.ccel.org/ccel/schaff/npnf204.html
+  notes: Archive snapshot pending (SPN requested 2026-07-15) - year-wildcard meanwhile.
 sources:
 - ref: source/clavis-patrum-graecorum
   reliability: scholarly
@@ -34,3 +37,6 @@ sources:
   locator: PG 25
 notes: Created in Milestone D (works backfill) 2026-07-15.
 status: unverified
+survival: extant
+survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit
+  2026-07-15

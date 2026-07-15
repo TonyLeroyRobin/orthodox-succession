@@ -16,8 +16,10 @@ editions:
   series: received Byzantine text (many printings)
   rights: public-domain
   notes: cite a critical edition during verification index/search link only - pin the exact
-    scan during verification.
+    scan during verification. Archive snapshot pending (SPN requested 2026-07-15) - year-wildcard
+    meanwhile.
   url: https://archive.org/search?query=%22divine+liturgy%22+chrysostom+greek
+  archived_url: https://web.archive.org/web/2026/https://archive.org/search?query=%22divine+liturgy%22+chrysostom+greek
 sources:
 - ref: source/migne-patrologia-graeca
   reliability: scholarly
@@ -26,3 +28,6 @@ notes: 'Created in Milestone D (works backfill) 2026-07-15. Attribution DISPUTED
   §4: the liturgy bears his name from the 8th century; the core anaphora may go back to him,
   the received formulary does not — recorded, not adjudicated.'
 status: unverified
+survival: extant
+survival_note: extant as the received Byzantine formulary; the attribution, not the survival,
+  is the disputed element

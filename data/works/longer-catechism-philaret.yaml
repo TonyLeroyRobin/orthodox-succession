@@ -15,18 +15,24 @@ editions:
   year: 1823
   rights: public-domain
   url: https://archive.org/search?query=philaret+catechism+russian
-  notes: index/search link only - pin the exact scan during verification.
+  notes: index/search link only - pin the exact scan during verification. Archive snapshot
+    pending (SPN requested 2026-07-15) - year-wildcard meanwhile.
+  archived_url: https://web.archive.org/web/2026/https://archive.org/search?query=philaret+catechism+russian
 - type: translation
   language: English
   translator: R. W. Blackmore
   year: 1845
   rights: public-domain
   notes: link a scan during verification index/search link only - pin the exact scan during
-    verification.
+    verification. Archive snapshot pending (SPN requested 2026-07-15) - year-wildcard meanwhile.
   url: https://archive.org/search?query=blackmore+doctrine+russian+church
+  archived_url: https://web.archive.org/web/2026/https://archive.org/search?query=blackmore+doctrine+russian+church
 sources:
 - ref: source/wikipedia
   reliability: database
   note: draft citation — replace with a critical-edition citation during verification
 notes: Created in the second works pass 2026-07-15.
 status: unverified
+survival: extant
+survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit
+  2026-07-15
