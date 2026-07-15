@@ -110,10 +110,7 @@ Change history: [`CHANGELOG.md`](CHANGELOG.md).
 
 ## Releases & how to cite
 
-<!-- DOI badge — replace the placeholder once Zenodo mints the concept DOI
-     after the first GitHub release:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
--->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21382721.svg)](https://doi.org/10.5281/zenodo.21382721)
 
 Releases follow semver: **data additions increment the minor version,
 corrections the patch** (ROADMAP_ADDENDUM §B1). Each GitHub release ships the
@@ -121,10 +118,11 @@ repository plus the built artifacts (`build/succession.sqlite`,
 `build/graph.graphml`, `build/site-data/*.json`) and is archived on Zenodo
 with a DOI. **IDs are permanent from v0.1.0 onward.**
 
-To cite the dataset (fill in the DOI after the first release):
+To cite the dataset (the concept DOI `10.5281/zenodo.21382721` always
+resolves to the latest version; the DOI below is version-specific):
 
 > Robinson, L. (2026). *Orthodox Apostolic Succession Database* (v0.1.0)
-> [Data set]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+> [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21382722
 
 ## Contributing
 

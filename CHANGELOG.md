@@ -7,7 +7,7 @@ version heading at tag time.
 
 ## [Unreleased]
 
-*(nothing yet)*
+- docs: Zenodo DOI badge and citation backfilled after the v0.1.0 release (concept DOI 10.5281/zenodo.21382721)
 
 ## [0.1.0] — 2026-07-15 (first public release; ID permanence locks here)
 
