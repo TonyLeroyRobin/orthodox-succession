@@ -19,7 +19,9 @@ notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verif
   Onufriy (Berezovsky) of the Ukrainian Orthodox Church (Moscow Patriarchate), seeded under
   his civil name. His tenure is recorded on the shared Kyiv see because the see-claim itself
   is the recorded dispute (golden rule 6); the parallel UOC jurisdiction structure is not
-  yet modeled — backlogged, a maintainer scope decision.'
+  yet modeled — backlogged, a maintainer scope decision. Maintainer decision 2026-07-15: the
+  UOC jurisdiction is now modeled minimally (jurisdiction/ukrainian-orthodox-church) - this
+  tenures jurisdiction context is no longer backlogged.'
 recognition:
 - by: jurisdiction/church-of-russia
   status: recognized

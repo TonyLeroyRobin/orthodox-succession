@@ -31,8 +31,8 @@ autocephaly:
       precision: year
   - by: jurisdiction/church-of-russia
     status: not-recognized
-    note: Moscow broke communion with Constantinople over the 2018-2019 grant; the
-      dispute is recorded, not adjudicated
+    note: Moscow broke communion with Constantinople over the 2018-2019 grant; the dispute
+      is recorded, not adjudicated
 primatial_see: see/ukraine/kyiv
 sources:
 - ref: source/orthodox-church-of-ukraine-official
@@ -41,8 +41,10 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: The parallel Ukrainian Orthodox Church (Moscow Patriarchate) and the historical
-  Kyiv metropolitanate belong to later milestones; recognition positions of the
-  remaining churches are to be filled in during verification. Structural record
-  authored from general reference knowledge — verify each autocephaly/recognition
-  entry against a graded source before promotion.
+notes: 'The parallel Ukrainian Orthodox Church (Moscow Patriarchate) and the historical Kyiv
+  metropolitanate belong to later milestones; recognition positions of the remaining churches
+  are to be filled in during verification. Structural record authored from general reference
+  knowledge — verify each autocephaly/recognition entry against a graded source before promotion.
+  Maintainer decision 2026-07-15: the parallel UOC (Moscow Patriarchate) is now modeled minimally
+  as jurisdiction/ukrainian-orthodox-church, whose primatial_see points at the same Kyiv see
+  - the structural form of the recorded rivalry.'

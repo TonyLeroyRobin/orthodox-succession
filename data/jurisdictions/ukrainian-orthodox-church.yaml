@@ -1,0 +1,41 @@
+id: jurisdiction/ukrainian-orthodox-church
+name: Ukrainian Orthodox Church (Moscow Patriarchate)
+type: autonomous
+autocephaly:
+- granted_by: jurisdiction/church-of-russia
+  date:
+    value: '1990'
+    calendar: gregorian
+    precision: year
+    note: the 1990 gramota of broad self-governance - an autonomy grant, not an autocephaly;
+      the field records the structural act
+  recognition:
+  - by: jurisdiction/church-of-russia
+    status: recognized
+- granted_by: the Feofaniya council of the UOC
+  date:
+    value: '2022-05-27'
+    calendar: gregorian
+    precision: day
+  recognition:
+  - by: jurisdiction/church-of-russia
+    status: disputed
+    note: the council declared full self-governance and independence amid the 2022 invasion;
+      Moscow treats the 1990 autonomy as continuing and did not recognize a change of status
+      - recorded, not adjudicated
+primatial_see: see/ukraine/kyiv
+sources:
+- ref: source/ukrainian-orthodox-church-official
+  reliability: official-list
+  note: structural claims to be verified against the site
+- ref: source/wikipedia
+  reliability: database
+  note: draft citation - replace during verification
+status: unverified
+notes: 'Modeled minimally per the maintainer decision 2026-07-15: the jurisdiction record
+  only - its primatial_see deliberately points at the SAME see/ukraine/kyiv as jurisdiction/orthodox-church-of-ukraine:
+  the rival claims to Kyiv are thereby modeled structurally, and the two symmetric tenures
+  (Epiphanius, Onufriy) carry the per-recognizer entries - golden rule 6, adjudicated nowhere.
+  The churchs contested legal situation in Ukraine (the 2024 legislation and proceedings)
+  is noted for the context layer during verification, not characterized here. Its eparchial
+  structure and history are out of the minimal scope - backlogged.'
