@@ -1,0 +1,17 @@
+id: tenure/greece/sabbas-i-0881@athens
+person: person/greece/sabbas-i-0881
+see: see/greece/athens
+from:
+  value: 0881
+  calendar: julian
+  precision: circa
+end_reason: unknown
+sources:
+- ref: source/le-quien-oriens-christianus-v2
+  locator: vol. 2, Athens section, s.v. Sabbas I (0881-?) — columns to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction; question
+    marks carried as circa/disputed precision) — confirm against Le Quien (vol. 2, Athens)
+    and Fedalto during verification
+status: unverified
+notes: Created from the standard chronology (Athens pre-1833 batch) 2026-07-15.

@@ -1,0 +1,26 @@
+id: tenure/greece/gregory-iv-of-athens-1827@athens
+person: person/greece/gregory-iv-of-athens-1827
+see: see/greece/athens
+from:
+  value: '1827-09-16'
+  calendar: julian
+  precision: day
+  note: calendar (OS/NS) to be confirmed
+to:
+  value: 1828-03
+  calendar: julian
+  precision: month
+  note: March 1828; calendar (OS/NS) to be confirmed
+end_reason: unknown
+sources:
+- ref: source/le-quien-oriens-christianus-v2
+  locator: vol. 2, Athens section, s.v. Gregory IV (1827-1828) — columns to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction; question
+    marks carried as circa/disputed precision) — confirm against Le Quien (vol. 2, Athens)
+    and Fedalto during verification
+status: unverified
+notes: Created from the standard chronology (Athens pre-1833 batch) 2026-07-15. The first
+  of the two EP-era revolution metropolitans the Greece batch excluded and backlogged — now
+  modeled; the autocephalous Church of Greece begins with Neophytos V (see the existing 1833
+  tenure).

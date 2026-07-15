@@ -1,0 +1,22 @@
+id: tenure/greece/benedict-1781@athens
+person: person/greece/benedict-1781
+see: see/greece/athens
+from:
+  value: '1781'
+  calendar: julian
+  precision: year
+to:
+  value: '1785'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/le-quien-oriens-christianus-v2
+  locator: vol. 2, Athens section, s.v. Benedict (1781-1785) — columns to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction; question
+    marks carried as circa/disputed precision) — confirm against Le Quien (vol. 2, Athens)
+    and Fedalto during verification
+status: unverified
+notes: Created from the standard chronology (Athens pre-1833 batch) 2026-07-15. Two terms
+  per the chronology (1781-1785, 1787-1797?) — the -2 tenure.

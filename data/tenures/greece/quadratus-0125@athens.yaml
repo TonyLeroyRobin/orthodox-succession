@@ -1,0 +1,27 @@
+id: tenure/greece/quadratus-0125@athens
+person: person/greece/quadratus-0125
+see: see/greece/athens
+from:
+  value: '0125'
+  calendar: julian
+  precision: circa
+to:
+  value: 0129
+  calendar: julian
+  precision: circa
+end_reason: unknown
+sources:
+- ref: source/le-quien-oriens-christianus-v2
+  locator: vol. 2, Athens section, s.v. Quadratus (0125-0129) — columns to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction; question
+    marks carried as circa/disputed precision) — confirm against Le Quien (vol. 2, Athens)
+    and Fedalto during verification
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 3.4.10; 4.23.3 (Dionysius of Corinth's letter to the Athenians)
+  reliability: tradition
+  note: the earliest witnesses to the first bishops of Athens — tradition-grade for the episcopal
+    claims
+status: unverified
+notes: Created from the standard chronology (Athens pre-1833 batch) 2026-07-15. The apologist
+  who addressed Hadrian (per Eusebius); the 129-onward interval is marked vacant by the chronology.

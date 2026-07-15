@@ -1,0 +1,20 @@
+id: tenure/greece/john-i-0550@athens
+person: person/greece/john-i-0550
+see: see/greece/athens
+from:
+  value: '0550'
+  calendar: julian
+  precision: disputed
+  note: bounds largely unknown; the end is given as 550, 595 or 640 — witnesses diverge
+end_reason: unknown
+sources:
+- ref: source/le-quien-oriens-christianus-v2
+  locator: vol. 2, Athens section, s.v. John I (0550-?) — columns to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction; question
+    marks carried as circa/disputed precision) — confirm against Le Quien (vol. 2, Athens)
+    and Fedalto during verification
+status: disputed
+notes: Created from the standard chronology (Athens pre-1833 batch) 2026-07-15. The chronology's
+  own witnesses diverge by ninety years — recorded as disputed. The interval to c. 680 is
+  marked vacant.

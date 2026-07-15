@@ -1,0 +1,21 @@
+id: tenure/greece/philip-0975@athens
+person: person/greece/philip-0975
+see: see/greece/athens
+from:
+  value: 0975
+  calendar: julian
+  precision: year
+to:
+  value: 0981
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/le-quien-oriens-christianus-v2
+  locator: vol. 2, Athens section, s.v. Philip (0975-0981) — columns to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction; question
+    marks carried as circa/disputed precision) — confirm against Le Quien (vol. 2, Athens)
+    and Fedalto during verification
+status: unverified
+notes: Created from the standard chronology (Athens pre-1833 batch) 2026-07-15.

@@ -1,0 +1,29 @@
+id: tenure/greece/dionysius-the-areopagite-0052@athens
+person: person/greece/dionysius-the-areopagite-0052
+see: see/greece/athens
+from:
+  value: '0052'
+  calendar: julian
+  precision: circa
+  note: traditional span 52-96
+to:
+  value: 0096
+  calendar: julian
+  precision: circa
+end_reason: unknown
+sources:
+- ref: source/le-quien-oriens-christianus-v2
+  locator: vol. 2, Athens section, s.v. Dionysius I (0052-0096) — columns to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction; question
+    marks carried as circa/disputed precision) — confirm against Le Quien (vol. 2, Athens)
+    and Fedalto during verification
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 3.4.10; 4.23.3 (Dionysius of Corinth's letter to the Athenians)
+  reliability: tradition
+  note: the earliest witnesses to the first bishops of Athens — tradition-grade for the episcopal
+    claims
+status: unverified
+notes: Created from the standard chronology (Athens pre-1833 batch) 2026-07-15. Acts 17:34
+  is primary for his conversion by Paul; the episcopate is the tradition Eusebius reports
+  (HE 3.4.10, 4.23.3). The 96-117 interval is marked vacant by the chronology.

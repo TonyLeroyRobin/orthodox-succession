@@ -10,15 +10,56 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: 'Seat of the Archbishop of Athens and All Greece. Milestone C (2026-07-11)
-  closed the spine of the autocephalous Church of Greece on this see: Neophytos V
-  (1833) to Ieronymos II (incumbent), 24 chronology rows carried as 23 tenures (Chrysostomos
-  I''s split at the 31 December 1923 metropolitan-to-archbishop restyling is carried
-  as one tenure with a note). Out of scope and backlogged: the ancient bishops/metropolitans
-  of Athens (to 1827) and the two EP-era metropolitans of the revolution period (Gregory
-  IV 1827–1828, Anthimus VII 1828–1833). The 20th-century turbulence (the National
-  Schism removals of Theoklitos I and Meletios III, the annulled 1938 election of
-  Damaskinos, the occupation-era removal of Chrysanthos, the junta-era removal of
-  Chrysostomos II) is recorded with end_reason values and notes, not adjudicated.
-  jurisdiction_history, rank_history, and founding data still to be added during
-  verification.'
+notes: 'Seat of the Archbishop of Athens and All Greece. Milestone C (2026-07-11) closed the
+  spine of the autocephalous Church of Greece on this see: Neophytos V (1833) to Ieronymos
+  II (incumbent), 24 chronology rows carried as 23 tenures (Chrysostomos I''s split at the
+  31 December 1923 metropolitan-to-archbishop restyling is carried as one tenure with a note).
+  Out of scope and backlogged: the ancient bishops/metropolitans of Athens (to 1827) and the
+  two EP-era metropolitans of the revolution period (Gregory IV 1827–1828, Anthimus VII 1828–1833).
+  The 20th-century turbulence (the National Schism removals of Theoklitos I and Meletios III,
+  the annulled 1938 election of Damaskinos, the occupation-era removal of Chrysanthos, the
+  junta-era removal of Chrysostomos II) is recorded with end_reason values and notes, not
+  adjudicated. jurisdiction_history, rank_history, and founding data still to be added during
+  verification. Athens pre-1833 batch (2026-07-15): the ancient line is closed on this record
+  - Hierotheos/Dionysius the Areopagite (1st c., tradition-graded) through Anthimus VII (July
+  1833, meeting Neophytos V exactly); 105 tenures added. The Frankish era (1204-1456) is carried
+  by exile/titular metropolitans with event/context/frankish-athens-1204, not a bare gap;
+  the ancient attestation-sparse stretches and the 1823-1827 war vacancy are documented. Both
+  first-bishop reckonings (Eusebius: Dionysius; the liturgical tradition: Hierotheos first)
+  are recorded as apostolic_founders with honest grading - not adjudicated.'
+jurisdiction_history:
+- jurisdiction: jurisdiction/ecumenical-patriarchate
+  from:
+    value: '0733'
+    calendar: julian
+    precision: circa
+    note: the Illyricum transfer to Constantinople under Leo III (c. 733); the earlier structures
+      (under Corinth, and the Roman Illyricum vicariate) to be refined during verification
+  to:
+    value: '1833'
+    calendar: gregorian
+    precision: year
+- jurisdiction: jurisdiction/church-of-greece
+  from:
+    value: '1833'
+    calendar: gregorian
+    precision: year
+    note: self-declared autocephaly; tomos 1850
+apostolic_founders:
+- person: person/greece/dionysius-the-areopagite-0052
+  sources:
+  - ref: source/acts-of-the-apostles
+    locator: Acts 17:34
+    reliability: primary
+    note: primary for his conversion by Paul at the Areopagus; the founder-bishop claim is
+      the tradition Eusebius reports
+  - ref: source/eusebius-ecclesiastical-history
+    locator: HE 3.4.10; 4.23.3
+    reliability: tradition
+- person: person/greece/hierotheos-0052
+  sources:
+  - ref: source/eusebius-ecclesiastical-history
+    reliability: tradition
+    locator: not in Eusebius - the Dionysian corpus and the liturgical tradition; recorded
+      because the diadochal reckoning lists him first
+    note: tradition-grade only; historicity uncertain - recorded, not adjudicated

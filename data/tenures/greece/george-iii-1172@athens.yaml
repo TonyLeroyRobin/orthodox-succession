@@ -1,0 +1,29 @@
+id: tenure/greece/george-iii-1172@athens
+person: person/greece/george-iii-1172
+see: see/greece/athens
+from:
+  value: '1172'
+  calendar: julian
+  precision: circa
+to:
+  value: '1180'
+  calendar: julian
+  precision: circa
+end_reason: unknown
+sources:
+- ref: source/le-quien-oriens-christianus-v2
+  locator: vol. 2, Athens section, s.v. George III (1172-1180) — columns to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction; question
+    marks carried as circa/disputed precision) — confirm against Le Quien (vol. 2, Athens)
+    and Fedalto during verification
+status: unverified
+notes: Created from the standard chronology (Athens pre-1833 batch) 2026-07-15. List-inherent
+  overlap with Nicholas I (1160-1175) in the circa dating - disputed qualifier carried per
+  the standing pattern.
+recognition:
+- by: all
+  status: disputed
+  note: the chronology own rows overlap here (Nicholas I Hagiotheodorites to 1175, George
+    III from c. 1172, with an undated Theophylactus interposed) - a list-inherent overlap
+    in the circa dating, recorded, not adjudicated

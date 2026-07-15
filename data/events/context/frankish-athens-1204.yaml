@@ -1,0 +1,26 @@
+id: event/context/frankish-athens-1204
+type: context
+title: Latin rule in Athens displaces the Orthodox metropolitans
+date:
+  from:
+    value: '1204'
+    calendar: julian
+    precision: year
+  to:
+    value: '1456'
+    calendar: julian
+    precision: year
+    note: Orthodox see restored after the Ottoman conquest of the duchy
+scope: jurisdiction:jurisdiction/ecumenical-patriarchate
+description: After the Fourth Crusade the see of Athens passed to Latin archbishops under
+  the Frankish duchy, the Orthodox metropolitans continuing in exile or as titulars until
+  the Ottoman conquest restored the Orthodox see in 1456.
+affected:
+- jurisdiction/ecumenical-patriarchate
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Duchy of Athens
+  archived_url: https://web.archive.org/web/2026/https://en.wikipedia.org/wiki/Duchy_of_Athens
+status: unverified
+notes: ''

@@ -1,0 +1,25 @@
+id: tenure/greece/anthimus-vii-of-athens-1828@athens
+person: person/greece/anthimus-vii-of-athens-1828
+see: see/greece/athens
+from:
+  value: 1828-03
+  calendar: julian
+  precision: month
+  note: March 1828; calendar (OS/NS) to be confirmed
+to:
+  value: '1833-07-27'
+  calendar: julian
+  precision: day
+  note: 27 July 1833; calendar (OS/NS) to be confirmed
+end_reason: unknown
+sources:
+- ref: source/le-quien-oriens-christianus-v2
+  locator: vol. 2, Athens section, s.v. Anthimus VII (1828-1833) — columns to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction; question
+    marks carried as circa/disputed precision) — confirm against Le Quien (vol. 2, Athens)
+    and Fedalto during verification
+status: unverified
+notes: Created from the standard chronology (Athens pre-1833 batch) 2026-07-15. Last metropolitan
+  under the Ecumenical Patriarchate; the self-declared autocephaly follows (Neophytos V, December
+  1833). Distinct from the later EP Anthimus VII.

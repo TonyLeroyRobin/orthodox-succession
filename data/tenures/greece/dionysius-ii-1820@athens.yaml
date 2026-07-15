@@ -1,0 +1,23 @@
+id: tenure/greece/dionysius-ii-1820@athens
+person: person/greece/dionysius-ii-1820
+see: see/greece/athens
+from:
+  value: '1820'
+  calendar: julian
+  precision: year
+to:
+  value: '1823'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/le-quien-oriens-christianus-v2
+  locator: vol. 2, Athens section, s.v. Dionysius II (1820-1823) — columns to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction; question
+    marks carried as circa/disputed precision) — confirm against Le Quien (vol. 2, Athens)
+    and Fedalto during verification
+status: unverified
+notes: Created from the standard chronology (Athens pre-1833 batch) 2026-07-15. The outbreak
+  of the revolution (1821) fell in this tenure; the 1823-1827 interval is the war-era vacancy,
+  list-inherent.
