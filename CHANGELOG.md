@@ -7,6 +7,10 @@ version heading at tag time.
 
 ## [Unreleased]
 
+*(nothing yet)*
+
+## [0.5.0] — 2026-07-15 (the decisions release)
+
 - decisions: the three maintainer decisions of 2026-07-15 implemented — poetry genre added to the Work schema (Choniates' lament created, the verse Psalter re-genred); the Macedonian Orthodox Church modeled minimally (both autocephaly claims, EP nuance, incumbent Stefan); the UOC (MP) jurisdiction modeled minimally (autonomous, the 1990 gramota and contested 2022 Feofaniya declaration, primatial_see shared with the OCU — the structural rivalry)
 - docs: v0.4.0 citation and DOI (10.5281/zenodo.21383863) in the README
 
