@@ -7,9 +7,12 @@ version heading at tag time.
 
 ## [Unreleased]
 
-- governance: NEUTRALITY.md, NAMING.md, CONTRIBUTING.md drafted with the maintainer (B2) — disputes UI badge-now-toggle-later, ecclesiastical see names, church's-own-numbering ordinals, maintainer-only verification
+*(nothing yet)*
 
-## [0.1.0] — date set at tag time (first public release; ID permanence locks here)
+## [0.1.0] — 2026-07-15 (first public release; ID permanence locks here)
+
+- governance: NEUTRALITY.md, NAMING.md, CONTRIBUTING.md drafted with the maintainer (B2) — disputes UI badge-now-toggle-later, ecclesiastical see names, church's-own-numbering ordinals, maintainer-only verification
+- release-prep: CHANGELOG seeded, README citation section, B2 placeholders (B1 package)
 
 - verification: session wrap-up — 1,179 archive snapshots pinned, source conflicts re-sourced, status audit clean (zero auto-promotions)
 - verification: cross-jurisdiction person dedup — five clusters merged (Pigas, Loukaris, Metaxakis ×3, Kosmas II/III, Joanikije III), plus the Georgian Okropir II seed
