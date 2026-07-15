@@ -1,0 +1,32 @@
+id: person/jerusalem/eusebius-of-caesarea-0313
+names:
+  monastic: Eusebius
+  family: Pamphili
+  native:
+  - script: grc
+    value: Εὐσέβιος
+  variants:
+  - Eusebius of Caesarea
+  - Eusebius Pamphili
+role: bishop
+born:
+  date:
+    value: '0260'
+    calendar: julian
+    precision: circa
+died:
+  date:
+    value: '0339'
+    calendar: julian
+    precision: circa
+    note: 339 or 340
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  locator: vol. III, pp. 309-345
+  reliability: scholarly
+- ref: source/eusebius-ecclesiastical-history
+  locator: self-witness throughout; episcopate at Caesarea from c. 313
+  reliability: tradition
+status: unverified
+notes: Bishop of Caesarea Maritima from c. 313 - the see has no record in the dataset yet, so no tenure is created (stated, not invented; the see is a BACKLOG candidate). Not glorified as a saint in the Chalcedonian churches - the literature notes his semi-Arian sympathies; no veneration block by assessment. Pulled forward into tier i (maintainer-approved) as author of the Historia Ecclesiastica, required for the Papias preserved_in chain. Created in P3 tier i (Apostolic Fathers) 2026-07-15.

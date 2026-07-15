@@ -1,0 +1,32 @@
+id: work/epistle-of-barnabas
+title: Epistle of Barnabas
+author_display: Anonymous (transmitted under Barnabas' name)
+relation: by
+language: Ancient Greek
+date:
+  value: '0130'
+  calendar: julian
+  precision: circa
+  note: c. 96-135 debated; Alexandrian milieu
+attribution: spurious
+cpg: CPG 1050
+genre: letter
+editions:
+- type: translation
+  language: English
+  series: Early Christian Writings (ANF translations)
+  url: http://www.earlychristianwritings.com/barnabas.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/http://www.earlychristianwritings.com/barnabas.html
+  notes: Year-wildcard archive redirect - pin during verification (availability API rate-limited, 2026-07-15).
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 1050
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. I (Apostolic Fathers and Irenaeus chapters); vol. III for Eusebius
+notes: Ascribed to Barnabas by Clement of Alexandria's time but universally judged anonymous - no link to person/cyprus/barnabas-0045 is made; the ascription is nominal only (attribution spurious). Created in P3 tier i (Apostolic Fathers) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - complete in Codex Sinaiticus (appended to the New Testament) and Hierosolymitanus

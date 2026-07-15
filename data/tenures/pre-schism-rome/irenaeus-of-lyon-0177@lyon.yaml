@@ -1,0 +1,23 @@
+id: tenure/pre-schism-rome/irenaeus-of-lyon-0177@lyon
+person: person/pre-schism-rome/irenaeus-of-lyon-0177
+see: see/pre-schism-rome/lyon
+from:
+  value: '0177'
+  calendar: julian
+  precision: circa
+  note: succeeded the martyred Pothinus after the persecution of 177
+to:
+  value: '0202'
+  calendar: julian
+  precision: circa
+  note: traditional death date; end of tenure otherwise unrecorded
+end_reason: died
+sources:
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 5.5.8
+  reliability: tradition
+- ref: source/quasten-patrology
+  locator: vol. I, p. 287
+  reliability: scholarly
+status: unverified
+notes: Created in P3 tier i (Apostolic Fathers) 2026-07-15.

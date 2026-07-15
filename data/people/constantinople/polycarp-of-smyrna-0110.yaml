@@ -1,0 +1,49 @@
+id: person/constantinople/polycarp-of-smyrna-0110
+names:
+  monastic: Polycarp
+  native:
+  - script: grc
+    value: Πολύκαρπος
+  variants:
+  - Polycarp of Smyrna
+role: bishop
+born:
+  date:
+    value: '0069'
+    calendar: julian
+    precision: circa
+    note: back-reckoned from the martyrdom account (86 years serving Christ)
+died:
+  date:
+    value: '0155-02-23'
+    calendar: julian
+    precision: disputed
+    note: 155 or 156 (older scholarship argued 167); the Martyrdom gives the day
+  place: Smyrna (the stadium)
+attestation: attested
+veneration:
+  status: saint
+  titles:
+  - Hieromartyr
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 02-23
+    calendar: julian
+    note: Hieromartyr Polycarp, Bishop of Smyrna
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/02/23
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/02/23
+    note: Year-wildcard archive redirect - pin during verification.
+sources:
+- ref: source/quasten-patrology
+  locator: vol. I, pp. 76-82
+  reliability: scholarly
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 4.14-15; 5.20
+  reliability: tradition
+  note: his episcopate, the Rome visit under Anicetus, and the Martyrdom account; Irenaeus' Letter to Florinus remembers him
+status: unverified
+notes: Disciple of the apostle John by Irenaeus' testimony and addressee of Ignatius' letter to Smyrna - among the best-attested figures of the sub-apostolic age. Created in P3 tier i (Apostolic Fathers) 2026-07-15.

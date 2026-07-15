@@ -1,0 +1,35 @@
+id: work/expositions-of-the-sayings-papias
+title: Expositions of the Sayings of the Lord
+author: person/constantinople/papias-of-hierapolis-0110
+relation: by
+language: Ancient Greek
+date:
+  value: '0120'
+  calendar: julian
+  precision: circa
+  note: five books, early second century
+attribution: authentic
+cpg: CPG 1047
+genre: treatise
+editions:
+- type: translation
+  language: English
+  series: Early Christian Writings (fragment collection)
+  url: http://www.earlychristianwritings.com/papias.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/http://www.earlychristianwritings.com/papias.html
+  notes: Year-wildcard archive redirect - pin during verification (availability API rate-limited, 2026-07-15).
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 1047
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. I (Apostolic Fathers and Irenaeus chapters); vol. III for Eusebius
+notes: Source of the earliest external notices on the origins of the Gospels of Mark and Matthew. Created in P3 tier i (Apostolic Fathers) 2026-07-15.
+status: unverified
+survival: fragmentary
+survival_note: fragmentary - the five books are lost; what survives are quotations and notices, chiefly in Eusebius (HE 3.39) and Irenaeus (Adv. Haer. 5.33) - the database's preserved_in exemplar
+preserved_in:
+- work/ecclesiastical-history-eusebius
+- work/adversus-haereses-irenaeus

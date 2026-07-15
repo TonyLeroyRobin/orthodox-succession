@@ -1,0 +1,14 @@
+id: relationship/polycarp-teacher-of-irenaeus
+from: person/constantinople/polycarp-of-smyrna-0110
+to: person/pre-schism-rome/irenaeus-of-lyon-0177
+type: teacher
+sources:
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 5.20.4-8
+  reliability: tradition
+  note: Irenaeus' Letter to Florinus - his boyhood memory of Polycarp's teaching in lower Asia, preserved by Eusebius
+- ref: source/quasten-patrology
+  locator: vol. I, p. 287
+  reliability: scholarly
+status: unverified
+notes: The documented tier-i link in the chain John - Polycarp - Irenaeus (the Johannine link rests on Irenaeus' own testimony and stays in notes; John has no person record). Created in P3 tier i (Apostolic Fathers) 2026-07-15.

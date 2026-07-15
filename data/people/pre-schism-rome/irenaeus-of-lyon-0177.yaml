@@ -1,0 +1,50 @@
+id: person/pre-schism-rome/irenaeus-of-lyon-0177
+names:
+  monastic: Irenaeus
+  native:
+  - script: grc
+    value: Εἰρηναῖος
+  variants:
+  - Irenaeus of Lyons
+  - Irenaeus of Lugdunum
+role: bishop
+born:
+  date:
+    value: '0130'
+    calendar: julian
+    precision: circa
+    note: Asia Minor (Smyrna milieu), c. 130-140
+died:
+  date:
+    value: '0202'
+    calendar: julian
+    precision: circa
+    note: traditional martyrdom under Septimius Severus - late-attested (Jerome, Gregory of Tours) and debated
+  place: Lugdunum (Lyon)
+attestation: attested
+veneration:
+  status: saint
+  titles:
+  - Hieromartyr
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 08-23
+    calendar: julian
+    note: Hieromartyr Irenaeus, Bishop of Lyons
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/08/23
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/08/23
+    note: Year-wildcard archive redirect - pin during verification.
+sources:
+- ref: source/quasten-patrology
+  locator: vol. I, pp. 287-313
+  reliability: scholarly
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 5.1-8, 5.20, 5.24
+  reliability: tradition
+  note: presbyter-envoy of the Lyon confessors, successor of the martyred Pothinus, voice of moderation in the Paschal controversy
+status: unverified
+notes: Pulled forward into tier i (maintainer-approved) as Polycarp's documented disciple and author of Adversus Haereses, required for the Papias preserved_in chain. Created in P3 tier i (Apostolic Fathers) 2026-07-15.

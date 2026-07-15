@@ -1,0 +1,36 @@
+id: person/constantinople/papias-of-hierapolis-0110
+names:
+  monastic: Papias
+  native:
+  - script: grc
+    value: Παπίας
+  variants:
+  - Papias of Hierapolis
+role: bishop
+died:
+  date:
+    value: '0135'
+    calendar: julian
+    precision: circa
+    note: death unrecorded; floruit under Trajan and Hadrian per the Eusebian notices
+attestation: attested
+veneration:
+  status: saint
+  feast_days:
+  - month_day: 02-22
+    calendar: julian
+    note: St Papias of Hierapolis - synaxarion commemoration; verify the entry during verification
+  sources:
+  - ref: source/synaxarion-of-constantinople
+    locator: Feb. 22 - locator to be confirmed
+    reliability: tradition
+sources:
+- ref: source/quasten-patrology
+  locator: vol. I, pp. 82-85
+  reliability: scholarly
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 3.39
+  reliability: tradition
+  note: the notice preserving most of what is known, including Eusebius' own low estimate of him - recorded, not adjudicated
+status: unverified
+notes: Hearer of John and companion of Polycarp per Irenaeus (Adv. Haer. 5.33.4); his Expositions survive only as quotations - the database's preserved_in exemplar. Created in P3 tier i (Apostolic Fathers) 2026-07-15.

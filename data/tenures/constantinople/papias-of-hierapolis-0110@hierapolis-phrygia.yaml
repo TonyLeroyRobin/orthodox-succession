@@ -1,0 +1,18 @@
+id: tenure/constantinople/papias-of-hierapolis-0110@hierapolis-phrygia
+person: person/constantinople/papias-of-hierapolis-0110
+see: see/constantinople/hierapolis-phrygia
+from:
+  value: '0110'
+  calendar: julian
+  precision: circa
+  note: episcopate dated only by the floruit; wholly-approximate anchor per the established convention
+end_reason: unknown
+sources:
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 3.36.2, 3.39
+  reliability: tradition
+- ref: source/quasten-patrology
+  locator: vol. I, p. 82
+  reliability: scholarly
+status: unverified
+notes: End of tenure unrecorded - open tenure, not inferred. Created in P3 tier i (Apostolic Fathers) 2026-07-15.

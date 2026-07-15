@@ -1,0 +1,32 @@
+id: work/epistle-to-diognetus
+title: Epistle to Diognetus
+author_display: Anonymous
+relation: by
+language: Ancient Greek
+date:
+  value: '0200'
+  calendar: julian
+  precision: circa
+  note: late second or third century; wholly unattested in antiquity
+attribution: authentic
+cpg: CPG 1112
+genre: letter
+editions:
+- type: translation
+  language: English
+  series: Early Christian Writings (ANF translations)
+  url: http://www.earlychristianwritings.com/diognetus.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/http://www.earlychristianwritings.com/diognetus.html
+  notes: Year-wildcard archive redirect - pin during verification (availability API rate-limited, 2026-07-15).
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 1112
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. I (Apostolic Fathers and Irenaeus chapters); vol. III for Eusebius
+notes: Anonymous apology addressed to one Diognetus; chapters 11-12 are likely a separate fragment - noted, not split. Created in P3 tier i (Apostolic Fathers) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant by a thread - the sole manuscript (Strasbourg, Codex Argentoratensis) burned in 1870; the text survives through earlier transcriptions and editions

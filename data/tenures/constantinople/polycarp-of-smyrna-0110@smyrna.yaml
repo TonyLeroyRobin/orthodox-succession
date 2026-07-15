@@ -1,0 +1,23 @@
+id: tenure/constantinople/polycarp-of-smyrna-0110@smyrna
+person: person/constantinople/polycarp-of-smyrna-0110
+see: see/constantinople/smyrna
+from:
+  value: '0110'
+  calendar: julian
+  precision: circa
+  note: already bishop when Ignatius wrote to Smyrna c. 107-110; start unrecorded
+to:
+  value: '0155'
+  calendar: julian
+  precision: disputed
+  note: to his martyrdom, 155/156 (167 argued in older scholarship)
+end_reason: died
+sources:
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 4.14-15
+  reliability: tradition
+- ref: source/quasten-patrology
+  locator: vol. I, pp. 76-77
+  reliability: scholarly
+status: unverified
+notes: Martyred in the Smyrna stadium. Created in P3 tier i (Apostolic Fathers) 2026-07-15.
