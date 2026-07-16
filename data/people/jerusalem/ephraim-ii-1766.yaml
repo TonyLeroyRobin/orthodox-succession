@@ -1,12 +1,35 @@
 id: person/jerusalem/ephraim-ii-1766
 names:
   monastic: Ephraim II
+  variants:
+  - Ephram II of Jerusalem
 attestation: attested
 sources:
 - ref: source/jerusalem-patriarchate-succession
   locator: 'no. 125: Ephraim II (1766–1771)'
   reliability: official-list
   archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+- ref: source/wikidata
+  locator: Q2415220
+  reliability: database
+  note: programmatic seed — verify against a graded source [absorbed from person/jerusalem/ephram-ii-of-jerusalem-1750
+    in the Q1 dedup merge (validator sweep) 2026-07-15]
 status: unverified
-notes: Created from the official list (no. 125) during Milestone C reconciliation
-  2026-07-10.
+notes: 'Created from the official list (no. 125) during Milestone C reconciliation 2026-07-10.
+  Q1 dedup merge (validator sweep) 2026-07-15: absorbed duplicate person/jerusalem/ephram-ii-of-jerusalem-1750
+  (never-verified wikidata seed; hard-deleted per the sanctioned rule).'
+identifiers:
+  wikidata: Q2415220
+  viaf: '382159474184727661615'
+born:
+  date:
+    value: '1750'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1770'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

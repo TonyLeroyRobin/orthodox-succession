@@ -1,11 +1,24 @@
 id: person/constantinople/macedonius-ii-0495
 names:
   monastic: Macedonius II
+  variants:
+  - Macedonius II of Constantinople
 attestation: attested
 sources:
 - ref: source/ep-council-patriarch-list
   locator: 'entry: Macedonius II 495–511'
   reliability: official-list
   archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+- ref: source/wikidata
+  locator: Q1273634
+  reliability: database
+  note: programmatic seed — verify against a graded source [absorbed from person/constantinople/macedonius-ii-of-constantinople-0500
+    in the Q1 dedup merge (validator sweep) 2026-07-15]
 status: unverified
-notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.
+notes: 'Created from the official EP list during Milestone C reconciliation 2026-07-10. Q1
+  dedup merge (validator sweep) 2026-07-15: absorbed duplicate person/constantinople/macedonius-ii-of-constantinople-0500
+  (never-verified wikidata seed; hard-deleted per the sanctioned rule). Absorbed wikidata
+  birth/death placeholders discarded in Q1 - they were id-anchor years, not attested dates
+  (they broke tenure chronology).'
+identifiers:
+  wikidata: Q1273634

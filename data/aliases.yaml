@@ -1,0 +1,17 @@
+# Old ID -> canonical ID. Consumed by build_site.py to emit redirect
+# stubs at the old URLs (Q2.1 infrastructure). Never delete entries.
+aliases:
+  person/constantinople/andrew-the-apostle-0000: person/constantinople/andrew-the-apostle-0038
+  person/constantinople/archbishop-atticus-of-constantinople-0370: person/constantinople/atticus-0406
+  person/constantinople/constantine-leichoudes-1000: person/constantinople/constantine-iii-leichoudis-1059
+  person/constantinople/dositheus-of-constantinople-1141: person/jerusalem/dositheos-i-1191
+  person/constantinople/gennadius-of-constantinople-0000: person/constantinople/gennadios-i-0458
+  person/constantinople/gennadius-scholarius-1400: person/constantinople/gennadios-ii-scholarios-1454
+  person/constantinople/isidore-i-of-constantinople-1350: person/constantinople/isidore-i-1347
+  person/constantinople/macedonius-ii-of-constantinople-0500: person/constantinople/macedonius-ii-0495
+  person/constantinople/sophronius-ii-of-constantinople-1710: person/jerusalem/sophronios-v-1771
+  person/jerusalem/dositheus-of-constantinople-1141: person/jerusalem/dositheos-i-1191
+  person/jerusalem/ephram-ii-of-jerusalem-1750: person/jerusalem/ephraim-ii-1766
+  person/jerusalem/sophronius-ii-of-constantinople-1710: person/jerusalem/sophronios-v-1771
+  person/jerusalem/sophronius-ii-of-jerusalem-1050: person/jerusalem/sophronios-ii-1040
+  work/panarion-epiphanius: work/panarion

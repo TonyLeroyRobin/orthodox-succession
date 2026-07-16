@@ -1,11 +1,36 @@
 id: person/constantinople/atticus-0406
 names:
   monastic: Atticus
+  variants:
+  - Atticus of Constantinople
+  - Archbishop Atticus of Constantinople
 attestation: attested
 sources:
 - ref: source/ep-council-patriarch-list
   locator: 'entry: Atticus 406–425'
   reliability: official-list
   archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+- ref: source/wikidata
+  locator: Q669419
+  reliability: database
+  note: programmatic seed — verify against a graded source [absorbed from person/constantinople/atticus-0406
+    in the Q1 dedup merge 2026-07-15]
 status: unverified
-notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.
+notes: 'Created from the official EP list during Milestone C reconciliation 2026-07-10. Q1
+  dedup merge 2026-07-15: absorbed duplicate person/constantinople/archbishop-atticus-of-constantinople-0370
+  (never-verified draft; hard-deleted per the sanctioned rule); its data folded in above.'
+identifiers:
+  wikidata: Q669419
+  viaf: '72202417'
+born:
+  date:
+    value: '0370'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '0425'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

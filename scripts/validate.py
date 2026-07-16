@@ -244,6 +244,99 @@ def main():
                   f"{len(context_events)} context events exceed the hard ceiling "
                   f"of {CONTEXT_EVENT_CEILING}")
 
+    # ---- Q1: person near-duplicate sweep (warning level) -------------------
+    # similar normalized name + same see with overlapping tenure years, OR
+    # similar name + same jurisdiction folder when either side has no tenure.
+    # Acknowledge documented-distinct pairs with `distinct_from` on either.
+    import difflib
+    import unicodedata
+
+    ORDINALS = {"i": 1, "ii": 2, "iii": 3, "iv": 4, "v": 5, "vi": 6,
+                "vii": 7, "viii": 8, "ix": 9, "x": 10, "xi": 11, "xii": 12,
+                "xiii": 13, "xiv": 14, "xv": 15, "xvi": 16, "xvii": 17,
+                "xviii": 18, "xix": 19, "xx": 20, "ier": 1, "1er": 1}
+    # place/office filler that pads similarity without distinguishing anyone
+    NAME_FILLER = {"of", "the", "saint", "st", "patriarch", "archbishop",
+                   "ecumenical", "pope", "metropolitan", "serbian",
+                   "constantinople", "jerusalem", "alexandria", "antioch",
+                   "rome", "serbia", "bulgaria", "georgia", "moscow", "kyiv",
+                   "ohrid", "athens", "cyprus"}
+
+    def norm_name(n):
+        n = unicodedata.normalize("NFKD", n or "").encode(
+            "ascii", "ignore").decode().lower()
+        toks = [t for t in re.sub(r"[^a-z0-9]+", " ", n).split()
+                if t not in NAME_FILLER]
+        return " ".join(toks)
+
+    def ordinal_of(n):
+        for tok in n.split():
+            if tok in ORDINALS:
+                return ORDINALS[tok]
+        return None
+
+    def full_name(d):
+        nm = d.get("names") or {}
+        parts = [nm.get("monastic") or ""]
+        if nm.get("family"):
+            parts.append(nm["family"])
+        elif nm.get("variants"):
+            parts.append(nm["variants"][0])
+        return norm_name(" ".join(parts))
+
+    person_records = [r for r in records if r["kind"] == "person"
+                      and r["data"].get("id")]
+    tenure_spans = defaultdict(list)  # person -> [(see, start, end)]
+    for r in records:
+        if r["kind"] != "tenure":
+            continue
+        d = r["data"]
+        f = date_ordinal(d.get("from"))
+        t_ = date_ordinal(d.get("to"))
+        tenure_spans[d.get("person")].append(
+            (d.get("see"), f, t_ if t_ is not None else
+             (f + 40 if f is not None else None)))
+
+    acked = set()
+    for r in person_records:
+        for other in r["data"].get("distinct_from") or []:
+            acked.add(frozenset((r["data"]["id"], other)))
+
+    by_folder = defaultdict(list)
+    for r in person_records:
+        pid = r["data"]["id"]
+        by_folder[pid.split("/")[1]].append(
+            (pid, full_name(r["data"]), r["path"]))
+    for folder, plist in by_folder.items():
+        for i in range(len(plist)):
+            for j in range(i + 1, len(plist)):
+                (ida, na, patha), (idb, nb, _) = plist[i], plist[j]
+                if not na or not nb:
+                    continue
+                if frozenset((ida, idb)) in acked:
+                    continue
+                orda, ordb = ordinal_of(na), ordinal_of(nb)
+                if orda is not None and ordb is not None and orda != ordb:
+                    continue  # different ordinals = different persons
+                sim = difflib.SequenceMatcher(None, na, nb).ratio()
+                if sim < 0.85:
+                    continue
+                sa, sb = tenure_spans.get(ida), tenure_spans.get(idb)
+                clash = False
+                if sa and sb:
+                    for see_a, fa, ta in sa:
+                        for see_b, fb, tb in sb:
+                            if see_a == see_b and None not in (fa, ta, fb, tb) \
+                                    and fa <= tb + 5 and fb <= ta + 5:
+                                clash = True
+                elif sim >= 0.92:
+                    clash = True  # tenure-less near-identical name, same folder
+                if clash:
+                    rep.warn(patha,
+                             f"possible duplicate persons: {ida!r} ~ {idb!r} "
+                             f"(name similarity {sim:.2f}) — merge, or mark "
+                             f"distinct_from to acknowledge")
+
     # ---- P5: controversy taxonomy ceiling (target 15-20, hard ceiling 25) --
     controversies = [r for r in records if r["kind"] == "controversy"]
     if len(controversies) > CONTROVERSY_CEILING:
@@ -591,7 +684,14 @@ def main():
         for i in range(len(ws)):
             for j in range(i + 1, len(ws)):
                 t1, t2 = norm_title(ws[i]["data"].get("title")), norm_title(ws[j]["data"].get("title"))
-                if t1 and t2 and difflib.SequenceMatcher(None, t1, t2).ratio() > 0.85:
+                # Q1: same-author works whose first significant title token
+                # matches are duplicate candidates even when subtitles differ
+                # (the Panarion lesson: parenthetical subtitles defeated the
+                # whole-title ratio)
+                head_match = (t1 and t2 and t1.split()[0] == t2.split()[0]
+                              and len(t1.split()[0]) >= 6)
+                if t1 and t2 and (head_match or
+                                  difflib.SequenceMatcher(None, t1, t2).ratio() > 0.85):
                     rep.warn(ws[j]["path"],
                              f"possible duplicate of {ws[i]['data'].get('id')} "
                              f"(same author, near-identical title) — one Work, many Editions")

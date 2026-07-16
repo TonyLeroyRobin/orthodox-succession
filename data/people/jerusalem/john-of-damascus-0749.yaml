@@ -1,13 +1,14 @@
 id: person/jerusalem/john-of-damascus-0749
 names:
   monastic: John
-  family: Mansur (family name; the epithet Damascene from his city)
+  family: Mansur
   native:
   - script: grc
     value: Ἰωάννης ὁ Δαμασκηνός
   variants:
   - John of Damascus
   - John Damascene
+epithet: Damascene
 role: priest
 born:
   date:

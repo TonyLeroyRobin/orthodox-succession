@@ -4,60 +4,109 @@
   "title": "Person",
   "type": "object",
   "properties": {
-    "id": { "$ref": "defs.json#/$defs/personId" },
+    "id": {
+      "$ref": "defs.json#/$defs/personId"
+    },
     "names": {
       "type": "object",
       "properties": {
-        "monastic": { "type": "string", "description": "the name the bishop is known by" },
-        "family": { "type": "string", "description": "conventional disambiguator: Bartholomew (Archontonis)" },
-        "baptismal": { "type": "string", "description": "pre-monastic name, if known" },
+        "monastic": {
+          "type": "string",
+          "description": "the name the bishop is known by"
+        },
+        "family": {
+          "type": "string",
+          "description": "conventional disambiguator: Bartholomew (Archontonis)"
+        },
+        "baptismal": {
+          "type": "string",
+          "description": "pre-monastic name, if known"
+        },
         "native": {
           "type": "array",
           "items": {
             "type": "object",
             "properties": {
-              "script": { "type": "string", "description": "ISO 639 / script hint, e.g. grc, el, ru, ka, ar" },
-              "value": { "type": "string" }
+              "script": {
+                "type": "string",
+                "description": "ISO 639 / script hint, e.g. grc, el, ru, ka, ar"
+              },
+              "value": {
+                "type": "string"
+              }
             },
-            "required": ["script", "value"],
+            "required": [
+              "script",
+              "value"
+            ],
             "additionalProperties": false
           }
         },
         "variants": {
           "type": "array",
-          "items": { "type": "string" },
+          "items": {
+            "type": "string"
+          },
           "description": "transliterations found in sources"
         }
       },
-      "required": ["monastic"],
+      "required": [
+        "monastic"
+      ],
       "additionalProperties": false
     },
     "born": {
       "type": "object",
       "properties": {
-        "date": { "$ref": "defs.json#/$defs/date" },
-        "place": { "$ref": "defs.json#/$defs/place" }
+        "date": {
+          "$ref": "defs.json#/$defs/date"
+        },
+        "place": {
+          "$ref": "defs.json#/$defs/place"
+        }
       },
       "additionalProperties": false
     },
     "died": {
       "type": "object",
       "properties": {
-        "date": { "$ref": "defs.json#/$defs/date" },
-        "place": { "$ref": "defs.json#/$defs/place" }
+        "date": {
+          "$ref": "defs.json#/$defs/date"
+        },
+        "place": {
+          "$ref": "defs.json#/$defs/place"
+        }
       },
       "additionalProperties": false
     },
-    "attestation": { "enum": ["attested", "legendary", "uncertain"] },
+    "attestation": {
+      "enum": [
+        "attested",
+        "legendary",
+        "uncertain"
+      ]
+    },
     "role": {
-      "enum": ["bishop", "priest", "deacon", "deaconess", "monastic", "layperson"],
+      "enum": [
+        "bishop",
+        "priest",
+        "deacon",
+        "deaconess",
+        "monastic",
+        "layperson"
+      ],
       "description": "P1 (PERSONS_LIBRARY_CONTROVERSIES): absent means bishop (pre-P1 records); explicit on all new records. Non-bishops must satisfy the admission rule (validate.py): a Work, Participation, Relationship, or apostolic-founder/tradition citation."
     },
     "identifiers": {
       "type": "object",
       "properties": {
-        "wikidata": { "type": "string", "pattern": "^Q[0-9]+$" },
-        "viaf": { "type": "string" }
+        "wikidata": {
+          "type": "string",
+          "pattern": "^Q[0-9]+$"
+        },
+        "viaf": {
+          "type": "string"
+        }
       },
       "additionalProperties": false
     },
@@ -65,26 +114,65 @@
       "type": "object",
       "description": "Absence of this block means 'not yet assessed'; presence is an assessed claim and requires at least one source (enforced by validate.py). Oriental Orthodox veneration of figures condemned by the seven councils is out of scope.",
       "properties": {
-        "status": { "enum": ["saint", "not-venerated", "uncertain"] },
+        "status": {
+          "enum": [
+            "saint",
+            "not-venerated",
+            "uncertain"
+          ]
+        },
         "titles": {
           "type": "array",
-          "items": { "type": "string" },
+          "items": {
+            "type": "string"
+          },
           "description": "e.g. Equal-to-the-Apostles, Hieromartyr, Confessor, Wonderworker, the Great, the Theologian, the Dialogist"
         },
-        "recognition": { "$ref": "defs.json#/$defs/venerationRecognition" },
+        "recognition": {
+          "$ref": "defs.json#/$defs/venerationRecognition"
+        },
         "feast_days": {
           "type": "array",
-          "items": { "$ref": "defs.json#/$defs/feastDay" }
+          "items": {
+            "$ref": "defs.json#/$defs/feastDay"
+          }
         },
-        "sources": { "$ref": "defs.json#/$defs/sources" }
+        "sources": {
+          "$ref": "defs.json#/$defs/sources"
+        }
       },
-      "required": ["status"],
+      "required": [
+        "status"
+      ],
       "additionalProperties": false
     },
-    "sources": { "$ref": "defs.json#/$defs/sources" },
-    "status": { "$ref": "defs.json#/$defs/status" },
-    "notes": { "type": "string" }
+    "sources": {
+      "$ref": "defs.json#/$defs/sources"
+    },
+    "status": {
+      "$ref": "defs.json#/$defs/status"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "distinct_from": {
+      "description": "Q1: acknowledged near-duplicate — these are documented distinct persons; silences the near-duplicate warning.",
+      "type": "array",
+      "items": {
+        "$ref": "defs.json#/$defs/personId"
+      }
+    },
+    "epithet": {
+      "description": "Q1: conventional epithet (the Great, the Confessor, Chrysostom...) — sourced like any claim via the record's sources.",
+      "type": "string"
+    }
   },
-  "required": ["id", "names", "attestation", "sources", "status"],
+  "required": [
+    "id",
+    "names",
+    "attestation",
+    "sources",
+    "status"
+  ],
   "additionalProperties": false
 }

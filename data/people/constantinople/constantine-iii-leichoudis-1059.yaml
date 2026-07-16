@@ -1,11 +1,35 @@
 id: person/constantinople/constantine-iii-leichoudis-1059
 names:
   monastic: Constantine III Leichoudis
+  variants:
+  - Constantine Leichoudes
 attestation: attested
 sources:
 - ref: source/ep-council-patriarch-list
   locator: 'entry: Constantine III Leichoudis 1059–1063'
   reliability: official-list
   archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+- ref: source/wikidata
+  locator: Q139194
+  reliability: database
+  note: programmatic seed — verify against a graded source [absorbed from person/constantinople/constantine-iii-leichoudis-1059
+    in the Q1 dedup merge 2026-07-15]
 status: unverified
-notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.
+notes: 'Created from the official EP list during Milestone C reconciliation 2026-07-10. Q1
+  dedup merge 2026-07-15: absorbed duplicate person/constantinople/constantine-leichoudes-1000
+  (never-verified draft; hard-deleted per the sanctioned rule); its data folded in above.'
+identifiers:
+  wikidata: Q139194
+  viaf: '9689751'
+born:
+  date:
+    value: '1000'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1063'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

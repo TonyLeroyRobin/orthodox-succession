@@ -1,12 +1,24 @@
 id: person/jerusalem/sophronios-ii-1040
 names:
   monastic: Sophronios II
+  variants:
+  - Sophronius II of Jerusalem
 attestation: attested
 sources:
 - ref: source/jerusalem-patriarchate-succession
   locator: 'no. 85: Sophronios II (1040–1059)'
   reliability: official-list
   archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+- ref: source/wikidata
+  locator: Q10372936
+  reliability: database
+  note: programmatic seed — verify against a graded source [absorbed from person/jerusalem/sophronius-ii-of-jerusalem-1050
+    in the Q1 dedup merge (validator sweep) 2026-07-15]
 status: unverified
-notes: Created from the official list (no. 85) during Milestone C reconciliation
-  2026-07-10.
+notes: 'Created from the official list (no. 85) during Milestone C reconciliation 2026-07-10.
+  Q1 dedup merge (validator sweep) 2026-07-15: absorbed duplicate person/jerusalem/sophronius-ii-of-jerusalem-1050
+  (never-verified wikidata seed; hard-deleted per the sanctioned rule). Absorbed wikidata
+  birth/death placeholders discarded in Q1 - they were id-anchor years, not attested dates
+  (they broke tenure chronology).'
+identifiers:
+  wikidata: Q10372936

@@ -260,6 +260,55 @@ def main():
         return (f'<a href="{url}">{esc(person_name(p))}</a>'
                 if p and url else esc(pid))
 
+    # Q1.4 display-name formula: list entries render
+    # "Name — epithet-or-primary-see, dates"; no bare ambiguous names on
+    # list pages.
+    def person_dates(p, pid):
+        by = date_year((p.get("born") or {}).get("date"))
+        dy = date_year((p.get("died") or {}).get("date"))
+        if by or dy:
+            return f"{by or '?'}–{dy or '?'}"
+        ys = sorted(y for t in tenures_by_person.get(pid, [])
+                    for y in (date_year(t.get("from")), date_year(t.get("to")))
+                    if y is not None)
+        if ys:
+            return f"fl. {ys[0]}" + (f"–{ys[-1]}" if ys[-1] != ys[0] else "")
+        return ""
+
+    def person_qualifier(p, pid):
+        if p.get("epithet"):
+            return p["epithet"]
+        ts = sorted(tenures_by_person.get(pid, []),
+                    key=lambda t: date_year(t.get("from")) or 9999)
+        for t in ts:
+            s = sees.get(t.get("see"))
+            if s:
+                return s.get("name", "")
+        return ""
+
+    def person_entry_label(pid):
+        p = persons.get(pid)
+        if not p:
+            return esc(pid)
+        q, d_ = person_qualifier(p, pid), person_dates(p, pid)
+        tail = ", ".join(x for x in (q, d_) if x)
+        return esc(person_name(p)) + (f" — {esc(tail)}" if tail else "")
+
+    def person_entry(pid):
+        url = entity_url(pid)
+        p = persons.get(pid)
+        if not (p and url):
+            return esc(pid)
+        q, d_ = person_qualifier(p, pid), person_dates(p, pid)
+        tail = ", ".join(x for x in (q, d_) if x)
+        return (f'<a href="{url}">{esc(person_name(p))}</a>'
+                + (f' <span class="note">— {esc(tail)}</span>' if tail else ""))
+
+    def ord_suffix(n):
+        if 10 <= n % 100 <= 20:
+            return "th"
+        return {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
+
     def slink(sid):
         s = sees.get(sid)
         url = entity_url(sid)
@@ -519,14 +568,14 @@ def main():
         write(OUT / url.strip("/") / "index.html",
               layout(person_name(p), content, canonical, jsonld, "People"))
 
-    # people index
+    # people index (Q1.4: every entry carries its see/epithet + dates)
     letters = defaultdict(list)
     for pid, p in sorted(persons.items(), key=lambda kv: person_name(kv[1])):
-        letters[person_name(p)[:1].upper()].append(
-            f'<a href="{entity_url(pid)}">{esc(person_name(p))}</a>')
+        letters[person_name(p)[:1].upper()].append(person_entry(pid))
     people_idx = "".join(
-        f"<h2>{esc(k)}</h2><p>{' · '.join(v)}</p>"
-        for k, v in sorted(letters.items()))
+        f"<h2>{esc(k)}</h2><ul class=person-list>" +
+        "".join(f"<li>{v}</li>" for v in vs) + "</ul>"
+        for k, vs in sorted(letters.items()))
     write(OUT / "people" / "index.html",
           layout("People", f"<h1>People ({len(persons)})</h1>{people_idx}",
                  "https://tonyleroyrobin.github.io/orthodox-succession/people/",
@@ -707,7 +756,7 @@ def main():
                 f'<span class=note>'
                 f'{esc(fmt_date((ev.get("date") or {}).get("from")))} '
                 f'· {esc(ev.get("type"))}'
-                + (f" · {cent}th c." if cent else "") + "</span></li>")
+                + (f" · {cent}{ord_suffix(int(cent))} c." if cent else "") + "</span></li>")
 
     c_sorted = sorted(councils, key=lambda e: date_year(
         (e.get("date") or {}).get("from")) or 0)
@@ -785,7 +834,7 @@ placeholder="any" style="width:5em"></label>
     def author_label(w):
         if w.get("author"):
             p = persons.get(w["author"])
-            return person_name(p) if p else w["author"]
+            return person_entry_label(w["author"]) if p else w["author"]
         return w.get("author_display", "—")
 
     SURV_LABEL = {"extant": "extant", "fragmentary": "FRAGMENTARY",
@@ -955,14 +1004,14 @@ absence of a text is part of its history.</p></div>
             pers_seen.add(pid)
             evd = events_by_id.get(pt.get("event"))
             evt = evd.get("title") if evd else pt.get("event", "")
-            pers_rows += (f"<li>{plink(pid)} — {esc(pt.get('role', ''))}, "
+            pers_rows += (f"<li>{person_entry(pid)} — {esc(pt.get('role', ''))}, "
                           f"{esc(evt)}</li>")
         for e in evs:
             for pt in parts_by_event.get(e.get("id"), []):
                 pid = pt.get("person")
                 if pid not in pers_seen:
                     pers_seen.add(pid)
-                    pers_rows += (f"<li>{plink(pid)} — "
+                    pers_rows += (f"<li>{person_entry(pid)} — "
                                   f"{esc(pt.get('role', ''))}, "
                                   f"{esc(e.get('title'))}</li>")
         wk_rows = "".join(
@@ -1183,7 +1232,8 @@ Database</em> ({esc(VERSION)}) [Data set]. Zenodo.
     docs = []
     for pid, p in persons.items():
         n = p.get("names") or {}
-        docs.append({"id": pid, "type": "person", "name": person_name(p),
+        docs.append({"id": pid, "type": "person",
+                     "name": person_entry_label(pid),
                      "variants": " ".join([*(n.get("variants") or []),
                                            *(x.get("value") for x in
                                              n.get("native") or [])]),
@@ -1498,6 +1548,34 @@ durations) and point markers — <a href="/about/">about the layers</a>.</p>
                   json.dumps(items, ensure_ascii=False))
     write(OUT / "data" / "chunks" / "index.json",
           json.dumps({j: dict(k) for j, k in chunk_index.items()}, indent=1))
+
+    # ---------------- alias redirect stubs (Q2.1 infrastructure) -----------
+    # data/aliases.yaml maps retired IDs (Q1 merges, future Q2 migrations) to
+    # canonical IDs; each old URL gets a redirect stub so no published link
+    # ever dies.
+    alias_file = REPO_ROOT / "data" / "aliases.yaml"
+    if alias_file.exists():
+        import yaml as _yaml
+        alias_map = _yaml.safe_load(
+            alias_file.read_text(encoding="utf-8")).get("aliases", {})
+        stubs = 0
+        for old_id, new_id in alias_map.items():
+            old_url, new_url = entity_url(old_id), entity_url(new_id)
+            if not (old_url and new_url):
+                continue
+            target = OUT / old_url.strip("/") / "index.html"
+            if target.exists():
+                print(f"build_site: alias target collides with a live page: "
+                      f"{old_id}", file=sys.stderr)
+                continue
+            write(target,
+                  f'<!DOCTYPE html><meta charset="utf-8">'
+                  f'<meta http-equiv="refresh" content="0; url={new_url}">'
+                  f'<link rel="canonical" href="https://tonyleroyrobin.github.io/orthodox-succession{new_url}">'
+                  f'<a href="{new_url}">This record has been merged — '
+                  f'continue to the canonical page.</a>')
+            stubs += 1
+        print(f"build_site: {stubs} alias redirect stub(s)")
 
     # ---------------- assets ----------------
     assets = OUT / "assets"

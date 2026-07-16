@@ -1,11 +1,25 @@
 id: person/constantinople/isidore-i-1347
 names:
   monastic: Isidore I
+  variants:
+  - Isidore I of Constantinople
 attestation: attested
 sources:
 - ref: source/ep-council-patriarch-list
   locator: 'entry: Isidore I 1347–1349'
   reliability: official-list
   archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+- ref: source/wikidata
+  locator: Q719056
+  reliability: database
+  note: programmatic seed — verify against a graded source [absorbed from person/constantinople/isidore-i-of-constantinople-1350
+    in the Q1 dedup merge (validator sweep) 2026-07-15]
 status: unverified
-notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.
+notes: 'Created from the official EP list during Milestone C reconciliation 2026-07-10. Q1
+  dedup merge (validator sweep) 2026-07-15: absorbed duplicate person/constantinople/isidore-i-of-constantinople-1350
+  (never-verified wikidata seed; hard-deleted per the sanctioned rule). Absorbed wikidata
+  birth/death placeholders discarded in Q1 - they were id-anchor years, not attested dates
+  (they broke tenure chronology).'
+identifiers:
+  wikidata: Q719056
+  viaf: '44695131'

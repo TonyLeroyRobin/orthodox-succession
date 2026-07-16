@@ -1,6 +1,8 @@
 id: person/jerusalem/sophronios-v-1771
 names:
   monastic: Sophronios V
+  variants:
+  - Sophronius II of Constantinople
 attestation: attested
 sources:
 - ref: source/jerusalem-patriarchate-succession
@@ -8,6 +10,33 @@ sources:
   reliability: official-list
   archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
   note: also of Constantinople as Sophronios II
+- ref: source/wikidata
+  locator: Q2303048
+  reliability: database
+  note: programmatic seed — verify against a graded source [absorbed from person/constantinople/sophronius-ii-of-constantinople-1710
+    in the Q1 dedup merge (validator sweep) 2026-07-15]
 status: unverified
-notes: Created from the official list (no. 126) during Milestone C reconciliation
-  2026-07-10. also of Constantinople as Sophronios II.
+notes: 'Created from the official list (no. 126) during Milestone C reconciliation 2026-07-10.
+  also of Constantinople as Sophronios II. Q1 dedup merge (validator sweep) 2026-07-15: absorbed
+  duplicate person/constantinople/sophronius-ii-of-constantinople-1710 (never-verified wikidata
+  seed; hard-deleted per the sanctioned rule). Q1 dedup merge (validator sweep) 2026-07-15:
+  absorbed duplicate person/jerusalem/sophronius-ii-of-constantinople-1710 (never-verified
+  wikidata seed; hard-deleted per the sanctioned rule). One person, two thrones (the Niphon
+  II precedent): Sophronios V of Jerusalem (1771-1775 per the official list) became Sophronius
+  II of Constantinople (the re-pointed tenure of 1774-1780); the lists'' overlap at 1774-1775
+  is a date tension recorded for verification.'
+identifiers:
+  wikidata: Q2303048
+  viaf: '297151246513444131032'
+born:
+  date:
+    value: '1710'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1780'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

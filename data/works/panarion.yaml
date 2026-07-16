@@ -34,9 +34,16 @@ sources:
 - ref: source/migne-patrologia-graeca
   locator: PG 41-42
   reliability: scholarly
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vols. II-IV, per the author's chapter
+  note: '[absorbed from work/panarion-epiphanius in the Q1 dedup merge 2026-07-15]'
 status: verified
-notes: A refutation of eighty heresies — the fullest heresiological catalogue of the fourth
-  century.
+notes: 'A refutation of eighty heresies — the fullest heresiological catalogue of the fourth
+  century. Q1 dedup merge 2026-07-15: absorbed duplicate (see above)-epiphanius (never-verified
+  draft; hard-deleted per the sanctioned rule); its data folded in above.'
 survival: extant
 survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit
   2026-07-15
+controversies:
+- controversy/gnosticism

@@ -1,11 +1,29 @@
 id: person/constantinople/gennadios-i-0458
 names:
   monastic: Gennadios I
+  variants:
+  - Gennadius of Constantinople
 attestation: attested
 sources:
 - ref: source/ep-council-patriarch-list
   locator: 'entry: Gennadios I 458–471'
   reliability: official-list
   archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+- ref: source/wikidata
+  locator: Q463201
+  reliability: database
+  note: programmatic seed — verify against a graded source [absorbed from person/constantinople/gennadios-i-0458
+    in the Q1 dedup merge 2026-07-15]
 status: unverified
-notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.
+notes: 'Created from the official EP list during Milestone C reconciliation 2026-07-10. Q1
+  dedup merge 2026-07-15: absorbed duplicate person/constantinople/gennadius-of-constantinople-0000
+  (never-verified draft; hard-deleted per the sanctioned rule); its data folded in above.'
+identifiers:
+  wikidata: Q463201
+  viaf: '78719370'
+died:
+  date:
+    value: '0471'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

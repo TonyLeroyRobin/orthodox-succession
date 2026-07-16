@@ -1,6 +1,9 @@
 id: person/jerusalem/kyrill-i-0350
 names:
-  monastic: Kyrill I
+  monastic: Cyril I
+  variants:
+  - Kyrill I
+  - Cyril of Jerusalem
 attestation: attested
 sources:
 - ref: source/jerusalem-patriarchate-succession
@@ -9,5 +12,6 @@ sources:
   archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
   note: St Cyril of Jerusalem, catechist
 status: unverified
-notes: Created from the official list (no. 41) during Milestone C reconciliation
-  2026-07-10. St Cyril of Jerusalem, catechist.
+notes: 'Created from the official list (no. 41) during Milestone C reconciliation 2026-07-10.
+  St Cyril of Jerusalem, catechist. Q1 name hygiene 2026-07-15: display form standardized
+  to Cyril (Greek ALA-LC English convention); Kyrill kept as a variant.'

@@ -1,6 +1,8 @@
 id: person/jerusalem/dositheos-i-1191
 names:
   monastic: Dositheos I
+  variants:
+  - Dositheus of Constantinople
 attestation: attested
 sources:
 - ref: source/jerusalem-patriarchate-succession
@@ -8,6 +10,26 @@ sources:
   reliability: official-list
   archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
   note: briefly, before translation to Constantinople
+- ref: source/wikidata
+  locator: Q3037325
+  reliability: database
+  note: programmatic seed — verify against a graded source [absorbed from person/jerusalem/dositheos-i-1191
+    in the Q1 dedup merge 2026-07-15]
 status: unverified
-notes: Created from the official list (no. 94) during Milestone C reconciliation
-  2026-07-10. briefly, before translation to Constantinople.
+notes: 'Created from the official list (no. 94) during Milestone C reconciliation 2026-07-10.
+  briefly, before translation to Constantinople. Q1 dedup merge 2026-07-15: absorbed duplicate
+  person/jerusalem/dositheos-i-1191 (never-verified draft; hard-deleted per the sanctioned
+  rule); its data folded in above. Q1 dedup merge 2026-07-15: absorbed duplicate person/constantinople/dositheus-of-constantinople-1141 and person/jerusalem/dositheus-of-constantinople-1141
+  (never-verified draft; hard-deleted per the sanctioned rule); its data folded in above.
+  One person, two thrones (the Niphon II precedent): the official Jerusalem list''s no. 94
+  and the Constantinople tenure of 1189-1191 are the same Dositheus; the lists'' date framings
+  (Jerusalem 1191 vs. Constantinople 1190-1191) conflict at year precision - recorded, flag
+  for verification.'
+identifiers:
+  wikidata: Q3037325
+born:
+  date:
+    value: '1141'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

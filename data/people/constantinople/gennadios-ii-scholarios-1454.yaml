@@ -1,11 +1,35 @@
 id: person/constantinople/gennadios-ii-scholarios-1454
 names:
   monastic: Gennadios II Scholarios
+  variants:
+  - Gennadius Scholarius
 attestation: attested
 sources:
 - ref: source/ep-council-patriarch-list
   locator: 'entry: Gennadios II Scholarios 1454–1456'
   reliability: official-list
   archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+- ref: source/wikidata
+  locator: Q381211
+  reliability: database
+  note: programmatic seed — verify against a graded source [absorbed from person/constantinople/gennadios-ii-scholarios-1454
+    in the Q1 dedup merge 2026-07-15]
 status: unverified
-notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.
+notes: 'Created from the official EP list during Milestone C reconciliation 2026-07-10. Q1
+  dedup merge 2026-07-15: absorbed duplicate person/constantinople/gennadius-scholarius-1400
+  (never-verified draft; hard-deleted per the sanctioned rule); its data folded in above.'
+identifiers:
+  wikidata: Q381211
+  viaf: '316421957'
+born:
+  date:
+    value: '1400'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1473'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
