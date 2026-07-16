@@ -1,0 +1,28 @@
+id: controversy/iconoclasm
+label: Iconoclasm
+description: >-
+  The Byzantine controversy over the veneration of images, in two phases (726-787 and 815-843), with Hieria (754) and Nicaea II (787) as the rival councils and the restoration of the icons in 843 as its liturgical close.
+variant_terms:
+- term: Iconomachy
+  note: >-
+    the Greek historiographical term
+span:
+  from:
+    value: '0726'
+    calendar: julian
+    precision: year
+  to:
+    value: '0843'
+    calendar: julian
+    precision: year
+    note: two phases - 726-787 and 815-843; the Triumph of Orthodoxy (843) closes the second
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 5
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: Nicaea II definition
+status: unverified
+notes: >-
+   Created in P5 (controversies taxonomy) 2026-07-15.

@@ -1,0 +1,28 @@
+id: controversy/old-believer-schism
+label: Old Believer schism (Raskol)
+description: >-
+  The Russian schism over Patriarch Nikon's alignment of Muscovite liturgical practice with contemporary Greek usage, anathematized at the Moscow council of 1666-1667; the Old Believer communities persist, with the anathemas lifted by the Moscow Patriarchate in 1971.
+variant_terms:
+- term: Raskol
+  note: >-
+    the Russian term for the schism
+- term: Old Ritualists
+  note: >-
+    a common English rendering of staroobryadtsy
+span:
+  from:
+    value: '1652'
+    calendar: julian
+    precision: year
+  to:
+    value: '1667'
+    calendar: julian
+    precision: year
+    note: the acute phase; the schism itself persists (1971 lifting of the anathemas noted)
+sources:
+- ref: source/runciman-great-church
+  reliability: scholarly
+  locator: the Moscow chapters - locator to be confirmed; the standard histories (Meyendorff, Zenkovsky) to be added during verification
+status: unverified
+notes: >-
+   Created in P5 (controversies taxonomy) 2026-07-15.

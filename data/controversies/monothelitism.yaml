@@ -1,0 +1,27 @@
+id: controversy/monothelitism
+label: Monothelite controversy
+description: >-
+  The imperial attempt to unite Chalcedonians and non-Chalcedonians on one will and one energy in Christ, resisted by Sophronius of Jerusalem, Maximus the Confessor, and Martin I, and condemned at Constantinople III (680-681).
+variant_terms:
+- term: Monoenergism
+  note: >-
+    the one-energy phase under Sergius of Constantinople
+span:
+  from:
+    value: '0638'
+    calendar: julian
+    precision: year
+  to:
+    value: '0681'
+    calendar: julian
+    precision: year
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 5
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: Constantinople III definition
+status: unverified
+notes: >-
+   Created in P5 (controversies taxonomy) 2026-07-15.

@@ -1,0 +1,31 @@
+id: controversy/christological-controversy
+label: Christological controversy (Chalcedon and its reception)
+description: >-
+  The controversy over one or two natures in Christ from Eutyches and Ephesus II (449) through Chalcedon (451), the Three Chapters affair (553), and the long non-reception of Chalcedon by the churches now called Oriental Orthodox; recognition positions are recorded per recognizer, never adjudicated.
+variant_terms:
+- term: miaphysitism
+  note: >-
+    the Oriental Orthodox self-designation for their one-incarnate-nature doctrine - the term communities use of themselves
+- term: monophysitism
+  note: >-
+    considered pejorative by the Oriental Orthodox communions when applied to their position (it describes Eutychianism, which they also reject) - recorded as a variant per the naming rule, never as a display label
+span:
+  from:
+    value: '0448'
+    calendar: julian
+    precision: year
+  to:
+    value: '0681'
+    calendar: julian
+    precision: year
+    note: through Constantinople III, where the Christological sequence closes
+sources:
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: Chalcedon and Constantinople II-III definitions
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vols. 3-5
+status: unverified
+notes: >-
+   Created in P5 (controversies taxonomy) 2026-07-15.

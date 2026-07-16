@@ -1,0 +1,27 @@
+id: controversy/pneumatomachian-controversy
+label: Pneumatomachian controversy
+description: >-
+  The dispute over the divinity of the Holy Spirit ('Spirit-fighters'), answered by Athanasius' letters to Serapion and Basil's On the Holy Spirit and settled at Constantinople (381).
+variant_terms:
+- term: Macedonianism
+  note: >-
+    the traditional eponym after Macedonius of Constantinople - the attribution is historically loose; recorded as a variant, not used for display
+span:
+  from:
+    value: '0360'
+    calendar: julian
+    precision: circa
+  to:
+    value: '0381'
+    calendar: julian
+    precision: year
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. III, the Basil and Athanasius chapters
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 2
+status: unverified
+notes: >-
+   Created in P5 (controversies taxonomy) 2026-07-15.

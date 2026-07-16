@@ -48,7 +48,8 @@ Read it before making structural changes. These rules bind every session.
 - **Attribution** on Works: `authentic | disputed | spurious`; store CPG numbers for
   patristic works; PG references as `locator: "PG <vol>:<cols>"`.
 - **Participation roles**: presided | signed | attended | legate | condemned |
-  deposed-by | posthumously-condemned. Council subscription lists are primary
+  deposed-by | posthumously-condemned | posthumously-vindicated (P3 tier v — for
+  Nicaea II lifting Hieria's anathemas and the like). Council subscription lists are primary
   evidence — they corroborate person + see + tenure at once.
 - Overlapping tenures on one see require a `recognition` qualifier on at least one.
 - **Person roles (P1):** `role` absent = bishop (pre-P1 records); explicit on all
@@ -56,6 +57,14 @@ Read it before making structural changes. These rules bind every session.
   Work (author/subject_of), a Participation, a Relationship, or an
   apostolic-founder/tradition citation (validate.py enforces, error level). No
   general clergy coverage.
+- **Controversies (P5):** controlled taxonomy in `data/controversies/` (hard
+  ceiling 25); taggable via `controversies: [id]` on Event, Work, and
+  Participation (string or `{id, note, sources}`). Labels use neutral scholarly
+  terminology — terms a living communion considers pejorative for itself appear
+  only as recorded variants (docs/NAMING.md). **The database records WHERE and
+  WHEN, never WHY:** no causal or substrate claims about heresy origins
+  (pre-Christian religious geography → receptivity, etc.) anywhere in data —
+  standing boundary.
 - **Works survival (P4):** `survival` absent = not yet assessed; `extant` only
   when actually verified. `preserved_in` only on fragmentary/lost works. Edition
   URLs require `archived_url` (error) and must use hosts on

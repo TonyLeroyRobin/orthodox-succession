@@ -1,0 +1,24 @@
+id: controversy/unionism
+label: Unionism (Lyon and Florence)
+description: >-
+  The attempted reunions of the Chalcedonian East with Rome at Lyon II (1274) and Ferrara-Florence (1438-1439), their brief imperial enforcements, and their conciliar and popular repudiation in the East, Mark of Ephesus' refusal becoming the received Orthodox position.
+span:
+  from:
+    value: '1274'
+    calendar: julian
+    precision: year
+  to:
+    value: '1484'
+    calendar: julian
+    precision: year
+    note: to the Constantinople synod of 1484, which formally repudiated Florence
+sources:
+- ref: source/runciman-great-church
+  reliability: scholarly
+  locator: the union chapters
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: Lyon II and Florence decrees
+status: unverified
+notes: >-
+   Created in P5 (controversies taxonomy) 2026-07-15.

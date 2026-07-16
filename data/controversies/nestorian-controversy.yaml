@@ -1,0 +1,27 @@
+id: controversy/nestorian-controversy
+label: Nestorian controversy
+description: >-
+  The dispute over the unity of Christ and the title Theotokos between Nestorius of Constantinople and Cyril of Alexandria, judged at Ephesus (431) and formally composed in the Formula of Reunion (433).
+variant_terms:
+- term: Theotokos controversy
+  note: >-
+    by its presenting question
+span:
+  from:
+    value: '0428'
+    calendar: julian
+    precision: year
+  to:
+    value: '0433'
+    calendar: julian
+    precision: year
+sources:
+- ref: source/aco-concilium-universale-ephesenum
+  reliability: scholarly
+  locator: the primary acts
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 3
+status: unverified
+notes: >-
+   Created in P5 (controversies taxonomy) 2026-07-15.

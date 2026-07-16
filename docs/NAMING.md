@@ -67,6 +67,18 @@ flagged for re-check against the official reckoning during verification
 Source-specific spellings (Fedalto's Latin, Wikidata's language-tagged
 labels, older English forms) are kept as variants, never discarded.
 
+## Controversy labels (P5 rule, 2026-07-15)
+
+Controversy records (`data/controversies/`) display **neutral scholarly
+terminology**. A term that a living communion considers pejorative for its own
+position — the standing example is *monophysite* applied to the Oriental
+Orthodox doctrine, whose own term is *miaphysite* — appears **only** in
+`variant_terms` with a note recording who uses it and why it is not the label,
+never as the display label. Self-designations (*New Prophecy*, *Raskol*,
+*miaphysite*) are likewise recorded as variants with attribution. This is the
+record-not-adjudicate rule applied to polemical vocabulary; variants remain
+searchable like name variants.
+
 ## Searchability
 
 Every value in `names.variants` and `names.native` is a search key in the

@@ -1,0 +1,20 @@
+id: controversy/bogomilism
+label: Bogomilism
+description: >-
+  The dualist movement arising in tenth-century Bulgaria and spreading through the Balkans and Byzantium, condemned by church and synod from Cosmas the Priest's treatise to the trial of Basil the Physician under Alexius I.
+span:
+  from:
+    value: '0950'
+    calendar: julian
+    precision: circa
+  to:
+    value: '1400'
+    calendar: julian
+    precision: circa
+sources:
+- ref: source/runciman-great-church
+  reliability: scholarly
+  locator: background - the standard monographs (Runciman, The Medieval Manichee; Obolensky, The Bogomils) to be added as sources during verification
+status: unverified
+notes: >-
+   Created in P5 (controversies taxonomy) 2026-07-15.

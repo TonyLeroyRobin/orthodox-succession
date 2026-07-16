@@ -1,0 +1,27 @@
+id: controversy/arianism
+label: Arianism
+description: >-
+  The controversy over the Son's relation to the Father opened by Arius of Alexandria, defined against at Nicaea (325), fought through the mid-century councils, and settled at Constantinople (381).
+variant_terms:
+- term: Homoian / Anomoian / Semi-Arian parties
+  note: >-
+    the scholarly party labels for the mid-century positions - recorded for retrieval
+span:
+  from:
+    value: '0318'
+    calendar: julian
+    precision: year
+  to:
+    value: '0381'
+    calendar: julian
+    precision: year
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vols. 1-2
+- ref: source/tanner-decrees
+  reliability: scholarly
+  locator: Nicaea I and Constantinople I definitions
+status: unverified
+notes: >-
+   Created in P5 (controversies taxonomy) 2026-07-15.

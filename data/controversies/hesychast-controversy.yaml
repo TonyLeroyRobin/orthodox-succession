@@ -1,0 +1,27 @@
+id: controversy/hesychast-controversy
+label: Hesychast controversy
+description: >-
+  The fourteenth-century dispute over the hesychasts' experience of the divine light and the essence-energies distinction, between Gregory Palamas and Barlaam of Calabria (then Akindynos and Gregoras), settled for the Chalcedonian East by the Constantinople councils of 1341, 1347, and 1351.
+variant_terms:
+- term: Palamite controversy
+  note: >-
+    by its principal defender
+span:
+  from:
+    value: '1337'
+    calendar: julian
+    precision: year
+  to:
+    value: '1351'
+    calendar: julian
+    precision: year
+sources:
+- ref: source/runciman-great-church
+  reliability: scholarly
+  locator: the hesychast chapters - locator to be confirmed
+- ref: source/philokalia
+  reliability: scholarly
+  locator: vol. IV introduction (the Palamite corpus)
+status: unverified
+notes: >-
+   Created in P5 (controversies taxonomy) 2026-07-15.

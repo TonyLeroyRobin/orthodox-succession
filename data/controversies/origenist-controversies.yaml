@@ -1,0 +1,24 @@
+id: controversy/origenist-controversies
+label: Origenist controversies
+description: >-
+  The recurring disputes over Origen's speculative teaching - the Jerusalem-Alexandria quarrel of the 390s-400s (Epiphanius, Jerome, Rufinus, Theophilus) and the sixth-century monastic phase ending in the anathemas associated with Constantinople II (553).
+span:
+  from:
+    value: '0393'
+    calendar: julian
+    precision: year
+  to:
+    value: '0553'
+    calendar: julian
+    precision: year
+    note: two phases - c. 393-404 and 531-553
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. II, the Origen chapter (reception history)
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 4 - locator to be confirmed
+status: unverified
+notes: >-
+   Created in P5 (controversies taxonomy) 2026-07-15.

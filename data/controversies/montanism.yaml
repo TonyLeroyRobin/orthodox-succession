@@ -1,0 +1,30 @@
+id: controversy/montanism
+label: Montanism (the New Prophecy)
+description: >-
+  The prophetic-rigorist movement of Montanus, Prisca, and Maximilla in Phrygia, self-styled the New Prophecy; opposed by Apollinaris of Hierapolis and the Asian synods, later attracting Tertullian.
+variant_terms:
+- term: New Prophecy
+  note: >-
+    the movement's self-designation - recorded per the naming rule
+- term: Cataphrygian heresy
+  note: >-
+    the ancient heresiological label - recorded as a variant, not used for display
+span:
+  from:
+    value: '0157'
+    calendar: julian
+    precision: circa
+  to:
+    value: '0250'
+    calendar: julian
+    precision: circa
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. II, the Tertullian chapters; vol. I on the Asian opposition
+- ref: source/eusebius-ecclesiastical-history
+  reliability: scholarly
+  locator: HE 5.14-19
+status: unverified
+notes: >-
+   Created in P5 (controversies taxonomy) 2026-07-15.

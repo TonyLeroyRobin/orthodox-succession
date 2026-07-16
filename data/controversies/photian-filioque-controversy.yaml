@@ -1,0 +1,24 @@
+id: controversy/photian-filioque-controversy
+label: Photian controversy and the Filioque
+description: >-
+  The ninth-century conflict over the see of Constantinople (Photius and Ignatius), papal jurisdiction, and the interpolation of the Filioque into the creed - the councils of 869-870 and 879-880 receiving opposite receptions East and West; the Filioque question runs on into the medieval debates.
+span:
+  from:
+    value: '0858'
+    calendar: julian
+    precision: year
+  to:
+    value: '0880'
+    calendar: julian
+    precision: year
+    note: the Photian episode proper; the Filioque question continues into the Unionism records
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 4 (later volumes of the continuation) - locator to be confirmed
+- ref: source/kiminas-ecumenical-patriarchate
+  reliability: scholarly
+  locator: the Photius entries
+status: unverified
+notes: >-
+   Created in P5 (controversies taxonomy) 2026-07-15.

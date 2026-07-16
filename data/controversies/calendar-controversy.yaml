@@ -1,0 +1,28 @@
+id: controversy/calendar-controversy
+label: Calendar controversy
+description: >-
+  The disputes over the church calendar, from the sixteenth-century Constantinople synods declining the Gregorian reform to the 1923 congress and the partial adoption of the Revised Julian calendar, which divided Chalcedonian jurisdictions and produced the Old Calendarist separations.
+variant_terms:
+- term: Old Calendarism
+  note: >-
+    the separated movements rejecting the 1923 reform
+span:
+  from:
+    value: '1583'
+    calendar: julian
+    precision: year
+  to:
+    value: '1923'
+    calendar: julian
+    precision: year
+    note: from the first synodal responses to the Gregorian reform to the 1923 congress; consequences ongoing
+sources:
+- ref: source/kiminas-ecumenical-patriarchate
+  reliability: scholarly
+  locator: the 1923 congress entries
+- ref: source/runciman-great-church
+  reliability: scholarly
+  locator: the calendar-question background - locator to be confirmed
+status: unverified
+notes: >-
+   Created in P5 (controversies taxonomy) 2026-07-15.

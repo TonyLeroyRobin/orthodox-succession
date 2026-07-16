@@ -1,0 +1,24 @@
+id: controversy/phyletism
+label: Phyletism
+description: >-
+  The condemnation by the Constantinople council of 1872, occasioned by the Bulgarian exarchate question, of organizing the church along ethnic lines within the same territory; the underlying Bulgarian schism lasted until 1945.
+variant_terms:
+- term: Ethnophyletism
+  note: >-
+    the fuller Greek term
+span:
+  from:
+    value: '1870'
+    calendar: julian
+    precision: year
+  to:
+    value: '1945'
+    calendar: julian
+    precision: year
+sources:
+- ref: source/kiminas-ecumenical-patriarchate
+  reliability: scholarly
+  locator: the 1872 council and exarchate entries
+status: unverified
+notes: >-
+   Created in P5 (controversies taxonomy) 2026-07-15.

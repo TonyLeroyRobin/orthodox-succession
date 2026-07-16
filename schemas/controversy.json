@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orthodox-succession.org/schemas/controversy.json",
+  "title": "Controversy",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "label", "description", "sources", "status"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^controversy/[a-z0-9-]+$" },
+    "label": { "type": "string" },
+    "description": { "type": "string" },
+    "variant_terms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["term"],
+        "properties": {
+          "term": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "span": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "from": { "$ref": "defs.json#/$defs/date" },
+        "to": { "$ref": "defs.json#/$defs/date" }
+      }
+    },
+    "sources": { "$ref": "defs.json#/$defs/sources" },
+    "status": { "$ref": "defs.json#/$defs/status" },
+    "notes": { "type": "string" }
+  }
+}
