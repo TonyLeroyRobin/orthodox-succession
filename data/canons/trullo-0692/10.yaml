@@ -1,0 +1,18 @@
+id: canon/trullo-0692/10
+council: event/council/trullo-0692
+number: 10
+text: |-
+  A BISHOP, or presbyter, or deacon who receives usury, or what
+
+   is called hecatostoe, let him desist or be deposed.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 10
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

@@ -1,0 +1,26 @@
+id: canon/chalcedon-0451/15
+council: event/council/chalcedon-0451
+number: 15
+text: |-
+  A WOMAN shall not receive the laying on of hands as a deaconess
+
+  under forty years of age, and then only after searching examination.
+
+  And if, after she has had hands laid on her and has continued
+
+  for a time to minister, she shall despise the grace of God and
+
+  give herself in marriage, she shall be anathematized and the man
+
+  united to her.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, chalcedon 0451 canon 15
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

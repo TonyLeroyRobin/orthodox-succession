@@ -1,0 +1,24 @@
+id: canon/chalcedon-0451/24
+council: event/council/chalcedon-0451
+number: 24
+text: |-
+  MONASTERIES, which have once been consecrated with the consent
+
+  of the bishop, shall remain monasteries for ever, and the property
+
+  belonging to them shall be preserved, and they shall never again
+
+  become secular dwellings.And they who shall permit this to be
+
+  done shall be liable to ecclesiastical penalties.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, chalcedon 0451 canon 24
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

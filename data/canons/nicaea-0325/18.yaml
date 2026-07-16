@@ -1,0 +1,31 @@
+id: canon/nicaea-0325/18
+council: event/council/nicaea-0325
+number: 18
+text: |-
+  IT has come to the knowledge of the holy and great Synod that, in 
+  some districts and cities, the deacons administer the Eucharist to the 
+  presbyters, whereas neither canon nor custom permits that they who 
+  have no right to offer should give the Body of Christ to them that do 
+  offer. And this also has been made known, that certain deacons now 
+  touch the Eucharist even before the bishops. Let all such practices be 
+  utterly done away, and let the deacons remain within their own 
+  bounds, knowing that they are the ministers of the bishop and the 
+  inferiors of the presbyters. Let them receive the Eucharist according to 
+  their order, after the presbyters, and let either the bishop or the 
+  presbyter administer to them. Furthermore, let not the deacons sit 
+  among the presbyters, for that is contrary to canon and order. And if, 
+  after this decree, any one shall refuse to obey, let him be deposed from 
+  the diaconate.
+
+  [39]
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, nicaea 0325 canon 18
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

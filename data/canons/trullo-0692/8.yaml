@@ -1,0 +1,17 @@
+id: canon/trullo-0692/8
+council: event/council/trullo-0692
+number: 8
+text: |-
+  Since we desire that in every point the things which have been decreed by our holy fathers may also be established and confirmed, we hereby renew the canon which orders that synods of the bishops of each province be held every year where the bishop of the metropolis shall deem best. But since on account of the incursions of barbarians and certain other incidental causes, those who preside over the churches cannot hold synods twice a year, it seems right that by all means once a year — on account of ecclesiastical questions which are likely to arise — a synod of the aforesaid bishops should be holden in every province, between the holy feast of Easter and October, as has been said above, in the place which the Metropolitan shall have deemed most fitting. And let such bishops as do not attend, when they are at home in their own cities and are in good health, and free from all unavoidable and necessary business, be fraternally reproved.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 8
+  note: the Fordham transcription omits this canon's full text (only the Ancient
+    Epitome survives there); text taken from New Advent's copy of the same
+    public-domain translation - verify wording against the printed volume during
+    verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15; the Pedalion (Cummings) may be
+  cited by page for the received interpretation but its text is never copied
+  (in copyright).

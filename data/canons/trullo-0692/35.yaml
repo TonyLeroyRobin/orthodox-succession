@@ -1,0 +1,30 @@
+id: canon/trullo-0692/35
+council: event/council/trullo-0692
+number: 35
+text: |-
+  IT shall be lawful for no Metropolitan on the death of a bishop
+
+   of his province to appropriate or sell the private property of
+
+   the deceased, or that of the widowed church: but these are to
+
+   be in the custody of the clergy of the diocese over which he presided
+
+   until the election of another bishop, unless in the said church
+
+   there are no clergymen left. For then the Metropolitan shall protect
+
+   the property without diminution, handing over everything to the
+
+   bishop when he is appointed.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 35
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

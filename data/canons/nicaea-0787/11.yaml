@@ -1,0 +1,42 @@
+id: canon/nicaea-0787/11
+council: event/council/nicaea-0787
+number: 11
+text: |-
+  That OEconomi ought to be in the Episcopal palaces and in the
+
+   Monasteries. 
+
+   SINCE we are under obligation to guard all the divine canons,
+
+   we ought by all means to maintain in its integrity that one which
+
+   says oeconomi are to be in each church. If the metropolitan appoints
+
+   in his Church an oeconomus, he does well; but if he does not,
+
+   it is permitted to the Bishop of Constantinople by his own (
+   idias
+   )
+
+   authority to choose an oeconomus for the Church of the Metropolitan.
+
+   A like authority belongs to the 
+
+   563 
+
+   metropolitans, if the Bishops who are subject to them do not wish
+
+   to appoint oeconomi in their churches. The same rule is also to
+
+   be observed with respect to monasteries.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, nicaea 0787 canon 11
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

@@ -1,0 +1,23 @@
+id: canon/nicaea-0325/15
+council: event/council/nicaea-0325
+number: 15
+text: |-
+  ON account of the great disturbance and discords that occur, it is 
+  decreed that the custom prevailing in certain places contrary to the 
+  Canon, must wholly be done away; so that neither bishop, presbyter, 
+  nor deacon shall pass from city to city. And if any one, after this 
+  decree of the holy and great Synod, shall attempt any such thing, or 
+  continue in any such course, his proceedings shall be utterly void, and 
+  he shall be restored to the Church for which he was ordained bishop or 
+  presbyter.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, nicaea 0325 canon 15
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

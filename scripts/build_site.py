@@ -685,6 +685,16 @@ def main():
 
     # ---------------- council pages ----------------
     works_by_id = {w["id"]: w for w in works}
+    # Q5: canons grouped by council
+    canons_by_council = defaultdict(list)
+    for r in by_kind["canon"]:
+        canons_by_council[r["data"].get("council")].append(r["data"])
+    canon_titles = {r["data"]["id"]: r["data"] for r in by_kind["canon"]}
+
+    def canon_anchor(cid):
+        suffix, num = cid.rsplit("/", 2)[-2:]
+        return f"{entity_url('event/council/' + suffix)}#canon-{num}"
+
     for ev in councils:
         rid = ev["id"]
         url = entity_url(rid)
@@ -731,6 +741,35 @@ def main():
                 for w in rel_works)
             rw_html = (f'<div class="panel"><h2>Related works</h2>'
                        f'<ul>{rw_lines}</ul></div>')
+        # Q5: render this council's canons (full public-domain text)
+        cns = sorted(canons_by_council.get(rid, []),
+                     key=lambda c: c.get("number", 0))
+        canons_html = ""
+        if cns:
+            body = ""
+            for c in cns:
+                cites = ""
+                if c.get("cites"):
+                    cites = ("<p class=note>Cites: " + " · ".join(
+                        f'<a href="{canon_anchor(x)}">'
+                        f'{esc(x.split("/")[1].replace("-", " "))} '
+                        f'canon {esc(x.split("/")[2])}</a>'
+                        for x in c["cites"]) + "</p>")
+                cnote = (f"<p class=note>{esc(c['note'])}</p>"
+                         if c.get("note") else "")
+                body += (f'<details id="canon-{c["number"]}">'
+                         f'<summary>Canon {c["number"]} '
+                         f'{badge(c.get("status"))}</summary>'
+                         f'<blockquote>{esc(c.get("text", ""))}</blockquote>'
+                         f'{cnote}{cites}'
+                         f'{citations_html(c.get("sources"), sources_by_id)}'
+                         f'</details>')
+            canons_html = (
+                f'<div class="panel"><h2>Canons ({len(cns)})</h2>'
+                f'<p class=note>Text: Percival&#39;s public-domain translation '
+                f'(NPNF II.14) — the received interpretation may cite the '
+                f'Pedalion by page, but its in-copyright text is never '
+                f'reproduced.</p>{body}</div>')
         jsonld = {"@context": "https://schema.org", "@type": "Event",
                   "name": ev.get("title"), "identifier": rid}
         content = f"""<h1>{esc(ev.get('title'))} {badge(ev.get('status'))}</h1>
@@ -740,7 +779,7 @@ def main():
 {recp_html}{recog_html}
 {f'<div class="panel"><h2>Outcomes</h2><ul>{outcomes}</ul></div>' if outcomes else ''}
 <div class="panel"><h2>Participants</h2>{ptable}</div>
-{rw_html}
+{canons_html}{rw_html}
 <div class="panel"><h2>Record</h2>{citations_html(ev.get('sources'), sources_by_id)}
 {f'<p class=note>{esc(ev.get("notes"))}</p>' if ev.get('notes') else ''}</div>"""
         write(OUT / url.strip("/") / "index.html",

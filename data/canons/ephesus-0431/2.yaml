@@ -1,0 +1,26 @@
+id: canon/ephesus-0431/2
+council: event/council/ephesus-0431
+number: 2
+text: |-
+  IF any provincial bishops were not present at the holy Synod
+
+   and have joined or attempted to join the apostacy; or if, after
+
+   subscribing the deposition of Nestorius, they went back into the
+
+   assembly of apostates; these men, according to the decree of the
+
+   holy Synod, are to be deposed from the priesthood and degraded
+
+   from their rank.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, ephesus 0431 canon 2
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

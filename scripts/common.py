@@ -33,6 +33,7 @@ KINDS = {
     "source": ("sources", "source.json", "flat"),
     "relationship": ("relationships", "relationship.json", "flat"),
     "controversy": ("controversies", "controversy.json", "flat"),
+    "canon": ("canons", "canon.json", "jurisdiction"),
 }
 
 

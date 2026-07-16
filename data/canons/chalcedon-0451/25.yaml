@@ -1,0 +1,30 @@
+id: canon/chalcedon-0451/25
+council: event/council/chalcedon-0451
+number: 25
+text: |-
+  FORASMUCH as certain of the metropolitans, as we have heard,
+
+  neglect the flocks committed to them, and delay the ordinations
+
+  of bishops the holy Synod has decided that the ordinations of
+
+  bishops shall take place within three months, unless an inevitable
+
+  necessity should some time require the term of delay to be prolonged.
+
+  And if he shall not do this, he shall be liable to ecclesiastical
+
+  penalties, and the income of the widowed church shall be kept
+
+  safe by the steward of the same Church.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, chalcedon 0451 canon 25
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

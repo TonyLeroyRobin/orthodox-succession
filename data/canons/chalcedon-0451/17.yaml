@@ -1,0 +1,38 @@
+id: canon/chalcedon-0451/17
+council: event/council/chalcedon-0451
+number: 17
+text: |-
+  Outlying or rural parishes shall in every province remain
+
+  subject to the bishops who now have jurisdiction over them, particularly
+
+  if the bishops have peaceably and continuously governed them for
+
+  the space of thirty years. But if within thirty years there has
+
+  been, or is, any dispute concerning them, it is lawful for those
+
+  who hold themselves aggrieved to bring their cause before the
+
+  synod of the province. And if any one be wronged by his metropolitan,
+
+  let the matter be decided by the exarch of the diocese or by the
+
+  throne of Constantinople, as aforesaid. And if any city has been,
+
+  or shall hereafter be newly erected by imperial authority, let
+
+  the order of the ecclesiastical parishes follow the political
+
+  and municipal example.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, chalcedon 0451 canon 17
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

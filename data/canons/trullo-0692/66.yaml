@@ -1,0 +1,32 @@
+id: canon/trullo-0692/66
+council: event/council/trullo-0692
+number: 66
+text: |-
+  FROM the holy day of the Resurrection of Christ our God until
+
+   the next Lord's day, for a whole week, in the holy churches the
+
+   faithful ought to be free from labour, rejoicing in Christ with
+
+   psalms and hymns and spiritual songs; and celebrating the feast,
+
+   and applying their minds to the reading of the holy Scriptures,
+
+   and delighting in the Holy Mysteries; for thus shall we be exalted
+
+   with Christ and together with him be raised up. Therefore, on
+
+   the aforesaid days there must not be any horse races or any public
+
+   spectacle.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 66
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

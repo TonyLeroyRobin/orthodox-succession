@@ -1,0 +1,42 @@
+id: canon/ephesus-0431/1
+council: event/council/ephesus-0431
+number: 1
+text: |-
+  WHEREAS it is needful that they who were detained from the
+
+   holy Synod and remained in their own district or city, for any
+
+   reason, ecclesiastical or personal, should not be ignorant of
+
+   the matters which were thereby decreed; we, therefore, notify
+
+   your holiness and charity that if any Metropolitan of a Province,
+
+   forsaking the holy and Ecumenical Synod, has joined the assembly
+
+   of the apostates, or shall join the same hereafter; or, if he
+
+   has adopted, or shall hereafter adopt, the doctrines of Celestius,
+
+   he has no power in any way to do anything in opposition to the
+
+   bishops of the province, since he is already cast forth from all
+
+   ecclesiastical communion and made incapable of exercising his
+
+   ministry; but he shall himself be subject in all things to those
+
+   very bishops of the province and to the neighbouring orthodox
+
+   metropolitans, and shah be degraded from his episcopal rank.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, ephesus 0431 canon 1
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

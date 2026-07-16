@@ -1,0 +1,28 @@
+id: canon/ephesus-0431/3
+council: event/council/ephesus-0431
+number: 3
+text: |-
+  IF any of the city or country clergy have been inhibited by
+
+   Nestorius or his followers from the exercise of the priesthood,
+
+   on account of their orthodoxy, we have declared it just that these
+
+   should be restored to their proper rank. And in general we forbid
+
+   all the clergy who adhere to the Orthodox and Ecumenical Synod
+
+   in any way to submit to the bishops who have already apostatized
+
+   or shall hereafter apostatize.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, ephesus 0431 canon 3
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

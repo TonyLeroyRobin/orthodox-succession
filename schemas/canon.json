@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orthodox-succession.org/schemas/canon.json",
+  "title": "Canon",
+  "description": "Q5: a single conciliar canon. Full text ONLY from public-domain translations (Percival / NPNF II.14); the Pedalion's in-copyright English is cited by page for interpretation, never copied.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "council", "number", "text", "sources", "status"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^canon/[a-z0-9-]+/[0-9]+$" },
+    "council": { "$ref": "defs.json#/$defs/eventId" },
+    "number": { "type": "integer", "minimum": 1 },
+    "text": { "type": "string", "minLength": 20 },
+    "note": { "type": "string" },
+    "cites": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^canon/[a-z0-9-]+/[0-9]+$" }
+    },
+    "sources": { "$ref": "defs.json#/$defs/sources" },
+    "status": { "$ref": "defs.json#/$defs/status" },
+    "notes": { "type": "string" }
+  }
+}

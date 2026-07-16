@@ -1,0 +1,25 @@
+id: canon/nicaea-0325/6
+council: event/council/nicaea-0325
+number: 6
+text: |-
+  LET the ancient customs in Egypt, Libya and Pentapolis prevail, that 
+  the Bishop of Alexandria have jurisdiction in all these, since the like is 
+  customary for the Bishop of Rome also. Likewise in Antioch and the 
+  other provinces, let the Churches retain their privileges. And this is to 
+  be universally understood, that if any one be made bishop without the 
+  consent of the Metropolitan, the great Synod has declared that such a 
+  man ought not to be a bishop. If, however, two or three bishops shall 
+  from natural love of contradiction, oppose the common suffrage of the 
+  rest, it being reasonable and in accordance with the ecclesiastical law, 
+  then let the choice of the majority prevail.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, nicaea 0325 canon 6
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

@@ -1,0 +1,40 @@
+id: canon/trullo-0692/65
+council: event/council/trullo-0692
+number: 65
+text: |-
+  THE fires which are lighted on the new moons by some before
+
+   their shops and houses, upon which (according to a certain ancient
+
+   custom) they are wont foolishly and crazily to leap, we order
+
+   henceforth to cease. Therefore, whosoever shall do such a thing,
+
+   if he be a cleric, let him be deposed; but if he be a layman,
+
+   let him be cut off. 
+
+   395 
+
+   For it is written in the Fourth Book of the Kings "And Manasses
+
+   built an altar to the whole host of heaven, in the two courts
+
+   of the Lord, and made his sons to pass through the fire, he used
+
+   lots and augurs and divinations by birds and made ventriloquists
+
+   [or pythons] and multiplied diviners, that he might do evil
+
+   before the Lord and provoke him to anger."
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 65
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

@@ -1,0 +1,24 @@
+id: canon/chalcedon-0451/7
+council: event/council/chalcedon-0451
+number: 7
+text: |-
+  WE have decreed that those who have once been enrolled among
+
+  the clergy, or have been made monks, shall accept neither a military
+
+  charge nor any secular dignity; and if they shall presume to do
+
+  so and not repent in such wise as to turn again to that which
+
+  they had first chosen for the love of God, they shall be anathematized.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, chalcedon 0451 canon 7
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

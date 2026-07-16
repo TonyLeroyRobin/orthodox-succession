@@ -1,0 +1,24 @@
+id: canon/trullo-0692/47
+council: event/council/trullo-0692
+number: 47
+text: |-
+  No woman may sleep in a monastery of men, nor any man in a
+
+   monastery of women. For it behoves the faithful to be without
+
+   offence and to give no scandal, and to order their lives decorously
+
+   and honestly and acceptably to God. But if any one shall have
+
+   done this, whether he be cleric or layman, let him be cut off.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 47
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

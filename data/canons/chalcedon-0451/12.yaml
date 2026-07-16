@@ -1,0 +1,37 @@
+id: canon/chalcedon-0451/12
+council: event/council/chalcedon-0451
+number: 12
+text: |-
+  IT has come to our knowledge that certain persons, contrary
+
+  to the laws of the Church, having had recourse to secular powers,
+
+  have by means of imperial rescripts divided one Province into
+
+  two, so that there are consequently two metropolitans in one province;
+
+  therefore the holy Synod has decreed that for the future no such
+
+  thing shall be at-
+   277 
+
+   tempted by a bishop, since he who shall undertake it shall be
+
+   degraded from his rank. But the cities which have already been
+
+   honoured by means of imperial letters with the name of metropolis,
+
+   and the bishops in charge of them, shall take the bare title,
+
+   all metropolitan rights being preserved to the true Metropolis.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, chalcedon 0451 canon 12
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

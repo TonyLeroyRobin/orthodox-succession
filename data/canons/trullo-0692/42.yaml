@@ -1,0 +1,34 @@
+id: canon/trullo-0692/42
+council: event/council/trullo-0692
+number: 42
+text: |-
+  THOSE who are called Eremites and are clothed in black robes,
+
+   and with long hair go about cities and associate with the worldly
+
+   both men and women and bring odium upon their profession--we decree
+
+   that if they will receive the habit of other monks and wear their
+
+   hair cut short, they may be shut up in a monastery and numbered
+
+   among the brothers; but if they do not choose to do this, they
+
+   are to be expelled from the cities and forced to live in the desert
+
+   (
+   erhmous
+   ) from whence also they derive
+
+   their name.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 42
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

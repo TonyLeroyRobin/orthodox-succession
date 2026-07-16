@@ -1,0 +1,30 @@
+id: canon/trullo-0692/6
+council: event/council/trullo-0692
+number: 6
+text: |-
+  SINCE it is declared in the apostolic canons that of those
+
+   who are advanced to the clergy unmarried, only lectors and cantors
+
+   are able to marry; we also, maintaining this, determine that henceforth
+
+   it is in nowise lawful for any subdeacon, deacon or presbyter
+
+   after his ordination to contract matrimony but if he shall have
+
+   dared to do so, let him be deposed. And if any of those who enter
+
+   the clergy, wishes to be joined to a wife in lawful marriage before
+
+   he is ordained subdeacon, deacon, or presbyter, let it be done.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 6
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

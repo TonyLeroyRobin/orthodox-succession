@@ -1,0 +1,32 @@
+id: canon/nicaea-0787/17
+council: event/council/nicaea-0787
+number: 17
+text: |-
+  That he shall not be allowed to begin the building of an oratory,
+
+   who has not the means wherewith to finish it. 
+
+   CERTAIN monks having left their monasteries because they desired
+
+   to rule, and, unwilling to obey, are undertaking to build oratories,
+
+   but have not the means to finish them. Now whoever shall undertake
+
+   to do anything of this sort, let him be forbidden by the bishop
+
+   of the place. But if he have the means wherewith to finish, let
+
+   what he has designed be carried on to completion. The same rule
+
+   is to be observed with regard to laymen and clerics.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, nicaea 0787 canon 17
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

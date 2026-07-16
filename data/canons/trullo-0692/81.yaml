@@ -1,0 +1,38 @@
+id: canon/trullo-0692/81
+council: event/council/trullo-0692
+number: 81
+text: |-
+  WHEREAS we have heard that in some places in the hymn Trisagion
+
+   there is added after "Holy and Immortal," "Who
+
+   was crucified for us, have mercy upon us," and since this
+
+   as being alien to piety was by the ancient and holy Fathers cast
+
+   out of the hymn, as also the violent heretics who inserted these
+
+   new words were cast out of the Church; we also, confirming the
+
+   things which were formerly piously established by our holy Fathers,
+
+   anathematize those who after this present decree allow in church
+
+   this or any other addition to the most sacred hymn; but if indeed
+
+   he who has transgressed is of the sacerdotal order, we command
+
+   that he be deprived of his priestly dignity, but if he be a layman
+
+   or monk let him be cut off.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 81
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

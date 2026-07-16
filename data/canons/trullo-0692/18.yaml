@@ -1,0 +1,30 @@
+id: canon/trullo-0692/18
+council: event/council/trullo-0692
+number: 18
+text: |-
+  THOSE clerics who in consequence of a barbaric incursion or
+
+   on account of any other circumstance have gone abroad, we order
+
+   to return again to their churches after the cause has passed away,
+
+   or when the incursion of the barbarians is at an end. Nor are
+
+   they to leave them for long without cause. If anyone shall not
+
+   have returned according to the direction of this present canon--let
+
+   him be cut off until he shall return to his own church. And the
+
+   same shall be the punishment of the bishop who received him.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 18
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

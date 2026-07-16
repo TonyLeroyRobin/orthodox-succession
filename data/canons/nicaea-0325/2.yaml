@@ -1,0 +1,30 @@
+id: canon/nicaea-0325/2
+council: event/council/nicaea-0325
+number: 2
+text: |-
+  FORASMUCH as, either from necessity, or through the urgency of 
+  individuals, many things have been done contrary to the Ecclesiastical 
+  canon, so that men just converted from heathenism to the faith, and 
+  who have been instructed but a little while, are straightway brought to 
+  the spiritual layer, and as soon as they have been baptized, are 
+  advanced to the episcopate or the presbyterate, it has seemed right to 
+  us that for the time to come no such thing shall be done. For to the 
+  catechumen himself there is need of time and of a longer trial after 
+  baptism. For the apostolical saying is clear, "Not a novice; lest, being 
+  lifted up with pride, he fall into condemnation and the snare of the 
+  devil." But if, as time goes on, any sensual sin should be found out 
+  about the person, and he should be convicted by two or three 
+  witnesses, let him cease from the clerical office. And whoso shall 
+  transgress these[enactments] will imperil his own clerical position, as 
+  a person who presumes to disobey fie great Synod.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, nicaea 0325 canon 2
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

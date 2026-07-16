@@ -1,0 +1,26 @@
+id: canon/trullo-0692/67
+council: event/council/trullo-0692
+number: 67
+text: |-
+  THE divine Scripture commands us to abstain from blood, from
+
+   things strangled, and from fornication. Those therefore who on
+
+   account of a dainty stomach prepare by any art for food the blood
+
+   of any animal, and so eat it, we punish suitably. If anyone henceforth
+
+   venture to eat in any way the blood of an animal, if he be a clergyman,
+
+   let him be deposed; if a layman, let him be cut off.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 67
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

@@ -1,0 +1,30 @@
+id: canon/trullo-0692/23
+council: event/council/trullo-0692
+number: 23
+text: |-
+  THAT no one, whether bishop, presbyter, or deacon, when giving
+
+   the immaculate Communion, shall exact from him who communicates
+
+   fees of any kind. For grace is not to be sold, nor do we give
+
+   the sanctification of the Holy Spirit for money; but to those
+
+   who are worthy of the gift it is to be communicated in all simplicity.
+
+   But if any of those enrolled among the clergy make demands on
+
+   those he communicates let him be deposed, as an imitator of the
+
+   error and wickedness of Simon.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 23
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

@@ -1,0 +1,22 @@
+id: canon/trullo-0692/69
+council: event/council/trullo-0692
+number: 69
+text: |-
+  IT is not permitted to a layman to enter the sanctuary (Holy
+
+   Altar, Gk.), though, in accordance with a certain ancient tradition,
+
+   the imperial power and authority is by no means prohibited from
+
+   this when he wishes to offer his gifts to the Creator.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 69
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

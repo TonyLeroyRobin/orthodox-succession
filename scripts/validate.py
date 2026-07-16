@@ -181,6 +181,11 @@ def iter_refs(kind, data):
         for a in data.get("affected") or []:
             yield ("affected", a)
 
+    if kind == "canon":
+        yield ("council", data.get("council"))
+        for c in data.get("cites") or []:
+            yield ("cites", c)
+
     # P5: controversy tags on Event, Work, and Participation
     if kind in ("event", "work", "participation"):
         for tag in data.get("controversies") or []:

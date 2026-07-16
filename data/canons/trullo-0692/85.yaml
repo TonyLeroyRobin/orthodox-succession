@@ -1,0 +1,30 @@
+id: canon/trullo-0692/85
+council: event/council/trullo-0692
+number: 85
+text: |-
+  WE have received from the Scriptures that in the mouth of
+
+   two or three witnesses every word shall be established. Therefore
+
+   we decree that slaves who are manumitted by their masters in the
+
+   presence of three witnesses shall enjoy that honour; for they
+
+   being present at the time will add strength and stability to the
+
+   liberty given, and they will bring it to pass that faith will
+
+   be kept in those things which they now witness were done in their
+
+   presence.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 85
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

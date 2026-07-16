@@ -1,0 +1,20 @@
+id: canon/trullo-0692/52
+council: event/council/trullo-0692
+number: 52
+text: |-
+  ON all days of the holy fast of Lent, except on the Sabbath,
+
+   the Lord's day and the holy day of the Annunciation, the Liturgy
+
+   of the Presanctified is to be said.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 52
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

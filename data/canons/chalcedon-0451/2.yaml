@@ -1,0 +1,38 @@
+id: canon/chalcedon-0451/2
+council: event/council/chalcedon-0451
+number: 2
+text: |-
+  IF any Bishop should ordain for money, and put to sale a grace
+
+  which cannot be sold, and for money ordain a bishop, or chorepiscopus,
+
+  or presbyters, or deacons, or any other of those who are counted
+
+  among the clergy; or if through lust of gain he should nominate
+
+  for money a steward, or advocate, or prosmonarius, or any one
+
+  whatever who is on the roll of the Church, let him who is convicted
+
+  of this forfeit his own rank; and let him who is ordained be nothing
+
+  profited by the purchased ordination or promotion; but let him
+
+  be removed from the dignity or charge he has obtained for money.
+
+  And if any one should be found negotiating such shameful and unlawful
+
+  transactions, let him also, if he is a clergyman, be deposed from
+
+  his rank, and if he is a layman or monk, let him be anathematized.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, chalcedon 0451 canon 2
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

@@ -1,0 +1,44 @@
+id: canon/chalcedon-0451/3
+council: event/council/chalcedon-0451
+number: 3
+text: |-
+  IT has come to [the knowledge of] the holy Synod that certain
+
+   of those who are enrolled among the clergy have, through lust
+
+   of gain, become hirers of other men's possessions, and make contracts
+
+   pertaining to secular affairs, lightly esteeming the service of
+
+   God, and slip into the houses of secular persons, whose property
+
+   they undertake through covetousness to manage. Wherefore the great
+
+   and holy Synod decrees that henceforth no bishop, clergyman, nor
+
+   monk shall hire possessions, or engage in business, or occupy
+
+   himself in worldly engagements, unless he shall be called by the
+
+   law to the guardianship of minors, from which there is no escape;
+
+   or unless the bishop of the city shall commit to him the care
+
+   of ecclesiastical business, or of unprovided orphans or widows
+
+   and of persons who stand especially in need of the Church's help,
+
+   through the fear of God. And if any one shall hereafter transgress
+
+   these decrees, he shall be subjected to ecclesiastical penalties.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, chalcedon 0451 canon 3
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

@@ -1,0 +1,52 @@
+id: canon/chalcedon-0451/4
+council: event/council/chalcedon-0451
+number: 4
+text: |-
+  LET those who truly and sincerely lead the monastic life be
+
+  counted worthy of becoming honour; but, forasmuch as certain persons
+
+  using the pretext of monasticism bring confusion both upon the
+
+  churches and into political affairs by going about promiscuously
+
+  in the cities, and at the same time seeking to establish Monasteries
+
+  for themselves; it is decreed that no one anywhere build or found
+
+  a monastery or oratory contrary to the will of the bishop of the
+
+  city; and that the monks in every city and district shall be subject
+
+  to the bishop, and embrace a quiet course of life, and give themselves
+
+  only to fasting and prayer, remaining permanently in the places
+
+  in which they were set apart; and they shall meddle neither in
+
+  ecclesiastical nor in secular affairs, nor leave their own monasteries
+
+  to take part in such; unless, indeed, they should at any time
+
+  through urgent necessity be appointed thereto by the bishop of
+
+  the city. And no slave shall be received into any monastery to
+
+  become a monk against the will of his master. And if any one shall
+
+  transgress this our judgment, we have decreed that he shall be
+
+  excommunicated, that the name of God be not blasphemed. But the
+
+  bishop of the city must make the needful provision for the monasteries.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, chalcedon 0451 canon 4
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

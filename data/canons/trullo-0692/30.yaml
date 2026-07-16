@@ -1,0 +1,34 @@
+id: canon/trullo-0692/30
+council: event/council/trullo-0692
+number: 30
+text: |-
+  WILLING to do all things for the edification of the Church,
+
+   we have determined to take care even of priests who are in barbarian
+
+   churches. Wherefore if they think that they ought to exceed the
+
+   Apostolic Canon concerning the not putting away of a wife on the
+
+   pretext of piety and religion, and to do beyond that which is
+
+   commanded, and therefore abstain by agreement with their wives
+
+   from cohabitation, we decree they ought no longer to live with
+
+   them in any way, so that hereby they may afford us a perfect demonstration
+
+   of their promise. But we have conceded this to them on no other
+
+   ground than their narrowness, and foreign and unsettled manners.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 30
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

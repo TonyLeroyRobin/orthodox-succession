@@ -1,0 +1,26 @@
+id: canon/nicaea-0787/21
+council: event/council/nicaea-0787
+number: 21
+text: |-
+  That monks are not to leave their monasteries and go into others. 
+
+   A MONK or nun ought not to leave the monastery to which he
+
+   or she is attached, and betake themselves to others. But if one
+
+   do this, he ought to be received as a guest. It is not however
+
+   proper that he be made a member of the monastery, without the
+
+   consent of his hegumenos.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, nicaea 0787 canon 21
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

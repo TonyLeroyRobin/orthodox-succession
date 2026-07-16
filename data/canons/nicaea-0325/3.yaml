@@ -1,0 +1,19 @@
+id: canon/nicaea-0325/3
+council: event/council/nicaea-0325
+number: 3
+text: |-
+  THE great Synod has stringently forbidden any bishop, presbyter, 
+  deacon, or any one of the clergy whatever, to have a subintroducta 
+  dwelling with him, except only a mother, or sister, or aunt, or such 
+  persons only as are beyond all suspicion.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, nicaea 0325 canon 3
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

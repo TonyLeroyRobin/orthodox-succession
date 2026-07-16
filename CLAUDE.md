@@ -71,6 +71,12 @@ Read it before making structural changes. These rules bind every session.
   `docs/REPOSITORIES.md` (warn; extending the list needs maintainer approval).
   LINK, NEVER RE-HOST. `influenced` relationships require a scholarly source
   (error) and are never inferred.
+- **Canons (Q5):** `data/canons/<council-suffix>/<n>.yaml` carry FULL canon
+  text — the ONE carve-out from the no-re-hosting rule, and ONLY from
+  public-domain translations (Percival / NPNF II.14). The Pedalion's English
+  (Cummings 1957) is in copyright: cite it by page for the received
+  interpretation, quote at most brief phrases, never copy its text — even if
+  provided as a reference PDF. Books and treatises remain link-only.
 
 ## Source hierarchy
 

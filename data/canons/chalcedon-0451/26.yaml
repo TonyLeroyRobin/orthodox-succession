@@ -1,0 +1,32 @@
+id: canon/chalcedon-0451/26
+council: event/council/chalcedon-0451
+number: 26
+text: |-
+  FORASMUCH as we have heard that in certain churches the bishops
+
+  managed the church-business without stewards, it has seemed good
+
+  that every church having a bishop shall have also a steward from
+
+  among its own clergy, who shall manage the church business under
+
+  the sanction of his own bishop; that so the administration of
+
+  the church may not be without a witness; and that thus the goods
+
+  of the church may not be squandered, nor reproach be brought upon
+
+  the priesthood; and if he [i.e., the Bishop] will not do this,
+
+  he shall be subjected to the divine canons.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, chalcedon 0451 canon 26
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

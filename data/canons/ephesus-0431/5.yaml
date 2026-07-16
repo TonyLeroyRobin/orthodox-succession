@@ -1,0 +1,26 @@
+id: canon/ephesus-0431/5
+council: event/council/ephesus-0431
+number: 5
+text: |-
+  IF any have been condemned for evil practices by the holy Synod,
+
+   or by their own bishops; and if, with his usual lack of discrimination,
+
+   Nestorius (or his followers) has attempted, or shall hereafter
+
+   attempt, uncanonically to restore such persons to communion and
+
+   to their former rank, we have declared that they shall not be
+
+   profited thereby, but shall remain deposed nevertheless.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, ephesus 0431 canon 5
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

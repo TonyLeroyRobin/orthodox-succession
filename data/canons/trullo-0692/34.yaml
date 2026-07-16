@@ -1,0 +1,28 @@
+id: canon/trullo-0692/34
+council: event/council/trullo-0692
+number: 34
+text: |-
+  BUT in future, since the priestly canon openly sets this forth,
+
+   that the crime of conspiracy or secret society is forbidden by
+
+   external laws, but much more ought it to be prohibited in the
+
+   Church; we also hasten to observe that if any clerics or monks
+
+   are found either conspiring or entering secret societies, or devising
+
+   anything against bishops or clergymen, they shall be altogether
+
+   deprived of their rank.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 34
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

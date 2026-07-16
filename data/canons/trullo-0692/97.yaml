@@ -1,0 +1,28 @@
+id: canon/trullo-0692/97
+council: event/council/trullo-0692
+number: 97
+text: |-
+  THOSE who have commerce with a wife or in any other manner
+
+   without regard thereto make sacred places common, and treat them
+
+   with contempt and thus remain in them, we order all such to be
+
+   expelled, even from the dwellings of the catechumens which are
+
+   in the venerable temples. And if any one shall not observe these
+
+   directions, if he be a cleric let him be deposed, but if a layman
+
+   let him be cut off.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 97
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

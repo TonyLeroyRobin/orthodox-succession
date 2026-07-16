@@ -1,0 +1,28 @@
+id: canon/chalcedon-0451/8
+council: event/council/chalcedon-0451
+number: 8
+text: |-
+  LET the clergy of the poor-houses, monasteries, and martyries
+
+   remain under the authority of the bishops in every city according
+
+   to the tradition of the holy Fathers; and let no one arrogantly
+
+   cast off the rule of his own bishop; and if any shall contravene
+
+   this canon in any way whatever, and will not be subject to their
+
+   own bishop, if they be clergy, let them be subjected to canonical
+
+   censure, and if they be monks or laymen, let them be excommunicated.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, chalcedon 0451 canon 8
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

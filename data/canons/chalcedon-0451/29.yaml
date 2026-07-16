@@ -1,0 +1,54 @@
+id: canon/chalcedon-0451/29
+council: event/council/chalcedon-0451
+number: 29
+text: |-
+  It is sacrilege to degrade a bishop to the rank of a presbyter;
+
+   but, if they are for just cause removed from episcopal functions,
+
+   neither ought they to have the position of a Presbyter; and if
+
+   they have been displaced without any charge, they shall be restored
+
+   to their episcopal dignity. 
+
+   And Anatolius, the most reverend Archbishop of Constantinople,
+
+   said: If those who are alleged to have been removed from the episcopal
+
+   dignity to the order of presbyter, have indeed been condemned
+
+   for any sufficient causes, clearly they are not worthy of the
+
+   honour of a presbyter. But if they have been forced down into
+
+   the lower rank without just cause, they are worthy, if they appear
+
+   guiltless, to receive again both the dignity and priesthood of
+
+   the Episcopate. 
+
+   And all the most reverend Bishops cried out: 
+
+   The judgment of the Fathers is right. We all say the same.The
+
+   Fathers have righteously decided. Let the sentence of the Archbishops
+
+   prevail. 
+
+   And the most magnificent and glorious judges said: 
+
+   Let the pleasure of the Holy Synod be established for all
+
+   time.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, chalcedon 0451 canon 29
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

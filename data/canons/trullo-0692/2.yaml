@@ -1,0 +1,115 @@
+id: canon/trullo-0692/2
+council: event/council/trullo-0692
+number: 2
+text: |-
+  IT has also seemed good to this holy Council, that the eighty-five
+
+   canons, received and ratified by the holy and blessed Fathers
+
+   before us, and also handed down to us in the name of the holy
+
+   and glorious Apostles should from this time forth remain firm
+
+   and unshaken for the cure of souls and the healing of disorders.
+
+   And in these canons we are bidden to receive the Constitutions
+
+   of the Holy Apostles [written] by Clement. But formerly through
+
+   the agency of those who erred from the faith certain adulterous
+
+   matter was introduced, clean contrary to piety, for the polluting
+
+   of the Church, which obscures the elegance and beauty of the divine
+
+   decrees in their present form. We therefore reject these Constitutions
+
+   so as the better to make sure of the edification and security
+
+   of the most Christian flock; by no means admitting the offspring
+
+   of heretical error, and cleaving to the pure and perfect doctrine
+
+   of the Apostles. But we set our seal likewise upon all the other
+
+   holy canons set forth by our holy and blessed Fathers, that is,
+
+   by the 318 holy God-bearing Fathers assembled at Nice, and those
+
+   at Ancyra, further those at Neocaesarea and likewise those at
+
+   Gangra, and besides, those at Antioch in Syria: those too at Laodicea
+
+   in Phrygia: and likewise the 150 who assembled in this heaven-protected
+
+   royal city: and the 200 who assembled the first time in the metropolis
+
+   of the Ephesians, and the 630 holy and blessed Fathers at Chalcedon.
+
+   In like manner those of Sardica, and those of Carthage: those
+
+   also who again assembled in this heaven-protected royal city under
+
+   its bishop Nectarins and Theophilus Archbishop of Alexandria.
+
+   Likewise too the Canons [i.e. the decretal letters] of Dionysius,
+
+   formerly Archbishop of the great city of Alexandria; and of Peter,
+
+   Archbishop of Alexandria and Martyr; of Gregory the Wonder-worker,
+
+   Bishop of Neocaesarea; of Athanasius, Archbishop of Alexandria;
+
+   of Basil, Archbishop of Caesarea in Cappadocia; of Gregory, Bishop
+
+   of Nyssa; of Gregory Theologus; of Amphilochius of Iconium; of
+
+   Timothy, Archbishop of Alexandria; of Theophilus, Archbishop of
+
+   the same great city of Alexandria; of Cyril, Archbishop of the
+
+   same Alexandria; of Gennadius, Patriarch of this heaven-protected
+
+   royal city. Moreover the Canon set forth by Cyprian, Archbishop
+
+   of the country of the Africans and Martyr, and by the Synod under
+
+   him, which has been kept only in the country of the aforesaid
+
+   Bishops, according to the custom delivered down to them. And that
+
+   no one be allowed to transgress or disregard the aforesaid canons,
+
+   or to receive others beside them, supposititiously set forth by
+
+   certain who have attempted to make a traffic of the truth. But
+
+   should any one be convicted of innovating upon, or attempting
+
+   to overturn, any of the afore-mentioned canons, he shall be subject
+
+   to receive the penalty which that canon imposes, and to be cured
+
+   by it of his transgression.
+note: The corpus-reception canon - it enumerates and receives the 85 Apostolic
+  Canons, the canons of the ecumenical councils, the local councils (Ancyra,
+  Neocaesarea, Gangra, Antioch, Laodicea, Sardica, Carthage, Constantinople
+  394), and the canonical Fathers. Canon-level cites are asserted only for
+  corpora present in this database; the local-council and patristic canons are
+  an open population task (coverage stated in the Q5 report).
+cites:
+- canon/nicaea-0325/1
+- canon/constantinople-0381/1
+- canon/ephesus-0431/1
+- canon/chalcedon-0451/1
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 2
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

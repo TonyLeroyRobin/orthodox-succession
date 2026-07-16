@@ -1,0 +1,34 @@
+id: canon/chalcedon-0451/19
+council: event/council/chalcedon-0451
+number: 19
+text: |-
+  WHEREAS it has come to our ears that in the provinces the
+
+  Canonical Synods of Bishops are not held, and that on this account
+
+  many ecclesiastical matters which need reformation are neglected;
+
+  therefore, according to the canons of the holy Fathers, the holy
+
+  Synod decrees that the bishops of every province shall twice in
+
+  the year assemble together where the bishop of the Metropolis
+
+  shall approve, and shall then settle whatever matters may have
+
+  arisen. And bishops, who do not attend, but remain in their own
+
+  cities, though they are in good health and free from any unavoidable
+
+  and necessary business, shall receive a brotherly admonition.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, chalcedon 0451 canon 19
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

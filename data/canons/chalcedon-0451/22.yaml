@@ -1,0 +1,22 @@
+id: canon/chalcedon-0451/22
+council: event/council/chalcedon-0451
+number: 22
+text: |-
+  IT is not lawful for clergymen, after the death of their bishop,
+
+  to seize what belongs to him, as has been forbidden also by the
+
+  ancient canons; and those who do so shall be in danger of degradation
+
+  from their own rank.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, chalcedon 0451 canon 22
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

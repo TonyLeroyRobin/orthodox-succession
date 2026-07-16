@@ -1,0 +1,38 @@
+id: canon/chalcedon-0451/10
+council: event/council/chalcedon-0451
+number: 10
+text: |-
+  It shall not be lawful for a clergyman to be at the same time
+
+  enrolled in the churches of two cities, that is, in the church
+
+  in which he was at first ordained, and in another to which, because
+
+  it is greater, he has removed from lust of empty honour. And those
+
+  who do so shall be returned to their own church in which they
+
+  were originally ordained, and there only shall they minister.
+
+  But if any one has heretofore been removed from one church to
+
+  another, he shall not intermeddle with the affairs of his former
+
+  church, nor with the martyries, almshouses, and hostels belonging
+
+  to it. And if, after the decree of this great and ecumenical Synod,
+
+  any shall dare to do any of these things now forbidden, the synod
+
+  decrees that he shall be degraded from his rank.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, chalcedon 0451 canon 10
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

@@ -1,0 +1,36 @@
+id: canon/trullo-0692/21
+council: event/council/trullo-0692
+number: 21
+text: |-
+  THOSE who have become guilty of crimes against the canons,
+
+   and on this account subject to complete and perpetual deposition,
+
+   are degraded to the condition of layman. If, however, keeping
+
+   conversion continually before their eyes, they willingly deplore
+
+   the sin on account of which they fell from grace, and made themselves
+
+   aliens therefrom, they may still cut their hair after the manner
+
+   of clerics. But if they are not willing to submit themselves to
+
+   this canon, they must wear their hair as laymen, as being those
+
+   who have preferred the communion of the world to the celestial
+
+   life. 
+
+   376
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 21
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

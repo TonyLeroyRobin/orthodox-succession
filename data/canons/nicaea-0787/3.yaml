@@ -1,0 +1,44 @@
+id: canon/nicaea-0787/3
+council: event/council/nicaea-0787
+number: 3
+text: |-
+  That it does not pertain to princes to choose a Bishop. 
+
+   LET every election of a bishop, presbyter, or deacon, made
+
+   by princes stand null, according to the canon which says: If any
+
+   bishop making use of the secular powers shall by their means obtain
+
+   jurisdiction over any church, he shall be deposed, and also excommunicated,
+
+   together with all who remain in communion with him. For he who
+
+   is raised to the episcopate must be chosen by bishops, as was
+
+   decreed by the holy fathers of Nice in the canon which says: It
+
+   is most fitting that a bishop be ordained by all the bishops in
+
+   the province; but if this is difficult to arrange, either on account
+
+   of urgent necessity, or because of the length of the journey,
+
+   three bishops at least having met together and given their votes,
+
+   those also who are absent having signified their assent by letters,
+
+   the ordination shall take place. The confirmation of what is thus
+
+   done, shall in each province be given by the metropolitan thereof.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, nicaea 0787 canon 3
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

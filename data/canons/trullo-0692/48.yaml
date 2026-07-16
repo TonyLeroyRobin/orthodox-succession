@@ -1,0 +1,26 @@
+id: canon/trullo-0692/48
+council: event/council/trullo-0692
+number: 48
+text: |-
+  THE wife of him who is advanced to the Episcopal dignity,
+
+   shall be separated from her husband by their mutual consent, and
+
+   after his ordination and consecration to the episcopate she shall
+
+   enter a monastery situated at a distance from the abode of the
+
+   bishop, and there let her enjoy the bishop's provision. And if
+
+   she is deemed worthy she may be advanced to the dignity of a deaconess.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 48
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

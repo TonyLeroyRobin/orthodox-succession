@@ -1,0 +1,50 @@
+id: canon/trullo-0692/37
+council: event/council/trullo-0692
+number: 37
+text: |-
+  SINCE at different times there have been invasions of barbarians,
+
+   and therefore very many cities have been subjected to the infidels,
+
+   so that the bishop of a city may not be able, after he has been
+
+   ordained, to take possession of his see, and to be settled in
+
+   it in sacerdotal order, and so to perform and manage for it the
+
+   ordinations and all things which by custom appertain to the bishop:
+
+   we, preserving honour and veneration for the priesthood, and in
+
+   no wise wishing to employ the Gentile injury to the ruin of ecclesiastical
+
+   rights, have decreed that those who have been ordained thus, and
+
+   on account of the aforesaid cause have not been settled in their
+
+   sees, without any prejudice from this thing may be kept [in good
+
+   standing] and that they may canonically perform the ordination
+
+   of the different clerics and use the authority of their office
+
+   according to the defined limits, and that whatever administration
+
+   proceeds from them may be valid and legitimate. For the exercise
+
+   of his office shall not be circumscribed by a season of necessity
+
+   when the exact observance of law is circumscribed. 
+
+   383
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 37
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

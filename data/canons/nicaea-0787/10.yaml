@@ -1,0 +1,50 @@
+id: canon/nicaea-0787/10
+council: event/council/nicaea-0787
+number: 10
+text: |-
+  That no cleric ought to leave his diocese and go into another
+
+   without the knowledge of the Bishop. 
+
+   SINCE certain of the clergy, misinterpreting the canonical
+
+   constitutions, leave their own diocese and run into other dioceses,
+
+   especially into this God-protected royal city, and take up their
+
+   abode with princes, celebrating liturgies in their oratories,
+
+   it is not permitted to receive such persons into any house or
+
+   church without the license of their own Bishop and also that of
+
+   the Bishop of Constantinople. And if any clerk shall do this without
+
+   such license, and shah so continue, let him be deposed. With regard
+
+   to those who have done this with the knowledge of the aforesaid
+
+   Bishops, it is not lawful for them to undertake mundane and secular
+
+   responsibilities, since this is forbidden by the sacred canons.
+
+   And if anyone is discovered holding the office of those who are
+
+   called Meizoteroi; let him either lay it down, or be deposed from
+
+   the priesthood. Let him rather be the instructor of the children
+
+   and others of the household, reading to them the Divine Scriptures,
+
+   for to this end he received the priesthood.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, nicaea 0787 canon 10
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

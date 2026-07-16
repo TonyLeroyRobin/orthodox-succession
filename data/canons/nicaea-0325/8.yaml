@@ -1,0 +1,39 @@
+id: canon/nicaea-0325/8
+council: event/council/nicaea-0325
+number: 8
+text: |-
+  CONCERNING those who call themselves Cathari, if they come over 
+  to the Catholic and Apostolic Church, the great and holy Synod 
+  decrees that they who are ordained shall continue as they are in the 
+  clergy. But it is before all things necessary that they should profess in 
+  writing that they will observe and follow the dogmas of the Catholic 
+  and Apostolic Church; in particular that they will communicate with 
+  persons who have been twice married, and with those who having 
+  lapsed in persecution have had a period [of
+
+  [20]
+
+  penance] laid upon them, and a time [of restoration] fixed so that in all 
+  things they will follow the dogmas of the Catholic Church. 
+  Wheresoever, then, whether in villages or in cities, all of the ordained 
+  are found to be of these only, let them remain in the clergy, and in the 
+  same rank in which they are found. But if they come over where there 
+  is a bishop or presbyter of the Catholic Church, it is manifest that the 
+  Bishop of the Church must have the bishop's dignity; and he who was 
+  named bishop by those who are called Cathari shall have the rank of 
+  presbyter, unless it shall seem fit to the Bishop to admit him to partake 
+  in the honour of the title. Or, if this should not be satisfactory, then 
+  shall the bishop provide for him a place as Chorepiscopus, or 
+  presbyter, in order that he may be evidently seen to be of the clergy, 
+  and that there may not be two bishops in the city.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, nicaea 0325 canon 8
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

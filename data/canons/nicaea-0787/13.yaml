@@ -1,0 +1,42 @@
+id: canon/nicaea-0787/13
+council: event/council/nicaea-0787
+number: 13
+text: |-
+  That they are worthy of special condemnation who turn the
+
+   monasteries into public houses. 
+
+   DURING the calamity which was brought to pass in the Churches,
+
+   because of our sins, some of the sacred houses, for example, bishops'
+
+   palaces and monasteries, were seized by certain men and became
+
+   public inns. If those who now hold them choose to give them back,
+
+   so that they may be restored to their original use, well and good;
+
+   but if not, and these persons are on the sacerdotal list, we command
+
+   that they be deposed; if they be monks or laymen, that they be
+
+   excommunicated, as those who have been condemned from the Father,
+
+   and the Son, and the Holy Ghost, and assigned their place where
+
+   the worm dieth not and the fire is not quenched, because they
+
+   set themselves against the voice of the Lord, which says:"Make
+
+   not my Father's house an house of merchandise."
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, nicaea 0787 canon 13
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

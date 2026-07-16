@@ -1,0 +1,26 @@
+id: canon/constantinople-0381/1
+council: event/council/constantinople-0381
+number: 1
+text: |-
+  THE Faith of the Three Hundred and Eighteen Fathers assembled at Nice in 
+
+  Bithynia shall not be set aside, but shall remain firm. And every heresy 
+
+  shall be anathematized, particularly that of the Eunomians or 
+
+  [Anomoeans, the Arians or] Eudoxians, and that of the Semi-Arians or 
+
+  Pneumatomachi, and that of the Sabellians, and that of the Marcellians, 
+
+  and that of the Photinians, and that of the Apollinarians.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, constantinople 0381 canon 1
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

@@ -1,0 +1,26 @@
+id: canon/trullo-0692/58
+council: event/council/trullo-0692
+number: 58
+text: |-
+  NONE of those who are in the order of laymen may distribute
+
+   the Divine Mysteries to himself if a bishop, presbyter, or deacon
+
+   be present. But whoso shall dare to do such a thing, as acting
+
+   contrary to what has been determined shall be cut off for a week
+
+   and thenceforth let him learn not to think of himself more highly
+
+   than he ought to think.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 58
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

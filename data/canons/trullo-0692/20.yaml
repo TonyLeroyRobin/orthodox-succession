@@ -1,0 +1,22 @@
+id: canon/trullo-0692/20
+council: event/council/trullo-0692
+number: 20
+text: |-
+  IT shall not be lawful for a bishop to teach publicly in any
+
+   city which does not belong to him. If any shall have been observed
+
+   doing this, let him cease from his episcopate, but let him discharge
+
+   the office of a presbyter.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 20
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

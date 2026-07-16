@@ -1,0 +1,28 @@
+id: canon/chalcedon-0451/6
+council: event/council/chalcedon-0451
+number: 6
+text: |-
+  NEITHER presbyter, deacon, nor any of the ecclesiastical order
+
+  shall be ordained at large, nor unless the person ordained is
+
+  particularly appointed to a church in a city or village, or to
+
+  a martyry, or to a monastery. And if any have been ordained without
+
+  a charge, the holy Synod decrees, to the reproach of the ordainer,
+
+  that such an ordination shall be inoperative, and that such shall
+
+  nowhere be suffered to officiate.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, chalcedon 0451 canon 6
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

@@ -1,0 +1,22 @@
+id: canon/chalcedon-0451/27
+council: event/council/chalcedon-0451
+number: 27
+text: |-
+  THE holy Synod has decreed that those who forcibly carry off
+
+  women under pretence of marriage, and the alders or abettors of
+
+  such ravishers, shall be degraded if clergymen, and if laymen
+
+  be anathematized.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, chalcedon 0451 canon 27
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

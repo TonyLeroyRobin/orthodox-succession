@@ -1,0 +1,38 @@
+id: canon/chalcedon-0451/9
+council: event/council/chalcedon-0451
+number: 9
+text: |-
+  IF any Clergyman have a matter against another clergyman,
+
+  he shall not forsake his bishop and run to secular courts; but
+
+  let him first lay open the matter before his own Bishop, or let
+
+  the matter be submitted to any person whom each of the parties
+
+  may, with the Bishop's consent, select. And if any one shall contravene
+
+  these decrees, let him be subjected to canonical penalties. And
+
+  if a clergyman have a complaint against his own or any other bishop,
+
+  let it be decided by the synod of the province. And if a bishop
+
+  or clergyman should have a difference with the metropolitan of
+
+  the province, let him have recourse to the Exarch of the Diocese,
+
+  or to the throne of the Imperial City of Constantinople, and there
+
+  let it be tried.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, chalcedon 0451 canon 9
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

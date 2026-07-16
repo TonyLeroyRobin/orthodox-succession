@@ -1,0 +1,30 @@
+id: canon/trullo-0692/5
+council: event/council/trullo-0692
+number: 5
+text: |-
+  LET none of those who are on the priestly list possess any
+
+   woman or maid servant, beyond those who are enumerated in the
+
+   canon as being persons free from suspicion, preserving himself
+
+   hereby from being implicated in any blame. But if anyone transgresses
+
+   our decree let him be deposed. And let eunuchs also observe the
+
+   same rule, that by foresight they may be free of censure. But
+
+   those who transgress, let them be deposed, if indeed they are
+
+   clerics; but if laymen let them be excommunicated.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 5
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

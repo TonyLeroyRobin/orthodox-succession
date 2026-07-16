@@ -1,0 +1,20 @@
+id: canon/nicaea-0325/9
+council: event/council/nicaea-0325
+number: 9
+text: |-
+  IF any presbyters have been advanced without examination, or if upon 
+  examination they have made confession of crime, and men acting in 
+  violation of the canon have laid hands upon them, notwithstanding 
+  their confession, such the canon does not admit; for the Catholic 
+  Church requires that [only] which is blameless.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, nicaea 0325 canon 9
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

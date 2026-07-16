@@ -1,0 +1,32 @@
+id: canon/trullo-0692/25
+council: event/council/trullo-0692
+number: 25
+text: |-
+  MOREOVER we renew the canon which orders that country (
+   agroikikas
+   )
+
+   parishes and those which are in the provinces (
+   egkwrious
+   )
+
+   shall remain subject to the bishops who had possession of them;
+
+   especially if for thirty years they had administered them without
+
+   opposition. But if within thirty years there had been or should
+
+   be any controversy on the point, it is lawful for those who think
+
+   themselves injured to refer the matter to the provincial synod.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 25
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

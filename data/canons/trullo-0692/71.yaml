@@ -1,0 +1,28 @@
+id: canon/trullo-0692/71
+council: event/council/trullo-0692
+number: 71
+text: |-
+  Those who are taught the civil laws must not adopt the customs
+
+   of the Gentiles, nor be induced to go to the theatre, nor to keep
+
+   what are called Cylestras, nor to wear clothing contrary to the
+
+   general custom; and this holds good when they begin their training,
+
+   when they reach its end, and, in short, all the time of its duration.
+
+   If any one from this time shall dare to do contrary to this canon
+
+   he is to be cut off.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 71
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

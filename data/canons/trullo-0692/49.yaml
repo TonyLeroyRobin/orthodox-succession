@@ -1,0 +1,30 @@
+id: canon/trullo-0692/49
+council: event/council/trullo-0692
+number: 49
+text: |-
+  RENEWING also the holy canon, we decree that the monasteries
+
+   which have been once consecrated by the Episcopal will, are always
+
+   to remain monasteries, and the things which belong to them are
+
+   to be preserved to the monastery, and they cannot any more be
+
+   secular abodes nor be given by any one to seculars. But if anything
+
+   of this kind has been done already, we declare it to be null;
+
+   and those who hereafter attempt to do so are to be subjected to
+
+   canonical penalties.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 49
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

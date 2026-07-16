@@ -1,0 +1,31 @@
+id: canon/nicaea-0325/5
+council: event/council/nicaea-0325
+number: 5
+text: |-
+  CONCERNING those, whether of the clergy or of the laity, who have 
+  been excommunicated in the several provinces, let the provision of the 
+  canon be observed by the bishops which provides that persons cast out 
+  by some be not readmitted by others. Nevertheless, inquiry should be 
+  made whether they have been excommunicated through captiousness, 
+  or contentiousness, or any such like ungracious disposition in the 
+  bishop. And, that this matter may have due investigation, it is decreed 
+  that in every province synods shall be held twice a year, in order that 
+  when all the bishops of the province are assembled together, such 
+  questions may by them be thoroughly examined, that so those who 
+  have confessedly offended against their bishop, may be seen by all to 
+  be for just cause excommunicated, until it shall seem fit to a general 
+  meeting of the bishops to pronounce a milder sentence upon them. 
+  And let these synods be held, the one before Lent, (that the pure Gift 
+  may be offered to God after all bitterness has been put away), and let 
+  the second be held about autumn.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, nicaea 0325 canon 5
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

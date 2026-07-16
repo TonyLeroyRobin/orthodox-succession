@@ -1,0 +1,34 @@
+id: canon/trullo-0692/29
+council: event/council/trullo-0692
+number: 29
+text: |-
+  A CANON of the Synod of Carthage says that the holy mysteries
+
+   of the altar are not to be performed but by men who are fasting,
+
+   except on one day in the year on which the Supper of the Lord
+
+   is celebrated. At that time, on account perhaps of certain occasions
+
+   in those places useful to the Church, even the holy Fathers themselves
+
+   made use of this dispensation. But since nothing leads us to abandon
+
+   exact observance, we decree that the Apostolic and Patristic tradition
+
+   shall be followed; and define that it is not right to break the
+
+   fast on the fifth feria of the last week of Lent, and thus to
+
+   do dishonour to the whole of Lent.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 29
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).

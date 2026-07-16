@@ -1,0 +1,32 @@
+id: canon/trullo-0692/99
+council: event/council/trullo-0692
+number: 99
+text: |-
+  WE have further learned that, in the regions of the Armenians,
+
+   certain persons boil joints of meat within the sanctuary and offer
+
+   portions to the priests, distributing it after the Jewish fashion.
+
+   Wherefore, that we may keep the church undefiled, we decree that
+
+   it is not lawful for any priest to seize the separate portions
+
+   of flesh meat from those who offer them, but they are to be content
+
+   with what he that offers pleases to give them; and further we
+
+   decree that such offering be made outside the church. And if any
+
+   one does not thus, let him be cut off.
+sources:
+- ref: source/npnf-2-14-seven-councils
+  reliability: primary
+  locator: Percival, trullo 0692 canon 99
+  note: conciliar act in Percival's public-domain translation (the Q5 text/rights
+    rule); footnote markers stripped, Greek beta-code bracketed - verify wording
+    against the printed volume during verification
+status: unverified
+notes: Created in Q5 (canons layer) 2026-07-15 from the Fordham transcription of
+  Percival; the Pedalion (Cummings) may be cited by page for the received
+  interpretation but its text is never copied (in copyright).
