@@ -481,12 +481,18 @@ def main():
         if my_works:
             groups = defaultdict(list)
             for relname, w in my_works:
-                groups[relname].append(w)
+                # Q4.2: secondary literature (about-relation modern studies)
+                # renders as Further reading, apart from the ancient corpus
+                if relname == "about" and w.get("genre") in ("study",):
+                    groups["further"].append(w)
+                else:
+                    groups[relname].append(w)
             GROUP_LABEL = {"by": "By this person",
                            "about": "About this person",
-                           "involving": "Involving this person"}
+                           "involving": "Involving this person",
+                           "further": "Further reading"}
             sections = ""
-            for relname in ("by", "about", "involving"):
+            for relname in ("by", "about", "involving", "further"):
                 ws = groups.get(relname)
                 if not ws:
                     continue
@@ -887,6 +893,11 @@ placeholder="any" style="width:5em"></label>
                 links.append(f'<a href="{esc(ed["url"])}" rel="nofollow">read</a>')
             if ed.get("archived_url"):
                 links.append(f'<a href="{esc(ed["archived_url"])}" rel="nofollow">archived</a>')
+            idf = ed.get("identifiers") or {}
+            if idf.get("isbn"):
+                links.append(f'<a href="https://search.worldcat.org/isbn/{esc(idf["isbn"])}" rel="nofollow">find this edition (ISBN)</a>')
+            elif idf.get("oclc") or idf.get("worldcat"):
+                links.append(f'<a href="https://search.worldcat.org/oclc/{esc(idf.get("oclc") or idf.get("worldcat"))}" rel="nofollow">find this edition (WorldCat)</a>')
             ed_note = (f'<br><span class=note>{esc(ed["notes"])}</span>'
                        if ed.get("notes") else "")
             if not links:  # Q3.2 render-guard: print citation + library lookup

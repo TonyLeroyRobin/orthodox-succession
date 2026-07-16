@@ -125,6 +125,22 @@
           },
           "notes": {
             "type": "string"
+          },
+          "identifiers": {
+            "description": "Q4: bibliographic identifiers for find-this-edition links.",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "isbn": {
+                "type": "string"
+              },
+              "oclc": {
+                "type": "string"
+              },
+              "worldcat": {
+                "type": "string"
+              }
+            }
           }
         },
         "required": [
