@@ -1,0 +1,20 @@
+id: tenure/constantinople/andrew-of-crete-0712@gortyna
+person: person/constantinople/andrew-of-crete-0712
+see: see/constantinople/gortyna
+from:
+  value: '0712'
+  calendar: julian
+  precision: circa
+  note: consecrated under Philippicus (711-713); c. 712 conventional
+to:
+  value: '0740'
+  calendar: julian
+  precision: circa
+  note: to his death, c. 740
+end_reason: died
+sources:
+- ref: source/synaxarion-of-constantinople
+  reliability: tradition
+  locator: July 4 notice - locator to be confirmed
+status: unverified
+notes: Created in P3 tier v addendum (the Gortyna promise) 2026-07-15.

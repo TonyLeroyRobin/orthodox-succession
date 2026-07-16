@@ -1,0 +1,26 @@
+id: work/great-canon-andrew-of-crete
+title: The Great Canon
+author: person/constantinople/andrew-of-crete-0712
+relation: by
+language: Ancient Greek
+date:
+  value: '0720'
+  calendar: julian
+  precision: circa
+  note: mature work; precise date unrecorded
+attribution: authentic
+cpg: CPG 8219
+genre: liturgical
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 8219 - number to be confirmed at verification
+- ref: source/synaxarion-of-constantinople
+  reliability: tradition
+  locator: the Lenten Triodion transmission
+notes: The 250-troparion penitential canon read in Great Lent - the founding
+  monument of the canon form; transmitted in the Triodion. Created in P3 tier v addendum (the Gortyna promise) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - continuous liturgical transmission in the Triodion; modern
+  translations in copyright, no read-link pending an approved-host edition.

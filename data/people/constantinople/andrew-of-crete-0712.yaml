@@ -1,0 +1,51 @@
+id: person/constantinople/andrew-of-crete-0712
+names:
+  monastic: Andrew
+  native:
+  - script: grc
+    value: Ἀνδρέας
+  variants:
+  - Andrew of Crete
+  - Andrew of Jerusalem
+role: bishop
+born:
+  date:
+    value: '0660'
+    calendar: julian
+    precision: circa
+    note: Damascus, c. 660
+died:
+  date:
+    value: '0740-07-04'
+    calendar: julian
+    precision: day
+    note: on Lesbos, returning from Constantinople; 740 (726 in part of the older
+      scholarship)
+veneration:
+  status: saint
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: '07-04'
+    calendar: julian
+    note: >-
+      St Andrew, Archbishop of Crete, the Hymnographer; his Great Canon is read in
+      Great Lent (weeks 1 and 5 - movable, not modeled as a month_day)
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/07/04
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/07/04
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/synaxarion-of-constantinople
+  reliability: tradition
+  locator: July 4 - locator to be confirmed
+status: unverified
+notes: Monk of Mar Saba and the Anastasis, deacon of the Great Church, then
+  archbishop of Gortyna in Crete - the Father the P2 Gortyna see record was created
+  for; inventor (or great early master) of the canon as a hymnographic form. His
+  brief lapse to monothelitism at the 712 pseudo-synod under Philippicus Bardanes
+  and retraction is recorded in the sources - a council lead logged in
+  docs/COUNCIL_LEADS.md. Created in P3 tier v addendum (the Gortyna promise) 2026-07-15.

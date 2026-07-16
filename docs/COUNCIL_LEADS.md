@@ -32,6 +32,7 @@ close a lead.
 | Constantinople home synod condemning Origenism (under Menas, Justinian's edict) | 543 | Origenist-controversy literature via the Origen participation record; P3 tier iii | |
 | Trial synod of Maximus the Confessor, Constantinople | 662 | the Maximus dossier (Relatio Motionis tradition); P3 tier v | event/council/constantinople-0662 |
 | First trial of Maximus the Confessor, Constantinople | 655 | the Maximus dossier; P3 tier v | |
+| Pseudo-synod under Philippicus Bardanes reinstating monothelitism | 712 | Andrew of Crete dossier; P3 tier v addendum | |
 
 ## Out-of-scope notes (maintainer)
 
