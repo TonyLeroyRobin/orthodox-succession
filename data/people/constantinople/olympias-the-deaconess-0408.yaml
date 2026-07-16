@@ -1,0 +1,44 @@
+id: person/constantinople/olympias-the-deaconess-0408
+names:
+  monastic: Olympias
+  native:
+  - script: grc
+    value: Ὀλυμπιάς
+  variants:
+  - Olympias the Deaconess
+role: deaconess
+born:
+  date:
+    value: '0368'
+    calendar: julian
+    precision: circa
+    note: Constantinople, into the senatorial aristocracy, c. 361-368
+died:
+  date:
+    value: '0408-07-25'
+    calendar: julian
+    precision: day
+    note: in exile at Nicomedia; the day is the feast date - verify against the
+      synaxarion
+veneration:
+  status: saint
+  feast_days:
+  - month_day: '07-25'
+    calendar: julian
+    note: >-
+      St Olympias the Deaconess, of Constantinople
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/07/25
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/07/25
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  locator: vol. III, p. 465 (under Chrysostom's correspondence)
+  reliability: scholarly
+status: unverified
+notes: Ordained deaconess of the Great Church under Nectarius; patron and steadfast
+  ally of John Chrysostom, persecuted after his fall. Corpus connection is the
+  Chrysostom correspondence (subject_of on the letters). Created in P3 tier iv (desert and ascetic) 2026-07-15.

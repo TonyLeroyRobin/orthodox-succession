@@ -1,0 +1,26 @@
+id: work/apophthegmata-patrum
+title: Sayings of the Desert Fathers (Apophthegmata Patrum)
+author_display: Anonymous (the desert tradition)
+subject_of:
+- person/alexandria/anthony-the-great-0356
+relation: about
+language: Ancient Greek
+date:
+  value: '0480'
+  calendar: julian
+  precision: circa
+  note: oral tradition of the fourth-century desert, redacted in the alphabetical and systematic collections c. 480-500
+attribution: authentic
+cpg: CPG 5560
+genre: hagiography
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 5560
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. III, per the author's chapter
+notes: Anonymous collective corpus - the desert's own memory; Anthony heads the alphabetical collection (subject_of carries his link; the collection names dozens more, including the ammas Theodora, Sarah, and Syncletica - candidates for a later pass, deferred with reasons in the tier report). Created in P3 tier iv (desert and ascetic) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - vast Greek transmission in the alphabetical and systematic collections, with Latin, Syriac, Coptic, Armenian, and Georgian versions

@@ -1,0 +1,48 @@
+id: person/constantinople/macrina-the-younger-0379
+names:
+  monastic: Macrina
+  native:
+  - script: grc
+    value: Μακρίνα
+  variants:
+  - Macrina the Younger
+role: monastic
+born:
+  date:
+    value: '0327'
+    calendar: julian
+    precision: circa
+    note: Caesarea in Cappadocia, c. 327 - eldest of the ten siblings
+died:
+  date:
+    value: '0379-07-19'
+    calendar: julian
+    precision: day
+    note: at the Annisa community on the Iris, the year of Basil's death; the day is
+      the feast and the Vita's deathbed narrative anchors the season - verify
+veneration:
+  status: saint
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: '07-19'
+    calendar: julian
+    note: >-
+      Venerable Macrina, sister of St Basil the Great
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/07/19
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/07/19
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  locator: vol. III, p. 261 (under Gregory of Nyssa, the Vita)
+  reliability: scholarly
+status: unverified
+notes: Ascetic founder of the Annisa community and the theological teacher of her
+  brothers by Gregory's testimony - the relationships carry the charter's required
+  links; her corpus connection is Gregory's Life and On the Soul and the Resurrection
+  (where she speaks as 'the Teacher'). Included under the same admission rule as
+  everyone else, per the charter - not a separate category. Created in P3 tier iv (desert and ascetic) 2026-07-15.

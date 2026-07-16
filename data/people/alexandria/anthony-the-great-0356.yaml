@@ -1,0 +1,46 @@
+id: person/alexandria/anthony-the-great-0356
+names:
+  monastic: Anthony
+  native:
+  - script: grc
+    value: Ἀντώνιος
+  variants:
+  - Anthony the Great
+  - Antony of Egypt
+role: monastic
+born:
+  date:
+    value: '0251'
+    calendar: julian
+    precision: circa
+    note: Koma in Middle Egypt, c. 251, per the Vita's chronology
+died:
+  date:
+    value: '0356'
+    calendar: julian
+    precision: year
+    note: at his inner mountain (Mount Colzim), aged c. 105 per the Vita
+veneration:
+  status: saint
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: '01-17'
+    calendar: julian
+    note: >-
+      Venerable and God-bearing Father Anthony the Great
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/01/17
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/01/17
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  locator: vol. III, pp. 148-153 (with the Vita under Athanasius)
+  reliability: scholarly
+status: unverified
+notes: Father of anchoritic monasticism - never ordained; the corpus connections are
+  Athanasius' Life (subject_of, linked in this tier's audit), his own Letters, and the
+  Apophthegmata. Created in P3 tier iv (desert and ascetic) 2026-07-15.

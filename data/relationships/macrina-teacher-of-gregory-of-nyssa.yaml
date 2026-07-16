@@ -1,0 +1,13 @@
+id: relationship/macrina-teacher-of-gregory-of-nyssa
+from: person/constantinople/macrina-the-younger-0379
+to: person/constantinople/gregory-of-nyssa-0372
+type: teacher
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. III, p. 261
+  note: sourced to Gregory of Nyssa's Life of Macrina (and On the Soul and the
+    Resurrection, where she is 'the Teacher'), per the charter's requirement
+status: unverified
+notes: The charter-named relationship - Gregory's Vita presents her turning Basil from
+  rhetorical vanity to ascetic philosophy and grounding her brothers' formation. Created in P3 tier iv (desert and ascetic) 2026-07-15.

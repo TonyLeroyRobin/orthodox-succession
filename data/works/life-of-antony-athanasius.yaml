@@ -1,6 +1,8 @@
 id: work/life-of-antony-athanasius
 title: Life of Antony (Vita Antonii)
 author: person/alexandria/athanasios-i-the-great-0328
+subject_of:
+- person/alexandria/anthony-the-great-0356
 relation: by
 language: Ancient Greek
 date:
@@ -34,7 +36,9 @@ sources:
 - ref: source/migne-patrologia-graeca
   reliability: scholarly
   locator: PG 26
-notes: Created in Milestone D (works backfill) 2026-07-15. The founding text of monastic hagiography.
+notes: Created in Milestone D (works backfill) 2026-07-15. The founding text of monastic
+  hagiography. subject_of linked to Anthony's person record in the P3 tier iv audit —
+  the charter-named admission route ("Anthony via Athanasius's Life").
 status: unverified
 survival: extant
 survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit

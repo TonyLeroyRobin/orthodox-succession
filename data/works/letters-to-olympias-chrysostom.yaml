@@ -1,0 +1,34 @@
+id: work/letters-to-olympias-chrysostom
+title: Letters to Olympias
+author: person/constantinople/john-i-chrysostom-0398
+subject_of:
+- person/constantinople/olympias-the-deaconess-0408
+relation: by
+language: Ancient Greek
+date:
+  value: '0405'
+  calendar: julian
+  precision: circa
+  note: the 17 letters from the exile, 404-407
+attribution: authentic
+cpg: CPG 4405
+genre: letter
+editions:
+- type: translation
+  language: English
+  series: NPNF, Series I, vol. 9
+  url: https://www.ccel.org/ccel/schaff/npnf109.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/https://www.ccel.org/ccel/schaff/npnf109.html
+  notes: Year-wildcard archive redirect - pin after generation (availability API, 2026-07-15).
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 4405
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. III, per the author's chapter
+notes: The correspondence that admits Olympias (subject_of) - the exiled archbishop's letters to his deaconess and ally. Created in P3 tier iv (desert and ascetic) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - full Greek transmission

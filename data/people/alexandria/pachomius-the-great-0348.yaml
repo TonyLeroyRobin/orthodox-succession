@@ -1,0 +1,44 @@
+id: person/alexandria/pachomius-the-great-0348
+names:
+  monastic: Pachomius
+  native:
+  - script: cop
+    value: ⲡⲁϧⲱⲙ
+  variants:
+  - Pachomius the Great
+role: monastic
+born:
+  date:
+    value: '0292'
+    calendar: julian
+    precision: circa
+    note: Thebaid, c. 292, of pagan parents; converted after conscript service
+died:
+  date:
+    value: '0348'
+    calendar: julian
+    precision: year
+    note: of the plague, at Pabau; 346 in part of the scholarship
+veneration:
+  status: saint
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: '05-15'
+    calendar: julian
+    note: >-
+      Venerable Pachomius the Great, founder of cenobitic monasticism
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/05/15
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/05/15
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  locator: vol. III, pp. 154-160
+  reliability: scholarly
+status: unverified
+notes: Founder of the koinonia - cenobitic monasticism under a written rule; never
+  ordained. Admitted via the Rule. Created in P3 tier iv (desert and ascetic) 2026-07-15.

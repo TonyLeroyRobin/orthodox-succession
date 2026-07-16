@@ -1,0 +1,26 @@
+id: work/life-of-macrina-gregory-nyssa
+title: Life of Macrina (Vita Macrinae)
+author: person/constantinople/gregory-of-nyssa-0372
+subject_of:
+- person/constantinople/macrina-the-younger-0379
+relation: by
+language: Ancient Greek
+date:
+  value: '0381'
+  calendar: julian
+  precision: circa
+  note: written c. 380-383, after her death in 379
+attribution: authentic
+cpg: CPG 3166
+genre: hagiography
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 3166
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. III, per the author's chapter
+notes: The charter-named source for Macrina's records - her Life by her brother, the family's own memory. Created in P3 tier iv (desert and ascetic) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - full Greek transmission; the standard English translations are in copyright, the older Clarke (1916) version in the public domain but not on an approved host - no read-link pending verification

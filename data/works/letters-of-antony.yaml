@@ -1,0 +1,24 @@
+id: work/letters-of-antony
+title: Letters of Antony
+author: person/alexandria/anthony-the-great-0356
+relation: by
+language: Coptic
+date:
+  value: '0340'
+  calendar: julian
+  precision: circa
+  note: the seven letters accepted as authentic (Jerome knew seven)
+attribution: authentic
+cpg: CPG 2330
+genre: letter
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 2330
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. III, per the author's chapter
+notes: Rubenson's rehabilitation of the letters made Anthony a literate theologian, not only the Vita's unlettered hero - both pictures recorded. Created in P3 tier iv (desert and ascetic) 2026-07-15.
+status: unverified
+survival: extant-in-translation-only
+survival_note: originally Coptic; the complete corpus survives only in the Georgian version, with partial Coptic, Latin, Syriac, and Arabic witnesses

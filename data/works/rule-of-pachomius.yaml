@@ -1,0 +1,24 @@
+id: work/rule-of-pachomius
+title: The Rule of Pachomius (Praecepta)
+author: person/alexandria/pachomius-the-great-0348
+relation: by
+language: Coptic
+date:
+  value: '0340'
+  calendar: julian
+  precision: circa
+  note: grown corpus, codified by the community; Jerome's Latin dated 404
+attribution: authentic
+cpg: CPG 2353
+genre: canon
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 2353
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. III, per the author's chapter
+notes: Attribution covers the Pachomian corpus as codified by the koinonia - the community's growth rings are in the text (noted). Created in P3 tier iv (desert and ascetic) 2026-07-15.
+status: unverified
+survival: extant-in-translation-only
+survival_note: the Coptic original survives in fragments; the complete rule only in Jerome's Latin translation of 404 (with Greek excerpts) - the first written monastic rule
