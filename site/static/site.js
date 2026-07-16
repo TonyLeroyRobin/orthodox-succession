@@ -8,6 +8,13 @@
   if (!el) return;
   fetch("/data/calendar-data.json").then(function (r) { return r.json(); })
     .then(function (cal) {
+      var mode = "new";  // Q6.2: new-calendar vs old-calendar reckoning
+      function render() { paint(cal, mode); }
+      window.__calToggle = function (m) { mode = m; render(); };
+      render();
+    }).catch(function () { /* static fallback text remains */ });
+
+  function paint(cal, mode) {
       var now = new Date();
       var civil = new Date(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()));
       function mmdd(dt) {
@@ -27,10 +34,27 @@
             dt.setUTCDate(dt.getUTCDate() + 13);
             civilMd = mmdd(dt);
           }
+          if (mode === "old") {
+            // old-calendar reckoning: julian feasts match the Julian date
+            // (civil minus 13 days); no shift applied to the feast itself
+            var jd = new Date(civil); jd.setUTCDate(jd.getUTCDate() - 13);
+            civilMd = (f.cal === "julian") ? f.md : civilMd;
+            if (f.cal === "julian" ? (f.md === mmdd(jd)) : false) {
+              hits.push({ p: p, f: f });
+            }
+            return;
+          }
           if (civilMd === today) hits.push({ p: p, f: f });
         });
       });
-      var h = "<p><strong>" + civil.toISOString().slice(0, 10) + "</strong> — " +
+      var jd2 = new Date(civil); jd2.setUTCDate(jd2.getUTCDate() - 13);
+      var dateLabel = (mode === "old")
+        ? civil.toISOString().slice(0, 10) + " (Julian: " + jd2.toISOString().slice(5, 10) + ")"
+        : civil.toISOString().slice(0, 10);
+      var toggle = '<p class="note">Reckoning: ' +
+        '<button id="calNew"' + (mode === "new" ? " disabled" : "") + '>new calendar</button> ' +
+        '<button id="calOld"' + (mode === "old" ? " disabled" : "") + '>old calendar (Julian)</button></p>';
+      var h = toggle + "<p><strong>" + dateLabel + "</strong> — " +
               (hits.length ? hits.length + " commemoration(s)" :
                "no commemorations recorded for this date (the veneration " +
                "layer is populated opportunistically)") + "</p>";
@@ -43,5 +67,9 @@
         }).join("") + "</ul>";
       }
       el.innerHTML = h;
-    }).catch(function () { /* static fallback text remains */ });
+      var bn = document.getElementById("calNew");
+      var bo = document.getElementById("calOld");
+      if (bn) bn.addEventListener("click", function () { window.__calToggle("new"); });
+      if (bo) bo.addEventListener("click", function () { window.__calToggle("old"); });
+  }
 })();

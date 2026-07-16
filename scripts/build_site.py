@@ -45,6 +45,7 @@ STATUS_COLOR = {"verified": "#2e7d32", "unverified": "#b26a00",
 NAV = [("Home", "/"), ("Jurisdictions", "/jurisdictions/"),
        ("Sees", "/sees/"), ("People", "/people/"),
        ("Councils", "/councils/"), ("Library", "/library/"),
+       ("Saints", "/saints/"),
        ("Map", "/map/"), ("Timeline", "/timeline/"),
        ("Controversies", "/controversies/"),
        ("Graph", "/site/graph.html"),
@@ -1623,6 +1624,72 @@ durations) and point markers — <a href="/about/">about the layers</a>.</p>
     write(OUT / "data" / "calendar-data.json",
           json.dumps(cal, ensure_ascii=False))
 
+    # ---------------- saints index (Q6.1) ----------------
+    # Derived entirely from existing veneration data - no new data class;
+    # the admission rule still governs who can ever appear.
+    saint_rows = ""
+    n_saints = 0
+    for pid, p in sorted(persons.items(), key=lambda kv: person_name(kv[1])):
+        ven = p.get("veneration") or {}
+        if ven.get("status") != "saint":
+            continue
+        n_saints += 1
+        jur = pid.split("/")[1]
+        dy = date_year((p.get("died") or {}).get("date"))
+        if dy is None:
+            ys = [date_year(t.get("from"))
+                  for t in tenures_by_person.get(pid, [])]
+            ys = [y for y in ys if y is not None]
+            dy = ys[0] if ys else None
+        cent = str((dy - 1) // 100 + 1) if dy else ""
+        feasts = ven.get("feast_days") or []
+        first_md = feasts[0].get("month_day", "") if feasts else ""
+        feast_html = " · ".join(
+            esc(f.get("month_day", "")) +
+            (f" ({esc(f.get('calendar', ''))})" if f.get("calendar") else "")
+            for f in feasts) or "—"
+        titles = ", ".join(ven.get("titles") or [])
+        saint_rows += (
+            f'<tr data-jurisdiction="{esc(jur)}" data-century="{esc(cent)}"'
+            f' data-feast="{esc(first_md)}">'
+            f'<td>{person_entry(pid)}</td>'
+            f'<td>{esc(jur)}</td>'
+            f'<td>{esc(cent + (ord_suffix(int(cent)) + " c." if cent else ""))}</td>'
+            f'<td>{feast_html}</td>'
+            f'<td>{esc(titles)}</td></tr>')
+    saint_jurs = sorted({pid.split("/")[1] for pid, p in persons.items()
+                         if (p.get("veneration") or {}).get("status") == "saint"})
+    saint_cents = sorted({str((date_year((p.get("died") or {}).get("date")) - 1) // 100 + 1)
+                          for p in persons.values()
+                          if (p.get("veneration") or {}).get("status") == "saint"
+                          and date_year((p.get("died") or {}).get("date"))},
+                         key=int)
+    def _sel(fid, label, options):
+        opts = "".join(f'<option value="{esc(o)}">{esc(o)}</option>'
+                       for o in options)
+        return (f'<label>{label} <select id="{fid}" class="saints-filter">'
+                f'<option value="">all</option>{opts}</select></label> ')
+    write(OUT / "saints" / "index.html",
+          layout("Saints",
+                 f"<h1>Saints ({n_saints})</h1>"
+                 f"<p class=note>Every person whose veneration block records "
+                 f"saint status - derived entirely from existing data (the "
+                 f"admission rule governs who can appear; there is no mass "
+                 f"hagiographic import). Feast dates carry their stated "
+                 f"calendar; see the home page for today's commemorations.</p>"
+                 f"<div class=panel><p class='lib-filters'>"
+                 + _sel("s-jurisdiction", "Jurisdiction", saint_jurs)
+                 + _sel("s-century", "Century", saint_cents)
+                 + "<button id='s-sortfeast'>sort by feast day</button>"
+                 + "<span id='saints-count' class=note></span></p>"
+                 f"<table><thead><tr><th>Saint</th><th>Jurisdiction</th>"
+                 f"<th>Century</th><th>Feast day(s)</th><th>Titles</th></tr>"
+                 f"</thead><tbody id='saints-body'>{saint_rows}</tbody>"
+                 f"</table></div>"
+                 f"<script src='/assets/saints.js'></script>",
+                 "https://tonyleroyrobin.github.io/orthodox-succession/saints/",
+                 active="Saints"))
+
     # ---------------- per-jurisdiction chunks ----------------
     chunk_index = defaultdict(lambda: defaultdict(int))
     chunks = defaultdict(lambda: defaultdict(list))
@@ -1676,7 +1743,7 @@ durations) and point markers — <a href="/about/">about the layers</a>.</p>
     for f in (SITE_SRC / "vendor").iterdir():
         shutil.copy(f, assets / "vendor" / f.name)
     for name in ("site.js", "search.js", "map.js", "timeline.js",
-                 "library.js"):
+                 "library.js", "saints.js"):
         src = SITE_SRC / "static" / name
         if src.exists():
             js = src.read_text(encoding="utf-8")
