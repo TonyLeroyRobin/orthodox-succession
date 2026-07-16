@@ -1,0 +1,31 @@
+id: event/council/constantinople-0662
+type: synod
+title: Trial synod of Maximus the Confessor, Constantinople
+date:
+  from:
+    value: '0662'
+    calendar: julian
+    precision: year
+place: Constantinople
+outcomes:
+- Condemned Maximus, his disciple Anastasius, and Anastasius the Apocrisiarius for
+  refusing the monothelite Typos; sentenced to mutilation and Lazican exile.
+canonical_reception: condemned
+reception_note: The dyothelite doctrine Maximus suffered for was defined as orthodox
+  by Constantinople III (680-681), which anathematized the monothelite leadership;
+  the 662 proceedings stand condemned by that reception.
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 5 (the monothelite chapters) - locator to be confirmed
+- ref: source/synaxarion-of-constantinople
+  reliability: tradition
+  locator: Jan. 21 / Aug. 13 notices - locator to be confirmed
+  note: the Relatio Motionis and the hagiographic dossier carry the trial narrative
+status: unverified
+notes: An imperial-synodal tribunal rather than a doctrinal council - cataloged as a
+  synod so the charter-required participation chain (trial, then vindication at
+  Constantinople III) has its event; logged and closed in docs/COUNCIL_LEADS.md.
+  A first trial in 655 preceded it. Created in P3 tier v (Byzantine synthesis) 2026-07-15.
+controversies:
+- controversy/monothelitism

@@ -1,0 +1,12 @@
+id: participation/hieria-0754--john-of-damascus-0749
+person: person/jerusalem/john-of-damascus-0749
+event: event/council/hieria-0754
+role: posthumously-condemned
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 5 - locator to be confirmed
+status: unverified
+notes: Anathematized by name as Mansur ('the Saracen-minded') in Hieria's acclamations. Created in P3 tier v (Byzantine synthesis) 2026-07-15.
+controversies:
+- controversy/iconoclasm

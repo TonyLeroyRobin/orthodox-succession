@@ -1,0 +1,20 @@
+id: work/hymns-of-divine-love-symeon
+title: Hymns of Divine Love (Hymnen)
+author: person/constantinople/symeon-the-new-theologian-1022
+relation: by
+language: Ancient Greek
+date:
+  value: '1010'
+  calendar: julian
+  precision: circa
+  note: the 58 hymns, mature and exile periods
+attribution: authentic
+genre: poetry
+sources:
+- ref: source/philokalia
+  reliability: scholarly
+  locator: the tier-v roster chapters
+notes: The most personal mystical poetry of Byzantium. Created in P3 tier v (Byzantine synthesis) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - preserved through the edition of his disciple Niketas Stethatos; post-CPG era, so no CPG number exists. Standard English (Maloney; Griggs) in copyright - no read-link

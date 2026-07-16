@@ -1,0 +1,32 @@
+id: work/fount-of-knowledge-john-damascus
+title: The Fount of Knowledge (with the Exact Exposition of the Orthodox Faith)
+author: person/jerusalem/john-of-damascus-0749
+relation: by
+language: Ancient Greek
+date:
+  value: '0743'
+  calendar: julian
+  precision: circa
+  note: the mature summa, c. 742-749
+attribution: authentic
+cpg: CPG 8040
+genre: treatise
+editions:
+- type: translation
+  language: English
+  series: NPNF, Series II, vol. 9
+  url: https://www.ccel.org/ccel/schaff/npnf209.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/https://www.ccel.org/ccel/schaff/npnf209.html
+  notes: Year-wildcard archive redirect - pin after generation.
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 8040
+- ref: source/philokalia
+  reliability: scholarly
+  locator: the tier-v roster chapters
+notes: Dialectica, On Heresies, and the Exact Exposition - one Work for the tripartite summa, the parts noted, not split. Created in P3 tier v (Byzantine synthesis) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - vast Greek transmission; the De Fide Orthodoxa circulated separately East and West (CPG 8043 for the Expositio)

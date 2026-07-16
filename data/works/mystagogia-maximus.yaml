@@ -1,0 +1,24 @@
+id: work/mystagogia-maximus
+title: Mystagogia (On the Church's Mystagogy)
+author: person/constantinople/maximus-the-confessor-0662
+relation: by
+language: Ancient Greek
+date:
+  value: '0630'
+  calendar: julian
+  precision: circa
+  note: c. 628-630
+attribution: authentic
+cpg: CPG 7704
+genre: liturgical
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 7704
+- ref: source/philokalia
+  reliability: scholarly
+  locator: the tier-v roster chapters
+notes: The liturgical-cosmological commentary on the Divine Liturgy. Created in P3 tier v (Byzantine synthesis) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - full Greek transmission; standard English translations (Berthold; SVS) in copyright - no read-link

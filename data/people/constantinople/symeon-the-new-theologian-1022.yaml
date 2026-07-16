@@ -1,0 +1,51 @@
+id: person/constantinople/symeon-the-new-theologian-1022
+names:
+  monastic: Symeon
+  native:
+  - script: grc
+    value: Συμεὼν ὁ Νέος Θεολόγος
+  variants:
+  - Symeon the New Theologian
+role: priest
+born:
+  date:
+    value: '0949'
+    calendar: julian
+    precision: circa
+    note: Galatia (Paphlagonia), c. 949
+died:
+  date:
+    value: '1022-03-12'
+    calendar: julian
+    precision: day
+    note: in exile-retirement at St Marina near Chrysopolis
+veneration:
+  status: saint
+  feast_days:
+  - month_day: '03-12'
+    calendar: julian
+    note: >-
+      Venerable Symeon the New Theologian
+  - month_day: '10-12'
+    calendar: julian
+    note: translation of his relics (1052; some calendars)
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/03/12
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/03/12
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/philokalia
+  reliability: scholarly
+  locator: vol. IV (the roster entry and the ascetic chapters)
+- ref: source/synaxarion-of-constantinople
+  reliability: tradition
+  locator: Mar. 12 - locator to be confirmed
+status: unverified
+notes: Hieromonk and abbot of St Mamas at Constantinople; the mystic of conscious
+  experience of God, third to carry the church's title Theologian. His conflict with
+  the synodal establishment (exile 1009) is recorded in the notes of his Vita by
+  Niketas Stethatos - a lead for a later hagiographic pass. Philokalia-roster
+  author. Created in P3 tier v (Byzantine synthesis) 2026-07-15.

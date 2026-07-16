@@ -1,0 +1,16 @@
+id: participation/nicaea-0787--john-of-damascus-0749
+person: person/jerusalem/john-of-damascus-0749
+event: event/council/nicaea-0787
+role: posthumously-vindicated
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 5 - locator to be confirmed
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: the refutation of Hieria in the acts
+status: unverified
+notes: Nicaea II overturned Hieria and acclaimed the defenders of the icons it had anathematized - the charter's example for the new posthumously-vindicated role. Created in P3 tier v (Byzantine synthesis) 2026-07-15.
+controversies:
+- controversy/iconoclasm

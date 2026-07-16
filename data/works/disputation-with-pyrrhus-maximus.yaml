@@ -1,0 +1,26 @@
+id: work/disputation-with-pyrrhus-maximus
+title: Disputation with Pyrrhus
+author: person/constantinople/maximus-the-confessor-0662
+relation: by
+language: Ancient Greek
+date:
+  value: '0645'
+  calendar: julian
+  precision: year
+  note: the Carthage disputation, July 645
+attribution: authentic
+cpg: CPG 7698
+genre: treatise
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 7698
+- ref: source/philokalia
+  reliability: scholarly
+  locator: the tier-v roster chapters
+notes: The debate that turned the deposed patriarch Pyrrhus, for a time, to dyothelitism - the record of the argument that led to the trials. Created in P3 tier v (Byzantine synthesis) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - full Greek transmission
+controversies:
+- controversy/monothelitism

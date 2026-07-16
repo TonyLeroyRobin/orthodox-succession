@@ -1,0 +1,26 @@
+id: work/three-treatises-divine-images-john-damascus
+title: Three Treatises on the Divine Images
+author: person/jerusalem/john-of-damascus-0749
+relation: by
+language: Ancient Greek
+date:
+  value: '0730'
+  calendar: julian
+  precision: circa
+  note: against the first iconoclasm, c. 726-730
+attribution: authentic
+cpg: CPG 8045
+genre: treatise
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 8045
+- ref: source/philokalia
+  reliability: scholarly
+  locator: the tier-v roster chapters
+notes: The defense of the icons that Hieria answered with anathemas - and Nicaea II with vindication; the works-to-participations chain of this tier. Created in P3 tier v (Byzantine synthesis) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - full Greek transmission; the standard English (Louth, SVS) in copyright - no read-link
+controversies:
+- controversy/iconoclasm

@@ -1,0 +1,53 @@
+id: person/jerusalem/john-of-damascus-0749
+names:
+  monastic: John
+  family: Mansur (family name; the epithet Damascene from his city)
+  native:
+  - script: grc
+    value: Ἰωάννης ὁ Δαμασκηνός
+  variants:
+  - John of Damascus
+  - John Damascene
+role: priest
+born:
+  date:
+    value: '0675'
+    calendar: julian
+    precision: circa
+    note: Damascus, c. 675-676, into the Mansur family of caliphal administrators
+died:
+  date:
+    value: '0749'
+    calendar: julian
+    precision: circa
+    note: at Mar Saba, c. 749 (before 754, when Hieria anathematized him as already dead)
+  place: Mar Saba, Judaean desert
+veneration:
+  status: saint
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: '12-04'
+    calendar: julian
+    note: >-
+      St John of Damascus
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/12/04
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/12/04
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/synaxarion-of-constantinople
+  reliability: tradition
+  locator: Dec. 4 - locator to be confirmed
+- ref: source/philokalia
+  reliability: scholarly
+  locator: vol. II (the ascetic selections under his name)
+status: unverified
+notes: Hieromonk of Mar Saba in the Jerusalem patriarchate (the filing namespace),
+  ordained priest by John V of Jerusalem; the last great synthesizer of Greek
+  patristics and the theologian of the icon. Anathematized by name (as Mansur) at
+  Hieria 754, vindicated at Nicaea II - the participation records carry the
+  sequence. Created in P3 tier v (Byzantine synthesis) 2026-07-15.

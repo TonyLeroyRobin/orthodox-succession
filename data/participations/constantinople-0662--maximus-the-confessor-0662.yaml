@@ -1,0 +1,15 @@
+id: participation/constantinople-0662--maximus-the-confessor-0662
+person: person/constantinople/maximus-the-confessor-0662
+event: event/council/constantinople-0662
+role: condemned
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 5 - locator to be confirmed
+- ref: source/synaxarion-of-constantinople
+  reliability: tradition
+  locator: the trial dossier (Relatio Motionis tradition) - locator to be confirmed
+status: unverified
+notes: Condemned with his disciples for refusing the Typos; tongue and right hand mutilated per the dossier; died in exile months later. Created in P3 tier v (Byzantine synthesis) 2026-07-15.
+controversies:
+- controversy/monothelitism

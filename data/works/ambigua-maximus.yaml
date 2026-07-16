@@ -1,0 +1,24 @@
+id: work/ambigua-maximus
+title: Ambigua (to John and to Thomas)
+author: person/constantinople/maximus-the-confessor-0662
+relation: by
+language: Ancient Greek
+date:
+  value: '0634'
+  calendar: julian
+  precision: circa
+  note: the two collections, c. 628-634
+attribution: authentic
+cpg: CPG 7705
+genre: treatise
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 7705
+- ref: source/philokalia
+  reliability: scholarly
+  locator: the tier-v roster chapters
+notes: The difficulties in Gregory the Theologian and Dionysius - the metaphysical core of the corpus. Created in P3 tier v (Byzantine synthesis) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - full Greek transmission (with Eriugena's ninth-century Latin of the Ambigua to John); the DOML edition (Constas) in copyright - no read-link

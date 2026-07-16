@@ -1,0 +1,55 @@
+id: person/constantinople/maximus-the-confessor-0662
+names:
+  monastic: Maximus
+  native:
+  - script: grc
+    value: Μάξιμος
+  variants:
+  - Maximus the Confessor
+  - Maximus of Constantinople
+role: monastic
+born:
+  date:
+    value: '0580'
+    calendar: julian
+    precision: circa
+    note: Constantinople c. 580 per the Greek Vita; the Syriac Life gives a Palestinian
+      origin - the divergence is recorded, not adjudicated
+died:
+  date:
+    value: '0662-08-13'
+    calendar: julian
+    precision: day
+    note: in Lazican exile (the fortress of Schemaris), after the mutilation sentence
+  place: Lazica
+veneration:
+  status: saint
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: '01-21'
+    calendar: julian
+    note: >-
+      Venerable Maximus the Confessor
+  - month_day: '08-13'
+    calendar: julian
+    note: translation of his relics; his repose
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/01/21
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/01/21
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/philokalia
+  reliability: scholarly
+  locator: vol. II (the largest single-author share of the corpus)
+- ref: source/synaxarion-of-constantinople
+  reliability: tradition
+  locator: Jan. 21 - locator to be confirmed
+status: unverified
+notes: Monk (never ordained beyond that state), the theological architect of
+  dyothelitism, condemned at the 662 trial and vindicated in doctrine by
+  Constantinople III - the participation records carry the sequence. Admitted via
+  works and participations; Philokalia-roster author. Created in P3 tier v (Byzantine synthesis) 2026-07-15.

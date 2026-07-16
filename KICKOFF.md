@@ -237,7 +237,10 @@ as graph nodes.
 
 ### 4.9 Participation
 `id, person, event, role (presided | signed | attended | legate | condemned |
-deposed-by | posthumously-condemned), sources[], status`
+deposed-by | posthumously-condemned | posthumously-vindicated), sources[], status`
+(`posthumously-vindicated` added in P3 tier v for conciliar rehabilitations —
+Nicaea II lifting Hieria's anathemas on John of Damascus, Constantinople III
+adopting the dyothelitism Maximus was condemned for.)
 
 Council subscription lists are primary evidence: a `signed` participation with a
 primary source simultaneously supports the person, the see, and the tenure date —

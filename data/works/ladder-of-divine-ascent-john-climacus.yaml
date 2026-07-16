@@ -1,0 +1,24 @@
+id: work/ladder-of-divine-ascent-john-climacus
+title: The Ladder of Divine Ascent
+author: person/jerusalem/john-climacus-0649
+relation: by
+language: Ancient Greek
+date:
+  value: '0620'
+  calendar: julian
+  precision: circa
+  note: written at Sinai for the abbot of Raithu, early seventh century
+attribution: authentic
+cpg: CPG 7852
+genre: treatise
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 7852
+- ref: source/philokalia
+  reliability: scholarly
+  locator: the tier-v roster chapters
+notes: The thirty rungs that named their author. Created in P3 tier v (Byzantine synthesis) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - among the most copied of all Byzantine books; read in Orthodox monasteries every Great Lent; standard English (HTM; Paulist) in copyright - no read-link

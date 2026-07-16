@@ -1,0 +1,12 @@
+id: participation/constantinople-0680--maximus-the-confessor-0662
+person: person/constantinople/maximus-the-confessor-0662
+event: event/council/constantinople-0680
+role: posthumously-vindicated
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 5 - locator to be confirmed
+status: unverified
+notes: Constantinople III defined the two-wills doctrine he was condemned for and anathematized the monothelite leadership; the council does not name Maximus in the definition - the vindication is doctrinal and implicit, recorded with that nuance. Created in P3 tier v (Byzantine synthesis) 2026-07-15.
+controversies:
+- controversy/monothelitism

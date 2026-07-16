@@ -1,0 +1,44 @@
+id: person/jerusalem/john-climacus-0649
+names:
+  monastic: John
+  native:
+  - script: grc
+    value: Ἰωάννης τῆς Κλίμακος
+  variants:
+  - John Climacus
+  - John of the Ladder
+  - John Sinaites
+role: monastic
+died:
+  date:
+    value: '0649'
+    calendar: julian
+    precision: circa
+    note: c. 649 conventional; the chronology of his life is thin (c. 579-649 widely
+      given, disputed in scholarship)
+  place: Mount Sinai
+veneration:
+  status: saint
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: '03-30'
+    calendar: julian
+    note: >-
+      Venerable John Climacus of Sinai, author of the Ladder; also commemorated on
+      the Fourth Sunday of Great Lent (movable - not modeled as a month_day)
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/03/30
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/03/30
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/synaxarion-of-constantinople
+  reliability: tradition
+  locator: Mar. 30 - locator to be confirmed
+status: unverified
+notes: Abbot of Sinai (within the Jerusalem sphere - filing choice). Proposed
+  addition to the charter's named tier-v trio, admitted via the Ladder under the
+  synaxarion checklist. Created in P3 tier v (Byzantine synthesis) 2026-07-15.

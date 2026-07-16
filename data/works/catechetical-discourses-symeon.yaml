@@ -1,0 +1,20 @@
+id: work/catechetical-discourses-symeon
+title: Catechetical Discourses (Catecheses)
+author: person/constantinople/symeon-the-new-theologian-1022
+relation: by
+language: Ancient Greek
+date:
+  value: '0990'
+  calendar: julian
+  precision: circa
+  note: the 34 discourses to the St Mamas community, c. 980-998
+attribution: authentic
+genre: homily
+sources:
+- ref: source/philokalia
+  reliability: scholarly
+  locator: the tier-v roster chapters
+notes: The abbot's addresses on conscious experience of grace. Created in P3 tier v (Byzantine synthesis) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - the Stethatos-curated transmission; post-CPG era, so no CPG number exists. Standard English (deCatanzaro, CWS) in copyright - no read-link

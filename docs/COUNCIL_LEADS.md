@@ -27,6 +27,11 @@ close a lead.
 | Moscow council electing Patriarch Filaret | 1619-1620 | Russian patriarchal succession work (Milestone C); R5 plan sweep | |
 | Constantinople synod under Paisius II (Kollyvades-era preliminaries) | 1727 | reception-history literature around 1755/56; R5 plan sweep | |
 | Pan-Orthodox synaxis / Bulgarian schism healing council, Sofia | 1998 | modern autocephaly-dispute literature; R5 plan sweep | |
+| Paschal-question synods (Asia under Polycrates; Palestine; Rome under Victor) | c. 190 | Eusebius HE 5.23-25, via the Melito/Polycrates dossier; P3 tier ii | |
+| Constantinople synod of 394 (under Nectarius) | 394 | Amphilochius of Iconium's last attestation; P3 tier iii | event/council/constantinople-0394 |
+| Constantinople home synod condemning Origenism (under Menas, Justinian's edict) | 543 | Origenist-controversy literature via the Origen participation record; P3 tier iii | |
+| Trial synod of Maximus the Confessor, Constantinople | 662 | the Maximus dossier (Relatio Motionis tradition); P3 tier v | event/council/constantinople-0662 |
+| First trial of Maximus the Confessor, Constantinople | 655 | the Maximus dossier; P3 tier v | |
 
 ## Out-of-scope notes (maintainer)
 

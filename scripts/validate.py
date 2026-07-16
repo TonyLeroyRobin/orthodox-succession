@@ -52,6 +52,7 @@ from jsonschema import Draft202012Validator  # noqa: E402
 from referencing import Registry, Resource  # noqa: E402
 
 CONTEXT_EVENT_CEILING = 300
+CONTROVERSY_CEILING = 25  # P5: target 15-20, hard ceiling 25
 GOOD_RELIABILITY = {"primary", "official-list", "scholarly"}
 EPS = 0.01  # comparison epsilon in fractional years
 
@@ -180,6 +181,15 @@ def iter_refs(kind, data):
         for a in data.get("affected") or []:
             yield ("affected", a)
 
+    # P5: controversy tags on Event, Work, and Participation
+    if kind in ("event", "work", "participation"):
+        for tag in data.get("controversies") or []:
+            if isinstance(tag, dict):
+                yield ("controversies", tag.get("id"))
+                yield from citations(tag.get("sources"), "controversies")
+            else:
+                yield ("controversies", tag)
+
 
 # ---------------------------------------------------------------------------
 # Chronology helpers (rule 3)
@@ -233,6 +243,13 @@ def main():
         rep.error(DATA_DIR / "events" / "context",
                   f"{len(context_events)} context events exceed the hard ceiling "
                   f"of {CONTEXT_EVENT_CEILING}")
+
+    # ---- P5: controversy taxonomy ceiling (target 15-20, hard ceiling 25) --
+    controversies = [r for r in records if r["kind"] == "controversy"]
+    if len(controversies) > CONTROVERSY_CEILING:
+        rep.error(DATA_DIR / "controversies",
+                  f"{len(controversies)} controversy records exceed the hard "
+                  f"ceiling of {CONTROVERSY_CEILING}")
 
     # ---- rule 2: referential integrity -------------------------------------
     for rec in records:
@@ -312,7 +329,7 @@ def main():
             edate = (ev["data"].get("date") or {}).get("from")
             born, died = lifespan(p["data"])
             role = d.get("role")
-            if role != "posthumously-condemned":
+            if role not in ("posthumously-condemned", "posthumously-vindicated"):
                 if not before(born, edate):
                     rep.error(path, "participation precedes the person's birth")
                 if not before(edate, died):
