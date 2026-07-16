@@ -15,7 +15,7 @@ close a lead.
 | Lead | Date guess | Encountered in | Cataloged |
 |---|---|---|---|
 | Synod of Elvira | c. 306 | Hefele vol. 1 (canon collections); R5 plan sweep | |
-| Council of Arles | 314 | Hefele vol. 1 — Donatist controversy; R5 plan sweep | |
+| Council of Arles | 314 | Hefele vol. 1 — Donatist controversy; R5 plan sweep | event/council/arles-0314 |
 | Council of Antioch (Dedication precursor, deposition of Eustathius) | c. 327-330 | Hefele vol. 2 discussion of Antioch 341; R5 plan sweep | |
 | Synod of Tyre (condemnation of Athanasius) | 335 | Hefele vol. 2; Athanasius sources; R5 plan sweep | |
 | Councils of Sirmium (the Sirmian formulae) | 351-359 | Hefele vol. 2 — Arian controversy; R5 plan sweep | |
@@ -33,6 +33,7 @@ close a lead.
 | Trial synod of Maximus the Confessor, Constantinople | 662 | the Maximus dossier (Relatio Motionis tradition); P3 tier v | event/council/constantinople-0662 |
 | First trial of Maximus the Confessor, Constantinople | 655 | the Maximus dossier; P3 tier v | |
 | Pseudo-synod under Philippicus Bardanes reinstating monothelitism | 712 | Andrew of Crete dossier; P3 tier v addendum | |
+| Council of Tarnovo against the Bogomils (Boril's synod) | 1211 | Bogomilism controversy record; final P-pass audit | event/council/tarnovo-1211 |
 
 ## Out-of-scope notes (maintainer)
 

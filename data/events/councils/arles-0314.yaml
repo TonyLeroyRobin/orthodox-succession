@@ -1,0 +1,29 @@
+id: event/council/arles-0314
+type: council-local
+title: Council of Arles
+date:
+  from:
+    value: '0314'
+    calendar: julian
+    precision: year
+place: Arelate (Arles), Gaul
+outcomes:
+- Heard the Donatist appeal against Caecilian of Carthage on Constantine's summons
+  and ruled against the Donatist party.
+- Issued canons on rebaptism, clerical discipline, and the Paschal date.
+canonical_reception: received-locally
+reception_note: A Western council of enduring canonical authority in the Latin
+  tradition; its Donatist ruling framed the century of schism Augustine inherited.
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: vol. 1, secs. 15-16 - locator to be confirmed
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: volume:column to be confirmed
+  note: primary acts and canons in a scholarly compilation
+status: unverified
+notes: Cataloged in the final P-pass audit 2026-07-15, closing the R5 lead - the
+  Donatism controversy page's earliest tagged event.
+controversies:
+- controversy/donatism

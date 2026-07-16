@@ -1,0 +1,25 @@
+id: event/council/tarnovo-1211
+type: council-local
+title: Council of Tarnovo against the Bogomils (Boril's synod)
+date:
+  from:
+    value: '1211-02-11'
+    calendar: julian
+    precision: day
+    note: convened by Tsar Boril; the date from the Synodikon of Boril tradition
+place: Tarnovo, Bulgaria
+outcomes:
+- Condemned Bogomil teaching and anathematized its teachers; the proceedings
+  produced the Synodikon of Tsar Boril.
+canonical_reception: received-locally
+reception_note: The Synodikon of Boril remained in Bulgarian liturgical use,
+  expanded by later hands - the principal domestic witness against Bogomilism.
+sources:
+- ref: source/hefele-history-of-the-councils
+  reliability: scholarly
+  locator: continuation volumes - locator to be confirmed
+status: unverified
+notes: Cataloged in the final P-pass audit 2026-07-15 (lead logged and closed in
+  docs/COUNCIL_LEADS.md) - the Bogomilism controversy page's anchor event.
+controversies:
+- controversy/bogomilism

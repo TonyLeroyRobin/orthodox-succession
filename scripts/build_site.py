@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import html
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -31,6 +32,10 @@ from common import REPO_ROOT, date_year, load_all  # noqa: E402
 
 OUT = REPO_ROOT / "build" / "site"
 SITE_SRC = REPO_ROOT / "site"
+# GitHub Pages serves this project at /orthodox-succession/ (no custom
+# domain), so every internal root-absolute URL must carry the base path.
+# Local preview from a bare web root: SITE_BASE="" python scripts/build_site.py
+BASE = os.environ.get("SITE_BASE", "/orthodox-succession").rstrip("/")
 STATUS_LABEL = {"verified": "verified", "unverified": "unverified",
                 "disputed": "disputed"}
 STATUS_COLOR = {"verified": "#2e7d32", "unverified": "#b26a00",
@@ -173,6 +178,15 @@ Database {esc(VERSION)}.</footer>
 
 
 def write(path, text):
+    # base-path rewrite: internal root-absolute references gain the Pages
+    # project prefix; https:// (canonical) links are untouched.
+    if BASE and str(path).endswith(".html"):
+        for pat, rep in (('href="/', f'href="{BASE}/'),
+                         ("href='/", f"href='{BASE}/"),
+                         ('src="/', f'src="{BASE}/'),
+                         ("src='/", f"src='{BASE}/"),
+                         ("url=/", f"url={BASE}/")):
+            text = text.replace(pat, rep)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(text, encoding="utf-8")
 
@@ -1173,19 +1187,19 @@ Database</em> ({esc(VERSION)}) [Data set]. Zenodo.
                      "variants": " ".join([*(n.get("variants") or []),
                                            *(x.get("value") for x in
                                              n.get("native") or [])]),
-                     "url": entity_url(pid)})
+                     "url": BASE + entity_url(pid)})
     for sid, s in sees.items():
         docs.append({"id": sid, "type": "see", "name": s.get("name", sid),
                      "variants": (s.get("location") or {}).get("modern_place", ""),
-                     "url": entity_url(sid)})
+                     "url": BASE + entity_url(sid)})
     for ev in councils:
         docs.append({"id": ev["id"], "type": "council",
                      "name": ev.get("title", ev["id"]), "variants": "",
-                     "url": entity_url(ev["id"])})
+                     "url": BASE + entity_url(ev["id"])})
     for w in works:
         docs.append({"id": w["id"], "type": "work",
                      "name": w.get("title", w["id"]), "variants": "",
-                     "url": entity_url(w["id"])})
+                     "url": BASE + entity_url(w["id"])})
     write(OUT / "data" / "search-index.json",
           json.dumps(docs, ensure_ascii=False))
     write(OUT / "search" / "index.html",
@@ -1222,7 +1236,7 @@ name variants and native scripts.</p></div></div>
         sup = date_year((s.get("suppressed") or {}).get("date"))
         map_rows.append({"id": sid, "name": s.get("name"),
                          "lat": loc["lat"], "lon": loc["lon"],
-                         "url": entity_url(sid), "sup": sup, "t": spans})
+                         "url": BASE + entity_url(sid), "sup": sup, "t": spans})
     write(OUT / "data" / "map-data.json",
           json.dumps(map_rows, ensure_ascii=False))
 
@@ -1459,7 +1473,7 @@ durations) and point markers — <a href="/about/">about the layers</a>.</p>
         feasts = [f for f in ven.get("feast_days") or [] if f.get("month_day")]
         if feasts:
             cal.append({"id": pid, "name": person_name(p),
-                        "url": entity_url(pid),
+                        "url": BASE + entity_url(pid),
                         "titles": ven.get("titles") or [],
                         "feasts": [{"md": f["month_day"],
                                     "cal": f.get("calendar", "gregorian"),
@@ -1496,7 +1510,10 @@ durations) and point markers — <a href="/about/">about the layers</a>.</p>
                  "library.js"):
         src = SITE_SRC / "static" / name
         if src.exists():
-            shutil.copy(src, assets / name)
+            js = src.read_text(encoding="utf-8")
+            if BASE:
+                js = js.replace('fetch("/', f'fetch("{BASE}/')
+            (assets / name).write_text(js, encoding="utf-8")
 
     # ---------------- legacy pages (query-URL fallbacks) ----------------
     legacy = OUT / "site"
