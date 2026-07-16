@@ -1,0 +1,23 @@
+id: work/apologetic-fragments-apollinaris
+title: Apologetic works of Apollinaris of Hierapolis (fragments)
+author: person/constantinople/apollinaris-of-hierapolis-0171
+relation: by
+language: Ancient Greek
+date:
+  value: '0172'
+  calendar: julian
+  precision: circa
+  note: the apology to Marcus Aurelius and the anti-Montanist and Paschal works fall in the 170s
+attribution: authentic
+genre: treatise
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. I (Apologists chapters)
+notes: A corpus known almost entirely by its ancient table of contents. Created in P3 tier ii (Apologists) 2026-07-15.
+status: unverified
+survival: fragmentary
+survival_note: >-
+  fragmentary - Eusebius catalogs the corpus (HE 4.27: the apology, Against the Greeks, On Truth, the anti-Montanist writings) and quotes almost nothing; the Paschal fragments are transmitted in the Chronicon Paschale, which has no Work record here yet - so no preserved_in link is asserted. CPG numbers to be confirmed at verification
+controversies:
+- controversy/montanism

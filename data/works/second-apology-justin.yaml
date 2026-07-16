@@ -1,0 +1,28 @@
+id: work/second-apology-justin
+title: Second Apology
+author: person/pre-schism-rome/justin-martyr-0165
+relation: by
+language: Ancient Greek
+date:
+  value: '0157'
+  calendar: julian
+  precision: circa
+  note: appendix or sequel to the First - the manuscript runs them together
+attribution: authentic
+genre: treatise
+editions:
+- type: translation
+  language: English
+  series: Early Christian Writings (ANF translations)
+  url: http://www.earlychristianwritings.com/justinmartyr.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/http://www.earlychristianwritings.com/justinmartyr.html
+  notes: Year-wildcard archive redirect - pin after generation (availability API, 2026-07-15).
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. I (Apologists chapters)
+notes: Created in P3 tier ii (Apologists) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - transmitted with the First Apology in Parisinus graecus 450; the CPG numbering of the two-apology corpus to be confirmed at verification

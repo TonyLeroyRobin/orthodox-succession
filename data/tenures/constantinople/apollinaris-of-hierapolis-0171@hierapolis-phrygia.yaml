@@ -1,0 +1,21 @@
+id: tenure/constantinople/apollinaris-of-hierapolis-0171@hierapolis-phrygia
+person: person/constantinople/apollinaris-of-hierapolis-0171
+see: see/constantinople/hierapolis-phrygia
+from:
+  value: '0171'
+  calendar: julian
+  precision: circa
+  note: floruit anchor only - Eusebius' Chronicle places him under Marcus Aurelius at
+    171/172; start unrecorded
+end_reason: unknown
+sources:
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 4.26.1 (with the Chronicle synchronism)
+  reliability: tradition
+- ref: source/quasten-patrology
+  locator: vol. I, p. 228
+  reliability: scholarly
+status: unverified
+notes: End of tenure unrecorded - open tenure, not inferred. The generation between
+  Papias' open tenure (from c. 110) and this one is a documented gap in the Hierapolis
+  line, not an overlap claim. Created in P3 tier ii (Apologists) 2026-07-15.

@@ -1,0 +1,32 @@
+id: work/dialogue-with-trypho-justin
+title: Dialogue with Trypho
+author: person/pre-schism-rome/justin-martyr-0165
+relation: by
+language: Ancient Greek
+date:
+  value: '0160'
+  calendar: julian
+  precision: circa
+  note: after the Apologies (Dial. 120 cites the First)
+attribution: authentic
+cpg: CPG 1076
+genre: treatise
+editions:
+- type: translation
+  language: English
+  series: Early Christian Writings (ANF translations)
+  url: http://www.earlychristianwritings.com/justinmartyr.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/http://www.earlychristianwritings.com/justinmartyr.html
+  notes: Year-wildcard archive redirect - pin after generation (availability API, 2026-07-15).
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 1076
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. I (Apologists chapters)
+notes: The longest surviving second-century debate with Judaism. Created in P3 tier ii (Apologists) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - Parisinus graecus 450; the opening dedication and a stretch in ch. 74 are lost in transmission

@@ -1,0 +1,13 @@
+id: relationship/justin-teacher-of-tatian
+from: person/pre-schism-rome/justin-martyr-0165
+to: person/antioch/tatian-0172
+type: teacher
+sources:
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 4.16.7; 4.29.1 (quoting Irenaeus, Adv. Haer. 1.28.1 - "a hearer of Justin")
+  reliability: tradition
+- ref: source/quasten-patrology
+  locator: vol. I, p. 220
+  reliability: scholarly
+status: unverified
+notes: Tatian's own Oratio (18-19) also remembers Justin admiringly. Created in P3 tier ii (Apologists) 2026-07-15.

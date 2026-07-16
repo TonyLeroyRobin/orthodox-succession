@@ -1,0 +1,51 @@
+id: person/pre-schism-rome/justin-martyr-0165
+names:
+  monastic: Justin
+  native:
+  - script: grc
+    value: Ἰουστῖνος
+  variants:
+  - Justin Martyr
+  - Justin the Philosopher
+role: layperson
+born:
+  date:
+    value: '0100'
+    calendar: julian
+    precision: circa
+    note: Flavia Neapolis (Nablus) in Samaria, c. 100-110, per his own witness (1 Apol. 1)
+died:
+  date:
+    value: '0165'
+    calendar: julian
+    precision: circa
+    note: beheaded at Rome under the prefect Q. Junius Rusticus (in office 162-168); 165 conventional
+  place: Rome
+attestation: attested
+veneration:
+  status: saint
+  titles:
+  - Martyr
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: 06-01
+    calendar: julian
+    note: Martyr Justin the Philosopher and those with him at Rome
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/06/01
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/06/01
+    note: Year-wildcard archive redirect - pin during verification.
+sources:
+- ref: source/quasten-patrology
+  locator: vol. I, pp. 196-219
+  reliability: scholarly
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 4.11-18
+  reliability: tradition
+  note: his school at Rome, the exchange with Crescens, and the martyrdom notice
+status: unverified
+notes: Philosopher-convert who taught at Rome as a layperson - admitted under the P1
+  rule via his works (the two Apologies and the Dialogue with Trypho). Created in P3 tier ii (Apologists) 2026-07-15.

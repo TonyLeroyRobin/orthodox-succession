@@ -1,0 +1,32 @@
+id: work/on-the-resurrection-athenagoras
+title: On the Resurrection of the Dead
+author: person/greece/athenagoras-of-athens-0177
+relation: by
+language: Ancient Greek
+date:
+  value: '0180'
+  calendar: julian
+  precision: circa
+  note: if authentic, shortly after the Legatio; third-century datings proposed
+attribution: disputed
+cpg: CPG 1071
+genre: treatise
+editions:
+- type: translation
+  language: English
+  series: Early Christian Writings (ANF translations)
+  url: http://www.earlychristianwritings.com/athenagoras.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/20260516073341/http://www.earlychristianwritings.com/athenagoras.html
+  notes: Year-wildcard archive redirect - pin after generation (availability API, 2026-07-15).
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 1071
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. I (Apologists chapters)
+notes: Attribution contested in modern scholarship (Grant and others assign it to a later hand) - recorded as disputed, not adjudicated. Created in P3 tier ii (Apologists) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - transmitted with the Legatio in the Arethas codex

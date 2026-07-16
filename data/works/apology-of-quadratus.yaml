@@ -1,0 +1,34 @@
+id: work/apology-of-quadratus
+title: Apology of Quadratus
+author: person/greece/quadratus-of-athens-0125
+relation: by
+language: Ancient Greek
+date:
+  value: '0125'
+  calendar: julian
+  precision: circa
+  note: presented to Hadrian, c. 124-125
+attribution: authentic
+cpg: CPG 1060
+genre: treatise
+editions:
+- type: translation
+  language: English
+  series: Early Christian Writings (fragment)
+  url: http://www.earlychristianwritings.com/quadratus.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/http://www.earlychristianwritings.com/quadratus.html
+  notes: Year-wildcard archive redirect - pin after generation (availability API, 2026-07-15).
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 1060
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. I (Apologists chapters)
+notes: The earliest Christian apology. Created in P3 tier ii (Apologists) 2026-07-15.
+status: unverified
+survival: fragmentary
+survival_note: fragmentary - a single quotation survives, at Eusebius HE 4.3.2 (on those healed by the Lord surviving into the writer's own times)
+preserved_in:
+- work/ecclesiastical-history-eusebius

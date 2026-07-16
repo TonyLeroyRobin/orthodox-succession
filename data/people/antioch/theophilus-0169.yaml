@@ -1,8 +1,19 @@
 id: person/antioch/theophilus-0169
 names:
   monastic: Theophilus
+  native:
+  - script: grc
+    value: Θεόφιλος
+  variants:
+  - Theophilus of Antioch
+role: bishop
 attestation: uncertain
 sources:
+- ref: source/quasten-patrology
+  locator: vol. I, pp. 236-242
+  reliability: scholarly
+  note: added in the P3 tier ii audit - the apologist chapters treat his episcopate
+    (sixth bishop of Antioch per Eusebius HE 4.20) and the Ad Autolycum corpus
 - ref: source/fedalto-hierarchia-ecclesiastica-orientalis
   locator: Antioch series, s.v. Theophilus (169–182) — locator to be confirmed
   reliability: scholarly
@@ -12,4 +23,5 @@ sources:
 status: unverified
 notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
   Early-list attestation is thin — traditional dates, Orthodox Tradition, recorded
-  as given. the apologist, author of Ad Autolycum.
+  as given. The apologist, author of Ad Autolycum — role made explicit and the work
+  record (work/ad-autolycum-theophilus) linked in the P3 tier ii audit, 2026-07-15.

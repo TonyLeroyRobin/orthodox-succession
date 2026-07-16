@@ -1,0 +1,38 @@
+id: person/antioch/tatian-0172
+names:
+  monastic: Tatian
+  native:
+  - script: grc
+    value: Τατιανός
+  variants:
+  - Tatian the Assyrian
+  - Tatian the Syrian
+role: layperson
+born:
+  date:
+    value: '0120'
+    calendar: julian
+    precision: circa
+    note: '"born in the land of the Assyrians" by his own witness (Oratio 42)'
+died:
+  date:
+    value: '0185'
+    calendar: julian
+    precision: circa
+    note: death unrecorded; active in the East after c. 172
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  locator: vol. I, pp. 220-228
+  reliability: scholarly
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 4.16.7-9; 4.29
+  reliability: tradition
+  note: pupil of Justin at Rome; the break with the Roman church c. 172 (the Chronicle)
+    and Irenaeus' notice associating him with the Encratites (Adv. Haer. 1.28.1) -
+    recorded, not adjudicated
+status: unverified
+notes: Justin's pupil, compiler of the Diatessaron - the standard gospel text of the
+  Syriac church into the fifth century. His later Encratite trajectory is recorded from
+  the sources without adjudication; not venerated, no veneration block. Admitted via his
+  works and the documented relationship to Justin. Created in P3 tier ii (Apologists) 2026-07-15.

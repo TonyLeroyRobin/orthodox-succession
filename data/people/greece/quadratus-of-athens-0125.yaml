@@ -1,0 +1,27 @@
+id: person/greece/quadratus-of-athens-0125
+names:
+  monastic: Quadratus
+  native:
+  - script: grc
+    value: Κοδρᾶτος
+  variants:
+  - Quadratus of Athens
+  - Kodratos
+role: bishop
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  locator: vol. I, pp. 190-191
+  reliability: scholarly
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 4.3.1-2; 4.23.3
+  reliability: tradition
+  note: the apology to Hadrian (4.3) and Dionysius of Corinth's notice of a bishop Quadratus
+    of Athens after the martyred Publius (4.23) - the identification of the two is traditional
+    and debated
+status: unverified
+notes: The earliest named apologist (to Hadrian, c. 124-125). His identification with the
+  Athenian bishop named by Dionysius of Corinth is traditional, not certain - the tenure
+  record is marked disputed accordingly. The synaxarion commemoration of a Kodratos
+  (Sept. 21) may conflate him with the apostle of the Seventy - no veneration block by
+  assessment, flag for verification. Created in P3 tier ii (Apologists) 2026-07-15.

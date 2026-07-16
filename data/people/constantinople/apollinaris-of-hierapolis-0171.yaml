@@ -1,0 +1,25 @@
+id: person/constantinople/apollinaris-of-hierapolis-0171
+names:
+  monastic: Apollinaris
+  family: Claudius Apollinaris
+  native:
+  - script: grc
+    value: Ἀπολινάριος
+  variants:
+  - Apollinaris of Hierapolis
+  - Claudius Apollinaris
+role: bishop
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  locator: vol. I, pp. 228-229
+  reliability: scholarly
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 4.26.1; 4.27; 5.19
+  reliability: tradition
+  note: floruit under Marcus Aurelius (the Chronicle places him at 171/172); Serapion of
+    Antioch calls him "most blessed"
+status: unverified
+notes: Apologist-bishop of Hierapolis, active against the New Prophecy (Montanism) and in
+  the Paschal debates; successor-generation to Papias on the same see. Not to be confused
+  with Apollinaris of Laodicea. No veneration block by assessment. Created in P3 tier ii (Apologists) 2026-07-15.

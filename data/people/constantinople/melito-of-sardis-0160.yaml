@@ -1,0 +1,42 @@
+id: person/constantinople/melito-of-sardis-0160
+names:
+  monastic: Melito
+  native:
+  - script: grc
+    value: Μελίτων
+  variants:
+  - Melito of Sardis
+role: bishop
+died:
+  date:
+    value: '0180'
+    calendar: julian
+    precision: circa
+    note: dead by the time of Polycrates' letter to Victor (c. 190, HE 5.24.5 - "who lies
+      in Sardis"); c. 180 conventional
+  place: Sardis
+attestation: attested
+veneration:
+  status: saint
+  feast_days:
+  - month_day: 04-01
+    calendar: julian
+    note: St Melito, Bishop of Sardis
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/04/01
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/04/01
+    note: Year-wildcard archive redirect - pin during verification.
+sources:
+- ref: source/quasten-patrology
+  locator: vol. I, pp. 242-248
+  reliability: scholarly
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 4.26; 5.24.5
+  reliability: tradition
+  note: the catalog of his works, the apology to Marcus Aurelius, and Polycrates'
+    remembrance of him among the luminaries of Asia
+status: unverified
+notes: Bishop of Sardis, Quartodeciman, and author of the rediscovered Peri Pascha.
+  Created in P3 tier ii (Apologists) 2026-07-15.

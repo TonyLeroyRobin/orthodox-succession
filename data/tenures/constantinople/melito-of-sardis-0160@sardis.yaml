@@ -1,0 +1,24 @@
+id: tenure/constantinople/melito-of-sardis-0160@sardis
+person: person/constantinople/melito-of-sardis-0160
+see: see/constantinople/sardis
+from:
+  value: '0160'
+  calendar: julian
+  precision: circa
+  note: episcopate dated only by the floruit (the apology to Marcus Aurelius, the Laodicea
+    Paschal exchange); start unrecorded
+to:
+  value: '0180'
+  calendar: julian
+  precision: circa
+  note: dead by Polycrates' letter to Victor (c. 190) - terminus ante quem, not a recorded date
+end_reason: died
+sources:
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 4.26.1; 5.24.5
+  reliability: tradition
+- ref: source/quasten-patrology
+  locator: vol. I, p. 242
+  reliability: scholarly
+status: unverified
+notes: Created in P3 tier ii (Apologists) 2026-07-15.

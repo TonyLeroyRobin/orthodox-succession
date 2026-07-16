@@ -1,0 +1,22 @@
+id: work/diatessaron-tatian
+title: Diatessaron
+author: person/antioch/tatian-0172
+relation: by
+language: Ancient Greek
+date:
+  value: '0172'
+  calendar: julian
+  precision: circa
+  note: compiled c. 170-175, in the East or at Rome
+attribution: authentic
+genre: treatise
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. I (Apologists chapters)
+notes: The standard gospel text of the Syriac church into the fifth century, when Rabbula and Theodoret of Cyrrhus (Haer. fab. 1.20 - two hundred copies withdrawn) enforced the separated gospels. Created in P3 tier ii (Apologists) 2026-07-15; preserved_in linked to Ephrem's commentary when that record arrived in tier iii.
+status: unverified
+survival: lost
+survival_note: lost in the original (even the original language, Syriac or Greek, is debated); known through Ephrem the Syrian's commentary (Syriac original recovered 1957, Chester Beatty 709), the Arabic harmony, the Latin adaptation in Codex Fuldensis, and the disputed Dura-Europos Greek fragment. CPG number to be confirmed at verification
+preserved_in:
+- work/commentary-on-the-diatessaron-ephrem

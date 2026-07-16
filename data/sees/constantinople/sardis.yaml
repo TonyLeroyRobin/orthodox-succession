@@ -1,0 +1,25 @@
+id: see/constantinople/sardis
+name: Sardis
+jurisdiction_history:
+- jurisdiction: jurisdiction/ecumenical-patriarchate
+  from:
+    value: 0381
+    calendar: julian
+    precision: circa
+    note: the post-Nicene provincial structures within the Constantinopolitan orbit (metropolis
+      of Lydia; canon 28 of Chalcedon) — refine during verification
+location:
+  lat: 38.488
+  lon: 28.040
+  modern_place: Sart, Manisa, Türkiye
+sources:
+- ref: source/le-quien-oriens-christianus-v1
+  reliability: scholarly
+  locator: locator to be confirmed
+  note: provincial structures and dates to be confirmed against Le Quien vol. 1 during verification
+status: unverified
+notes: The see of St Melito (P3 tier ii) — one of the seven churches of the Apocalypse;
+  metropolis of Lydia. Created in P3 tier ii (2026-07-15) under the P2 sees pattern
+  (maintainer-approved addition); intentionally sparse pending the roster — occupants
+  arrive tier by tier. Coordinates are approximate site locations — verify. Namespace is
+  a filing choice (the Basil precedent), not a historical claim.

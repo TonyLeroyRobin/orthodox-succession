@@ -1,0 +1,21 @@
+id: tenure/greece/quadratus-of-athens-0125@athens
+person: person/greece/quadratus-of-athens-0125
+see: see/greece/athens
+from:
+  value: '0125'
+  calendar: julian
+  precision: disputed
+  note: Dionysius of Corinth (apud HE 4.23.3) names a bishop Quadratus after the martyred
+    Publius; the identification with the apologist AND the date are both traditional and
+    uncertain
+end_reason: unknown
+sources:
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 4.23.3
+  reliability: tradition
+- ref: source/quasten-patrology
+  locator: vol. I, p. 190
+  reliability: scholarly
+status: unverified
+notes: End of tenure unrecorded - open tenure, not inferred. The disputed precision
+  carries the identification question, not merely the date. Created in P3 tier ii (Apologists) 2026-07-15.

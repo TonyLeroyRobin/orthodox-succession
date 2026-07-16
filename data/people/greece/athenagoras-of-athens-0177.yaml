@@ -1,0 +1,23 @@
+id: person/greece/athenagoras-of-athens-0177
+names:
+  monastic: Athenagoras
+  native:
+  - script: grc
+    value: Ἀθηναγόρας
+  variants:
+  - Athenagoras of Athens
+  - Athenagoras the Apologist
+role: layperson
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  locator: vol. I, pp. 229-236
+  reliability: scholarly
+- ref: source/eusebius-ecclesiastical-history
+  locator: not noticed by Eusebius - the silence is itself the datum
+  reliability: tradition
+  note: externally attested only by Methodius (De res. 1.37) and the manuscript
+    superscription "Athenagoras, Christian philosopher of Athens"
+status: unverified
+notes: The most polished of the Greek apologists and nearly invisible in the ancient
+  record - admitted via the Legatio. Not glorified; no veneration block. Created in P3 tier ii (Apologists) 2026-07-15.

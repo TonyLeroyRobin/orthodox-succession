@@ -1,0 +1,33 @@
+id: work/ad-autolycum-theophilus
+title: To Autolycus (Ad Autolycum)
+author: person/antioch/theophilus-0169
+relation: by
+language: Ancient Greek
+date:
+  value: '0181'
+  calendar: julian
+  precision: circa
+  note: book III postdates the death of Marcus Aurelius (180)
+attribution: authentic
+cpg: CPG 1107
+genre: treatise
+editions:
+- type: translation
+  language: English
+  series: Early Christian Writings (ANF translations)
+  url: http://www.earlychristianwritings.com/theophilus.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/http://www.earlychristianwritings.com/theophilus.html
+  notes: Year-wildcard archive redirect - pin after generation (availability API, 2026-07-15).
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 1107
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. I (Apologists chapters)
+notes: >-
+  The audit work for the existing person record theophilus-0169 (P3 tier ii): the apologist-bishop already stood in the Antioch line; his corpus now connects him to the library. Created in P3 tier ii (Apologists) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - sole independent manuscript Venice, Marcianus graecus 496 (11th c.)

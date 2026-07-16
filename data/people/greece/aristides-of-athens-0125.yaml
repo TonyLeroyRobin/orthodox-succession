@@ -1,0 +1,24 @@
+id: person/greece/aristides-of-athens-0125
+names:
+  monastic: Aristides
+  native:
+  - script: grc
+    value: Ἀριστείδης
+  variants:
+  - Aristides of Athens
+  - Aristides the Philosopher
+role: layperson
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  locator: vol. I, pp. 191-195
+  reliability: scholarly
+- ref: source/eusebius-ecclesiastical-history
+  locator: HE 4.3.3
+  reliability: tradition
+  note: >-
+    "a believer devoted to our religion" - an Athenian philosopher, per Eusebius
+status: unverified
+notes: Athenian philosopher-apologist, admitted via his Apology. Commemorated in some
+  calendars (Aug. 31 / Sept. 13 in different uses) - the entries need checking against
+  the synaxarion during verification; no veneration block by assessment meanwhile. Created in P3 tier ii (Apologists) 2026-07-15.
