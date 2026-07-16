@@ -21,6 +21,10 @@ Read it before making structural changes. These rules bind every session.
    corrections are permitted through the Milestone C reconciliation
    (DATA_COMPLETION §3). The permanence rule locks in at the first public
    release (v0.1.0).*
+   *Final lock (maintainer-approved, 2026-07-16): the Q2 sanctioned
+   migration window (REMEDIATION_AND_POLISH) closed at v0.7.0. IDs are now
+   permanent forever — corrections happen via `data/aliases.yaml` redirect
+   stubs, never renames.*
 5. **Two succession models, never conflated:** see-succession (Tenure order) vs.
    consecration-succession (Consecration DAG, principal vs. co-consecrator edges).
    Absent consecration data is stated, not inferred.
