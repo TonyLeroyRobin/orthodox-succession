@@ -13,8 +13,8 @@ autocephaly:
     value: '1879'
     calendar: gregorian
     precision: year
-    note: tomos for the church in the Kingdom of Serbia, after the 1766 suppression
-      of the Patriarchate of Pec
+    note: tomos for the church in the Kingdom of Serbia, after the 1766 suppression of the
+      Patriarchate of Pec
 - granted_by: unification of Serbian church provinces and restoration of the patriarchate
   date:
     value: '1920'
@@ -31,7 +31,8 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: Patriarchate of Pec (1346) and its suppression (1766) to be modeled as historical
-  jurisdiction records in a later pass. Structural record authored from general
-  reference knowledge — verify each autocephaly/recognition entry against a graded
-  source before promotion.
+notes: Patriarchate of Pec (1346) and its suppression (1766) to be modeled as historical jurisdiction
+  records in a later pass. Structural record authored from general reference knowledge — verify
+  each autocephaly/recognition entry against a graded source before promotion.
+related_works:
+- work/serbia-tomos-1879

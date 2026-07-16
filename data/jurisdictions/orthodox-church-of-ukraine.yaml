@@ -48,3 +48,5 @@ notes: 'The parallel Ukrainian Orthodox Church (Moscow Patriarchate) and the his
   Maintainer decision 2026-07-15: the parallel UOC (Moscow Patriarchate) is now modeled minimally
   as jurisdiction/ukrainian-orthodox-church, whose primatial_see points at the same Kyiv see
   - the structural form of the recorded rivalry.'
+related_works:
+- work/ocu-tomos-2019

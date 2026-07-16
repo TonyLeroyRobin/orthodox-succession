@@ -1,0 +1,23 @@
+id: work/albania-tomos-1937
+title: Tomos of autocephaly of the Church of Albania
+author_display: The Holy Synod of the Ecumenical Patriarchate (Benjamin)
+relation: involving
+language: Greek
+date:
+  value: '1937'
+  calendar: gregorian
+  precision: year
+attribution: authentic
+genre: tomos
+sources:
+- ref: source/ecumenical-patriarchate-official
+  reliability: official-list
+  locator: locator to be confirmed - the instrument's official publication
+  note: link and archive the published document text during verification
+notes: >-
+  The tomos of April 12, 1937, regularizing the 1922 self-declaration. Document-backed record for the jurisdiction's status claim (SEEDS §B
+  rationale); jurisdiction link via jurisdiction/church-of-albania.related_works. Created in SEEDS_BACKLOG_UPDATE §B (autocephaly instruments) 2026-07-16.
+status: unverified
+survival: extant
+survival_note: extant - a modern legal instrument; the official publication is
+  the edition to link and archive at verification.

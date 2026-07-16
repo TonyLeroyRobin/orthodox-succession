@@ -1,0 +1,23 @@
+id: work/moscow-patriarchate-acts-1589
+title: Synodal acts establishing the Moscow Patriarchate (1589-1593)
+author_display: Jeremiah II of Constantinople with the Moscow and Constantinople synods
+relation: involving
+language: Greek and Church Slavonic
+date:
+  value: '1589'
+  calendar: gregorian
+  precision: year
+attribution: authentic
+genre: synodal-act
+sources:
+- ref: source/ecumenical-patriarchate-official
+  reliability: official-list
+  locator: locator to be confirmed - the instrument's official publication
+  note: link and archive the published document text during verification
+notes: >-
+  The 1589 act of Jeremiah II at Moscow, the 1590 Constantinople synodal confirmation, and the 1593 confirmation fixing fifth place - one three-instrument dossier, the parts noted, not split. Linked from the cataloged councils of 1590 and 1593. Document-backed record for the jurisdiction's status claim (SEEDS §B
+  rationale); jurisdiction link via jurisdiction/church-of-russia.related_works. Created in SEEDS_BACKLOG_UPDATE §B (autocephaly instruments) 2026-07-16.
+status: unverified
+survival: extant
+survival_note: extant - a modern legal instrument; the official publication is
+  the edition to link and archive at verification.

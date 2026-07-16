@@ -1,0 +1,23 @@
+id: work/czech-slovakia-tomos-1998
+title: Tomos of autocephaly of the Church of the Czech Lands and Slovakia
+author_display: The Holy Synod of the Ecumenical Patriarchate (Bartholomew)
+relation: involving
+language: Greek
+date:
+  value: '1998'
+  calendar: gregorian
+  precision: year
+attribution: authentic
+genre: tomos
+sources:
+- ref: source/ecumenical-patriarchate-official
+  reliability: official-list
+  locator: locator to be confirmed - the instrument's official publication
+  note: link and archive the published document text during verification
+notes: >-
+  The tomos of August 27, 1998; Moscow's separate 1951 grant is the recognition-dispute recorded on the jurisdiction. Document-backed record for the jurisdiction's status claim (SEEDS §B
+  rationale); jurisdiction link via jurisdiction/church-of-czech-lands-and-slovakia.related_works. Created in SEEDS_BACKLOG_UPDATE §B (autocephaly instruments) 2026-07-16.
+status: unverified
+survival: extant
+survival_note: extant - a modern legal instrument; the official publication is
+  the edition to link and archive at verification.

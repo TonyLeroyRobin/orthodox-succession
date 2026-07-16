@@ -1,0 +1,23 @@
+id: work/romania-tomos-1885
+title: Tomos of autocephaly of the Church of Romania
+author_display: The Holy Synod of the Ecumenical Patriarchate (Joachim IV)
+relation: involving
+language: Greek
+date:
+  value: '1885'
+  calendar: gregorian
+  precision: year
+attribution: authentic
+genre: tomos
+sources:
+- ref: source/ecumenical-patriarchate-official
+  reliability: official-list
+  locator: locator to be confirmed - the instrument's official publication
+  note: link and archive the published document text during verification
+notes: >-
+  The tomos of April 25, 1885; patriarchal dignity followed in 1925. Document-backed record for the jurisdiction's status claim (SEEDS §B
+  rationale); jurisdiction link via jurisdiction/church-of-romania.related_works. Created in SEEDS_BACKLOG_UPDATE §B (autocephaly instruments) 2026-07-16.
+status: unverified
+survival: extant
+survival_note: extant - a modern legal instrument; the official publication is
+  the edition to link and archive at verification.

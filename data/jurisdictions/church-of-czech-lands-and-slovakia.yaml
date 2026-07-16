@@ -10,8 +10,8 @@ autocephaly:
   recognition:
   - by: jurisdiction/ecumenical-patriarchate
     status: not-recognized
-    note: Constantinople regarded the church as autonomous under its own jurisdiction
-      until its 1998 tomos
+    note: Constantinople regarded the church as autonomous under its own jurisdiction until
+      its 1998 tomos
 - granted_by: jurisdiction/ecumenical-patriarchate
   date:
     value: '1998'
@@ -29,7 +29,8 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: Both grants of autocephaly (Moscow 1951, Constantinople 1998) are recorded
-  per the recognition-not-adjudication rule. Structural record authored from general
-  reference knowledge — verify each autocephaly/recognition entry against a graded
-  source before promotion.
+notes: Both grants of autocephaly (Moscow 1951, Constantinople 1998) are recorded per the
+  recognition-not-adjudication rule. Structural record authored from general reference knowledge
+  — verify each autocephaly/recognition entry against a graded source before promotion.
+related_works:
+- work/czech-slovakia-tomos-1998

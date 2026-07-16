@@ -4,9 +4,19 @@
   "title": "Jurisdiction",
   "type": "object",
   "properties": {
-    "id": { "$ref": "defs.json#/$defs/jurisdictionId" },
-    "name": { "type": "string" },
-    "type": { "enum": ["autocephalous", "autonomous", "historical"] },
+    "id": {
+      "$ref": "defs.json#/$defs/jurisdictionId"
+    },
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "enum": [
+        "autocephalous",
+        "autonomous",
+        "historical"
+      ]
+    },
     "autocephaly": {
       "type": "array",
       "items": {
@@ -16,32 +26,66 @@
             "type": "string",
             "description": "jurisdiction id, event id (e.g. a council), or free text where neither exists as a record"
           },
-          "date": { "$ref": "defs.json#/$defs/date" },
-          "recognition": { "$ref": "defs.json#/$defs/recognition" }
+          "date": {
+            "$ref": "defs.json#/$defs/date"
+          },
+          "recognition": {
+            "$ref": "defs.json#/$defs/recognition"
+          }
         },
-        "required": ["granted_by", "date"],
+        "required": [
+          "granted_by",
+          "date"
+        ],
         "additionalProperties": false
       }
     },
     "dissolved": {
       "type": "object",
       "properties": {
-        "date": { "$ref": "defs.json#/$defs/date" },
+        "date": {
+          "$ref": "defs.json#/$defs/date"
+        },
         "successor": {
           "anyOf": [
-            { "$ref": "defs.json#/$defs/jurisdictionId" },
-            { "const": "none-in-scope",
-              "description": "explicit sentinel: the continuing line falls outside this database's scope (DATA_COMPLETION §2) — distinct from an omitted (unknown) successor" }
+            {
+              "$ref": "defs.json#/$defs/jurisdictionId"
+            },
+            {
+              "const": "none-in-scope",
+              "description": "explicit sentinel: the continuing line falls outside this database's scope (DATA_COMPLETION §2) — distinct from an omitted (unknown) successor"
+            }
           ]
         }
       },
       "additionalProperties": false
     },
-    "primatial_see": { "$ref": "defs.json#/$defs/seeId" },
-    "sources": { "$ref": "defs.json#/$defs/sources" },
-    "status": { "$ref": "defs.json#/$defs/status" },
-    "notes": { "type": "string" }
+    "primatial_see": {
+      "$ref": "defs.json#/$defs/seeId"
+    },
+    "sources": {
+      "$ref": "defs.json#/$defs/sources"
+    },
+    "status": {
+      "$ref": "defs.json#/$defs/status"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "related_works": {
+      "description": "SEEDS §B: the jurisdiction's primary legal instruments (tomoi, synodal acts) as Work records.",
+      "type": "array",
+      "items": {
+        "$ref": "defs.json#/$defs/workId"
+      }
+    }
   },
-  "required": ["id", "name", "type", "sources", "status"],
+  "required": [
+    "id",
+    "name",
+    "type",
+    "sources",
+    "status"
+  ],
   "additionalProperties": false
 }

@@ -1,0 +1,23 @@
+id: work/oca-tomos-1970
+title: Tomos of autocephaly of the Orthodox Church in America
+author_display: The Holy Synod of the Russian Orthodox Church (Alexy I)
+relation: involving
+language: English and Church Slavonic
+date:
+  value: '1970'
+  calendar: gregorian
+  precision: year
+attribution: authentic
+genre: tomos
+sources:
+- ref: source/orthodox-church-in-america-official
+  reliability: official-list
+  locator: locator to be confirmed - the instrument's official publication
+  note: link and archive the published document text during verification
+notes: >-
+  The Moscow-issued tomos of April 10, 1970 - recognition disputes (Constantinople and others) are recorded on the jurisdiction, not adjudicated here. Document-backed record for the jurisdiction's status claim (SEEDS §B
+  rationale); jurisdiction link via jurisdiction/orthodox-church-in-america.related_works. Created in SEEDS_BACKLOG_UPDATE §B (autocephaly instruments) 2026-07-16.
+status: unverified
+survival: extant
+survival_note: extant - a modern legal instrument; the official publication is
+  the edition to link and archive at verification.

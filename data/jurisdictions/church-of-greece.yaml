@@ -7,8 +7,7 @@ autocephaly:
     value: '1850'
     calendar: gregorian
     precision: year
-    note: self-declared 1833; regularized by the patriarchal and synodal tomos of
-      1850
+    note: self-declared 1833; regularized by the patriarchal and synodal tomos of 1850
   recognition:
   - by: all
     status: recognized
@@ -20,5 +19,7 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: Structural record authored from general reference knowledge — verify each
-  autocephaly/recognition entry against a graded source before promotion.
+notes: Structural record authored from general reference knowledge — verify each autocephaly/recognition
+  entry against a graded source before promotion.
+related_works:
+- work/greece-tomos-1850

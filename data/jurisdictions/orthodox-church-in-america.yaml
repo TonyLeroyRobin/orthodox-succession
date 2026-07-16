@@ -21,8 +21,8 @@ autocephaly:
     status: recognized
   - by: jurisdiction/ecumenical-patriarchate
     status: not-recognized
-    note: does not recognize the autocephaly while recognizing the OCA as canonical
-      — recorded, not adjudicated
+    note: does not recognize the autocephaly while recognizing the OCA as canonical — recorded,
+      not adjudicated
 primatial_see: see/oca/washington
 sources:
 - ref: source/orthodox-church-in-america-official
@@ -31,7 +31,9 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: Continues the Russian mission in North America (from 1794) and the Metropolia;
-  the dispute over its autocephaly is modeled per-recognizer. Structural record
-  authored from general reference knowledge — verify each autocephaly/recognition
-  entry against a graded source before promotion.
+notes: Continues the Russian mission in North America (from 1794) and the Metropolia; the
+  dispute over its autocephaly is modeled per-recognizer. Structural record authored from
+  general reference knowledge — verify each autocephaly/recognition entry against a graded
+  source before promotion.
+related_works:
+- work/oca-tomos-1970

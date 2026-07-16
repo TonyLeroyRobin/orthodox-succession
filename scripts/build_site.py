@@ -253,6 +253,7 @@ def main():
     sources_by_id = {r["data"]["id"]: r for r in by_kind["source"]}
     tenures = [r["data"] for r in by_kind["tenure"]]
     works = [r["data"] for r in by_kind["work"]]
+    works_by_id = {w["id"]: w for w in works}
     councils = [r["data"] for r in by_kind["event"]
                 if r["data"].get("type") != "context"]
     participations = [r["data"] for r in by_kind["participation"]]
@@ -692,8 +693,20 @@ def main():
             related.append(prim)
         see_list = "".join(f"<li>{slink(sid)}</li>" for sid in sorted(related)) \
             or "<li class=note>none recorded via jurisdiction_history</li>"
+        instr_html = ""
+        if j.get("related_works"):
+            instr_lines = "".join(
+                f'<li><a href="{entity_url(w)}">'
+                f'{esc((works_by_id.get(w) or {}).get("title", w))}</a></li>'
+                for w in j["related_works"])
+            instr_html = (f'<div class="panel"><h2>Instruments</h2>'
+                          f'<p class=note>The primary legal documents behind '
+                          f'this jurisdiction\'s status (SEEDS §B) — '
+                          f'document-backed, not merely asserted.</p>'
+                          f'<ul>{instr_lines}</ul></div>')
         content = f"""<h1>{esc(j.get('name'))} {badge(j.get('status'))}</h1>
 <p class="subtitle">{esc(jid)} · type: <strong>{esc(j.get('type'))}</strong></p>
+{instr_html}
 <div class="panel"><h2>Primatial timeline{f" — {slink(prim)}" if prim else ""}</h2>
 {see_timeline_svg(prim_ts) or '<p class=note>No dated primatial tenures.</p>'}</div>
 <div class="panel"><h2>Sees</h2><ul>{see_list}</ul></div>

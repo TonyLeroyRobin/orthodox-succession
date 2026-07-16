@@ -25,8 +25,9 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: Metropolitanate of Kiev and all Rus' historically; the Moscow line is modeled
-  here. The patriarchate was abolished 1721-1917 (Synodal period) and restored 1917
-  — tenure data reflects the office holders as seeded. Structural record authored
-  from general reference knowledge — verify each autocephaly/recognition entry against
-  a graded source before promotion.
+notes: Metropolitanate of Kiev and all Rus' historically; the Moscow line is modeled here.
+  The patriarchate was abolished 1721-1917 (Synodal period) and restored 1917 — tenure data
+  reflects the office holders as seeded. Structural record authored from general reference
+  knowledge — verify each autocephaly/recognition entry against a graded source before promotion.
+related_works:
+- work/moscow-patriarchate-acts-1589

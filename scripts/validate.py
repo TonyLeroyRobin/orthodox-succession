@@ -151,6 +151,8 @@ def iter_refs(kind, data):
     elif kind == "jurisdiction":
         if data.get("primatial_see"):
             yield ("primatial_see", data["primatial_see"])
+        for w in data.get("related_works") or []:
+            yield ("related_works", w)
         succ = (data.get("dissolved") or {}).get("successor")
         if succ and succ != "none-in-scope":
             yield ("dissolved.successor", succ)
@@ -693,8 +695,11 @@ def main():
                 # matches are duplicate candidates even when subtitles differ
                 # (the Panarion lesson: parenthetical subtitles defeated the
                 # whole-title ratio)
+                legal = {"tomos", "synodal-act"}
                 head_match = (t1 and t2 and t1.split()[0] == t2.split()[0]
-                              and len(t1.split()[0]) >= 6)
+                              and len(t1.split()[0]) >= 6
+                              and not (ws[i]["data"].get("genre") in legal
+                                       and ws[j]["data"].get("genre") in legal))
                 if t1 and t2 and (head_match or
                                   difflib.SequenceMatcher(None, t1, t2).ratio() > 0.85):
                     rep.warn(ws[j]["path"],

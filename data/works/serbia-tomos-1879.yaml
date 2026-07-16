@@ -1,0 +1,23 @@
+id: work/serbia-tomos-1879
+title: Tomos of autocephaly of the Church of Serbia
+author_display: The Holy Synod of the Ecumenical Patriarchate (Joachim III)
+relation: involving
+language: Greek
+date:
+  value: '1879'
+  calendar: gregorian
+  precision: year
+attribution: authentic
+genre: tomos
+sources:
+- ref: source/ecumenical-patriarchate-official
+  reliability: official-list
+  locator: locator to be confirmed - the instrument's official publication
+  note: link and archive the published document text during verification
+notes: >-
+  The tomos of 1879 following Serbian independence; patriarchal dignity followed in 1920/1922. Document-backed record for the jurisdiction's status claim (SEEDS §B
+  rationale); jurisdiction link via jurisdiction/church-of-serbia.related_works. Created in SEEDS_BACKLOG_UPDATE §B (autocephaly instruments) 2026-07-16.
+status: unverified
+survival: extant
+survival_note: extant - a modern legal instrument; the official publication is
+  the edition to link and archive at verification.

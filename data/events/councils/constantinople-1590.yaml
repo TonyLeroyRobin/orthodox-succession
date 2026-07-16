@@ -8,10 +8,13 @@ date:
     precision: year
 place: Constantinople
 outcomes:
-- Ratified, with reservations later revisited, the elevation of the see of Moscow to patriarchal rank performed by Jeremias II in Moscow in 1589.
+- Ratified, with reservations later revisited, the elevation of the see of Moscow to patriarchal
+  rank performed by Jeremias II in Moscow in 1589.
 - Assigned Moscow the fifth place among the patriarchates.
 canonical_reception: received-universally
-reception_note: Administratively operative church-wide - the pentarchy's admission of a fifth patriarchate; Alexandria's absence from the 1590 signatures is why 1593 re-confirmed the act.
+reception_note: Administratively operative church-wide - the pentarchy's admission of a fifth
+  patriarchate; Alexandria's absence from the 1590 signatures is why 1593 re-confirmed the
+  act.
 sources:
 - ref: source/mansi-collectio
   reliability: primary
@@ -19,3 +22,5 @@ sources:
   note: primary acts in a scholarly compilation
 status: unverified
 notes: Created in Milestone R5 (council catalog) 2026-07-15.
+related_works:
+- work/moscow-patriarchate-acts-1589

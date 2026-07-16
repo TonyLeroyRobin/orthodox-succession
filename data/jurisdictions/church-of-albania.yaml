@@ -19,6 +19,8 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: The church was outlawed 1967-1991 under the Albanian state atheism; hierarchy
-  restored from 1991. Structural record authored from general reference knowledge
-  — verify each autocephaly/recognition entry against a graded source before promotion.
+notes: The church was outlawed 1967-1991 under the Albanian state atheism; hierarchy restored
+  from 1991. Structural record authored from general reference knowledge — verify each autocephaly/recognition
+  entry against a graded source before promotion.
+related_works:
+- work/albania-tomos-1937

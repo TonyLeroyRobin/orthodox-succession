@@ -19,5 +19,7 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: Structural record authored from general reference knowledge — verify each
-  autocephaly/recognition entry against a graded source before promotion.
+notes: Structural record authored from general reference knowledge — verify each autocephaly/recognition
+  entry against a graded source before promotion.
+related_works:
+- work/romania-tomos-1885

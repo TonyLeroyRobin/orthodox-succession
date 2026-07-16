@@ -7,10 +7,9 @@ autocephaly:
     value: 0487
     calendar: julian
     precision: circa
-    note: traditional date of ancient autocephaly from Antioch; grade and date to
-      be verified
-- granted_by: restoration of autocephaly, self-declared after the 1811 abolition
-    under the Russian Synod
+    note: traditional date of ancient autocephaly from Antioch; grade and date to be verified
+- granted_by: restoration of autocephaly, self-declared after the 1811 abolition under the
+    Russian Synod
   date:
     value: '1917'
     calendar: gregorian
@@ -36,6 +35,8 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: Catholicos-Patriarch of All Georgia; seat historically Mtskheta, today Tbilisi.
-  Structural record authored from general reference knowledge — verify each autocephaly/recognition
-  entry against a graded source before promotion.
+notes: Catholicos-Patriarch of All Georgia; seat historically Mtskheta, today Tbilisi. Structural
+  record authored from general reference knowledge — verify each autocephaly/recognition entry
+  against a graded source before promotion.
+related_works:
+- work/georgia-tomos-1990

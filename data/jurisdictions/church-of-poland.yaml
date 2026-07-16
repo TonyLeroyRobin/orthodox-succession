@@ -11,8 +11,8 @@ autocephaly:
   recognition:
   - by: jurisdiction/church-of-russia
     status: disputed
-    note: Moscow rejected the 1924 tomos and issued its own grant of autocephaly
-      in 1948; both grants are recorded, neither adjudicated
+    note: Moscow rejected the 1924 tomos and issued its own grant of autocephaly in 1948;
+      both grants are recorded, neither adjudicated
 primatial_see: see/poland/warsaw
 sources:
 - ref: source/church-of-poland-official
@@ -21,5 +21,7 @@ sources:
 - ref: source/wikidata
   reliability: database
 status: unverified
-notes: Structural record authored from general reference knowledge — verify each
-  autocephaly/recognition entry against a graded source before promotion.
+notes: Structural record authored from general reference knowledge — verify each autocephaly/recognition
+  entry against a graded source before promotion.
+related_works:
+- work/poland-tomos-1924

@@ -1,0 +1,23 @@
+id: work/georgia-tomos-1990
+title: Patriarchal and synodal tomos recognizing the autocephaly of the Church of Georgia
+author_display: The Holy Synod of the Ecumenical Patriarchate (Demetrios)
+relation: involving
+language: Greek
+date:
+  value: '1990'
+  calendar: gregorian
+  precision: year
+attribution: authentic
+genre: tomos
+sources:
+- ref: source/ecumenical-patriarchate-official
+  reliability: official-list
+  locator: locator to be confirmed - the instrument's official publication
+  note: link and archive the published document text during verification
+notes: >-
+  The January 25, 1990 tomos recognizing the ancient autocephaly restored in 1917; Moscow had recognized it in 1943. Document-backed record for the jurisdiction's status claim (SEEDS §B
+  rationale); jurisdiction link via jurisdiction/church-of-georgia.related_works. Created in SEEDS_BACKLOG_UPDATE §B (autocephaly instruments) 2026-07-16.
+status: unverified
+survival: extant
+survival_note: extant - a modern legal instrument; the official publication is
+  the edition to link and archive at verification.

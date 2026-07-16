@@ -1,0 +1,23 @@
+id: work/ocu-tomos-2019
+title: Tomos of autocephaly of the Orthodox Church of Ukraine
+author_display: The Holy Synod of the Ecumenical Patriarchate (Bartholomew)
+relation: involving
+language: Greek
+date:
+  value: '2019'
+  calendar: gregorian
+  precision: year
+attribution: authentic
+genre: tomos
+sources:
+- ref: source/ecumenical-patriarchate-official
+  reliability: official-list
+  locator: locator to be confirmed - the instrument's official publication
+  note: link and archive the published document text during verification
+notes: >-
+  The tomos of January 5-6, 2019 - per-recognizer handling as usual; the recognition map lives on the jurisdiction record. Document-backed record for the jurisdiction's status claim (SEEDS §B
+  rationale); jurisdiction link via jurisdiction/orthodox-church-of-ukraine.related_works. Created in SEEDS_BACKLOG_UPDATE §B (autocephaly instruments) 2026-07-16.
+status: unverified
+survival: extant
+survival_note: extant - a modern legal instrument; the official publication is
+  the edition to link and archive at verification.
