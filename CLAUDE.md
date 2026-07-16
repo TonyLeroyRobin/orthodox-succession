@@ -78,6 +78,11 @@ Read it before making structural changes. These rules bind every session.
   interpretation, quote at most brief phrases, never copy its text — even if
   provided as a reference PDF. Books and treatises remain link-only.
 
+- **Living-data currency (Q8, standing policy):** a quarterly sweep checks
+  current primates and open tenures against official announcements; deaths,
+  elections, and enthronements enter as normal sourced edits (never bulk
+  imports). Next sweep due 2026-10-01.
+
 ## Source hierarchy
 
 Verify against (descending preference): primary documents (council acts, synodal

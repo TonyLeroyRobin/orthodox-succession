@@ -146,3 +146,12 @@ details.tl-jur summary { position: sticky; left: 0; cursor: pointer;
 .lib-filters label { margin-right: 10px; font-size: 13px; }
 dl.glossary dt { font-weight: 700; margin-top: 10px; }
 dl.glossary dd { margin: 2px 0 0 0; color: #444; }
+
+/* ---------------- Q8: accessibility ---------------- */
+.skip-link { position: absolute; left: -9999px; top: 0; background: #fff;
+             padding: 8px 12px; z-index: 100; }
+.skip-link:focus { left: 8px; }
+a:focus-visible, button:focus-visible, input:focus-visible,
+select:focus-visible, summary:focus-visible {
+  outline: 3px solid #2456a8; outline-offset: 2px; }
+.tl-bar:focus-visible { outline: 3px solid #2456a8; }

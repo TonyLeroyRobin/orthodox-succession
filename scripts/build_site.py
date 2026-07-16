@@ -156,12 +156,21 @@ def citations_html(cits, sources_by_id):
     return "".join(out)
 
 
-def layout(title, content, canonical, jsonld=None, active=""):
+def layout(title, content, canonical, jsonld=None, active="",
+           description=None, entity_id=None):
     nav = "".join(
         f'<a href="{href}"{" class=active" if label == active else ""}>'
         f'{label}</a>' for label, href in NAV)
     ld = (f'<script type="application/ld+json">{json.dumps(jsonld, indent=1)}'
           f'</script>' if jsonld else "")
+    desc = description or ("Orthodox Apostolic Succession Database — sourced "
+                           "records of sees, tenures, consecrations, councils, "
+                           "canons, and works.")
+    # Q8.3: report-a-correction link, prefilled with the entity id / page URL
+    issue_url = ("https://github.com/TonyLeroyRobin/orthodox-succession/issues/"
+                 "new?template=error-report.yml&title="
+                 + urlparse.quote(f"[correction] {entity_id or title}")
+                 + "&entity-id=" + urlparse.quote(entity_id or canonical))
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -169,23 +178,33 @@ def layout(title, content, canonical, jsonld=None, active=""):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)} — Orthodox Apostolic Succession</title>
 <link rel="canonical" href="{esc(canonical)}">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(desc)}">
+<meta property="og:url" content="{esc(canonical)}">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Orthodox Apostolic Succession Database">
+<meta name="description" content="{esc(desc)}">
 <link rel="stylesheet" href="/assets/style.css">
 {ld}</head>
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
-<nav>{nav}</nav>
+<nav aria-label="Main">{nav}</nav>
 <form class="searchbox" action="/search/" method="get">
 <input type="search" name="q" placeholder="Search people, sees, councils, works…" aria-label="Search">
 </form>
 </header>
-<main>
+<main id="main">
 {content}
 </main>
 <footer>Data: CC BY 4.0 · Code: MIT · Recognition disputes are recorded, not
 adjudicated; <em>unverified</em> means no human has yet confirmed the claim
 against a graded source.<br>
 Cite this page: <code>{esc(canonical)}</code> — Orthodox Apostolic Succession
-Database {esc(VERSION)}.</footer>
+Database {esc(VERSION)}.<br>
+<a href="{esc(issue_url)}" rel="nofollow">Report a correction for this page</a>
+· <a href="/state/">State of the database</a>
+· <a href="/research/">For researchers</a></footer>
 <script src="/assets/site.js" defer></script>
 </body>
 </html>"""
@@ -586,7 +605,8 @@ def main():
 <div class="panel"><h2>Consecration <span class="badge model">consecration-succession</span></h2>{cons_html}</div>
 {works_html}{parts_html}{rel_html}{src_html}"""
         write(OUT / url.strip("/") / "index.html",
-              layout(person_name(p), content, canonical, jsonld, "People"))
+              layout(person_name(p), content, canonical, jsonld, "People",
+                     description=person_entry_label(pid), entity_id=pid))
 
     # people index (Q1.4: every entry carries its see/epithet + dates)
     letters = defaultdict(list)
@@ -785,7 +805,7 @@ def main():
 {f'<p class=note>{esc(ev.get("notes"))}</p>' if ev.get('notes') else ''}</div>"""
         write(OUT / url.strip("/") / "index.html",
               layout(ev.get("title", rid), content, canonical, jsonld,
-                     "Councils"))
+                     "Councils", entity_id=rid))
 
     GROUPS = [
         ("received-universally", "Received universally",
@@ -975,7 +995,9 @@ absence of a text is part of its history.</p></div>
 <div class="panel"><h2>Record</h2>{citations_html(w.get('sources'), sources_by_id)}
 {f'<p class=note>{esc(w.get("notes"))}</p>' if w.get('notes') else ''}</div>"""
         write(OUT / url.strip("/") / "index.html",
-              layout(w.get("title", wid), content, canonical, active="Library"))
+              layout(w.get("title", wid), content, canonical, active="Library",
+                     description=author_label(w) + " · " + (w.get("genre") or "work"),
+                     entity_id=wid))
 
     # filterable index
     def distinct(vals):
@@ -1101,7 +1123,9 @@ the naming rule (docs/NAMING.md); variants are recorded, not endorsed.</p></div>
 {f'<p class=note>{esc(c.get("notes"))}</p>' if c.get('notes') else ''}</div>"""
         write(OUT / url.strip("/") / "index.html",
               layout(c.get("label", cid), content, canonical,
-                     active="Controversies"))
+                     active="Controversies",
+                     description=c.get("description", "")[:200],
+                     entity_id=cid))
 
     contro_idx = "".join(
         f'<li><a href="{entity_url(cid)}">{esc(c.get("label"))}</a> '
@@ -1451,7 +1475,7 @@ the see page.</p>
 <button class="era-btn" data-year="1917">1917</button>
 <button class="era-btn" data-year="2026">today</button>
 </div>
-<div id="map"></div>
+<div id="map" role="img" aria-label="Map of sees over time; the year slider and era buttons control the displayed year"></div>
 <p class="note map-legend"><strong>Legend:</strong>
 <span style="color:#2e7d32">&#9679;</span> filled = tenure active that year
 (green verified, amber unverified, red disputed; dashed ring = recognition
@@ -1717,6 +1741,96 @@ durations) and point markers — <a href="/about/">about the layers</a>.</p>
                   json.dumps(items, ensure_ascii=False))
     write(OUT / "data" / "chunks" / "index.json",
           json.dumps({j: dict(k) for j, k in chunk_index.items()}, indent=1))
+
+    # ---------------- state of the database (Q8.1) ----------------
+    jur_stats = defaultdict(lambda: defaultdict(int))
+    for r in records:
+        rid = r["data"].get("id", "")
+        parts_ = rid.split("/")
+        if r["kind"] in ("person", "see", "tenure", "consecration") \
+                and len(parts_) > 2:
+            jur = parts_[1]
+            st = r["data"].get("status", "unverified")
+            jur_stats[jur]["total"] += 1
+            jur_stats[jur][st] += 1
+    state_rows = ""
+    for jur in sorted(jur_stats):
+        s_ = jur_stats[jur]
+        tot = s_["total"]
+        ver = s_.get("verified", 0)
+        pct = round(100 * ver / tot) if tot else 0
+        state_rows += (f"<tr><td>{esc(jur)}</td><td>{tot}</td>"
+                       f"<td>{ver} ({pct}%)</td>"
+                       f"<td>{s_.get('unverified', 0)}</td>"
+                       f"<td>{s_.get('disputed', 0)}</td></tr>")
+    kind_counts = defaultdict(int)
+    for r in records:
+        kind_counts[r["kind"]] += 1
+    kind_html = " · ".join(f"{k}: {n}" for k, n in sorted(kind_counts.items()))
+    open_leads = 0
+    leads_path = REPO_ROOT / "docs" / "COUNCIL_LEADS.md"
+    if leads_path.exists():
+        for line in leads_path.read_text(encoding="utf-8").splitlines():
+            if line.startswith("|") and line.count("|") >= 5 \
+                    and not line.startswith("|---") and "Lead |" not in line:
+                if line.rstrip().endswith("| |") or line.rstrip().endswith("|  |"):
+                    open_leads += 1
+    write(OUT / "state" / "index.html",
+          layout("State of the database",
+                 f"<h1>State of the database</h1>"
+                 f"<p class=note>Honest and current on every build "
+                 f"(dataset {esc(VERSION)}). <em>Verified</em> means a human "
+                 f"confirmed the claim against a graded source; most records "
+                 f"are unverified by design until the verification pass "
+                 f"reaches them.</p>"
+                 f"<div class=panel><h2>Records</h2><p>{kind_html}</p></div>"
+                 f"<div class=panel><h2>Verification progress by "
+                 f"jurisdiction</h2><table><thead><tr><th>Jurisdiction</th>"
+                 f"<th>Records</th><th>Verified</th><th>Unverified</th>"
+                 f"<th>Disputed</th></tr></thead>"
+                 f"<tbody>{state_rows}</tbody></table>"
+                 f"<p class=note>Person/see/tenure/consecration records only "
+                 f"(jurisdiction-filed kinds).</p></div>"
+                 f"<div class=panel><h2>Known gaps</h2><p>"
+                 f"<a href='/gaps/'>Occupancy-gap report and link health</a> "
+                 f"· {open_leads} open council lead(s) in the capture log "
+                 f"(docs/COUNCIL_LEADS.md).</p></div>",
+                 "https://tonyleroyrobin.github.io/orthodox-succession/state/"))
+
+    # ---------------- for researchers (Q8.2) ----------------
+    schema_list = "".join(
+        f"<li><code>{esc(f.name)}</code></li>"
+        for f in sorted((REPO_ROOT / 'schemas').glob('*.json')))
+    write(OUT / "research" / "index.html",
+          layout("For researchers",
+                 f"""<h1>For researchers</h1>
+<div class=panel><h2>Downloads</h2>
+<ul>
+<li><strong>Per release</strong> (versioned, citable):
+<a href="https://github.com/TonyLeroyRobin/orthodox-succession/releases" rel="nofollow">
+GitHub releases</a> carry the YAML source; the archived deposit is on Zenodo
+(DOI <code>10.5281/zenodo.21384060</code>).</li>
+<li><strong>This build's JSON</strong>: per-jurisdiction chunks under
+<a href="/data/chunks/index.json">/data/chunks/</a> (person, see, tenure,
+consecration), plus <a href="/data/map-data.json">map-data</a>,
+<a href="/data/search-index.json">search-index</a>, and
+<a href="/data/calendar-data.json">calendar-data</a>.</li>
+<li><strong>SQLite and GraphML</strong>: built by <code>make build</code>
+from the repository (<code>build/succession.sqlite</code>,
+<code>build/graph.graphml</code>) — clone and build, or take them from a
+release's assets.</li>
+</ul></div>
+<div class=panel><h2>Schema overview</h2>
+<p>YAML records under <code>data/</code>, one entity per file, validated by
+JSON Schema (draft 2020-12):</p><ul>{schema_list}</ul>
+<p class=note>Two succession models, never conflated: see-succession
+(Tenure order) and consecration-succession (the consecration DAG). Absent
+consecration data is stated, not inferred.</p></div>
+<div class=panel><h2>How to cite</h2>
+<p><code>Orthodox Apostolic Succession Database, {esc(VERSION)},
+doi:10.5281/zenodo.21384060</code> — or cite a page by its canonical URL
+(every footer shows it).</p></div>""",
+                 "https://tonyleroyrobin.github.io/orthodox-succession/research/"))
 
     # ---------------- alias redirect stubs (Q2.1 infrastructure) -----------
     # data/aliases.yaml maps retired IDs (Q1 merges, future Q2 migrations) to

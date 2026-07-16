@@ -1,0 +1,32 @@
+name: Error report
+description: Report a factual error in a record (Q8.3)
+title: "[correction] "
+labels: [correction]
+body:
+  - type: input
+    id: entity-id
+    attributes:
+      label: Entity ID or page URL
+      description: e.g. person/cyprus/epiphanios-of-salamis-0367 (shown in every page's subtitle and footer)
+    validations:
+      required: true
+  - type: textarea
+    id: whats-wrong
+    attributes:
+      label: What is wrong
+      description: The claim as the database currently states it
+    validations:
+      required: true
+  - type: textarea
+    id: whats-correct
+    attributes:
+      label: What is correct
+    validations:
+      required: true
+  - type: textarea
+    id: your-source
+    attributes:
+      label: Your source
+      description: The database only records sourced claims — name the edition/page or link the document
+    validations:
+      required: true
