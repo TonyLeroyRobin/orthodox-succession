@@ -928,20 +928,38 @@ name variants and native scripts.</p></div></div>
     write(OUT / "data" / "map-data.json",
           json.dumps(map_rows, ensure_ascii=False))
     map_page = """<h1>Sees over time</h1>
-<p class="subtitle">Every see with recorded coordinates. Fill = status of the
-tenure active in the slider year; hollow = attested, no recorded occupant;
-the marker links to the see page.</p>
+<p class="subtitle">Every see with recorded coordinates renders from its first
+attested date onward and never disappears while it exists. The marker links to
+the see page.</p>
 <div class="panel">
 <div class="map-controls">
 <label for="yearSlider">Year: <strong id="yearLabel"></strong></label>
 <input type="range" id="yearSlider" min="33" max="2026" value="2026" step="1">
 <button id="playBtn">&#9654; play</button>
+<button id="resetView">reset view</button>
+</div>
+<div class="map-controls era-presets" role="group" aria-label="era presets">
+<button class="era-btn" data-year="33">33</button>
+<button class="era-btn" data-year="325">325</button>
+<button class="era-btn" data-year="451">451</button>
+<button class="era-btn" data-year="787">787</button>
+<button class="era-btn" data-year="1054">1054</button>
+<button class="era-btn" data-year="1204">1204</button>
+<button class="era-btn" data-year="1453">1453</button>
+<button class="era-btn" data-year="1917">1917</button>
+<button class="era-btn" data-year="2026">today</button>
 </div>
 <div id="map"></div>
+<p class="note map-legend"><strong>Legend:</strong>
+<span style="color:#2e7d32">&#9679;</span> filled = tenure active that year
+(green verified, amber unverified, red disputed; dashed ring = recognition
+disputed) &middot; &#9675; hollow = attested, no recorded occupant &middot;
+<span style="color:#9a9a9a">&#8855;</span> grayed/crossed = suppressed (date in
+the tooltip) &middot; Pentarchy sees stay labeled at all zooms; other labels
+appear as you zoom. Scroll or pinch to zoom, drag to pan.</p>
 <p class=note>Basemap: Natural Earth, bundled — the site makes no external
 requests. Coverage reflects the dataset, not history (see the
-<a href="/gaps/">gap report</a>). The full persistence/suppression rendering
-arrives with Milestone R2.</p>
+<a href="/gaps/">gap report</a>).</p>
 </div>
 <script src="/assets/vendor/d3.v7.min.js"></script>
 <script src="/assets/vendor/topojson-client.min.js"></script>
