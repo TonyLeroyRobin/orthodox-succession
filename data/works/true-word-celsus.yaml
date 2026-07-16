@@ -1,0 +1,28 @@
+id: work/true-word-celsus
+title: The True Word (Alethes Logos)
+author_name: Celsus
+external: true
+relation: by
+language: Ancient Greek
+date:
+  value: '0178'
+  calendar: julian
+  precision: circa
+  note: c. 175-180
+attribution: authentic
+genre: treatise
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. II, the Contra Celsum chapter (the reconstruction literature)
+notes: >-
+  The exemplar external work (C1.4) - its author is outside the admission rule
+  and gets NO Person record; the work exists because Contra Celsum responds to
+  it and preserves it. Excluded from Library counts by default. Created in C2
+  (correspondence seed) 2026-07-16.
+status: unverified
+survival: lost
+survival_note: lost - substantially reconstructible from the extensive verbatim
+  quotation in Origen's Contra Celsum (the preserved_in link).
+preserved_in:
+- work/contra-celsum-origen

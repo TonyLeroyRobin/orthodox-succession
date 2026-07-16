@@ -1,0 +1,50 @@
+id: person/jerusalem/jerome-of-stridon-0420
+names:
+  monastic: Jerome
+  family: Eusebius Hieronymus
+  native:
+  - script: lat
+    value: Hieronymus
+  variants:
+  - Jerome of Stridon
+  - Blessed Jerome
+epithet: of Stridon
+role: monastic
+born:
+  date:
+    value: '0347'
+    calendar: julian
+    precision: circa
+    note: Stridon on the Dalmatia-Pannonia border, c. 347
+died:
+  date:
+    value: '0420-09-30'
+    calendar: julian
+    precision: day
+    note: at his Bethlehem monastery
+  place: Bethlehem
+veneration:
+  status: saint
+  feast_days:
+  - month_day: '06-15'
+    calendar: julian
+    note: >-
+      Blessed Jerome of Stridonium - commemorated with the Blessed-style
+      nuance, like Augustine (the same June 15 cluster); verify against the
+      synaxarion
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/06/15
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/06/15
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  locator: vol. IV (Di Berardino), the Jerome chapter - locator to be confirmed
+  reliability: scholarly
+status: unverified
+notes: Priest-monk of Bethlehem, never a bishop - filed under the Jerusalem
+  namespace (filing choice); role monastic per the module spec. Admitted via his
+  works; the Jerome-Augustine correspondence is the Tier-1 exemplar where both
+  sides survive. Created in C2 (correspondence seed) 2026-07-16.

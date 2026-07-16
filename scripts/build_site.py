@@ -48,7 +48,7 @@ NAV = [("Home", "/"), ("Jurisdictions", "/jurisdictions/"),
        ("Saints", "/saints/"),
        ("Map", "/map/"), ("Timeline", "/timeline/"),
        ("Controversies", "/controversies/"),
-       ("Graph", "/site/graph.html"),
+       ("Graph", "/site/graph.html"), ("Ideas", "/ideas/"),
        ("About", "/about/")]
 
 
@@ -554,7 +554,26 @@ def main():
                               + f" · {esc(fmt_date(w.get('date')))}</p>"
                               + wnote + snote + eds)
                 sections += f"<h3>{GROUP_LABEL[relname]}</h3>{wrows}"
-            works_html = f"<div class=panel><h2>Works</h2>{sections}</div>"
+            corr_out = sorted({ad for _, w in my_works
+                               for ad in (w.get("addressee") or [])
+                               if w.get("author") == pid})
+            corr_in = sorted({w.get("author") for w in works
+                              if pid in (w.get("addressee") or [])
+                              and w.get("author") and w.get("author") != pid})
+            corr_html = ""
+            if corr_out or corr_in:
+                bits = []
+                if corr_out:
+                    bits.append("Letters to " +
+                                ", ".join(plink(x) for x in corr_out))
+                if corr_in:
+                    bits.append("letters from " +
+                                ", ".join(plink(x) for x in corr_in))
+                corr_html = (f"<p class=note><strong>Correspondence:</strong> "
+                             f"{'; '.join(bits)} — see the "
+                             f"<a href='/ideas/'>ideas graph</a>.</p>")
+            works_html = (f"<div class=panel><h2>Works</h2>{corr_html}"
+                          f"{sections}</div>")
 
         rel_html = ""
         my_rels = rels_by_person.get(pid, [])
@@ -1038,6 +1057,7 @@ absence of a text is part of its history.</p></div>
         return (f'<label>{label} <select id="{fid}" class="lib-filter">'
                 f'<option value="">all</option>{opts}</select></label> ')
 
+    lib_works = [w for w in works if not w.get("external")]
     lib_rows = "".join(
         f'<tr id="{esc(w["id"].split("/", 1)[1])}"'
         f' data-author="{esc(author_label(w))}"'
@@ -1052,10 +1072,11 @@ absence of a text is part of its history.</p></div>
         f'<td>{surv_badge(w)}</td>'
         f'<td>{esc(fmt_date(w.get("date")))}</td>'
         f'<td>{badge(w.get("status"))}</td></tr>'
-        for w in sorted(works, key=lambda w: w.get("title", "")))
+        for w in sorted(lib_works, key=lambda w: w.get("title", "")))
     write(OUT / "library" / "index.html",
           layout("Library",
-                 f"<h1>Library ({len(works)} works)</h1>"
+                 f"<h1>Library ({len(lib_works)} works)</h1>"
+                 f"<p class=note>External (out-of-scope-author) works are excluded from the index and counts; they remain reachable from citing works and the <a href='/ideas/'>ideas graph</a>.</p>"
                  f"<p class=note>One Work, many Editions; each title opens "
                  f"the work page with survival, transmission, and "
                  f"read-links. See also the <a href='/bibliography/'>"
@@ -1681,6 +1702,179 @@ durations) and point markers — <a href="/about/">about the layers</a>.</p>
     write(OUT / "data" / "calendar-data.json",
           json.dumps(cal, ensure_ascii=False))
 
+    # ---------------- ideas graph (C3.1) ----------------
+    # Three networks, three meanings: documented correspondence (Tier 1) and
+    # documented citation/response (Tier 2); the gated influence
+    # relationships overlay as Tier 3, off by default.
+    ideas_nodes, ideas_links = {}, []
+
+    def _inode(key, label=None, external=False):
+        if key not in ideas_nodes:
+            if external:
+                ideas_nodes[key] = {"id": key, "label": label or key,
+                                    "url": None, "external": True}
+            else:
+                p_ = persons.get(key)
+                ideas_nodes[key] = {
+                    "id": key,
+                    "label": person_name(p_) if p_ else key,
+                    "url": BASE + (entity_url(key) or ""),
+                    "external": False}
+        return key
+
+    def _author_key(w):
+        if w.get("author"):
+            return _inode(w["author"])
+        if w.get("external"):
+            nm = w.get("author_name") or w.get("title")
+            return _inode("ext:" + nm, label=nm, external=True)
+        return None
+
+    cite_indegree = defaultdict(int)
+    for w in works:
+        has_edges = (w.get("addressee") or w.get("cites")
+                     or w.get("responds_to"))
+        a = _author_key(w) if (has_edges or w.get("external")) else None
+        for ad in w.get("addressee") or []:
+            if a:
+                ideas_links.append({
+                    "source": a, "target": _inode(ad), "tier": 1,
+                    "work": BASE + (entity_url(w["id"]) or ""),
+                    "title": w.get("title"), "locator": ""})
+        for c in w.get("cites") or []:
+            tw = works_by_id.get(c.get("work"))
+            cite_indegree[c.get("work")] += 1
+            if not tw:
+                continue
+            b = _author_key(tw) if (tw.get("author") or tw.get("external")) \
+                else None
+            if a and b and a != b:
+                ideas_links.append({
+                    "source": a, "target": b, "tier": 2,
+                    "work": BASE + (entity_url(w["id"]) or ""),
+                    "title": w.get("title"),
+                    "locator": c.get("locator", "")})
+        for rid_ in (w.get("responds_to") or []) + (w.get("preserved_in") or []):
+            tw = works_by_id.get(rid_)
+            cite_indegree[rid_] += 1
+            if not tw:
+                continue
+            b = _author_key(tw) if (tw.get("author") or tw.get("external")) \
+                else None
+            if a and b and a != b:
+                ideas_links.append({
+                    "source": a, "target": b, "tier": 2,
+                    "work": BASE + (entity_url(w["id"]) or ""),
+                    "title": w.get("title"),
+                    "locator": "responds to / preserves"})
+    for rel_ in relationships:
+        if rel_.get("type") == "influenced":
+            ideas_links.append({
+                "source": _inode(rel_.get("from")),
+                "target": _inode(rel_.get("to")), "tier": 3,
+                "work": "", "title": "influenced (scholarly-gated)",
+                "locator": ""})
+    write(OUT / "data" / "ideas-graph.json",
+          json.dumps({"nodes": list(ideas_nodes.values()),
+                      "links": ideas_links}, ensure_ascii=False),
+          sitemap=False)
+    # C3.4: info-level analytics in the build report
+    top_cited = sorted(cite_indegree.items(), key=lambda kv: -kv[1])[:5]
+    if top_cited:
+        print("build_site: most-cited works (citation in-degree): " +
+              "; ".join(f"{works_by_id.get(k, {}).get('title', k)} ({v})"
+                        for k, v in top_cited))
+    ideas_page = """<h1>The succession of ideas</h1>
+<p class="subtitle">The database renders three successions, never blended:
+hands (the <a href="/site/graph.html">consecration graph</a>), formation
+(teacher/tonsure relationships on person pages), and IDEAS — documented
+correspondence and citation, shown here. The graph is smaller than the truth
+and never larger.</p>
+<div class="panel">
+<p class="map-controls"><label><input type="checkbox" id="tier3toggle">
+show Tier 3 (inferred influence, scholarly-gated) overlay</label></p>
+<div id="ideas"></div>
+<p class="note"><strong>Legend:</strong> solid = Tier 1, documented
+correspondence (a surviving letter with an addressee) &middot; dashed =
+Tier 2, documented citation/response (passage-sourced) &middot; dotted
+purple = Tier 3, inferred influence (exists only via the gated
+<code>influenced</code> relationship; off by default). Edge tooltips name
+the evidencing work and locator; click a node for the person, an edge for
+the work. Squares are external (out-of-scope) authors.</p>
+</div>
+<script src="/assets/vendor/d3.v7.min.js"></script>
+<script src="/assets/ideas.js"></script>"""
+    write(OUT / "ideas" / "index.html",
+          layout("Ideas graph", ideas_page,
+                 "https://tonyleroyrobin.github.io/orthodox-succession/ideas/"))
+
+    # ---------------- works timeline (C3.2) ----------------
+    WT_SCALE = 0.75
+
+    def wt_x(y):
+        return (max(33, min(2026, y)) - 33) * WT_SCALE
+
+    wt_width = int(wt_x(2026)) + 1
+    genres_present = sorted({w.get("genre") for w in works
+                             if w.get("genre") and date_year(w.get("date"))})
+    wt_rows = ""
+    for gname in genres_present:
+        dots = ""
+        for w in works:
+            if w.get("genre") != gname:
+                continue
+            y = date_year(w.get("date"))
+            if y is None:
+                continue
+            tags_ = [x if isinstance(x, str) else x.get("id", "")
+                     for x in w.get("controversies") or []]
+            color = "#5d5480" if tags_ else "#8a7f6a"
+            tagtxt = (" · " + ", ".join(x.replace("controversy/", "")
+                                        for x in tags_)) if tags_ else ""
+            dots += (f'<a class="wt-dot" href="{entity_url(w["id"])}" '
+                     f'style="left:{wt_x(y):.1f}px;background:{color}" '
+                     f'title="{esc(w.get("title", ""))} ({y}){esc(tagtxt)}"></a>')
+        wt_rows += (f'<div class="tl-row">'
+                    f'<div class="tl-name">{esc(gname)}</div>'
+                    f'<div class="tl-track" style="width:{wt_width}px">{dots}</div>'
+                    f'</div>')
+    wt_axis = "".join(
+        f'<span class="tl-tick" style="left:{wt_x(y):.1f}px">{y}</span>'
+        for y in [33] + list(range(200, 2001, 200)) + [2026])
+    wt_bands = ""
+    for r_ in by_kind["event"]:
+        d_ = r_["data"]
+        if d_.get("type") != "context" or d_.get("scope") != "global":
+            continue
+        dt_ = d_.get("date") or {}
+        f_, e_ = date_year(dt_.get("from")), date_year(dt_.get("to"))
+        if f_ is None or e_ is None or e_ <= f_:
+            continue
+        wt_bands += (f'<div class="tl-band" '
+                     f'style="left:{wt_x(f_):.1f}px;'
+                     f'width:{max(wt_x(e_) - wt_x(f_), 2):.1f}px" '
+                     f'title="{esc(d_.get("title", ""))} ({f_}–{e_})">'
+                     f'<span>{esc(d_.get("title", ""))}</span></div>')
+    wt_page = f"""<h1>Works on the time axis</h1>
+<p class="subtitle">Every dated work, laned by genre; purple = tagged with a
+controversy (the tooltip names it); global era bands behind. Pure rendering
+of existing data.</p>
+<div class="panel">
+<div class="tl-wrap">
+<div class="tl-inner" style="width:{wt_width + 180}px">
+<div class="tl-axis"><div class="tl-name tl-axis-name"></div>
+<div class="tl-track" style="width:{wt_width}px">{wt_axis}</div></div>
+<div class="tl-bands"><div class="tl-name tl-band-name">eras</div>
+<div class="tl-track" style="width:{wt_width}px">{wt_bands}</div></div>
+{wt_rows}
+</div></div>
+<p class=note>Linked from the <a href="/library/">library</a>; dots click
+through to work pages.</p></div>"""
+    write(OUT / "works-timeline" / "index.html",
+          layout("Works timeline", wt_page,
+                 "https://tonyleroyrobin.github.io/orthodox-succession/works-timeline/",
+                 active="Library"))
+
     # ---------------- saints index (Q6.1) ----------------
     # Derived entirely from existing veneration data - no new data class;
     # the admission rule still governs who can ever appear.
@@ -1890,7 +2084,7 @@ doi:10.5281/zenodo.21384060</code> — or cite a page by its canonical URL
     for f in (SITE_SRC / "vendor").iterdir():
         shutil.copy(f, assets / "vendor" / f.name)
     for name in ("site.js", "search.js", "map.js", "timeline.js",
-                 "library.js", "saints.js"):
+                 "library.js", "saints.js", "ideas.js"):
         src = SITE_SRC / "static" / name
         if src.exists():
             js = src.read_text(encoding="utf-8")

@@ -82,6 +82,15 @@ Read it before making structural changes. These rules bind every session.
   interpretation, quote at most brief phrases, never copy its text — even if
   provided as a reference PDF. Books and treatises remain link-only.
 
+- **Ideas graph (C-module, standing):** correspondence edges are DERIVED from
+  letter-works' `addressee` (never stored as relationships); `cites` requires
+  locator + sources per entry (error); Tier-3 influence lives ONLY in the gated
+  `influenced` relationship. Citation/correspondence edges enter
+  opportunistically WITH locators during verification work plus the curated
+  seed list — systematic mining of PG/PL is PROHIBITED. External
+  (out-of-scope-author) works: `external: true` + `author_name`, no Person
+  record, excluded from Library counts. The ideas graph never blends with the
+  consecration graph.
 - **Living-data currency (Q8, standing policy):** a quarterly sweep checks
   current primates and open tenures against official announcements; deaths,
   elections, and enthronements enter as normal sourced edits (never bulk

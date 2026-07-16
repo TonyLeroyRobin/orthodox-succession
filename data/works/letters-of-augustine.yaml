@@ -1,0 +1,27 @@
+id: work/letters-of-augustine
+title: Letters of Augustine (Epistulae)
+author: person/pre-schism-rome/augustine-of-hippo-0395
+addressee:
+- person/jerusalem/jerome-of-stridon-0420
+relation: by
+language: Latin
+date:
+  value: '0410'
+  calendar: julian
+  precision: circa
+  note: the corpus spans c. 386-430
+attribution: authentic
+cpg: CPL 262
+genre: letter
+sources:
+- ref: source/clavis-patrum-latinorum
+  reliability: scholarly
+  locator: CPL 262
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: per the author's chapter
+notes: >-
+  The Augustine side of the Jerome correspondence (epp. 28, 40, 67, 71, 73, 82, 166-167 among others) - locators to be confirmed at verification. Created in C2 (correspondence seed) 2026-07-16.
+status: unverified
+survival: extant
+survival_note: extant - the 300-plus letter corpus in full Latin transmission

@@ -1,6 +1,8 @@
 id: work/third-letter-to-nestorius-cyril
 title: Third Letter to Nestorius (with the Twelve Chapters)
 author: person/alexandria/cyril-i-of-alexandria-0412
+addressee:
+- person/constantinople/nestorius-0380
 relation: by
 language: Ancient Greek
 date:

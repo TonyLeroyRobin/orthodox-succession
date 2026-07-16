@@ -1,0 +1,29 @@
+id: work/letters-of-basil
+title: Letters of Basil (Epistulae)
+author: person/constantinople/basil-the-great-0370
+addressee:
+- person/alexandria/athanasios-i-the-great-0328
+- person/constantinople/gregory-of-nazianzus-0379
+- person/constantinople/amphilochius-of-iconium-0373
+relation: by
+language: Ancient Greek
+date:
+  value: '0370'
+  calendar: julian
+  precision: circa
+  note: the 368-letter corpus, c. 357-378
+attribution: authentic
+cpg: CPG 2900
+genre: letter
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 2900
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: per the author's chapter
+notes: >-
+  Basil to Athanasius (epp. 61, 66-67, 69, 80, 82), to Gregory the Theologian, and the canonical letters to Amphilochius (epp. 188, 199, 217) - the Cappadocian web's documented spine. Created in C2 (correspondence seed) 2026-07-16.
+status: unverified
+survival: extant
+survival_note: extant - full Greek transmission

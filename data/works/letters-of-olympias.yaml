@@ -1,0 +1,23 @@
+id: work/letters-of-olympias
+title: Letters of Olympias to John Chrysostom
+author: person/constantinople/olympias-the-deaconess-0408
+addressee:
+- person/constantinople/john-i-chrysostom-0398
+relation: by
+language: Ancient Greek
+date:
+  value: '0405'
+  calendar: julian
+  precision: circa
+  note: the exile years, 404-407
+attribution: authentic
+genre: letter
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: per the author's chapter
+notes: >-
+  The modeled lost half of the Chrysostom-Olympias correspondence, sourced to the surviving side. Created in C2 (correspondence seed) 2026-07-16.
+status: unverified
+survival: lost
+survival_note: lost - her side of the correspondence does not survive; its existence and content are evidenced throughout Chrysostom's surviving replies (which answer her letters point by point). Lost voices are information (C2.5)

@@ -155,3 +155,8 @@ a:focus-visible, button:focus-visible, input:focus-visible,
 select:focus-visible, summary:focus-visible {
   outline: 3px solid #2456a8; outline-offset: 2px; }
 .tl-bar:focus-visible { outline: 3px solid #2456a8; }
+
+/* ---------------- C3: works timeline dots ---------------- */
+.wt-dot { position: absolute; top: 6px; width: 9px; height: 9px;
+          border-radius: 50%; border: 1px solid #fff; }
+.wt-dot:hover { transform: scale(1.6); }

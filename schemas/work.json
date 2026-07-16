@@ -191,6 +191,56 @@
           }
         ]
       }
+    },
+    "addressee": {
+      "description": "C1.1: addressees of letter/encyclical works - correspondence edges are DERIVED from these at build time, never stored as relationships.",
+      "type": "array",
+      "items": {
+        "$ref": "defs.json#/$defs/personId"
+      }
+    },
+    "cites": {
+      "description": "C1.2: documented naming/quoting of another work; locator and sources REQUIRED per entry.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "work",
+          "locator",
+          "sources"
+        ],
+        "properties": {
+          "work": {
+            "$ref": "defs.json#/$defs/workId"
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sources": {
+            "$ref": "defs.json#/$defs/sources"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "responds_to": {
+      "description": "C1.3: polemical/responsive relation to another work.",
+      "type": "array",
+      "items": {
+        "$ref": "defs.json#/$defs/workId"
+      }
+    },
+    "external": {
+      "description": "C1.4: work by an out-of-scope author (no Person record); excluded from Library counts/index by default.",
+      "type": "boolean"
+    },
+    "author_name": {
+      "description": "C1.4: plain-text author name for external works.",
+      "type": "string"
     }
   },
   "required": [
@@ -211,6 +261,11 @@
     {
       "required": [
         "author_display"
+      ]
+    },
+    {
+      "required": [
+        "author_name"
       ]
     }
   ],

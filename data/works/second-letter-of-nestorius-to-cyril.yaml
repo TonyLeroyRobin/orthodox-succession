@@ -1,0 +1,27 @@
+id: work/second-letter-of-nestorius-to-cyril
+title: Second Letter of Nestorius to Cyril
+author: person/constantinople/nestorius-0380
+addressee:
+- person/alexandria/cyril-i-of-alexandria-0412
+relation: by
+language: Ancient Greek
+date:
+  value: '0430'
+  calendar: julian
+  precision: year
+  note: June 430
+attribution: authentic
+cpg: CPG 5669
+genre: letter
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 5669
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: per the author's chapter
+notes: >-
+  The counterpart voice of the Nestorian exchange - kept with honest attribution and its conciliar transmission stated; Nestorius's person record already carries the deposition data. Created in C2 (correspondence seed) 2026-07-16.
+status: unverified
+survival: extant
+survival_note: extant - preserved in the conciliar acts of Ephesus (read and condemned in session I)

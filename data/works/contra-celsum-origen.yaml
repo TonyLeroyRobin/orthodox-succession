@@ -1,6 +1,8 @@
 id: work/contra-celsum-origen
 title: Against Celsus (Contra Celsum)
 author: person/alexandria/origen-0254
+responds_to:
+- work/true-word-celsus
 relation: by
 language: Ancient Greek
 date:

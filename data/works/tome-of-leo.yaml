@@ -1,6 +1,8 @@
 id: work/tome-of-leo
 title: Tome of Leo (Epistle 28, to Flavian of Constantinople)
 author: person/pre-schism-rome/leo-i-0440
+addressee:
+- person/constantinople/flavian-of-constantinople-0400
 relation: by
 language: Latin
 date:

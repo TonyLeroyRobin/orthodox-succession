@@ -1,7 +1,7 @@
 id: work/letters-to-olympias-chrysostom
 title: Letters to Olympias
 author: person/constantinople/john-i-chrysostom-0398
-subject_of:
+addressee:
 - person/constantinople/olympias-the-deaconess-0408
 relation: by
 language: Ancient Greek

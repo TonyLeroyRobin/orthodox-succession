@@ -170,6 +170,13 @@ def iter_refs(kind, data):
             yield ("author", data["author"])
         for p in data.get("subject_of") or []:
             yield ("subject_of", p)
+        for p in data.get("addressee") or []:
+            yield ("addressee", p)
+        for c in data.get("cites") or []:
+            yield ("cites.work", c.get("work"))
+            yield from citations(c.get("sources"), "cites")
+        for w in data.get("responds_to") or []:
+            yield ("responds_to", w)
     elif kind == "participation":
         yield ("person", data.get("person"))
         yield ("event", data.get("event"))
@@ -545,6 +552,8 @@ def main():
                 connected.add(d["author"])
             for p in d.get("subject_of") or []:
                 connected.add(p)
+            for p in d.get("addressee") or []:
+                connected.add(p)  # C1: a letter to X connects X
         elif k == "participation":
             if d.get("person"):
                 connected.add(d["person"])
@@ -705,6 +714,20 @@ def main():
                     rep.warn(ws[j]["path"],
                              f"possible duplicate of {ws[i]['data'].get('id')} "
                              f"(same author, near-identical title) — one Work, many Editions")
+    for w in works:
+        d = w["data"]
+        pin = set(d.get("preserved_in") or [])
+        for c in d.get("cites") or []:
+            if c.get("work") in pin:
+                rep.error(w["path"],
+                          f"redundant cites of {c.get('work')!r} - "
+                          f"preserved_in already implies citation (C1.5)")
+        if d.get("external"):
+            if d.get("author"):
+                rep.error(w["path"],
+                          "external work must not link a Person author (C1.4)")
+            if not d.get("author_name"):
+                rep.warn(w["path"], "external work without author_name")
     for w in works:
         for idx, ed in enumerate(w["data"].get("editions") or []):
             # Q3.2: an URL-less edition is a legitimate print-citation state

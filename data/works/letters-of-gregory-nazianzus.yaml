@@ -1,0 +1,28 @@
+id: work/letters-of-gregory-nazianzus
+title: Letters of Gregory the Theologian (Epistulae)
+author: person/constantinople/gregory-of-nazianzus-0379
+addressee:
+- person/constantinople/basil-the-great-0370
+- person/constantinople/gregory-of-nyssa-0372
+relation: by
+language: Ancient Greek
+date:
+  value: '0380'
+  calendar: julian
+  precision: circa
+  note: the 249-letter corpus - the first Greek author to publish his own collected letters
+attribution: authentic
+cpg: CPG 3032
+genre: letter
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 3032
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: per the author's chapter
+notes: >-
+  To Basil (the friendship's whole arc) and to Gregory of Nyssa. Created in C2 (correspondence seed) 2026-07-16.
+status: unverified
+survival: extant
+survival_note: extant - full Greek transmission
