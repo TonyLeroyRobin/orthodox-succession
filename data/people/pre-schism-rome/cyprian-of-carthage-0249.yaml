@@ -1,0 +1,46 @@
+id: person/pre-schism-rome/cyprian-of-carthage-0249
+names:
+  monastic: Cyprian
+  native:
+  - script: lat
+    value: Thascius Caecilius Cyprianus
+  variants:
+  - Cyprian of Carthage
+role: bishop
+born:
+  date:
+    value: '0210'
+    calendar: julian
+    precision: circa
+    note: Carthage, c. 200-210
+died:
+  date:
+    value: '0258-09-14'
+    calendar: julian
+    precision: day
+    note: beheaded at Carthage under Valerian
+  place: Carthage
+veneration:
+  status: saint
+  titles:
+  - Hieromartyr
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: '08-31'
+    calendar: julian
+    note: >-
+      Hieromartyr Cyprian, Bishop of Carthage
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/08/31
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/08/31
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. II, pp. 340-383
+status: unverified
+notes: Bishop-martyr of Carthage, theologian of unity and the lapsed. The Byzantine Aug. 31 commemoration historically interweaves with Cyprian of Antioch (Oct. 2) - the conflation is flagged for verification. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.

@@ -1,0 +1,38 @@
+id: person/constantinople/diadochos-of-photike-0450
+names:
+  monastic: Diadochos
+  native:
+  - script: grc
+    value: Διάδοχος
+  variants:
+  - Diadochos of Photike
+role: bishop
+died:
+  date:
+    value: '0486'
+    calendar: julian
+    precision: circa
+    note: before c. 486 (the terminus of Victor of Vita's dedication); floruit mid-fifth century
+veneration:
+  status: saint
+  feast_days:
+  - month_day: '03-29'
+    calendar: julian
+    note: >-
+      St Diadochos, Bishop of Photike - synaxarion entry to be confirmed at verification
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/03/29
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/03/29
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. III (Di Berardino continuation) - locator to be confirmed
+- ref: source/philokalia
+  reliability: scholarly
+  locator: vol. I (the Gnostic Chapters roster entry)
+status: unverified
+notes: Bishop of Photike in Epirus, signatory of the anti-monophysite letter of the Epirote bishops (458), and a Philokalia-roster author - the checklist source that admits him. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.

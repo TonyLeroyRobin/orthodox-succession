@@ -1,0 +1,30 @@
+id: person/antioch/theodoret-of-cyrrhus-0423
+names:
+  monastic: Theodoret
+  native:
+  - script: grc
+    value: Θεοδώρητος
+  variants:
+  - Theodoret of Cyrrhus
+  - Theodoret of Cyrus
+role: bishop
+born:
+  date:
+    value: '0393'
+    calendar: julian
+    precision: circa
+    note: Antioch, c. 393
+died:
+  date:
+    value: '0457'
+    calendar: julian
+    precision: circa
+    note: c. 457-466 (the later date argued from the Eranistes tradition)
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. III, pp. 536-554
+status: unverified
+notes: >-
+  The last great Antiochene exegete: deposed by Ephesus II (449), restored at Chalcedon after pronouncing the anathema on Nestorius; his writings against Cyril's Twelve Chapters were condemned in the Three Chapters affair (Constantinople II, 553) while his person was not - the participation records carry the sequence. Not glorified in the Byzantine calendars; no veneration block by assessment. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.

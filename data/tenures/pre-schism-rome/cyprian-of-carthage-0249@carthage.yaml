@@ -1,0 +1,20 @@
+id: tenure/pre-schism-rome/cyprian-of-carthage-0249@carthage
+person: person/pre-schism-rome/cyprian-of-carthage-0249
+see: see/pre-schism-rome/carthage
+from:
+  value: '0249'
+  calendar: julian
+  precision: circa
+  note: elected 248/249
+to:
+  value: '0258'
+  calendar: julian
+  precision: year
+  note: to his martyrdom, Sept. 14, 258
+end_reason: died
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. II, p. 340
+status: unverified
+notes: Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.

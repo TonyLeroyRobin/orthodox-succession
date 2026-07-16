@@ -1,0 +1,24 @@
+id: work/iambi-ad-seleucum-amphilochius
+title: Iambics for Seleucus (Iambi ad Seleucum)
+author: person/constantinople/amphilochius-of-iconium-0373
+relation: by
+language: Ancient Greek
+date:
+  value: '0396'
+  calendar: julian
+  precision: circa
+  note: late fourth century
+attribution: authentic
+cpg: CPG 3230
+genre: poetry
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 3230
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vols. II-IV, per the author's chapter
+notes: Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - transmitted among Gregory of Nazianzus' poems; the Amphilochian attribution is the scholarly consensus (noted); carries another early biblical canon list

@@ -1,0 +1,32 @@
+id: work/on-the-mysteries-ambrose
+title: On the Mysteries (De Mysteriis)
+author: person/pre-schism-rome/ambrose-of-milan-0374
+relation: by
+language: Latin
+date:
+  value: '0390'
+  calendar: julian
+  precision: circa
+  note: c. 390
+attribution: authentic
+cpg: CPL 155
+genre: treatise
+editions:
+- type: translation
+  language: English
+  series: Nicene and Post-Nicene Fathers, Series II, vol. 10
+  url: https://www.ccel.org/ccel/schaff/npnf210.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/https://www.ccel.org/ccel/schaff/npnf210.html
+  notes: Year-wildcard archive redirect - pin after generation (availability API, 2026-07-15).
+sources:
+- ref: source/clavis-patrum-latinorum
+  reliability: scholarly
+  locator: CPL 155
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vols. II-IV, per the author's chapter
+notes: Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - full Latin transmission

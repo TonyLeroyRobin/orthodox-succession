@@ -1,0 +1,13 @@
+id: participation/ephesus-0449--theodoret-of-cyrrhus-0423
+person: person/antioch/theodoret-of-cyrrhus-0423
+event: event/council/ephesus-0449
+role: deposed-by
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. III, p. 537
+  note: deposed in absentia by the Second Council of Ephesus - confirm against the acts (Mansi) during verification
+status: unverified
+notes: Deposed unheard; restored two years later at Chalcedon. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+controversies:
+- controversy/christological-controversy

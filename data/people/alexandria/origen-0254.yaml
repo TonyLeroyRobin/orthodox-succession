@@ -1,0 +1,34 @@
+id: person/alexandria/origen-0254
+names:
+  monastic: Origen
+  native:
+  - script: grc
+    value: Ὠριγένης
+  variants:
+  - Origen of Alexandria
+  - Origen Adamantius
+role: priest
+born:
+  date:
+    value: '0185'
+    calendar: julian
+    precision: circa
+    note: Alexandria, c. 185
+died:
+  date:
+    value: '0254'
+    calendar: julian
+    precision: circa
+    note: Tyre, c. 253-254, of injuries from the Decian persecution
+  place: Tyre
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. II, pp. 37-101
+- ref: source/eusebius-ecclesiastical-history
+  reliability: tradition
+  locator: HE 6 (the book-length notice)
+  note: ordained priest at Caesarea c. 231; the ordination was contested by Demetrius of Alexandria - recorded, not adjudicated
+status: unverified
+notes: Head of the Alexandrian catechetical school, then of Caesarea; the most prolific scholar of the ante-Nicene church. Posthumously condemned in the sixth-century Origenist controversies (see the participation record) - not venerated; no veneration block. Admitted via his works. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.

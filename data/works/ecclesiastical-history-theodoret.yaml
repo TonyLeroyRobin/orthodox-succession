@@ -1,0 +1,32 @@
+id: work/ecclesiastical-history-theodoret
+title: Ecclesiastical History
+author: person/antioch/theodoret-of-cyrrhus-0423
+relation: by
+language: Ancient Greek
+date:
+  value: '0449'
+  calendar: julian
+  precision: circa
+  note: covers 324-428; written c. 444-449
+attribution: authentic
+cpg: CPG 6222
+genre: study
+editions:
+- type: translation
+  language: English
+  series: Nicene and Post-Nicene Fathers, Series II, vol. 3
+  url: https://www.ccel.org/ccel/schaff/npnf203.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/https://www.ccel.org/ccel/schaff/npnf203.html
+  notes: Year-wildcard archive redirect - pin after generation (availability API, 2026-07-15).
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 6222
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vols. II-IV, per the author's chapter
+notes: Continuation of Eusebius from Nicaea to 428. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - full Greek transmission

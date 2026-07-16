@@ -1,0 +1,29 @@
+id: person/antioch/theodore-of-mopsuestia-0392
+names:
+  monastic: Theodore
+  native:
+  - script: grc
+    value: Θεόδωρος
+  variants:
+  - Theodore of Mopsuestia
+  - Theodore the Interpreter
+role: bishop
+born:
+  date:
+    value: '0350'
+    calendar: julian
+    precision: circa
+    note: Antioch, c. 350
+died:
+  date:
+    value: '0428'
+    calendar: julian
+    precision: year
+    note: died in communion and repute; the condemnation came 125 years later
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. III, pp. 401-423
+status: unverified
+notes: The exegetical master of the Antiochene school, condemned in person at Constantinople II (553) in the Three Chapters affair - the honest disputed/condemned handling the P2 see record promises. Venerated as 'the Interpreter' in the Church of the East (out of scope; recorded, not adjudicated). No veneration block. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.

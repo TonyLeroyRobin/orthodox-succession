@@ -1,0 +1,20 @@
+id: work/catechetical-homilies-theodore-mopsuestia
+title: Catechetical Homilies
+author: person/antioch/theodore-of-mopsuestia-0392
+relation: by
+language: Ancient Greek
+date:
+  value: '0390'
+  calendar: julian
+  precision: circa
+  note: the 16 baptismal catecheses, Antioch period
+attribution: authentic
+genre: homily
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vols. II-IV, per the author's chapter
+notes: The doctrinal core of the condemned corpus, extant only because it traveled east. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+status: unverified
+survival: extant-in-translation-only
+survival_note: the Greek perished with the 553 condemnation; the complete Syriac version was recovered in 1932 (Mingana collection) - survival shaped by conciliar history. CPG locator to be confirmed at verification

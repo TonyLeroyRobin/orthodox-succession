@@ -1,0 +1,34 @@
+id: work/on-the-unity-cyprian
+title: On the Unity of the Catholic Church (De Ecclesiae Catholicae Unitate)
+author: person/pre-schism-rome/cyprian-of-carthage-0249
+relation: by
+language: Latin
+date:
+  value: '0251'
+  calendar: julian
+  precision: year
+  note: written amid the Novatianist crisis, 251
+attribution: authentic
+cpg: CPL 41
+genre: treatise
+editions:
+- type: translation
+  language: English
+  series: Ante-Nicene Fathers, vol. 5
+  url: https://www.ccel.org/ccel/schaff/anf05.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/https://www.ccel.org/ccel/schaff/anf05.html
+  notes: Year-wildcard archive redirect - pin after generation (availability API, 2026-07-15).
+sources:
+- ref: source/clavis-patrum-latinorum
+  reliability: scholarly
+  locator: CPL 41
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vols. II-IV, per the author's chapter
+notes: Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - full Latin transmission; chapter 4 survives in two ancient recensions (the 'primacy text' problem - noted, not adjudicated)
+controversies:
+- controversy/novatianism

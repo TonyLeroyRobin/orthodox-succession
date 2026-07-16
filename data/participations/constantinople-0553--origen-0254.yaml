@@ -1,0 +1,13 @@
+id: participation/constantinople-0553--origen-0254
+person: person/alexandria/origen-0254
+event: event/council/constantinople-0553
+role: posthumously-condemned
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. II, pp. 40-41
+  note: the 15 anti-Origenist anathemas; whether they belong to the council's formal acts or to the adjacent 543/553 proceedings is a standing scholarly question - recorded per the received tradition, flagged for verification
+status: unverified
+notes: The condemnation is recorded with its documentary uncertainty stated, not adjudicated. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+controversies:
+- controversy/origenist-controversies

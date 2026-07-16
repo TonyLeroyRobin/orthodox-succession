@@ -1,0 +1,48 @@
+id: person/constantinople/gregory-thaumaturgus-0240
+names:
+  monastic: Gregory
+  native:
+  - script: grc
+    value: Γρηγόριος
+  variants:
+  - Gregory Thaumaturgus
+  - Gregory the Wonderworker
+  - Gregory of Neocaesarea
+role: bishop
+born:
+  date:
+    value: '0213'
+    calendar: julian
+    precision: circa
+    note: Neocaesarea in Pontus, c. 213
+died:
+  date:
+    value: '0270'
+    calendar: julian
+    precision: circa
+    note: c. 270-275
+veneration:
+  status: saint
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: '11-17'
+    calendar: julian
+    note: >-
+      St Gregory the Wonderworker, Bishop of Neocaesarea
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/11/17
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/11/17
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. II, pp. 123-128
+- ref: source/eusebius-ecclesiastical-history
+  reliability: tradition
+  locator: HE 6.30; 7.14
+status: unverified
+notes: Origen's pupil at Caesarea (the Address of thanks is the primary witness), then bishop-evangelizer of Pontus. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.

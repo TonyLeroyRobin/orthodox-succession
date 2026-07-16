@@ -1,0 +1,34 @@
+id: work/de-trinitate-hilary
+title: On the Trinity (De Trinitate)
+author: person/pre-schism-rome/hilary-of-poitiers-0350
+relation: by
+language: Latin
+date:
+  value: '0360'
+  calendar: julian
+  precision: circa
+  note: twelve books, written largely in the Phrygian exile 356-360
+attribution: authentic
+cpg: CPL 433
+genre: treatise
+editions:
+- type: translation
+  language: English
+  series: Nicene and Post-Nicene Fathers, Series II, vol. 9
+  url: https://www.ccel.org/ccel/schaff/npnf209.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/https://www.ccel.org/ccel/schaff/npnf209.html
+  notes: Year-wildcard archive redirect - pin after generation (availability API, 2026-07-15).
+sources:
+- ref: source/clavis-patrum-latinorum
+  reliability: scholarly
+  locator: CPL 433
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vols. II-IV, per the author's chapter
+notes: Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - full Latin transmission
+controversies:
+- controversy/arianism

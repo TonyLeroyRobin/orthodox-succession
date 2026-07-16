@@ -1,0 +1,32 @@
+id: work/catechetical-lectures-cyril-jerusalem
+title: Catechetical Lectures
+author: person/jerusalem/kyrill-i-0350
+relation: by
+language: Ancient Greek
+date:
+  value: '0350'
+  calendar: julian
+  precision: circa
+  note: the 18 pre-baptismal catecheses (c. 350) with the 5 mystagogical (attribution of the latter debated between Cyril and his successor John - noted)
+attribution: authentic
+cpg: CPG 3585
+genre: homily
+editions:
+- type: translation
+  language: English
+  series: Nicene and Post-Nicene Fathers, Series II, vol. 7
+  url: https://www.ccel.org/ccel/schaff/npnf207.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/https://www.ccel.org/ccel/schaff/npnf207.html
+  notes: Year-wildcard archive redirect - pin after generation (availability API, 2026-07-15).
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 3585
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vols. II-IV, per the author's chapter
+notes: Audit addition linking the existing Jerusalem-line record kyrill-i-0350 to the library. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - full Greek transmission

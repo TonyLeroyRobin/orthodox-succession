@@ -1,0 +1,32 @@
+id: work/contra-celsum-origen
+title: Against Celsus (Contra Celsum)
+author: person/alexandria/origen-0254
+relation: by
+language: Ancient Greek
+date:
+  value: '0248'
+  calendar: julian
+  precision: circa
+  note: eight books, c. 248
+attribution: authentic
+cpg: CPG 1476
+genre: treatise
+editions:
+- type: translation
+  language: English
+  series: Ante-Nicene Fathers, vol. 4
+  url: https://www.ccel.org/ccel/schaff/anf04.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/https://www.ccel.org/ccel/schaff/anf04.html
+  notes: Year-wildcard archive redirect - pin after generation (availability API, 2026-07-15).
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 1476
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vols. II-IV, per the author's chapter
+notes: The fullest surviving ancient defense of Christianity. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - complete Greek (Vaticanus gr. 386 and the Philocalia extracts)

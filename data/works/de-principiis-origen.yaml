@@ -1,0 +1,34 @@
+id: work/de-principiis-origen
+title: On First Principles (De Principiis)
+author: person/alexandria/origen-0254
+relation: by
+language: Ancient Greek
+date:
+  value: '0225'
+  calendar: julian
+  precision: circa
+  note: Alexandria, c. 220-230
+attribution: authentic
+cpg: CPG 1482
+genre: treatise
+editions:
+- type: translation
+  language: English
+  series: Ante-Nicene Fathers, vol. 4
+  url: https://www.ccel.org/ccel/schaff/anf04.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/https://www.ccel.org/ccel/schaff/anf04.html
+  notes: Year-wildcard archive redirect - pin after generation (availability API, 2026-07-15).
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 1482
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vols. II-IV, per the author's chapter
+notes: The first Christian systematic theology. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+status: unverified
+survival: extant-in-translation-only
+survival_note: complete only in Rufinus' avowedly smoothing Latin translation; Greek survives in the Philocalia extracts and the fragments of Justinian's dossier - the survival problem is itself part of the Origenist story
+controversies:
+- controversy/origenist-controversies

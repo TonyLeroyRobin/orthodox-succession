@@ -1,0 +1,13 @@
+id: participation/constantinople-0553--theodore-of-mopsuestia-0392
+person: person/antioch/theodore-of-mopsuestia-0392
+event: event/council/constantinople-0553
+role: posthumously-condemned
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. III, p. 402
+  note: the first of the Three Chapters - person and writings condemned
+status: unverified
+notes: Condemned 125 years after dying in communion and repute - the honest handling the P2 Mopsuestia see record promises. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+controversies:
+- controversy/christological-controversy

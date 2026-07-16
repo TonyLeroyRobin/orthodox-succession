@@ -1,0 +1,34 @@
+id: work/third-letter-to-nestorius-cyril
+title: Third Letter to Nestorius (with the Twelve Chapters)
+author: person/alexandria/cyril-i-of-alexandria-0412
+relation: by
+language: Ancient Greek
+date:
+  value: '0430'
+  calendar: julian
+  precision: year
+  note: November 430
+attribution: authentic
+cpg: CPG 5317
+genre: letter
+editions:
+- type: translation
+  language: English
+  series: Nicene and Post-Nicene Fathers, Series II, vol. 14
+  url: https://www.ccel.org/ccel/schaff/npnf214.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/https://www.ccel.org/ccel/schaff/npnf214.html
+  notes: Year-wildcard archive redirect - pin after generation (availability API, 2026-07-15).
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 5317
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vols. II-IV, per the author's chapter
+notes: Read into the acts at Ephesus (431) - a works-to-council corroboration case. Audit addition for the existing person record. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - transmitted in the conciliar acts of Ephesus 431
+controversies:
+- controversy/nestorian-controversy

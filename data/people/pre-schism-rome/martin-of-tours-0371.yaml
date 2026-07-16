@@ -1,0 +1,43 @@
+id: person/pre-schism-rome/martin-of-tours-0371
+names:
+  monastic: Martin
+  native:
+  - script: lat
+    value: Martinus
+  variants:
+  - Martin of Tours
+  - Martin the Merciful
+role: bishop
+born:
+  date:
+    value: '0316'
+    calendar: julian
+    precision: circa
+    note: Savaria in Pannonia, c. 316-336 (the sources conflict)
+died:
+  date:
+    value: '0397-11-08'
+    calendar: julian
+    precision: day
+    note: Candes; buried at Tours Nov. 11
+  place: Candes, near Tours
+veneration:
+  status: saint
+  feast_days:
+  - month_day: '10-12'
+    calendar: julian
+    note: >-
+      St Martin the Merciful, Bishop of Tours - Byzantine date; the Western feast is Nov. 11; calendars vary, verify
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/10/12
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/10/12
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. IV (Di Berardino) - via the Sulpicius Severus chapter; locator to be confirmed
+status: unverified
+notes: Soldier-monk-bishop of Tours, apostle of the Gallic countryside; admitted via the see and as subject of Sulpicius Severus' Life (the subject_of link). Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.

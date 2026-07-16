@@ -1,0 +1,24 @@
+id: work/commentary-on-the-twelve-prophets-theodore
+title: Commentary on the Twelve Prophets
+author: person/antioch/theodore-of-mopsuestia-0392
+relation: by
+language: Ancient Greek
+date:
+  value: '0380'
+  calendar: julian
+  precision: circa
+  note: early exegetical work
+attribution: authentic
+cpg: CPG 3834
+genre: treatise
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 3834
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vols. II-IV, per the author's chapter
+notes: The Greek survivor of the Three Chapters affair - absence elsewhere is information. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - the only major work of Theodore to survive complete in Greek, the condemnations notwithstanding

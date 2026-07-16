@@ -1,0 +1,13 @@
+id: participation/chalcedon-0451--theodoret-of-cyrrhus-0423
+person: person/antioch/theodoret-of-cyrrhus-0423
+event: event/council/chalcedon-0451
+role: attended
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. III, p. 537
+  note: admitted after pronouncing the anathema on Nestorius (session VIII) - confirm against the acts during verification
+status: unverified
+notes: The restoration that closes the 449 deposition. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+controversies:
+- controversy/christological-controversy

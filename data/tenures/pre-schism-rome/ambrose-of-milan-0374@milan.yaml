@@ -1,0 +1,20 @@
+id: tenure/pre-schism-rome/ambrose-of-milan-0374@milan
+person: person/pre-schism-rome/ambrose-of-milan-0374
+see: see/pre-schism-rome/milan
+from:
+  value: '0374'
+  calendar: julian
+  precision: year
+  note: acclaimed and consecrated Dec. 374
+to:
+  value: '0397'
+  calendar: julian
+  precision: year
+  note: to his death, Apr. 397
+end_reason: died
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. IV (Di Berardino) - locator to be confirmed
+status: unverified
+notes: Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.

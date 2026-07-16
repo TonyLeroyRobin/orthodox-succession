@@ -1,0 +1,34 @@
+id: work/orations-against-the-arians-athanasius
+title: Orations Against the Arians
+author: person/alexandria/athanasios-i-the-great-0328
+relation: by
+language: Ancient Greek
+date:
+  value: '0340'
+  calendar: julian
+  precision: circa
+  note: usually placed in the late 330s-340s
+attribution: authentic
+cpg: CPG 2093
+genre: treatise
+editions:
+- type: translation
+  language: English
+  series: Nicene and Post-Nicene Fathers, Series II, vol. 4
+  url: https://www.ccel.org/ccel/schaff/npnf204.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/https://www.ccel.org/ccel/schaff/npnf204.html
+  notes: Year-wildcard archive redirect - pin after generation (availability API, 2026-07-15).
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 2093
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vols. II-IV, per the author's chapter
+notes: Audit addition for the existing person record (P3 tier iii). Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - the fourth oration transmitted with the corpus is generally judged non-Athanasian (noted, not split)
+controversies:
+- controversy/arianism

@@ -1,0 +1,42 @@
+id: person/pre-schism-rome/hilary-of-poitiers-0350
+names:
+  monastic: Hilary
+  native:
+  - script: lat
+    value: Hilarius
+  variants:
+  - Hilary of Poitiers
+role: bishop
+born:
+  date:
+    value: '0310'
+    calendar: julian
+    precision: circa
+    note: Poitiers, c. 310-315
+died:
+  date:
+    value: '0367'
+    calendar: julian
+    precision: year
+    note: Poitiers, 367 (368 in part of the tradition)
+  place: Poitiers
+veneration:
+  status: saint
+  feast_days:
+  - month_day: '01-14'
+    calendar: julian
+    note: >-
+      St Hilary, Bishop of Poitiers - synaxarion date to be confirmed at verification
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/01/14
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/01/14
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. IV (Di Berardino), Latin fathers - locator to be confirmed
+status: unverified
+notes: The 'Athanasius of the West' - exiled to Phrygia 356-360 for his Nicene stand, where he wrote the De Trinitate. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.

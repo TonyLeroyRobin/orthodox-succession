@@ -1,0 +1,20 @@
+id: work/commentary-on-the-diatessaron-ephrem
+title: Commentary on the Diatessaron
+author: person/antioch/ephrem-the-syrian-0373
+relation: by
+language: Syriac
+date:
+  value: '0365'
+  calendar: julian
+  precision: circa
+  note: Edessa period; the school-transmitted text includes later material (noted)
+attribution: authentic
+genre: treatise
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vols. II-IV, per the author's chapter
+notes: The preserver-work for Tatian's Diatessaron (see that record's preserved_in). Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - the Syriac original recovered in 1957 (Chester Beatty 709, with later-found leaves) alongside the complete ancient Armenian version; the principal witness to the lost Diatessaron

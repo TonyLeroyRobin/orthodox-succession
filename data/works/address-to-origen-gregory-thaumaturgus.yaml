@@ -1,0 +1,32 @@
+id: work/address-to-origen-gregory-thaumaturgus
+title: Address of Thanksgiving to Origen
+author: person/constantinople/gregory-thaumaturgus-0240
+relation: by
+language: Ancient Greek
+date:
+  value: '0238'
+  calendar: julian
+  precision: circa
+  note: the farewell panegyric at Caesarea, c. 238
+attribution: authentic
+cpg: CPG 1763
+genre: treatise
+editions:
+- type: translation
+  language: English
+  series: Ante-Nicene Fathers, vol. 6
+  url: https://www.ccel.org/ccel/schaff/anf06.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/https://www.ccel.org/ccel/schaff/anf06.html
+  notes: Year-wildcard archive redirect - pin after generation (availability API, 2026-07-15).
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 1763
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vols. II-IV, per the author's chapter
+notes: Primary witness to the teacher relationship recorded in this tier. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - transmitted with the Contra Celsum tradition

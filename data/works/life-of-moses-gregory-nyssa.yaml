@@ -1,0 +1,24 @@
+id: work/life-of-moses-gregory-nyssa
+title: The Life of Moses
+author: person/constantinople/gregory-of-nyssa-0372
+relation: by
+language: Ancient Greek
+date:
+  value: '0390'
+  calendar: julian
+  precision: circa
+  note: late work, c. 390-392
+attribution: authentic
+cpg: CPG 3159
+genre: treatise
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 3159
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vols. II-IV, per the author's chapter
+notes: The mystical ascent treatise. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - full Greek transmission; the standard English translation (Malherbe-Ferguson) is in copyright, so no read-link

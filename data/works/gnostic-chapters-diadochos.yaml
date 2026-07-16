@@ -1,0 +1,27 @@
+id: work/gnostic-chapters-diadochos
+title: On Spiritual Knowledge and Discrimination (the Hundred Gnostic Chapters)
+author: person/constantinople/diadochos-of-photike-0450
+relation: by
+language: Ancient Greek
+date:
+  value: '0460'
+  calendar: julian
+  precision: circa
+  note: mid-to-late fifth century
+attribution: authentic
+cpg: CPG 6106
+genre: treatise
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 6106
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vols. II-IV, per the author's chapter
+- ref: source/philokalia
+  reliability: scholarly
+  locator: vol. I
+notes: The Philokalia-roster admission work for Diadochos. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - rich Greek transmission; anthologized at the head of the Philokalia (vol. I of the English edition, in copyright - no read-link)

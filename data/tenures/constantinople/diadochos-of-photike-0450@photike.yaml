@@ -1,0 +1,15 @@
+id: tenure/constantinople/diadochos-of-photike-0450@photike
+person: person/constantinople/diadochos-of-photike-0450
+see: see/constantinople/photike
+from:
+  value: '0450'
+  calendar: julian
+  precision: circa
+  note: floruit anchor only - mid-fifth century; start unrecorded
+end_reason: unknown
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. III (Di Berardino) - locator to be confirmed
+status: unverified
+notes: End of tenure unrecorded - open tenure, not inferred. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.

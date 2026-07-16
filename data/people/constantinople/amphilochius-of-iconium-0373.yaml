@@ -1,0 +1,43 @@
+id: person/constantinople/amphilochius-of-iconium-0373
+names:
+  monastic: Amphilochius
+  native:
+  - script: grc
+    value: Ἀμφιλόχιος
+  variants:
+  - Amphilochius of Iconium
+role: bishop
+born:
+  date:
+    value: '0340'
+    calendar: julian
+    precision: circa
+    note: Cappadocia, c. 339-345; cousin of Gregory of Nazianzus
+died:
+  date:
+    value: '0400'
+    calendar: julian
+    precision: circa
+    note: after 394 (last attested at the Constantinople synod of 394)
+veneration:
+  status: saint
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: '11-23'
+    calendar: julian
+    note: >-
+      St Amphilochius, Bishop of Iconium
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/11/23
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/11/23
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. III, pp. 296-300
+status: unverified
+notes: The fourth Cappadocian - Basil's protege on the new metropolis of Iconium, addressee of Basil's On the Holy Spirit and of the canonical letters. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.

@@ -1,0 +1,15 @@
+id: tenure/constantinople/amphilochius-of-iconium-0373@iconium
+person: person/constantinople/amphilochius-of-iconium-0373
+see: see/constantinople/iconium
+from:
+  value: '0373'
+  calendar: julian
+  precision: year
+  note: consecrated at Basil's instance for the new Lycaonian metropolis
+end_reason: unknown
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. III, p. 296
+status: unverified
+notes: End of tenure unrecorded - last attested at the Constantinople synod of 394; open tenure, not inferred. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.

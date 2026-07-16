@@ -1,0 +1,34 @@
+id: work/life-of-martin-sulpicius
+title: Life of St Martin (Vita Sancti Martini)
+author_display: Sulpicius Severus
+subject_of:
+- person/pre-schism-rome/martin-of-tours-0371
+relation: about
+language: Latin
+date:
+  value: '0396'
+  calendar: julian
+  precision: circa
+  note: written before Martin's death, c. 396
+attribution: authentic
+cpg: CPL 475
+genre: hagiography
+editions:
+- type: translation
+  language: English
+  series: Nicene and Post-Nicene Fathers, Series II, vol. 11
+  url: https://www.ccel.org/ccel/schaff/npnf211.html
+  rights: public-domain
+  archived_url: https://web.archive.org/web/2026/https://www.ccel.org/ccel/schaff/npnf211.html
+  notes: Year-wildcard archive redirect - pin after generation (availability API, 2026-07-15).
+sources:
+- ref: source/clavis-patrum-latinorum
+  reliability: scholarly
+  locator: CPL 475
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vols. II-IV, per the author's chapter
+notes: Sulpicius Severus (layman of Aquitaine, no person record - author displayed only) wrote the Life that made Martin the model of the monk-bishop; the subject_of link is Martin's corpus connection. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - full Latin transmission

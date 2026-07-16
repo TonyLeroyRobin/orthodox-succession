@@ -1,0 +1,46 @@
+id: person/pre-schism-rome/augustine-of-hippo-0395
+names:
+  monastic: Augustine
+  native:
+  - script: lat
+    value: Aurelius Augustinus
+  variants:
+  - Augustine of Hippo
+  - Blessed Augustine
+role: bishop
+born:
+  date:
+    value: '0354-11-13'
+    calendar: julian
+    precision: day
+    note: Thagaste (Souk Ahras), 354
+died:
+  date:
+    value: '0430-08-28'
+    calendar: julian
+    precision: day
+    note: Hippo Regius, during the Vandal siege
+  place: Hippo Regius
+veneration:
+  status: saint
+  titles:
+  - Blessed
+  feast_days:
+  - month_day: '06-15'
+    calendar: julian
+    note: >-
+      Blessed Augustine, Bishop of Hippo. Orthodox calendars and literature style him Blessed (a title of honor, not a formal lower rank) and receive his teaching with qualifications - the nuance is the datum, per the P2 charter.
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/06/15
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/06/15
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. IV (Di Berardino), Latin fathers - locator to be confirmed
+status: unverified
+notes: >-
+  Bishop of Hippo and the most influential Latin theologian. The veneration block records the Orthodox nuance the P2 charter requires: honored widely as BLESSED Augustine, with reception of his theology qualified in Orthodox assessment - recorded, not adjudicated. Created in P3 tier iii (Nicene and Cappadocian era) 2026-07-15.
