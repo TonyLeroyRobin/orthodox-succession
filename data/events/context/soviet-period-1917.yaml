@@ -17,6 +17,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Russian Orthodox Church
-  archived_url: https://web.archive.org/web/2026/https://en.wikipedia.org/wiki/Russian_Orthodox_Church
+  archived_url: https://web.archive.org/web/20260713132822/https://en.wikipedia.org/wiki/Russian_Orthodox_Church
 status: unverified
 notes: Era-band record (Created in R3 (timeline era bands) 2026-07-15.) - archive wildcard pending pin.

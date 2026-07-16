@@ -17,6 +17,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Mongol invasion of Kievan Rus'
-  archived_url: https://web.archive.org/web/2026/https://en.wikipedia.org/wiki/Mongol_invasion_of_Kievan_Rus'
+  archived_url: https://web.archive.org/web/20260704071054/https://en.wikipedia.org/wiki/Mongol_invasion_of_Kievan_Rus'
 status: unverified
 notes: Era-band record (Created in R3 (timeline era bands) 2026-07-15.) - archive wildcard pending pin.

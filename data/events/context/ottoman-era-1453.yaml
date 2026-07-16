@@ -17,6 +17,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Ottoman Empire
-  archived_url: https://web.archive.org/web/2026/https://en.wikipedia.org/wiki/Ottoman_Empire
+  archived_url: https://web.archive.org/web/20260709135243/https://en.wikipedia.org/wiki/Ottoman_Empire
 status: unverified
 notes: Era-band record (Created in R3 (timeline era bands) 2026-07-15.) - archive wildcard pending pin.
