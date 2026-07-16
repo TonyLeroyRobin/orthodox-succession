@@ -697,8 +697,36 @@ def main():
                              f"(same author, near-identical title) — one Work, many Editions")
     for w in works:
         for idx, ed in enumerate(w["data"].get("editions") or []):
-            if ed.get("rights") == "public-domain" and not ed.get("url"):
-                rep.warn(w["path"], f"edition #{idx + 1} is public-domain but has no URL")
+            # Q3.2: an URL-less edition is a legitimate print-citation state
+            # (the render-guard shows citation + find-in-a-library); warn only
+            # when the edition is naked - no url AND no series/locator to cite.
+            if ed.get("rights") == "public-domain" and not ed.get("url") \
+                    and not (ed.get("series") or ed.get("locator")):
+                rep.warn(w["path"],
+                         f"edition #{idx + 1} has no URL and nothing citable "
+                         f"(no series/locator)")
+
+    # ---- Q3.1: placeholder-link ban (error) --------------------------------
+    # source/edition URLs must target concrete documents, never search pages.
+    SEARCH_URL = re.compile(r"(archive\.org/search|[?&]query=|"
+                            r"search\.worldcat\.org/search|/search\?)")
+
+    def check_url_fields(obj, path, where):
+        for f in ("url", "archived_url"):
+            v = obj.get(f)
+            if v and SEARCH_URL.search(v):
+                rep.error(path, f"{where} {f} is a search-query placeholder "
+                                f"({v[:70]}...) - link a concrete document")
+
+    for rec in records:
+        d, pth = rec["data"], rec["path"]
+        if rec["kind"] == "source":
+            check_url_fields(d, pth, "source")
+        for ed in d.get("editions") or []:
+            check_url_fields(ed, pth, "edition")
+        for s in d.get("sources") or []:
+            if isinstance(s, dict):
+                check_url_fields(s, pth, "citation")
 
     # ---- rule 9: corroborations (info) ---------------------------------------
     corroborations = 0

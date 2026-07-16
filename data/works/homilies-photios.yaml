@@ -20,11 +20,9 @@ editions:
   translator: Cyril Mango
   series: The Homilies of Photius (Dumbarton Oaks Studies 3, Harvard)
   year: 1958
-  url: https://search.worldcat.org/search?q=%22The+Homilies+of+Photius%22+Mango
   rights: in-copyright
   notes: in-copyright per DATA_COMPLETION §4 — WorldCat search link; pin the OCLC record during
     verification Archive snapshot pending (SPN requested 2026-07-15) - year-wildcard meanwhile.
-  archived_url: https://web.archive.org/web/2026/https://search.worldcat.org/search?q=%22The+Homilies+of+Photius%22+Mango
 sources:
 - ref: source/migne-patrologia-graeca
   reliability: scholarly
@@ -35,3 +33,4 @@ status: unverified
 survival: extant
 survival_note: the homily corpus is extant (Laourdas edition); only part is printed in PG
   102
+# q3-render-guard: auto-resolution rejected (the only archive.org hit is an unauthorized upload of Mango's in-copyright translation - rights rule forbids linking it); renders as print citation + find-in-a-library

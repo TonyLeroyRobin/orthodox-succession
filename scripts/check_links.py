@@ -73,6 +73,26 @@ def main():
                   f"{arch or '(no archived_url stored!)'}")
     print(f"check_links: {dead} dead reference(s) "
           f"across {sum(1 for v in seen.values() if not v[0])} distinct URL(s)")
+
+    # Q3.4: persist the report so the build/site can surface it
+    import datetime
+    import json
+    report = {
+        "checked_at": datetime.datetime.now(datetime.timezone.utc)
+                      .strftime("%Y-%m-%d %H:%M UTC"),
+        "targets": len(targets),
+        "distinct": len(seen),
+        "dead": [
+            {"id": rid, "where": where, "url": url,
+             "suggested": arch or None,
+             "detail": seen[url][1]}
+            for rid, where, url, arch in targets if not seen[url][0]
+        ],
+    }
+    out = Path(__file__).resolve().parent.parent / "build" / "link-report.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(report, indent=1), encoding="utf-8")
+    print(f"check_links: report -> {out}")
     return 0  # report only — never gates
 
 

@@ -24,6 +24,7 @@ import re
 import shutil
 import subprocess
 import sys
+import urllib.parse as urlparse
 from collections import defaultdict
 from pathlib import Path
 
@@ -122,6 +123,14 @@ def badge(status):
     return f'<span class="badge {esc(status)}">{esc(status)}</span>'
 
 
+def worldcat_find(title, author=None):
+    """Q3.2 render-guard: build-time find-in-a-library link for sources
+    without a resolvable URL — never a dead or fake anchor."""
+    q = urlparse.quote(" ".join(x for x in (title, author) if x))
+    return (f' <a href="https://search.worldcat.org/search?q={q}" '
+            f'rel="nofollow">[find in a library]</a>')
+
+
 def citations_html(cits, sources_by_id):
     if not cits:
         return '<div class="citation">no citations</div>'
@@ -134,6 +143,10 @@ def citations_html(cits, sources_by_id):
                 if src and src["data"].get("url") else "")
         arch = c.get("archived_url") or (src and src["data"].get("archived_url"))
         alink = f' <a href="{esc(arch)}">[archived]</a>' if arch else ""
+        if not link and not alink and src:
+            # print citation only — offer the library lookup instead
+            alink = worldcat_find(src["data"].get("title"),
+                                  src["data"].get("author"))
         note = (f' <span class="note">— {esc(c["note"])}</span>'
                 if c.get("note") else "")
         out.append(f'<div class="citation"><span class="badge grade">'
@@ -876,6 +889,9 @@ placeholder="any" style="width:5em"></label>
                 links.append(f'<a href="{esc(ed["archived_url"])}" rel="nofollow">archived</a>')
             ed_note = (f'<br><span class=note>{esc(ed["notes"])}</span>'
                        if ed.get("notes") else "")
+            if not links:  # Q3.2 render-guard: print citation + library lookup
+                links.append(worldcat_find(w.get("title"),
+                                           author_label(w)).strip())
             eds += (f"<li>{esc(ed.get('type', ''))} ({esc(ed.get('language', ''))})"
                     f" — {', '.join(bits)}"
                     f"{' · ' + ' · '.join(links) if links else ''}{ed_note}</li>")
@@ -1067,6 +1083,8 @@ the naming rule (docs/NAMING.md); variants are recorded, not endorsed.</p></div>
             author = f" — {esc(s['author'])}" if s.get("author") else ""
             s_note = (f"<br><span class=note>{esc(s['notes'])}</span>"
                       if s.get("notes") else "")
+            if not links:  # Q3.2 render-guard
+                links.append(worldcat_find(s.get("title"), s.get("author")).strip())
             items += (f"<li><strong>{esc(s.get('title'))}</strong>{author} "
                       f"{badge(s.get('status'))}"
                       f"{' · ' + ' · '.join(links) if links else ''}{s_note}</li>")
@@ -1134,6 +1152,29 @@ the naming rule (docs/NAMING.md); variants are recorded, not endorsed.</p></div>
         if gaps:
             gap_rows += (f"<tr><td>{slink(sid)}</td>"
                          f"<td>{esc(', '.join(gaps))}</td></tr>")
+    # Q3.4: surface the latest link-rot report (written by check_links.py)
+    link_report_html = ""
+    lr_path = REPO_ROOT / "build" / "link-report.json"
+    if lr_path.exists():
+        try:
+            lr = json.loads(lr_path.read_text(encoding="utf-8"))
+            dead_rows = "".join(
+                f"<tr><td>{esc(d['id'] or '?')}</td><td>{esc(d['where'])}</td>"
+                f"<td>{esc(d['url'])}</td>"
+                f"<td>{esc(d.get('suggested') or '(no archived_url!)')}</td></tr>"
+                for d in lr.get("dead") or [])
+            link_report_html = (
+                f"<div class=panel><h2>Link health "
+                f"<span class='badge model'>checked {esc(lr['checked_at'])}"
+                f"</span></h2><p class=note>{lr['targets']} live URL "
+                f"reference(s), {len(lr.get('dead') or [])} dead — from "
+                f"scripts/check_links.py (reports only, never replaces).</p>"
+                + (f"<table><thead><tr><th>Record</th><th>Where</th>"
+                   f"<th>URL</th><th>Suggested replacement</th></tr></thead>"
+                   f"<tbody>{dead_rows}</tbody></table>" if dead_rows else "")
+                + "</div>")
+        except Exception:
+            pass
     write(OUT / "gaps" / "index.html",
           layout("Gap report",
                  "<h1>Occupancy gaps (&gt; 2 years)</h1>"
@@ -1143,7 +1184,7 @@ the naming rule (docs/NAMING.md); variants are recorded, not endorsed.</p></div>
                  "Generated from the same data as scripts/gap_report.py.</p>"
                  f"<div class=panel><table><thead><tr><th>See</th>"
                  f"<th>Gaps</th></tr></thead><tbody>{gap_rows}</tbody>"
-                 f"</table></div>",
+                 f"</table></div>" + link_report_html,
                  "https://tonyleroyrobin.github.io/orthodox-succession/gaps/"))
 
     # ---------------- home ----------------

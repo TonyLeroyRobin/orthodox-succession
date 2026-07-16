@@ -18,8 +18,8 @@ editions:
   rights: public-domain
   notes: link a scan during verification index/search link only - pin the exact scan during
     verification. Archive snapshot pending (SPN requested 2026-07-15) - year-wildcard meanwhile.
-  url: https://archive.org/search?query=orthodox+confession+mogila+syrigos
-  archived_url: https://web.archive.org/web/2026/https://archive.org/search?query=orthodox+confession+mogila+syrigos
+  url: https://archive.org/details/cu31924029363094
+  archived_url: https://web.archive.org/web/2026/https://archive.org/details/cu31924029363094
 sources:
 - ref: source/wikipedia
   reliability: database
@@ -31,3 +31,4 @@ status: unverified
 survival: extant
 survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit
   2026-07-15
+# q3-resolved: archive.org item 'The orthodox confession of the Catholic and Apostolic Eastern Church' via the search API 2026-07-15 - verify the item at verification

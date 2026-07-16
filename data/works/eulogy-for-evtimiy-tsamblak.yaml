@@ -18,8 +18,6 @@ editions:
   rights: public-domain
   notes: link a scan during verification index/search link only - pin the exact scan during
     verification. Archive snapshot pending (SPN requested 2026-07-15) - year-wildcard meanwhile.
-  url: https://archive.org/search?query=tsamblak+evtimiy+eulogy
-  archived_url: https://web.archive.org/web/2026/https://archive.org/search?query=tsamblak+evtimiy+eulogy
 sources:
 - ref: source/wikipedia
   reliability: database
@@ -31,3 +29,4 @@ status: unverified
 survival: extant
 survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit
   2026-07-15
+# q3-render-guard: search-placeholder URL(s) removed (2); renders as print citation + find-in-a-library

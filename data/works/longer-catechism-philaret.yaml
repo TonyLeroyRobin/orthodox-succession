@@ -14,10 +14,10 @@ editions:
   language: Russian
   year: 1823
   rights: public-domain
-  url: https://archive.org/search?query=philaret+catechism+russian
+  url: https://archive.org/details/longer-catechism-of-the-eastern-orthodox-church
   notes: index/search link only - pin the exact scan during verification. Archive snapshot
     pending (SPN requested 2026-07-15) - year-wildcard meanwhile.
-  archived_url: https://web.archive.org/web/2026/https://archive.org/search?query=philaret+catechism+russian
+  archived_url: https://web.archive.org/web/2026/https://archive.org/details/longer-catechism-of-the-eastern-orthodox-church
 - type: translation
   language: English
   translator: R. W. Blackmore
@@ -25,8 +25,8 @@ editions:
   rights: public-domain
   notes: link a scan during verification index/search link only - pin the exact scan during
     verification. Archive snapshot pending (SPN requested 2026-07-15) - year-wildcard meanwhile.
-  url: https://archive.org/search?query=blackmore+doctrine+russian+church
-  archived_url: https://web.archive.org/web/2026/https://archive.org/search?query=blackmore+doctrine+russian+church
+  url: https://archive.org/details/longer-catechism-of-the-eastern-orthodox-church
+  archived_url: https://web.archive.org/web/2026/https://archive.org/details/longer-catechism-of-the-eastern-orthodox-church
 sources:
 - ref: source/wikipedia
   reliability: database
@@ -36,3 +36,4 @@ status: unverified
 survival: extant
 survival_note: extant — attested by the concrete edition(s) below; assessed in the P4 audit
   2026-07-15
+# q3-resolved: archive.org item 'The Longer Catechism of The Orthodox, Catholic, Eastern Church' via the search API 2026-07-15 - verify the item at verification

@@ -19,8 +19,6 @@ editions:
   notes: edition data THIN per DATA_COMPLETION §4 — confirm against PO 17 during verification
     index/search link only - pin the exact scan during verification. Archive snapshot pending
     (SPN requested 2026-07-15) - year-wildcard meanwhile.
-  url: https://archive.org/search?query=%22patrologia+orientalis%22+17
-  archived_url: https://web.archive.org/web/2026/https://archive.org/search?query=%22patrologia+orientalis%22+17
 sources:
 - ref: source/migne-patrologia-graeca
   reliability: scholarly
@@ -32,3 +30,4 @@ survival: extant
 survival_note: extant in the PO 17 edition
 controversies:
 - controversy/unionism
+# q3-render-guard: search-placeholder URL(s) removed (2); renders as print citation + find-in-a-library
