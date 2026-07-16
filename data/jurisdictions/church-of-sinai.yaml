@@ -1,0 +1,24 @@
+id: jurisdiction/church-of-sinai
+name: Church of Sinai
+type: autonomous
+primatial_see: see/sinai/mount-sinai
+autocephaly:
+- granted_by: jurisdiction/church-of-jerusalem
+  date:
+    value: '1575'
+    calendar: julian
+    precision: year
+    note: autonomy under Jerusalem confirmed 1575 (and again 1782) - the
+      archbishop is consecrated by the Patriarch of Jerusalem
+sources:
+- ref: source/church-of-jerusalem-official
+  reliability: official-list
+  locator: locator to be confirmed
+status: unverified
+notes: >-
+  The smallest self-governing church in Orthodoxy - effectively one monastery
+  (St Catherine's, see institution/st-catherines-sinai) whose hegumen is the
+  Archbishop of Sinai, Pharan and Raitho. Added in I4.1 (2026-07-16) to
+  complete the jurisdiction set; the archiepiscopal succession enters by the
+  standard reconciliation method - the incumbent line is seeded below and the
+  full historical line is an OPEN reconciliation task (honest coverage).

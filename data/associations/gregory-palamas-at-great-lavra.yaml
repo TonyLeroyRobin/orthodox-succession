@@ -1,0 +1,12 @@
+id: association/gregory-palamas-at-great-lavra
+person: person/greece/gregory-palamas-1347
+institution: institution/great-lavra-athos
+role: brotherhood
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  his Athonite formation (Great Lavra and the sketes; briefly hegumen of Esphigmenou - noted, one association carries the anchor house). Complements, never duplicates, the person-to-person relationship
+  records (I3). Created in I2 (institutions Tier 1) 2026-07-16.

@@ -17,8 +17,11 @@
     fetch("/assets/vendor/countries-110m.json").then(function (r) { return r.json(); }),
     fetch("/data/controversy-geo.json").then(function (r) { return r.json(); })
       .catch(function () { return {}; }),
+    fetch("/data/institutions-map.json").then(function (r) { return r.json(); })
+      .catch(function () { return []; }),
   ]).then(function (loaded) {
-    var seesData = loaded[0], world = loaded[1], controGeo = loaded[2];
+    var seesData = loaded[0], world = loaded[1], controGeo = loaded[2],
+        instData = loaded[3];
     var land = topojson.feature(world, world.objects.countries);
     var W = 1150, H = 560;
     var projection = d3.geoNaturalEarth1();
@@ -128,10 +131,62 @@
       return false;
     }
 
+    // I5.2: institution layer - triangles; lifecycle events darken and
+    // rekindle houses over the slider (Russian monasteries go dark after
+    // 1917 and rekindle after 1991); toggle to show/hide.
+    var instLayer = root.append("g");
+    var showInst = true;
+    var instToggle = document.getElementById("instToggle");
+    if (instToggle) {
+      showInst = instToggle.checked;
+      instToggle.addEventListener("change", function () {
+        showInst = instToggle.checked;
+        renderInst(currentYear);
+      });
+    }
+    function instStateAt(inst, year) {
+      var state = "unfounded";
+      inst.ev.forEach(function (e) {
+        if (e.y > year) return;
+        if (e.e === "founded" || e.e === "refounded" || e.e === "reopened") {
+          state = "alive";
+        } else {
+          state = "dark";
+        }
+      });
+      if (state === "unfounded" && inst.ev.length &&
+          inst.ev[0].y <= year) state = "alive";
+      return state;
+    }
+    function renderInst(year) {
+      instLayer.selectAll("*").remove();
+      if (!showInst) return;
+      instData.forEach(function (inst) {
+        var state = instStateAt(inst, year);
+        if (state === "unfounded") return;
+        var xy = projection([inst.lon, inst.lat]);
+        var s = 6 / Math.sqrt(k);
+        var a = instLayer.append("a").attr("href", inst.url);
+        a.append("path")
+          .attr("d", "M" + xy[0] + "," + (xy[1] - s) +
+                     "L" + (xy[0] + s) + "," + (xy[1] + s) +
+                     "L" + (xy[0] - s) + "," + (xy[1] + s) + "Z")
+          .attr("fill", state === "dark" ? "none"
+                : (statusFill[inst.st] || "#777"))
+          .attr("stroke", state === "dark" ? "#9a9a9a" : "#fff")
+          .attr("stroke-width", 1.2 / k)
+          .append("title")
+          .text(inst.name + " (" + inst.type + ")" +
+                (state === "dark" ? "\nsuppressed/closed at this date" : "") +
+                "\ncurrent status: " + (inst.cs || "?"));
+      });
+    }
+
     var currentYear = 2026;
     function render(year) {
       currentYear = year;
       renderContro();
+      renderInst(year);
       document.getElementById("yearLabel").textContent = year;
       var data = seesData.map(function (s) {
         return { s: s, st: stateAt(s, year) };

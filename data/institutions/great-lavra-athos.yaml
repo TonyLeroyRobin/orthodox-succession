@@ -1,0 +1,23 @@
+id: institution/great-lavra-athos
+type: monastery
+name: Great Lavra (Athos)
+location:
+  lat: 40.17
+  lon: 24.383
+  modern_place: Mount Athos, Greece
+jurisdiction_history:
+- jurisdiction: jurisdiction/ecumenical-patriarchate
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '0963'
+    calendar: julian
+    precision: year
+current_status: active
+sources:
+- ref: source/kiminas-ecumenical-patriarchate
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  One of the twenty ruling monasteries of Mount Athos (Tier 1 by-name). founded by Athanasius the Athonite under Nicephorus Phocas. Coordinates and dates approximate - verify. Created in I2 (institutions Tier 1) 2026-07-16.

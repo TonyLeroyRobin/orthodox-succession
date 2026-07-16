@@ -45,7 +45,7 @@ STATUS_COLOR = {"verified": "#2e7d32", "unverified": "#b26a00",
 NAV = [("Home", "/"), ("Jurisdictions", "/jurisdictions/"),
        ("Sees", "/sees/"), ("People", "/people/"),
        ("Councils", "/councils/"), ("Library", "/library/"),
-       ("Saints", "/saints/"),
+       ("Saints", "/saints/"), ("Institutions", "/institutions/"),
        ("Map", "/map/"), ("Timeline", "/timeline/"),
        ("Controversies", "/controversies/"),
        ("Graph", "/site/graph.html"), ("Ideas", "/ideas/"),
@@ -254,6 +254,14 @@ def main():
     tenures = [r["data"] for r in by_kind["tenure"]]
     works = [r["data"] for r in by_kind["work"]]
     works_by_id = {w["id"]: w for w in works}
+    institutions = {r["data"]["id"]: r["data"]
+                    for r in by_kind["institution"] if r["data"].get("id")}
+    associations = [r["data"] for r in by_kind["association"]]
+    assoc_by_inst = defaultdict(list)
+    assoc_by_person = defaultdict(list)
+    for a_ in associations:
+        assoc_by_inst[a_.get("institution")].append(a_)
+        assoc_by_person[a_.get("person")].append(a_)
     councils = [r["data"] for r in by_kind["event"]
                 if r["data"].get("type") != "context"]
     participations = [r["data"] for r in by_kind["participation"]]
@@ -574,6 +582,21 @@ def main():
                              f"<a href='/ideas/'>ideas graph</a>.</p>")
             works_html = (f"<div class=panel><h2>Works</h2>{corr_html}"
                           f"{sections}</div>")
+        form_bits = []
+        for a_ in assoc_by_person.get(pid, []):
+            iid_ = a_.get("institution")
+            i_ = institutions.get(iid_)
+            label_ = i_.get("name") if i_ else iid_
+            form_bits.append(
+                f"{esc(a_.get('role'))} — "
+                f"<a href=\"/institutions/{iid_.split('/', 1)[1]}/\">"
+                f"{esc(label_)}</a>")
+        if form_bits:
+            works_html = (f"<div class=panel><h2>Formation</h2><p>"
+                          + "; ".join(form_bits) +
+                          "</p><p class=note>Where the succession was made — "
+                          "the institutions layer (I5.3).</p></div>"
+                          + works_html)
 
         rel_html = ""
         my_rels = rels_by_person.get(pid, [])
@@ -1506,6 +1529,7 @@ the see page.</p>
 <label><input type="checkbox" class="hl-toggle" value="pent"> highlight Pentarchy</label>
 <label><input type="checkbox" class="hl-toggle" value="af"> apostolic foundations</label>
 <label><input type="checkbox" class="hl-toggle" value="today"> active today</label>
+<label><input type="checkbox" id="instToggle" checked> institutions (triangles)</label>
 </div>
 <div class="map-controls era-presets" role="group" aria-label="era presets">
 <button class="era-btn" data-year="33">33</button>
@@ -1525,7 +1549,8 @@ the see page.</p>
 disputed) &middot; &#9675; hollow = attested, no recorded occupant &middot;
 <span style="color:#9a9a9a">&#8855;</span> grayed/crossed = suppressed (date in
 the tooltip) &middot; <span style="color:#5d5480">&#9678;</span> outer dashed
-ring = apostolic foundation (a distinct shape channel - fill still means
+ring = apostolic foundation &middot; triangle = institution (monastery/school;
+hollow gray = suppressed or closed at the slider date) (a distinct shape channel - fill still means
 verification status, one channel one meaning) &middot; Pentarchy sees stay
 labeled at all zooms; other labels appear as you zoom. Highlight toggles dim
 non-matching markers. Scroll or pinch to zoom, drag to pan.</p>
@@ -1874,6 +1899,140 @@ through to work pages.</p></div>"""
           layout("Works timeline", wt_page,
                  "https://tonyleroyrobin.github.io/orthodox-succession/works-timeline/",
                  active="Library"))
+
+    # ---------------- institutions (I5) ----------------
+
+    def ilink(iid):
+        i_ = institutions.get(iid)
+        return (f'<a href="/institutions/{iid.split("/", 1)[1]}/">'
+                f'{esc(i_.get("name"))}</a>' if i_ else esc(iid))
+
+    for iid, inst in institutions.items():
+        slug_ = iid.split("/", 1)[1]
+        canonical = (f"https://tonyleroyrobin.github.io/orthodox-succession"
+                     f"/institutions/{slug_}/")
+        jh = ""
+        for h in inst.get("jurisdiction_history") or []:
+            j_ = h.get("jurisdiction", "")
+            jname = (jurs.get(j_) or {}).get("name", j_)
+            jlink = (f'<a href="{entity_url(j_)}">{esc(jname)}</a>'
+                     if entity_url(j_) else esc(jname))
+            span_ = fmt_range(h.get("from"), h.get("to"), "present")
+            jh += (f"<li>{jlink} — {esc(span_)}"
+                   + (f" <span class=note>{esc(h['note'])}</span>"
+                      if h.get("note") else "") + "</li>")
+        hist = ""
+        for h in inst.get("history") or []:
+            hist += (f"<li><strong>{esc(h.get('event'))}</strong> "
+                     f"{esc(fmt_date(h.get('date')))}"
+                     + (f" — {esc(h['note'])}" if h.get("note") else "")
+                     + "</li>")
+        founded_ = inst.get("founded") or {}
+        people_rows = "".join(
+            f"<li>{person_entry(a_.get('person'))} — "
+            f"<strong>{esc(a_.get('role'))}</strong>"
+            + (f" <span class=note>{esc(a_.get('notes', ''))}</span>"
+               if a_.get("notes") else "") + "</li>"
+            for a_ in assoc_by_inst.get(iid, []))
+        osite = inst.get("official_site") or {}
+        olinks = []
+        if osite.get("url"):
+            olinks.append(f'<a href="{esc(osite["url"])}" rel="nofollow">official site</a>')
+        if osite.get("archived_url"):
+            olinks.append(f'<a href="{esc(osite["archived_url"])}" rel="nofollow">archived</a>')
+        content = f"""<h1>{esc(inst.get("name"))} {badge(inst.get("status"))}</h1>
+<p class="subtitle">{esc(iid)} · {esc(inst.get("type"))} ·
+current status: <strong>{esc(inst.get("current_status", "?"))}</strong>
+{" · " + " · ".join(olinks) if olinks else ""}</p>
+<div class="panel"><h2>Lifecycle</h2>
+{f'<p>Founded {esc(fmt_date(founded_.get("date")))}' + (f' — {esc(founded_.get("note"))}' if founded_.get('note') else '') + '</p>' if founded_ else ''}
+{f'<ul>{hist}</ul>' if hist else '<p class=note>No suppression/refoundation events recorded.</p>'}
+</div>
+<div class="panel"><h2>Jurisdiction history</h2><ul>{jh or '<li class=note>to be refined at verification</li>'}</ul></div>
+{f'<div class="panel"><h2>Formation (persons)</h2><ul>{people_rows}</ul><p class=note>In-scope persons only — institutions never grow abbot lists or faculty rosters (I3/I6).</p></div>' if people_rows else ''}
+{f'<div class="panel"><h2>Notable heads</h2><p>{esc(inst.get("notable_heads"))}</p></div>' if inst.get('notable_heads') else ''}
+<div class="panel"><h2>Record</h2>{citations_html(inst.get('sources'), sources_by_id)}
+{f'<p class=note>{esc(inst.get("notes"))}</p>' if inst.get('notes') else ''}</div>"""
+        write(OUT / "institutions" / slug_ / "index.html",
+              layout(inst.get("name", iid), content, canonical,
+                     active="Institutions", entity_id=iid))
+
+    inst_types = sorted({i.get("type") for i in institutions.values()})
+    inst_stats = sorted({i.get("current_status", "") for i in institutions.values() if i.get("current_status")})
+    inst_jurs = sorted({(h.get("jurisdiction") or "").split("/")[-1]
+                        for i in institutions.values()
+                        for h in i.get("jurisdiction_history") or []
+                        if h.get("jurisdiction")})
+
+    def isel(fid, label, options):
+        opts = "".join(f'<option value="{esc(o)}">{esc(o)}</option>'
+                       for o in options)
+        return (f'<label>{label} <select id="{fid}" class="saints-filter">'
+                f'<option value="">all</option>{opts}</select></label> ')
+
+    inst_rows = ""
+    for iid, inst in sorted(institutions.items(),
+                            key=lambda kv: kv[1].get("name", "")):
+        jur0 = ""
+        for h in inst.get("jurisdiction_history") or []:
+            if h.get("jurisdiction"):
+                jur0 = h["jurisdiction"].split("/")[-1]
+                break
+        fy = date_year((inst.get("founded") or {}).get("date"))
+        inst_rows += (
+            f'<tr data-jurisdiction="{esc(jur0)}"'
+            f' data-type="{esc(inst.get("type", ""))}"'
+            f' data-status="{esc(inst.get("current_status", ""))}">'
+            f"<td>{ilink(iid)}</td><td>{esc(inst.get('type'))}</td>"
+            f"<td>{esc(jur0)}</td>"
+            f"<td>{fy if fy else '—'}</td>"
+            f"<td>{esc(inst.get('current_status', ''))}</td>"
+            f"<td>{badge(inst.get('status'))}</td></tr>")
+    write(OUT / "institutions" / "index.html",
+          layout("Institutions",
+                 f"<h1>Institutions ({len(institutions)})</h1>"
+                 f"<p class=note>The seedbeds of the episcopate — monasteries "
+                 f"and schools where the people of the succession graphs were "
+                 f"formed. Tier-gated: this is deliberately NOT a complete "
+                 f"catalog and never will be (I2/I6); institutions also "
+                 f"render on the <a href='/map/'>map</a> as triangles.</p>"
+                 f"<div class=panel><p class='lib-filters'>"
+                 + isel("s-type", "Type", inst_types)
+                 + isel("s-jurisdiction", "Jurisdiction", inst_jurs)
+                 + isel("s-status", "Current status", inst_stats)
+                 + "<span id='saints-count' class=note></span></p>"
+                 f"<table><thead><tr><th>Name</th><th>Type</th>"
+                 f"<th>Jurisdiction</th><th>Founded</th><th>Current status</th>"
+                 f"<th>Record</th></tr></thead>"
+                 f"<tbody id='saints-body'>{inst_rows}</tbody></table></div>"
+                 f"<script src='/assets/saints.js'></script>",
+                 "https://tonyleroyrobin.github.io/orthodox-succession/institutions/",
+                 active="Institutions"))
+
+    # institutions map layer data
+    inst_map = []
+    for iid, inst in institutions.items():
+        loc = inst.get("location") or {}
+        if loc.get("lat") is None:
+            continue
+        events_ = []
+        fy = date_year((inst.get("founded") or {}).get("date"))
+        if fy:
+            events_.append({"e": "founded", "y": fy})
+        for h in inst.get("history") or []:
+            hy = date_year(h.get("date"))
+            if hy:
+                events_.append({"e": h.get("event"), "y": hy})
+        inst_map.append({"id": iid, "name": inst.get("name"),
+                         "type": inst.get("type"),
+                         "lat": loc["lat"], "lon": loc["lon"],
+                         "url": BASE + "/institutions/" + iid.split("/", 1)[1] + "/",
+                         "cs": inst.get("current_status"),
+                         "st": inst.get("status"),
+                         "ev": sorted(events_, key=lambda x: x["y"])})
+    write(OUT / "data" / "institutions-map.json",
+          json.dumps(inst_map, ensure_ascii=False), sitemap=False)
+
 
     # ---------------- saints index (Q6.1) ----------------
     # Derived entirely from existing veneration data - no new data class;

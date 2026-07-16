@@ -1,0 +1,23 @@
+id: institution/esphigmenou-athos
+type: monastery
+name: Esphigmenou (Athos)
+location:
+  lat: 40.35
+  lon: 24.155
+  modern_place: Mount Athos, Greece
+jurisdiction_history:
+- jurisdiction: jurisdiction/ecumenical-patriarchate
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '1000'
+    calendar: julian
+    precision: circa
+current_status: active
+sources:
+- ref: source/kiminas-ecumenical-patriarchate
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  One of the twenty ruling monasteries of Mount Athos (Tier 1 by-name). Coordinates and dates approximate - verify. Created in I2 (institutions Tier 1) 2026-07-16.

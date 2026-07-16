@@ -1,0 +1,12 @@
+id: association/nicodemus-at-dionysiou
+person: person/constantinople/nicodemus-the-hagiorite-1809
+institution: institution/dionysiou-athos
+role: tonsured-at
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  tonsured at Dionysiou (1775) before the years at the sketes. Complements, never duplicates, the person-to-person relationship
+  records (I3). Created in I2 (institutions Tier 1) 2026-07-16.

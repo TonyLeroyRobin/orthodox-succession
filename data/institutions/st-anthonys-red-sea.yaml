@@ -1,0 +1,30 @@
+id: institution/st-anthonys-red-sea
+type: monastery
+name: Monastery of St Anthony (Red Sea)
+location:
+  lat: 28.918
+  lon: 32.35
+  modern_place: Eastern Desert, Egypt
+jurisdiction_history:
+- jurisdiction: jurisdiction/church-of-alexandria
+  to:
+    value: '0451'
+    calendar: julian
+    precision: year
+  note: the undivided Egyptian church; after Chalcedon the house's
+    lineage continues in the Coptic Orthodox Church - outside
+    Chalcedonian scope, recorded, not adjudicated
+founded:
+  date:
+    value: '0356'
+    calendar: julian
+    precision: circa
+  note: founded at Anthony's inner mountain shortly after his death
+current_status: active
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  I4.2 exemplar - the pre-Chalcedonian foundation as shared heritage: jurisdiction_history records the undivided Egyptian church to 451, after which the lineage passes to the Coptic Orthodox Church, outside Chalcedonian scope (the pre-schism honesty pattern, third use). No pretense, no exclusion. Coordinates and dates approximate - verify. Created in I2 (institutions Tier 1) 2026-07-16.

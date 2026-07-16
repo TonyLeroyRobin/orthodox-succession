@@ -1,0 +1,23 @@
+id: institution/xiropotamou-athos
+type: monastery
+name: Xiropotamou (Athos)
+location:
+  lat: 40.235
+  lon: 24.19
+  modern_place: Mount Athos, Greece
+jurisdiction_history:
+- jurisdiction: jurisdiction/ecumenical-patriarchate
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '0980'
+    calendar: julian
+    precision: circa
+current_status: active
+sources:
+- ref: source/kiminas-ecumenical-patriarchate
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  One of the twenty ruling monasteries of Mount Athos (Tier 1 by-name). Coordinates and dates approximate - verify. Created in I2 (institutions Tier 1) 2026-07-16.

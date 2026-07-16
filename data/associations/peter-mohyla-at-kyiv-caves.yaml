@@ -1,0 +1,12 @@
+id: association/peter-mohyla-at-kyiv-caves
+person: person/ukraine/peter-mohyla-1633
+institution: institution/kyiv-caves-lavra
+role: hegumen
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  archimandrite of the Caves (1627) before the metropolitanate; the collegium he founded became the academy bearing his name. Complements, never duplicates, the person-to-person relationship
+  records (I3). Created in I2 (institutions Tier 1) 2026-07-16.

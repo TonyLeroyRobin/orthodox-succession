@@ -1,0 +1,31 @@
+id: institution/school-of-antioch
+type: school
+name: School of Antioch
+location:
+  lat: 36.2
+  lon: 36.16
+  modern_place: Antakya, Türkiye
+jurisdiction_history:
+- jurisdiction: jurisdiction/church-of-antioch
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '0270'
+    calendar: julian
+    precision: circa
+  note: attested from Lucian of Antioch's circle
+history:
+- event: closed
+  date:
+    value: '0450'
+    calendar: gregorian
+    precision: year
+  note: dispersed after the christological condemnations
+current_status: destroyed
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  Honestly noted as a scholarly construct as much as a campus (the charter's phrase): the exegetical tradition of Diodore, Theodore, Chrysostom, and Theodoret rather than a single institution. Coordinates and dates approximate - verify. Created in I2 (institutions Tier 1) 2026-07-16.

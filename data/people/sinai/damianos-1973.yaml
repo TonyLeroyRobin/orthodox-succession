@@ -1,0 +1,23 @@
+id: person/sinai/damianos-1973
+names:
+  monastic: Damianos
+  family: Samartzis
+  native:
+  - script: el
+    value: Δαμιανός
+attestation: attested
+role: bishop
+born:
+  date:
+    value: '1935'
+    calendar: gregorian
+    precision: year
+sources:
+- ref: source/church-of-jerusalem-official
+  reliability: official-list
+  locator: locator to be confirmed (the Sinai archiepiscopal succession)
+status: unverified
+notes: >-
+  Archbishop of Sinai, Pharan and Raitho 1973-2023 (retirement); his
+  successor's election (2023) enters at verification rather than from
+  memory - stated, not invented. Created in I4.1 (2026-07-16).

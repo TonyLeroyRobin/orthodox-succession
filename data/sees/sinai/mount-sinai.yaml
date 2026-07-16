@@ -1,0 +1,22 @@
+id: see/sinai/mount-sinai
+name: Mount Sinai
+jurisdiction_history:
+- jurisdiction: jurisdiction/church-of-sinai
+  from:
+    value: '1575'
+    calendar: julian
+    precision: year
+    note: as an autonomous archbishopric; earlier a bishopric under Jerusalem
+      (Pharan's see transferred c. 7th century) - refine during verification
+location:
+  lat: 28.556
+  lon: 33.976
+  modern_place: St Catherine's Monastery, Sinai, Egypt
+sources:
+- ref: source/church-of-jerusalem-official
+  reliability: official-list
+  locator: locator to be confirmed
+status: unverified
+notes: >-
+  The archiepiscopal see seated at St Catherine's. Created in I4.1
+  (2026-07-16); the pre-modern succession is an open reconciliation task.

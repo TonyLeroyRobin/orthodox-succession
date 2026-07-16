@@ -1,0 +1,24 @@
+id: institution/great-meteoron
+type: monastery
+name: Great Meteoron (Transfiguration)
+location:
+  lat: 39.726
+  lon: 21.626
+  modern_place: Meteora, Greece
+jurisdiction_history:
+- jurisdiction: jurisdiction/ecumenical-patriarchate
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '1340'
+    calendar: julian
+    precision: circa
+  note: founded by Athanasius the Meteorite
+current_status: active
+sources:
+- ref: source/kiminas-ecumenical-patriarchate
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  The principal Meteora house - the remaining Meteora houses are Tier-2 candidates (deferred with reason: the floor names 'the Meteora houses'; the connection rule admits the rest as encountered). Coordinates and dates approximate - verify. Created in I2 (institutions Tier 1) 2026-07-16.

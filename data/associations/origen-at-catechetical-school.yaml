@@ -1,0 +1,12 @@
+id: association/origen-at-catechetical-school
+person: person/alexandria/origen-0254
+institution: institution/catechetical-school-alexandria
+role: teacher
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  head of the school after Clement (Eusebius HE 6.3) - student first, teacher after; one association carries the stronger role. Complements, never duplicates, the person-to-person relationship
+  records (I3). Created in I2 (institutions Tier 1) 2026-07-16.

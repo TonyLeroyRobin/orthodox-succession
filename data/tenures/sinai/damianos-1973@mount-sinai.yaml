@@ -1,0 +1,20 @@
+id: tenure/sinai/damianos-1973@mount-sinai
+person: person/sinai/damianos-1973
+see: see/sinai/mount-sinai
+from:
+  value: '1973'
+  calendar: gregorian
+  precision: year
+to:
+  value: '2023'
+  calendar: gregorian
+  precision: year
+  note: retirement announced 2023 - confirm the canonical end date at verification
+end_reason: resigned
+sources:
+- ref: source/church-of-jerusalem-official
+  reliability: official-list
+  locator: locator to be confirmed
+status: unverified
+notes: Created in I4.1 (2026-07-16); the rest of the line is an open
+  reconciliation task.

@@ -1,0 +1,24 @@
+id: institution/st-john-patmos
+type: monastery
+name: Monastery of St John the Theologian, Patmos
+location:
+  lat: 37.309
+  lon: 26.548
+  modern_place: Patmos, Greece
+jurisdiction_history:
+- jurisdiction: jurisdiction/ecumenical-patriarchate
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '1088'
+    calendar: julian
+    precision: year
+  note: founded by Christodoulos under Alexius I's chrysobull
+current_status: active
+sources:
+- ref: source/kiminas-ecumenical-patriarchate
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  Coordinates and dates approximate - verify. Created in I2 (institutions Tier 1) 2026-07-16.

@@ -1,0 +1,31 @@
+id: institution/kyiv-mohyla-academy
+type: academy
+name: Kyiv-Mohyla Academy
+location:
+  lat: 50.465
+  lon: 30.519
+  modern_place: Kyiv, Ukraine
+jurisdiction_history:
+- jurisdiction: jurisdiction/metropolitanate-of-kyiv
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '1632'
+    calendar: julian
+    precision: year
+  note: founded from Peter Mohyla's collegium (already in the library via his Orthodox Confession)
+history:
+- event: closed
+  date:
+    value: '1817'
+    calendar: gregorian
+    precision: year
+  note: the old academy closed; the modern university revival (1991) is a secular successor
+current_status: converted
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  Coordinates and dates approximate - verify. Created in I2 (institutions Tier 1) 2026-07-16.

@@ -1,0 +1,31 @@
+id: institution/catechetical-school-alexandria
+type: school
+name: Catechetical School of Alexandria
+location:
+  lat: 31.199
+  lon: 29.906
+  modern_place: Alexandria, Egypt
+jurisdiction_history:
+- jurisdiction: jurisdiction/church-of-alexandria
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '0180'
+    calendar: julian
+    precision: circa
+  note: attested under Pantaenus (Eusebius HE 5.10) - where this project's very first question pointed
+history:
+- event: closed
+  date:
+    value: '0400'
+    calendar: gregorian
+    precision: year
+  note: faded after Theophilus' era; no continuous institution survives
+current_status: destroyed
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  As much a succession of teachers as a campus - Pantaenus, Clement, Origen (see the association); the honest institution-of-formation framing per the charter. Coordinates and dates approximate - verify. Created in I2 (institutions Tier 1) 2026-07-16.

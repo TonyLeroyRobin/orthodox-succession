@@ -195,6 +195,19 @@ def iter_refs(kind, data):
         for c in data.get("cites") or []:
             yield ("cites", c)
 
+    if kind == "institution":
+        for h in data.get("jurisdiction_history") or []:
+            j = h.get("jurisdiction")
+            if j and j.startswith("jurisdiction/"):
+                yield ("jurisdiction_history.jurisdiction", j)
+        if data.get("typikon"):
+            yield ("typikon", data["typikon"])
+        for h in data.get("history") or []:
+            yield from citations(h.get("sources"), "history")
+    if kind == "association":
+        yield ("person", data.get("person"))
+        yield ("institution", data.get("institution"))
+
     # P5: controversy tags on Event, Work, and Participation
     if kind in ("event", "work", "participation"):
         for tag in data.get("controversies") or []:

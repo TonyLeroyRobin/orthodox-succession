@@ -1,0 +1,12 @@
+id: association/tikhon-of-moscow-at-st-petersburg-academy
+person: person/russia/tikhon-of-moscow-1865
+institution: institution/st-petersburg-academy
+role: student
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  graduated 1888 - the academy-formation pattern for the synodal-era episcopate. Complements, never duplicates, the person-to-person relationship
+  records (I3). Created in I2 (institutions Tier 1) 2026-07-16.

@@ -1,0 +1,12 @@
+id: association/john-of-damascus-at-mar-saba
+person: person/jerusalem/john-of-damascus-0749
+institution: institution/mar-saba
+role: brotherhood
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  the Sabaite formation of the last great synthesizer - his person record's Mar Saba data made explicit as an association. Complements, never duplicates, the person-to-person relationship
+  records (I3). Created in I2 (institutions Tier 1) 2026-07-16.

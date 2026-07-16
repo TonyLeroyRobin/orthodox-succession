@@ -91,6 +91,15 @@ Read it before making structural changes. These rules bind every session.
   (out-of-scope-author) works: `external: true` + `author_name`, no Person
   record, excluded from Library counts. The ideas graph never blends with the
   consecration graph.
+- **Institutions (I-module, standing):** tier-gated admission — Tier 1 the
+  approved by-name list, Tier 2 any institution connected to an in-scope
+  person/event when encountered, Tier 3 everything else = backlog FOREVER (no
+  complete global catalog, ever). Associations link in-scope persons ONLY
+  (error level) — no person is ever created merely to populate an institution;
+  no abbot lists/faculty rosters (notable_heads prose note permitted); no
+  relics or pilgrimage data; Zverinsky is the Russian checklist source, cited,
+  never mass-imported. Lifecycle events (suppressed/refounded...) model the
+  Bolshevik and Halki arcs as data, not prose.
 - **Living-data currency (Q8, standing policy):** a quarterly sweep checks
   current primates and open tenures against official announcements; deaths,
   elections, and enthronements enter as normal sourced edits (never bulk

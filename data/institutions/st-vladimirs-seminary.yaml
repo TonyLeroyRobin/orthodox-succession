@@ -1,0 +1,23 @@
+id: institution/st-vladimirs-seminary
+type: academy
+name: St Vladimir's Orthodox Theological Seminary
+location:
+  lat: 40.955
+  lon: -73.817
+  modern_place: Yonkers, New York, USA
+jurisdiction_history:
+- jurisdiction: jurisdiction/orthodox-church-in-america
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '1938'
+    calendar: julian
+    precision: year
+current_status: active
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  Coordinates and dates approximate - verify. Created in I2 (institutions Tier 1) 2026-07-16.

@@ -1,0 +1,12 @@
+id: association/john-climacus-at-sinai
+person: person/jerusalem/john-climacus-0649
+institution: institution/st-catherines-sinai
+role: hegumen
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  abbot of Sinai, where the Ladder was written. Complements, never duplicates, the person-to-person relationship
+  records (I3). Created in I2 (institutions Tier 1) 2026-07-16.

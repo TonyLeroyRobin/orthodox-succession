@@ -1,0 +1,35 @@
+id: institution/solovetsky
+type: monastery
+name: Solovetsky Monastery
+location:
+  lat: 65.024
+  lon: 35.71
+  modern_place: Solovetsky Islands, Russia
+jurisdiction_history:
+- jurisdiction: jurisdiction/church-of-russia
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '1436'
+    calendar: julian
+    precision: circa
+history:
+- event: suppressed
+  date:
+    value: '1920'
+    calendar: gregorian
+    precision: year
+  note: became the SLON prison camp - the first island of the Gulag
+- event: reopened
+  date:
+    value: '1990'
+    calendar: gregorian
+    precision: year
+current_status: active
+sources:
+- ref: source/zverinsky-monasteries
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  The Bolshevik arc modeled in lifecycle events, not prose (I1). Coordinates and dates approximate - verify. Created in I2 (institutions Tier 1) 2026-07-16.

@@ -1,0 +1,12 @@
+id: association/john-chrysostom-at-school-of-antioch
+person: person/constantinople/john-i-chrysostom-0398
+institution: institution/school-of-antioch
+role: student
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  formed in the Antiochene exegetical tradition under Diodore. Complements, never duplicates, the person-to-person relationship
+  records (I3). Created in I2 (institutions Tier 1) 2026-07-16.

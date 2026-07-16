@@ -1,0 +1,178 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orthodox-succession.org/schemas/institution.json",
+  "title": "Institution",
+  "description": "I1: a monastery, school, or academy - the seedbeds of the episcopate. Tier-gated admission (I2); no complete global catalog, ever.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "type",
+    "name",
+    "sources",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^institution/[a-z0-9-]+$"
+    },
+    "type": {
+      "enum": [
+        "monastery",
+        "school",
+        "academy"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "names": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "native": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "script": {
+                "type": "string"
+              },
+              "value": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "variants": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "lon": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "modern_place": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "jurisdiction_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "jurisdiction": {
+            "type": "string"
+          },
+          "from": {
+            "$ref": "defs.json#/$defs/date"
+          },
+          "to": {
+            "$ref": "defs.json#/$defs/date"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "founded": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "date": {
+          "$ref": "defs.json#/$defs/date"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "event"
+        ],
+        "properties": {
+          "event": {
+            "enum": [
+              "founded",
+              "suppressed",
+              "destroyed",
+              "refounded",
+              "closed",
+              "reopened"
+            ]
+          },
+          "date": {
+            "$ref": "defs.json#/$defs/date"
+          },
+          "note": {
+            "type": "string"
+          },
+          "sources": {
+            "$ref": "defs.json#/$defs/sources"
+          }
+        }
+      }
+    },
+    "current_status": {
+      "enum": [
+        "active",
+        "ruined",
+        "archaeological-site",
+        "museum",
+        "converted",
+        "destroyed"
+      ]
+    },
+    "official_site": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "archived_url": {
+          "type": "string"
+        }
+      }
+    },
+    "typikon": {
+      "$ref": "defs.json#/$defs/workId"
+    },
+    "notable_heads": {
+      "type": "string"
+    },
+    "sources": {
+      "$ref": "defs.json#/$defs/sources"
+    },
+    "status": {
+      "$ref": "defs.json#/$defs/status"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

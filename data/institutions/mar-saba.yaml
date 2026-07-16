@@ -1,0 +1,24 @@
+id: institution/mar-saba
+type: monastery
+name: Great Lavra of St Sabas (Mar Saba)
+location:
+  lat: 31.705
+  lon: 35.331
+  modern_place: Kidron Valley, West Bank
+jurisdiction_history:
+- jurisdiction: jurisdiction/church-of-jerusalem
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '0483'
+    calendar: julian
+    precision: circa
+  note: founded by Sabas the Sanctified
+current_status: active
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  The great desert lavra of the Judaean wilderness - the formation house of John of Damascus (see the association). Coordinates and dates approximate - verify. Created in I2 (institutions Tier 1) 2026-07-16.

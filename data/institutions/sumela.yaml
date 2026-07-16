@@ -1,0 +1,31 @@
+id: institution/sumela
+type: monastery
+name: Panagia Sumela Monastery
+location:
+  lat: 40.69
+  lon: 39.658
+  modern_place: Maçka, Trabzon, Türkiye
+jurisdiction_history:
+- jurisdiction: jurisdiction/ecumenical-patriarchate
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '0386'
+    calendar: julian
+    precision: circa
+  note: traditional foundation under Theodosius I - recorded, not adjudicated
+history:
+- event: closed
+  date:
+    value: '1923'
+    calendar: gregorian
+    precision: year
+  note: abandoned in the population exchange
+current_status: museum
+sources:
+- ref: source/kiminas-ecumenical-patriarchate
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  Coordinates and dates approximate - verify. Created in I2 (institutions Tier 1) 2026-07-16.

@@ -1,0 +1,31 @@
+id: institution/deir-ain-abata
+type: monastery
+name: Monastery of St Lot (Deir 'Ain 'Abata)
+location:
+  lat: 31.046
+  lon: 35.501
+  modern_place: Ghor es-Safi, Jordan
+jurisdiction_history:
+- jurisdiction: jurisdiction/church-of-jerusalem
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '0500'
+    calendar: julian
+    precision: circa
+  note: Byzantine monastery at Lot's cave; abandoned c. 8th-9th century
+history:
+- event: closed
+  date:
+    value: '0850'
+    calendar: gregorian
+    precision: year
+  note: abandoned c. 8th-9th century
+current_status: archaeological-site
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  Excavated from 1988 - the charter's archaeological-site exemplar. Coordinates and dates approximate - verify. Created in I2 (institutions Tier 1) 2026-07-16.

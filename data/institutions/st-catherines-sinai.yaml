@@ -1,0 +1,24 @@
+id: institution/st-catherines-sinai
+type: monastery
+name: Monastery of St Catherine, Mount Sinai
+location:
+  lat: 28.556
+  lon: 33.976
+  modern_place: Sinai, Egypt
+jurisdiction_history:
+- jurisdiction: jurisdiction/church-of-sinai
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '0548'
+    calendar: julian
+    precision: circa
+  note: built by Justinian (548-565) around the earlier Burning Bush chapel
+current_status: active
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  The world's oldest continuously inhabited Christian monastery; seat of the autonomous Church of Sinai (see the jurisdiction record - I4.1); home of the Sinaiticus scriptorium tradition and John Climacus. Coordinates and dates approximate - verify. Created in I2 (institutions Tier 1) 2026-07-16.
