@@ -18,7 +18,7 @@ sources:
 - ref: source/church-of-romania-official
   locator: mmb.ro/istoric (Metropolis of Moldavia and Bukovina)
   reliability: official-list
-  archived_url: https://web.archive.org/web/2026/https://mmb.ro/istoric
+  archived_url: https://web.archive.org/web/20260115151625/https://mmb.ro/istoric
   note: official metropolitan-history narrative; year-wildcard archive redirect — pin during
     verification
 status: disputed

@@ -16,7 +16,7 @@ sources:
 - ref: source/church-of-bulgaria-official
   locator: bul-patriarch
   reliability: official-list
-  archived_url: https://web.archive.org/web/2026/https://bg-patriarshia.bg/bul-patriarch
+  archived_url: https://web.archive.org/web/20260715165402/https://bg-patriarshia.bg/bul-patriarch
   note: official page memorializes Patriarch Maxim (1914–2012) — year-wildcard archive
     redirect, pin during verification
 status: unverified

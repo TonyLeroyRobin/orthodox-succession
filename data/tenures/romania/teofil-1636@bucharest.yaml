@@ -21,7 +21,7 @@ sources:
 - ref: source/church-of-romania-official
   locator: iii-a-biserica-din-Tara-romaneasca-si-moldova-in-evul-mediu-mijlocul-secolului-al-xiv-lea-1821--149.html
   reliability: official-list
-  archived_url: https://web.archive.org/web/2026/https://patriarhia.ro/iii-a-biserica-din-Tara-romaneasca-si-moldova-in-evul-mediu-mijlocul-secolului-al-xiv-lea-1821--149.html
+  archived_url: https://web.archive.org/web/20231208154431/https://patriarhia.ro/iii-a-biserica-din-Tara-romaneasca-si-moldova-in-evul-mediu-mijlocul-secolului-al-xiv-lea-1821--149.html
   note: official history page (III.a, the medieval church of Wallachia and Moldavia) names
     this tenure with matching years; year-wildcard archive redirect — pin during verification
 status: unverified

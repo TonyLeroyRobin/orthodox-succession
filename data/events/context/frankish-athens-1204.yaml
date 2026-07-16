@@ -21,6 +21,6 @@ sources:
 - ref: source/wikipedia
   reliability: database
   locator: Duchy of Athens
-  archived_url: https://web.archive.org/web/2026/https://en.wikipedia.org/wiki/Duchy_of_Athens
+  archived_url: https://web.archive.org/web/20260711224406/https://en.wikipedia.org/wiki/Duchy_of_Athens
 status: unverified
 notes: ''
