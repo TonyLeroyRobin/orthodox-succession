@@ -1,0 +1,22 @@
+id: event/context/byzantine-era-0330
+type: context
+title: Byzantine (East Roman) era
+date:
+  from:
+    value: '0330'
+    calendar: julian
+    precision: year
+  to:
+    value: '1453'
+    calendar: julian
+    precision: year
+scope: global
+description: >-
+  From the dedication of Constantinople to its fall, the East Roman empire framed the political world of the Chalcedonian East.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Byzantine Empire
+  archived_url: https://web.archive.org/web/2026/https://en.wikipedia.org/wiki/Byzantine_Empire
+status: unverified
+notes: Era-band record (Created in R3 (timeline era bands) 2026-07-15.) - archive wildcard pending pin.

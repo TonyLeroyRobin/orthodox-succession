@@ -1,0 +1,22 @@
+id: event/context/crusader-states-1098
+type: context
+title: Crusader states in the East
+date:
+  from:
+    value: '1098'
+    calendar: julian
+    precision: year
+  to:
+    value: '1291'
+    calendar: julian
+    precision: year
+scope: global
+description: >-
+  From the First Crusade's capture of Antioch to the fall of Acre, Latin states in Syria and Palestine displaced or paralleled the Greek hierarchies of Antioch and Jerusalem.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Crusader states
+  archived_url: https://web.archive.org/web/2026/https://en.wikipedia.org/wiki/Crusader_states
+status: unverified
+notes: Era-band record (Created in R3 (timeline era bands) 2026-07-15.) - archive wildcard pending pin.

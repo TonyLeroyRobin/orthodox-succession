@@ -1,0 +1,22 @@
+id: event/context/ottoman-era-1453
+type: context
+title: Ottoman era
+date:
+  from:
+    value: '1453'
+    calendar: julian
+    precision: year
+  to:
+    value: '1923'
+    calendar: julian
+    precision: year
+scope: global
+description: >-
+  From the fall of Constantinople to the Treaty of Lausanne, most Chalcedonian jurisdictions lived under Ottoman rule through the millet system.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Ottoman Empire
+  archived_url: https://web.archive.org/web/2026/https://en.wikipedia.org/wiki/Ottoman_Empire
+status: unverified
+notes: Era-band record (Created in R3 (timeline era bands) 2026-07-15.) - archive wildcard pending pin.

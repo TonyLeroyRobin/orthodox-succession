@@ -1,0 +1,22 @@
+id: event/context/arab-conquests-0634
+type: context
+title: Arab conquests
+date:
+  from:
+    value: '0634'
+    calendar: julian
+    precision: year
+  to:
+    value: '0750'
+    calendar: julian
+    precision: year
+scope: global
+description: >-
+  The Arab conquests took Syria, Palestine, Egypt, and North Africa from the Roman empire, placing three ancient patriarchates under Muslim rule.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Early Muslim conquests
+  archived_url: https://web.archive.org/web/2026/https://en.wikipedia.org/wiki/Early_Muslim_conquests
+status: unverified
+notes: Era-band record (Created in R3 (timeline era bands) 2026-07-15.) - archive wildcard pending pin.

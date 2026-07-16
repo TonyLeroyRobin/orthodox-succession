@@ -98,3 +98,46 @@ table { min-width: 480px; }
   h1 { font-size: 1.35rem; }
   .map-controls { flex-wrap: wrap; }
 }
+
+/* ---------------- Timeline v2 (R3) ---------------- */
+.tl-wrap { overflow: auto; max-height: 75vh; border: 1px solid #e2ddd4;
+           border-radius: 6px; background: #fff; }
+.tl-inner { position: relative; }
+.tl-axis { position: sticky; top: 0; z-index: 6; display: flex;
+           background: #f6f3ec; border-bottom: 1px solid #d8d2c6;
+           height: 26px; }
+.tl-bands { display: flex; height: 30px; border-bottom: 1px solid #eee9df;
+            background: #fbfaf6; }
+.tl-axis .tl-track, .tl-bands .tl-track { position: relative; flex: none; }
+.tl-tick { position: absolute; top: 4px; font-size: 11px; color: #7a7265;
+           border-left: 1px solid #cfc8ba; padding-left: 3px; height: 22px; }
+.tl-band { position: absolute; top: 4px; height: 22px;
+           background: rgba(120, 108, 160, .16);
+           border: 1px solid rgba(120, 108, 160, .35);
+           border-radius: 3px; overflow: hidden; white-space: nowrap; }
+.tl-band span { font-size: 10px; color: #5d5480; padding: 3px 4px;
+                display: inline-block; }
+.tl-mark { position: absolute; top: 10px; width: 7px; height: 7px;
+           border-radius: 50%; background: #8a7f6a; }
+details.tl-jur { border-bottom: 1px solid #eee9df; }
+details.tl-jur summary { position: sticky; left: 0; cursor: pointer;
+                         padding: 6px 10px; font-weight: 600;
+                         background: #faf8f2; max-width: 100vw; }
+.tl-row { display: flex; height: 22px; align-items: center; }
+.tl-row:hover { background: #f6f3ec; }
+.tl-row.tl-hit { background: #fff3c4; }
+.tl-name { position: sticky; left: 0; z-index: 4; flex: none; width: 180px;
+           font-size: 12px; padding: 0 8px; background: #fff;
+           border-right: 1px solid #e2ddd4; overflow: hidden;
+           text-overflow: ellipsis; white-space: nowrap; }
+.tl-row:hover .tl-name { background: #f6f3ec; }
+.tl-axis-name, .tl-band-name { background: inherit; font-size: 10px;
+                               color: #7a7265; line-height: 26px; }
+.tl-track { position: relative; flex: none; height: 100%; }
+.tl-bar { position: absolute; top: 5px; height: 12px; border-radius: 2px;
+          background: #b26a00; }
+.tl-bar.verified { background: #2e7d32; }
+.tl-bar.disputed { background: #b3261e; }
+.tl-bar.disputed-rec { outline: 1.5px dashed #b3261e; outline-offset: 1px; }
+.tl-bar.tl-ovf { box-shadow: 0 0 0 1px #fff inset, 0 0 0 1.5px currentColor; }
+.tl-sup { position: absolute; top: 2px; color: #9a9a9a; font-weight: 700; }

@@ -1,0 +1,22 @@
+id: event/context/era-of-persecutions-0064
+type: context
+title: Era of persecutions
+date:
+  from:
+    value: '0064'
+    calendar: julian
+    precision: year
+  to:
+    value: '0313'
+    calendar: julian
+    precision: year
+scope: global
+description: >-
+  From the Neronian persecution to the Edict of Milan, Christianity was intermittently proscribed and persecuted across the Roman empire.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Persecution of Christians in the Roman Empire
+  archived_url: https://web.archive.org/web/2026/https://en.wikipedia.org/wiki/Persecution_of_Christians_in_the_Roman_Empire
+status: unverified
+notes: Era-band record (Created in R3 (timeline era bands) 2026-07-15.) - archive wildcard pending pin.

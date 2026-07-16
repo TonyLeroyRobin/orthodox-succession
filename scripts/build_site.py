@@ -39,7 +39,8 @@ STATUS_COLOR = {"verified": "#2e7d32", "unverified": "#b26a00",
 NAV = [("Home", "/"), ("Jurisdictions", "/jurisdictions/"),
        ("Sees", "/sees/"), ("People", "/people/"),
        ("Councils", "/councils/"), ("Library", "/library/"),
-       ("Map", "/map/"), ("Graph", "/site/graph.html"),
+       ("Map", "/map/"), ("Timeline", "/timeline/"),
+       ("Graph", "/site/graph.html"),
        ("About", "/about/")]
 
 
@@ -969,6 +970,149 @@ requests. Coverage reflects the dataset, not history (see the
                  "https://tonyleroyrobin.github.io/orthodox-succession/map/",
                  active="Map"))
 
+    # ---------------- timeline overview page (R3) ----------------
+    # Jurisdiction accordions (Pentarchy expanded), sticky axis + see-name
+    # column, jump-to-see typeahead, 3px minimum bars with overflow class,
+    # era bands from duration context events, scope-filtered to open groups.
+    TL_START, TL_END, TL_SCALE = 33, 2026, 0.75
+    def tl_x(year):
+        return (max(TL_START, min(TL_END, year)) - TL_START) * TL_SCALE
+    tl_width = int(tl_x(TL_END)) + 1
+    PENT_PREFIXES = ("constantinople", "alexandria", "antioch", "jerusalem",
+                     "pre-schism-rome")
+    prefix_jid = {}
+    for jid, j in jurs.items():
+        prim = j.get("primatial_see")
+        if prim and len(prim.split("/")) > 2:
+            prefix_jid.setdefault(prim.split("/")[1], jid)
+
+    def tl_rows_html(prefix):
+        rows = []
+        for sid in sees_by_jur_prefix[prefix]:
+            s = sees[sid]
+            spans = []
+            earliest = 9999
+            for t in tenures_by_see.get(sid, []):
+                f = date_year(t.get("from"))
+                if f is None:
+                    continue
+                open_ = not t.get("to")
+                e = date_year(t.get("to")) or (2026 if (open_ and f > 1900) else f)
+                p = persons.get(t.get("person"))
+                disputed = any(r.get("status") in
+                               ("disputed", "rival-claimant", "not-recognized")
+                               for r in t.get("recognition") or [])
+                spans.append((f, max(e, f), t, p, disputed))
+                earliest = min(earliest, f)
+            rows.append((earliest, sid, s, spans))
+        rows.sort(key=lambda r: (r[0], r[2].get("name") or ""))
+        out = []
+        for earliest, sid, s, spans in rows:
+            bars = []
+            for f, e, t, p, disputed in sorted(spans, key=lambda x: (x[0], x[1])):
+                left = tl_x(f)
+                raw_w = tl_x(e) - left
+                w = max(raw_w, 3)
+                cls = "tl-bar " + (t.get("status") or "unverified")
+                if disputed:
+                    cls += " disputed-rec"
+                if raw_w < 3:
+                    cls += " tl-ovf"  # overflow marker: inflated to minimum width
+                nm = person_name(p)
+                purl = entity_url(t.get("person")) or "#"
+                bars.append(
+                    f'<a class="{esc(cls)}" href="{purl}" '
+                    f'style="left:{left:.1f}px;width:{w:.1f}px" '
+                    f'title="{esc(nm)} ({f}–{e}) · {esc(t.get("status") or "")}"></a>')
+            sup = date_year((s.get("suppressed") or {}).get("date"))
+            if sup is not None:
+                bars.append(
+                    f'<span class="tl-sup" style="left:{tl_x(sup):.1f}px" '
+                    f'title="suppressed {sup}">×</span>')
+            out.append(
+                f'<div class="tl-row" data-name="{esc((s.get("name") or "").lower())}">'
+                f'<div class="tl-name"><a href="{entity_url(sid)}">'
+                f'{esc(s.get("name") or sid)}</a></div>'
+                f'<div class="tl-track" style="width:{tl_width}px">{"".join(bars)}</div>'
+                f'</div>')
+        return "".join(out)
+
+    axis_ticks = "".join(
+        f'<span class="tl-tick" style="left:{tl_x(y):.1f}px">{y}</span>'
+        for y in [33] + list(range(200, 2001, 200)) + [2026])
+    band_divs, mark_divs = [], []
+    for r in by_kind["event"]:
+        d = r["data"]
+        if d.get("type") != "context":
+            continue
+        dt = d.get("date") or {}
+        f = date_year(dt.get("from"))
+        if f is None:
+            continue
+        e = date_year(dt.get("to"))
+        scope = d.get("scope") or "global"
+        jid = scope.split(":", 1)[1] if scope.startswith("jurisdiction:") else ""
+        title = esc(d.get("title") or "")
+        if e is not None and e > f:
+            band_divs.append(
+                f'<div class="tl-band" data-jid="{esc(jid)}" '
+                f'style="left:{tl_x(f):.1f}px;width:{max(tl_x(e)-tl_x(f),2):.1f}px" '
+                f'title="{title} ({f}–{e})"><span>{title}</span></div>')
+        else:
+            mark_divs.append(
+                f'<span class="tl-mark" data-jid="{esc(jid)}" '
+                f'style="left:{tl_x(f):.1f}px" title="{title} ({f})"></span>')
+
+    groups_html = []
+    datalist = set()
+    for prefix in sorted(sees_by_jur_prefix,
+                         key=lambda p: (p not in PENT_PREFIXES, p)):
+        jid = prefix_jid.get(prefix)
+        jname = jurs[jid]["name"] if jid and jid in jurs else prefix.replace("-", " ").title()
+        n = len(sees_by_jur_prefix[prefix])
+        open_attr = " open" if prefix in PENT_PREFIXES else ""
+        groups_html.append(
+            f'<details class="tl-jur" data-jid="{esc(jid or "")}"{open_attr}>'
+            f'<summary>{esc(jname)} <span class="badge model">{n} see{"s" if n != 1 else ""}</span></summary>'
+            f'{tl_rows_html(prefix)}</details>')
+        for sid in sees_by_jur_prefix[prefix]:
+            nm = sees[sid].get("name")
+            if nm:
+                datalist.add(nm)
+    datalist_html = "".join(f"<option value=\"{esc(n)}\">"
+                            for n in sorted(datalist))
+    timeline_page = f"""<h1>Timeline of the sees</h1>
+<p class="subtitle">Jurisdiction accordions (the Pentarchy expanded by
+default); every dated tenure as a bar (minimum 3px — outlined bars are
+shorter than they render), click-through to the person; era bands and event
+markers from the context layer, filtered to the expanded jurisdictions plus
+global events. Detail lives on the per-see pages.</p>
+<div class="panel">
+<div class="map-controls">
+<label for="tlJump">Jump to see: </label>
+<input id="tlJump" list="tlSees" placeholder="type a see name…">
+<datalist id="tlSees">{datalist_html}</datalist>
+</div>
+<div class="tl-wrap">
+<div class="tl-inner" style="width:{tl_width + 180}px">
+<div class="tl-axis"><div class="tl-name tl-axis-name"></div>
+<div class="tl-track" style="width:{tl_width}px">{axis_ticks}</div></div>
+<div class="tl-bands"><div class="tl-name tl-band-name">context</div>
+<div class="tl-track" style="width:{tl_width}px">{''.join(band_divs)}{''.join(mark_divs)}</div></div>
+{''.join(groups_html)}
+</div>
+</div>
+<p class=note>Bars are colored by record status (green verified, amber
+unverified, red disputed); dashed outline = recognition disputed;
+× = see suppressed. The context layer renders era bands (events with
+durations) and point markers — <a href="/about/">about the layers</a>.</p>
+</div>
+<script src="/assets/timeline.js"></script>"""
+    write(OUT / "timeline" / "index.html",
+          layout("Timeline", timeline_page,
+                 "https://tonyleroyrobin.github.io/orthodox-succession/timeline/",
+                 active="Timeline"))
+
     # ---------------- calendar data ----------------
     cal = []
     for pid, p in persons.items():
@@ -1011,7 +1155,7 @@ requests. Coverage reflects the dataset, not history (see the
     (assets / "vendor").mkdir(exist_ok=True)
     for f in (SITE_SRC / "vendor").iterdir():
         shutil.copy(f, assets / "vendor" / f.name)
-    for name in ("site.js", "search.js", "map.js"):
+    for name in ("site.js", "search.js", "map.js", "timeline.js"):
         src = SITE_SRC / "static" / name
         if src.exists():
             shutil.copy(src, assets / name)

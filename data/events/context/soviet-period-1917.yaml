@@ -1,0 +1,22 @@
+id: event/context/soviet-period-1917
+type: context
+title: Soviet period
+date:
+  from:
+    value: '1917'
+    calendar: julian
+    precision: year
+  to:
+    value: '1991'
+    calendar: julian
+    precision: year
+scope: jurisdiction:jurisdiction/church-of-russia
+description: >-
+  From the October revolution to the dissolution of the USSR, the church in the Soviet lands passed through persecution, catacomb existence, and state-supervised revival.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Russian Orthodox Church
+  archived_url: https://web.archive.org/web/2026/https://en.wikipedia.org/wiki/Russian_Orthodox_Church
+status: unverified
+notes: Era-band record (Created in R3 (timeline era bands) 2026-07-15.) - archive wildcard pending pin.

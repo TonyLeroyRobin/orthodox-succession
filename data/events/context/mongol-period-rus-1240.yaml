@@ -1,0 +1,22 @@
+id: event/context/mongol-period-rus-1240
+type: context
+title: Mongol period in Rus'
+date:
+  from:
+    value: '1240'
+    calendar: julian
+    precision: year
+  to:
+    value: '1480'
+    calendar: julian
+    precision: year
+scope: jurisdiction:jurisdiction/church-of-russia
+description: >-
+  From the sack of Kyiv to the stand on the Ugra, the Rus' principalities and their metropolitans lived under the Golden Horde, whose yarliks exempted and protected the church.
+sources:
+- ref: source/wikipedia
+  reliability: database
+  locator: Mongol invasion of Kievan Rus'
+  archived_url: https://web.archive.org/web/2026/https://en.wikipedia.org/wiki/Mongol_invasion_of_Kievan_Rus'
+status: unverified
+notes: Era-band record (Created in R3 (timeline era bands) 2026-07-15.) - archive wildcard pending pin.
