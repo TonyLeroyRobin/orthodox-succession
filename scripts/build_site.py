@@ -1376,9 +1376,12 @@ name variants and native scripts.</p></div></div>
                           "n": person_name(p), "p": t.get("person"),
                           "d": disputed})
         sup = date_year((s.get("suppressed") or {}).get("date"))
+        # Q7: apostolic-foundation flag (distinct ring on the map)
+        af = bool(s.get("apostolic_founder") or s.get("apostolic_founders"))
         map_rows.append({"id": sid, "name": s.get("name"),
                          "lat": loc["lat"], "lon": loc["lon"],
-                         "url": BASE + entity_url(sid), "sup": sup, "t": spans})
+                         "url": BASE + entity_url(sid), "sup": sup,
+                         "af": af, "t": spans})
     write(OUT / "data" / "map-data.json",
           json.dumps(map_rows, ensure_ascii=False))
 
@@ -1432,6 +1435,11 @@ the see page.</p>
 <label for="controSel"> Controversy layer:
 <select id="controSel"><option value="">off</option></select></label>
 </div>
+<div class="map-controls" role="group" aria-label="highlight toggles">
+<label><input type="checkbox" class="hl-toggle" value="pent"> highlight Pentarchy</label>
+<label><input type="checkbox" class="hl-toggle" value="af"> apostolic foundations</label>
+<label><input type="checkbox" class="hl-toggle" value="today"> active today</label>
+</div>
 <div class="map-controls era-presets" role="group" aria-label="era presets">
 <button class="era-btn" data-year="33">33</button>
 <button class="era-btn" data-year="325">325</button>
@@ -1449,8 +1457,11 @@ the see page.</p>
 (green verified, amber unverified, red disputed; dashed ring = recognition
 disputed) &middot; &#9675; hollow = attested, no recorded occupant &middot;
 <span style="color:#9a9a9a">&#8855;</span> grayed/crossed = suppressed (date in
-the tooltip) &middot; Pentarchy sees stay labeled at all zooms; other labels
-appear as you zoom. Scroll or pinch to zoom, drag to pan.</p>
+the tooltip) &middot; <span style="color:#5d5480">&#9678;</span> outer dashed
+ring = apostolic foundation (a distinct shape channel - fill still means
+verification status, one channel one meaning) &middot; Pentarchy sees stay
+labeled at all zooms; other labels appear as you zoom. Highlight toggles dim
+non-matching markers. Scroll or pinch to zoom, drag to pan.</p>
 <p class=note>Basemap: Natural Earth, bundled — the site makes no external
 requests. Coverage reflects the dataset, not history (see the
 <a href="/gaps/">gap report</a>).</p>

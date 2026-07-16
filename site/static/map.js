@@ -102,6 +102,32 @@
     }
     function k0() { return k || 1; }
 
+    // Q7: highlight toggles - dim markers that match none of the active sets
+    var highlights = {};
+    document.querySelectorAll(".hl-toggle").forEach(function (cb) {
+      cb.addEventListener("change", function () {
+        highlights[cb.value] = cb.checked;
+        render(currentYear);
+      });
+    });
+    function anyHighlight() {
+      return highlights.pent || highlights.af || highlights.today;
+    }
+    function matchesHighlight(d) {
+      if (highlights.pent && PENTARCHY[d.s.id]) return true;
+      if (highlights.af && d.s.af) return true;
+      if (highlights.today && d.st.kind === "active" && currentYear >= 2026)
+        return true;
+      if (highlights.today && currentYear < 2026) {
+        // active-today matches regardless of slider position
+        var active2026 = d.s.t.some(function (t) {
+          return t.f <= 2026 && 2026 <= t.e;
+        });
+        if (active2026) return true;
+      }
+      return false;
+    }
+
     var currentYear = 2026;
     function render(year) {
       currentYear = year;
@@ -112,7 +138,10 @@
       }).filter(function (d) { return d.st.kind !== "hidden"; });
       g.selectAll("g.see").remove();
       var nodes = g.selectAll("g.see").data(data).join("g")
-        .attr("class", "see");
+        .attr("class", "see")
+        .attr("opacity", function (d) {
+          return anyHighlight() && !matchesHighlight(d) ? 0.15 : 1;
+        });
       var a = nodes.append("a")
         .attr("href", function (d) { return d.s.url; });
 
@@ -153,7 +182,16 @@
                   d.st.kind === "active" && d.st.t.d ? "3,2" : null)
             .attr("stroke-width", 1.5 / Math.sqrt(k));
         }
+        if (d.s.af) {
+          // Q7: apostolic-foundation ring - a shape channel, not a color one
+          el.append("circle").attr("cx", cx(d)).attr("cy", cy(d))
+            .attr("r", (d.st.kind === "active" ? 9 : 6.5) / Math.sqrt(k))
+            .attr("fill", "none").attr("stroke", "#5d5480")
+            .attr("stroke-width", 1.2 / k)
+            .attr("stroke-dasharray", (2 / k) + "," + (2 / k));
+        }
         var title = d.s.name;
+        if (d.s.af) title += "\napostolic foundation";
         if (d.st.kind === "active") {
           title += "\n" + d.st.t.n + " (" + d.st.t.f + "–" + d.st.t.e + ")";
         } else if (d.st.kind === "suppressed") {
