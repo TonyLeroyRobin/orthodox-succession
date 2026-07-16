@@ -48,3 +48,7 @@ current milestone (ROADMAP_ADDENDUM.md §A4).
 | ~~Athens pre-1833 line~~ DONE 2026-07-15 (105 tenures, Hierotheos/Dionysius to Anthimus VII; Frankish-era exile metropolitans; dual apostolic_founders honestly graded) | 2026-07-11 | done |
 | Michael Choniates' letters and the monody on Athens — Works candidates; the pseudo-Dionysian corpus question (Works layer, 5th–6th c. pseudonymity) | 2026-07-15 | future works pass |
 | Thessalonica line beyond the Palamas anchor (see/greece/thessalonica has 1 tenure; under Constantinople until 1912/1928 New Lands — jurisdiction_history wrinkle) | 2026-07-11 | post-Milestone C |
+
+- **Reading lists (P6.6, captured 2026-07-15):** curated per-topic reading
+  lists on the site (e.g. "start here on the Arian controversy") — charter
+  says capture, do not build. Would draw on Library + controversy tags.

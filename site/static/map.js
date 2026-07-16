@@ -15,8 +15,10 @@
   Promise.all([
     fetch("/data/map-data.json").then(function (r) { return r.json(); }),
     fetch("/assets/vendor/countries-110m.json").then(function (r) { return r.json(); }),
+    fetch("/data/controversy-geo.json").then(function (r) { return r.json(); })
+      .catch(function () { return {}; }),
   ]).then(function (loaded) {
-    var seesData = loaded[0], world = loaded[1];
+    var seesData = loaded[0], world = loaded[1], controGeo = loaded[2];
     var land = topojson.feature(world, world.objects.countries);
     var W = 1150, H = 560;
     var projection = d3.geoNaturalEarth1();
@@ -65,9 +67,45 @@
       return { kind: "hidden" };
     }
 
+    // P6: controversy overlay — rings on the sees derivable from tagged
+    // records (participants' and authors' sees); band span shown in the
+    // option label; the time slider stays live underneath.
+    var controLayer = root.append("g");
+    var controSel = document.getElementById("controSel");
+    if (controSel) {
+      Object.keys(controGeo).sort().forEach(function (k) {
+        var c = controGeo[k];
+        if (!c.points.length) return;
+        var opt = document.createElement("option");
+        opt.value = k;
+        opt.textContent = c.label +
+          (c.f ? " (" + c.f + (c.e ? "–" + c.e : "") + ")" : "");
+        controSel.appendChild(opt);
+      });
+      controSel.addEventListener("change", renderContro);
+    }
+    function renderContro() {
+      controLayer.selectAll("*").remove();
+      var k = controSel && controSel.value;
+      if (!k || !controGeo[k]) return;
+      controGeo[k].points.forEach(function (p) {
+        var xy = projection([p.lon, p.lat]);
+        controLayer.append("circle")
+          .attr("cx", xy[0]).attr("cy", xy[1])
+          .attr("r", 10 / Math.sqrt(k0()))
+          .attr("fill", "none").attr("stroke", "#5d5480")
+          .attr("stroke-width", 2 / Math.sqrt(k0()))
+          .attr("stroke-opacity", 0.85)
+          .append("title")
+          .text(controGeo[k].label + " — " + p.see + " (via " + p.via + ")");
+      });
+    }
+    function k0() { return k || 1; }
+
     var currentYear = 2026;
     function render(year) {
       currentYear = year;
+      renderContro();
       document.getElementById("yearLabel").textContent = year;
       var data = seesData.map(function (s) {
         return { s: s, st: stateAt(s, year) };

@@ -141,3 +141,8 @@ details.tl-jur summary { position: sticky; left: 0; cursor: pointer;
 .tl-bar.disputed-rec { outline: 1.5px dashed #b3261e; outline-offset: 1px; }
 .tl-bar.tl-ovf { box-shadow: 0 0 0 1px #fff inset, 0 0 0 1.5px currentColor; }
 .tl-sup { position: absolute; top: 2px; color: #9a9a9a; font-weight: 700; }
+
+/* ---------------- P6: library filters + glossary ---------------- */
+.lib-filters label { margin-right: 10px; font-size: 13px; }
+dl.glossary dt { font-weight: 700; margin-top: 10px; }
+dl.glossary dd { margin: 2px 0 0 0; color: #444; }

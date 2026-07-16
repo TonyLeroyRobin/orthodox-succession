@@ -40,6 +40,7 @@ NAV = [("Home", "/"), ("Jurisdictions", "/jurisdictions/"),
        ("Sees", "/sees/"), ("People", "/people/"),
        ("Councils", "/councils/"), ("Library", "/library/"),
        ("Map", "/map/"), ("Timeline", "/timeline/"),
+       ("Controversies", "/controversies/"),
        ("Graph", "/site/graph.html"),
        ("About", "/about/")]
 
@@ -106,7 +107,9 @@ def entity_url(rid):
     if rid.startswith("event/council/"):
         return "/councils/" + rid.split("/", 2)[2] + "/"
     if rid.startswith("work/"):
-        return "/library/#" + rid.split("/", 1)[1]
+        return "/library/" + rid.split("/", 1)[1] + "/"
+    if rid.startswith("controversy/"):
+        return "/controversies/" + rid.split("/", 1)[1] + "/"
     return None
 
 
@@ -736,29 +739,323 @@ placeholder="any" style="width:5em"></label>
                  "https://tonyleroyrobin.github.io/orthodox-succession/councils/",
                  active="Councils"))
 
-    # ---------------- library ----------------
+    # ---------------- library (P6): filterable index + work pages ----------
+    works_by_id = {w["id"]: w for w in works}
+    preservers = defaultdict(list)  # work id -> ids of works preserved IN it
+    for w in works:
+        for pin in w.get("preserved_in") or []:
+            preservers[pin].append(w["id"])
+    controversies_all = {r["data"]["id"]: r["data"]
+                         for r in by_kind["controversy"]}
+
+    def tag_ids(rec):
+        out = []
+        for t in rec.get("controversies") or []:
+            out.append(t["id"] if isinstance(t, dict) else t)
+        return out
+
+    def clink(cid):
+        c = controversies_all.get(cid)
+        return (f'<a href="{entity_url(cid)}">{esc(c.get("label"))}</a>'
+                if c else esc(cid))
+
+    def wlink(wid):
+        w = works_by_id.get(wid)
+        return (f'<a href="{entity_url(wid)}">{esc(w.get("title"))}</a>'
+                if w else esc(wid))
+
+    def work_century(w):
+        y = date_year(w.get("date"))
+        return "" if y is None else str((y - 1) // 100 + 1)
+
+    def author_label(w):
+        if w.get("author"):
+            p = persons.get(w["author"])
+            return person_name(p) if p else w["author"]
+        return w.get("author_display", "—")
+
+    SURV_LABEL = {"extant": "extant", "fragmentary": "FRAGMENTARY",
+                  "lost": "LOST",
+                  "extant-in-translation-only": "extant in translation only"}
+
+    def surv_badge(w):
+        s = w.get("survival")
+        if not s:
+            return '<span class="badge model">not yet assessed</span>'
+        cls = {"extant": "verified", "fragmentary": "unverified",
+               "lost": "disputed",
+               "extant-in-translation-only": "unverified"}[s]
+        return f'<span class="badge {cls}">{esc(SURV_LABEL[s])}</span>'
+
+    # per-work pages
+    for w in works:
+        wid = w["id"]
+        url = entity_url(wid)
+        canonical = f"https://tonyleroyrobin.github.io/orthodox-succession{url}"
+        chain = ""
+        if w.get("preserved_in"):
+            chain = ("<p><strong>Survives in quotations within</strong> → " +
+                     " · ".join(wlink(x) for x in w["preserved_in"]) + "</p>")
+        preserved_here = preservers.get(wid) or []
+        if preserved_here:
+            chain += ("<p><strong>Preserves quotations of</strong> → " +
+                      " · ".join(wlink(x) for x in preserved_here) + "</p>")
+        eds = ""
+        for ed in w.get("editions") or []:
+            bits = [esc(str(x)) for x in (ed.get("series"), ed.get("translator"),
+                                          ed.get("year")) if x]
+            if ed.get("locator"):
+                bits.append(esc(ed["locator"]))
+            links = []
+            if ed.get("url"):
+                links.append(f'<a href="{esc(ed["url"])}" rel="nofollow">read</a>')
+            if ed.get("archived_url"):
+                links.append(f'<a href="{esc(ed["archived_url"])}" rel="nofollow">archived</a>')
+            ed_note = (f'<br><span class=note>{esc(ed["notes"])}</span>'
+                       if ed.get("notes") else "")
+            eds += (f"<li>{esc(ed.get('type', ''))} ({esc(ed.get('language', ''))})"
+                    f" — {', '.join(bits)}"
+                    f"{' · ' + ' · '.join(links) if links else ''}{ed_note}</li>")
+        subj = ""
+        if w.get("subject_of"):
+            subj = ("<p><strong>About</strong> " +
+                    " · ".join(plink(p) for p in w["subject_of"]) + "</p>")
+        tags = tag_ids(w)
+        tag_html = ("<p><strong>Controversies</strong> " +
+                    " · ".join(clink(c) for c in tags) + "</p>") if tags else ""
+        author_html = (plink(w["author"]) if w.get("author")
+                       else esc(w.get("author_display", "—")))
+        if w.get("author") and w.get("author_display"):
+            author_html += f' <span class=note>({esc(w["author_display"])})</span>'
+        content = f"""<h1>{esc(w.get("title"))} {badge(w.get("status"))}</h1>
+<p class="subtitle">{esc(wid)} · {esc(w.get("genre", ""))} ·
+{esc(fmt_date(w.get("date")))} · {esc(w.get("language", ""))}</p>
+<div class="panel"><h2>Survival</h2>
+<p>{surv_badge(w)}</p>
+{f'<p>{esc(w.get("survival_note"))}</p>' if w.get("survival_note") else ''}
+{chain}
+<p class=note>Lost and fragmentary states are information, not defects —
+absence of a text is part of its history.</p></div>
+<div class="panel"><h2>Attribution &amp; author</h2>
+<p><strong>{esc(w.get("attribution", ""))}</strong> · {author_html}</p>
+{subj}
+{f'<p>CPG/CPL: {esc(w.get("cpg"))}</p>' if w.get('cpg') else ''}
+{tag_html}</div>
+{f'<div class="panel"><h2>Editions &amp; read-links</h2><ul>{eds}</ul><p class=note>Links out only — texts are never re-hosted; archived copies are the fallback.</p></div>' if eds else ''}
+<div class="panel"><h2>Record</h2>{citations_html(w.get('sources'), sources_by_id)}
+{f'<p class=note>{esc(w.get("notes"))}</p>' if w.get('notes') else ''}</div>"""
+        write(OUT / url.strip("/") / "index.html",
+              layout(w.get("title", wid), content, canonical, active="Library"))
+
+    # filterable index
+    def distinct(vals):
+        return sorted({v for v in vals if v})
+
+    authors_d = distinct(author_label(w) for w in works)
+    genres_d = distinct(w.get("genre") for w in works)
+    langs_d = distinct(w.get("language") for w in works)
+    survs_d = distinct(w.get("survival", "not yet assessed") for w in works)
+    cents_d = sorted({work_century(w) for w in works if work_century(w)},
+                     key=int)
+
+    def sel(fid, label, options):
+        opts = "".join(f'<option value="{esc(o)}">{esc(o)}</option>'
+                       for o in options)
+        return (f'<label>{label} <select id="{fid}" class="lib-filter">'
+                f'<option value="">all</option>{opts}</select></label> ')
+
     lib_rows = "".join(
-        f'<tr id="{esc(w["id"].split("/", 1)[1])}">'
-        f'<td>{esc(w.get("title"))}</td>'
+        f'<tr id="{esc(w["id"].split("/", 1)[1])}"'
+        f' data-author="{esc(author_label(w))}"'
+        f' data-century="{esc(work_century(w))}"'
+        f' data-genre="{esc(w.get("genre", ""))}"'
+        f' data-language="{esc(w.get("language", ""))}"'
+        f' data-survival="{esc(w.get("survival", "not yet assessed"))}">'
+        f'<td><a href="{entity_url(w["id"])}">{esc(w.get("title"))}</a></td>'
         f'<td>{plink(w["author"]) if w.get("author") else esc(w.get("author_display", "—"))}</td>'
         f'<td>{esc(w.get("genre"))}</td>'
         f'<td>{esc(w.get("attribution"))}</td>'
-        f'<td>{esc(w.get("survival", "not assessed"))}</td>'
+        f'<td>{surv_badge(w)}</td>'
         f'<td>{esc(fmt_date(w.get("date")))}</td>'
         f'<td>{badge(w.get("status"))}</td></tr>'
         for w in sorted(works, key=lambda w: w.get("title", "")))
     write(OUT / "library" / "index.html",
           layout("Library",
                  f"<h1>Library ({len(works)} works)</h1>"
-                 f"<p class=note>One Work, many Editions. Per-work pages, "
-                 f"survival status, and filters arrive with P4/P6; editions "
-                 f"and read-links live on the author pages meanwhile.</p>"
-                 f"<div class=panel><table><thead><tr><th>Title</th>"
+                 f"<p class=note>One Work, many Editions; each title opens "
+                 f"the work page with survival, transmission, and "
+                 f"read-links. See also the <a href='/bibliography/'>"
+                 f"bibliography of sources</a>.</p>"
+                 f"<div class=panel><p class='lib-filters'>"
+                 + sel("f-author", "Author", authors_d)
+                 + sel("f-century", "Century", cents_d)
+                 + sel("f-genre", "Genre", genres_d)
+                 + sel("f-language", "Language", langs_d)
+                 + sel("f-survival", "Survival", survs_d)
+                 + f"<span id='lib-count' class=note></span></p>"
+                 f"<table><thead><tr><th>Title</th>"
                  f"<th>Author</th><th>Genre</th><th>Attribution</th>"
                  f"<th>Survival</th><th>Date</th><th>Status</th></tr></thead>"
-                 f"<tbody>{lib_rows}</tbody></table></div>",
+                 f"<tbody id='lib-body'>{lib_rows}</tbody></table></div>"
+                 f"<script src='/assets/library.js'></script>",
                  "https://tonyleroyrobin.github.io/orthodox-succession/library/",
                  active="Library"))
+
+    # ---------------- controversy pages (P6) ----------------
+    events_by_id = {r["data"]["id"]: r["data"] for r in by_kind["event"]
+                    if r["data"].get("id")}
+    tagged_events = defaultdict(list)
+    tagged_parts = defaultdict(list)
+    tagged_works = defaultdict(list)
+    for r in by_kind["event"]:
+        for cid in tag_ids(r["data"]):
+            tagged_events[cid].append(r["data"])
+    for pt in participations:
+        for cid in tag_ids(pt):
+            tagged_parts[cid].append(pt)
+    for w in works:
+        for cid in tag_ids(w):
+            tagged_works[cid].append(w)
+
+    for cid, c in controversies_all.items():
+        url = entity_url(cid)
+        canonical = f"https://tonyleroyrobin.github.io/orthodox-succession{url}"
+        span = c.get("span") or {}
+        span_txt = fmt_range(span.get("from"), span.get("to"),
+                             open_label="ongoing")
+        evs = sorted(tagged_events.get(cid, []),
+                     key=lambda e: date_year((e.get("date") or {}).get("from")) or 0)
+        ev_rows = ""
+        for e in evs:
+            y = date_year((e.get("date") or {}).get("from")) or "?"
+            eurl = entity_url(e.get("id") or "")
+            t_ = esc(e.get("title") or "")
+            ev_rows += (f"<li>{y} — <a href=\"{eurl}\">{t_}</a></li>"
+                        if eurl else f"<li>{y} — {t_}</li>")
+        ev_rows = ev_rows or "<li class=note>none tagged yet</li>"
+        pers_seen, pers_rows = set(), ""
+        for pt in tagged_parts.get(cid, []):
+            pid = pt.get("person")
+            if pid in pers_seen:
+                continue
+            pers_seen.add(pid)
+            evd = events_by_id.get(pt.get("event"))
+            evt = evd.get("title") if evd else pt.get("event", "")
+            pers_rows += (f"<li>{plink(pid)} — {esc(pt.get('role', ''))}, "
+                          f"{esc(evt)}</li>")
+        for e in evs:
+            for pt in parts_by_event.get(e.get("id"), []):
+                pid = pt.get("person")
+                if pid not in pers_seen:
+                    pers_seen.add(pid)
+                    pers_rows += (f"<li>{plink(pid)} — "
+                                  f"{esc(pt.get('role', ''))}, "
+                                  f"{esc(e.get('title'))}</li>")
+        wk_rows = "".join(
+            f"<li>{wlink(w['id'])} — {esc(author_label(w))} {surv_badge(w)}</li>"
+            for w in tagged_works.get(cid, [])) or "<li class=note>none tagged yet</li>"
+        variants = ""
+        for vt in c.get("variant_terms") or []:
+            vnote = f" — {esc(vt['note'])}" if vt.get("note") else ""
+            variants += f"<li><strong>{esc(vt.get('term'))}</strong>{vnote}</li>"
+        content = f"""<h1>{esc(c.get("label"))} {badge(c.get("status"))}</h1>
+<p class="subtitle">{esc(cid)} · {esc(span_txt)}</p>
+<div class="panel"><p>{esc(c.get("description", ""))}</p>
+{f'<h2>Recorded variant terms</h2><ul>{variants}</ul>' if variants else ''}
+<p class=note>The database records where and when, never why — labels follow
+the naming rule (docs/NAMING.md); variants are recorded, not endorsed.</p></div>
+<div class="panel"><h2>Timeline of tagged events</h2><ul>{ev_rows}</ul></div>
+<div class="panel"><h2>Persons (via participations)</h2><ul>{pers_rows or '<li class=note>none tagged yet</li>'}</ul></div>
+<div class="panel"><h2>Works</h2><ul>{wk_rows}</ul></div>
+<div class="panel"><h2>Record</h2>{citations_html(c.get('sources'), sources_by_id)}
+{f'<p class=note>{esc(c.get("notes"))}</p>' if c.get('notes') else ''}</div>"""
+        write(OUT / url.strip("/") / "index.html",
+              layout(c.get("label", cid), content, canonical,
+                     active="Controversies"))
+
+    contro_idx = "".join(
+        f'<li><a href="{entity_url(cid)}">{esc(c.get("label"))}</a> '
+        f'<span class=note>{esc(fmt_range((c.get("span") or {}).get("from"), (c.get("span") or {}).get("to"), open_label="ongoing"))}</span></li>'
+        for cid, c in sorted(controversies_all.items(),
+                             key=lambda kv: date_year((kv[1].get("span") or {}).get("from")) or 0))
+    write(OUT / "controversies" / "index.html",
+          layout("Controversies",
+                 f"<h1>Controversies ({len(controversies_all)})</h1>"
+                 f"<p class=note>A controlled thematic vocabulary (ceiling "
+                 f"25). Each page assembles the story from tagged records — "
+                 f"events, participations, works. Where and when, never "
+                 f"why.</p><div class=panel><ul>{contro_idx}</ul></div>",
+                 "https://tonyleroyrobin.github.io/orthodox-succession/controversies/",
+                 active="Controversies"))
+
+    # ---------------- bibliography page (P6) ----------------
+    bib_groups = defaultdict(list)
+    for sid_, r in sorted(sources_by_id.items()):
+        bib_groups[r["data"].get("type", "other")].append(r["data"])
+    bib_html = ""
+    for typ in sorted(bib_groups):
+        items = ""
+        for s in sorted(bib_groups[typ], key=lambda s: s.get("title") or ""):
+            links = []
+            if s.get("url"):
+                links.append(f'<a href="{esc(s["url"])}" rel="nofollow">link</a>')
+            if s.get("archived_url"):
+                links.append(f'<a href="{esc(s["archived_url"])}" rel="nofollow">archived</a>')
+            author = f" — {esc(s['author'])}" if s.get("author") else ""
+            s_note = (f"<br><span class=note>{esc(s['notes'])}</span>"
+                      if s.get("notes") else "")
+            items += (f"<li><strong>{esc(s.get('title'))}</strong>{author} "
+                      f"{badge(s.get('status'))}"
+                      f"{' · ' + ' · '.join(links) if links else ''}{s_note}</li>")
+        bib_html += (f"<div class=panel><h2>{esc(typ)} "
+                     f"({len(bib_groups[typ])})</h2><ul>{items}</ul></div>")
+    write(OUT / "bibliography" / "index.html",
+          layout("Bibliography",
+                 f"<h1>Bibliography ({len(sources_by_id)} sources)</h1>"
+                 f"<p class=note>Every Source record, grouped by type, with "
+                 f"live and archived links. Reliability grades appear on "
+                 f"each citation where the source is used.</p>{bib_html}",
+                 "https://tonyleroyrobin.github.io/orthodox-succession/bibliography/",
+                 active="Library"))
+
+    # ---------------- glossary page (P6 draft) ----------------
+    GLOSSARY = [
+        ("autocephaly", "The status of a church that appoints its own primate and governs itself; the head of an autocephalous church commemorates no higher hierarch."),
+        ("autonomy", "Self-governance short of autocephaly: the autonomous church's primate is confirmed by a mother church."),
+        ("see", "A bishop's seat (cathedra) — the fixed point succession is counted against; this database's Tenure model attaches persons to sees."),
+        ("jurisdiction", "A self-governing church body (patriarchate, autocephalous or autonomous church) grouping sees."),
+        ("tenure", "One person's occupancy of one see over a date range — the unit of see-succession."),
+        ("translation", "A bishop's move from one see to another; rendered here as one tenure ending (end_reason: translated) and another beginning."),
+        ("locum tenens", "A caretaker administering a see during a vacancy; recorded here as a documented gap, not a tenure."),
+        ("consecration", "The ordination of a bishop by other bishops — the edge of the consecration-succession DAG (principal consecrator vs. co-consecrators)."),
+        ("synod", "A council of bishops; the endemousa (resident) synod of Constantinople was its standing form."),
+        ("ecumenical council", "A council whose authority the whole church came to receive; this database records reception per recognizer rather than adjudicating the count."),
+        ("canon", "A conciliar or patristic rule received into church law (e.g., the corpus collected in the Pedalion)."),
+        ("glorification", "Formal recognition of a saint (canonization); veneration blocks in this database cite the recognizing authority."),
+        ("oikonomia", "Pastoral flexibility in applying the canons for the salvation of persons — paired with akriveia, strict exactness."),
+        ("akriveia", "Strict application of canonical norms; the pole opposite oikonomia."),
+        ("metropolitan", "A bishop of a provincial capital with defined seniority over the province's bishops."),
+        ("patriarch", "The primate of certain ancient or later-elevated jurisdictions; the five ancient patriarchates form the Pentarchy."),
+        ("diptychs", "The ordered list of primates a church commemorates — the practical register of who recognizes whom."),
+        ("tomos", "A formal synodal document, e.g. a tomos of autocephaly."),
+        ("schism", "A break of communion without (in the first instance) a doctrinal condemnation."),
+        ("anathema", "A formal conciliar condemnation excluding a person or teaching from communion."),
+        ("deposition", "The removal of a bishop by synodal act; recorded here via participation roles (deposed-by) and tenure end_reasons."),
+        ("recognition", "In this database: a per-recognizer statement of whether a tenure, autocephaly, or veneration is accepted — disputes are recorded, never adjudicated."),
+        ("see-succession", "The order of occupants of a single see (the Tenure chain) — one of the two succession models, never conflated with the other."),
+        ("consecration-succession", "The chain of episcopal consecrations (who ordained whom) — the second succession model, a DAG rather than a line."),
+    ]
+    gl_items = "".join(f"<dt>{esc(t)}</dt><dd>{esc(d)}</dd>"
+                       for t, d in GLOSSARY)
+    write(OUT / "glossary" / "index.html",
+          layout("Glossary",
+                 f"<h1>Glossary</h1>"
+                 f"<div class=panel><p><span class='badge unverified'>DRAFT"
+                 f"</span> Proposed definitions pending maintainer review "
+                 f"(P6.5) — wording is not final until approved.</p></div>"
+                 f"<div class=panel><dl class=glossary>{gl_items}</dl></div>",
+                 "https://tonyleroyrobin.github.io/orthodox-succession/glossary/",
+                 active="About"))
 
     # ---------------- gaps page ----------------
     gap_rows = ""
@@ -928,6 +1225,44 @@ name variants and native scripts.</p></div></div>
                          "url": entity_url(sid), "sup": sup, "t": spans})
     write(OUT / "data" / "map-data.json",
           json.dumps(map_rows, ensure_ascii=False))
+
+    # controversy map layer (P6): geography derived from tagged data ONLY —
+    # the sees of persons connected via tagged participations and tagged
+    # works' authors. Council places have no coordinates and controversy
+    # records name no structured regions, so neither renders (if it isn't
+    # derivable from tagged records, it doesn't render).
+    contro_geo = {}
+    for cid, c in controversies_all.items():
+        pids = {pt.get("person") for pt in tagged_parts.get(cid, [])}
+        for e in tagged_events.get(cid, []):
+            for pt in parts_by_event.get(e.get("id"), []):
+                pids.add(pt.get("person"))
+        for w in tagged_works.get(cid, []):
+            if w.get("author"):
+                pids.add(w["author"])
+        pts, seen_sees = [], set()
+        for pid in pids:
+            for t in tenures_by_person.get(pid, []):
+                sid = t.get("see")
+                if sid in seen_sees:
+                    continue
+                s = sees.get(sid) or {}
+                loc = s.get("location") or {}
+                if loc.get("lat") is None:
+                    continue
+                seen_sees.add(sid)
+                pts.append({"see": s.get("name"), "lat": loc["lat"],
+                            "lon": loc["lon"],
+                            "via": person_name(persons.get(pid))})
+        span = c.get("span") or {}
+        contro_geo[cid.split("/", 1)[1]] = {
+            "label": c.get("label"),
+            "f": date_year(span.get("from")),
+            "e": date_year(span.get("to")),
+            "points": pts,
+        }
+    write(OUT / "data" / "controversy-geo.json",
+          json.dumps(contro_geo, ensure_ascii=False))
     map_page = """<h1>Sees over time</h1>
 <p class="subtitle">Every see with recorded coordinates renders from its first
 attested date onward and never disappears while it exists. The marker links to
@@ -938,6 +1273,8 @@ the see page.</p>
 <input type="range" id="yearSlider" min="33" max="2026" value="2026" step="1">
 <button id="playBtn">&#9654; play</button>
 <button id="resetView">reset view</button>
+<label for="controSel"> Controversy layer:
+<select id="controSel"><option value="">off</option></select></label>
 </div>
 <div class="map-controls era-presets" role="group" aria-label="era presets">
 <button class="era-btn" data-year="33">33</button>
@@ -1155,7 +1492,8 @@ durations) and point markers — <a href="/about/">about the layers</a>.</p>
     (assets / "vendor").mkdir(exist_ok=True)
     for f in (SITE_SRC / "vendor").iterdir():
         shutil.copy(f, assets / "vendor" / f.name)
-    for name in ("site.js", "search.js", "map.js", "timeline.js"):
+    for name in ("site.js", "search.js", "map.js", "timeline.js",
+                 "library.js"):
         src = SITE_SRC / "static" / name
         if src.exists():
             shutil.copy(src, assets / name)
