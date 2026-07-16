@@ -1,0 +1,31 @@
+id: work/philokalia-anthology
+title: The Philokalia of the Neptic Fathers
+author: person/greece/macarius-of-corinth-1805
+author_display: Macarius of Corinth and Nicodemus the Hagiorite (compilers)
+relation: by
+language: Greek
+date:
+  value: '1782'
+  calendar: julian
+  precision: year
+  note: first edition, Venice 1782
+attribution: authentic
+genre: treatise
+sources:
+- ref: source/philokalia
+  reliability: scholarly
+  locator: the anthology itself - the bibliographic Source record
+    source/philokalia (the English translation used as the P3 checklist)
+    continues to carry citations; two entity kinds, one book, deliberately
+    cross-noted (the Eusebius HE precedent)
+notes: The anthology of hesychast and neptic texts, Anthony to Gregory Palamas -
+  an anthology modeled as one Work under the compilers, per the one-Work rule; the
+  anthologized authors keep their own Work records (Diadochos' Gnostic Chapters in
+  tier iii). Macarius initiated and gathered, Nicodemus edited and annotated - the
+  author field carries Macarius, the display credit both; Nicodemus' own corpus
+  connection stands on the Pedalion and Unseen Warfare. Created in P3 tier vi
+  (post-Byzantine) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - printed book (Venice 1782; expanded Athens editions); the
+  English translation (Faber, 4 vols) in copyright - no read-link

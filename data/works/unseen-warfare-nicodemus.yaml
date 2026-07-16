@@ -1,0 +1,26 @@
+id: work/unseen-warfare-nicodemus
+title: Unseen Warfare (Aoratos Polemos)
+author: person/constantinople/nicodemus-the-hagiorite-1809
+author_display: Nicodemus the Hagiorite (adapting Lorenzo Scupoli)
+relation: by
+language: Greek
+date:
+  value: '1796'
+  calendar: julian
+  precision: year
+  note: first edition, Venice 1796
+attribution: authentic
+genre: treatise
+sources:
+- ref: source/philokalia
+  reliability: scholarly
+  locator: the translators' introduction (Nicodemus' corpus surveyed)
+notes: Nicodemus' hellenization of Scupoli's Combattimento spirituale, itself later
+  reworked by Theophan the Recluse in Russian - a transmission chain recorded in
+  the note, not modeled as separate Works (the one-Work rule; the Russian recension
+  is an edition-level question deferred to verification). Created in P3 tier vi
+  (post-Byzantine) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - printed book; the standard English (Palmer, from Theophan's
+  Russian) in copyright - no read-link

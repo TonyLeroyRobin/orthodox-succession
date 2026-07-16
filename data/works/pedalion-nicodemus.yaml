@@ -1,0 +1,30 @@
+id: work/pedalion-nicodemus
+title: The Pedalion (The Rudder)
+author: person/constantinople/nicodemus-the-hagiorite-1809
+author_display: Nicodemus the Hagiorite and Agapius the hieromonk (editors)
+relation: about
+language: Greek
+date:
+  value: '1800'
+  calendar: julian
+  precision: year
+  note: first edition, Leipzig 1800; compiled 1787-1793
+attribution: authentic
+genre: canon
+sources:
+- ref: source/pedalion-rudder
+  reliability: scholarly
+  locator: the work itself - the bibliographic Source record
+    source/pedalion-rudder (Cummings' English) continues to carry citations;
+    two entity kinds, one book, deliberately cross-noted (the Eusebius HE
+    precedent)
+notes: The charter's named tier-vi exemplar - a Work ABOUT councils; the canons of
+  the ecumenical and local councils and the Fathers, with Nicodemus' commentary.
+  relation is 'about' with the conciliar corpus as subject; council Event records
+  are not person-typed, so no subject_of links are asserted. Agapius has no person
+  record (editor displayed only - a candidate for a later pass, deferred with
+  reason). Created in P3 tier vi (post-Byzantine) 2026-07-15.
+status: unverified
+survival: extant
+survival_note: extant - printed book (Leipzig 1800 and successors); Cummings'
+  English translation (1957) in copyright - no read-link

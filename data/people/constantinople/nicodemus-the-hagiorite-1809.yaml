@@ -1,0 +1,53 @@
+id: person/constantinople/nicodemus-the-hagiorite-1809
+names:
+  monastic: Nicodemus
+  baptismal: Nicholas Kallivourtsis
+  native:
+  - script: el
+    value: Νικόδημος ὁ Ἁγιορείτης
+  variants:
+  - Nicodemus the Hagiorite
+  - Nikodemos of the Holy Mountain
+role: monastic
+born:
+  date:
+    value: '1749'
+    calendar: julian
+    precision: year
+    note: Naxos, 1749
+died:
+  date:
+    value: '1809-07-14'
+    calendar: julian
+    precision: day
+    note: at the Skourtaioi cell, Mount Athos
+  place: Mount Athos
+veneration:
+  status: saint
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: '07-14'
+    calendar: julian
+    note: >-
+      Venerable Nicodemus the Hagiorite - glorified by the Ecumenical
+      Patriarchate in 1955
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/07/14
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/07/14
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/philokalia
+  reliability: scholarly
+  locator: the translators' introduction (the compilers' history)
+- ref: source/synaxarion-of-constantinople
+  reliability: tradition
+  locator: July 14 - modern glorification postdates Delehaye's edition; locator via
+    the living synaxaria, to be confirmed
+status: unverified
+notes: Athonite monk of the Kollyvades movement - editor of the Philokalia (with
+  Macarius of Corinth), of the Pedalion (with the hieromonk Agapius), and of a shelf
+  of ascetic adaptations; the charter's named tier-vi anchor. Created in P3 tier vi (post-Byzantine) 2026-07-15.
