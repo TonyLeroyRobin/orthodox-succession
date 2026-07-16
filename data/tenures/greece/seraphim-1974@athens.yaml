@@ -1,0 +1,32 @@
+id: tenure/greece/seraphim-1974@athens
+person: person/greece/seraphim-1974
+see: see/greece/athens
+from:
+  value: '1974'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: died
+sources:
+- ref: source/wikidata
+  locator: Q2593381
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Greece series, s.v. Seraphim (1974-1998) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the official ecclesia.gr former-archbishops page was unreachable to automated fetch —
+    documented) — confirm against the official list and Fedalto during verification; pre-1924
+    day dates may be old style (OS/NS to be confirmed)
+status: unverified
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
+  a diadochal list or scholarly source. Milestone C reconciliation 2026-07-11: matched to
+  the standard chronology (Seraphim, 1974-1998). chronology day dates 12 January 1974 - 10
+  April 1998 (died).'
+to:
+  value: '1998'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar

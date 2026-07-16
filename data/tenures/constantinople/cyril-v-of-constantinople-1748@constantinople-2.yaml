@@ -1,0 +1,19 @@
+id: tenure/constantinople/cyril-v-of-constantinople-1748@constantinople-2
+person: person/constantinople/cyril-v-of-constantinople-1748
+see: see/constantinople/constantinople
+from:
+  value: '1752'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1757'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Cyril V 1752–1757'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

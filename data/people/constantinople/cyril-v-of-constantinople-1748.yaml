@@ -1,0 +1,30 @@
+id: person/constantinople/cyril-v-of-constantinople-1748
+names:
+  monastic: Cyril V of Constantinople
+  variants:
+  - Patriarch Cyril V of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q3009177
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q3009177
+  viaf: '1526174413941508700001'
+born:
+  date:
+    value: '1690'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1775'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

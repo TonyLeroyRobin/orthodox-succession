@@ -1,0 +1,22 @@
+id: person/constantinople/eustathius-of-constantinople-1020
+names:
+  monastic: Eustathius of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q3037905
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q3037905
+died:
+  date:
+    value: '1025'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

@@ -1,0 +1,17 @@
+id: person/alexandria/mark-v-of-alexandria-1425
+names:
+  monastic: Mark V of Alexandria
+  variants:
+  - Patriarch Mark V of Alexandria
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q7145292
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q7145292

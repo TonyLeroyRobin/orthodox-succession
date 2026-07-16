@@ -1,0 +1,24 @@
+id: person/serbia/gavrilo-ii-1752
+names:
+  monastic: Gavrilo II,
+  variants:
+  - Gavrilo II, Serbian Patriarch
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q12750073
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: 'Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Q1.3 addendum 2026-07-16:
+  embedded honorific moved out of the display name (kept as a variant).'
+identifiers:
+  wikidata: Q12750073
+died:
+  date:
+    value: '1752'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

@@ -1,0 +1,19 @@
+id: person/constantinople/nicholas-ii-of-constantinople-0984
+names:
+  monastic: Nicholas II of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q1559737
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: 'Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record. Milestone C reconciliation 2026-07-10: the Wikidata death date (991) conflicts
+  with the official-list tenure end (Nicholas II Chrysovergis, 984-996); the database-grade
+  date was dropped per the source hierarchy - restore from a graded source during
+  verification.'
+identifiers:
+  wikidata: Q1559737

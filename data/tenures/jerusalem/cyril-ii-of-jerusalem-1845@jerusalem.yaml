@@ -1,0 +1,38 @@
+id: tenure/jerusalem/cyril-ii-of-jerusalem-1845@jerusalem
+person: person/jerusalem/cyril-ii-of-jerusalem-1845
+see: see/jerusalem/jerusalem
+from:
+  value: '1845'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q3009146
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39
+    start/end qualifiers
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'entry: Kyrillos II 1845–1872'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: year-wildcard archive redirect; Save Page Now requested 2026-07-08 — pin
+    the exact snapshot when it propagates
+- ref: source/jerusalem-patriarchate-succession
+  locator: 'no. 132: Kyrillos II (1845–1872)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200213/https://en.jerusalem-patriarchate.info/patriarch/apostolic-succession/
+  note: deposed over the Bulgarian question
+status: verified
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source. Verified against the official Jerusalem
+  Patriarchate apostolic-succession list (verification pass 2026-07-08): name and
+  tenure years match. Review performed by the AI assistant at user direction — spot-check
+  before treating as human-verified. Milestone C reconciliation 2026-07-10: matched
+  to official list no. 132 (Kyrillos II, 1845-1872); snapshot now pinned (20260708200213).'
+to:
+  value: '1872'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar

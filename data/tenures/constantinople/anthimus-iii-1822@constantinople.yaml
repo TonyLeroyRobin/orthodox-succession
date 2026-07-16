@@ -1,0 +1,31 @@
+id: tenure/constantinople/anthimus-iii-1822@constantinople
+person: person/constantinople/anthimus-iii-1822
+see: see/constantinople/constantinople
+from:
+  value: '1822'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q2599204
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39
+    start/end qualifiers
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Anthimos III 1822–1824'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+  note: official EP diadochal list; dates match the seeded record
+status: verified
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source. Verified against the official EP
+  list (verification pass 2026-07-08, pinned snapshot in the citation): name and
+  tenure years match. Review performed by the AI assistant at user direction — spot-check
+  before treating as human-verified.'
+to:
+  value: '1824'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar

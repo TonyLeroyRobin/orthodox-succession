@@ -1,0 +1,31 @@
+id: person/serbia/vikentije-of-serbia-1890
+names:
+  monastic: Vikentije of Serbia
+  variants:
+  - Patriarch Vikentije of Serbia
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q1284876
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q1284876
+  viaf: '13201015'
+born:
+  date:
+    value: '1890'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1958'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

@@ -1,0 +1,32 @@
+id: tenure/albania/joan-2025@tirana
+person: person/albania/joan-2025
+see: see/albania/tirana
+from:
+  value: '2025'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q13040383
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Albania series, s.v. Joan (Pelushi) (2025-present) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology at year precision (the encyclopedic
+    reproduction's day dates were internally inconsistent and discarded — documented); the
+    official site carries a history narrative but no diadochal list page — confirm against
+    the official history and Fedalto during verification
+- ref: source/church-of-albania-official
+  locator: 2026/kisha-jone/historia-e-kishes/
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260715163708/https://orthodoxalbania.org/2026/kisha-jone/historia-e-kishes/
+  note: official church-history page (no diadochal list page found); year-wildcard archive
+    redirect — pin during verification
+status: unverified
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
+  a diadochal list or scholarly source. Milestone C reconciliation 2026-07-11: matched to
+  the standard chronology (Joan (Pelushi), 2025-present) — elected 11 March 2025; incumbent.'

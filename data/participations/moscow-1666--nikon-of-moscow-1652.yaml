@@ -1,0 +1,10 @@
+id: participation/moscow-1666--nikon-of-moscow-1652
+person: person/russia/nikon-of-moscow-1652
+event: event/council/moscow-1666
+role: deposed-by
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: subscription lists / acts — locator to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified

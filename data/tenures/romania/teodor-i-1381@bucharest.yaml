@@ -1,0 +1,21 @@
+id: tenure/romania/teodor-i-1381@bucharest
+person: person/romania/teodor-i-1381
+see: see/romania/bucharest
+from:
+  value: '1381'
+  calendar: julian
+  precision: disputed
+  note: wholly undated — placed before Eftimie I (attested 1412) in the standard chronology
+end_reason: unknown
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Ungro-Wallachia series, s.v. Teodor I (undated) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarhia.ro carries narrative history pages but no single diadochal list page) — confirm
+    against Păcurariu, Istoria Bisericii Ortodoxe Române, and the official history pages during
+    verification
+status: disputed
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  Wholly undated in the standard chronology; one reproduction attaches the 1412 attestation
+  to him instead of Eftimie I — divergence recorded, not adjudicated.

@@ -1,0 +1,31 @@
+id: tenure/constantinople/joannicius-ii-of-constantinople-1646@constantinople-3
+person: person/constantinople/joannicius-ii-of-constantinople-1646
+see: see/constantinople/constantinople
+from:
+  value: '1653'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q3179693
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39
+    start/end qualifiers
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Joannicius II 1653–1654'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+  note: official EP diadochal list; dates match the seeded record
+status: verified
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source. Verified against the official EP
+  list (verification pass 2026-07-08, pinned snapshot in the citation): name and
+  tenure years match. Review performed by the AI assistant at user direction — spot-check
+  before treating as human-verified.'
+to:
+  value: '1654'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar

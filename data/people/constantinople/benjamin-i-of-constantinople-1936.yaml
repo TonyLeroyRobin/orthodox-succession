@@ -1,0 +1,29 @@
+id: person/constantinople/benjamin-i-of-constantinople-1936
+names:
+  monastic: Benjamin I of Constantinople
+  variants:
+  - Patriarch Benjamin I of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q175814
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q175814
+born:
+  date:
+    value: '1871'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1946'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

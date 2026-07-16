@@ -1,0 +1,24 @@
+id: person/constantinople/raphael-ii-of-constantinople-1603
+names:
+  monastic: Raphael II of Constantinople
+  variants:
+  - Patriarch Raphael II of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q2358193
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q2358193
+born:
+  date:
+    value: '1600'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

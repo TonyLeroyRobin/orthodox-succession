@@ -1,0 +1,34 @@
+id: person/romania/justinian-marina-1947
+names:
+  monastic: Justinian Marina
+  variants:
+  - Justinian of Romania
+  - Patriarch Justinian of Romania
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q2462600
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Milestone C reconciliation
+  2026-07-10 — matched to the standard chronology (Justinian, 1948–1977); tenure created;
+  display name normalized per DATA_COMPLETION §3. Moldavia batch 2026-07-15 - his Iasi tenure
+  (1947-1948) created.
+identifiers:
+  wikidata: Q2462600
+  viaf: '5719105'
+born:
+  date:
+    value: '1901'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1977'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

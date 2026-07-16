@@ -1,0 +1,33 @@
+id: tenure/antioch/daniel-i-of-antioch-1767@antioch
+person: person/antioch/daniel-i-of-antioch-1767
+see: see/antioch/antioch
+from:
+  value: '1767'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q3014192
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39
+    start/end qualifiers
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Antioch series, s.v. Daniel (1767–1791) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the encyclopedic reproduction of the standard Grumel/Fedalto
+    chronology (lead-generation, per maintainer decision) — confirm against Fedalto's
+    printed Antioch series during verification
+status: unverified
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source. Verification pass 2026-07-08 (Wikipedia
+  lead-generation cross-check ONLY — no official Antioch list found online; not
+  sufficient for promotion): consistent with the Wikipedia list (Daniel, 1767-1791).
+  Milestone C reconciliation 2026-07-10: matched to the standard chronology entry
+  Daniel (1767-1791).'
+to:
+  value: '1791'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar

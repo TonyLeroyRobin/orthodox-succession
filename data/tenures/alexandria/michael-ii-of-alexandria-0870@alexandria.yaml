@@ -1,0 +1,22 @@
+id: tenure/alexandria/michael-ii-of-alexandria-0870@alexandria
+person: person/alexandria/michael-ii-of-alexandria-0870
+see: see/alexandria/alexandria
+from:
+  value: 0870
+  calendar: julian
+  precision: year
+to:
+  value: 0903
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/alexandria-previous-patriarchs
+  locator: 'entry: Michael II (870–903)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200458/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
+  note: year-wildcard archive redirect; Save Page Now still pending — pin the exact
+    snapshot when it propagates
+status: unverified
+notes: Created from the official Alexandria list during Milestone C reconciliation
+  2026-07-10.

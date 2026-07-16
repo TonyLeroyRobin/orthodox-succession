@@ -1,0 +1,30 @@
+id: person/russia/joseph-1642
+names:
+  monastic: Joseph
+  variants:
+  - Patriarch Joseph
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q597539
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q597539
+  viaf: '65064331'
+born:
+  date:
+    value: '1605'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1652'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

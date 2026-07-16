@@ -1,0 +1,10 @@
+id: participation/constantinople-0680--george-i-of-constantinople-0679
+person: person/constantinople/george-i-of-constantinople-0679
+event: event/council/constantinople-0680
+role: presided
+sources:
+- ref: source/mansi-collectio
+  reliability: primary
+  locator: subscription lists / acts — locator to be confirmed
+  note: primary acts in a scholarly compilation
+status: unverified

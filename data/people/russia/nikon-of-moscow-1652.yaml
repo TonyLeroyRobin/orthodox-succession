@@ -1,0 +1,30 @@
+id: person/russia/nikon-of-moscow-1652
+names:
+  monastic: Nikon of Moscow
+  variants:
+  - Patriarch Nikon of Moscow
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q379587
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q379587
+  viaf: '827145858093923022200'
+born:
+  date:
+    value: '1605'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1681'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

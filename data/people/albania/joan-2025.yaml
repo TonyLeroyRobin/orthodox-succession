@@ -1,0 +1,27 @@
+id: person/albania/joan-2025
+names:
+  monastic: Joan
+  variants:
+  - Archbishop Joan of Albania
+  - Joan of Albania
+  family: Pelushi
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q13040383
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone C reconciliation 2026-07-11 — matched (Joan Pelushi, 2025-present); honorific
+  stripped from the display name per DATA_COMPLETION §3.
+identifiers:
+  wikidata: Q13040383
+  viaf: '303545099'
+born:
+  date:
+    value: '1956'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

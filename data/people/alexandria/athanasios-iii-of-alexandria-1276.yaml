@@ -1,0 +1,30 @@
+id: person/alexandria/athanasios-iii-of-alexandria-1276
+names:
+  monastic: Athanasios III of Alexandria
+  variants:
+  - Patriarch Athanasios III of Alexandria
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q16146468
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q16146468
+  viaf: '8181023'
+born:
+  date:
+    value: '1250'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1316'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

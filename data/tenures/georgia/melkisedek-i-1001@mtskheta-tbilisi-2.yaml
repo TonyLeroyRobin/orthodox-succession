@@ -1,0 +1,29 @@
+id: tenure/georgia/melkisedek-i-1001@mtskheta-tbilisi-2
+person: person/georgia/melkisedek-i-1001
+see: see/georgia/mtskheta-tbilisi
+from:
+  value: '1039'
+  calendar: julian
+  precision: year
+to:
+  value: '1045'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Georgia (Iberia) series, s.v. Melkisedek I (1039-1045) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarchate.ge exposes no reachable diadochal list page to automated fetch — documented)
+    — confirm against Fedalto and the official records of the Georgian Patriarchate during
+    verification
+status: disputed
+notes: 'Created from the standard chronology during Milestone C reconciliation 2026-07-11.
+  Restored (second term). The seeded Wikidata record gives his death as 1033, which contradicts
+  this restored term — lists disagree; recorded as disputed, not adjudicated (cf. the note
+  on the person record). Verification session 2026-07-15: the counter-source is named — the
+  parallel reproduction (orthodoxwiki.org List of Catholicoses of Georgia, fetched 2026-07-15)
+  gives Melkisedek I a single term (1010-1033), matching the seeded death date; the 1039-1045
+  restoration stands only in the standard chronology. Still disputed, now with both witnesses
+  cited.'

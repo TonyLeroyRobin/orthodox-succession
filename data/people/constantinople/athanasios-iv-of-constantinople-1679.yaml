@@ -1,0 +1,29 @@
+id: person/constantinople/athanasios-iv-of-constantinople-1679
+names:
+  monastic: Athanasios IV of Constantinople
+  variants:
+  - Athanasios IV de Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q2868985
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q2868985
+born:
+  date:
+    value: '1650'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1679'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

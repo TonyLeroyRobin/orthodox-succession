@@ -1,0 +1,19 @@
+id: tenure/constantinople/theoleptus-ii-of-constantinople-1585@constantinople
+person: person/constantinople/theoleptus-ii-of-constantinople-1585
+see: see/constantinople/constantinople
+from:
+  value: '1585'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1586'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Theoliptos II 1585–1586'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

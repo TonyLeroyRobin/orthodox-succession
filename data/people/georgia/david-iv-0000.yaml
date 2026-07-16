@@ -1,0 +1,19 @@
+id: person/georgia/david-iv-0000
+names:
+  monastic: David IV,
+  variants:
+  - David IV, Catholicos-Patriarch of Georgia
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q1107091
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: 'Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Milestone C reconciliation
+  2026-07-11 — NOT linked to a spine tenure: cf. the David-cluster FORCE_NEW note on david-ii-catholicos-patriarch-of-georgia-1417.
+  Q1.3 addendum 2026-07-16: embedded honorific moved out of the display name (kept as a variant).'
+identifiers:
+  wikidata: Q1107091

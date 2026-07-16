@@ -1,0 +1,17 @@
+id: person/alexandria/mark-iii-of-alexandria-1180
+names:
+  monastic: Mark III of Alexandria
+  variants:
+  - Patriarch Mark III of Alexandria
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q3846200
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q3846200

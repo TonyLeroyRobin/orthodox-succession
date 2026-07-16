@@ -1,0 +1,19 @@
+id: tenure/constantinople/metrophanes-iii-of-constantinople-1565@constantinople-2
+person: person/constantinople/metrophanes-iii-of-constantinople-1565
+see: see/constantinople/constantinople
+from:
+  value: '1579'
+  calendar: julian
+  precision: year
+to:
+  value: '1580'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Metrophanes III 1579–1580'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

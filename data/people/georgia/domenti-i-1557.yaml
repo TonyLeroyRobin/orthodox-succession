@@ -1,0 +1,18 @@
+id: person/georgia/domenti-i-1557
+names:
+  monastic: Domenti I
+  variants:
+  - Domentius I of Georgia
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q12863889
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Milestone C reconciliation
+  2026-07-11 — matched to the standard chronology (Domenti I, 1557-1562); tenure created.
+identifiers:
+  wikidata: Q12863889

@@ -1,0 +1,29 @@
+id: person/constantinople/joachim-iv-of-constantinople-1884
+names:
+  monastic: Joachim IV of Constantinople
+  variants:
+  - Patriarch Joachim IV of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q2332596
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q2332596
+born:
+  date:
+    value: '1837'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1887'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

@@ -1,0 +1,18 @@
+id: person/alexandria/john-iv-of-alexandria-0000
+names:
+  monastic: John IV of Alexandria
+  variants:
+  - Patriarch John IV of Alexandria
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q7145286
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q7145286

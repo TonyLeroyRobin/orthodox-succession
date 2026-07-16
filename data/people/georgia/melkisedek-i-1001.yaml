@@ -1,0 +1,31 @@
+id: person/georgia/melkisedek-i-1001
+names:
+  monastic: Melkisedek I
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q4450287
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Milestone C reconciliation
+  2026-07-11 — matched to the standard chronology (Melkisedek I, 1001–1030 and restored 1039–1045);
+  two tenures created. The seeded Wikidata death date (1033, julian) conflicts with the restored
+  term and was moved out of the structured field into this note — lists disagree on whether
+  he died c. 1033 or was restored 1039–1045; divergence recorded, not adjudicated; restore
+  the structured date during verification once resolved.
+identifiers:
+  wikidata: Q4450287
+veneration:
+  status: saint
+  titles: []
+  recognition:
+  - by: jurisdiction:jurisdiction/church-of-georgia
+  sources:
+  - ref: source/church-of-georgia-official
+    reliability: official-list
+    archived_url: http://web.archive.org/web/20260427165827/https://patriarchate.ge/
+    note: marked as a glorified saint in the standard chronology; glorification details and
+      feast day to be verified against the official calendar

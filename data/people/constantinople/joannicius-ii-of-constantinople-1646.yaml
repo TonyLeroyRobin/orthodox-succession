@@ -1,0 +1,29 @@
+id: person/constantinople/joannicius-ii-of-constantinople-1646
+names:
+  monastic: Joannicius II of Constantinople
+  variants:
+  - Patriarch Joannicius II of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q3179693
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q3179693
+born:
+  date:
+    value: '1501'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1659'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

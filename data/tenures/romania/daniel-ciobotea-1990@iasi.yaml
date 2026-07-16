@@ -1,0 +1,29 @@
+id: tenure/romania/daniel-ciobotea-1990@iasi
+person: person/romania/daniel-ciobotea-1990
+see: see/romania/iasi
+from:
+  value: '1990'
+  calendar: gregorian
+  precision: year
+to:
+  value: '2007'
+  calendar: gregorian
+  precision: year
+end_reason: translated
+sources:
+- ref: source/pacurariu-istoria-bor
+  locator: Moldavia series, s.v. Daniel (1990-2007) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction), cross-checked
+    against the official mmb.ro/istoric narrative (fetched 2026-07-15; its own row-level divergences
+    are noted per record) — confirm against Păcurariu during verification
+- ref: source/church-of-romania-official
+  locator: mmb.ro/istoric (Metropolis of Moldavia and Bukovina)
+  reliability: official-list
+  archived_url: https://web.archive.org/web/20260115151625/https://mmb.ro/istoric
+  note: official metropolitan-history narrative; year-wildcard archive redirect — pin during
+    verification
+status: unverified
+notes: Created from the merged witnesses (Moldavia batch) 2026-07-15. Metropolitan of Moldavia
+  1990-2007 (the 1986-1990 interval is a locum period, list-inherent), then Patriarch — the
+  patriarchal tenure is the existing Bucharest record.

@@ -1,0 +1,23 @@
+id: person/constantinople/paul-ii-of-constantinople-0641
+names:
+  monastic: Paul II of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q1273458
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q1273458
+  viaf: '17616736'
+died:
+  date:
+    value: '0653'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

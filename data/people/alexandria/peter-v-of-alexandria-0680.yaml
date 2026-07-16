@@ -1,0 +1,18 @@
+id: person/alexandria/peter-v-of-alexandria-0680
+names:
+  monastic: Peter V of Alexandria
+  variants:
+  - Patriarch Peter V of Alexandria
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q7145310
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q7145310

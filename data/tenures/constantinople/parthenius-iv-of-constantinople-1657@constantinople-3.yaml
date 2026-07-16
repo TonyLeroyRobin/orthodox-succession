@@ -1,0 +1,25 @@
+id: tenure/constantinople/parthenius-iv-of-constantinople-1657@constantinople-3
+person: person/constantinople/parthenius-iv-of-constantinople-1657
+see: see/constantinople/constantinople
+from:
+  value: '1671'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1673'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Parthenius IV 1671–1673'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.
+recognition:
+- by: all
+  status: disputed
+  note: term overlaps tenure/constantinople/dionysius-iv-of-constantinople-1620@constantinople
+    as dated on the official list — deposition/restoration alternation or traditional
+    chronology; recorded as given, not adjudicated

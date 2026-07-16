@@ -1,0 +1,19 @@
+id: person/serbia/nikodim-ii-1446
+names:
+  monastic: Nikodim II
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q13583173
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: 'Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record. Milestone C reconciliation 2026-07-10: the seeded birth/death years (1301/1401)
+  are Wikidata century-precision timestamp artifacts, not real dates, and conflicted
+  with the chronology terms - dropped per the source hierarchy; restore from a graded
+  source during verification.'
+identifiers:
+  wikidata: Q13583173

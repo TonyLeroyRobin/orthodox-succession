@@ -1,0 +1,19 @@
+id: person/georgia/petre-i-0467
+names:
+  monastic: Petre I
+  variants:
+  - Pietro I
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q9293192
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Milestone C reconciliation
+  2026-07-11 — matched to the standard chronology (Petre I, 467-474); tenure created; display
+  normalized from the Italian-language Wikidata label.
+identifiers:
+  wikidata: Q9293192

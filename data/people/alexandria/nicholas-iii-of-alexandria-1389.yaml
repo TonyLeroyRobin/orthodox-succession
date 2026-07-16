@@ -1,0 +1,18 @@
+id: person/alexandria/nicholas-iii-of-alexandria-1389
+names:
+  monastic: Nicholas III of Alexandria
+  variants:
+  - Patriarch Nicholas III of Alexandria
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q7145301
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. Wikidata birth/death dates conflicted with the term dates and
+  were NOT imported — resolve during verification.
+identifiers:
+  wikidata: Q7145301

@@ -1,0 +1,23 @@
+id: person/constantinople/matthew-i-of-constantinople-1397
+names:
+  monastic: Matthew I of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q762992
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q762992
+  viaf: '404166838899636200006'
+died:
+  date:
+    value: '1410'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

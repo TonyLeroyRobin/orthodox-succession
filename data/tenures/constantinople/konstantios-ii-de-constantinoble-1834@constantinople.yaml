@@ -1,0 +1,19 @@
+id: tenure/constantinople/konstantios-ii-de-constantinoble-1834@constantinople
+person: person/constantinople/konstantios-ii-de-constantinoble-1834
+see: see/constantinople/constantinople
+from:
+  value: '1834'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1835'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Constantios II 1834–1835'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

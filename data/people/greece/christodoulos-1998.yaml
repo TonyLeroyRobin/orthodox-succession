@@ -1,0 +1,33 @@
+id: person/greece/christodoulos-1998
+names:
+  monastic: Christodoulos
+  variants:
+  - Archbishop Christodoulos of Athens
+  - Christodoulos of Athens
+  family: Paraskevaidis
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q703525
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  Milestone C reconciliation 2026-07-11 — matched (Christodoulos, 1998-2008). Display name
+  normalized per DATA_COMPLETION §3.
+identifiers:
+  wikidata: Q703525
+  viaf: '29732651'
+born:
+  date:
+    value: '1939'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '2008'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

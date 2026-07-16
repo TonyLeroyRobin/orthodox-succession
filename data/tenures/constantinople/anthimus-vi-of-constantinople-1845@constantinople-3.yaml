@@ -1,0 +1,19 @@
+id: tenure/constantinople/anthimus-vi-of-constantinople-1845@constantinople-3
+person: person/constantinople/anthimus-vi-of-constantinople-1845
+see: see/constantinople/constantinople
+from:
+  value: '1871'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1873'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Anthimos VI 1871–1873'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

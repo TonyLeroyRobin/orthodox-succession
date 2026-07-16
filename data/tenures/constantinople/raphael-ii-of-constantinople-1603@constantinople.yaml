@@ -1,0 +1,19 @@
+id: tenure/constantinople/raphael-ii-of-constantinople-1603@constantinople
+person: person/constantinople/raphael-ii-of-constantinople-1603
+see: see/constantinople/constantinople
+from:
+  value: '1603'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1607'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Raphael II 1603–1607'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

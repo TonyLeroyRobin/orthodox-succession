@@ -1,0 +1,33 @@
+id: person/constantinople/callinicus-iv-of-constantinople-1757
+names:
+  monastic: Callinicus IV of Constantinople
+  variants:
+  - Patriarch Callinicus IV of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q2934212
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: 'Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record. Milestone C 2026-07-10: this is the 1757 patriarch - the official list
+  numbers him Callinicus III, Wikidata numbers him IV; divergence recorded on his
+  tenure.'
+identifiers:
+  wikidata: Q2934212
+  viaf: '86170414'
+born:
+  date:
+    value: '1713'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1791'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

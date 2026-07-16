@@ -1,0 +1,19 @@
+id: tenure/constantinople/timothy-i-of-constantinople-0511@constantinople
+person: person/constantinople/timothy-i-of-constantinople-0511
+see: see/constantinople/constantinople
+from:
+  value: '0511'
+  calendar: julian
+  precision: year
+to:
+  value: 0518
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/ep-council-patriarch-list
+  locator: 'entry: Timothy I 511–518'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260624233455/https://www.orthodoxcouncil.org/list-of-ecumenical-patriarchs.html
+status: unverified
+notes: Created from the official EP list during Milestone C reconciliation 2026-07-10.

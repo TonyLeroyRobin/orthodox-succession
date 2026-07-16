@@ -1,0 +1,21 @@
+id: tenure/serbia/atanasije-ii-gavrilovic-1746@belgrade
+person: person/serbia/atanasije-ii-gavrilovic-1746
+see: see/serbia/belgrade
+from:
+  value: '1746'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1752'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. Atanasije II (1746–1752) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.

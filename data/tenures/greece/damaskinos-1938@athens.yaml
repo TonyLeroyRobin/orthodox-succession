@@ -1,0 +1,34 @@
+id: tenure/greece/damaskinos-1938@athens
+person: person/greece/damaskinos-1938
+see: see/greece/athens
+from:
+  value: '1941-07-02'
+  calendar: gregorian
+  precision: day
+  note: seeded year (1941) refined to the standard chronology day date during Milestone C
+    2026-07-11 - verify against the official list
+end_reason: died
+sources:
+- ref: source/wikidata
+  locator: Q31280
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39 start/end
+    qualifiers
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Greece series, s.v. Damaskinos (1941-1949) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    the official ecclesia.gr former-archbishops page was unreachable to automated fetch —
+    documented) — confirm against the official list and Fedalto during verification; pre-1924
+    day dates may be old style (OS/NS to be confirmed)
+status: unverified
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified against
+  a diadochal list or scholarly source. Milestone C reconciliation 2026-07-11: matched to
+  the standard chronology (Damaskinos, 1941-1949). chronology day dates 2 July 1941 - 20 May
+  1949 (died); his annulled November-December 1938 term is recorded as the -2 tenure; also
+  Regent of Greece 1944-1946.'
+to:
+  value: '1949'
+  calendar: gregorian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar

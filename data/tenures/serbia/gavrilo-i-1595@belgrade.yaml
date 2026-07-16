@@ -1,0 +1,23 @@
+id: tenure/serbia/gavrilo-i-1595@belgrade
+person: person/serbia/gavrilo-i-1595
+see: see/serbia/belgrade
+from:
+  value: '1648'
+  calendar: gregorian
+  precision: year
+to:
+  value: '1655'
+  calendar: gregorian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. Gavrilo I (1648–1655) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification died a martyr (1659);
+    venerated
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  died a martyr (1659); venerated.

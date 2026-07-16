@@ -1,0 +1,22 @@
+id: tenure/georgia/theodore-ii-1186@mtskheta-tbilisi
+person: person/georgia/theodore-ii-1186
+see: see/georgia/mtskheta-tbilisi
+from:
+  value: '1186'
+  calendar: julian
+  precision: year
+to:
+  value: '1206'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Georgia (Iberia) series, s.v. Theodore II (1186-1206) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction, lead-generation;
+    patriarchate.ge exposes no reachable diadochal list page to automated fetch — documented)
+    — confirm against Fedalto and the official records of the Georgian Patriarchate during
+    verification
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-11.

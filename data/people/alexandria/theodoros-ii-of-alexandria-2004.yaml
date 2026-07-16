@@ -1,0 +1,24 @@
+id: person/alexandria/theodoros-ii-of-alexandria-2004
+names:
+  monastic: Theodoros II of Alexandria
+  variants:
+  - Patriarch Theodoros II of Alexandria
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q64048
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start.
+identifiers:
+  wikidata: Q64048
+  viaf: '274151246509544130173'
+born:
+  date:
+    value: '1954'
+    calendar: gregorian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

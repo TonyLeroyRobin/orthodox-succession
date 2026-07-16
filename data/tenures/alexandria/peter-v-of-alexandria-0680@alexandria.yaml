@@ -1,0 +1,21 @@
+id: tenure/alexandria/peter-v-of-alexandria-0680@alexandria
+person: person/alexandria/peter-v-of-alexandria-0680
+see: see/alexandria/alexandria
+from:
+  value: 0680
+  calendar: julian
+  precision: disputed
+  note: the official list gives NO dates; attested by his subscription at the council
+    of 680 per the list's own note. The list also notes a period of patriarchal
+    coadjutorate 652-727 under Arab domination.
+end_reason: unknown
+sources:
+- ref: source/alexandria-previous-patriarchs
+  locator: 'entry: Petros V (?–?)'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200458/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
+  note: year-wildcard archive redirect; Save Page Now still pending — pin the exact
+    snapshot when it propagates
+status: unverified
+notes: Created from the official Alexandria list during Milestone C reconciliation
+  2026-07-10.

@@ -1,0 +1,32 @@
+id: tenure/alexandria/eustathius-of-alexandria-0813@alexandria
+person: person/alexandria/eustathius-of-alexandria-0813
+see: see/alexandria/alexandria
+from:
+  value: 0813
+  calendar: julian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar
+end_reason: unknown
+sources:
+- ref: source/wikidata
+  locator: Q7145270
+  reliability: database
+  note: programmatic seed — verify against a graded source; term dates from P39
+    start/end qualifiers
+- ref: source/alexandria-previous-patriarchs
+  locator: 'entry: Eustathius 813–817'
+  reliability: official-list
+  archived_url: http://web.archive.org/web/20260708200458/https://www.patriarchateofalexandria.com/patriarch_category/previous-patriarchs/?lang=en
+  note: year-wildcard archive redirect; Save Page Now requested 2026-07-08 — pin
+    the exact snapshot when it propagates
+status: verified
+notes: 'Draft tenure seeded from Wikidata P39. end_reason is unknown until verified
+  against a diadochal list or scholarly source. Verified against the official Alexandria
+  Patriarchate Previous Patriarchs list (verification pass 2026-07-08): name and
+  tenure years match. Review performed by the AI assistant at user direction — spot-check
+  before treating as human-verified.'
+to:
+  value: 0817
+  calendar: julian
+  precision: year
+  note: seeded from Wikidata; verify date, precision, and calendar

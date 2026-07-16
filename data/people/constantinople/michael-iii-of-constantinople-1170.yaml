@@ -1,0 +1,23 @@
+id: person/constantinople/michael-iii-of-constantinople-1170
+names:
+  monastic: Michael III of Constantinople
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q2606011
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q2606011
+  viaf: '44658407'
+died:
+  date:
+    value: '1178'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

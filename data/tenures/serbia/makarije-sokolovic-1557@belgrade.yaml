@@ -1,0 +1,23 @@
+id: tenure/serbia/makarije-sokolovic-1557@belgrade
+person: person/serbia/makarije-sokolovic-1557
+see: see/serbia/belgrade
+from:
+  value: '1557'
+  calendar: julian
+  precision: year
+to:
+  value: '1571'
+  calendar: julian
+  precision: year
+end_reason: unknown
+sources:
+- ref: source/fedalto-hierarchia-ecclesiastica-orientalis
+  locator: Serbia series, s.v. Makarije I (1557–1571) — locator to be confirmed
+  reliability: scholarly
+  note: dates transcribed from the standard chronology (encyclopedic reproduction,
+    lead-generation; spc.rs was unreachable to automated fetch) — confirm against
+    Fedalto and the official SPC records during verification Makarije Sokolovic;
+    restoration of the patriarchate through Sokollu Mehmed Pasha
+status: unverified
+notes: Created from the standard chronology during Milestone C reconciliation 2026-07-10.
+  Makarije Sokolovic; restoration of the patriarchate through Sokollu Mehmed Pasha.

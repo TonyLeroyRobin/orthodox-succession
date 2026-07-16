@@ -1,0 +1,10 @@
+id: participation/constantinople-1848--anthimus-vi-of-constantinople-1845
+person: person/constantinople/anthimus-vi-of-constantinople-1845
+event: event/council/constantinople-1848
+role: presided
+sources:
+- ref: source/mansi-collectio
+  reliability: scholarly
+  locator: acts / subscription lists - locator to be confirmed
+status: unverified
+notes: First signatory as ecumenical patriarch (second patriarchate, 1848).

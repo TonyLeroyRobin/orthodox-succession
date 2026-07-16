@@ -1,0 +1,26 @@
+id: person/georgia/melkisedek-ii-1538
+names:
+  monastic: Melkisedek II
+  variants:
+  - Melchizedek II of Georgia
+  family: Bagrationi
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q14623312
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates, calendar,
+  and see assignment against a graded source; the id year is the earliest seeded term start.
+  1 term(s) had no start-date qualifier and produced no tenure record. Milestone C reconciliation
+  2026-07-11 — matched to the standard chronology (Melkisedek II Bagrationi, 1538-1541); tenure
+  created.
+identifiers:
+  wikidata: Q14623312
+died:
+  date:
+    value: '1553'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

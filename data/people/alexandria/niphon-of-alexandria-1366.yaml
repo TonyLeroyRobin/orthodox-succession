@@ -1,0 +1,30 @@
+id: person/alexandria/niphon-of-alexandria-1366
+names:
+  monastic: Niphon of Alexandria
+  variants:
+  - Patriarch Niphon of Alexandria
+attestation: attested
+sources:
+- ref: source/wikidata
+  locator: Q7145305
+  reliability: database
+  note: programmatic seed — verify against a graded source
+status: unverified
+notes: Draft seeded from Wikidata (office holders import). Verify name forms, dates,
+  calendar, and see assignment against a graded source; the id year is the earliest
+  seeded term start. 1 term(s) had no start-date qualifier and produced no tenure
+  record.
+identifiers:
+  wikidata: Q7145305
+born:
+  date:
+    value: '1350'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar
+died:
+  date:
+    value: '1385'
+    calendar: julian
+    precision: year
+    note: seeded from Wikidata; verify date, precision, and calendar

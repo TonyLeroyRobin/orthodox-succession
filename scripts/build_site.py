@@ -210,7 +210,16 @@ Database {esc(VERSION)}.<br>
 </html>"""
 
 
-def write(path, text):
+SITEMAP_URLS = []
+
+
+def write(path, text, sitemap=True):
+    # Q2.3: collect page URLs for sitemap.xml (redirect stubs excluded)
+    if sitemap and str(path).endswith("index.html"):
+        rel = path.relative_to(OUT).parent.as_posix()
+        rel = "" if rel == "." else rel + "/"
+        SITEMAP_URLS.append(
+            f"https://tonyleroyrobin.github.io/orthodox-succession/{rel}")
     # base-path rewrite: internal root-absolute references gain the Pages
     # project prefix; https:// (canonical) links are untouched.
     if BASE and str(path).endswith(".html"):
@@ -1856,7 +1865,7 @@ doi:10.5281/zenodo.21384060</code> — or cite a page by its canonical URL
                   f'<meta http-equiv="refresh" content="0; url={new_url}">'
                   f'<link rel="canonical" href="https://tonyleroyrobin.github.io/orthodox-succession{new_url}">'
                   f'<a href="{new_url}">This record has been merged — '
-                  f'continue to the canonical page.</a>')
+                  f'continue to the canonical page.</a>', sitemap=False)
             stubs += 1
         print(f"build_site: {stubs} alias redirect stub(s)")
 
@@ -1909,8 +1918,20 @@ location.replace(id ? "/people/" + id.split("/").slice(1).join("/") + "/" : "/pe
 <meta http-equiv="refresh" content="0; url=/map/">
 <a href="/map/">The map has moved.</a>""")
 
+    # Q2.3: sitemap.xml + robots.txt
+    sm = ['<?xml version="1.0" encoding="UTF-8"?>',
+          '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for u in sorted(set(SITEMAP_URLS)):
+        sm.append(f"<url><loc>{esc(u)}</loc></url>")
+    sm.append("</urlset>")
+    (OUT / "sitemap.xml").write_text("\n".join(sm), encoding="utf-8")
+    (OUT / "robots.txt").write_text(
+        "User-agent: *\nAllow: /\nSitemap: https://tonyleroyrobin.github.io"
+        "/orthodox-succession/sitemap.xml\n", encoding="utf-8")
+
     pages = sum(1 for _ in OUT.rglob("index.html"))
-    print(f"build_site: {pages} pages -> {OUT} (dataset {VERSION})")
+    print(f"build_site: {pages} pages -> {OUT} (dataset {VERSION})"
+          f" · sitemap: {len(set(SITEMAP_URLS))} URLs")
     return 0
 
 
