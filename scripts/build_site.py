@@ -124,14 +124,6 @@ def badge(status):
     return f'<span class="badge {esc(status)}">{esc(status)}</span>'
 
 
-def worldcat_find(title, author=None):
-    """Q3.2 render-guard: build-time find-in-a-library link for sources
-    without a resolvable URL — never a dead or fake anchor."""
-    q = urlparse.quote(" ".join(x for x in (title, author) if x))
-    return (f' <a href="https://search.worldcat.org/search?q={q}" '
-            f'rel="nofollow">[find in a library]</a>')
-
-
 def citations_html(cits, sources_by_id):
     if not cits:
         return '<div class="citation">no citations</div>'
@@ -144,10 +136,9 @@ def citations_html(cits, sources_by_id):
                 if src and src["data"].get("url") else "")
         arch = c.get("archived_url") or (src and src["data"].get("archived_url"))
         alink = f' <a href="{esc(arch)}">[archived]</a>' if arch else ""
-        if not link and not alink and src:
-            # print citation only — offer the library lookup instead
-            alink = worldcat_find(src["data"].get("title"),
-                                  src["data"].get("author"))
+        # F5: sources without a resolvable URL render as plain print
+        # citations - WorldCat is demoted to an unlinked mention at most,
+        # never a linked affordance (it rate-limits referred lookups)
         note = (f' <span class="note">— {esc(c["note"])}</span>'
                 if c.get("note") else "")
         out.append(f'<div class="citation"><span class="badge grade">'
@@ -660,14 +651,56 @@ def main():
               layout(person_name(p), content, canonical, jsonld, "People",
                      description=person_entry_label(pid), entity_id=pid))
 
-    # people index (Q1.4: every entry carries its see/epithet + dates)
+    # people index (Q1.4 display formula; F4 rail + filters + live count)
+    def _p_century(p_, pid_):
+        dy = date_year((p_.get("died") or {}).get("date"))
+        if dy is None:
+            ys = [date_year(t_.get("from"))
+                  for t_ in tenures_by_person.get(pid_, [])]
+            ys = [y for y in ys if y is not None]
+            dy = ys[0] if ys else None
+        return str((dy - 1) // 100 + 1) if dy else ""
+
     letters = defaultdict(list)
+    p_roles, p_jurs, p_cents = set(), set(), set()
     for pid, p in sorted(persons.items(), key=lambda kv: person_name(kv[1])):
-        letters[person_name(p)[:1].upper()].append(person_entry(pid))
+        role_ = p.get("role", "bishop")
+        jur_ = pid.split("/")[1]
+        cent_ = _p_century(p, pid)
+        saint_ = "1" if (p.get("veneration") or {}).get("status") == "saint" else ""
+        p_roles.add(role_)
+        p_jurs.add(jur_)
+        if cent_:
+            p_cents.add(cent_)
+        letters[person_name(p)[:1].upper()].append(
+            f'<li data-role="{esc(role_)}" data-jurisdiction="{esc(jur_)}"'
+            f' data-century="{esc(cent_)}"'
+            f' data-status="{esc(p.get("status", "unverified"))}"'
+            f' data-saint="{saint_}">{person_entry(pid)}</li>')
+    az_rail = "".join(f'<a href="#az-{esc(k)}">{esc(k)}</a>'
+                      for k, _ in sorted(letters.items()))
     people_idx = "".join(
-        f"<h2>{esc(k)}</h2><ul class=person-list>" +
-        "".join(f"<li>{v}</li>" for v in vs) + "</ul>"
+        f'<h2 id="az-{esc(k)}">{esc(k)}</h2><ul class=person-list>'
+        + "".join(vs) + "</ul>"
         for k, vs in sorted(letters.items()))
+
+    def _psel(fid, label, options):
+        opts = "".join(f'<option value="{esc(o)}">{esc(o)}</option>'
+                       for o in sorted(options, key=lambda x: (len(x), x)))
+        return (f'<label>{label} <select id="{fid}" class="ppl-filter">'
+                f'<option value="">all</option>{opts}</select></label> ')
+
+    people_idx = (
+        f'<div class="filter-bar" id="pplFilters"><p class="lib-filters">'
+        + _psel("p-role", "Role", p_roles)
+        + _psel("p-jurisdiction", "Jurisdiction", p_jurs)
+        + _psel("p-century", "Century", sorted(p_cents, key=int))
+        + _psel("p-status", "Status", ["verified", "unverified", "disputed"])
+        + '<label><input type="checkbox" id="p-saint"> saints only</label> '
+        + '<span id="ppl-count" class="note"></span></p></div>'
+        + f'<nav class="az-rail" aria-label="Jump to letter">{az_rail}</nav>'
+        + people_idx
+        + '<script src="/assets/people.js"></script>')
     write(OUT / "people" / "index.html",
           layout("People", f"<h1>People ({len(persons)})</h1>{people_idx}",
                  "https://tonyleroyrobin.github.io/orthodox-succession/people/",
@@ -1018,15 +1051,26 @@ placeholder="any" style="width:5em"></label>
             if ed.get("archived_url"):
                 links.append(f'<a href="{esc(ed["archived_url"])}" rel="nofollow">archived</a>')
             idf = ed.get("identifiers") or {}
+            # F5: WorldCat demoted (rate-limits referred lookups) - Open
+            # Library is the primary find-this-book affordance; identifiers
+            # render as plain copyable text
             if idf.get("isbn"):
-                links.append(f'<a href="https://search.worldcat.org/isbn/{esc(idf["isbn"])}" rel="nofollow">find this edition (ISBN)</a>')
+                isbn_ = esc(idf["isbn"])
+                links.append(
+                    f'ISBN <code class="copyable">{isbn_}</code> '
+                    f'<button class="copy-btn" data-copy="{isbn_}">copy</button>')
+                links.append(f'<a href="https://openlibrary.org/isbn/{isbn_}" rel="nofollow">find this book (Open Library)</a>')
+                links.append(f'<a href="https://books.google.com/books?vid=ISBN{isbn_}" rel="nofollow">Google Books</a>')
             elif idf.get("oclc") or idf.get("worldcat"):
-                links.append(f'<a href="https://search.worldcat.org/oclc/{esc(idf.get("oclc") or idf.get("worldcat"))}" rel="nofollow">find this edition (WorldCat)</a>')
+                oclc_ = esc(idf.get("oclc") or idf.get("worldcat"))
+                links.append(
+                    f'OCLC <code class="copyable">{oclc_}</code> '
+                    f'<button class="copy-btn" data-copy="{oclc_}">copy</button>')
+                links.append(f'<a href="https://books.google.com/books?vid=OCLC{oclc_}" rel="nofollow">Google Books</a>')
             ed_note = (f'<br><span class=note>{esc(ed["notes"])}</span>'
                        if ed.get("notes") else "")
-            if not links:  # Q3.2 render-guard: print citation + library lookup
-                links.append(worldcat_find(w.get("title"),
-                                           author_label(w)).strip())
+            # F5: an URL-less edition is a plain print citation - the
+            # series/locator bits above are the affordance; no dead links
             eds += (f"<li>{esc(ed.get('type', ''))} ({esc(ed.get('language', ''))})"
                     f" — {', '.join(bits)}"
                     f"{' · ' + ' · '.join(links) if links else ''}{ed_note}</li>")
@@ -1224,8 +1268,7 @@ the naming rule (docs/NAMING.md); variants are recorded, not endorsed.</p></div>
             author = f" — {esc(s['author'])}" if s.get("author") else ""
             s_note = (f"<br><span class=note>{esc(s['notes'])}</span>"
                       if s.get("notes") else "")
-            if not links:  # Q3.2 render-guard
-                links.append(worldcat_find(s.get("title"), s.get("author")).strip())
+            # F5: URL-less sources are plain print citations (no WorldCat)
             items += (f"<li><strong>{esc(s.get('title'))}</strong>{author} "
                       f"{badge(s.get('status'))}"
                       f"{' · ' + ' · '.join(links) if links else ''}{s_note}</li>")
@@ -2273,7 +2316,8 @@ doi:10.5281/zenodo.21384060</code> — or cite a page by its canonical URL
     for f in (SITE_SRC / "vendor").iterdir():
         shutil.copy(f, assets / "vendor" / f.name)
     for name in ("site.js", "search.js", "map.js", "timeline.js",
-                 "library.js", "saints.js", "ideas.js", "graph.js"):
+                 "library.js", "saints.js", "ideas.js", "graph.js",
+                 "people.js"):
         src = SITE_SRC / "static" / name
         if src.exists():
             js = src.read_text(encoding="utf-8")

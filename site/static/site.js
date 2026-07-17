@@ -73,3 +73,35 @@
       if (bo) bo.addEventListener("click", function () { window.__calToggle("old"); });
   }
 })();
+
+
+/* ---- F4: global back-to-top control ---- */
+(function () {
+  var btn = document.createElement("button");
+  btn.id = "backToTop";
+  btn.textContent = "↑ top";
+  btn.setAttribute("aria-label", "Back to top");
+  btn.style.display = "none";
+  document.body.appendChild(btn);
+  btn.addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+  window.addEventListener("scroll", function () {
+    btn.style.display = window.scrollY > 600 ? "" : "none";
+  }, { passive: true });
+})();
+
+
+/* ---- F5: copy-to-clipboard for identifiers (progressive - the text is
+   always selectable without JS) ---- */
+(function () {
+  document.addEventListener("click", function (ev) {
+    var b = ev.target.closest ? ev.target.closest(".copy-btn") : null;
+    if (!b || !navigator.clipboard) return;
+    navigator.clipboard.writeText(b.dataset.copy || "").then(function () {
+      var old = b.textContent;
+      b.textContent = "copied";
+      setTimeout(function () { b.textContent = old; }, 1200);
+    });
+  });
+})();
