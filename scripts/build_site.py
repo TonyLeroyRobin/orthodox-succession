@@ -48,7 +48,7 @@ NAV = [("Home", "/"), ("Jurisdictions", "/jurisdictions/"),
        ("Saints", "/saints/"), ("Institutions", "/institutions/"),
        ("Map", "/map/"), ("Timeline", "/timeline/"),
        ("Controversies", "/controversies/"),
-       ("Graph", "/site/graph.html"), ("Ideas", "/ideas/"),
+       ("Graph", "/graph/"), ("Ideas", "/ideas/"),
        ("About", "/about/")]
 
 
@@ -1361,7 +1361,7 @@ date-dependent element).</p></div></div>
 <li><a href="/people/">People</a> — {len(persons)} bishops and connected figures.</li>
 <li><a href="/councils/">Councils</a> and their subscription lists.</li>
 <li><a href="/library/">The library</a> of works with read-links.</li>
-<li><a href="/site/graph.html">The consecration graph</a> (interactive).</li>
+<li><a href="/graph/">The consecration graph</a> (interactive, with lineage tracing).</li>
 <li><a href="/gaps/">The gap report</a> — absence as information.</li>
 </ul></div>"""
     write(OUT / "index.html",
@@ -1809,9 +1809,39 @@ durations) and point markers — <a href="/about/">about the layers</a>.</p>
         print("build_site: most-cited works (citation in-degree): " +
               "; ".join(f"{works_by_id.get(k, {}).get('title', k)} ({v})"
                         for k, v in top_cited))
+    # F1.3: static fallback — the page must be fully informative with JS off
+    TIER_LABEL = {1: "Tier 1 · correspondence", 2: "Tier 2 · citation/response",
+                  3: "Tier 3 · influence (gated)"}
+    edge_rows = ""
+    def _unbase(u):
+        # JSON urls carry BASE for the JS layer; build-time HTML must not,
+        # or write() double-prefixes them (caught by the F3.2 link gate)
+        return u[len(BASE):] if BASE and u and u.startswith(BASE + "/") else u
+
+    for l_ in sorted(ideas_links, key=lambda x: (x["tier"], x.get("title") or "")):
+        src_n = ideas_nodes.get(l_["source"], {})
+        tgt_n = ideas_nodes.get(l_["target"], {})
+        def _nlabel(n):
+            return (f'<a href="{_unbase(n["url"])}">{esc(n.get("label", "?"))}</a>'
+                    if n.get("url") else esc(n.get("label", "?")) + " (external)")
+        wcell = (f'<a href="{_unbase(l_["work"])}">{esc(l_.get("title") or "")}</a>'
+                 if l_.get("work") else esc(l_.get("title") or "—"))
+        if l_.get("locator"):
+            wcell += f' <span class=note>({esc(l_["locator"])})</span>'
+        edge_rows += (f"<tr><td>{_nlabel(src_n)}</td><td>{wcell}</td>"
+                      f"<td>{_nlabel(tgt_n)}</td>"
+                      f'<td><span class="badge model">{TIER_LABEL[l_["tier"]]}'
+                      f"</span></td></tr>")
+    ideas_table = (f'<div class="panel"><h2>All documented edges '
+                   f'({len(ideas_links)})</h2>'
+                   f"<table><thead><tr><th>From</th><th>Evidencing work</th>"
+                   f"<th>To</th><th>Tier</th></tr></thead>"
+                   f"<tbody>{edge_rows}</tbody></table>"
+                   f"<p class=note>This table is the complete graph content, "
+                   f"rendered at build time — no JavaScript required.</p></div>")
     ideas_page = """<h1>The succession of ideas</h1>
 <p class="subtitle">The database renders three successions, never blended:
-hands (the <a href="/site/graph.html">consecration graph</a>), formation
+hands (the <a href="/graph/">consecration graph</a>), formation
 (teacher/tonsure relationships on person pages), and IDEAS — documented
 correspondence and citation, shown here. The graph is smaller than the truth
 and never larger.</p>
@@ -1828,7 +1858,7 @@ the evidencing work and locator; click a node for the person, an edge for
 the work. Squares are external (out-of-scope) authors.</p>
 </div>
 <script src="/assets/vendor/d3.v7.min.js"></script>
-<script src="/assets/ideas.js"></script>"""
+<script src="/assets/ideas.js"></script>""" + ideas_table
     write(OUT / "ideas" / "index.html",
           layout("Ideas graph", ideas_page,
                  "https://tonyleroyrobin.github.io/orthodox-succession/ideas/"))
@@ -2243,7 +2273,7 @@ doi:10.5281/zenodo.21384060</code> — or cite a page by its canonical URL
     for f in (SITE_SRC / "vendor").iterdir():
         shutil.copy(f, assets / "vendor" / f.name)
     for name in ("site.js", "search.js", "map.js", "timeline.js",
-                 "library.js", "saints.js", "ideas.js"):
+                 "library.js", "saints.js", "ideas.js", "graph.js"):
         src = SITE_SRC / "static" / name
         if src.exists():
             js = src.read_text(encoding="utf-8")
@@ -2251,23 +2281,152 @@ doi:10.5281/zenodo.21384060</code> — or cite a page by its canonical URL
                 js = js.replace('fetch("/', f'fetch("{BASE}/')
             (assets / name).write_text(js, encoding="utf-8")
 
+    # ---------------- consecration graph v2 (F2) ----------------
+    cons_nodes = {}
+    cons_links = []
+
+    def _gnode(pid_):
+        if pid_ and pid_ not in cons_nodes:
+            p_ = persons.get(pid_)
+            cons_nodes[pid_] = {
+                "id": pid_,
+                "label": person_name(p_) if p_ else pid_,
+                "url": BASE + (entity_url(pid_) or ""),
+                "jur": pid_.split("/")[1] if len(pid_.split("/")) > 2 else "?",
+                "status": (p_ or {}).get("status", "unverified"),
+                "year": None}
+        return pid_
+
+    for c_ in consecrations:
+        tgt = c_.get("consecrated")
+        y_ = date_year(c_.get("date"))
+        _gnode(tgt)
+        if tgt and y_ and not cons_nodes[tgt]["year"]:
+            cons_nodes[tgt]["year"] = y_
+        srcs_ = []
+        if c_.get("principal_consecrator"):
+            srcs_.append((c_["principal_consecrator"], True))
+        for k_ in c_.get("co_consecrators") or []:
+            srcs_.append((k_, False))
+        for pid_, principal_ in srcs_:
+            _gnode(pid_)
+            if tgt:
+                cons_links.append({"source": pid_, "target": tgt,
+                                   "principal": principal_, "year": y_})
+    # consecrators without their own consecration date: earliest outgoing year
+    for l_ in cons_links:
+        n_ = cons_nodes[l_["source"]]
+        if l_["year"] and (n_["year"] is None or l_["year"] - 1 < n_["year"]):
+            if n_["year"] is None:
+                n_["year"] = l_["year"] - 1
+    years_ = sorted({n_["year"] for n_ in cons_nodes.values()
+                     if n_["year"] is not None})
+    if years_:
+        y0, y1 = years_[0], years_[-1]
+        band = max(10, (y1 - y0) // 12 or 10)
+        layer_labels = []
+        cur = y0
+        while cur <= y1:
+            layer_labels.append(f"{cur}–{min(cur + band - 1, y1)}")
+            cur += band
+        for n_ in cons_nodes.values():
+            n_["layer"] = (min((n_["year"] or y0) - y0, y1 - y0) // band)
+    else:
+        layer_labels = ["undated"]
+        for n_ in cons_nodes.values():
+            n_["layer"] = 0
+    write(OUT / "data" / "graph-v2.json",
+          json.dumps({"nodes": list(cons_nodes.values()),
+                      "links": cons_links,
+                      "layers": layer_labels}, ensure_ascii=False),
+          sitemap=False)
+
+    # static fallback: counts, largest lineage components, per-jur tables
+    parent_ = {}
+
+    def _find(x):
+        while parent_.get(x, x) != x:
+            parent_[x] = parent_.get(parent_[x], parent_[x])
+            x = parent_[x]
+        return x
+
+    def _union(a, b):
+        parent_.setdefault(a, a)
+        parent_.setdefault(b, b)
+        ra, rb = _find(a), _find(b)
+        if ra != rb:
+            parent_[ra] = rb
+
+    for l_ in cons_links:
+        _union(l_["source"], l_["target"])
+    comp_sizes = defaultdict(int)
+    for n_ in cons_nodes:
+        comp_sizes[_find(n_)] += 1
+    largest = sorted(comp_sizes.items(), key=lambda kv: -kv[1])[:3]
+    comp_html = " · ".join(
+        f"{cons_nodes[root_]['label']}-component: {size_} persons"
+        for root_, size_ in largest) or "none"
+
+    cons_by_jur = defaultdict(list)
+    for c_ in consecrations:
+        tgt = c_.get("consecrated") or ""
+        jur_ = tgt.split("/")[1] if len(tgt.split("/")) > 2 else "?"
+        cons_by_jur[jur_].append(c_)
+    cons_tables = ""
+    for jur_ in sorted(cons_by_jur):
+        rows_ = ""
+        for c_ in sorted(cons_by_jur[jur_],
+                         key=lambda c: date_year(c.get("date")) or 0):
+            cos_ = ", ".join(plink(k_) for k_ in c_.get("co_consecrators") or [])
+            rows_ += (f"<tr><td>{plink(c_.get('consecrated'))}</td>"
+                      f"<td>{esc(fmt_date(c_.get('date')))}</td>"
+                      f"<td>{plink(c_.get('principal_consecrator')) if c_.get('principal_consecrator') else '—'}</td>"
+                      f"<td>{cos_ or '—'}</td></tr>")
+        cons_tables += (f"<details open><summary>{esc(jur_)} "
+                        f"({len(cons_by_jur[jur_])})</summary>"
+                        f"<table><thead><tr><th>Consecrated</th><th>Date</th>"
+                        f"<th>Principal</th><th>Co-consecrators</th></tr>"
+                        f"</thead><tbody>{rows_}</tbody></table></details>")
+    graph_page = f"""<h1>Consecration graph</h1>
+<p class="subtitle">The succession of hands: consecration date flows top to
+bottom; node color = jurisdiction, ring color = verification status; solid
+edges = principal consecrator, dashed = co-consecrators. Click a node to
+TRACE its full lineage (ancestry and descendants); double-click opens the
+person page. Share a trace with ?trace=&lt;person-id&gt;.</p>
+<div class="panel">
+<p class="map-controls"><label for="graphJump">Find: </label>
+<input id="graphJump" list="graphNodes" placeholder="type a name…">
+<datalist id="graphNodes"></datalist></p>
+<div id="traceCrumb" class="note"></div>
+<div id="graph"></div>
+<p id="graphLegend" class="note"></p>
+<p class="note">Absent consecration data is stated, not inferred — the graph
+renders only recorded consecrations ({len(consecrations)} records,
+{len(cons_nodes)} persons). Largest lineage components: {comp_html}.</p>
+</div>
+<div class="panel"><h2>All consecration records</h2>
+<p class=note>Build-time HTML — complete without JavaScript.</p>
+{cons_tables}</div>
+<script src="/assets/vendor/d3.v7.min.js"></script>
+<script src="/assets/graph.js"></script>"""
+    write(OUT / "graph" / "index.html",
+          layout("Consecration graph", graph_page,
+                 "https://tonyleroyrobin.github.io/orthodox-succession/graph/",
+                 active="Graph"))
+
+
     # ---------------- legacy pages (query-URL fallbacks) ----------------
+    # F3.1: the pre-R1 dashboard is retired - nothing is copied; every old
+    # /site/* URL is a redirect stub or a query-URL redirector.
     legacy = OUT / "site"
     legacy.mkdir(exist_ok=True)
-    # graph keeps working as-is (with its data at the legacy relative path)
-    shutil.copy(SITE_SRC / "graph.html", legacy / "graph.html")
-    shutil.copy(SITE_SRC / "app.js", legacy / "app.js")
-    shutil.copy(SITE_SRC / "style.css", legacy / "style.css")
-    (legacy / "locales").mkdir(exist_ok=True)
-    shutil.copy(SITE_SRC / "locales" / "en.json",
-                legacy / "locales" / "en.json")
-    (legacy / "vendor").mkdir(exist_ok=True)
-    for f in (SITE_SRC / "vendor").iterdir():
-        shutil.copy(f, legacy / "vendor" / f.name)
-    site_data_out = OUT / "build" / "site-data"
-    site_data_src = REPO_ROOT / "build" / "site-data"
-    if site_data_src.exists():
-        shutil.copytree(site_data_src, site_data_out, dirs_exist_ok=True)
+    write(legacy / "graph.html", """<!DOCTYPE html><meta charset="utf-8">
+<meta http-equiv="refresh" content="0; url=/graph/">
+<link rel="canonical" href="https://tonyleroyrobin.github.io/orthodox-succession/graph/">
+<a href="/graph/">The consecration graph has moved.</a>""", sitemap=False)
+    write(legacy / "index.html", """<!DOCTYPE html><meta charset="utf-8">
+<meta http-equiv="refresh" content="0; url=/">
+<a href="/">The dashboard has moved to the site root.</a>""", sitemap=False)
     # redirectors
     write(legacy / "person.html", """<!DOCTYPE html><meta charset="utf-8">
 <title>Redirecting…</title>
@@ -2294,6 +2453,56 @@ location.replace(id ? "/people/" + id.split("/").slice(1).join("/") + "/" : "/pe
     (OUT / "robots.txt").write_text(
         "User-agent: *\nAllow: /\nSitemap: https://tonyleroyrobin.github.io"
         "/orthodox-succession/sitemap.xml\n", encoding="utf-8")
+
+    # ---------------- F3.2: internal-link gate (error level) ---------------
+    href_re = re.compile(r"""(?:href|src)=["']([^"'#]+)""")
+    existing = set()
+    for f_ in OUT.rglob("*"):
+        if f_.is_file():
+            existing.add(f_.relative_to(OUT).as_posix())
+    link_errors = []
+    checked_cache = {}
+    for page in OUT.rglob("*.html"):
+        html_text = page.read_text(encoding="utf-8")
+        page_dir = page.parent.relative_to(OUT).as_posix()
+        for target in set(href_re.findall(html_text)):
+            if target.startswith(("http://", "https://", "mailto:",
+                                  "data:", "//")):
+                continue
+            key = (page_dir, target)
+            if key in checked_cache:
+                ok = checked_cache[key]
+            else:
+                path_part = target.split("?")[0]
+                if BASE and path_part.startswith(BASE + "/"):
+                    path_part = path_part[len(BASE):]
+                if path_part.startswith("/"):
+                    rel = path_part.lstrip("/")
+                else:
+                    base_dir = page_dir if page_dir != "." else ""
+                    parts = (base_dir.split("/") if base_dir else []) +                         path_part.split("/")
+                    stack = []
+                    for seg in parts:
+                        if seg in ("", "."):
+                            continue
+                        if seg == "..":
+                            if stack:
+                                stack.pop()
+                        else:
+                            stack.append(seg)
+                    rel = "/".join(stack)
+                rel = rel.rstrip("/")
+                ok = (rel in existing or f"{rel}/index.html" in existing
+                      or (rel == "" and "index.html" in existing))
+                checked_cache[key] = ok
+            if not ok:
+                link_errors.append(f"{page.relative_to(OUT)}: {target}")
+    if link_errors:
+        for e_ in sorted(set(link_errors))[:40]:
+            print(f"build_site: BROKEN INTERNAL LINK {e_}", file=sys.stderr)
+        print(f"build_site: {len(set(link_errors))} broken internal link(s) "
+              f"- 404s are unshippable (F3.2)", file=sys.stderr)
+        return 1
 
     pages = sum(1 for _ in OUT.rglob("index.html"))
     print(f"build_site: {pages} pages -> {OUT} (dataset {VERSION})"
