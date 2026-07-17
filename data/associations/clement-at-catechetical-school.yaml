@@ -1,0 +1,11 @@
+id: association/clement-at-catechetical-school
+person: person/alexandria/clement-of-alexandria-0215
+institution: institution/catechetical-school-alexandria
+role: teacher
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  Pantaenus' pupil and successor as head - student first, teacher after; one association carries the stronger role. Created in F6 (formation layer) 2026-07-16.

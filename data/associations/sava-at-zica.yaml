@@ -1,0 +1,11 @@
+id: association/sava-at-zica
+person: person/serbia/sava-i-1219
+institution: institution/zica
+role: founder
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  the first seat of his autocephalous archbishopric. Created in F6 (formation layer) 2026-07-16.

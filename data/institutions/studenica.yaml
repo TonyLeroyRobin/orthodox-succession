@@ -1,0 +1,24 @@
+id: institution/studenica
+type: monastery
+name: Studenica Monastery
+location:
+  lat: 43.486
+  lon: 20.532
+  modern_place: Kraljevo, Serbia
+jurisdiction_history:
+- jurisdiction: jurisdiction/church-of-serbia
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '1190'
+    calendar: julian
+    precision: circa
+  note: founded by Stefan Nemanja (Simeon)
+current_status: active
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  Tier 2 via Sava of Serbia (existing person) - his father's foundation and his own formative base before Athos. Coordinates and dates approximate - verify. Created in F6 (formation layer) 2026-07-16.

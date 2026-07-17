@@ -1,0 +1,21 @@
+id: work/testament-of-john-of-rila
+title: The Testament of John of Rila
+author: person/bulgaria/john-of-rila-0946
+relation: by
+language: Church Slavonic
+date:
+  value: '0941'
+  calendar: julian
+  precision: circa
+  note: dated 941 in its own text
+attribution: disputed
+genre: treatise
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+notes: >-
+  The hermit's rule-testament for his community - the admission work for John of Rila, with its authenticity question stated. Created in F6 (formation layer) 2026-07-16.
+status: unverified
+survival: extant
+survival_note: extant - transmitted in later copies; authenticity is debated in the scholarship (a medieval composition in his name is argued) - attribution DISPUTED, recorded not adjudicated

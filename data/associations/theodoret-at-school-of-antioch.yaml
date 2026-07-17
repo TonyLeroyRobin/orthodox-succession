@@ -1,0 +1,11 @@
+id: association/theodoret-at-school-of-antioch
+person: person/antioch/theodoret-of-cyrrhus-0423
+institution: institution/school-of-antioch
+role: student
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  formed in the Antiochene exegetical tradition - the institutional framing per the school record's own scholarly-construct note. Created in F6 (formation layer) 2026-07-16.

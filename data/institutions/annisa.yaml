@@ -1,0 +1,31 @@
+id: institution/annisa
+type: monastery
+name: Annisa (Annesi) Community
+location:
+  lat: 40.7
+  lon: 36.3
+  modern_place: on the Iris (Yesilirmak), Pontus, Türkiye
+jurisdiction_history:
+- jurisdiction: jurisdiction/ecumenical-patriarchate
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '0352'
+    calendar: julian
+    precision: circa
+  note: Macrina's household-turned-community on the family estate; Basil's first retreat lay across the river
+history:
+- event: closed
+  date:
+    value: '0500'
+    calendar: gregorian
+    precision: year
+  note: no continuous community attested beyond late antiquity - approximate, verify
+current_status: destroyed
+sources:
+- ref: source/kiminas-ecumenical-patriarchate
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  Tier 2 via Macrina (existing person; sourced to the Life of Macrina) - the proto-cenobium of Cappadocian monasticism. Coordinates approximate - verify. Coordinates and dates approximate - verify. Created in F6 (formation layer) 2026-07-16.

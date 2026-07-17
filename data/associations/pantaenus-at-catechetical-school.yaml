@@ -1,0 +1,11 @@
+id: association/pantaenus-at-catechetical-school
+person: person/alexandria/pantaenus-0200
+institution: institution/catechetical-school-alexandria
+role: teacher
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  the first attested head (HE 5.10). Created in F6 (formation layer) 2026-07-16.

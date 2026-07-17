@@ -5,17 +5,51 @@
   "description": "I3: person-institution association (person->place; complements, never duplicates, the person->person relationships). In-scope persons ONLY - no person may be created merely to populate an institution.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "person", "institution", "role", "sources", "status"],
+  "required": [
+    "id",
+    "person",
+    "institution",
+    "role",
+    "sources",
+    "status"
+  ],
   "properties": {
-    "id": { "type": "string", "pattern": "^association/[a-z0-9-]+$" },
-    "person": { "$ref": "defs.json#/$defs/personId" },
-    "institution": { "type": "string", "pattern": "^institution/[a-z0-9-]+$" },
-    "role": { "enum": ["tonsured-at", "brotherhood", "hegumen", "elder-of",
-                        "student", "teacher"] },
-    "from": { "$ref": "defs.json#/$defs/date" },
-    "to": { "$ref": "defs.json#/$defs/date" },
-    "sources": { "$ref": "defs.json#/$defs/sources" },
-    "status": { "$ref": "defs.json#/$defs/status" },
-    "notes": { "type": "string" }
+    "id": {
+      "type": "string",
+      "pattern": "^association/[a-z0-9-]+$"
+    },
+    "person": {
+      "$ref": "defs.json#/$defs/personId"
+    },
+    "institution": {
+      "type": "string",
+      "pattern": "^institution/[a-z0-9-]+$"
+    },
+    "role": {
+      "enum": [
+        "tonsured-at",
+        "brotherhood",
+        "hegumen",
+        "elder-of",
+        "student",
+        "teacher",
+        "founder"
+      ]
+    },
+    "from": {
+      "$ref": "defs.json#/$defs/date"
+    },
+    "to": {
+      "$ref": "defs.json#/$defs/date"
+    },
+    "sources": {
+      "$ref": "defs.json#/$defs/sources"
+    },
+    "status": {
+      "$ref": "defs.json#/$defs/status"
+    },
+    "notes": {
+      "type": "string"
+    }
   }
 }

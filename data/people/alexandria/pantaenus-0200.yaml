@@ -1,0 +1,37 @@
+id: person/alexandria/pantaenus-0200
+names:
+  monastic: Pantaenus
+  native:
+  - script: grc
+    value: Πάνταινος
+  variants:
+  - Pantaenus the Philosopher
+epithet: the Philosopher
+role: layperson
+died:
+  date:
+    value: '0200'
+    calendar: julian
+    precision: circa
+    note: c. 200 per the Eusebian synchronisms
+veneration:
+  status: saint
+  feast_days:
+  - month_day: '07-07'
+    calendar: julian
+    note: >-
+      St Pantaenus of Alexandria - synaxarion entry to be confirmed at verification
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/07/07
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/07/07
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  The first attested head of the Catechetical School (Eusebius HE 5.10) - where this project's very first question pointed. He left no writings; admission is via the documented teacher relationship to Clement (HE 5.11, 6.13) and the school association. Created in F6 (formation layer) 2026-07-16.

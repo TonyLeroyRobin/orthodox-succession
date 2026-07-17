@@ -173,6 +173,27 @@
     },
     "notes": {
       "type": "string"
+    },
+    "founded_from": {
+      "description": "F6.3: documented daughter-house foundation - the mother institution. Validator requires sources (no speculative edges).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "institution",
+        "sources"
+      ],
+      "properties": {
+        "institution": {
+          "type": "string",
+          "pattern": "^institution/[a-z0-9-]+$"
+        },
+        "sources": {
+          "$ref": "defs.json#/$defs/sources"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
     }
   }
 }

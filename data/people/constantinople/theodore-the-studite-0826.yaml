@@ -1,0 +1,46 @@
+id: person/constantinople/theodore-the-studite-0826
+names:
+  monastic: Theodore
+  native:
+  - script: grc
+    value: Θεόδωρος ὁ Στουδίτης
+  variants:
+  - Theodore the Studite
+  - Theodore of Stoudios
+epithet: the Studite
+role: monastic
+born:
+  date:
+    value: '0759'
+    calendar: julian
+    precision: year
+    note: Constantinople, 759
+died:
+  date:
+    value: '0826-11-11'
+    calendar: julian
+    precision: day
+    note: on Prinkipo, in the second iconoclasm's exile
+veneration:
+  status: saint
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: '11-11'
+    calendar: julian
+    note: >-
+      Venerable Theodore the Studite, Confessor
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/11/11
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/11/11
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  Hegumen of Sakkoudion and then the Studion, reformer of Byzantine cenobitism, confessor of the icons across three exiles; admitted via his works. Created in F6 (formation layer) 2026-07-16.

@@ -1,0 +1,46 @@
+id: person/romania/paisius-velichkovsky-1794
+names:
+  monastic: Paisius
+  native:
+  - script: ru
+    value: Паисий Величковский
+  variants:
+  - Paisius Velichkovsky
+  - Paisie de la Neamt
+epithet: Velichkovsky
+role: monastic
+born:
+  date:
+    value: '1722'
+    calendar: julian
+    precision: year
+    note: Poltava, 1722
+died:
+  date:
+    value: '1794-11-15'
+    calendar: julian
+    precision: day
+    note: at Neamt
+veneration:
+  status: saint
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: '11-15'
+    calendar: julian
+    note: >-
+      Venerable Paisius Velichkovsky (glorified 1988)
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/11/15
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/11/15
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  Starets of Neamt, translator of the Slavonic Philokalia (Dobrotolyubie) - the Philokalia thread's Slavic carrier; admitted via the translation corpus. Created in F6 (formation layer) 2026-07-16.

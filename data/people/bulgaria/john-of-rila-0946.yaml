@@ -1,0 +1,46 @@
+id: person/bulgaria/john-of-rila-0946
+names:
+  monastic: John
+  native:
+  - script: bg
+    value: Иван Рилски
+  variants:
+  - John of Rila
+  - Ivan Rilski
+epithet: of Rila
+role: monastic
+born:
+  date:
+    value: '0876'
+    calendar: julian
+    precision: circa
+    note: Skrino, c. 876
+died:
+  date:
+    value: '0946-08-18'
+    calendar: julian
+    precision: day
+    note: at his Rila hermitage
+veneration:
+  status: saint
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: '10-19'
+    calendar: julian
+    note: >-
+      Venerable John of Rila, the translation feast; Aug. 18 is the repose
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/10/19
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/10/19
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  The hermit-patron of Bulgaria; admitted via his Testament (attribution debated - recorded on the work). Created in F6 (formation layer) 2026-07-16.

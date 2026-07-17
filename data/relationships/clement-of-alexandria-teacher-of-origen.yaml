@@ -1,0 +1,13 @@
+id: relationship/clement-of-alexandria-teacher-of-origen
+from: person/alexandria/clement-of-alexandria-0215
+to: person/alexandria/origen-0254
+type: teacher
+sources:
+- ref: source/eusebius-ecclesiastical-history
+  reliability: tradition
+  locator: HE 6.6
+  note: Eusebius places Origen under Clement at the school; the personal
+    teacher-pupil claim is traditional and debated in modern scholarship -
+    recorded, not adjudicated
+status: unverified
+notes: Created in F6 (formation layer) 2026-07-16.

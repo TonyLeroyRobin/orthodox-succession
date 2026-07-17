@@ -1,0 +1,11 @@
+id: association/john-of-rila-at-rila
+person: person/bulgaria/john-of-rila-0946
+institution: institution/rila-monastery
+role: founder
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  the community grew around his hermitage. Created in F6 (formation layer) 2026-07-16.

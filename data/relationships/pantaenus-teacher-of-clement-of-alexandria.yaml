@@ -1,0 +1,15 @@
+id: relationship/pantaenus-teacher-of-clement-of-alexandria
+from: person/alexandria/pantaenus-0200
+to: person/alexandria/clement-of-alexandria-0215
+type: teacher
+sources:
+- ref: source/eusebius-ecclesiastical-history
+  reliability: tradition
+  locator: HE 5.11; 6.13.2
+  note: Clement's own Hypotyposeis named Pantaenus his teacher, per Eusebius
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: vol. II, the Clement chapter
+status: unverified
+notes: The admission-carrying relationship for Pantaenus (he left no writings).
+  Created in F6 (formation layer) 2026-07-16.

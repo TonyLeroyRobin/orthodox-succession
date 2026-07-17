@@ -1,0 +1,46 @@
+id: institution/simonov
+type: monastery
+name: Simonov Monastery
+location:
+  lat: 55.713
+  lon: 37.656
+  modern_place: Moscow, Russia
+jurisdiction_history:
+- jurisdiction: jurisdiction/church-of-russia
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '1370'
+    calendar: julian
+    precision: circa
+  note: founded by Feodor, Sergius of Radonezh's nephew and disciple, with his blessing
+history:
+- event: suppressed
+  date:
+    value: '1923'
+    calendar: gregorian
+    precision: year
+  note: closed by the Soviet state; most of the ensemble demolished 1930
+- event: reopened
+  date:
+    value: '1995'
+    calendar: gregorian
+    precision: year
+  note: partial parish revival in the surviving refectory church
+founded_from:
+  institution: institution/trinity-st-sergius-lavra
+  sources:
+  - ref: source/zverinsky-monasteries
+    reliability: scholarly
+    locator: locator to be confirmed
+    note: the foundation by Feodor with Sergius' blessing is the
+      documented mother-daughter link (also in Epiphanius' Life
+      of Sergius)
+current_status: converted
+sources:
+- ref: source/zverinsky-monasteries
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  Tier 2 via Sergius of Radonezh (enters with this batch) - the founded_from showcase: Trinity Lavra's documented daughter house (F6.3; the wider Sergius network stays deferred - no speculative edges). Coordinates and dates approximate - verify. Created in F6 (formation layer) 2026-07-16.

@@ -202,6 +202,10 @@ def iter_refs(kind, data):
                 yield ("jurisdiction_history.jurisdiction", j)
         if data.get("typikon"):
             yield ("typikon", data["typikon"])
+        ff = data.get("founded_from") or {}
+        if ff.get("institution"):
+            yield ("founded_from.institution", ff["institution"])
+            yield from citations(ff.get("sources"), "founded_from")
         for h in data.get("history") or []:
             yield from citations(h.get("sources"), "history")
     if kind == "association":

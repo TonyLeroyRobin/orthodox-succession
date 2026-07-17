@@ -1,0 +1,46 @@
+id: person/russia/sergius-of-radonezh-1392
+names:
+  monastic: Sergius
+  native:
+  - script: ru
+    value: Сергий Радонежский
+  variants:
+  - Sergius of Radonezh
+  - Sergiy Radonezhsky
+epithet: of Radonezh
+role: monastic
+born:
+  date:
+    value: '1314'
+    calendar: julian
+    precision: circa
+    note: Rostov lands, c. 1314 (1319 in part of the scholarship)
+died:
+  date:
+    value: '1392-09-25'
+    calendar: julian
+    precision: day
+    note: at his Trinity monastery
+veneration:
+  status: saint
+  recognition:
+  - by: universal
+  feast_days:
+  - month_day: '09-25'
+    calendar: julian
+    note: >-
+      Venerable Sergius of Radonezh, Wonderworker of All Russia
+  sources:
+  - ref: source/oca-saints
+    locator: /saints/lives/2026/09/25
+    reliability: official-list
+    archived_url: https://web.archive.org/web/2025/https://www.oca.org/saints/lives/2026/09/25
+    note: Year-wildcard archive redirect - pin during verification.
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  The re-founder of Russian monasticism; admitted via Epiphanius the Wise's Life (subject_of) and the Trinity Lavra association. Created in F6 (formation layer) 2026-07-16.

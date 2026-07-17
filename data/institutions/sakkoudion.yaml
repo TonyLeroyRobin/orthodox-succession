@@ -1,0 +1,31 @@
+id: institution/sakkoudion
+type: monastery
+name: Sakkoudion Monastery
+location:
+  lat: 40.1
+  lon: 29.1
+  modern_place: Mount Olympus of Bithynia, Türkiye
+jurisdiction_history:
+- jurisdiction: jurisdiction/ecumenical-patriarchate
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '0780'
+    calendar: julian
+    precision: circa
+  note: founded by Plato of Sakkoudion with his nephew Theodore
+history:
+- event: closed
+  date:
+    value: '0810'
+    calendar: gregorian
+    precision: year
+  note: the community relocated to the Studion under the iconoclast pressure and Arab raids - approximate, verify
+current_status: ruined
+sources:
+- ref: source/kiminas-ecumenical-patriarchate
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  Tier 2 via Theodore the Studite (enters with this batch) - his tonsure-house and first hegumenate. Coordinates approximate (Bithynian Olympus) - verify. Coordinates and dates approximate - verify. Created in F6 (formation layer) 2026-07-16.

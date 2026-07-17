@@ -1,0 +1,21 @@
+id: work/on-the-holy-icons-theodore-studite
+title: On the Holy Icons (Antirrhetici)
+author: person/constantinople/theodore-the-studite-0826
+relation: by
+language: Ancient Greek
+date:
+  value: '0817'
+  calendar: julian
+  precision: circa
+  note: the three refutations, second iconoclasm
+attribution: authentic
+genre: treatise
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+notes: >-
+  The admission work for Theodore the Studite; his Great Catecheses and letters are later-pass candidates (deferred with reason). Created in F6 (formation layer) 2026-07-16.
+status: unverified
+survival: extant
+survival_note: extant - full Greek transmission; post-CPG era (the clavis ends before the ninth century), so no CPG number exists

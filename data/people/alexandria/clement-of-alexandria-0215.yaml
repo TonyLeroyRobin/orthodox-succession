@@ -1,0 +1,31 @@
+id: person/alexandria/clement-of-alexandria-0215
+names:
+  monastic: Clement
+  native:
+  - script: grc
+    value: Κλήμης ὁ Ἀλεξανδρεύς
+  variants:
+  - Clement of Alexandria
+  - Titus Flavius Clemens
+epithet: of Alexandria
+role: priest
+born:
+  date:
+    value: '0150'
+    calendar: julian
+    precision: circa
+    note: Athens, c. 150
+died:
+  date:
+    value: '0215'
+    calendar: julian
+    precision: circa
+    note: in Cappadocian exile, c. 215
+attestation: attested
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  Head of the Catechetical School after Pantaenus; the presbyter status is traditional and debated (recorded, not adjudicated); not in the Byzantine calendars (removed from the Roman martyrology too) - no veneration block by assessment. Admitted via the Stromata. Created in F6 (formation layer) 2026-07-16.

@@ -1,0 +1,23 @@
+id: work/life-of-sergius-epiphanius
+title: Life of Sergius of Radonezh
+author_display: Epiphanius the Wise
+subject_of:
+- person/russia/sergius-of-radonezh-1392
+relation: about
+language: Church Slavonic
+date:
+  value: '1418'
+  calendar: julian
+  precision: circa
+  note: written c. 1417-1418, a quarter-century after the repose
+attribution: authentic
+genre: hagiography
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+notes: >-
+  Epiphanius the Wise (no person record - author displayed only, a later-pass candidate) wrote the Life that admits Sergius (subject_of); also the documentary witness for the Simonov founded_from edge. Created in F6 (formation layer) 2026-07-16.
+status: unverified
+survival: extant
+survival_note: extant - Church Slavonic transmission (with Pachomius the Serb's later redactions - noted, not split)

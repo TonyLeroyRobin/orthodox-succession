@@ -1,0 +1,24 @@
+id: institution/rila-monastery
+type: monastery
+name: Rila Monastery
+location:
+  lat: 42.133
+  lon: 23.34
+  modern_place: Rila, Bulgaria
+jurisdiction_history:
+- jurisdiction: jurisdiction/church-of-bulgaria
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '0930'
+    calendar: julian
+    precision: circa
+  note: founded around John of Rila's hermitage
+current_status: active
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  Tier 2 via John of Rila (enters with this batch). The national monastery of Bulgaria. Coordinates and dates approximate - verify. Created in F6 (formation layer) 2026-07-16.

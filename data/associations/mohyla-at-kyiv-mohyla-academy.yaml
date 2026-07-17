@@ -1,0 +1,11 @@
+id: association/mohyla-at-kyiv-mohyla-academy
+person: person/ukraine/peter-mohyla-1633
+institution: institution/kyiv-mohyla-academy
+role: founder
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  his 1632 collegium became the academy bearing his name. Created in F6 (formation layer) 2026-07-16.

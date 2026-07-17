@@ -1,0 +1,24 @@
+id: institution/zica
+type: monastery
+name: Zica Monastery
+location:
+  lat: 43.696
+  lon: 20.645
+  modern_place: Kraljevo, Serbia
+jurisdiction_history:
+- jurisdiction: jurisdiction/church-of-serbia
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '1208'
+    calendar: julian
+    precision: circa
+  note: founded by Stefan the First-Crowned and Sava
+current_status: active
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  Tier 2 via Sava of Serbia - the first seat of the autocephalous Serbian archbishopric (1219). Coordinates and dates approximate - verify. Created in F6 (formation layer) 2026-07-16.

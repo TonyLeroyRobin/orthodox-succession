@@ -1,0 +1,11 @@
+id: association/sergius-at-trinity-lavra
+person: person/russia/sergius-of-radonezh-1392
+institution: institution/trinity-st-sergius-lavra
+role: founder
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  founder and first hegumen. Created in F6 (formation layer) 2026-07-16.

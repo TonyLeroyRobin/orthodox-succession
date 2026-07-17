@@ -1,0 +1,31 @@
+id: institution/bethlehem-jerome
+type: monastery
+name: Jerome's Monastery at Bethlehem
+location:
+  lat: 31.704
+  lon: 35.207
+  modern_place: Bethlehem, West Bank
+jurisdiction_history:
+- jurisdiction: jurisdiction/church-of-jerusalem
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '0386'
+    calendar: julian
+    precision: year
+  note: founded by Jerome with Paula's patronage beside the Church of the Nativity
+history:
+- event: destroyed
+  date:
+    value: '0637'
+    calendar: gregorian
+    precision: year
+  note: the Latin community faded after the conquests; the caves by the Nativity grotto remain venerated - approximate, verify
+current_status: destroyed
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  Tier 2 via Jerome (existing person) - where the Vulgate was made. Coordinates and dates approximate - verify. Created in F6 (formation layer) 2026-07-16.

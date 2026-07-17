@@ -1,0 +1,11 @@
+id: association/theodore-studite-at-studion
+person: person/constantinople/theodore-the-studite-0826
+institution: institution/studion
+role: hegumen
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  hegumen from 798; the Studite reform bears his name - the Studion record's notable_heads note now has its person. Created in F6 (formation layer) 2026-07-16.

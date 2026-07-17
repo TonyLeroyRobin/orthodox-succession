@@ -49,6 +49,7 @@ NAV = [("Home", "/"), ("Jurisdictions", "/jurisdictions/"),
        ("Map", "/map/"), ("Timeline", "/timeline/"),
        ("Controversies", "/controversies/"),
        ("Graph", "/graph/"), ("Ideas", "/ideas/"),
+       ("Formation", "/formation/"),
        ("About", "/about/")]
 
 
@@ -2317,13 +2318,106 @@ doi:10.5281/zenodo.21384060</code> — or cite a page by its canonical URL
         shutil.copy(f, assets / "vendor" / f.name)
     for name in ("site.js", "search.js", "map.js", "timeline.js",
                  "library.js", "saints.js", "ideas.js", "graph.js",
-                 "people.js"):
+                 "people.js", "formation.js"):
         src = SITE_SRC / "static" / name
         if src.exists():
             js = src.read_text(encoding="utf-8")
             if BASE:
                 js = js.replace('fetch("/', f'fetch("{BASE}/')
             (assets / name).write_text(js, encoding="utf-8")
+
+    # ---------------- formation graph (F6.4) ----------------
+    fg_nodes, fg_links = [], []
+    fg_seen = set()
+    for a_ in associations:
+        pid_, iid_ = a_.get("person"), a_.get("institution")
+        if pid_ not in fg_seen and pid_ in persons:
+            p_ = persons[pid_]
+            dy_ = date_year((p_.get("died") or {}).get("date"))
+            fg_nodes.append({"id": pid_, "kind": "person",
+                             "label": person_name(p_),
+                             "url": BASE + (entity_url(pid_) or ""),
+                             "year": dy_})
+            fg_seen.add(pid_)
+        if iid_ not in fg_seen and iid_ in institutions:
+            i_ = institutions[iid_]
+            fy_ = date_year((i_.get("founded") or {}).get("date"))
+            fg_nodes.append({"id": iid_, "kind": "institution",
+                             "label": i_.get("name"),
+                             "url": BASE + "/institutions/"
+                             + iid_.split("/", 1)[1] + "/",
+                             "year": fy_})
+            fg_seen.add(iid_)
+        if pid_ in persons and iid_ in institutions:
+            fg_links.append({"source": pid_, "target": iid_,
+                             "kind": a_.get("role", "")})
+    for iid_, i_ in institutions.items():
+        ff_ = (i_.get("founded_from") or {}).get("institution")
+        if ff_ and ff_ in institutions:
+            for x_ in (iid_, ff_):
+                if x_ not in fg_seen:
+                    fy_ = date_year((institutions[x_].get("founded") or {}).get("date"))
+                    fg_nodes.append({"id": x_, "kind": "institution",
+                                     "label": institutions[x_].get("name"),
+                                     "url": BASE + "/institutions/"
+                                     + x_.split("/", 1)[1] + "/",
+                                     "year": fy_})
+                    fg_seen.add(x_)
+            fg_links.append({"source": iid_, "target": ff_,
+                             "kind": "founded_from"})
+    write(OUT / "data" / "formation-graph.json",
+          json.dumps({"nodes": fg_nodes, "links": fg_links},
+                     ensure_ascii=False), sitemap=False)
+
+    # F6.5: analytics (info-level) - persons formed per institution per century
+    form_hist = defaultdict(int)
+    for a_ in associations:
+        p_ = persons.get(a_.get("person"))
+        if not p_:
+            continue
+        dy_ = date_year((p_.get("died") or {}).get("date"))
+        if dy_:
+            inst_n = (institutions.get(a_.get("institution")) or {}).get("name", "?")
+            form_hist[(inst_n, (dy_ - 1) // 100 + 1)] += 1
+    if form_hist:
+        tops = sorted(form_hist.items(), key=lambda kv: -kv[1])[:6]
+        print("build_site: formation histogram (persons/institution/century): "
+              + "; ".join(f"{n} c.{c}: {v}" for (n, c), v in tops))
+
+    fa_rows = ""
+    for a_ in sorted(associations,
+                     key=lambda a: (a.get("institution", ""), a.get("role", ""))):
+        p_, i_ = persons.get(a_.get("person")), institutions.get(a_.get("institution"))
+        dates_ = fmt_range(a_.get("from"), a_.get("to"), "") if a_.get("from") else "—"
+        fa_rows += (f"<tr><td>{person_entry(a_.get('person'))}</td>"
+                    f"<td><span class='badge model'>{esc(a_.get('role'))}</span></td>"
+                    f"<td>{ilink(a_.get('institution'))}</td>"
+                    f"<td>{esc(dates_)}</td></tr>")
+    formation_page = f"""<h1>The formation network</h1>
+<p class="subtitle">Persons (circles) and the institutions that made them
+(squares), joined by association role; institution-to-institution edges are
+documented daughter-house foundations (founded_from — dashed). The fourth
+lens on succession: where the people of the other three graphs were formed.
+Slide to filter by century.</p>
+<div class="panel">
+<p class="map-controls"><label for="fgYear">Up to century:
+<strong id="fgYearLabel">21</strong></label>
+<input type="range" id="fgYear" min="1" max="21" value="21" step="1"></p>
+<div id="formation"></div>
+<p class="note"><strong>Legend:</strong> circle = person · square =
+institution · solid edge = association (tooltip names the role) · dashed =
+founded_from. Click through to the person or institution page.</p>
+</div>
+<div class="panel"><h2>All associations ({len(associations)})</h2>
+<p class=note>Build-time HTML — complete without JavaScript.</p>
+<table><thead><tr><th>Person</th><th>Role</th><th>Institution</th>
+<th>Dates</th></tr></thead><tbody>{fa_rows}</tbody></table></div>
+<script src="/assets/vendor/d3.v7.min.js"></script>
+<script src="/assets/formation.js"></script>"""
+    write(OUT / "formation" / "index.html",
+          layout("Formation network", formation_page,
+                 "https://tonyleroyrobin.github.io/orthodox-succession/formation/"))
+
 
     # ---------------- consecration graph v2 (F2) ----------------
     cons_nodes = {}

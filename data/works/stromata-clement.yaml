@@ -1,0 +1,25 @@
+id: work/stromata-clement
+title: Stromata (Miscellanies)
+author: person/alexandria/clement-of-alexandria-0215
+relation: by
+language: Ancient Greek
+date:
+  value: '0200'
+  calendar: julian
+  precision: circa
+  note: the eight books, c. 198-203
+attribution: authentic
+cpg: CPG 1377
+genre: treatise
+sources:
+- ref: source/clavis-patrum-graecorum
+  reliability: scholarly
+  locator: CPG 1377
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+notes: >-
+  The admission work for Clement of Alexandria; with the Protrepticus and Paedagogus as later-pass candidates (deferred with reason). Created in F6 (formation layer) 2026-07-16.
+status: unverified
+survival: extant
+survival_note: extant - full Greek transmission (the eighth book fragmentary in nature - noted)

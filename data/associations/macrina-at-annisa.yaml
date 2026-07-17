@@ -1,0 +1,11 @@
+id: association/macrina-at-annisa
+person: person/constantinople/macrina-the-younger-0379
+institution: institution/annisa
+role: founder
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  her household-turned-community - sourced to the Life of Macrina, per the F6 floor. Created in F6 (formation layer) 2026-07-16.

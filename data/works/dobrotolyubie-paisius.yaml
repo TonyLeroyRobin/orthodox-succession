@@ -1,0 +1,21 @@
+id: work/dobrotolyubie-paisius
+title: Dobrotolyubie (the Slavonic Philokalia)
+author: person/romania/paisius-velichkovsky-1794
+relation: by
+language: Church Slavonic
+date:
+  value: '1793'
+  calendar: julian
+  precision: year
+  note: first edition, Moscow 1793
+attribution: authentic
+genre: treatise
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+notes: >-
+  Paisius' Slavonic rendering of the Philokalia corpus - one Work for the translation (the Greek anthology keeps its own record, work/philokalia-anthology; a translation-of link is edition-level data deferred to verification). The admission work for Paisius. Created in F6 (formation layer) 2026-07-16.
+status: unverified
+survival: extant
+survival_note: extant - printed book; the translation corpus of the Neamt school

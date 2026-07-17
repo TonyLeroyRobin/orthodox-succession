@@ -1,0 +1,11 @@
+id: association/paisius-at-neamt
+person: person/romania/paisius-velichkovsky-1794
+institution: institution/neamt
+role: hegumen
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  starets of Neamt from 1779; the Dobrotolyubie school. Created in F6 (formation layer) 2026-07-16.

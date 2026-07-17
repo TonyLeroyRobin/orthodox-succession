@@ -1,0 +1,11 @@
+id: association/theodore-studite-at-sakkoudion
+person: person/constantinople/theodore-the-studite-0826
+institution: institution/sakkoudion
+role: hegumen
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  tonsured under his uncle Plato, hegumen from 794. Created in F6 (formation layer) 2026-07-16.

@@ -1,0 +1,24 @@
+id: institution/neamt
+type: monastery
+name: Neamt Monastery
+location:
+  lat: 47.26
+  lon: 26.2
+  modern_place: Neamt County, Romania
+jurisdiction_history:
+- jurisdiction: jurisdiction/church-of-romania
+  note: current filing - refine the history during verification
+founded:
+  date:
+    value: '1407'
+    calendar: julian
+    precision: circa
+  note: attested from Alexander the Good's charters; older hermitage roots
+current_status: active
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification
+status: unverified
+notes: >-
+  Tier 2 via Paisius Velichkovsky (enters with this batch) - the Philokalia thread: his school of translation and eldership. Coordinates and dates approximate - verify. Created in F6 (formation layer) 2026-07-16.

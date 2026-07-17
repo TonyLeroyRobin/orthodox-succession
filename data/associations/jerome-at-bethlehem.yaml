@@ -1,0 +1,11 @@
+id: association/jerome-at-bethlehem
+person: person/jerusalem/jerome-of-stridon-0420
+institution: institution/bethlehem-jerome
+role: founder
+sources:
+- ref: source/quasten-patrology
+  reliability: scholarly
+  locator: locator to be confirmed at verification (standard biographical data)
+status: unverified
+notes: >-
+  founded 386 with Paula's patronage; the Vulgate years. Created in F6 (formation layer) 2026-07-16.
